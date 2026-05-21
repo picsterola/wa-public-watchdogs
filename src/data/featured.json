@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T21:44:19.556Z",
+  "generated_at": "2026-05-21T23:46:23.617Z",
   "method": "objective metadata scoring per SCHEMA.md",
   "top5": [
     {
@@ -39,7 +39,7 @@
         "tier1=+3",
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2",
-        "xref:6=+2"
+        "xref:7=+2"
       ]
     },
     {
@@ -57,13 +57,13 @@
       ]
     },
     {
-      "slug": "kc-health-through-housing",
+      "slug": "ospi-school-funding-it-system",
       "score": 21,
       "pinned": false,
       "reasons": [
         "legal:audit_finding=+5",
         "evid:documented=+4",
-        "$298M>=10M=+5",
+        "$30000M>=10M=+5",
         "tier1=+3",
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2"
