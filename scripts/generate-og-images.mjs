@@ -154,7 +154,7 @@ function headlineBlock(head, fontSize, accentWord) {
 }
 
 // Card builder. Documents photo background + scrim, three text zones.
-function buildCard({ dollars, head, italicAccent }) {
+function buildCard({ dollars, head, italicAccent, scopeLine }) {
   // Truncate headline aggressively. If it's long, take first ~60 chars
   // and cut at the nearest word boundary.
   let trimmedHead = head;
@@ -278,19 +278,43 @@ function buildCard({ dollars, head, italicAccent }) {
                   ].filter(Boolean),
                 },
               },
-              // Bottom: URL only
+              // Bottom: optional scope line + URL
               {
                 type: 'div',
                 props: {
-                  style: {
-                    display: 'flex',
-                    fontFamily: 'JetBrainsMono',
-                    fontSize: '18px',
-                    letterSpacing: '0.06em',
-                    color: MUTED,
-                    fontWeight: 600,
-                  },
-                  children: 'picsterola.github.io/wa-public-watchdogs',
+                  style: { display: 'flex', flexDirection: 'column', gap: '8px' },
+                  children: [
+                    scopeLine && {
+                      type: 'div',
+                      props: {
+                        style: {
+                          display: 'flex',
+                          fontFamily: 'JetBrainsMono',
+                          fontSize: '17px',
+                          letterSpacing: '0.14em',
+                          textTransform: 'uppercase',
+                          color: CREAM,
+                          fontWeight: 600,
+                          whiteSpace: 'nowrap',
+                        },
+                        children: scopeLine,
+                      },
+                    },
+                    {
+                      type: 'div',
+                      props: {
+                        style: {
+                          display: 'flex',
+                          fontFamily: 'JetBrainsMono',
+                          fontSize: '18px',
+                          letterSpacing: '0.06em',
+                          color: MUTED,
+                          fontWeight: 600,
+                        },
+                        children: 'picsterola.github.io/wa-public-watchdogs',
+                      },
+                    },
+                  ].filter(Boolean),
                 },
               },
             ],
@@ -357,6 +381,7 @@ async function main() {
     dollars: null,
     head: "Watchdogs are only as good as the public's",
     italicAccent: 'attention span.',
+    scopeLine: 'State · King County · Seattle · Regional bodies',
   });
   await renderToPng(home, join(OUT_DIR, 'home.png'));
 
