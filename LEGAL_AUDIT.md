@@ -8,7 +8,7 @@ Purpose: surface every actor named in a case where evidentiary_status is not "do
 
 - 16 alleged-tier cases
 - 4 reported-tier cases
-- 24 documented-tier cases (not audited here)
+- 25 documented-tier cases (not audited here)
 
 ---
 

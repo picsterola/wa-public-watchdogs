@@ -6,6 +6,23 @@ import featuredData from '../data/featured.json';
 
 const allCases = await getCollection('cases');
 
+// Spell out small whole numbers for the closing bookend quote, with a
+// graceful fallback to digits past 99 (we won't hit that for a long time,
+// but it keeps the page from breaking if we do).
+function caseCountInWords(n: number): string {
+  const ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+  const tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+  if (n < 20) return ones[n];
+  if (n < 100) {
+    const t = tens[Math.floor(n / 10)];
+    const o = n % 10;
+    return o === 0 ? t : `${t}-${ones[o]}`;
+  }
+  return String(n);
+}
+const caseCountWord = caseCountInWords(allCases.length);
+const caseCountWordTitle = caseCountWord.charAt(0).toUpperCase() + caseCountWord.slice(1);
+
 const byStatus = {
   documented: allCases.filter((c) => c.data.evidentiary_status === 'documented').length,
   reported: allCases.filter((c) => c.data.evidentiary_status === 'reported').length,
@@ -162,7 +179,7 @@ function tail(title: string): string | null {
     <div class="bookend-inner">
       <div>
         <div class="bookend-eyebrow">Why this exists</div>
-        <p class="bookend-quote">One case is a story. Forty is a <em>pattern</em>.</p>
+        <p class="bookend-quote">One case is a story. {caseCountWordTitle} is a <em>pattern</em>.</p>
       </div>
       <div>
         <p class="bookend-body">
