@@ -75,22 +75,30 @@ tags:
   - house
 ---
 
+**The Washington State Legislative Ethics Board (LEB) reviewed a complaint alleging Rep. Tarra Simmons used $30,000 in leftover campaign funds to donate to organizations with which she had personal connections — and found at least part of the complaint fell outside its legal authority to decide.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 25-38 on May 3, 2026, concerning a complaint against Rep. Tarra Simmons. The subject matter is identified in the LEB docket as "Special Privileges and Lack of Subject Matter Jurisdiction." InvestigateWest reported in January 2026 on complaints alleging Simmons made $30,000 in surplus campaign fund donations to organizations with which she had personal ties.
+The Legislative Ethics Board (LEB) issued Opinion 25-38 on May 3, 2026, concerning a complaint against Rep. Tarra Simmons. The complaint is alleged to involve the use of surplus campaign funds; a formal LEB opinion on this date indicates the matter was reviewed and decided.
+
+InvestigateWest reported in January 2026 that the underlying complaint alleged Simmons donated $30,000 in two installments from leftover campaign funds to a Nevada-based nonprofit called Better Minds Better Communities, an organization with which she allegedly had personal ties.
+
+The LEB docket identifies the case subject as "Special Privileges and Lack of Subject Matter Jurisdiction" — meaning the Board determined that at least part of the conduct alleged fell outside its legal authority to review.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The docket notation of "Lack of Subject Matter Jurisdiction" indicates the Board found at least part of the complaint fell outside its statutory authority. InvestigateWest (Tier 2) reported the underlying complaint involved $30,000 donated in two installments from surplus campaign funds to a Nevada-based nonprofit, Better Minds Better Communities, with which Simmons had personal ties.
+The LEB's publicly posted opinion index records the case number, date, respondent, and subject matter. The docket's jurisdictional notation indicates the Board resolved some or all of the complaint on the grounds that it lacked the authority to decide it. The full opinion text — which would confirm the precise findings — has not been independently reviewed for this record.
+
+InvestigateWest (January 2026) reported the underlying allegations; that coverage is the source for the $30,000 figure and the Nevada nonprofit connection.
 
 ## Status
 
-LEB opinion issued May 3, 2026. The jurisdictional finding suggests the LEB resolved some or all aspects of the complaint on jurisdictional grounds. This record will be updated when the full opinion text is reviewed.
+LEB opinion issued May 3, 2026. The case is alleged; the Board's full findings have not been independently confirmed. This record will be updated when the full opinion text is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving an elected state Representative, reported surplus campaign fund use, and a special-privileges allegation. The case is notable for the LEB's jurisdictional finding, which raises questions about which body — LEB, PDC, or another authority — has authority over the conduct alleged.
+This is a documented LEB proceeding involving an elected state Representative, alleged surplus campaign fund donations to personally connected organizations, and a special-privileges allegation. What makes it notable beyond the specific allegation is the LEB's jurisdictional finding: if part of the conduct falls outside LEB authority, it may also fall into a gap where neither the LEB nor the Public Disclosure Commission (PDC) reviews it.
 
 ## Reform implication
 
-When a complaint involves conduct at the intersection of legislative activity and campaign finance, jurisdictional gaps between the LEB and the PDC can leave the conduct unreviewed by either body. Clarifying this boundary — and establishing a referral mechanism ensuring that conduct falling outside LEB jurisdiction is automatically forwarded to the PDC — would close a gap the current structure leaves open. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+Campaign finance and legislative ethics sit in adjacent regulatory jurisdictions. When conduct straddles both, it can fall into the gap between them — the LEB declines jurisdiction, and the PDC may not be automatically notified. A referral mechanism requiring the LEB to forward complaints outside its jurisdiction to the PDC (or other relevant body) would ensure no conduct of this type goes unreviewed. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

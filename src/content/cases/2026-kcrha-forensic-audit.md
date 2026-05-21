@@ -140,37 +140,46 @@ tags:
   - dissolution_proposal
 ---
 
+**A forensic audit found that Seattle and King County's homelessness agency, the King County Regional Homelessness Authority (KCRHA), could not account for $13 million in public funds and was carrying a $44.7 million negative cash position — with no fraud found, but also no basic financial controls in place.**
+
 ## What happened
 
-The City of Seattle and King County jointly commissioned a forensic evaluation of the King County Regional Homelessness Authority (KCRHA) in August 2025, conducted by Clark Nuber P.S. The audit, released April 22, 2026, reviewed KCRHA operations from mid-2021 through July 31, 2025.
+The City of Seattle and King County jointly commissioned an outside forensic review of the King County Regional Homelessness Authority (KCRHA) in August 2025. The accounting firm Clark Nuber P.S. conducted the review, which was released April 22, 2026, and covered KCRHA's operations from mid-2021 through July 31, 2025.
 
-The evaluation identified a negative cash position of approximately $44.7 million as of July 31, 2025, an $8 million receivables balance that could not be reconciled based on available records, a $4.26 million administrative operating deficit (including approximately $1.27 million in unrecoverable interest charges from negative balances in the King County Investment Pool), and a $6.4 million unapproved programmatic overspend in 2025.
+The findings were stark:
 
-The audit also found that KCRHA received $226.9 million in advance funds during the review period but had no tracking mechanism to link how those funds were used.
+- The agency was carrying a **$44.7 million negative cash position** as of July 31, 2025.
+- An **$8 million receivables balance** could not be reconciled from available records — meaning no one could trace what happened to that money.
+- A **$4.26 million administrative operating deficit**, including $1.27 million in interest charges the agency ran up by overdrawing its county investment pool account — charges that cannot be recovered.
+- A **$6.4 million unapproved programmatic overspend** in 2025.
 
-## What the primary source says
+On top of that, KCRHA received $226.9 million in advance funding during the review period but had no system to track how those funds were actually spent.
 
-Per the Clark Nuber forensic evaluation (April 17, 2026):
+## The receipts
+
+The Clark Nuber forensic evaluation (April 17, 2026) stated directly:
 
 - "A receivables balance of $8 million could not be reconciled based on available records, indicating a potential need to write it off."
 - "An administrative operating deficit of approximately $4.26 million was identified, which includes approximately $1.26 million in interest charges that are not expected to be recovered."
 - "Significant exceptions and gaps were noted in the design and execution of internal controls."
 - "Roles and responsibilities related to financial leadership and oversight were not clearly defined."
 
-The audit explicitly states it did not find fraud, but identified gift cards, purchase cards, employee reimbursements, and account permissions as four high-risk areas where fraud could occur without being detected under existing controls.
+The audit **did not find fraud**. But it flagged gift cards, purchase cards, employee reimbursements, and user account permissions as four areas where fraud could happen without anyone detecting it — because the financial controls to catch it do not exist.
 
 ## Status
 
-KCRHA submitted an initial response on May 12, 2026, with CEO Kelly Kinnison stating the agency will review each transaction to identify the source of the $8 million in unreconciled receivables. A full corrective action plan is due May 23, 2026, with follow-up reporting on June 30 and July 31, 2026.
+KCRHA submitted an initial response on May 12, 2026. CEO Kelly Kinnison stated the agency would review each transaction to track down the $8 million in unreconciled funds. A full corrective action plan was due May 23, 2026, with follow-up reports due June 30 and July 31, 2026.
 
-Multiple elected officials have publicly called for dissolution of the agency, including King County Councilmember Rod Dembowski, Seattle Councilmember Bob Kettle, and Seattle Mayor Katie Wilson. The KCRHA Governance Committee met April 25, 2026, to consider next steps.
+Multiple elected officials called publicly for the agency to be dissolved, including King County Councilmember Rod Dembowski, Seattle Councilmember Bob Kettle, and Seattle Mayor Katie Wilson. The KCRHA Governance Committee met April 25, 2026, to weigh next steps.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented forensic audit finding of systemic financial control failure in a publicly funded inter-local agency with approximately $800 million in cumulative budget authority over the audit period. The case is included not because fraud was found — the audit explicitly states it was not — but because the documented structural absence of basic accounting controls (segregation of duties, advance-fund tracking, defined financial roles) over a multi-year period in a high-public-interest program meets the registry's threshold for structural failure.
+KCRHA managed roughly $800 million in public money over the four-year audit period. The audit found that basic accounting infrastructure — defined financial roles, a system to track how advance funds were spent, controls to catch improper purchases — was absent during that entire time.
 
-The case is distinct from the DCHS audit (KC-2025-001) and DCHS ombudsman investigation (KC-2025-003) — KCRHA is a separate inter-local agency, not a King County department, though both relate to the regional homelessness response system.
+This is not about one bad actor. It is a structural failure (meaning the problem is built into how the agency operates, not a one-off mistake): the governance structure split responsibility between the City and the County in a way that left neither accountable for the gap.
 
 ## Reform implication
 
-The audit's findings on undefined financial roles, absent internal control framework, and persistent negative cash balances without corrective action over 19+ months point to a governance-structure failure rather than a single point of misconduct. The split accountability between the City of Seattle and King County is itself part of the structural problem. Reform options include: (1) an independent Inspector General with cross-jurisdictional authority covering both KCRHA and its funders; (2) governance restructuring to consolidate fiscal accountability; or (3) dissolution and reabsorption of functions into a single jurisdiction with existing audit infrastructure, as proposed by Councilmember Dembowski and others. See [reform: independent_inspector_general] and [reform: cost_transparency_reporting].
+The audit's findings — undefined financial roles, no internal control framework, and a negative cash position that persisted for 19+ months without anyone intervening — point to a governance design failure, not just management incompetence. Because oversight responsibility is split between Seattle and King County, neither city consistently held the agency to account.
+
+Reform options include: (1) an independent Inspector General with cross-jurisdictional authority covering both KCRHA and its funders; (2) governance restructuring to put fiscal accountability in a single oversight body; or (3) dissolving the agency and folding its functions into a single jurisdiction that already has audit infrastructure, as proposed by Councilmember Dembowski and others. See [reform: independent_inspector_general] and [reform: cost_transparency_reporting].

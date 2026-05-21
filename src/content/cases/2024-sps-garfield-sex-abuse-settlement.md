@@ -126,37 +126,39 @@ tags:
   - background_check_failure
 ---
 
+**Seattle Public Schools agreed to a $16 million settlement — the largest in district history — after a former Garfield High School student alleged she was sexually abused by two coaches, one of whom had been banned from the district but was allowed back on campus anyway.**
+
 ## What happened
 
-On October 31, 2024, Seattle Public Schools announced a $16 million civil settlement with a former Garfield High School student who alleged she was sexually abused over several years by two coaches affiliated with the school's athletic program. The lawsuit was filed in July 2024 in King County Superior Court; the settlement is reported as the largest tort settlement in SPS history.
+On October 31, 2024, Seattle Public Schools (SPS) announced a $16 million civil settlement with a former Garfield High School student who alleged she was sexually abused over several years by two coaches in the school's athletic program. The lawsuit was filed in July 2024 in King County Superior Court and is reported as the largest tort settlement in SPS history.
 
-The plaintiff alleged that Walter Junior Jones, a volunteer weightlifting coach at Garfield, first raped her in 2013 when she was approximately 13 years old and practicing with the Garfield girls' basketball team. The complaint and subsequent reporting confirm that Jones had previously been dismissed from Ballard High School and placed on SPS's own "Do Not Re-Hire" list before he was allowed to volunteer at Garfield. Garfield Athletic Director Ed Haskins told investigators, per the police report cited in news coverage, that he "wasn't certain, but thought he recalled an issue coming up regarding Jones' background check which prevented him from being vetted as a volunteer." Jones nonetheless remained on campus.
+The plaintiff alleged that Walter Junior Jones, a volunteer weightlifting coach at Garfield, first raped her in 2013 when she was approximately 13 years old and practicing with the Garfield girls' basketball team. What makes this a documented structural failure: Jones had previously been dismissed from Ballard High School and placed on SPS's own "Do Not Re-Hire" list — but was allowed to volunteer at Garfield anyway. Athletic Director Ed Haskins told investigators, per a police report cited in news coverage, that he "wasn't certain, but thought he recalled an issue coming up regarding Jones' background check which prevented him from being vetted as a volunteer." Jones nonetheless remained on campus.
 
-A second coach, Marvin Wayne Hall, held multiple roles at Garfield: assistant boys' basketball coach, school security staff, and ultimately head coach of the girls' basketball team. The complaint alleges Hall initiated a sexual relationship with the plaintiff when she was 17, including hotel encounters during team travel, continuing into her early 20s. Hall was fired in 2022 after a separate Garfield student reported that he had told her he had a "crush" on her.
+A second coach, Marvin Wayne Hall, worked multiple roles at Garfield: assistant boys' basketball coach, school security staff, and eventually head coach of the girls' basketball team. The complaint alleges Hall initiated a sexual relationship with the plaintiff when she was 17, including encounters during overnight team travel, continuing into her early 20s. Hall was fired in 2022 — only after a separate Garfield student reported that he told her he had a "crush" on her.
 
 ## What the primary source says
 
-The PWRFL Law firm settlement announcement (plaintiff counsel of record, attorneys Paul Sewell and Tomás Gahan) documents the settlement terms: SPS pays $500,000 directly, covering settlement fees and defense costs; the Washington Schools Risk Management Pool, the district's insurer, pays the remaining approximately $15.5 million. The district denied liability. The settlement is described as the largest injury settlement in SPS history.
+The PWRFL Law firm settlement announcement (plaintiff attorneys Paul Sewell and Tomás Gahan) documents the settlement terms: SPS pays $500,000 directly for settlement fees and defense costs; the Washington Schools Risk Management Pool, the district's insurer, pays the remaining approximately $15.5 million. The district denied liability. The settlement is described as the largest injury settlement in SPS history.
 
 ## Status
 
-The civil settlement is final. Criminal proceedings against the two coaches are separate:
+The civil settlement is final. Criminal proceedings against the two coaches are ongoing:
 
 - **Marvin Wayne Hall** pleaded guilty to sexual misconduct with a minor in summer 2025.
-- **Walter Junior Jones** was charged with two counts of felony child rape in King County Superior Court. After five days of jury deliberation, Judge Michael Ryan declared a mistrial on December 3, 2025. Retrial status was open as of this record's last update.
+- **Walter Junior Jones** was charged with two counts of felony child rape in King County Superior Court. After five days of deliberation, Judge Michael Ryan declared a mistrial on December 3, 2025. Retrial status was open as of this record's last update.
 
 ## Why it's in the registry
 
-Tier 1 documented settlement plus criminal proceedings against the two coaches. The case is included as a structural failure: a coach on the district's own no-rehire list was allowed access to students; a second coach with multiple official roles used that access over years; and a separate student's complaint, not internal monitoring, was what finally triggered removal. The $16M cost is the largest in district history.
+The structural failure here is not that SPS lacked a system to flag problem coaches — it had one. The failure is that the flag was known and ignored. A coach was on the district's own no-rehire list; a person with knowledge of that flag let him volunteer anyway. A second coach used years of official athletic-program access — including overnight travel — and was removed only when a different student raised a concern. Internal monitoring did not catch either situation.
 
 ## Reform implication
 
-Three reforms map to this case. First, enforcement of background-check and "Do Not Re-Hire" list policies for volunteer staff with student contact — the structural failure here was not the absence of a flagging system but the failure to act on a flag that did exist. Second, athletics-program oversight, particularly multi-role staff and overnight team travel. Third, mandatory-reporting enforcement: the lawsuit alleged failure to report abuse and "extreme and outrageous conduct." See [reform: background_check_enforcement], [reform: athletics_oversight], [reform: mandatory_reporting_enforcement].
+Three reforms apply. First, the background-check and Do Not Re-Hire list need enforcement teeth for volunteer staff — the problem here was not that the flag did not exist but that no one was required to act on it. Second, athletics-program oversight needs to specifically address multi-role staff and overnight team travel. Third, mandatory-reporting rules: the lawsuit alleged the district failed to report abuse as required. See [reform: background_check_enforcement], [reform: athletics_oversight], [reform: mandatory_reporting_enforcement].
 
 ## Relationship to other cases
 
-- SPS-2025-003 (structural deficit) — the district's liability premium to WSRMP is a direct cost of settlements like this one; the structural-deficit case documents broader financial-governance stress at SPS.
-- SPS-2024-002 (Garfield hazing / First Amendment retaliation $125K settlement) — same school, same period, separate plaintiff; both cases reflect Garfield athletic-program oversight failures.
+- SPS-2025-003 (structural deficit) — the district's liability insurance premium is a direct cost of settlements like this one; the structural-deficit case documents broader financial stress at SPS.
+- SPS-2024-002 (Garfield hazing / First Amendment retaliation $125K settlement) — same school, same period, separate plaintiff; both reflect Garfield athletic-program oversight failures.
 
 ## Open follow-ups
 

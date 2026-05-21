@@ -67,22 +67,26 @@ tags:
   - house
 ---
 
+**A complaint alleging a conflict of interest tied to outside employment by Rep. Janice Zahn was reviewed and decided by the Washington State Legislative Ethics Board (LEB) in April 2025; the full opinion has not been independently confirmed.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 25-04 on April 10, 2025, concerning a complaint against Rep. Janice Zahn. The subject matter is identified in the LEB docket as "Conflict of Interest – Outside Employment." The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.
+A complaint was filed against Washington State Rep. Janice Zahn alleging a conflict of interest related to outside employment. The Legislative Ethics Board (LEB) reviewed the complaint and issued Opinion 25-04 on April 10, 2025.
+
+The complaint is identified in the LEB docket as "Conflict of Interest – Outside Employment." No dollar amount is associated with this case in the public record.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.
+The LEB's publicly posted opinion index records the case number, date, respondent name, and subject matter. The full opinion text has not been independently confirmed in sources available at the time of this record. This entry is based on the docket listing only.
 
 ## Status
 
-LEB opinion issued April 10, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.
+LEB opinion issued April 10, 2025. The outcome — whether Zahn was found to have violated ethics rules or the complaint was dismissed — is not confirmed in this record. This entry will be updated when the full opinion is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving an elected state Representative and an outside-employment conflict-of-interest allegation. It is included as part of the documented 2025 pattern of LEB outside-employment complaints (25-04, 25-06, 25-11), which together constitute the leading category of LEB activity in 2025.
+Outside-employment conflicts are the leading category of LEB complaints in 2025, appearing in Cases 25-04, 25-06, and 25-11. Washington's legislature operates on a part-time model, meaning members often have outside jobs or business interests that can create conflicts with their official duties. The clustering of these complaints in a single session cycle reflects a structural gap rather than isolated misconduct.
 
 ## Reform implication
 
-The legislature's part-time structure creates recurring outside-employment conflicts. A uniform affirmative disclosure regime — requiring legislators to report outside income sources and business interests annually, in a machine-readable format, cross-referenced against their committee assignments — would make these conflicts visible before they generate formal complaints. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+Washington's part-time legislative structure will keep producing outside-employment conflicts until the disclosure system catches them proactively. A uniform annual disclosure — requiring legislators to publicly report outside income sources and business interests in a machine-readable format, cross-referenced against committee assignments — would make these conflicts visible before they become formal complaints. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

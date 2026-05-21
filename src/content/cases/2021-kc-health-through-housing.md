@@ -84,22 +84,31 @@ tags:
   - cost_efficiency
 ---
 
+**King County's Health Through Housing program spent a $297.8 million capital budget purchasing hotels to house approximately 1,600 people — at per-unit costs averaging $273,000 to $286,000 per repurposed hotel room — with no published independent cost-effectiveness analysis of what outcomes those dollars have produced.**
+
 ## What happened
 
-King County launched the Health Through Housing program in 2021, funded by a 0.1% county sales tax and a $400 million bonding package. The 2021 Implementation Plan budgeted $297.8 million in capital through 2028. The county purchased a series of hotels to convert into permanent supportive housing, with a stated capacity of approximately 1,600 units. Per-unit capital cost per King County's own annual reports averaged $229,300 (2022 report), $273,021 (2023 report), and $285,772 (2024 report).
+King County launched the Health Through Housing program in 2021, funded by a 0.1% county sales tax and a $400 million bonding package. The 2021 Implementation Plan budgeted $297.8 million in capital spending through 2028. The county purchased a series of hotels and converted them into permanent supportive housing, with a stated capacity of approximately 1,600 units.
+
+Per-unit capital costs per King County's own annual reports:
+- 2022 report: $229,300 per unit
+- 2023 report: $273,021 per unit
+- 2024 report: $285,772 per unit
+
+All 15 hotels are in operation. No fraud allegation has been made. This is a cost-transparency and outcome-accountability question.
 
 ## What the primary source says
 
-King County's HTH 2024 Annual Report documents the per-unit capital cost figures cited above. KNKX Public Radio reported the program's launch and scale in May 2021. The county's stated rationale was that hotel acquisition provided more rapid shelter capacity than new construction at comparable or lower cost per unit.
+King County's HTH 2024 Annual Report documents the per-unit capital cost figures above. KNKX Public Radio reported the program's launch and scale in May 2021. The county's stated rationale was that hotel acquisition provided more rapid shelter capacity than new construction at comparable or lower per-unit cost.
 
 ## Status
 
-The program is ongoing. All 15 hotels are in operation. The 2025 King County Auditor review of DCHS contracting (case KC-2025-001) found systemic weaknesses in subrecipient monitoring across DCHS programs; Health Through Housing was within the audit scope. No published independent cost-effectiveness analysis of the program's outcomes relative to per-unit cost has been released as of this record's last update.
+Program ongoing. The 2025 King County Auditor review of DCHS contracting (KC-2025-001) found systemic weaknesses in subrecipient monitoring across DCHS programs; Health Through Housing was within the audit scope. No published independent cost-effectiveness analysis of program outcomes relative to per-unit cost has been released as of this record's last update.
 
 ## Why it's in the registry
 
-This is a documented cost-efficiency and oversight concern. The per-unit capital cost (averaging $273K-$286K per hotel-room unit across 2022-2024 annual reports) is a King County-documented public fact. The registry includes this case because the program scale and the documented weakness in DCHS contract oversight (case KC-2025-001) create a legitimate public interest in knowing what outcomes the program has produced per dollar spent. This is not an allegation of fraud; it is a cost-transparency and outcome-accountability question.
+This is a cost-transparency and outcome-accountability concern, not a fraud allegation. The per-unit capital cost figures are King County's own documented numbers. A program funded by a dedicated public tax, operating at nearly $300 million in capital spending, with the same DCHS oversight framework that the 2025 audit found covering only 1% of required monitoring, creates a legitimate public interest in knowing what outcomes the investment has produced.
 
 ## Reform implication
 
-Programs at this scale — and funded through a dedicated county tax — warrant mandatory annual public reporting on unit-level outcomes: bed occupancy rates, exits to permanent housing, 12-month recidivism, and per-outcome cost. The current DCHS monitoring structure (found by the 2025 Auditor to cover ~1% of expenditures) cannot provide that accountability. An independent Inspector General with program-audit authority, reporting to the County Council, would provide the structural accountability this program lacks. See [reform: cost_transparency_reporting] and [reform: program_outcome_auditing].
+Programs at this scale, funded through a dedicated county tax, warrant mandatory annual public reporting on unit-level outcomes: bed occupancy rates, exits to permanent housing, 12-month recidivism, and per-outcome cost. The current DCHS monitoring structure cannot provide that accountability. An independent Inspector General with program-audit authority, reporting to the County Council, would provide the structural check this program currently lacks. See [reform: cost_transparency_reporting] and [reform: program_outcome_auditing].

@@ -74,27 +74,31 @@ tags:
   - significant_deficiency
 ---
 
+**The state auditor found Seattle Public Schools (SPS) violated federal rules governing subsidized school lunches, potentially putting $3.1 million in federal program money at risk.**
+
 ## What happened
 
-The Washington State Auditor's Office published the Financial Statement and Single Audit Report for Seattle Public Schools (Report #1037358) on May 22, 2025. Finding 2024-001 identified noncompliance with federal Paid Lunch Equity (PLE) requirements under Child Nutrition Programs, with a potential nonfederal contribution of $3,128,043.
+The Washington State Auditor's Office (SAO) published its Financial Statement and Single Audit Report for Seattle Public Schools (Report #1037358) on May 22, 2025. Finding 2024-001 documented noncompliance with federal Paid Lunch Equity (PLE) requirements under federal Child Nutrition Programs, flagging a potential repayment obligation of $3,128,043.
 
-The finding is classified as a "significant deficiency" — the middle severity tier under federal Single Audit Act compliance standards, below "material weakness" but above lesser observations.
+The Paid Lunch Equity program is a federal rule requiring school districts to charge enough for paid school lunches to reduce reliance on federal subsidies. Noncompliance can mean the district may owe money back to the federal government.
+
+The SAO classified the finding as a "significant deficiency" — the middle tier of severity under federal audit standards, below a "material weakness" but more serious than a minor observation.
 
 ## What the primary source says
 
-The SAO report documents the noncompliance, calculates the potential nonfederal contribution, and includes SPS's response and corrective action plan. The district's June 2025 republication of the report on its own website is the second Tier 1 source.
+The SAO report documents the noncompliance, calculates the potential repayment amount, and includes SPS's response and corrective action plan. SPS republished the report on its own website in June 2025.
 
 ## Status
 
-Audit finding. Final disposition of the $3.1M depends on federal program review. SPS has acknowledged the finding and submitted a corrective action plan; whether the corrective actions resolve the underlying compliance issue will be tested in the next audit cycle.
+Audit finding. Whether the $3.1 million must actually be repaid depends on the federal program review. SPS acknowledged the finding and submitted a corrective action plan; whether those corrections resolve the underlying problem will be tested in the next audit cycle.
 
 ## Why it's in the registry
 
-Tier 1 (SAO) significant deficiency at the largest school district in the state, with a specific dollar exposure. Federal-grant-compliance findings at this scale at a large district warrant tracking because they tend to compound with related findings — see SPS-2025-002 for the unrelated but contemporaneous Emergency Connectivity Fund finding.
+A $3.1 million federal compliance finding at the largest school district in Washington is significant on its own. It is also part of a pattern: the same 2025 SAO report contains a separate unresolved finding for the Emergency Connectivity Fund (SPS-2025-002), and the district is simultaneously managing a $104 million structural deficit (SPS-2025-003). Multiple simultaneous compliance problems at a district under financial stress compound each other.
 
 ## Reform implication
 
-Two reform categories: (1) district-level federal grant compliance controls and staff training in Child Nutrition Programs specifically; (2) board-level oversight of audit findings with verified corrective action timelines. See [reform: federal_grant_compliance].
+Two reforms: (1) district-level federal grant compliance controls and staff training specifically for Child Nutrition Programs, so the district catches these issues before the auditor does; (2) board-level oversight of audit findings with verified corrective action timelines. See [reform: federal_grant_compliance].
 
 ## Relationship to other cases
 

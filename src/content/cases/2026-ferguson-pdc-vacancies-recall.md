@@ -87,22 +87,30 @@ tags:
   - ferguson
 ---
 
+**Governor Ferguson left Washington's campaign finance watchdog agency short two commissioners for over a year — and when a recall petition was filed, his office argued the 30-day appointment deadline in state law was merely a suggestion.**
+
 ## What happened
 
-Washington's Public Disclosure Commission (PDC) had two commissioner vacancies as of early 2026. One seat had been vacant since January 2025 — nearly all of Governor Ferguson's first year in office. State law requires the governor to fill PDC commissioner vacancies within 30 days. On April 1, 2026, attorney Conner Edwards filed a recall petition against Ferguson, citing the failure to fill the vacancies within the statutory window. Ferguson's office argued in a legal filing that the 30-day requirement is "simply a procedural guide" rather than a hard deadline.
+Washington's Public Disclosure Commission (PDC) — the state agency that enforces campaign finance rules — had two open commissioner seats as of early 2026. One seat had been vacant since January 2025, nearly all of Governor Bob Ferguson's first year in office. State law requires the governor to fill PDC vacancies within 30 days.
+
+On April 1, 2026, Seattle attorney Conner Edwards filed a recall petition against Ferguson, citing the failure to fill the seats within the statutory window. Ferguson's office argued in a legal filing that the 30-day requirement is "simply a procedural guide" rather than a binding deadline.
+
+Ferguson appointed Matt Segal to the PDC on April 16, 2026, and Teebah Alsaleh in late April 2026. Edwards ended the recall effort on April 25, 2026, after the appointments were made.
+
+OPB reported that Segal is a founding partner at Pacifica Law Group, which serves as Ferguson's private legal counsel — a relationship that raises a separate conflict-of-interest question about the appointment.
 
 ## What the primary source says
 
-OPB reported that Ferguson appointed Matt Segal to the PDC on April 16, 2026, and Teebah Alsaleh in late April 2026. Edwards ended the recall effort on April 25, 2026, after the appointments were made. OPB also reported that Segal is a founding partner at Pacifica Law Group, which serves as Ferguson's private legal counsel — a relationship that raises a separate conflict-of-interest question about the appointment.
+OPB reported both appointments and the end of the recall effort. The recall petition and the governor's legal response were also reported by OPB and Lynnwood Times.
 
 ## Status
 
-Resolved. Both PDC commissioner vacancies have been filled. The recall effort was withdrawn April 25, 2026. The underlying governance failure — the extended vacancy of a campaign finance watchdog seat — was resolved only after a recall petition was filed.
+Both PDC commissioner vacancies have been filled. The recall effort was withdrawn April 25, 2026. This case is resolved in the sense that the vacancies no longer exist — but the mechanism of resolution was a recall petition, not legal enforcement of the statutory deadline.
 
 ## Why it's in the registry
 
-This is a documented governance failure: a statutory 30-day appointment deadline for a campaign finance watchdog agency was not met for over a year, and the governor contested the legal force of the deadline. The failure was resolved, but only under the pressure of a formal recall filing. The registry includes resolved governance failures because the mechanism of resolution — political pressure rather than legal enforcement — is itself a structural concern.
+A campaign finance watchdog with missing commissioners cannot function at full capacity. The governor's office contested whether the 30-day deadline was even enforceable. The vacancy was ultimately filled, but only after a citizen filed a recall petition. The registry tracks resolved governance failures because the way they get resolved — political pressure rather than automatic enforcement — is itself a structural problem.
 
 ## Reform implication
 
-A statutory appointment deadline for independent oversight bodies that carries no enforcement mechanism beyond public pressure is effectively optional. An automatic escalation mechanism — for example, vesting appointment authority in the legislature if the executive fails to act within the statutory window — would make the deadline binding rather than advisory. Additionally, the appointment of the governor's own private legal counsel to an oversight body should trigger a recusal review. See [reform: pdc_enforcement] and [reform: appointment_accountability].
+A statutory appointment deadline that carries no automatic enforcement mechanism is effectively optional. An escalation rule — for example, giving the legislature authority to make the appointment if the executive misses the deadline by a set number of days — would make the deadline real rather than advisory. The governor's own private legal counsel being appointed to an independent oversight body is a separate concern that should trigger a recusal review by default. See [reform: pdc_enforcement] and [reform: appointment_accountability].

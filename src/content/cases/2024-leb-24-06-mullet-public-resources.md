@@ -66,22 +66,26 @@ tags:
   - senate
 ---
 
+**A complaint alleging that Sen. Mark Mullet used public resources for campaign purposes was reviewed and decided by the Washington State Legislative Ethics Board (LEB) in June 2024; the full opinion has not been independently confirmed.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 24-06 on June 4, 2024, concerning a complaint against Sen. Mark Mullet. The subject matter is identified in the LEB docket as "Use of Public Resources for Campaign purposes." The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.
+A complaint was filed against then-Washington State Sen. Mark Mullet alleging use of public resources for campaign purposes. The Legislative Ethics Board (LEB) reviewed the complaint and issued Opinion 24-06 on June 4, 2024.
+
+The complaint is identified in the LEB docket as "Use of Public Resources for Campaign purposes." Mullet left the Senate in January 2025 to run for Governor. No dollar amount is associated with this case in the public record.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.
+The LEB's publicly posted opinion index records the case number, date, respondent name, and subject matter. The full opinion text has not been independently confirmed in sources available at the time of this record. This entry is based on the docket listing only.
 
 ## Status
 
-LEB opinion issued June 4, 2024. The docket reflects this as a resolved complaint with an issued opinion. This record will be updated when the full opinion text is reviewed.
+LEB opinion issued June 4, 2024. The outcome — whether Mullet was found to have violated ethics rules or the complaint was dismissed — is not confirmed in this record. This entry will be updated when the full opinion is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving an elected state Senator and the use of public resources for campaign activity. It is included as part of the documented 2024-2026 pattern of LEB complaints and opinions involving the same conduct categories. The registry treats the pattern as a structural finding, independent of how any single complaint resolved.
+This is a formal LEB proceeding against an elected state Senator in the same conduct category — public resources used for campaign purposes — that recurs across Cases 24-06, 25-09, and 25-10 in this registry. The pattern across multiple years and respondents is a structural finding, independent of how any individual complaint was resolved.
 
 ## Reform implication
 
-The LEB system combines limited public visibility of complaint details, modest sanctions, and inconsistent publication timelines. Standardizing the publication of complaint texts and opinions in machine-readable form — alongside financial penalties scaled to legislator compensation rather than nominal fines — would both deter conduct and enable the pattern analysis that the current system makes difficult. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+The LEB system combines low public visibility of complaint details, modest sanctions, and inconsistent publication timelines. Standardizing complaint and opinion publication in machine-readable form — alongside financial penalties scaled to legislator pay rather than nominal fines — would deter the conduct and enable pattern analysis that the current system makes difficult. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

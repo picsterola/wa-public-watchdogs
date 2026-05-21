@@ -65,22 +65,26 @@ tags:
   - republican
 ---
 
+**A complaint alleging that Rep. Michelle Caldier received special privileges was reviewed and decided by the Washington State Legislative Ethics Board (LEB) in May 2025; the full opinion has not been independently confirmed.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 25-02 on May 22, 2025, concerning a complaint against Rep. Michelle Caldier. The subject matter is identified in the LEB docket as "Special Privileges." The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.
+A complaint was filed against Washington State Rep. Michelle Caldier alleging she received special privileges. The Legislative Ethics Board (LEB) reviewed the complaint and issued Opinion 25-02 on May 22, 2025.
+
+The complaint is identified in the LEB docket as "Special Privileges." No dollar amount is associated with this case in the public record.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.
+The LEB's publicly posted opinion index records the case number, date, respondent name, and subject matter. The full opinion text has not been independently confirmed in sources available at the time of this record. This entry is based on the docket listing only.
 
 ## Status
 
-LEB opinion issued May 22, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.
+LEB opinion issued May 22, 2025. The outcome — whether Caldier was found to have violated ethics rules or the complaint was dismissed — is not confirmed in this record. This entry will be updated when the full opinion is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving an elected state Representative and a special-privileges allegation. Caldier is a Republican; this case is included with the same framing as Democratic LEB cases in this registry. The registry documents the pattern of LEB proceedings across party lines without altering language based on party affiliation.
+This is a formal LEB proceeding against an elected state legislator. Caldier is a Republican; the registry applies the same framing to LEB cases regardless of party. The case appears alongside Cases 25-38 (Simmons, D) as part of a pattern of special-privileges complaints that cross party lines.
 
 ## Reform implication
 
-The LEB's enforcement mechanism currently relies primarily on formal opinions, which may include reprimand or referral. Without financial penalties proportionate to the benefit alleged to have been received — or to legislator compensation — the deterrent effect is limited. Meaningful sanctions scaled to the severity and value of the conduct alleged would strengthen the enforcement regime. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+The LEB currently relies on formal opinions that may include reprimand or referral, but no financial penalties scaled to the benefit received. Without sanctions proportionate to the value of the alleged benefit, the enforcement regime has limited deterrent effect. Meaningful financial penalties would make the system credible as a check rather than a post-hoc record. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

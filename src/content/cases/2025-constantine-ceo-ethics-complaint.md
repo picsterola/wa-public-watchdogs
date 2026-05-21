@@ -93,29 +93,31 @@ tags:
   - ombuds
 ---
 
+**A formal ethics complaint over Dow Constantine's selection as Sound Transit CEO was dismissed by the King County Ombudsman, which found no violation of the King County Ethics Code — though the structural governance gap the complaint identified remains unaddressed by any rule.**
+
 ## What happened
 
-In February 2025, Seattle Times and The Urbanist reported that then-King County Executive Dow Constantine was a candidate for the Sound Transit CEO position. Constantine had appointed approximately 10 of 18 Sound Transit board members in his capacity as King County Executive, raising public questions about whether he could be evaluated impartially by a board he largely appointed.
+In February 2025, reporting confirmed that then-King County Executive Dow Constantine was a candidate for Sound Transit's CEO position. As King County Executive, Constantine had appointed approximately 10 of the 18 Sound Transit board members who would vote on the hire. Public questions arose about whether he could be evaluated impartially by a board he had largely appointed.
 
-On March 26, 2025, Jennifer Aspelund filed Ethics Complaint OMB-2025-0160 with the King County Office of the Ombuds, alleging violation of the King County Ethics Code in the CEO selection process. Constantine was appointed CEO on March 27, 2025.
+On March 26, 2025, Seattle resident Jennifer Aspelund filed Ethics Complaint OMB-2025-0160 with the King County Office of the Ombuds, alleging that the CEO selection process violated the King County Ethics Code. Constantine was appointed CEO the next day, March 27, 2025.
 
-On June 18, 2025, the Ombuds dismissed the complaint, finding no Ethics Code violation.
+On June 18, 2025, the Ombuds dismissed the complaint.
 
 ## What the primary source says
 
-Per the Ombuds Report OMB-2025-0160 (June 18, 2025), the Ombuds found Constantine did not participate in his own evaluation in his county executive capacity (he held a separate board member capacity that was distinct from his executive appointment authority), and the hiring process did not constitute a conflict of interest under the applicable King County Ethics Code provisions.
+Per Ombuds Report OMB-2025-0160, the Ombuds found that Constantine did not participate in his own evaluation in his county executive capacity — his role as a board member was treated as distinct from his executive appointment authority. The Ombuds concluded the hiring process did not constitute a conflict of interest under the applicable King County Ethics Code provisions.
 
 ## Status
 
-Complaint dismissed. No further administrative appeal pursued. Constantine remains Sound Transit CEO at a base salary of $450,000 at hire, raised to $474,276 in January 2026 (see KC-2025-005).
+Complaint dismissed. No further appeal was pursued. Constantine remains Sound Transit CEO at a base salary of $450,000 at hire, raised to $474,276 effective January 2026.
 
 ## Why it's in the registry
 
-This is a Tier 1 dismissed complaint, included to document the practical reach of the existing King County Ethics Code in evaluating structural conflicts between appointment authority and candidacy for appointee-filled positions. Per registry policy, dismissed cases are not tombstoned when the substantive governance question they raise remains a live policy issue.
+This is a dismissed complaint included to document how the existing King County Ethics Code handles structural conflicts between appointment authority and candidacy for appointee-filled positions. The Ombuds found no violation under existing rules. The registry includes dismissed cases when the underlying governance question remains a live policy issue — and this one does.
 
 ## Reform implication
 
-The Ombuds' analysis was narrow and rule-bound. The broader structural question — whether the Ethics Code should bar or restrict an appointing official from becoming a candidate for positions filled by their appointees — is not addressed by the existing code. Reform options include cooling-off periods, recusal requirements for appointed board members when evaluating a candidate who appointed them, or a bright-line rule. See [reform: ethics_code_reform] and [reform: appointment_accountability].
+The Ombuds' analysis was narrow: Constantine technically didn't evaluate himself, so no rule was broken. The broader question — whether an official who appointed most of a board's members should be able to become a candidate for the top job those members fill — is not addressed by the current Ethics Code. Reform options include cooling-off periods after leaving appointing authority, mandatory recusal for board members voting on a candidate who appointed them, or a bright-line bar. See [reform: ethics_code_reform] and [reform: appointment_accountability].
 
 ## Relationship to other cases
 

@@ -116,24 +116,32 @@ tags:
   - city_of_seattle
 ---
 
+**Seattle Police Department (SPD) Chief Adrian Diaz was fired in December 2024 after an Office of Inspector General (OIG) investigation found he had hired a romantic partner as his chief of staff, bypassed the department's background check process, and lied to investigators — all while collecting his $338,000 salary in a "special projects" role for seven months after his demotion.**
+
 ## What happened
 
-In May 2024, Mayor Bruce Harrell removed Adrian Diaz as Chief of Police and moved him to a "special projects" role amid mounting reports of harassment, retaliation, and management dysfunction in the Seattle Police Department. Diaz retained his $338,000 chief salary in the special-projects role. On December 17, 2024, following an Office of Inspector General investigation, Harrell terminated Diaz.
+In May 2024, Mayor Bruce Harrell removed Adrian Diaz as Seattle Police Department (SPD) Chief amid mounting reports of harassment, retaliation, and management dysfunction. Rather than being terminated, Diaz was moved to a "special projects" role and retained his $338,000 annual chief salary.
 
-The OIG investigation found that Diaz created a chief-of-staff position for Jamie Tompkins, a woman with whom he was romantically involved, and circumvented the department's standard background-check process by having a member of his executive protection unit conduct her personnel check. Diaz repeatedly denied the relationship internally and to investigators.
+On December 17, 2024, following an Office of Inspector General (OIG) investigation, Harrell terminated Diaz.
+
+What the investigation found:
+- Diaz created a chief-of-staff position for Jamie Tompkins, a woman with whom he was in a romantic relationship
+- He circumvented the department's standard background-check process by having a member of his executive protection unit run Tompkins' personnel check instead
+- He repeatedly denied the relationship to colleagues and to investigators
+- Tompkins was separately found to have lied to investigators and to have disguised her handwriting on a birthday card to Diaz that was recovered from an SPD patrol vehicle
 
 ## What the primary source says
 
-Per the OIG Findings Letter (Case 2023OIG-0286, December 17, 2024), Diaz violated SPD policies on dishonesty, professionalism, conflict-of-interest disclosure, and improper personal relationships. Tompkins was found to have lied to investigators and to have falsified evidence by disguising her handwriting on a Star Wars-themed birthday card to Diaz that was discovered in an SPD patrol vehicle.
+The OIG Findings Letter (Case 2023OIG-0286, December 17, 2024) documents that Diaz violated SPD policies on dishonesty, professionalism, conflict-of-interest disclosure, and improper personal relationships. Tompkins resigned November 8, 2024. PubliCola subsequently reported Diaz was being placed on the national "Brady List" of officers with credibility issues.
 
 ## Status
 
-Diaz was terminated December 17, 2024. Two weeks before his termination, Diaz had filed a $10 million tort claim against the City alleging wrongful discharge, discrimination, and retaliation. Tompkins resigned November 8, 2024. PubliCola subsequently reported Diaz was being placed on the national "Brady List" of officers with credibility issues. No criminal charges have been filed.
+Diaz was terminated December 17, 2024. He had filed a $10 million wrongful-termination tort claim against the City two weeks before being fired. Tompkins resigned. No criminal charges have been filed against either party.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented executive-personnel misconduct finding by an independent oversight body (Seattle OIG) against a department head, with subsequent termination. The case is included not because the system failed to act — it ultimately did — but because the seven-month gap between demotion and termination, during which Diaz collected his full chief salary, illustrates a structural gap in executive accountability timelines.
+The OIG worked: it investigated and produced a documented finding that led to termination. The structural concern here is the seven-month gap between demotion and firing, during which Diaz drew his full $338,000 chief salary in a "special projects" role. There was no defined timeline or council notification requirement for how long a department head can remain on the city payroll after being removed from their role pending investigation.
 
 ## Reform implication
 
-The OIG functioned as a working independent oversight mechanism, which is itself an argument for the broader Inspector General reform proposed at the King County level (KC-2026-007). The specific structural gap surfaced here — the lack of a defined timeline between substantiated misconduct findings and disposition for senior administrative-leave employees — is addressable through council-level personnel oversight rules. See [reform: personnel_oversight] and [reform: independent_inspector_general].
+The OIG's functioning here is an argument for creating equivalent independent oversight at the King County level. The specific structural gap — no defined timeline or council oversight for senior employees on administrative leave pending misconduct findings — is addressable through council-level personnel oversight rules. See [reform: personnel_oversight] and [reform: independent_inspector_general].

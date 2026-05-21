@@ -77,22 +77,28 @@ tags:
   - mega_project
 ---
 
+**Sound Transit's West Seattle Link Extension has ballooned from a voter-approved $2.7 billion estimate in 2016 to a range of $4.9–$5.3 billion after cost cuts — and hit $7.9 billion before those reductions were applied.**
+
 ## What happened
 
-Sound Transit's West Seattle Link Extension was included in the 2016 Sound Transit 3 ballot measure, which projected a construction cost of approximately $2.7 billion. The project underwent successive cost increases through 2024-2025. By September 2025, the estimated range had reached $7.1–$7.9 billion. A cost-reduction analysis completed in March 2026 brought the estimate back to $4.9–$5.3 billion in 2025 dollars, primarily through station consolidation and route changes. The Sound Transit board is also considering a truncated alignment terminating at Delridge, estimated at $3.3–$3.4 billion.
+When voters approved Sound Transit's third mass-transit package (ST3) in 2016, the West Seattle Link Extension was projected to cost approximately $2.7 billion. The estimate grew steadily through 2024 and 2025.
 
-## What the primary source says
+By September 2025, the range had reached $7.1–$7.9 billion. A cost-reduction analysis completed in March 2026 — involving station consolidation and route changes — brought the current estimate back to $4.9–$5.3 billion in 2025 dollars. The board is also weighing a stripped-down alignment ending at Delridge, estimated at $3.3–$3.4 billion.
 
-Sound Transit's project page (Tier 1) documents the project scope and current status. The Urbanist reported in September 2024 that the board voted to continue the project despite the then-current cost range of $5.1–$5.6 billion, well above the 2016 voter estimate. The progression from 2016 projection to 2024-2025 estimates represents cost growth of between 80% and 192% depending on the estimate used, before cost-reduction measures.
+No fraud allegation has been made. This is a project management and cost-control failure.
+
+## The receipts
+
+Sound Transit's own project page documents the current scope and status. The Urbanist reported in September 2024 that the board voted to continue the project even when the estimate stood at $5.1–$5.6 billion — already roughly double the 2016 voter-approved figure. The cost growth from 2016 baseline to the September 2025 peak represents an increase of between 80% and 192% depending on which estimate is used, before cost-reduction measures were applied.
 
 ## Status
 
-Project is ongoing. The Sound Transit board has not terminated the project. Cost-reduction options are under board consideration as of this record's last update. No fraud or criminal investigation has been opened; this is a mega-project cost-control concern.
+The project is ongoing. The Sound Transit board has not terminated it. Cost-reduction options remain under consideration. No enforcement action has been taken.
 
 ## Why it's in the registry
 
-This is a documented structural failure in regional transit project cost control. The cost trajectory — from a voter-approved baseline to estimates nearly three times that baseline before cost-reduction measures — is a documented public record traceable to Tier 1 and Tier 2 sources. The registry includes this case as a project management and governance accountability concern, not a fraud allegation.
+Voters approved this project at a specific price. The board's governing structure — composed largely of elected officials from jurisdictions that want the project built — creates an incentive to keep going even as costs escalate. This case documents what happens when there is no independent check on a mega-project's cost trajectory.
 
 ## Reform implication
 
-Regional transit mega-projects in Washington lack an independent, binding cost-control mechanism. The Sound Transit board's composition — substantially consisting of elected officials appointed from jurisdictions with political stakes in project completion — creates structural incentives to continue rather than stop or significantly restructure projects even as costs escalate. An independent stage-gate review authority with binding stop/continue authority at defined cost thresholds would provide the check that the current governance structure does not. See [reform: transit_governance_reform] and [reform: cost_transparency_reporting].
+There is no independent, binding cost-control mechanism for regional transit mega-projects in Washington. An outside stage-gate review authority — with real authority to stop or restructure a project when costs cross defined thresholds — would provide the structural check the current board-only model does not. See [reform: transit_governance_reform] and [reform: cost_transparency_reporting].

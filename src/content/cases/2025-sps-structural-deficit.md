@@ -85,27 +85,31 @@ tags:
   - finance_audit_committee
 ---
 
+**Seattle Public Schools (SPS) is carrying a $104 million structural deficit for the 2024-25 school year — and when it took out a $27.5 million internal loan, the oversight committee that would normally review such a move had already been dissolved by the school board.**
+
 ## What happened
 
-Seattle Public Schools entered FY 2024-25 with a deteriorating financial position, drawing down approximately $42M from reserves in FY 2023-24 and authorizing an interfund loan of $27.5M in FY 2024-25. The board had previously dissolved its Finance and Audit Committee, meaning the $27.5M interfund loan was not reviewed by the standing committee that would conventionally vet such a transaction.
+Seattle Public Schools entered the 2024-25 school year with serious financial problems. In the prior year (2023-24), the district drew down approximately $42 million from its reserves. In 2024-25, it authorized a $27.5 million interfund loan — essentially borrowing from one of its own funds to cover operating shortfalls.
 
-The structural operating deficit was approximately $104 million for FY 2024-25 and is projected at $94 million or more for FY 2025-26. Superintendent Brent Jones resigned during this period (context for the broader leadership picture, not a standalone accountability case in this record).
+The specific governance problem: the school board had previously dissolved its Finance and Audit Committee. That committee would normally review a borrowing decision of this size. Without it, the $27.5 million loan went forward without committee-level scrutiny.
+
+The structural operating deficit — meaning the gap between ongoing revenues and ongoing expenses, not a one-time shortfall — was approximately $104 million for FY 2024-25 and projected at $94 million or more for FY 2025-26. Superintendent Brent Jones resigned during this period.
 
 ## What the primary source says
 
-The district's January 22, 2025 Budget Study Session materials document the interfund loan, the reserve drawdown, and the structural deficit projection. The Seattle Times has reported on the "balanced for now" budget framing and the governance questions around the Finance/Audit Committee dissolution.
+The district's January 22, 2025 Budget Study Session materials document the interfund loan, the reserve drawdown, and the deficit projections. The Seattle Times reported on the "balanced for now" budget framing and the governance questions around the Finance/Audit Committee dissolution.
 
 ## Status
 
-No formal audit finding on the structural deficit itself. The deficit and the governance structure are documented in district materials and contemporaneous reporting. The case is included for the governance question — committee dissolution prior to authorization of significant interfund borrowing — rather than for any legal-status determination.
+No formal audit finding has been issued specifically on the structural deficit. The numbers and governance facts are documented in district budget materials and news reporting. No legal action has been taken.
 
 ## Why it's in the registry
 
-Tier 1 (district materials) and Tier 2 (Seattle Times) documented case of structural financial deficit at the state's largest school district, combined with a specific governance fact — the dissolution of the Finance/Audit Committee — that warrants tracking. The case is structural, not adversarial: it is included to surface a board-governance question that the SAO audit cycle has not addressed directly.
+Seattle Public Schools is the largest school district in Washington. The combination of a $104 million structural deficit and the dissolution of the committee responsible for reviewing major financial transactions is a documented governance concern — not an allegation of wrongdoing, but a board-governance question the State Auditor's Office (SAO) audit cycle has not addressed directly.
 
 ## Reform implication
 
-Two reforms: (1) state-level minimum standards for school district financial-oversight committee structures, possibly modeled on municipal finance-committee requirements; (2) board governance norms requiring committee continuity through periods of fiscal stress. See [reform: school_district_financial_oversight].
+Two reforms: (1) state-level minimum requirements for school district financial-oversight committee structures — a district this size probably should not be able to dissolve its Finance/Audit Committee during a period of financial stress without triggering outside review; (2) board governance norms requiring committee continuity specifically during fiscal crises. See [reform: school_district_financial_oversight].
 
 ## Relationship to other cases
 

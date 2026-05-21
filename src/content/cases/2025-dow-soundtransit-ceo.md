@@ -106,22 +106,28 @@ tags:
   - transit_board
 ---
 
+**King County Executive Dow Constantine was hired as Sound Transit's CEO at a base salary of $450,000 by a board that included 10 members he had personally appointed — none of whom recused from the vote.**
+
 ## What happened
 
-Sound Transit's board identified Dow Constantine — then serving as King County Executive — as its preferred candidate for CEO on March 24, 2025, and formally appointed him on March 27, 2025. Constantine had served on the Sound Transit board for 16 years as King County Executive. The CEO position pays a base salary of $450,000 at hire, raised to $474,276 effective January 2026.
+On March 24, 2025, Sound Transit's board named then-King County Executive Dow Constantine as its preferred CEO candidate. He was formally appointed on March 27, 2025. Constantine had served on the Sound Transit board for 16 years in his capacity as King County Executive.
+
+Constantine's CEO base salary was $450,000 at hire, raised to $474,276 effective January 2026.
+
+As King County Executive, Constantine held appointment authority over 10 of the 18 Sound Transit board seats. Two of his own appointees — Girmay Zahilay and Claudia Balducci — were simultaneously running to succeed him as King County Executive. None of his appointees recused from the CEO selection vote.
 
 ## What the primary source says
 
-Per reporting by The Urbanist and the Seattle Transit Blog, Constantine held appointment authority over 10 of the 18 Sound Transit board seats at the time of his selection. Two of his appointees — Girmay Zahilay and Claudia Balducci — were candidates to succeed Constantine as King County Executive while the CEO vote was held. None of Constantine's appointees recused from the vote selecting him as CEO.
+Sound Transit issued an official press release confirming the appointment on March 27, 2025. The Urbanist and Seattle Transit Blog reported the details of Constantine's appointment authority and the board composition at the time of the vote. No recusal requirements applicable to this situation exist in Sound Transit's current governance rules.
 
 ## Status
 
-Constantine took office as Sound Transit CEO. The appointment is a completed public record. No ethics complaint or legal challenge has been filed. The governance concern — the structural relationship between appointing authority and board composition during CEO selection — has not been formally reviewed by an independent body.
+Constantine is serving as Sound Transit CEO. The appointment is a completed public record. No ethics complaint or legal challenge has been successfully pursued. A separate King County Ombuds complaint was dismissed (see the related case below).
 
 ## Why it's in the registry
 
-This is a documented governance appointment raising a structural conflict-of-interest question. Constantine was selected by a board composed substantially of his own appointees. The concern is not that the appointment was illegal — it appears to have been lawful — but that no recusal rules required board members appointed by the candidate to step aside. This is the type of structural gap the registry documents.
+This is a documented governance appointment that raises a structural conflict-of-interest question. The appointment appears to have been lawful. The issue is that no rule required the 10 board members Constantine had personally appointed to step aside when voting on whether to hire him. The registry documents this gap regardless of how the appointment was resolved.
 
 ## Reform implication
 
-Regional transit board governance in Washington lacks explicit recusal requirements for board members who owe their appointment to a CEO candidate. A policy requiring recusal by any board member appointed by an executive-branch candidate for the same agency's top post — or appointed by someone running for that post — would prevent the appearance and reality of self-referential appointment loops. See [reform: board_recusal_rules] and [reform: transit_governance_reform].
+Sound Transit's governance lacks explicit recusal requirements for board members who owe their appointment to a CEO candidate. A rule requiring recusal by any board member appointed by a candidate for the agency's top job would prevent the appearance of a self-referential appointment loop. See [reform: board_recusal_rules] and [reform: transit_governance_reform].

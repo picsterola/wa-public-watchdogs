@@ -66,27 +66,31 @@ tags:
   - transparency
 ---
 
+**The Washington State Auditor's Office (SAO) flagged conflict-of-interest concerns at the Puget Sound Educational Service District in a private letter that has not been made public, leaving no way for the public to assess the substance.**
+
 ## What happened
 
-The Washington State Auditor's Office published Accountability Audit Report #1036582 for Puget Sound Educational Service District on February 6, 2025, covering the audit period Sep 1, 2022 through Aug 31, 2023. The audit references that "matters relating to conflict of interest" at PSESD were communicated separately to management via a letter dated January 29, 2025.
+The State Auditor's Office (SAO) published Accountability Audit Report #1036582 for the Puget Sound Educational Service District (PSESD) on February 6, 2025, covering the period from September 1, 2022 through August 31, 2023.
 
-The management letter is not posted on SAO's public portal. The published report does not name individuals, describe the dollar exposure, or characterize the nature of the conflict beyond the bare reference to the letter.
+Buried in the report is a reference to a separate letter, dated January 29, 2025, that communicated "matters relating to conflict of interest" to PSESD management. That letter is not posted on the SAO's public portal. The published report does not name any individuals, describe what dollars are at risk, or explain what kind of conflict was found.
 
-## What the primary source says
+## The receipts
 
-The SAO report itself is the only public document confirming the conflict-of-interest matters exist. It does not constitute a formal SAO "finding" — SAO uses a tiered framework where formal findings appear in the published report, while lesser concerns are sent to management in separate letters that are not publicly posted by default.
+The published SAO audit report is the only public document confirming these conflict-of-interest matters exist. The SAO uses a tiered system: serious issues get formal "findings" published in the audit report; lesser concerns get sent to management in a private letter that is not published by default. This case is the latter. No formal finding was issued.
+
+To find out what the letter actually says, someone would need to file a Public Records Act request (under RCW 42.56) directly with PSESD.
 
 ## Status
 
-No formal audit finding. No publicly known follow-up action. The Jan 29, 2025 management letter would need to be obtained via Public Records Act request directed to PSESD (RCW 42.56) to determine the substance.
+No formal audit finding. No publicly known follow-up action. The substance of the January 29, 2025 management letter remains nonpublic.
 
 ## Why it's in the registry
 
-Documented Tier 1 (SAO) reference to conflict-of-interest matters at a regional public agency. The case is included to flag the existence of the management letter and to make clear that the registry does not have access to the substantive content. A PRR is the next investigatory step.
+A public agency that handles state and federal education funds was told by the state auditor that it had conflict-of-interest problems — and the public has no way to know what those problems are. The registry flags the existence of the management letter and notes that the full content has not been independently reviewed.
 
 ## Reform implication
 
-The structural issue is the SAO tiered-disclosure framework itself: serious enough to write a private letter about, not serious enough to publish. For public agencies handling state and federal funds, the threshold for "public finding" vs "private letter" deserves scrutiny. See [reform: sao_management_letter_disclosure].
+The SAO's tiered framework creates a transparency gap: concerns serious enough to put in writing, but not serious enough to publish. For public agencies handling public funds, the line between "public finding" and "private letter" deserves scrutiny. See [reform: sao_management_letter_disclosure].
 
 ## Relationship to other cases
 

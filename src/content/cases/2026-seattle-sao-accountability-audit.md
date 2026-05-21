@@ -66,11 +66,13 @@ tags:
   - audit
 ---
 
+**The Washington State Auditor's Office (SAO) found the City of Seattle mostly compliant in its 2025 audit — but flagged problems with competitive bidding rules and emergency-exemption procedures in a private letter to city leaders that has not been made public.**
+
 ## What happened
 
-The Washington State Auditor's Office published its Accountability Audit Report on the City of Seattle on March 23, 2026, covering the fiscal year July 1, 2024 through June 30, 2025. The audit reviewed selected areas representing the highest risk of fraud, loss, abuse, or noncompliance, including procurement at Seattle Public Utilities, accounts receivable at Seattle City Light, accounts payable, payroll overtime, theft-sensitive asset tracking, petty cash, use of restricted funds (including affordable housing and criminal justice funding), and bond debt covenants.
+The Washington State Auditor's Office (SAO) published its Accountability Audit Report on the City of Seattle on March 23, 2026, covering the fiscal year July 1, 2024 through June 30, 2025. Auditors reviewed areas with the highest risk of fraud or noncompliance: procurement at Seattle Public Utilities, billing at Seattle City Light, accounts payable, overtime payroll, tracking of theft-prone assets, petty cash, use of restricted funds (including affordable housing and criminal justice money), and bond debt rules.
 
-The overall finding was that City operations complied "in all material respects" with applicable state laws, regulations, and City policies. The audit identified one exception: noncompliance with competitive procurement and emergency exemption requirements, which the SAO communicated to City management and the Mayor and Council in a separate March 17, 2026 letter rather than as a published finding.
+The overall verdict: City operations complied with applicable laws and policies "in all material respects." But the auditors carved out one exception — noncompliance with competitive procurement rules and emergency-exemption procedures. Rather than publish that finding in the public audit report, the SAO communicated it to city management and the Mayor and City Council in a separate letter dated March 17, 2026. That letter has not been publicly released.
 
 ## What the primary source says
 
@@ -78,20 +80,20 @@ Per the SAO Accountability Audit Report (March 23, 2026, Report No. 1039250):
 
 > "In those selected areas, City operations complied, in all material respects, with applicable state laws, regulations, and its own policies, and provided adequate controls over the safeguarding of public resources. However, we noted certain matters related to noncompliance with competitive procurement and emergency exemption requirements that we communicated to City management and the Mayor and City Council in a letter dated March 17, 2026."
 
-Federal program findings — including federal subrecipient monitoring, reporting, housing quality standards, and earmarking compliance — are addressed in a separate Single Audit report referenced in the report.
+Separate federal compliance findings — covering subrecipient monitoring, reporting, housing quality standards, and earmarking — are in a different report called a Single Audit.
 
 ## Status
 
-Audit published March 23, 2026. The March 17, 2026 management letter has not been publicly released as of this record's last update. No regulatory or enforcement action has been announced.
+Audit published March 23, 2026. The March 17, 2026 management letter to city leaders is not publicly available as of this record's last update. No enforcement action has been announced.
 
 ## Why it's in the registry
 
-This is a Tier 1 accountability audit by an independent state oversight body. It is included as a baseline documented finding — not because the audit identified misconduct (it did not) — but because (1) the procurement and emergency-exemption noncompliance was real enough to warrant a separate management letter, and (2) the management letter itself is not publicly available, creating a transparency gap that is a structural concern in its own right.
+The procurement and emergency-exemption problems were real enough for the SAO to put them in writing to the Mayor and City Council. But because the SAO used a private letter rather than a published finding, the public has no way to know what was flagged, which contracts were involved, or how much money was at stake. That opacity is itself a structural concern.
 
 ## Reform implication
 
-The structural concern is the gap between published audit findings and unpublished management letters. SAO management letters reflect noncompliance that was found but did not rise to the level of a published finding. Requiring publication of all such letters in the same SAO portal — or at minimum a public log of their existence, recipients, and subject matter — would close the transparency gap. See [reform: procurement_reform] and [reform: cost_transparency_reporting].
+The SAO uses two tracks: published findings (public) and management letters (private). For public agencies, the threshold for "published finding" versus "private letter" deserves scrutiny. Requiring all management letters to be posted in the same SAO public portal — or at minimum a public log listing their existence, recipient, and subject matter — would close the transparency gap. See [reform: procurement_reform] and [reform: cost_transparency_reporting].
 
 ## Note on dollar amounts
 
-This record does not include a dollars_at_issue figure because the specific transactions and amounts are described only in the unpublished management letter. If the management letter is subsequently released — by FOIA request or otherwise — this record will be updated.
+This record does not include a dollar figure because the specific transactions and amounts exist only in the unpublished management letter. If the letter is subsequently released — by public records request or otherwise — this record will be updated.

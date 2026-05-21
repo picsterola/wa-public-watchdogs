@@ -122,35 +122,45 @@ tags:
   - wlad
 ---
 
+**A Jewish student at Nathan Hale High School in Seattle alleges months of antisemitic harassment — including death threats and swastikas — while the school's administration allegedly failed to investigate, failed to discipline students, and did not call police even when a mob of about 20 students gathered outside her locked classroom.**
+
 ## What happened
 
-The parents of a former 15-year-old Nathan Hale High School freshman, identified in court filings by the initials M.K.L., filed a state civil complaint in King County Superior Court in June 2025 and, after voluntary dismissal of the state case, refiled in U.S. District Court (Western District of Washington) on November 20, 2025. The complaints allege that Seattle Public Schools failed to protect their daughter from months of antisemitic harassment that began following Hamas's October 7, 2023 attack on Israel.
+The parents of a former Nathan Hale High School freshman, identified in court filings by the initials M.K.L., filed a civil complaint in King County Superior Court in June 2025. After voluntarily dismissing the state case, they refiled in U.S. District Court (Western District of Washington) on November 20, 2025.
 
-The student is Jewish, was the only Jewish player on the school's softball team, the granddaughter of Holocaust survivors, and wore a Star of David necklace. The complaint, as reported by Tier 2 sources with bylined reporting, alleges classmates directed slurs at her — "Hitler's plan should have worked," "I hate Jews" — and threatened her life. Swastikas were drawn on classroom desks, in the girls' softball dugout where MKL kept her belongings, and in bathrooms together with "Free Palestine" graffiti. In November 2023 the school approved student flyers for a "Free Palestine" walkout; the complaint alleges students threatened MKL beforehand. One student allegedly yelled at her so closely that the student spit on her face.
+The complaints allege that Seattle Public Schools (SPS) failed to protect M.K.L. from months of antisemitic harassment that began following the Hamas attack on Israel on October 7, 2023.
 
-The complaint alleges the family reported these incidents repeatedly to Principal Dr. William Jackson and Vice Principal Makela Steward-Monroe. The family says that no meaningful investigations took place, no discipline against identified harassers was imposed, and security footage they had asked the district to preserve was allegedly not preserved.
+M.K.L. is Jewish, was the only Jewish player on the school's softball team, and is the granddaughter of Holocaust survivors. The complaint, as reported by multiple named journalists, alleges classmates directed slurs at her — "Hitler's plan should have worked," "I hate Jews" — and threatened her life. Swastikas were drawn on classroom desks, in the girls' softball dugout where M.K.L. kept her belongings, and in school bathrooms. One student allegedly yelled so closely at her that he spit on her face.
 
-On May 22, 2024, students attempted to draw MKL out of her classroom; a teacher recognized the threat, kept MKL inside, and locked the door. Approximately 20 students gathered in the hallway for roughly five minutes, banging on the door, yelling antisemitic slurs, and texting MKL threats of physical assault. Security eventually escorted her to the office. The district did not contact law enforcement despite policy requiring it when a student's physical safety is at immediate risk. The complaint alleges that, at a meeting shortly afterward, Principal Jackson declined to appear in person, instead joining via Zoom while physically down the hall, and left the call before the family's questions were answered. MKL missed the final weeks of the school year and transferred to another district that fall. She was later diagnosed with post-traumatic stress disorder.
+The family reportedly brought these incidents to Principal Dr. William Jackson and Vice Principal Makela Steward-Monroe repeatedly. The complaint alleges no meaningful investigations were conducted, no identified harassers were disciplined, and security footage the family asked to be preserved was allegedly not preserved.
+
+On May 22, 2024, the complaint alleges students tried to lure M.K.L. out of her classroom. A teacher recognized the threat, kept her inside, and locked the door. About 20 students allegedly gathered in the hallway, banging on the door, yelling antisemitic slurs, and texting M.K.L. threats of physical violence for roughly five minutes. Security eventually escorted her to the office. The complaint alleges the district did not contact law enforcement — despite its own policy requiring that when a student's physical safety is at immediate risk. The complaint also alleges that at a meeting with the family shortly after, Principal Jackson joined via Zoom while physically down the hall and left the call before the family's questions were answered.
+
+M.K.L. missed the final weeks of the school year and transferred to another school district that fall. She was later diagnosed with post-traumatic stress disorder.
 
 ## What the primary source says
 
-The Seattle Public Schools district statement (issued through spokesperson Sophia Charcuk) confirms that SPS received the state complaint on June 17, 2025 and stated the district "will review and address these allegations" and "does not tolerate racism, discrimination, or violence in any form." The federal complaint, filed in U.S. District Court on November 20, 2025, asserts violations of Title VI of the Civil Rights Act of 1964 (national origin / shared Jewish ancestry), the Equal Protection Clause of the Fourteenth Amendment, and multiple state laws including the Washington Law Against Discrimination. Damages sought include compensatory and punitive damages against former principal Jackson individually, as well as injunctive orders requiring the district to address antisemitism systemically.
+Seattle Public Schools issued a statement through spokesperson Sophia Charcuk confirming receipt of the state complaint on June 17, 2025, stating the district "will review and address these allegations" and "does not tolerate racism, discrimination, or violence in any form."
+
+The federal complaint, filed November 20, 2025, asserts violations of Title VI of the Civil Rights Act of 1964 (national origin and shared Jewish ancestry), the Equal Protection Clause of the Fourteenth Amendment, and the Washington Law Against Discrimination. The complaint seeks compensatory and punitive damages against former Principal Jackson individually, and court orders requiring the district to address antisemitism systemically.
 
 ## Status
 
-The federal case is active as of this record's last update. A second Nathan Hale lawsuit by a separate former student, Alexandra Greenstein, was filed in King County Superior Court and reported in May 2026; that matter is a distinct case but is referenced here as evidence of an alleged pattern at the same school.
+The federal case is active as of this record's last update. A second Nathan Hale lawsuit by a separate former student, Alexandra Greenstein, was filed in King County Superior Court and reported in May 2026. That is a distinct case, referenced here as evidence of an alleged pattern at the same school.
 
 ## Why it's in the registry
 
-Tier 1 source (district statement confirming receipt of complaint and acknowledging the matter publicly) combined with multiple Tier 2 named-byline news reports from Seattle Times (Claire Bryan), KATU/KOMO (Jackie Kent), and KIRO 7 (Shawn Garrett). The complaint describes a documented pattern of alleged district inaction during a period when the same district had visibly responded to civil-rights complaints from a different protected group. Whether the allegations are proven at trial is the legal question; the registry records the lawsuit and the district's response.
+The district's own statement confirms receipt of the complaint. Multiple named journalists — Seattle Times (Claire Bryan), KATU/KOMO (Jackie Kent), and KIRO 7 (Shawn Garrett) — reported independently on the allegations.
+
+The complaint describes an alleged pattern of district inaction during a period when the same district had visibly responded to a civil-rights complaint from a different protected group. Whether the allegations are proven at trial is the legal question; the registry records the lawsuits and the district's response to them.
 
 ## Reform implication
 
-Three reforms map here. First, civil-rights investigation protocols that include response-equivalence requirements across protected categories — meaning the district's response to harassment of one group is benchmarked against its response to harassment of another. Second, safety-transfer procedures triggered by documented harassment patterns rather than routed through general-process applications that take weeks. Third, enforcement of the district's own existing policy requiring law-enforcement notification when a student's physical safety is at immediate risk. See [reform: civil_rights_investigation_protocols], [reform: safety_transfer_procedures], [reform: mandatory_reporting_enforcement].
+Three reforms apply. First, civil-rights investigation protocols that require the district to respond to harassment complaints from one group with the same process and urgency it uses for another. Second, safety-transfer procedures that activate based on documented harassment patterns, rather than routing through a general application process that takes weeks. Third, enforcing the district's own existing rule requiring police notification when a student's physical safety is at immediate risk. See [reform: civil_rights_investigation_protocols], [reform: safety_transfer_procedures], [reform: mandatory_reporting_enforcement].
 
 ## Relationship to other cases
 
-- SPS-2024-001 (Garfield sex-abuse $16M settlement) and SPS-2024-002 (Garfield hazing / First Amendment settlement) — different campuses, similar pattern of alleged administrative non-response to documented student harm.
+- SPS-2024-001 (Garfield sex-abuse $16M settlement) and SPS-2024-002 (Garfield hazing / First Amendment settlement) — different campuses, similar alleged pattern of administrative non-response to documented student harm.
 - SPS-2025-005 (WA AG pregnancy/lactation lawsuit) — separately documents an AG enforcement action against SPS in the same period for civil rights failures involving employees rather than students.
 
 ## Open follow-ups

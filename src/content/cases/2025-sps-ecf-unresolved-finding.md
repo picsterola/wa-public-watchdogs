@@ -66,27 +66,29 @@ tags:
   - unresolved_finding
 ---
 
+**The federal auditor has flagged nearly $5 million in questionable spending by Seattle Public Schools (SPS) on a pandemic-era internet program — and the finding has carried over as "Not Corrected" through multiple audit cycles with no resolution.**
+
 ## What happened
 
-The Washington State Auditor's Office reported in the 2023-24 audit (SAO Report #1037358, published May 22, 2025) that $4,912,945 in questioned costs related to Seattle Public Schools' use of federal Emergency Connectivity Fund (ECF) money remains "Not Corrected." This is a carryover finding from prior audit cycles.
+The Washington State Auditor's Office (SAO) reported in its 2023-24 audit (SAO Report #1037358, published May 22, 2025) that $4,912,945 in questioned costs related to Seattle Public Schools' use of federal Emergency Connectivity Fund (ECF) money remains "Not Corrected."
 
-The ECF program was a federal pandemic-era initiative to connect students to remote learning. Audit findings questioning the eligibility or documentation of specific expenditures are not uncommon for the program; what is notable here is the persistence of the finding across audit cycles without resolution.
+The Emergency Connectivity Fund (ECF) was a federal pandemic-era program that helped schools pay for internet connections and devices to support remote learning. Auditors questioned whether specific expenditures were properly eligible or documented. What is notable here is not the underlying dispute itself — ECF compliance questions are not unusual — but that this finding has persisted through multiple audit cycles without being resolved.
 
 ## What the primary source says
 
-The SAO report documents the questioned-cost figure and the "Not Corrected" status. It does not characterize the underlying dispute in detail — that would require obtaining the prior audit reports and the SPS-FCC correspondence on the matter.
+The SAO report documents the questioned-cost figure and the "Not Corrected" status. The full details of the underlying dispute — what specifically was questioned and why it remains unresolved — would require reviewing prior audit reports and SPS's correspondence with the FCC, the program administrator.
 
 ## Status
 
-"Not Corrected" in the most recent audit cycle. Final disposition depends on FCC/ECF program review. Whether the questioned costs will be required to be repaid, written off, or resolved by additional documentation remains open.
+"Not Corrected" in the most recent audit cycle. Final disposition depends on FCC review. Whether the $4.9 million will need to be repaid, written off, or resolved through additional documentation remains open as of this record's last update.
 
 ## Why it's in the registry
 
-Tier 1 (SAO) documented finding of $4.9M questioned costs that has persisted across multiple audit cycles. The structural concern is the lack of resolution mechanism rather than the underlying program dispute. Included alongside SPS-2025-001 (Paid Lunch Equity) and SPS-2025-003 (structural deficit) as part of the broader SPS financial-controls picture.
+A finding that carries over as "Not Corrected" through multiple consecutive audits means there is no mechanism to force resolution. That structural gap — not the underlying program dispute — is the reason this case is tracked. This finding sits alongside the Paid Lunch Equity finding (SPS-2025-001) in the same SAO report, and both exist in the context of the district's $104 million structural deficit (SPS-2025-003).
 
 ## Reform implication
 
-Two reforms: (1) board-level audit-finding resolution tracking with hard timelines; (2) escalation protocols when findings remain unresolved beyond a defined number of audit cycles. See [reform: audit_finding_resolution_tracking].
+Two reforms: (1) board-level audit-finding resolution tracking with defined deadlines so no finding can sit as "Not Corrected" indefinitely; (2) escalation protocols that trigger an automatic review or referral when a finding remains unresolved beyond a defined number of audit cycles. See [reform: audit_finding_resolution_tracking].
 
 ## Relationship to other cases
 

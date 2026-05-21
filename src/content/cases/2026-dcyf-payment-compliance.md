@@ -84,22 +84,30 @@ tags:
   - federal_funds
 ---
 
+**The Washington State Auditor's Office flagged $37 million in questionable child care payments by the Department of Children, Youth, and Families (DCYF) — but said no fraud was found; rather, the state's system for verifying payments was so weak that it hadn't been fully audited in four years.**
+
 ## What happened
 
-The Washington State Auditor's Office released its 2025 Single Audit on March 30, 2026, which included a review of DCYF's child care payment system. The audit identified $37 million in "questioned payments" extrapolated from a sample: auditors reviewed 59 monthly payments out of approximately 400,000 and found 14 with noncompliance or overpayment totaling $6,123 in the sample. The $37 million figure is a statistical extrapolation from that sample to the full payment population — it is not a confirmed loss total.
+The Washington State Auditor's Office (SAO) released its 2025 Single Audit on March 30, 2026, which included a review of the child care payment system at the Washington State Department of Children, Youth, and Families (DCYF). Auditors reviewed a sample of 59 monthly payments out of approximately 400,000 and found 14 with noncompliance issues or overpayments totaling $6,123 in the actual sample.
+
+Extrapolating from that sample to the full payment pool produced the headline figure: **$37 million in "questioned payments."** That number is a statistical projection — not a confirmed loss.
+
+Importantly, the SAO had been unable to conduct a federal audit of DCYF's Child Care Development Fund since FY2021 due to accounting issues at the agency. The 2026 audit was the first full review in four years.
 
 ## What the primary source says
 
-The State Auditor's Office explicitly stated in the 2025 Single Audit that it "did not conclude that fraud occurred." The causes identified were operational: providers not responding to attendance-record requests, alleged overbilling for services not reflected in attendance records, and missing parent and guardian signatures. DCYF responded that federal audits have not identified misuse of funds and that the $37 million is the SAO's extrapolation, not confirmed fraud. The SAO had been unable to audit the Child Care Development Fund since FY2021 due to DCYF accounting issues; this was the first full audit in four years.
+The 2025 Single Audit states explicitly that the SAO "did not conclude that fraud occurred." The problems identified were operational: child care providers not responding to attendance-record requests, alleged overbilling for services not reflected in attendance records, and missing parent and guardian signatures on required forms.
+
+DCYF disputed the $37 million characterization, stating that federal audits have not identified misuse of funds. DCYF's position is that the SAO's extrapolation overstates the actual scope of the problem.
 
 ## Status
 
-Audit findings are public as of March 30, 2026. DCYF has disputed the characterization of the $37 million figure as confirmed misuse. No criminal investigation has been opened.
+Audit findings are public as of March 30, 2026. No criminal investigation has been opened. DCYF disputes the scope of the finding. This record reflects the audit as published; no enforcement action has been announced.
 
 ## Why it's in the registry
 
-This is a documented SAO audit finding of structural compliance failure in DCYF's child care payment system. It is included not as a fraud allegation — the SAO explicitly found none — but because the failure to maintain auditable records, the four-year gap in federal audit coverage, and the structural inadequacy of the payment verification system constitute a documented accountability failure in a program handling federal child care funds.
+This case is not about fraud — the auditor explicitly said fraud was not found. It is about the structural conditions that make fraud undetectable: a payment verification system weak enough that auditors could not fully review it for four consecutive years, and a sampling gap large enough that problems in the remaining 99.9% of payments would not be caught in the ordinary course. That is the accountability failure.
 
 ## Reform implication
 
-The SAO's inability to audit the Child Care Development Fund for four years is the central structural concern. A system requiring real-time reconciliation of provider attendance records against payment records, combined with mandatory federal-audit readiness certification, would prevent the conditions that generated both the payment irregularities and the four-year audit gap. See [reform: subrecipient_monitoring] and [reform: program_outcome_auditing].
+The four-year gap in federal audit coverage is the central concern. A system requiring real-time matching of provider attendance records against payment records — rather than after-the-fact sampling — combined with mandatory federal-audit readiness certification, would prevent both the payment irregularities and the multi-year oversight gap. See [reform: subrecipient_monitoring] and [reform: program_outcome_auditing].

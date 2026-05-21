@@ -92,22 +92,26 @@ tags:
   - reform_proposal
 ---
 
+**Three King County Councilmembers — crossing party lines — announced plans in March 2026 to create an independent Inspector General for King County, directly in response to documented failures in how the county oversees hundreds of millions of dollars in contracts.**
+
 ## What happened
 
-On March 25, 2026, King County Councilmembers Reagan Dunn (R), Rod Dembowski (D), and Sarah Perry (D) issued a joint letter to the King County Executive signaling intent to draft legislation establishing a King County Office of Inspector General. The letter followed a joint report from the King County Auditor and Ombudsman recommending structural oversight reforms in the wake of the DCHS contracting audit and subsequent Ombudsman investigation.
+On March 25, 2026, King County Councilmembers Reagan Dunn (R), Rod Dembowski (D), and Sarah Perry (D) issued a joint letter to the King County Executive announcing their intent to draft legislation creating a King County Office of Inspector General. The letter followed a joint report from the King County Auditor and Ombudsman recommending structural oversight reforms after the King County Department of Community and Human Services (DCHS) contracting audit and the subsequent Ombudsman investigation.
 
 ## What the primary source says
 
-The King County Council newsroom release (Tier 1) identifies three specific proposals: creation of an independent Inspector General office, establishment of a centralized fraud reporting system, and implementation of regular fraud-awareness training for contractors. Councilmember Dembowski was quoted: "I support the specific recommendation for a fraud hotline and believe that we should also establish an independent Inspector General office." The proposed IG would have subpoena power for documents and witnesses.
+The King County Council newsroom release identifies three specific proposals: an independent Inspector General office with subpoena power over documents and witnesses; a centralized fraud reporting hotline; and regular fraud-awareness training for contractors doing business with the county.
+
+Councilmember Dembowski was quoted: "I support the specific recommendation for a fraud hotline and believe that we should also establish an independent Inspector General office."
 
 ## Status
 
-The joint letter was a statement of legislative intent, not a bill. Legislation had not been formally introduced as of this record's last update. The proposal is bipartisan — Dunn (R), Dembowski (D), Perry (D) — and was publicly connected to the Auditor's and Ombudsman's findings on DCHS.
+As of this record's last update, the joint letter was a statement of legislative intent, not a filed bill. Legislation had not been formally introduced. The proposal is bipartisan — Dunn (R), Dembowski (D), Perry (D) — and was publicly tied to the Auditor's and Ombudsman's findings about DCHS.
 
 ## Why it's in the registry
 
-This record documents an active governance reform proposal directly responsive to documented structural failures in King County oversight. It is included not as an allegation but as the affirmative legislative response to cases KC-2025-001 (DCHS audit) and KC-2025-003 (Ombudsman investigation). Tracking the status of the IG proposal is part of the registry's reform-accountability function.
+This record documents an active governance reform proposal that is directly responsive to documented structural failures in King County's oversight of public contracts. It is tracked here not as an allegation but as the legislative response to cases KC-2025-001 (DCHS audit) and KC-2025-003 (Ombudsman investigation). Whether this proposal becomes law is itself a measure of the county's accountability reform.
 
 ## Reform implication
 
-The proposed Inspector General represents the most significant structural accountability reform proposed for King County in this period. The case for it rests on three documented failures: (1) subrecipient monitoring covering ~1% of expenditures in a $1.8B+ program (KC-2025-001); (2) 19 contractors with financial irregularities referred to an external body only after auditor pressure (KC-2025-003); and (3) investigation authority currently sitting inside the same executive chain that authorized the spending. See [reform: independent_inspector_general].
+The proposed Inspector General would be the most significant structural accountability reform for King County in this period. The case for it rests on three documented failures: (1) the county monitored only about 1% of expenditures in a program worth over $1.8 billion (KC-2025-001); (2) 19 contractors with financial irregularities were referred for outside review only after the Auditor publicly expressed concern about the agency's handling (KC-2025-003); and (3) the investigation authority currently sits inside the same executive branch that approved the spending in the first place. See [reform: independent_inspector_general].

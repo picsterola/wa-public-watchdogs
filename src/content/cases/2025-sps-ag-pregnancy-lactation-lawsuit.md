@@ -129,36 +129,46 @@ tags:
   - wlad
 ---
 
+**Washington's Attorney General sued Seattle Public Schools (SPS) in April 2025, saying the district routinely denied legally required accommodations to pregnant and nursing employees — and then retaliated against workers who asked for help.**
+
 ## What happened
 
-On April 15, 2025, Washington State Attorney General Nick Brown's office filed a civil rights lawsuit in King County Superior Court against Seattle Public Schools, alleging the district systematically failed to provide legally required accommodations to pregnant and nursing employees across multiple schools dating back to at least 2021. The complaint was brought under the Healthy Starts Act (RCW 43.10.005) and the Washington Law Against Discrimination (RCW 49.60.030, 49.60.180). The AG's office investigated employee complaints before filing and described the district as having "routinely failed to provide legally required accommodations." The case is staffed by Assistant Attorney General Diane Lopez, investigator Jennifer Sievert, and paralegal Panda Halford.
+On April 15, 2025, Washington State Attorney General Nick Brown's office filed a civil rights lawsuit in King County Superior Court against Seattle Public Schools (SPS). The complaint alleges the district systematically failed to provide legally required accommodations to pregnant and nursing employees across multiple schools, dating back to at least 2021.
 
-The press release describes specific failures: employees were denied flexible restroom breaks, modified work schedules, and the ability to sit more frequently during shifts. One employee who was eight months pregnant was unable to sit her entire workday. Nursing employees were provided no clean, private locations for expressing milk, were walked in on while pumping, and developed clogged ducts and mastitis infections. One employee said they "had no choice but to take leave to continue breastfeeding."
+The lawsuit was brought under two Washington state laws: the Healthy Starts Act (RCW 43.10.005) and the Washington Law Against Discrimination (RCW 49.60.030, 49.60.180). The AG's office investigated employee complaints before filing and described the district as having "routinely failed to provide legally required accommodations."
 
-The complaint also alleges retaliation against employees who requested accommodations: negative performance reviews; admonishments for attending medical appointments; removal from preferred classroom assignments; and, in some cases, periods of unpaid leave or lost benefits during or immediately after pregnancy. A central structural finding in the AG's investigation: SPS had no district-level policy at all governing pregnancy accommodation requests.
+Specific failures described in the press release:
+
+- Employees were denied flexible restroom breaks, modified work schedules, or the ability to sit during shifts. One employee eight months pregnant was unable to sit her entire workday.
+- Nursing employees had no clean, private space to pump breast milk, were walked in on while pumping, and developed clogged ducts and mastitis as a result. One said they "had no choice but to take leave to continue breastfeeding."
+- The complaint also alleges retaliation: negative performance reviews, admonishments for attending medical appointments, removal from preferred classroom assignments, and in some cases periods of unpaid leave or lost benefits.
+
+Perhaps the most notable structural finding: **SPS had no district-level policy at all governing pregnancy accommodation requests** when the AG filed suit.
 
 ## What the primary source says
 
-The AG's April 15, 2025 press release states that the AG's office approached SPS before filing and sought a pre-suit resolution; "those discussions were unsuccessful." The lawsuit seeks court orders halting all discriminatory practices and restitution for every affected employee. Attorney General Nick Brown stated: "These employees suffered mentally, physically, and financially because of the school district's actions. The Legislature has been clear that employers must accommodate the health needs of their pregnant and nursing workers, which is why Washington has laws banning employers from doing what Seattle Public Schools did to its employees."
+The AG's April 15, 2025 press release states that the AG's office approached SPS before filing and sought a pre-suit resolution; "those discussions were unsuccessful." The lawsuit seeks court orders requiring SPS to stop all discriminatory practices and to pay restitution to every affected employee.
 
-Following the lawsuit, in November 2025, SPS published a new district policy — Policy 5010SP.B (Workplace Accommodations for Pregnancy and Nursing) — citing the same RCWs the AG complaint invokes (RCW 43.10.005 and RCW 49.60). The policy adoption is consistent with the lawsuit having prompted a remedial response, though the AG case has not been publicly resolved.
+Attorney General Nick Brown stated: "These employees suffered mentally, physically, and financially because of the school district's actions. The Legislature has been clear that employers must accommodate the health needs of their pregnant and nursing workers, which is why Washington has laws banning employers from doing what Seattle Public Schools did to its employees."
+
+In November 2025, after the lawsuit was filed, SPS published a new district policy — Policy 5010SP.B (Workplace Accommodations for Pregnancy and Nursing) — citing the same state laws the AG complaint invokes. Whether that policy satisfies the AG's demands has not been publicly resolved.
 
 ## Status
 
-Case active as of this record's last update. SPS's adoption of Policy 5010SP.B in November 2025 is a documented post-suit district action but no settlement, consent decree, or court order has been confirmed. The AG's office invited current and former employees to come forward (seattleschoolslawsuit@atg.wa.gov; 833-660-4877 option 5), implying the class of affected employees remains open.
+Case active as of this record's last update. SPS published Policy 5010SP.B in November 2025 but no settlement, consent decree, or court order has been confirmed. The AG's office invited current and former employees to come forward at seattleschoolslawsuit@atg.wa.gov or 833-660-4877 option 5.
 
 ## Why it's in the registry
 
-Tier 1 sources: the AG's press release confirming filing, court, statutes, and case team; the SPS post-suit policy adoption citing the same RCWs. Tier 2 confirming coverage from Seattle Times (Claire Bryan), KIRO 7, KOMO News (Whitaker), and Fox 13. The case documents a structural failure — the absence of any district-level pregnancy-accommodation policy — that the AG's enforcement action then prompted SPS to fix. The retaliation allegations remain to be adjudicated.
+SPS is the largest school district in Washington. This case documents a structural failure — the complete absence of a district-wide pregnancy-accommodation policy — that the AG's enforcement action then prompted SPS to create. The retaliation allegations remain to be decided in court. Confirming coverage came from the Seattle Times (Claire Bryan), KIRO 7, KOMO News, and Fox 13.
 
 ## Reform implication
 
-Three reforms map here. First, employer civil-rights compliance audits as a routine board-level oversight item rather than a reactive measure triggered only by external enforcement. Second, baseline written policy for any accommodation category established by state statute, with audit trails for requests and responses. Third, explicit retaliation protections enforced through HR with reporting pathways that do not route through the supervisor alleged to be the source of the retaliation. See [reform: employer_civil_rights_compliance], [reform: pregnancy_accommodation_policy], [reform: retaliation_protections].
+Three reforms apply here. First, employer civil-rights compliance reviews as a routine board-level item, not something that only happens after a state enforcement action. Second, a written policy for every accommodation category required by state law, with a clear process for employees to request accommodations and a paper trail showing how each request was handled. Third, retaliation protections enforced through HR with reporting pathways that do not route through the same supervisor who allegedly denied the accommodation. See [reform: employer_civil_rights_compliance], [reform: pregnancy_accommodation_policy], [reform: retaliation_protections].
 
 ## Relationship to other cases
 
 - SPS-2025-003 (structural deficit) — the absence of policy infrastructure documented here parallels broader governance gaps in the structural deficit case.
-- SPS-2025-001 (Paid Lunch Equity) and SPS-2025-002 (ECF unresolved finding) — same period, same institution; the AG complaint and the SAO audit findings together describe a comprehensive SPS governance picture in 2024-2025.
+- SPS-2025-001 (Paid Lunch Equity) and SPS-2025-002 (ECF unresolved finding) — same period, same institution; the AG complaint and the State Auditor's Office (SAO) audit findings together describe a comprehensive SPS governance picture in 2024-2025.
 - SPS-2025-004 (Nathan Hale antisemitism lawsuit) — different protected class, same period; both reflect civil-rights liability exposure at the district.
 
 ## Open follow-ups

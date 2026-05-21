@@ -96,22 +96,32 @@ tags:
   - king_county
 ---
 
+**King County's auditor flagged 19 contractors for financial irregularities inside the county's Department of Community and Human Services (DCHS) — and when the agency's own response raised concerns, the county auditor wrote a letter expressing "deep concern" and the investigation was handed to the independent Ombudsman.**
+
 ## What happened
 
-Following the King County Auditor's 2025 review of DCHS contracting (KC-2025-001), 19 contractor organizations were flagged for "dubious expenses" and financial irregularities. In October 2025, Auditor Kymber Waltmunson sent a letter to the office of King County Executive Shannon Braddock expressing "deep concern" about DCHS's response to the audit findings. In late 2025, the King County Ombudsman's Office assumed oversight of the investigation from DCHS internal review. The Ombudsman's director, Jeremy Bell, is overseeing the inquiry, with an outside investigator contract pending.
+Following the King County Auditor's 2025 review of DCHS contracting, 19 contractor organizations were flagged for financial irregularities described as "dubious expenses."
+
+In October 2025, County Auditor Kymber Waltmunson sent a letter to the office of King County Executive Shannon Braddock expressing "deep concern" about how DCHS was handling the audit findings internally. By late 2025, the King County Ombudsman's Office had taken over the investigation from DCHS's internal review process. Ombudsman director Jeremy Bell is overseeing the inquiry, with an outside investigator contract pending.
+
+Examples of irregularities cited in the investigation and Seattle Times reporting:
+- An executive director who loaned herself $14,000 without board consent
+- A nonprofit executive paid 46% above budget
+- Suspected forged invoices and agreements
+- A $111,000 nonprofit donation to an organization connected to a board member
 
 ## What the primary source says
 
-The King County Ombuds Office report OMB20250697 (Tier 1) documents the scope of the programmatic contract evaluation. Seattle Times reporting (Tier 2, November 28, 2025) confirmed the transfer of investigative authority to the Ombudsman. The same reporting cited specific examples drawn from the investigation: an executive director who loaned herself $14,000 without board consent; a nonprofit executive paid 46% above budget; suspected forged invoices and agreements; and a $111,000 nonprofit donation to a group connected to a board member.
+The King County Ombuds Office report OMB20250697 documents the scope of the programmatic contract evaluation. Seattle Times reporting on November 28, 2025, confirmed the transfer of investigative authority to the Ombudsman and cited specific irregularity examples from the ongoing investigation.
 
 ## Status
 
-Under investigation by the King County Ombudsman. No criminal charges have been filed as of this record's last update. An outside investigator contract was pending as of late 2025. DCHS has acknowledged the audit findings and is cooperating with the Ombudsman review.
+Under investigation by the King County Ombudsman as of this record's last update. No criminal charges filed. An outside investigator contract was pending as of late 2025. DCHS has acknowledged the audit findings and is cooperating.
 
 ## Why it's in the registry
 
-This is a documented oversight escalation — a case in which internal agency review was found inadequate by the independent auditor, prompting transfer to an external oversight body. The 19 contractors flagged, the specific irregularities documented, and the auditor's public expression of concern about the agency's response are all Tier 1 and Tier 2 documented facts. This case is distinct from KC-2025-001 (the original DCHS audit) and serves as the downstream accountability action triggered by that audit.
+This case documents what happens when an agency's internal review of its own contractors is found inadequate by the independent auditor. The auditor had to write a public letter of concern before the investigation was escalated to an outside body. That escalation path — taking months — is itself a structural finding. This case is downstream from KC-2025-001 (the original DCHS systemic audit).
 
 ## Reform implication
 
-The chain of events — audit identifies irregularities, agency internal review is found inadequate, auditor writes public letter of concern, Ombudsman takes over — illustrates the cost of not having a standing independent investigative authority. An Inspector General with direct investigative authority, reporting to the County Council, would have assumed jurisdiction immediately rather than requiring a multi-step escalation process over months. See [reform: independent_inspector_general] and [reform: subrecipient_monitoring].
+The multi-step escalation process here — audit, inadequate internal response, public letter of concern, Ombudsman takeover — is what happens when there is no standing independent investigative authority with direct jurisdiction. An Inspector General reporting to the County Council, not the Executive, would have assumed jurisdiction immediately. See [reform: independent_inspector_general] and [reform: subrecipient_monitoring].

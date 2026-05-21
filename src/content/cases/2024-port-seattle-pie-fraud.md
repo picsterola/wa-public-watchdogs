@@ -89,33 +89,40 @@ tags:
   - misappropriation
 ---
 
+**A Port of Seattle internal audit found that a nonprofit workforce contractor had misappropriated approximately $250,000 in public funds — and had been reporting 45 clients served when the real number was 10, and 21 job placements when the real number was zero.**
+
 ## What happened
 
-The Port of Seattle's Internal Audit Department published Report #2024-17 in December 2024, documenting that approximately $250,000 was misappropriated from Partner in Employment (PIE), a Port nonprofit subrecipient, by PIE's Executive Director Hien Kieu. PIE held approximately $509,000 in Port contracts.
+The Port of Seattle's Internal Audit Department published Report #2024-17 in December 2024, documenting that approximately $250,000 was misappropriated from Partner in Employment (PIE), a nonprofit that held approximately $509,000 in Port of Seattle contracts, by PIE's Executive Director Hien Kieu.
 
-Specific performance falsifications documented in the audit:
-- April 2024: PIE reported 45 clients served; actual count was 10
-- April 2024: PIE reported 21 job placements; actual count was zero
+The audit documented specific performance falsifications:
+- April 2024: PIE reported serving 45 clients; the actual count was 10
+- April 2024: PIE reported 21 job placements; the actual count was zero
 
-Port staff involved in the contracting relationship: Bookda Gheisar (Senior Director, EDI) and Anna Pavlik (Director, Workforce Development).
+Port staff involved in the contracting relationship included Bookda Gheisar (Senior Director, Office of Equity, Diversity, and Inclusion) and Anna Pavlik (Director, Workforce Development).
 
 ## What the primary source says
 
-The audit report itself is the Tier 1 source. It documents the misappropriation, the falsified performance metrics, and the Port contract amounts. It does not confirm criminal referral status — that information would require a PRR to the Port and to the King County Sheriff's Office.
+The Port of Seattle Internal Audit Report #2024-17 is the primary source. It documents the misappropriation amount, the falsified performance numbers, and the Port contract totals. Criminal referral status was not confirmed in the audit report; confirming it would require a Public Records Act request to the Port and to the King County Sheriff's Office.
 
 ## Status
 
-PIE contracts with the Port were suspended following the audit. Criminal referral status not publicly confirmed. This is an audit-finding-level case until further action surfaces.
+PIE's contracts with the Port were suspended following the audit. No criminal charges have been publicly announced. This is an audit-finding-level case until further action is confirmed.
 
 ## Why it's in the registry
 
-Tier 1 (Port Internal Audit) documented case of nonprofit subrecipient fraud against a regional public agency, with named actors and confirmed dollar loss. The falsification of client-served and placement counts is significant beyond the dollar figure because it speaks to whether outcome data from public-funded nonprofit programs can be trusted as reported.
+A Port audit confirmed misappropriation with named actors and a confirmed dollar loss. The performance falsifications — reporting four and a half times more clients served than actually served, and reporting job placements when there were none — raise a broader question: how reliable is outcome data from publicly funded nonprofit workforce programs if program management didn't catch this before an audit?
 
 ## Reform implication
 
-Three reforms are implicated. First, nonprofit subrecipient performance verification at intervals shorter than annual — the 45-vs-10 and 21-vs-zero gap should have been caught by program management, not internal audit. Second, Port Internal Audit authority and resourcing to act on red flags faster. Third, standardized outcome-data verification protocols for workforce programs across regional agencies that contract with nonprofit providers. See [reform: nonprofit_subrecipient_monitoring].
+Three reforms apply:
+1. Nonprofit subrecipient performance verification at intervals shorter than the annual audit cycle — the 45-vs-10 and 21-vs-zero gaps should have been caught by program management, not internal audit
+2. Port Internal Audit authority and resourcing to flag red flags faster
+3. Standardized outcome-data verification protocols for workforce programs across regional agencies that contract with nonprofit providers
+
+See [reform: nonprofit_subrecipient_monitoring].
 
 ## Relationship to other cases
 
-- KC-2026-001 (KCRHA Clark Nuber forensic audit) covers similar themes around regional-agency subrecipient oversight failures.
-- A PRR to Port of Seattle for the post-audit contract action timeline is the next investigatory step.
+- KC-2026-001 (KCRHA forensic audit) covers similar regional-agency subrecipient oversight failures.
+- A Public Records Act request to the Port for the post-audit contract action timeline is the next investigatory step.

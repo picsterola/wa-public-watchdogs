@@ -86,28 +86,37 @@ tags:
   - critical_infrastructure
 ---
 
+**A Rhysida ransomware attack hit the Port of Seattle in August 2024, exposing data for approximately 90,000 people — who weren't notified until eight months later. The Port refused to pay the $6 million ransom.**
+
 ## What happened
 
-On August 24, 2024, the Port of Seattle was hit by a Rhysida ransomware attack affecting systems supporting Seattle-Tacoma International Airport and other Port operations. The Port refused to pay the approximately $6 million ransom demanded.
+On August 24, 2024, the Port of Seattle was hit by a Rhysida ransomware attack affecting systems supporting Seattle-Tacoma International Airport and other Port operations. The Port refused to pay the approximately $6 million ransom demanded by the attackers.
 
-In April 2025, the Port notified approximately 90,000 individuals that their personal data had been exposed. The eight-month gap between attack and individual notification has drawn attention from cybersecurity reporters covering the case.
+In April 2025, the Port notified approximately 90,000 individuals that their personal data had been exposed in the attack. That is roughly eight months between the attack and individual notification.
+
+No wrongdoing by Port leadership has been alleged. The decision to refuse the ransom is documented and defensible. The registry flags this case for the structural questions it raises about notification timelines and critical infrastructure cybersecurity standards.
 
 ## What the primary source says
 
-The Port's April 2025 public notice confirms the attack date, the approximate number of individuals notified, and the categories of data exposed. The ransom amount and the decision to refuse payment were widely reported by KOMO News, The Record, and others in early April 2025.
+The Port's April 2025 public notice confirms the attack date, the approximate number of affected individuals, and the data categories exposed. The ransom amount and the refusal to pay were widely reported by KOMO News and The Record in early April 2025.
 
 ## Status
 
-No regulatory enforcement action publicly reported. The case is categorized as closed_no_action at the regulatory level, though the underlying response-and-recovery costs to the Port remain unitemized in public reporting.
+No regulatory enforcement action has been publicly reported. The Port's response and recovery costs have not been itemized in public reporting.
 
 ## Why it's in the registry
 
-This is a documented structural-failure case affecting a regional public agency with critical infrastructure responsibilities. The case is not about wrongdoing by Port leadership — the decision to refuse the ransom is defensible — but about the structural questions that surface around breach-notification timelines and critical infrastructure cybersecurity standards. The eight-month notification gap is the specific structural item flagged.
+This is a documented structural failure at a public agency responsible for critical regional infrastructure. The eight-month notification gap between attack and individual notification is the specific item flagged. The registry documents this as a process and standards failure, not a misconduct allegation.
 
 ## Reform implication
 
-Three reform categories: (1) state-level breach-notification timeline tightening for critical infrastructure operators (RCW 19.255); (2) ransomware response protocol standards adopted across regional public agencies; (3) cybersecurity audit and reporting requirements for agencies operating critical infrastructure such as airports and ports. See [reform: critical_infrastructure_cybersecurity].
+Three reform categories apply here:
+1. State-level breach-notification timeline tightening for critical infrastructure operators (RCW 19.255)
+2. Standardized ransomware response protocols across regional public agencies
+3. Cybersecurity audit and reporting requirements for agencies operating critical infrastructure like airports and ports
+
+See [reform: critical_infrastructure_cybersecurity].
 
 ## Relationship to other cases
 
-- Standalone Port of Seattle case unrelated to POS-2024-001 (PIE fraud) substantively, but both surface in the same audit/oversight cycle for the Port.
+- Standalone Port of Seattle case unrelated to POS-2024-001 (PIE fraud) substantively, but both appear in the same audit/oversight cycle for the Port.

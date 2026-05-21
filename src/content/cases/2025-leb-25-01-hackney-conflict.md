@@ -64,22 +64,26 @@ tags:
   - house
 ---
 
+**A complaint alleging a conflict of interest by Rep. David Hackney was reviewed and decided by the Washington State Legislative Ethics Board (LEB) in March 2025; the full opinion has not been independently confirmed.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 25-01 on March 4, 2025, concerning a complaint against Rep. David Hackney. The subject matter is identified in the LEB docket as "Conflict of Interest." The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.
+A complaint was filed against Washington State Rep. David Hackney alleging a conflict of interest. The Legislative Ethics Board (LEB) reviewed the complaint and issued Opinion 25-01 on March 4, 2025 — the first LEB opinion issued in 2025.
+
+The complaint is identified in the LEB docket as "Conflict of Interest." No dollar amount is associated with this case in the public record.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.
+The LEB's publicly posted opinion index records the case number, date, respondent name, and subject matter. The full opinion text has not been independently confirmed in sources available at the time of this record. This entry is based on the docket listing only.
 
 ## Status
 
-LEB opinion issued March 4, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.
+LEB opinion issued March 4, 2025. The outcome — whether Hackney was found to have violated ethics rules or the complaint was dismissed — is not confirmed in this record. This entry will be updated when the full opinion is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving an elected state Representative and a conflict-of-interest allegation. It is included as part of the documented 2024-2026 pattern of LEB complaints involving conflict-of-interest allegations. The registry treats the pattern as a structural finding worth surfacing.
+Conflict of interest is the most common category of LEB complaints in 2025. This is the first of five such cases filed that year against House members (Cases 25-01, 25-04, 25-06, 25-11, 25-37). The volume points to a structural gap, not isolated individual conduct.
 
 ## Reform implication
 
-The volume of conflict-of-interest complaints at the LEB — five filed in 2025 alone — points to the absence of a proactive disclosure regime. Requiring legislators to file affirmative annual disclosures of outside income sources and financial interests, published publicly and cross-checked against legislative committee assignments, would reduce the conditions that generate complaints. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+Five conflict-of-interest complaints in a single year at the LEB is not a coincidence — it reflects a disclosure system that catches problems reactively, after someone files a complaint. Affirmative annual disclosures of outside income sources and financial interests, published publicly and cross-checked against committee assignments, would surface potential conflicts before they become formal proceedings. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

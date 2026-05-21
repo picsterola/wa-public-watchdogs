@@ -66,22 +66,26 @@ tags:
   - house
 ---
 
+**A complaint alleging a conflict of interest tied to outside employment by Rep. Amy Walen was reviewed and decided by the Washington State Legislative Ethics Board (LEB) in April 2025; the full opinion has not been independently confirmed.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 25-06 on April 10, 2025, concerning a complaint against Rep. Amy Walen. The subject matter is identified in the LEB docket as "Conflict of Interest – Outside Employment." The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.
+A complaint was filed against Washington State Rep. Amy Walen alleging a conflict of interest related to outside employment. The Legislative Ethics Board (LEB) reviewed the complaint and issued Opinion 25-06 on April 10, 2025.
+
+The complaint is identified in the LEB docket as "Conflict of Interest – Outside Employment." No dollar amount is associated with this case in the public record.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.
+The LEB's publicly posted opinion index records the case number, date, respondent name, and subject matter. The full opinion text has not been independently confirmed in sources available at the time of this record. This entry is based on the docket listing only.
 
 ## Status
 
-LEB opinion issued April 10, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.
+LEB opinion issued April 10, 2025. The outcome — whether Walen was found to have violated ethics rules or the complaint was dismissed — is not confirmed in this record. This entry will be updated when the full opinion is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving an elected state Representative and an outside-employment conflict-of-interest allegation. It is included as part of the documented 2025 pattern of LEB outside-employment complaints. The registry treats the cluster of similar cases in a single session cycle as a structural finding.
+This is one of three outside-employment conflict-of-interest complaints against House members that reached a formal LEB opinion in 2025 (alongside Cases 25-04 and 25-11). The cluster of nearly identical cases within a single session cycle reflects a structural gap in how the legislature handles conflicts between legislators' outside income and their official duties.
 
 ## Reform implication
 
-The pattern of outside-employment conflict complaints at the LEB — three in 2025 alone involving House members — reflects a structural gap in the legislature's conflict-disclosure regime. A mandatory annual disclosure requirement for legislators, with public posting in a machine-readable format and cross-referencing against committee assignments, would surface potential conflicts before they require formal complaint proceedings. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+Three outside-employment conflict complaints in a single year at the LEB signals a disclosure regime that is not catching these issues early. A mandatory annual disclosure for legislators — public, machine-readable, and cross-referenced against committee assignments — would surface potential conflicts before they become formal complaints. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

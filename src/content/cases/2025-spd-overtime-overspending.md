@@ -74,28 +74,36 @@ tags:
   - city_of_seattle
 ---
 
+**The Seattle Police Department (SPD) was on track to blow through its $53 million overtime budget by $5.5 million in 2025 — and nobody in City government knew until an internal memo circulated in November, nearly a year into the budget year.**
+
 ## What happened
 
-A November 18, 2025 internal SPD memo, surfaced by PubliCola on December 1, 2025, projected the Seattle Police Department would run a $5.5 million deficit against its 2025 overtime budget if typical overtime use continued through year-end. The 2025 city budget had already added $12.8 million in overtime funding, bringing the SPD overtime budget to over $53 million.
+PubliCola published an internal Seattle Police Department (SPD) memo dated November 18, 2025, on December 1, 2025. The memo projected that SPD would exceed its 2025 overtime budget by approximately $5.5 million if typical overtime continued through the end of the year. The 2025 budget had already added $12.8 million in overtime funding, bringing the total overtime budget above $53 million.
 
-In response, SPD imposed mid-year restrictions: all overtime required Assistant Chief or Executive Director pre-approval; no overtime would be funded for property crime investigations (burglary, theft), nonviolent drug crimes, community meetings, or Real-Time Crime Center work through the end of 2025; homicide investigations and parking enforcement required direct command-staff approval.
+In response, SPD imposed immediate mid-year restrictions:
+
+- All overtime required pre-approval from an Assistant Chief or Executive Director.
+- No overtime for property crime investigations (burglary, theft), nonviolent drug crimes, community meetings, or Real-Time Crime Center work through year-end.
+- Homicide investigations and parking enforcement required direct command-staff approval.
+
+The City Council passed an amendment requiring SPD to include overtime data in its quarterly hiring reports — qualified by the language "when available."
 
 ## What the primary source says
 
-This case is currently sourced to a single Tier 2 outlet (PubliCola) that reviewed the underlying internal memo. The underlying memo and SPD's quarterly hiring report (which the City Council amended to include overtime data "when available") would be Tier 1 sources but have not been independently verified by this record. SPD media relations did not respond to PubliCola's questions.
+This case is based on a single Tier 2 report (PubliCola, December 1, 2025) that reviewed the underlying internal memo. SPD did not respond to PubliCola's questions. The underlying memo and SPD's quarterly hiring report would be Tier 1 sources but have not been independently verified for this record.
 
 ## Status
 
-Corrective restrictions in effect through end of 2025. No public disclosure as of this record's last update on actual year-end overtime spending versus the November projection. The City Council amendment requiring overtime data in quarterly hiring reports is in effect.
+Corrective restrictions were in effect through end of 2025. Year-end actual overtime spending versus the November projection had not been publicly disclosed as of this record's last update. The Council amendment requiring overtime data in quarterly reports is in effect.
 
 ## Why it's in the registry
 
-This is a documented mid-year budget overrun on a defined-purpose line item ($53M overtime) in a high-public-interest department. The case is recorded as a structural failure — not misconduct — because the trigger for corrective action was an internal department memo rather than a standing budget-variance reporting mechanism.
+A $53 million budget line in a high-visibility public department was on track to overspend by $5.5 million, and the corrective action was triggered by an internal department memo — not a standing budget-monitoring system. The City Council and public had no visibility into the overrun until it was already a crisis. That is a structural failure in budget oversight, not misconduct.
 
 ## Reform implication
 
-The structural gap is the absence of monthly or quarterly budget-variance reporting with automatic Council notification when variance exceeds a defined trigger. The Council's recent amendment to include overtime data in quarterly hiring reports is a partial step but is qualified by "when available" language. See [reform: budget_oversight] and [reform: quarterly_reporting].
+The structural gap is the absence of a monthly or quarterly budget-variance reporting requirement with automatic City Council notification when a department's spending exceeds a defined threshold. The Council's amendment to add overtime data to quarterly hiring reports is a step in the right direction but is weakened by the "when available" qualifier. See [reform: budget_oversight] and [reform: quarterly_reporting].
 
 ## Note on sourcing
 
-This record is held to a single Tier 2 source. A second independent source (Tier 1 or Tier 2) confirming the $5.5M figure or the underlying memo would strengthen the record. If contradictory information surfaces — for example, if year-end actuals come in below the November projection — the record will be updated.
+This record rests on a single Tier 2 source. A second independent source confirming the $5.5 million figure or the underlying memo would strengthen it. If year-end actuals come in below the November projection, this record will be updated accordingly.

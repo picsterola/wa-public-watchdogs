@@ -74,22 +74,34 @@ tags:
   - project_management
 ---
 
+**Washington's Department of Labor and Industries (L&I) has spent $31 million over ten years on a workers' compensation IT upgrade that still hasn't been delivered — and is now projected to cost $292 million with a completion date of 2034.**
+
 ## What happened
 
-Washington State's Department of Labor and Industries (L&I) began a workers' compensation system IT modernization project in 2015. As of April 2025, the project had spent approximately $31 million over ten years without delivering the system. The current estimated cost to complete stands at $292 million — reduced from a prior estimate of $362 million after scope adjustments. The project is not terminated; the agency is seeking $18 million in additional budget in the current cycle, with a projected wrap-up date of 2034.
+The Department of Labor and Industries (L&I) launched a project in 2015 to modernize its workers' compensation computer system. As of April 2025, the agency had spent approximately $31 million over a decade with nothing delivered.
+
+The total cost estimate has been revised repeatedly:
+- A prior estimate of $362 million was scaled back
+- The current estimate stands at $292 million after scope cuts
+- The agency is asking for $18 million more in the current budget cycle
+- Projected delivery: 2034
+
+No fraud allegation has been made. This is a project management and cost-control failure.
 
 ## What the primary source says
 
-Governing magazine, in a piece reprinted by the Seattle Times (April 14, 2025), reported that the project has had more than seven project directors since 2019 and has been paused and reset multiple times. Former state Sen. Reuven Carlyle was quoted describing the statewide IT project failure pattern as "total, complete, absolute nuclear meltdown failure ... on virtually every large IT project." The reporting identified 70 ongoing state IT projects totaling $2.5 billion, with seven assessed at significant risk.
+Governing magazine, in a piece reprinted by the Seattle Times on April 14, 2025, reported that the project has cycled through more than seven project directors since 2019 alone and has been paused and restarted multiple times. Former state Sen. Reuven Carlyle was quoted calling the statewide pattern of IT failures "total, complete, absolute nuclear meltdown failure ... on virtually every large IT project."
+
+The same reporting found 70 ongoing state IT projects totaling $2.5 billion in public money, with seven rated at significant risk.
 
 ## Status
 
-The L&I project is ongoing. The agency has not terminated the project; it is in a reduced-scope configuration with a 2034 target delivery date. No criminal investigation or audit finding specific to fraud has been issued; this is a project management and cost-control failure.
+The project is ongoing in a reduced-scope configuration. No enforcement action or fraud investigation has been opened. The 2034 delivery target remains in place.
 
 ## Why it's in the registry
 
-This is a documented structural failure in a multi-decade state IT project. The $31 million spent figure and the $292 million current estimate are publicly reported and traceable to named journalism. The registry includes this case because the failure pattern — repeated resets, budget growth, director turnover, and no delivery — constitutes a structural management failure with material public cost, independent of any allegation of fraud.
+Washington has a documented statewide pattern of large IT project failures. This case is one data point in that pattern: a decade of spending, repeated leadership turnover, multiple resets, and a price tag that has grown nearly tenfold from original estimates. The failure has a material cost to taxpayers independent of any fraud.
 
 ## Reform implication
 
-The statewide pattern of large IT project failures points to the absence of an independent oversight mechanism with authority to stop projects before they consume hundreds of millions in additional funds. Independent stage-gate reviews — conducted by a body outside the sponsoring agency and with authority to recommend project termination — are the structural control repeatedly missing from these procurements. See [reform: it_project_oversight] and [reform: procurement_reform].
+Projects this size keep going because there is no independent authority with the power to stop them. Stage-gate reviews conducted by a body outside the sponsoring agency — with authority to actually terminate a project when costs spiral past defined thresholds — are the structural control repeatedly missing from these procurements. See [reform: it_project_oversight] and [reform: procurement_reform].

@@ -83,22 +83,28 @@ tags:
   - ferguson
 ---
 
+**Then-Attorney General Bob Ferguson transferred $1.2 million in surplus campaign funds to his new gubernatorial campaign account in 2023; a complaint was filed, the Washington State Public Disclosure Commission (PDC) dismissed it finding no rule was broken, and the PDC then changed the rule Ferguson had used.**
+
 ## What happened
 
-In 2023, then-Attorney General Bob Ferguson transferred approximately $1.2 million in surplus funds from his prior AG campaign accounts into his newly launched gubernatorial campaign. The transfer used an existing PDC surplus-funds rule that allowed such transfers under the rules then in effect. A complaint was subsequently filed with the PDC. The PDC dismissed the complaint by written order dated December 21, 2023, finding no violation of the rule as it then existed. The PDC subsequently amended its surplus-funds guidance, closing the transfer mechanism Ferguson had used.
+In 2023, then-Attorney General Bob Ferguson transferred approximately $1.2 million in surplus funds from his prior AG campaign accounts into his newly launched gubernatorial campaign. The transfer was done under existing Washington State Public Disclosure Commission (PDC) surplus-funds rules, which allowed such transfers at the time.
+
+A complaint was subsequently filed with the PDC. The PDC dismissed the complaint by written order dated December 21, 2023, finding no rule had been violated. The PDC then amended its surplus-funds guidance, closing the specific transfer mechanism Ferguson had used.
+
+This case is not in the registry as a finding of fraud or wrongdoing. No rule was broken. The PDC found the transfer compliant. The case is included because the transfer was the direct cause of a rule change — and that sequence is itself a governance finding.
 
 ## What the primary source says
 
-The PDC's written dismissal order (Tier 1, December 21, 2023) is the controlling document. It found the transfer compliant with PDC rules as they existed at the time of the transfer. The Seattle Times reported on the transfer and the pending rule change before the dismissal. The Columbian reported on the initial complaint.
+The PDC's written dismissal order (December 21, 2023) is the controlling document. It found the transfer compliant with PDC rules as they existed at the time. The Seattle Times reported on the transfer and the pending rule change before the dismissal. The Columbian reported on the initial complaint.
 
 ## Status
 
-Complaint dismissed. Rule subsequently amended. The transfer itself stands as completed; no restitution or reversal was ordered. This case is resolved in the sense that both the complaint and the rule-change process have concluded.
+Complaint dismissed. Rule subsequently amended. The transfer stands as completed; no restitution was ordered. Both the complaint and the rule-change process have concluded.
 
 ## Why it's in the registry
 
-This is a documented rule-gaming case with a completed rule change as its consequence. The PDC dismissed the complaint because no rule was violated — but the rule was then changed because of the transfer. The registry includes this case not as a finding of wrongdoing but as a documented instance of an actor using a regulatory gap that was subsequently identified as undesirable and closed. The reform is the point.
+The PDC dismissed the complaint because no rule was violated — but the rule was then changed specifically because of the transfer. The registry documents this as an instance of an actor using a regulatory gap that was identified as undesirable and closed after the fact. The reform is the point, not misconduct.
 
 ## Reform implication
 
-The surplus-funds gap that Ferguson used has been closed by PDC guidance change. The reform implication is about the cycle: gaps exist in campaign finance rules, high-profile actors find and use them, complaints generate attention, and rules are eventually updated. A proactive PDC self-audit cycle — reviewing surplus-fund and transfer rules on a defined schedule rather than reactively after high-profile uses — would close such gaps before rather than after use. See [reform: campaign_finance_reform] and [reform: pdc_enforcement].
+The surplus-funds gap Ferguson used has been closed by PDC guidance change. The broader issue is the cycle: campaign finance regulatory gaps exist, high-profile actors find and use them, complaints generate attention, rules are eventually updated. A proactive PDC self-audit cycle — reviewing surplus-fund and transfer rules on a defined schedule rather than reactively after high-profile uses — would close such gaps before they're exploited. See [reform: campaign_finance_reform] and [reform: pdc_enforcement].

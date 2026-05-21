@@ -96,22 +96,30 @@ tags:
   - king_county_council
 ---
 
+**A King County audit found that the county's Department of Community and Human Services (DCHS) was overseeing just 1% of required contractor spending reviews against a 33% target — across a program that had grown to more than $1.8 billion in annual contracting.**
+
 ## What happened
 
-The King County Auditor's 2025 review of the Department of Community and Human Services (DCHS) found that the agency's contracting program had grown from approximately $922 million in 2019-2020 to more than $1.8 billion across 2023-2024 (figures per the September 9, 2025 errata; the original audit stated the 2019-2020 figure as $22 million, which was corrected). The share of expenditures subject to required subrecipient monitoring fell to approximately 1% against a 33% target. The audit identified altered invoices used to inflate reimbursements, payments to subcontractors operating outside approved contract scopes, and a population of contracting organizations of which nearly half were classified as "high risk."
+The King County Auditor published a review of King County's Department of Community and Human Services (DCHS) contracting program in August 2025. The findings:
+
+- DCHS's contracting program grew from approximately $922 million in 2019-2020 to more than $1.8 billion in 2023-2024 (figures per the September 9, 2025 errata; the original audit's 2019-2020 figure of $22 million was incorrect and was formally corrected)
+- Required subrecipient monitoring — the process of checking that contractors actually spent money as agreed — covered approximately 1% of expenditures against a federal target of 33%
+- The audit found altered invoices used to inflate reimbursements, payments to contractors working outside their approved contract scopes, and nearly half of the contractor population classified as "high risk"
+
+No individual agency staff members have been charged with fraud. The audit documents a systemic oversight failure, not isolated misconduct.
 
 ## What the primary source says
 
-Per the King County Auditor's report (2025), the program lacked the subrecipient monitoring required by federal grant rules, and the controls in place were insufficient to detect improper payments at the scale identified. The Auditor referred specific cases for further investigation by the Ombudsman and outside authorities.
+The King County Auditor's report states that DCHS lacked the subrecipient monitoring required by federal grant rules, and that existing controls were insufficient to detect improper payments at the scale identified. The Auditor referred specific contractor cases for further independent investigation.
 
 ## Status
 
-Audit findings are public. Nineteen contractors were subsequently referred to the King County Ombudsman for independent investigation (tracked separately as case KC-2025-003). DCHS has acknowledged the audit and is publicly working through a corrective action plan. No criminal charges have been filed against agency staff as of the last update to this record.
+Audit findings are public. Nineteen contractors were referred to the King County Ombudsman for independent investigation (tracked separately as KC-2025-003). DCHS has acknowledged the findings and is working through a corrective action plan. No criminal charges have been filed against agency staff as of this record's last update.
 
 ## Why it's in the registry
 
-This is a documented audit finding of systemic oversight failure in a multi-billion-dollar county program. It is included not because individuals are accused of fraud, but because the structural absence of monitoring created conditions in which fraud — alleged in multiple downstream cases — was both possible and not detectable in the ordinary course of agency operations.
+The structural absence of monitoring — not individual bad actors — is the core finding here. A program this large, with less than 1% of required oversight in place, creates the conditions in which fraud is possible and undetectable in the normal course of operations. Multiple downstream cases in this registry (including the Yolanda McGhee self-dealing case) trace directly to the oversight gap documented here.
 
 ## Reform implication
 
-The audit's central finding maps directly to the case for an independent King County Inspector General. Current oversight sits inside the executive branch that authorizes the spending; an IG reporting to the Council with subpoena power and a separate budget line is the structural reform that addresses the root cause rather than the symptoms. See [reform: independent_inspector_general] for the full proposal.
+Current oversight of DCHS contracting sits inside the executive branch that authorized the spending. An independent Inspector General reporting to the County Council — with subpoena authority and a separate budget — is the structural fix that addresses the root cause rather than the symptoms. See [reform: independent_inspector_general].

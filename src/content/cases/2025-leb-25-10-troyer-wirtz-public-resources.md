@@ -66,22 +66,26 @@ tags:
   - campaign_use
 ---
 
+**A complaint alleging that Troyer, Wirtz, Handy, and Wold used public resources for campaign purposes was reviewed and decided by the Washington State Legislative Ethics Board (LEB) in July 2025; the full opinion has not been independently confirmed.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board issued Opinion 25-10 on July 7, 2025, concerning a complaint against respondents identified in the docket as Troyer, Wirtz, Handy, and Wold. The subject matter is "Campaign and use of public resources for Private Gain." The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.
+A complaint was filed against four respondents identified in the Legislative Ethics Board (LEB) docket as Troyer, Wirtz, Handy, and Wold. The alleged conduct is described as "Campaign and use of public resources for Private Gain." The LEB reviewed the complaint and issued Opinion 25-10 on July 7, 2025.
+
+The respondents' specific roles — whether legislators, legislative staff, or others — are not specified in the publicly available docket entry. No dollar amount is associated with this case in the public record.
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index (Tier 1) records the case number, date, respondents, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry. Note that the respondents' roles (legislator, legislative employee, or other) are not specified in the docket entry alone.
+The LEB's publicly posted opinion index records the case number, date, respondent names, and subject matter. The full opinion text has not been independently confirmed in sources available at the time of this record. This entry is based on the docket listing only.
 
 ## Status
 
-LEB opinion issued July 7, 2025. This record will be updated when the full opinion text is reviewed and the roles and findings confirmed.
+LEB opinion issued July 7, 2025. Whether the complaint was upheld, dismissed, or resolved another way is not confirmed in this record. This entry will be updated when the full opinion is reviewed.
 
 ## Why it's in the registry
 
-This is a Tier 1 documented LEB proceeding involving multiple respondents and the use of public resources for campaign purposes. It is included as part of the documented 2024-2026 pattern of LEB proceedings in this conduct category, alongside cases 24-06 and 25-09. The registry treats the pattern as a structural finding.
+This is a formal LEB proceeding involving multiple respondents and alleged misuse of public resources for campaign activity. It is one of several cases in the 2024-2026 period in this same conduct category (alongside Cases 24-06 and 25-09). The registry treats the recurring pattern as a structural finding, not just individual incidents.
 
 ## Reform implication
 
-The recurring appearance of public-resources-for-campaign-purposes complaints at the LEB — across multiple years and involving both legislators and staff — indicates that the current disclosure and certification regime does not effectively prevent the conduct. Mandatory per-session certification, a clear internal audit mechanism, and financial penalties proportionate to the benefit received would shift the system from complaint-reactive to preventive. See [reform: public_resources_firewall] and [reform: ethics_enforcement_teeth].
+Campaign-use-of-public-resources complaints keep appearing at the LEB across multiple years and involving multiple people. The current system is purely reactive — it waits for someone to file a complaint. Mandatory per-session certifications by legislators and legislative employees, combined with a dedicated internal audit function and meaningful financial penalties, would shift the system toward prevention. See [reform: public_resources_firewall] and [reform: ethics_enforcement_teeth].

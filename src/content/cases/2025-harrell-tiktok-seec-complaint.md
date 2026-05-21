@@ -91,24 +91,26 @@ tags:
   - campaign_finance
 ---
 
+**Seattle's Mayor's Office launched a new official TikTok account weeks before a primary election in which Mayor Harrell was a candidate; a formal complaint was filed, reviewed, and dismissed by the Seattle Ethics and Elections Commission (SEEC), which found the account's primary purpose was not electioneering.**
+
 ## What happened
 
-In August 2025, the Mayor's Office launched a new official City of Seattle TikTok account in the weeks before the August primary election in which Mayor Bruce Harrell was a candidate. SEEC Executive Director Wayne Barnett initially declined to characterize the activity as problematic. Seattle resident Paul Chapman subsequently filed a formal SEEC complaint alleging the account constituted use of City resources for electioneering in violation of SMC 2.04.300.
+In August 2025, the Mayor's Office launched a new official City of Seattle TikTok account in the weeks immediately before the August primary election, in which Mayor Bruce Harrell was a candidate. Seattle resident Paul Chapman filed a formal complaint with the SEEC alleging the account constituted use of City resources for electioneering, in violation of Seattle Municipal Code 2.04.300.
 
-On September 4, 2025, Barnett dismissed the complaint, finding it did not lack a rational basis to conclude that the account's primary purpose was not electioneering. Chapman appealed. On October 1, 2025, the Commission heard the appeal in public session and unanimously affirmed the dismissal. The Commission issued its written Supplementary Opinion on November 5, 2025.
+On September 4, 2025, SEEC Executive Director Wayne Barnett dismissed the complaint. Chapman appealed. On October 1, 2025, the full Commission heard the appeal in a public session and unanimously affirmed the dismissal. The Commission issued its written Supplementary Opinion on November 5, 2025.
 
 ## What the primary source says
 
-Per the SEEC Supplementary Opinion (November 5, 2025), the Commission applied the multi-factor analysis from the 2005 Nickels Decision, examining content, style, tone, audience, and timing. The opinion states: "No one can credibly dispute the spike in activity in the month of August" but holds that timing alone is "insufficient as a matter of law to overcome the tone, tenor, and audience factors, none of which suggest that the primary purpose of the TikTok account was to drum up electoral support for the Mayor." The opinion notes that unmoderated public comments — many critical of the Mayor — supported a public-purpose rather than electioneering interpretation.
+The SEEC Supplementary Opinion (November 5, 2025) applied the multi-factor test from the 2005 Nickels Decision, examining content, style, tone, audience, and timing. The opinion acknowledged: "No one can credibly dispute the spike in activity in the month of August" — but held that timing alone is "insufficient as a matter of law to overcome the tone, tenor, and audience factors, none of which suggest that the primary purpose of the TikTok account was to drum up electoral support for the Mayor." The Commission also noted that the account allowed unmoderated public comments, many of them critical of the Mayor, which supported a public-purpose rather than electioneering interpretation.
 
 ## Status
 
-Complaint dismissed by Executive Director. Dismissal unanimously affirmed by the Commission. No further appeal available within the SEEC process.
+Complaint dismissed by the Executive Director. Dismissal unanimously affirmed by the Commission. No further appeal is available within the SEEC process.
 
 ## Why it's in the registry
 
-This case is included as a Tier 1 dismissed complaint to document the practical reach of the current Seattle electioneering standard. It is not included as misconduct — the SEEC explicitly found no rational basis to conclude electioneering occurred — but as a record of how the Nickels multi-factor test applies to a contemporary fact pattern. Per registry policy, dismissed cases are not tombstoned when the substantive question (here, the scope of the electioneering rule) remains a live policy issue.
+This is a dismissed complaint included to document how Seattle's current electioneering standard applies to a contemporary fact pattern. The SEEC explicitly found no violation. The case is in the registry because the underlying policy question — whether the Nickels multi-factor test is adequate to address incumbent officials expanding official communications in pre-election windows — remains a live issue.
 
 ## Reform implication
 
-The Commission's reliance on the Nickels factors, with timing as relevant-but-not-determinative, leaves a substantial gray zone for incumbent officials expanding official communication channels in pre-election windows. Reform options range from amending the Nickels factors to weight timing more heavily, to adopting a bright-line rule (e.g., no new official channels launched within a defined pre-election window). See [reform: campaign_finance_reform] and [reform: electioneering_definition].
+The Nickels test, which treats timing as relevant but not determinative, leaves a wide gray zone for incumbents who expand official communications channels before an election. Reform options include amending the Nickels factors to give more weight to timing and activity spikes, or adopting a bright-line rule prohibiting the launch of new official channels within a defined window before a primary or general election in which the official is a candidate. See [reform: campaign_finance_reform] and [reform: electioneering_definition].

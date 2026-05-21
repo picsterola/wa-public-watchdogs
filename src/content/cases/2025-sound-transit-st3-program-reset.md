@@ -109,32 +109,36 @@ tags:
   - mega_project
 ---
 
+**Sound Transit's third mass-transit package (ST3) — which voters approved in 2016 — has a cost gap of $22 to $34.5 billion against the original finance plan, forcing the agency into a major rethinking of which projects it can actually build.**
+
 ## What happened
 
-In August 2025, Sound Transit released "bottom-up" capital cost re-estimates for ST3 megaprojects, revealing a $22–30 billion shortfall in 2025 dollars against the 2016 voter-approved finance plan. Specific project impacts disclosed:
+In August 2025, Sound Transit released new "bottom-up" cost estimates for the major construction projects in Sound Transit's third mass-transit package (ST3), the regional transit expansion voters approved in 2016. The revised numbers revealed a gap of $22 to $30 billion in today's dollars against the 2016 finance plan.
 
-- West Seattle Link: grew from $4.2B (finance plan) to $7.0–$7.9B
-- Ballard Link: grew from approximately $11.9B (finance plan) to $20.1–$22.6B
+Two projects illustrate the scale:
 
-Note on baselines: The $4.2B West Seattle Link figure reflects the 2016 ST3 finance-plan estimate in year-of-expenditure dollars. Case WA-2025-ST-WSL uses the ~$2.7B 2014-dollar ballot-pamphlet figure as its baseline. Both figures are accurate within their respective baselines; the gap is a year-of-expenditure vs. constant-dollar accounting difference, not a discrepancy.
+- **West Seattle Link**: originally projected at $4.2 billion in the 2016 plan; revised to $7.0–$7.9 billion.
+- **Ballard Link**: originally projected at approximately $11.9 billion; revised to $20.1–$22.6 billion.
 
-By March 2026, at a board retreat, agency staff revised the total program shortfall to approximately $34.5 billion. The agency announced a formal "program reset" process to determine which projects to build, delay, or descope within existing taxing authority.
+By March 2026, a Sound Transit board retreat revised the total program shortfall upward again, to approximately **$34.5 billion**. The agency formally launched a "program reset" process to decide which projects to build as planned, which to delay, and which to scale back — all within the existing taxing authority voters already approved.
+
+*Note on baseline numbers: The $4.2B West Seattle Link figure is the 2016 finance-plan estimate in year-of-expenditure dollars. Case WA-2025-ST-WSL uses the ~$2.7B figure from the 2016 ballot pamphlet as its baseline. Both are accurate — they use different but valid accounting bases.*
 
 ## What the primary source says
 
-The figures cited are drawn from Sound Transit board materials and staff briefings reported by Seattle Times and The Urbanist on August 28, 2025, and Lynnwood Times on March 21, 2026. Sound Transit's own ST3 finance plan and project pages remain the underlying Tier 1 reference for the 2016 baseline figures.
+The figures come from Sound Transit board materials and staff briefings reported by Seattle Times and The Urbanist on August 28, 2025, and Lynnwood Times on March 21, 2026. Sound Transit's own Achieving Long-Term Affordability page is the agency's public acknowledgment of the program reset.
 
 ## Status
 
-Sound Transit is conducting a "program reset" as of this record's last update. The reset process is intended to align ST3 scope and sequencing with available taxing authority. No new voter-approved revenue increase has been sought. Individual project decisions, including the West Seattle Link Extension covered in case WA-2025-ST-WSL, are being made within this broader process.
+Sound Transit is working through the program reset as of this record's last update. No new voter-approved funding has been sought. Individual project decisions — including the West Seattle Link Extension covered in case WA-2025-ST-WSL — are being made within this broader process. No external investigation or audit referral has been opened.
 
 ## Why it's in the registry
 
-This is a Tier 2-sourced (multiple independent outlets) documented capital-cost shortfall against a voter-approved finance plan, with formal agency acknowledgment via a publicly announced "program reset." It is included as a structural-failure case — not because misconduct has been identified, but because the magnitude of the variance ($22–34.5B against a ~$54B 2016 plan) over the 9 years between voter approval and shortfall disclosure raises structural questions about cost-estimation, oversight, and reporting that no single existing oversight body has fully addressed.
+Voters approved ST3 in 2016 based on a finance plan. Nine years later, the agency's own internal re-estimation found a gap of up to $34.5 billion against that plan. The shortfall was not surfaced by an outside auditor or independent review — it came from an internal "bottom-up" re-estimate. That is the structural finding: no independent oversight mechanism existed to catch this earlier, when corrective options were less painful.
 
 ## Reform implication
 
-Three categories of reform are implicated: (1) independent cost-validation review at defined intervals for megaproject portfolios above a budget threshold; (2) board-level cost-variance disclosure triggers requiring public reporting when project cost estimates move beyond a defined band; (3) governance separation between project sponsors and cost estimators. The fact that the shortfall was surfaced through a "bottom-up" internal re-estimate, rather than through an external audit or independent cost validation, is itself the structural finding. See [reform: capital_project_oversight] and [reform: cost_transparency_reporting].
+Three categories of reform apply here. First, independent cost reviews at defined intervals for large public transit projects — not just internal re-estimates. Second, a board-level rule requiring public disclosure when cost estimates exceed the voter-approved baseline by a defined percentage. Third, a clearer separation between the teams inside Sound Transit that propose projects and the teams that estimate their costs. See [reform: capital_project_oversight] and [reform: cost_transparency_reporting].
 
 ## Relationship to other cases
 

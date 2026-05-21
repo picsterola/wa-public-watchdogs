@@ -74,22 +74,26 @@ tags:
   - leb_docket
 ---
 
+**A complaint alleging that House Speaker Laurie Jinkins and others used public resources for campaign purposes was filed with the Washington State Legislative Ethics Board (LEB) in October 2025; no opinion had been issued as of this record's last update.**
+
 ## What happened
 
-The Washington State Legislative Ethics Board's public docket lists Case 25-09, filed October 27, 2025, naming Speaker Laurie Jinkins and additional respondents, with the subject identified as "Campaign and use of public resources for Private Gain." The docket entry is the public-record artifact at this stage; the underlying complaint narrative and any Board opinion are the next documents required to characterize the conduct in detail.
+The Legislative Ethics Board (LEB) docket lists Case 25-09 as filed October 27, 2025, naming House Speaker Laurie Jinkins and additional respondents. The alleged conduct is described as "Campaign and use of public resources for Private Gain."
+
+The LEB's docket entry is the only public document available at this stage. The underlying complaint narrative and any Board opinion are not yet public. No dollar amount is listed in the public record.
 
 ## What the primary source says
 
-The Legislative Ethics Board's case docket (Tier 1) records the filing, the named respondents, and the topic classification. The Board has not, as of this record's last update, issued a public opinion resolving the complaint.
+The LEB case docket records the filing date, named respondents, and topic classification. The Board had not, as of this record's last update, issued a public opinion resolving the complaint. This entry is based on the docket listing only.
 
 ## Status
 
-Complaint filed; under LEB review. No finding has been issued. This record will be updated when the Board acts and when the underlying complaint and any opinion become publicly available.
+Complaint filed; under LEB review as of this record. No finding has been issued. This record will be updated when the Board acts and the underlying complaint and opinion become publicly available.
 
 ## Why it's in the registry
 
-This is an `alleged` case sourced from a Tier 1 government docket. It is included because (a) the respondent is the Speaker of the Washington State House, a public figure for whom the threshold for inclusion is appropriately lower, and (b) the case sits within a documented pattern of similar LEB filings during the 2024-2026 period (cases 24-06, 25-02, 25-03, 25-04, 25-06, 25-10, 25-11, 25-37, 25-38), several of which involve the same conduct categories. The registry treats the pattern itself as a structural finding worth surfacing, independent of how any single complaint resolves.
+The complaint names the Speaker of the Washington State House — a position that warrants a lower inclusion threshold. The case also fits within a documented pattern of similar LEB filings in the 2024-2026 period (Cases 24-06, 25-02, 25-03, 25-04, 25-06, 25-10, 25-11, 25-37, 25-38), several of which involve the same conduct categories. The registry treats the pattern itself as a structural finding, independent of how any individual complaint resolves.
 
 ## Reform implication
 
-The LEB system as currently designed combines low-visibility dockets, modest sanctions, and slow public release of opinions. A reform package would standardize the publication of complaints and opinions in machine-readable form (so patterns like this one can be tracked without manual docket review), tie financial penalties to a meaningful share of legislator compensation, and require positive certification each session that no public resources were used for campaign activity. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+The LEB system combines low-visibility dockets, modest penalties, and slow public release of opinions. A reform package would make complaints and opinions machine-readable and standardized (so patterns can be tracked without manual docket review), tie financial penalties to a meaningful share of legislator pay, and require positive per-session certification that no public resources were used for campaign activity. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
