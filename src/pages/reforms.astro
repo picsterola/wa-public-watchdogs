@@ -227,7 +227,7 @@ const topReformName = plainTitles[chartReforms[0]?.slug ?? ''] ?? chartReforms[0
     <p class="muted">No reforms have been tagged on any case yet.</p>
   )}
 
-  {featuredReforms.map((r) => (
+  {featuredReforms.map((r, i) => (
     <section id={r.slug} class="reform-section mt-8">
       <div class="section-head">
         <h2>
@@ -252,7 +252,7 @@ const topReformName = plainTitles[chartReforms[0]?.slug ?? ''] ?? chartReforms[0
         <summary>Full brief</summary>
         <p class="prose">{r.brief}</p>
       </details>
-      <details class="reform-cases-details">
+      <details class="reform-cases-details" open={i < 3}>
         <summary>
           <span class="reform-cases-summary-label">Cases pointing here</span>
           <span class="reform-cases-summary-count">{r.cases.length}</span>
@@ -271,6 +271,29 @@ const topReformName = plainTitles[chartReforms[0]?.slug ?? ''] ?? chartReforms[0
       </details>
     </section>
   ))}
+
+  <script is:inline>
+    // When the URL targets a specific reform (e.g. via the chart link
+    // #leb_transparency), auto-open that reform's "Cases pointing here"
+    // disclosure so the click feels like a jump into the cases, not a
+    // jump into a collapsed shell.
+    (function () {
+      function openTargetReform() {
+        var hash = (location.hash || '').replace(/^#/, '');
+        if (!hash) return;
+        var section = document.getElementById(hash);
+        if (!section || !section.classList.contains('reform-section')) return;
+        var details = section.querySelector('.reform-cases-details');
+        if (details && !details.open) details.open = true;
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', openTargetReform);
+      } else {
+        openTargetReform();
+      }
+      window.addEventListener('hashchange', openTargetReform);
+    })();
+  </script>
 
   {longTailReforms.length > 0 && (
     <section id="long-tail" class="reform-section mt-8">
