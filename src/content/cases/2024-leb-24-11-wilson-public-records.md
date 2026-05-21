@@ -47,11 +47,11 @@ sources:
 
 # === REFORM LINKAGE ===
 reform_argument: |
-  Case 24-11 is the public-records-compliance variant of the electronic-resources
-  category. Where Cases 24-09 and 24-10 ask what content may sit on an
-  official website, Case 24-11 asks what records must be produced from
-  an official phone. The substantive overlap is the underlying question of
-  what counts as a public resource and what duties attach when it is used.
+  Case 24-11 is the public-records side of the same electronic-resources
+  cluster as 24-09 and 24-10. 24-09 and 24-10 are about what goes on an
+  official website. 24-11 is about what has to be produced from an official
+  phone. Same underlying question: what counts as a public resource, and
+  what duties attach when an officeholder uses it.
 
 # === GOVERNANCE METADATA ===
 review_status: published
@@ -83,8 +83,8 @@ LEB opinion 24-11 was issued in 2024. The outcome — whether Wilson was found t
 
 ## Why it's in the registry
 
-Public-records compliance on official communications devices is a structural question that overlaps with several conduct categories in the LEB docket: use of public resources, electronic-resources misuse, and transparency obligations. Case 24-11 sits in this overlap. Including it documents that the registry tracks the full electronic-resources cluster — content (24-09), election-season edits (24-10), and records compliance (24-11) — rather than only the politically loudest subset.
+Public-records compliance on official phones overlaps several LEB conduct categories at once: use of public resources, electronic-resources misuse, and transparency obligations. The registry tracks the full electronic-resources cluster (content in 24-09, election-season edits in 24-10, records compliance here in 24-11) rather than only the politically loudest subset.
 
 ## Reform implication
 
-The Board's jurisdiction over public-records compliance on official devices is contested in practice: the Public Records Act gives enforcement authority to courts and the Attorney General, while the LEB has authority over use of public resources. Complaints that touch both areas tend to bounce between forums. A clearer joint-jurisdiction protocol — defining when the LEB defers to a Public Records Act action, when it proceeds, and how the docket disposition is recorded — would close the gap. See [reform: public_resources_firewall] and [reform: leb_transparency].
+Who is supposed to enforce a public-records failure on an official phone is genuinely contested. The Public Records Act gives that authority to courts and the Attorney General. The LEB has authority over use of public resources. Complaints that touch both bounce between forums. A written joint-jurisdiction rule — saying when the LEB defers to a PRA action, when it proceeds anyway, and how the disposition is recorded — would close the gap. See [reform: public_resources_firewall] and [reform: leb_transparency].

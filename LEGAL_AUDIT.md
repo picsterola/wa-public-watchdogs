@@ -6,19 +6,43 @@ Purpose: surface every actor named in a case where evidentiary_status is not "do
 
 ## Summary
 
-- 12 alleged-tier cases
+- 16 alleged-tier cases
 - 4 reported-tier cases
 - 24 documented-tier cases (not audited here)
 
 ---
 
-## Alleged tier (12)
+## Alleged tier (16)
+
+### WA-2024-001 — LEB Case 24-01 — Sen. Rebecca Saldaña, alleged use of public resources for private gain
+Slug: `leb-24-01-saldana-public-resources` · Legal status: `closed_no_action`
+
+Actors:
+  - **Rebecca Saldaña** (elected — Washington State Senator, D, Washington State)
 
 ### WA-2024-006 — LEB Case 24-06 — Sen. Mark Mullet, alleged use of public resources for campaign purposes
 Slug: `leb-24-06-mullet-public-resources` · Legal status: `closed_no_action`
 
 Actors:
   - **Mark Mullet** (elected — former Washington State Senator (left the Senate January 2025; ran for Governor), D, Washington State)
+
+### WA-2024-009 — LEB Case 24-09 — Sen. Manka Dhingra, alleged incorrect information on legislator's official website
+Slug: `leb-24-09-dhingra-website-info` · Legal status: `closed_no_action`
+
+Actors:
+  - **Manka Dhingra** (elected — Washington State Senator, D, Washington State)
+
+### WA-2024-010 — LEB Case 24-10 — Sen. Yasmin Trudeau, alleged altering of official website during election season
+Slug: `leb-24-10-trudeau-website-election` · Legal status: `closed_no_action`
+
+Actors:
+  - **Yasmin Trudeau** (elected — Washington State Senator, D, Washington State)
+
+### WA-2024-011 — LEB Case 24-11 — Sen. Jeff Wilson, alleged failure to respond to public records request for text messages on official phone
+Slug: `leb-24-11-wilson-public-records` · Legal status: `closed_no_action`
+
+Actors:
+  - **Jeff Wilson** (elected — Washington State Senator, R, Washington State)
 
 ### SEA-2025-002 — Mayor's External Affairs Director Pedro Gomez — resigned January 2025 after rape allegation referred to King County Prosecutor
 Slug: `gomez-mayors-office-allegation` · Legal status: `under_investigation`
