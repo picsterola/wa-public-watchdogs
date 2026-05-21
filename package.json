@@ -11,7 +11,9 @@
     "og": "node scripts/bake-og-bg.mjs && node scripts/generate-og-images.mjs",
     "preview": "astro preview",
     "astro": "astro",
-    "officials": "node scripts/download-officials.mjs"
+    "officials": "node scripts/download-officials.mjs",
+    "offline": "node scripts/toggle-offline.mjs --offline",
+    "online": "node scripts/toggle-offline.mjs --online"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.2.1",

@@ -24,15 +24,33 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check kill switch
+        id: killswitch
+        run: |
+          if [ -f .OFFLINE ]; then
+            echo "offline=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::.OFFLINE file present — publishing placeholder instead of full site."
+          else
+            echo "offline=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Setup Node
+        if: steps.killswitch.outputs.offline == 'false'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
       - name: Install
+        if: steps.killswitch.outputs.offline == 'false'
         run: npm ci
       - name: Build
+        if: steps.killswitch.outputs.offline == 'false'
         run: npm run build
+      - name: Build offline placeholder
+        if: steps.killswitch.outputs.offline == 'true'
+        run: |
+          mkdir -p dist
+          cp .github/offline.html dist/index.html
+          cp .github/offline.html dist/404.html
       - name: Add .nojekyll
         run: touch dist/.nojekyll
       - name: Upload artifact
