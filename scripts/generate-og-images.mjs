@@ -149,8 +149,16 @@ function headlineBlock(head, fontSize, accentWord) {
   };
 }
 
-// Card builder - returns a satori-compatible element tree
-function buildCard({ dollars, head, sub, eyebrow, accentWord }) {
+// Card builder - minimal. Three zones: wordmark, dollar+headline, url.
+function buildCard({ dollars, head }) {
+  // Truncate headline aggressively. If it's long, take first ~60 chars
+  // and cut at the nearest word boundary.
+  let trimmedHead = head;
+  if (head.length > 90) {
+    const cut = head.slice(0, 90);
+    const sp = cut.lastIndexOf(' ');
+    trimmedHead = (sp > 50 ? cut.slice(0, sp) : cut) + '…';
+  }
   return {
     type: 'div',
     props: {
@@ -167,12 +175,7 @@ function buildCard({ dollars, head, sub, eyebrow, accentWord }) {
         {
           type: 'div',
           props: {
-            style: {
-              display: 'flex',
-              width: '10px',
-              height: '100%',
-              background: ACCENT,
-            },
+            style: { display: 'flex', width: '10px', height: '100%', background: ACCENT },
           },
         },
         // Main content column
@@ -184,91 +187,46 @@ function buildCard({ dollars, head, sub, eyebrow, accentWord }) {
               flexDirection: 'column',
               justifyContent: 'space-between',
               flex: 1,
-              padding: '56px 72px',
+              padding: '64px 80px',
             },
             children: [
-              // Top lockup: ledger mark + brand wordmark + version tag (mirrors site header)
+              // Top: ledger mark + wordmark only
               {
                 type: 'div',
                 props: {
-                  style: {
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '18px',
-                  },
+                  style: { display: 'flex', alignItems: 'center', gap: '18px' },
                   children: [
-                    ledgerMark(44, CREAM),
-                    {
-                      type: 'div',
-                      props: {
-                        style: { display: 'flex', flexDirection: 'column', gap: '2px' },
-                        children: [
-                          {
-                            type: 'div',
-                            props: {
-                              style: {
-                                display: 'flex',
-                                fontFamily: 'JetBrainsMono',
-                                fontSize: '20px',
-                                letterSpacing: '0.14em',
-                                textTransform: 'uppercase',
-                                color: CREAM,
-                                fontWeight: 600,
-                              },
-                              children: 'Washington Accountability Registry',
-                            },
-                          },
-                          {
-                            type: 'div',
-                            props: {
-                              style: {
-                                display: 'flex',
-                                fontFamily: 'JetBrainsMono',
-                                fontSize: '14px',
-                                letterSpacing: '0.14em',
-                                textTransform: 'uppercase',
-                                color: MUTED,
-                                fontWeight: 600,
-                              },
-                              children: 'Public Ledger · Refreshed Monthly',
-                            },
-                          },
-                        ],
-                      },
-                    },
-                    // Right-aligned eyebrow (case id / refresh tag)
+                    ledgerMark(40, CREAM),
                     {
                       type: 'div',
                       props: {
                         style: {
                           display: 'flex',
-                          marginLeft: 'auto',
                           fontFamily: 'JetBrainsMono',
-                          fontSize: '18px',
+                          fontSize: '20px',
                           letterSpacing: '0.14em',
                           textTransform: 'uppercase',
-                          color: TERRACOTTA,
+                          color: CREAM,
                           fontWeight: 600,
-                          whiteSpace: 'nowrap',
                         },
-                        children: eyebrow,
+                        children: 'Washington Accountability Registry',
                       },
                     },
                   ],
                 },
               },
-              // Middle - dollars + headline stacked
+              // Middle: dollars (if any) + headline
               {
                 type: 'div',
                 props: {
-                  style: { display: 'flex', flexDirection: 'column', gap: '18px' },
+                  style: { display: 'flex', flexDirection: 'column', gap: '16px' },
                   children: [
                     dollars && {
                       type: 'div',
                       props: {
                         style: {
                           display: 'flex',
-                          fontSize: '124px',
+                          fontSize: '160px',
                           fontWeight: 700,
                           color: ACCENT,
                           lineHeight: 1,
@@ -277,69 +235,37 @@ function buildCard({ dollars, head, sub, eyebrow, accentWord }) {
                         children: dollars,
                       },
                     },
-                    headlineBlock(head, dollars ? 50 : 72, accentWord),
-                    sub && {
+                    {
                       type: 'div',
                       props: {
                         style: {
                           display: 'flex',
-                          fontSize: '28px',
-                          fontStyle: 'italic',
-                          color: MUTED,
-                          lineHeight: 1.3,
-                          maxWidth: '1020px',
+                          fontSize: dollars ? '44px' : '64px',
+                          fontWeight: 700,
+                          color: CREAM,
+                          lineHeight: 1.15,
+                          letterSpacing: '-0.01em',
+                          maxWidth: '1000px',
                         },
-                        children: sub,
+                        children: trimmedHead,
                       },
                     },
                   ].filter(Boolean),
                 },
               },
-              // Bottom - scope tagline + url
+              // Bottom: URL only
               {
                 type: 'div',
                 props: {
                   style: {
                     display: 'flex',
-                    alignItems: 'flex-end',
-                    justifyContent: 'space-between',
-                    borderTop: `1px solid rgba(246, 242, 233, 0.18)`,
-                    paddingTop: '24px',
+                    fontFamily: 'JetBrainsMono',
+                    fontSize: '18px',
+                    letterSpacing: '0.06em',
+                    color: MUTED,
+                    fontWeight: 600,
                   },
-                  children: [
-                    {
-                      type: 'div',
-                      props: {
-                        style: {
-                          display: 'flex',
-                          fontFamily: 'JetBrainsMono',
-                          fontSize: '16px',
-                          letterSpacing: '0.14em',
-                          textTransform: 'uppercase',
-                          color: CREAM,
-                          fontWeight: 600,
-                          whiteSpace: 'nowrap',
-                        },
-                        children: 'State · King County · Seattle · Regional bodies',
-                      },
-                    },
-                    {
-                      type: 'div',
-                      props: {
-                        style: {
-                          display: 'flex',
-                          flexShrink: 0,
-                          fontFamily: 'JetBrainsMono',
-                          fontSize: '17px',
-                          letterSpacing: '0.04em',
-                          color: MUTED,
-                          fontWeight: 600,
-                          whiteSpace: 'nowrap',
-                        },
-                        children: 'picsterola.github.io/wa-public-watchdogs',
-                      },
-                    },
-                  ],
+                  children: 'picsterola.github.io/wa-public-watchdogs',
                 },
               },
             ],
@@ -395,13 +321,7 @@ async function main() {
     const dollars = formatDollars(data.dollars_at_issue);
     const { head, sub } = splitTitle(data.title || '');
 
-    const card = buildCard({
-      dollars,
-      head,
-      sub,
-      eyebrow: `Case ${data.id ?? slug}`,
-      accentWord: pickAccent(head),
-    });
+    const card = buildCard({ dollars, head });
 
     await renderToPng(card, join(OUT_DIR, `${slug}.png`));
     count++;
@@ -410,10 +330,7 @@ async function main() {
   // Homepage card
   const home = buildCard({
     dollars: null,
-    head: "Watchdogs are only as good as the public's attention span.",
-    sub: 'Every open accountability case across Washington State, King County, Seattle, and the regional bodies in between.',
-    eyebrow: `${files.length} cases on file · refreshed monthly`,
-    accentWord: 'attention span',
+    head: 'Every open accountability case across WA state, county, and city government.',
   });
   await renderToPng(home, join(OUT_DIR, 'home.png'));
 
