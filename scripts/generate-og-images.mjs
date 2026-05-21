@@ -64,109 +64,247 @@ function splitTitle(t) {
   return { head: t.slice(0, idx).trim(), sub: t.slice(idx + 1).trim() };
 }
 
+// Ledger mark (matches src/components/Logo.astro) as a satori-friendly
+// SVG tree. Two horizontal bars + vertical axis inside a square.
+function ledgerMark(size = 44, color = CREAM) {
+  return {
+    type: 'svg',
+    props: {
+      width: size,
+      height: size,
+      viewBox: '0 0 32 32',
+      fill: 'none',
+      xmlns: 'http://www.w3.org/2000/svg',
+      children: [
+        { type: 'rect', props: { x: 3, y: 3, width: 26, height: 26, stroke: color, strokeWidth: 1.5, fill: 'none' } },
+        { type: 'line', props: { x1: 3, y1: 12, x2: 29, y2: 12, stroke: color, strokeWidth: 1.5 } },
+        { type: 'line', props: { x1: 3, y1: 20, x2: 29, y2: 20, stroke: color, strokeWidth: 1.5 } },
+        { type: 'line', props: { x1: 16, y1: 3, x2: 16, y2: 29, stroke: color, strokeWidth: 1.5 } },
+      ],
+    },
+  };
+}
+
+// Headline composer: render a plain headline div, optionally followed by an
+// italic terracotta accent line. Satori doesn't reliably wrap inline spans
+// across lines (spans collide visually), so we put the accent on its own
+// line below, which also matches the site h1 pattern where the italic
+// keyword usually sits at the end.
+function headlineBlock(head, fontSize, accentWord) {
+  // Strip the accent word from the end of `head` if present, so we can
+  // render it as its own line below. If not present at end, leave `head`
+  // intact and skip the accent line.
+  let mainText = head;
+  let accentText = null;
+  if (accentWord) {
+    const escaped = accentWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp('\\s*' + escaped + '\\s*\\.?\\s*$', 'i');
+    const m = head.match(re);
+    if (m) {
+      mainText = head.slice(0, head.length - m[0].length).replace(/[\s,;:]+$/, '');
+      accentText = m[0].trim().replace(/\.$/, '');
+    }
+  }
+  const children = [
+    {
+      type: 'div',
+      props: {
+        style: {
+          display: 'flex',
+          fontSize: `${fontSize}px`,
+          fontWeight: 700,
+          color: CREAM,
+          lineHeight: 1.12,
+          letterSpacing: '-0.01em',
+          maxWidth: '1020px',
+        },
+        children: mainText + (accentText ? '' : ''),
+      },
+    },
+  ];
+  if (accentText) {
+    children.push({
+      type: 'div',
+      props: {
+        style: {
+          display: 'flex',
+          fontSize: `${fontSize}px`,
+          fontWeight: 700,
+          fontStyle: 'italic',
+          color: TERRACOTTA,
+          lineHeight: 1.12,
+          letterSpacing: '-0.01em',
+          maxWidth: '1020px',
+        },
+        children: accentText,
+      },
+    });
+  }
+  return {
+    type: 'div',
+    props: {
+      style: { display: 'flex', flexDirection: 'column', gap: '4px' },
+      children,
+    },
+  };
+}
+
 // Card builder - returns a satori-compatible element tree
-function buildCard({ dollars, head, sub, eyebrow }) {
+function buildCard({ dollars, head, sub, eyebrow, accentWord }) {
   return {
     type: 'div',
     props: {
       style: {
         display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
         width: '1200px',
         height: '630px',
-        padding: '64px 72px',
         background: NIGHT,
         color: CREAM,
         fontFamily: 'SourceSerif4',
       },
       children: [
-        // Top eyebrow
+        // Left accent rail - oxblood vertical mark
         {
           type: 'div',
           props: {
             style: {
               display: 'flex',
-              fontFamily: 'JetBrainsMono',
-              fontSize: '20px',
-              letterSpacing: '0.14em',
-              textTransform: 'uppercase',
-              color: TERRACOTTA,
+              width: '10px',
+              height: '100%',
+              background: ACCENT,
             },
-            children: eyebrow,
           },
         },
-        // Middle - dollars + title stacked
-        {
-          type: 'div',
-          props: {
-            style: { display: 'flex', flexDirection: 'column', gap: '20px' },
-            children: [
-              dollars && {
-                type: 'div',
-                props: {
-                  style: {
-                    display: 'flex',
-                    fontSize: '128px',
-                    fontWeight: 700,
-                    color: ACCENT,
-                    lineHeight: 1,
-                    letterSpacing: '-0.02em',
-                  },
-                  children: dollars,
-                },
-              },
-              {
-                type: 'div',
-                props: {
-                  style: {
-                    display: 'flex',
-                    fontSize: dollars ? '52px' : '76px',
-                    fontWeight: 700,
-                    color: CREAM,
-                    lineHeight: 1.15,
-                    letterSpacing: '-0.01em',
-                    maxWidth: '1050px',
-                  },
-                  children: head,
-                },
-              },
-              sub && {
-                type: 'div',
-                props: {
-                  style: {
-                    display: 'flex',
-                    fontSize: '30px',
-                    fontStyle: 'italic',
-                    color: MUTED,
-                    lineHeight: 1.3,
-                    maxWidth: '1050px',
-                  },
-                  children: sub,
-                },
-              },
-            ].filter(Boolean),
-          },
-        },
-        // Bottom - registry mark + tagline
+        // Main content column
         {
           type: 'div',
           props: {
             style: {
               display: 'flex',
-              alignItems: 'center',
+              flexDirection: 'column',
               justifyContent: 'space-between',
-              borderTop: `1px solid rgba(246, 242, 233, 0.18)`,
-              paddingTop: '28px',
+              flex: 1,
+              padding: '56px 72px',
             },
             children: [
+              // Top lockup: ledger mark + brand wordmark + version tag (mirrors site header)
               {
                 type: 'div',
                 props: {
                   style: {
                     display: 'flex',
-                    flexDirection: 'column',
-                    gap: '6px',
+                    alignItems: 'center',
+                    gap: '18px',
+                  },
+                  children: [
+                    ledgerMark(44, CREAM),
+                    {
+                      type: 'div',
+                      props: {
+                        style: { display: 'flex', flexDirection: 'column', gap: '2px' },
+                        children: [
+                          {
+                            type: 'div',
+                            props: {
+                              style: {
+                                display: 'flex',
+                                fontFamily: 'JetBrainsMono',
+                                fontSize: '20px',
+                                letterSpacing: '0.14em',
+                                textTransform: 'uppercase',
+                                color: CREAM,
+                                fontWeight: 600,
+                              },
+                              children: 'Washington Accountability Registry',
+                            },
+                          },
+                          {
+                            type: 'div',
+                            props: {
+                              style: {
+                                display: 'flex',
+                                fontFamily: 'JetBrainsMono',
+                                fontSize: '14px',
+                                letterSpacing: '0.14em',
+                                textTransform: 'uppercase',
+                                color: MUTED,
+                                fontWeight: 600,
+                              },
+                              children: 'Public Ledger · Refreshed Monthly',
+                            },
+                          },
+                        ],
+                      },
+                    },
+                    // Right-aligned eyebrow (case id / refresh tag)
+                    {
+                      type: 'div',
+                      props: {
+                        style: {
+                          display: 'flex',
+                          marginLeft: 'auto',
+                          fontFamily: 'JetBrainsMono',
+                          fontSize: '18px',
+                          letterSpacing: '0.14em',
+                          textTransform: 'uppercase',
+                          color: TERRACOTTA,
+                          fontWeight: 600,
+                          whiteSpace: 'nowrap',
+                        },
+                        children: eyebrow,
+                      },
+                    },
+                  ],
+                },
+              },
+              // Middle - dollars + headline stacked
+              {
+                type: 'div',
+                props: {
+                  style: { display: 'flex', flexDirection: 'column', gap: '18px' },
+                  children: [
+                    dollars && {
+                      type: 'div',
+                      props: {
+                        style: {
+                          display: 'flex',
+                          fontSize: '124px',
+                          fontWeight: 700,
+                          color: ACCENT,
+                          lineHeight: 1,
+                          letterSpacing: '-0.02em',
+                        },
+                        children: dollars,
+                      },
+                    },
+                    headlineBlock(head, dollars ? 50 : 72, accentWord),
+                    sub && {
+                      type: 'div',
+                      props: {
+                        style: {
+                          display: 'flex',
+                          fontSize: '28px',
+                          fontStyle: 'italic',
+                          color: MUTED,
+                          lineHeight: 1.3,
+                          maxWidth: '1020px',
+                        },
+                        children: sub,
+                      },
+                    },
+                  ].filter(Boolean),
+                },
+              },
+              // Bottom - scope tagline + url
+              {
+                type: 'div',
+                props: {
+                  style: {
+                    display: 'flex',
+                    alignItems: 'flex-end',
+                    justifyContent: 'space-between',
+                    borderTop: `1px solid rgba(246, 242, 233, 0.18)`,
+                    paddingTop: '24px',
                   },
                   children: [
                     {
@@ -175,12 +313,14 @@ function buildCard({ dollars, head, sub, eyebrow }) {
                         style: {
                           display: 'flex',
                           fontFamily: 'JetBrainsMono',
-                          fontSize: '20px',
+                          fontSize: '16px',
                           letterSpacing: '0.14em',
                           textTransform: 'uppercase',
                           color: CREAM,
+                          fontWeight: 600,
+                          whiteSpace: 'nowrap',
                         },
-                        children: 'Washington Accountability Registry',
+                        children: 'State · King County · Seattle · Regional bodies',
                       },
                     },
                     {
@@ -188,10 +328,15 @@ function buildCard({ dollars, head, sub, eyebrow }) {
                       props: {
                         style: {
                           display: 'flex',
-                          fontSize: '22px',
+                          flexShrink: 0,
+                          fontFamily: 'JetBrainsMono',
+                          fontSize: '17px',
+                          letterSpacing: '0.04em',
                           color: MUTED,
+                          fontWeight: 600,
+                          whiteSpace: 'nowrap',
                         },
-                        children: 'Tracking scandals, audits, and accountability failures across WA government.',
+                        children: 'picsterola.github.io/wa-public-watchdogs',
                       },
                     },
                   ],
@@ -203,6 +348,23 @@ function buildCard({ dollars, head, sub, eyebrow }) {
       ],
     },
   };
+}
+
+// Pick a keyword in a case headline to italicize. We try a short list of
+// thematic words that show up in case titles; first hit wins. Order matters:
+// stronger words first.
+const ACCENT_CANDIDATES = [
+  'failure', 'overrun', 'cover-up', 'coverup', 'scandal', 'fraud',
+  'misconduct', 'breach', 'collapse', 'mismanagement', 'oversight',
+  'audit', 'investigation', 'settlement', 'lawsuit', 'violation',
+  'irregularities', 'review', 'reset', 'crisis', 'shortfall',
+];
+function pickAccent(head) {
+  const lower = head.toLowerCase();
+  for (const w of ACCENT_CANDIDATES) {
+    if (lower.includes(w)) return w;
+  }
+  return null;
 }
 
 async function renderToPng(element, outPath) {
@@ -238,6 +400,7 @@ async function main() {
       head,
       sub,
       eyebrow: `Case ${data.id ?? slug}`,
+      accentWord: pickAccent(head),
     });
 
     await renderToPng(card, join(OUT_DIR, `${slug}.png`));
@@ -248,8 +411,9 @@ async function main() {
   const home = buildCard({
     dollars: null,
     head: "Watchdogs are only as good as the public's attention span.",
-    sub: 'Every open accountability case across WA state, county, and Seattle government, in one place.',
-    eyebrow: '40 cases on file · refreshed monthly',
+    sub: 'Every open accountability case across Washington State, King County, Seattle, and the regional bodies in between.',
+    eyebrow: `${files.length} cases on file · refreshed monthly`,
+    accentWord: 'attention span',
   });
   await renderToPng(home, join(OUT_DIR, 'home.png'));
 
