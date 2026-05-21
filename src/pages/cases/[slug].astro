@@ -1,0 +1,216 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { formatDate, formatDollars, SEVERITY_LABELS, STATUS_LABELS, LEGAL_STATUS_LABELS, ROLE_LABELS, SOURCE_TYPE_LABELS, humanizeReform, caseGroup, GROUP_SLUG } from '../../lib/format';
+import officialsData from '../../data/officials.json';
+
+const OFFICIALS = officialsData.officials as Record<string, { name: string; title: string; photo: string | null; source_url: string | null; license: string | null }>;
+function officialSlug(name: string): string {
+  return name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+// Faces of officials surface only on Documented + Reported cases (not Alleged, not Retracted).
+function shouldShowFaces(evidentiaryStatus: string, isRetracted: boolean): boolean {
+  if (isRetracted) return false;
+  return evidentiaryStatus === 'documented' || evidentiaryStatus === 'reported';
+}
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases');
+  return cases.map((c) => ({
+    params: { slug: c.slug },
+    props: { entry: c },
+  }));
+}
+
+type Props = { entry: CollectionEntry<'cases'> };
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = entry.data;
+const isRetracted = d.review_status === 'retracted';
+const jurisdictions = Array.from(new Set(d.actors.map((a) => a.jurisdiction)));
+const group = caseGroup(d.actors);
+const groupHref = `/cases?group=${encodeURIComponent(group)}#group-${GROUP_SLUG[group]}`;
+---
+<Base title={d.title} description={d.title} ogImage={`/og/${entry.slug}.png`}>
+  <Breadcrumb items={[
+    { label: 'Cases', href: '/cases' },
+    { label: group, href: groupHref },
+    { label: d.id },
+  ]} />
+
+  {isRetracted && (
+    <div class="tombstone" role="alert">
+      <h2>This case has been retracted</h2>
+      <p>{d.retraction_note ?? 'This record has been retracted. The page is preserved for transparency.'}</p>
+      <p class="small muted">Record ID: {d.id} · Originally surfaced {formatDate(d.date_surfaced)} · Retracted as of {formatDate(d.last_updated)}.</p>
+    </div>
+  )}
+
+  <article class="case-detail">
+    <div>
+      <header class="case-header">
+        <div class="case-id">{d.id}</div>
+        <h1 class="case-title">{d.title}</h1>
+        <div class="case-header-badges">
+          <span class={`badge badge-${d.evidentiary_status}`}>{STATUS_LABELS[d.evidentiary_status]}</span>
+          {d.severity_type.map((s) => (
+            <span class="badge badge-severity">{SEVERITY_LABELS[s] ?? s}</span>
+          ))}
+          {isRetracted && <span class="badge badge-retracted">Retracted</span>}
+        </div>
+      </header>
+
+      {!isRetracted && (
+        <div class="case-body prose">
+          <Content />
+        </div>
+      )}
+
+      {!isRetracted && d.reform_argument && (
+        <section class="reform-callout" aria-label="Reform implication">
+          <h3>Reform implication</h3>
+          <p>{d.reform_argument.replace(/\s+/g, ' ').trim()}</p>
+          {d.reforms_implicated.length > 0 && (
+            <div class="reform-tags">
+              {d.reforms_implicated.map((r) => (
+                <a class="reform-tag" href={`/reforms#${r}`}>{humanizeReform(r)}</a>
+              ))}
+            </div>
+          )}
+        </section>
+      )}
+
+      {!isRetracted && d.sources.length > 0 && (
+        <section class="sources-section" aria-label="Sources">
+          <h2 style="font-family: var(--font-sans); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-muted); border-bottom: 1px solid var(--rule); padding-bottom: 0.5rem;">Sources</h2>
+          <ol class="sources-list">
+            {d.sources.map((s) => (
+              <li class="source-item">
+                <div>
+                  <div class="source-meta">
+                    <span class={`badge badge-tier badge-tier-${s.tier}`}>Tier {s.tier}</span>
+                    <span>{SOURCE_TYPE_LABELS[s.type] ?? s.type}</span>
+                    {s.publisher && <><span class="sep">·</span><span>{s.publisher}</span></>}
+                    {s.author && <><span class="sep">·</span><span>{s.author}</span></>}
+                    {s.date && <><span class="sep">·</span><span>{typeof s.date === 'string' || typeof s.date === 'number' ? s.date : formatDate(s.date)}</span></>}
+                  </div>
+                  <div class="source-title">{s.title}</div>
+                  {s.quote && <div class="source-quote">“{s.quote}”</div>}
+                  <div class="source-links">
+                    {s.url && <a href={s.url} target="_blank" rel="noopener noreferrer">Primary →</a>}
+                    {s.archive_url && <a href={s.archive_url} target="_blank" rel="noopener noreferrer">Archived copy →</a>}
+                    {!s.archive_url && s.tier === 1 && <span class="muted small">No archive copy yet</span>}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+    </div>
+
+    <aside class="sidebar" aria-label="Case metadata">
+      <div class="sidebar-block">
+        <h3>Actors</h3>
+        {d.actors.map((a) => {
+          const showFace = shouldShowFaces(d.evidentiary_status, isRetracted);
+          const official = showFace ? OFFICIALS[officialSlug(a.name)] : undefined;
+          const hasPhoto = official && official.photo;
+          if (hasPhoto) {
+            return (
+              <div class="actor-card">
+                <img class="actor-photo" src={official.photo} alt={`Portrait of ${official.name}`} width="56" height="56" loading="lazy" />
+                <div class="actor-text">
+                  <div class="actor-name">{a.name}</div>
+                  {a.title && <div class="actor-title sub">{a.title}</div>}
+                  <div class="sub">
+                    {ROLE_LABELS[a.role_type] ?? a.role_type}
+                    {a.party && ` · ${a.party}`}
+                    {a.jurisdiction && ` · ${a.jurisdiction}`}
+                  </div>
+                  {official.source_url && (
+                    <div class="actor-photo-credit">
+                      <a href={official.source_url} target="_blank" rel="noopener noreferrer">photo</a>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          }
+          return (
+            <p class="value">
+              {a.name}
+              {a.title && <span class="sub">{a.title}</span>}
+              <span class="sub">
+                {ROLE_LABELS[a.role_type] ?? a.role_type}
+                {a.party && ` · ${a.party}`}
+                {a.jurisdiction && ` · ${a.jurisdiction}`}
+              </span>
+            </p>
+          );
+        })}
+      </div>
+
+      <div class="sidebar-block">
+        <h3>Jurisdiction</h3>
+        <p class="value">{jurisdictions.join(', ')}</p>
+      </div>
+
+      <div class="sidebar-block">
+        <h3>Date surfaced</h3>
+        <p class="value">{formatDate(d.date_surfaced)}</p>
+      </div>
+
+      <div class="sidebar-block">
+        <h3>Last updated</h3>
+        <p class="value">{formatDate(d.last_updated)}</p>
+      </div>
+
+      <div class="sidebar-block">
+        <h3>Dollars at issue</h3>
+        <p class="value">{formatDollars(d.dollars_at_issue)}</p>
+        {d.dollars_basis && <p class="sub">{d.dollars_basis}</p>}
+        {d.dollars_confirmed_loss != null && (
+          <p class="sub">Confirmed loss: {formatDollars(d.dollars_confirmed_loss)}</p>
+        )}
+      </div>
+
+      <div class="sidebar-block">
+        <h3>Legal status</h3>
+        <p class="value">{LEGAL_STATUS_LABELS[d.legal_status] ?? d.legal_status}</p>
+        {d.outcome_summary && <p class="sub">{d.outcome_summary}</p>}
+      </div>
+
+      {d.tags.length > 0 && (
+        <div class="sidebar-block">
+          <h3>Tags</h3>
+          <p class="value sub">{d.tags.join(', ')}</p>
+        </div>
+      )}
+    </aside>
+  </article>
+
+  {!isRetracted && (() => {
+    const shareTitle = d.title.replace(/—/g, '-');
+    const shareUrl = 'https://picsterola.github.io/wa-public-watchdogs';
+    const shareText = `Washington Accountability Registry: ${shareTitle}. From the registry tracking ${d.id} and other open accountability cases across WA.`;
+    const bskyHref = `https://bsky.app/intent/compose?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
+    const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+    return (
+      <section class="case-share" aria-label="Share this case">
+        <div class="case-share-label">Send this to someone who should know.</div>
+        <div class="case-share-row">
+          <a class="case-share-btn" href={bskyHref} target="_blank" rel="noopener">Share on Bluesky</a>
+          <a class="case-share-btn" href={xHref} target="_blank" rel="noopener">Share on X</a>
+          <a class="case-share-btn" href={`mailto:?subject=${encodeURIComponent('Washington Accountability Registry: ' + shareTitle)}&body=${encodeURIComponent(shareText + '\n\n' + shareUrl)}`}>Email</a>
+        </div>
+      </section>
+    );
+  })()}
+
+  <nav class="case-foot-nav" aria-label="Case page navigation">
+    <a href="/cases">← All cases</a>
+    <a href={groupHref}>More {group} cases →</a>
+  </nav>
+</Base>

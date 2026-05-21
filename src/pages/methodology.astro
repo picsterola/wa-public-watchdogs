@@ -1,0 +1,198 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { caseGroup } from '../lib/format';
+
+const allCases = await getCollection('cases');
+const total = allCases.length;
+const jurisdictionsCovered = new Set(allCases.map((c) => caseGroup(c.data.actors))).size;
+const totalSources = allCases.reduce((sum, c) => sum + (c.data.sources?.length ?? 0), 0);
+---
+<Base title="Methodology">
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">Methodology</div>
+      <h1>How the record gets <em>built</em>.</h1>
+      <p class="page-hero-lede">
+        What counts as a case, what does not, and how every entry traces back to a document
+        you can read yourself.
+      </p>
+      <div class="page-hero-stats">
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">{total}</span>
+          <span class="page-hero-stat-label">Cases on file</span>
+        </div>
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">{jurisdictionsCovered}</span>
+          <span class="page-hero-stat-label">Government bodies covered</span>
+        </div>
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">{totalSources}</span>
+          <span class="page-hero-stat-label">Source citations</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">01 · Definition</span>
+      <h2>A case is a structured record, not a story.</h2>
+      <p class="dek">Every entry is anchored to a document you can read yourself.</p>
+    </div>
+    <p>
+      A case is a single, structured record of one accountability matter affecting government in the registry's
+      scope. Each case is tied to documents you can read yourself: an audit, a court filing, an ethics ruling, a
+      settlement, or named-byline reporting in an established news outlet. If a case cannot be tied to that kind of
+      source, it is not in the registry.
+    </p>
+    <p>
+      The registry is not a news site. It does not break stories. It compiles what has already been put on the public
+      record, organizes it consistently, and connects each entry to a specific reform that would have prevented or
+      surfaced it.
+    </p>
+  </section>
+
+  <div class="section-band">
+    <div class="section-band-inner">
+      <div class="prose">
+        <div class="narrative-head" id="which-governments-are-in-scope">
+          <span class="kicker">02 · Scope</span>
+          <h2>Four layers of government, one starting point.</h2>
+          <p class="dek">Seattle and the regional bodies anchored here. Other Washington cities are out of scope for now.</p>
+        </div>
+        <p>The registry covers four overlapping layers of government in this region:</p>
+        <ul>
+          <li><strong>Washington State government.</strong> The Governor's office, the Legislature, statewide elected
+            officials, and state agencies (SAO, AG, DSHS, DCYF, WSDOT, L&amp;I, and the rest).</li>
+          <li><strong>King County government.</strong> The County Executive, County Council, Prosecutor, Sheriff, and
+            county departments and divisions.</li>
+          <li><strong>City of Seattle.</strong> The Mayor, Council, departments, Seattle Police Department, and Seattle
+            Public Schools.</li>
+          <li><strong>Regional and interlocal bodies with taxing authority.</strong> Multi-jurisdiction governing bodies
+            that levy taxes or assessments and operate across city or county lines. Sound Transit, the King County
+            Regional Homelessness Authority (KCRHA), and the Port of Seattle are the most common examples in the
+            registry. Other special-purpose districts qualify when they have independent taxing authority and a regional
+            footprint.</li>
+        </ul>
+        <p>
+          Seattle is the starting point because it sits at the center of the regional governments above it. Nearly every
+          interlocal body in scope is anchored here, and most of the documented record over the past two years runs
+          through Seattle, King County, the State, or one of the regional authorities they share. Other Washington
+          cities (Bellevue, Tacoma, Spokane, and so on) and their school districts are out of scope for now and may be
+          added in later phases. Conduct by an official from an out-of-scope city can still appear in a case if it
+          occurred in that person's role on an in-scope regional body. Scope changes will be noted on this page and in
+          the corrections log.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">03 · Labels</span>
+      <h2>Three labels per case. None of them is a verdict.</h2>
+      <p class="dek">Each label describes the public record, not the registry's opinion.</p>
+    </div>
+
+    <h3>Where the evidence stands</h3>
+    <ul>
+      <li><strong>Documented.</strong> A government body or court has gone on the record: an audit finding, a court
+        filing, an indictment, an ethics-board opinion, an Inspector General or Ombudsman report, or a public-records
+        response. This is the strongest tier.</li>
+      <li><strong>Reported.</strong> Established news outlets with named bylines have surfaced the matter, but no
+        government body has issued a finding yet.</li>
+      <li><strong>Alleged.</strong> A complaint has been filed with a court, board, or oversight body and is not yet
+        adjudicated. Case copy uses the word &ldquo;alleged&rdquo; in front of every claim of conduct.</li>
+    </ul>
+
+    <h3>What the conduct is</h3>
+    <ul>
+      <li><strong>Criminal fraud.</strong> Chargeable financial misconduct.</li>
+      <li><strong>Conflict of interest.</strong> An undisclosed or unmanaged private interest in a public decision.</li>
+      <li><strong>Structural failure.</strong> Oversight, monitoring, or financial controls absent or inadequate at the
+        systems level.</li>
+      <li><strong>Rule gaming.</strong> Conduct that stays technically inside the rules but produces the outcome the
+        rules exist to prevent.</li>
+      <li><strong>Special privileges.</strong> Benefits or access available to insiders and not to the public.</li>
+      <li><strong>Misuse of public resources.</strong> Public staff, facilities, or funds used for private or campaign
+        benefit.</li>
+    </ul>
+
+    <h3>What would have prevented it</h3>
+    <p>
+      Every case is tagged with one or more specific structural reforms. The registry exists to make that connection
+      visible, not to enumerate scandals.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">04 · Sources</span>
+      <h2>Tiered, archived, never anonymous.</h2>
+      <p class="dek">Tier 1 government documents lead every documented record. Tier 3 is excluded.</p>
+    </div>
+    <p>
+      Cases are anchored in tiered sourcing. Tier 1 means primary documents from a government body, court, or formal
+      oversight entity. Tier 2 means established news organizations with named bylines and editorial accountability.
+      Tier 3, which covers partisan advocacy groups, party communications, social media posts, anonymous tips, opinion
+      columns, and podcasts, is excluded from case records entirely.
+    </p>
+    <p>
+      Government URLs rot, so every Tier 1 source is captured in the Wayback Machine at the time the case is filed.
+      The <a href="/about">About page</a> has the full tier breakdown and the canonical Tier 2 publication list.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">05 · Intake</span>
+      <h2>How a case enters the registry.</h2>
+    </div>
+    <ol>
+      <li>A Tier 1 or Tier 2 source publishes material that meets the threshold for at least one severity category.</li>
+      <li>A structured case record is drafted: identity, actors, classification, scale, status, sources, reform
+        argument.</li>
+      <li>Every factual claim in the body is anchored to an inline source link. Every Tier 1 government URL is
+        archived.</li>
+      <li>The record is read against the source documents and set to published.</li>
+    </ol>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">06 · Updates</span>
+      <h2>How a case changes after publication.</h2>
+      <p class="dek">Records are updated in place. Nothing is silently deleted.</p>
+    </div>
+    <p>
+      When the evidentiary picture changes, through a new audit, a charging document, a settlement, an exoneration, or
+      a correction, the existing record is updated in place at the same URL. The <em>last updated</em> field moves
+      forward. The <em>legal status</em> and <em>outcome summary</em> reflect the new state. Every substantive change
+      is logged on the <a href="/corrections">Corrections</a> page.
+    </p>
+    <p>
+      If a case is fully retracted, the URL still works. The page is replaced with a tombstone explaining what was
+      retracted and why. Cases are never silently deleted.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">07 · Exclusions</span>
+      <h2>What the registry will not do.</h2>
+    </div>
+    <ul>
+      <li>Partisan advocacy releases from any side of the spectrum, and any party-committee communications.</li>
+      <li>Personal blogs, substacks, and podcasts, even from credentialed individuals.</li>
+      <li>Anonymous tips and unnamed sources. Leaked documents are cited only if the document itself is Tier 1.</li>
+      <li>Social media posts used in place of reporting or official communication.</li>
+      <li>Speculation about motive. The registry asserts conduct, not intent.</li>
+      <li>Sealed records, pseudonymous filings, and material covered by a protective order.</li>
+    </ul>
+    <p>
+      The registry does not break stories. It does not run anonymous tip lines. It does not solicit donations. It does
+      not manufacture political balance, and it does not soften an alleged case into anything more than alleged.
+    </p>
+  </section>
+</Base>

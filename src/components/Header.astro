@@ -1,0 +1,30 @@
+---
+import Logo from './Logo.astro';
+const { pathname } = Astro.url;
+const isActive = (href: string) => {
+  if (href === '/') return pathname === '/' || pathname === '';
+  return pathname === href || pathname.startsWith(href + '/');
+};
+const nav = [
+  { href: '/cases', label: 'Cases' },
+  { href: '/reforms', label: 'Reforms' },
+  { href: '/methodology', label: 'Methodology' },
+  { href: '/about', label: 'About' },
+];
+---
+<header class="site-header">
+  <div class="page site-header-inner">
+    <a class="brand" href="/">
+      <Logo />
+      <span class="brand-text">
+        <span class="brand-name">Washington Accountability Registry</span>
+        <span class="brand-sub">v0.1 · Reform Documentation</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      {nav.map((n) => (
+        <a href={n.href} class={isActive(n.href) ? 'active' : ''}>{n.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>

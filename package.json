@@ -1,0 +1,28 @@
+{
+  "name": "wa-registry",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "featured": "node scripts/compute-featured.mjs",
+    "featured:dry": "node scripts/compute-featured.mjs --dry-run",
+    "build": "node scripts/compute-featured.mjs && node scripts/download-officials.mjs && node scripts/generate-og-images.mjs && astro build && node scripts/relativize.mjs",
+    "og": "node scripts/generate-og-images.mjs",
+    "preview": "astro preview",
+    "astro": "astro",
+    "officials": "node scripts/download-officials.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "@fontsource-variable/inter": "^5.1.0",
+    "@fontsource/fraunces": "^5.2.9",
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/source-serif-4": "^5.2.9",
+    "@resvg/resvg-js": "^2.6.2",
+    "astro": "^4.16.18",
+    "gray-matter": "^4.0.3",
+    "satori": "^0.26.0",
+    "sharp": "^0.34.5"
+  }
+}

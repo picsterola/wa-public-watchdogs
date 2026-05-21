@@ -1,0 +1,598 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import {
+  formatDollars,
+  formatDate,
+  SEVERITY_LABELS,
+  STATUS_LABELS,
+  bodySnippet,
+  humanizeReform,
+  caseGroup,
+  GROUP_ORDER,
+  GROUP_SLUG,
+  GROUP_BLURB,
+} from '../../lib/format';
+
+const allCases = await getCollection('cases');
+
+// Build filter universes from data
+const allSeverities = Array.from(new Set(allCases.flatMap((c) => c.data.severity_type))).sort();
+const allReforms = Array.from(new Set(allCases.flatMap((c) => c.data.reforms_implicated))).sort();
+const allYears = Array.from(new Set(allCases.map((c) => c.data.date_surfaced.getUTCFullYear()))).sort((a, b) => b - a);
+const allParties = Array.from(new Set(allCases.flatMap((c) => c.data.actors.map((a) => a.party).filter(Boolean)))) as string[];
+
+// Default sort: dollars desc, then severity (heavy first), then date.
+// Layman lands here pissed off - they want the biggest scandals first, not chronological.
+function sevWeight(status: string, sevs: string[]): number {
+  const heavy = sevs.includes('criminal_fraud') || sevs.includes('structural_failure');
+  if (status === 'documented' && heavy) return 4;
+  if (status === 'documented') return 3;
+  if (status === 'reported') return 2;
+  return 1;
+}
+const initialCases = [...allCases].sort((a, b) => {
+  const dd = (b.data.dollars_at_issue ?? 0) - (a.data.dollars_at_issue ?? 0);
+  if (dd !== 0) return dd;
+  const sd = sevWeight(b.data.evidentiary_status, b.data.severity_type) - sevWeight(a.data.evidentiary_status, a.data.severity_type);
+  if (sd !== 0) return sd;
+  return b.data.date_surfaced.getTime() - a.data.date_surfaced.getTime();
+});
+
+// Severity ramp for visual weight
+function sevLevel(status: string, sevs: string[]): 1 | 2 | 3 | 4 {
+  const heavy = sevs.includes('criminal_fraud') || sevs.includes('structural_failure');
+  if (status === 'documented' && heavy) return 4;
+  if (status === 'documented') return 3;
+  if (status === 'reported') return 2;
+  return 1;
+}
+
+// Pre-compute snippets server-side
+const rows = initialCases.map((c) => {
+  const primaryActor = c.data.actors[0];
+  const group = caseGroup(c.data.actors as any);
+  return {
+    slug: c.slug,
+    id: c.data.id,
+    title: c.data.title,
+    primaryActor: primaryActor?.name ?? '—',
+    primaryActorJurisdiction: primaryActor?.jurisdiction ?? '',
+    date_surfaced: c.data.date_surfaced.toISOString(),
+    last_updated: c.data.last_updated.toISOString(),
+    year: c.data.date_surfaced.getUTCFullYear(),
+    status: c.data.evidentiary_status,
+    severities: c.data.severity_type,
+    sev: sevLevel(c.data.evidentiary_status, c.data.severity_type),
+    reforms: c.data.reforms_implicated,
+    parties: Array.from(new Set(c.data.actors.map((a) => a.party).filter(Boolean))) as string[],
+    dollars: c.data.dollars_at_issue ?? 0,
+    dollarsLabel: formatDollars(c.data.dollars_at_issue),
+    snippet: bodySnippet(c.body),
+    retracted: c.data.review_status === 'retracted',
+    group,
+  };
+});
+
+// Order groups by their max dollars at issue (descending). Layman wants the biggest scandals first;
+// chronological order buried the $34B Sound Transit case under 16 small LEB ethics matters.
+const dynamicGroupOrder = GROUP_ORDER
+  .filter((g) => rows.some((r) => r.group === g))
+  .map((g) => ({ g, maxDollars: Math.max(0, ...rows.filter((r) => r.group === g).map((r) => r.dollars)) }))
+  .sort((a, b) => b.maxDollars - a.maxDollars)
+  .map((x) => x.g);
+
+// Counts per government group, ordered by max dollar weight
+const groupCounts = dynamicGroupOrder.map((g) => ({
+  group: g,
+  slug: GROUP_SLUG[g],
+  blurb: GROUP_BLURB[g],
+  count: rows.filter((r) => r.group === g).length,
+}));
+
+// Counts per severity (any-of)
+const severityCounts = allSeverities
+  .map((s) => ({
+    key: s,
+    label: SEVERITY_LABELS[s] ?? s,
+    count: rows.filter((r) => r.severities.includes(s)).length,
+  }))
+  .sort((a, b) => b.count - a.count);
+
+// Money buckets
+const moneyBuckets = [
+  { key: '1B+', label: '$1B and up', min: 1_000_000_000, max: Infinity },
+  { key: '100M-1B', label: '$100M – $1B', min: 100_000_000, max: 999_999_999 },
+  { key: '1M-100M', label: '$1M – $100M', min: 1_000_000, max: 99_999_999 },
+  { key: 'under-1M', label: 'Under $1M', min: 0, max: 999_999 },
+];
+const moneyCounts = moneyBuckets.map((b) => ({
+  ...b,
+  count: rows.filter((r) => r.dollars >= b.min && r.dollars <= b.max).length,
+}));
+---
+<Base title="Cases" description="Filterable index of every case in the Washington Accountability Registry.">
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">Cases · {allCases.length} on file</div>
+      <h1>Every case, every <em>receipt</em>.</h1>
+      <p class="page-hero-lede">
+        Jump to a government body, follow the money, or pick a severity. Every row links to the documents the case is anchored to.
+      </p>
+    </div>
+  </header>
+
+  <section class="lanes" aria-label="Browse by category">
+    <div class="lane-block">
+      <div class="lane-head">
+        <span class="lane-kicker">By government body</span>
+        <span class="lane-hint">Most readers start here.</span>
+      </div>
+      <div class="lane-grid">
+        {groupCounts.map((g) => (
+          <a class="lane-tile" href={`?group=${encodeURIComponent(g.group)}#group-${g.slug}`} data-lane-group={g.group}>
+            <span class="lane-tile-count">{g.count}</span>
+            <span class="lane-tile-label">{g.group}</span>
+            <span class="lane-tile-blurb">{g.blurb}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div class="lane-block">
+      <div class="lane-head">
+        <span class="lane-kicker">By dollars at issue</span>
+      </div>
+      <div class="lane-grid lane-grid-4">
+        {moneyCounts.filter((m) => m.count > 0).map((m) => (
+          <a class="lane-tile lane-tile-tight" href={`?money=${encodeURIComponent(m.key)}`} data-lane-money={m.key}>
+            <span class="lane-tile-count">{m.count}</span>
+            <span class="lane-tile-label">{m.label}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div class="lane-block">
+      <div class="lane-head">
+        <span class="lane-kicker">By severity</span>
+      </div>
+      <div class="lane-grid lane-grid-4">
+        {severityCounts.filter((s) => s.count > 0).map((s) => (
+          <a class="lane-tile lane-tile-tight" href={`?severity=${encodeURIComponent(s.key)}`} data-lane-severity={s.key}>
+            <span class="lane-tile-count">{s.count}</span>
+            <span class="lane-tile-label">{s.label}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <div class="filter-toggle-row">
+    <div class="search-wrap">
+      <input type="search" class="search-input" id="case-search" placeholder="Search cases by name, agency, keyword..." autocomplete="off" aria-label="Search cases" />
+    </div>
+    <button type="button" class="filter-toggle-btn" id="filter-toggle-btn" aria-expanded="false" aria-controls="filters">
+      <span class="filter-toggle-icon" aria-hidden="true">+</span>
+      <span class="filter-toggle-label">Filter cases</span>
+      <span class="filter-toggle-count" id="filter-toggle-count"></span>
+    </button>
+    <button type="button" class="filter-toggle-clear" id="filter-toggle-clear" hidden>Clear all</button>
+  </div>
+
+  <div class="filters filters-compact" id="filters" hidden>
+    <div class="filter-row">
+      <div class="filter-group">
+        <span class="filter-label">Status</span>
+        <div class="filter-chips" data-filter-group="status">
+          {(['documented', 'reported', 'alleged'] as const).map((s) => (
+            <button type="button" class="chip" data-value={s}>{STATUS_LABELS[s]}</button>
+          ))}
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Government body</span>
+        <select class="filter-select" data-filter-select="group">
+          <option value="">All</option>
+          {groupCounts.map((g) => <option value={g.group}>{g.group} ({g.count})</option>)}
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Sort by</span>
+        <select class="filter-select" data-filter-select="sort">
+          <option value="dollars_desc">Biggest dollars first</option>
+          <option value="date_surfaced_desc">Most recent first</option>
+          <option value="last_updated_desc">Recently updated</option>
+          <option value="date_surfaced_asc">Oldest first</option>
+        </select>
+      </div>
+
+      <div class="filter-group filter-group-right">
+        <span class="filter-label">&nbsp;</span>
+        <button type="button" class="more-filters-btn" id="more-filters-btn" aria-expanded="false">More filters</button>
+      </div>
+    </div>
+
+    <div class="more-filters" id="more-filters" hidden>
+      <div class="filter-row">
+        <div class="filter-group">
+          <span class="filter-label">Severity (any)</span>
+          <div class="filter-chips" data-filter-group="severity">
+            {allSeverities.map((s) => (
+              <button type="button" class="chip" data-value={s}>{SEVERITY_LABELS[s] ?? s}</button>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div class="filter-row" style="margin-top: 0.75rem;">
+        <div class="filter-group">
+          <span class="filter-label">Reform (any)</span>
+          <div class="filter-chips" data-filter-group="reform">
+            {allReforms.map((r) => (
+              <button type="button" class="chip" data-value={r}>{humanizeReform(r)}</button>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div class="filter-row" style="margin-top: 0.75rem;">
+        <div class="filter-group">
+          <span class="filter-label">Dollars at issue</span>
+          <div class="filter-chips" data-filter-group="money">
+            {moneyBuckets.map((b) => (
+              <button type="button" class="chip" data-value={b.key}>{b.label}</button>
+            ))}
+          </div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">Year surfaced</span>
+          <select class="filter-select" data-filter-select="year">
+            <option value="">All</option>
+            {allYears.map((y) => <option value={y}>{y}</option>)}
+          </select>
+        </div>
+        {allParties.length > 0 && (
+          <div class="filter-group">
+            <span class="filter-label">Party (elected)</span>
+            <select class="filter-select" data-filter-select="party">
+              <option value="">All</option>
+              {allParties.map((p) => <option value={p}>{p}</option>)}
+            </select>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <div class="filter-meta">
+      <span id="result-count">{rows.length} cases</span>
+      <button type="button" class="reset-btn" id="reset-filters">Reset filters</button>
+    </div>
+  </div>
+
+  {dynamicGroupOrder.map((g) => (
+    <section class="case-group" id={`group-${GROUP_SLUG[g]}`} data-group={g}>
+      <div class="case-group-head">
+        <h2 class="case-group-title">{g}</h2>
+        <span class="case-group-count">{rows.filter((r) => r.group === g).length} cases</span>
+      </div>
+      <ul class="case-list" data-case-list>
+        {rows.filter((r) => r.group === g).map((r) => (
+          <li
+            class="case-row"
+            data-sev={r.sev}
+            data-status={r.status}
+            data-severities={r.severities.join(',')}
+            data-reforms={r.reforms.join(',')}
+            data-group={r.group}
+            data-parties={r.parties.join(',')}
+            data-year={r.year}
+            data-dollars={r.dollars}
+            data-date-surfaced={r.date_surfaced}
+            data-last-updated={r.last_updated}
+            data-search={[r.id, r.title, r.snippet, r.primaryActor, r.primaryActorJurisdiction, r.group, r.severities.map((s) => SEVERITY_LABELS[s] ?? s).join(' '), r.reforms.join(' ')].filter(Boolean).join(' ').toLowerCase()}
+          >
+            <div class="case-row-meta">
+              <span>{r.id}</span>
+              <span class="sep">·</span>
+              <span>{r.primaryActor}{r.primaryActorJurisdiction ? ` — ${r.primaryActorJurisdiction}` : ''}</span>
+              <span class="sep">·</span>
+              <span>Surfaced {formatDate(r.date_surfaced)}</span>
+              <span class="sep">·</span>
+              <span class="case-row-dollars">{r.dollarsLabel}</span>
+            </div>
+            <h3 class="case-row-title">
+              <a href={`/cases/${r.slug}`}>{r.title}</a>
+            </h3>
+            {r.snippet && <p class="case-row-snippet">{r.snippet}</p>}
+            <div class="case-row-badges">
+              <span class={`badge badge-${r.status}`}>{STATUS_LABELS[r.status]}</span>
+              {r.severities.map((s) => (
+                <span class="badge badge-severity">{SEVERITY_LABELS[s] ?? s}</span>
+              ))}
+              {r.retracted && <span class="badge badge-retracted">Retracted</span>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  <div class="no-results" id="no-results" hidden>No cases match the current filters.</div>
+
+<script is:inline>
+  (function () {
+    const root = document.getElementById('filters');
+    if (!root) return;
+    const lists = Array.from(document.querySelectorAll('[data-case-list]'));
+    const rows = lists.flatMap((l) => Array.from(l.querySelectorAll('.case-row')));
+    const countEl = document.getElementById('result-count');
+    const noResults = document.getElementById('no-results');
+    const groupSections = Array.from(document.querySelectorAll('.case-group'));
+
+    const active = { status: new Set(), severity: new Set(), reform: new Set(), money: new Set() };
+    const selects = { group: '', year: '', party: '', sort: 'dollars_desc' };
+    let searchQuery = '';
+
+    const moneyRanges = {
+      '1B+': [1000000000, Infinity],
+      '100M-1B': [100000000, 999999999],
+      '1M-100M': [1000000, 99999999],
+      'under-1M': [0, 999999],
+    };
+
+    function readUrl() {
+      const p = new URLSearchParams(window.location.search);
+      ['status', 'severity', 'reform', 'money'].forEach((k) => {
+        const v = p.get(k);
+        if (v) v.split(',').filter(Boolean).forEach((x) => active[k].add(x));
+      });
+      ['group', 'year', 'party', 'sort'].forEach((k) => {
+        const v = p.get(k);
+        if (v) selects[k] = v;
+      });
+      const q = p.get('q');
+      if (q) searchQuery = q;
+    }
+
+    function writeUrl() {
+      const p = new URLSearchParams();
+      ['status', 'severity', 'reform', 'money'].forEach((k) => {
+        if (active[k].size) p.set(k, Array.from(active[k]).join(','));
+      });
+      ['group', 'year', 'party'].forEach((k) => {
+        if (selects[k]) p.set(k, selects[k]);
+      });
+      if (selects.sort && selects.sort !== 'dollars_desc') p.set('sort', selects.sort);
+      if (searchQuery) p.set('q', searchQuery);
+      const qs = p.toString();
+      const url = window.location.pathname + (qs ? '?' + qs : '');
+      window.history.replaceState(null, '', url);
+    }
+
+    function syncChipUI() {
+      root.querySelectorAll('[data-filter-group]').forEach((group) => {
+        const key = group.getAttribute('data-filter-group');
+        group.querySelectorAll('.chip').forEach((chip) => {
+          const val = chip.getAttribute('data-value');
+          chip.classList.toggle('active', active[key].has(val));
+        });
+      });
+      root.querySelectorAll('[data-filter-select]').forEach((sel) => {
+        const key = sel.getAttribute('data-filter-select');
+        sel.value = selects[key] ?? '';
+      });
+    }
+
+    function rowMatches(row) {
+      if (active.status.size && !active.status.has(row.dataset.status)) return false;
+      if (active.severity.size) {
+        const sevs = (row.dataset.severities || '').split(',');
+        let any = false;
+        for (const s of active.severity) { if (sevs.includes(s)) { any = true; break; } }
+        if (!any) return false;
+      }
+      if (active.reform.size) {
+        const refs = (row.dataset.reforms || '').split(',');
+        let any = false;
+        for (const r of active.reform) { if (refs.includes(r)) { any = true; break; } }
+        if (!any) return false;
+      }
+      if (active.money.size) {
+        const d = Number(row.dataset.dollars);
+        let any = false;
+        for (const key of active.money) {
+          const range = moneyRanges[key];
+          if (range && d >= range[0] && d <= range[1]) { any = true; break; }
+        }
+        if (!any) return false;
+      }
+      if (selects.group) {
+        if (row.dataset.group !== selects.group) return false;
+      }
+      if (selects.year) {
+        if (row.dataset.year !== selects.year) return false;
+      }
+      if (selects.party) {
+        const ps = (row.dataset.parties || '').split(',');
+        if (!ps.includes(selects.party)) return false;
+      }
+      if (searchQuery) {
+        const hay = row.dataset.search || '';
+        const terms = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
+        for (const t of terms) { if (!hay.includes(t)) return false; }
+      }
+      return true;
+    }
+
+    function sortRows(rs) {
+      return rs.slice().sort((a, b) => {
+        switch (selects.sort) {
+          case 'date_surfaced_asc':
+            return new Date(a.dataset.dateSurfaced) - new Date(b.dataset.dateSurfaced);
+          case 'date_surfaced_desc':
+            return new Date(b.dataset.dateSurfaced) - new Date(a.dataset.dateSurfaced);
+          case 'last_updated_desc':
+            return new Date(b.dataset.lastUpdated) - new Date(a.dataset.lastUpdated);
+          case 'dollars_desc':
+          default: {
+            // dollars desc, then sev desc, then date_surfaced desc
+            const dd = Number(b.dataset.dollars) - Number(a.dataset.dollars);
+            if (dd !== 0) return dd;
+            const sd = Number(b.dataset.sev) - Number(a.dataset.sev);
+            if (sd !== 0) return sd;
+            return new Date(b.dataset.dateSurfaced) - new Date(a.dataset.dateSurfaced);
+          }
+        }
+      });
+    }
+
+    function apply() {
+      let total = 0;
+      rows.forEach((r) => { r.classList.add('hidden'); });
+      groupSections.forEach((sec) => {
+        const list = sec.querySelector('[data-case-list]');
+        const groupRows = Array.from(list.querySelectorAll('.case-row'));
+        const matching = sortRows(groupRows.filter(rowMatches));
+        matching.forEach((r) => { r.classList.remove('hidden'); list.appendChild(r); });
+        const countTag = sec.querySelector('.case-group-count');
+        if (countTag) countTag.textContent = matching.length + (matching.length === 1 ? ' case' : ' cases');
+        sec.hidden = matching.length === 0;
+        total += matching.length;
+      });
+      if (countEl) countEl.textContent = total + (total === 1 ? ' case' : ' cases');
+      if (noResults) noResults.hidden = total !== 0;
+    }
+
+    root.querySelectorAll('.chip').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        const group = chip.closest('[data-filter-group]');
+        if (!group) return;
+        const key = group.getAttribute('data-filter-group');
+        const val = chip.getAttribute('data-value');
+        if (active[key].has(val)) active[key].delete(val);
+        else active[key].add(val);
+        syncChipUI();
+        apply();
+        writeUrl();
+      });
+    });
+
+    root.querySelectorAll('[data-filter-select]').forEach((sel) => {
+      sel.addEventListener('change', () => {
+        const key = sel.getAttribute('data-filter-select');
+        selects[key] = sel.value;
+        apply();
+        writeUrl();
+      });
+    });
+
+    document.getElementById('reset-filters').addEventListener('click', () => {
+      active.status.clear(); active.severity.clear(); active.reform.clear(); active.money.clear();
+      selects.group = ''; selects.year = ''; selects.party = ''; selects.sort = 'dollars_desc';
+      searchQuery = '';
+      const sEl = document.getElementById('case-search');
+      if (sEl) sEl.value = '';
+      syncChipUI();
+      apply();
+      writeUrl();
+      syncToggleBadge();
+    });
+
+    // More filters disclosure
+    const moreBtn = document.getElementById('more-filters-btn');
+    const morePanel = document.getElementById('more-filters');
+    if (moreBtn && morePanel) {
+      moreBtn.addEventListener('click', () => {
+        const open = morePanel.hidden;
+        morePanel.hidden = !open;
+        moreBtn.setAttribute('aria-expanded', String(open));
+        moreBtn.textContent = open ? 'Fewer filters' : 'More filters';
+      });
+    }
+
+    // Lane tiles deep-link via ?group= or ?severity= or ?money= — the href starts with `?`,
+    // which replaces the entire query string, so each lane click is a clean filter (non-additive).
+
+    // Master filter toggle
+    const filterToggleBtn = document.getElementById('filter-toggle-btn');
+    const filterPanel = document.getElementById('filters');
+    const filterToggleCount = document.getElementById('filter-toggle-count');
+    const filterToggleClear = document.getElementById('filter-toggle-clear');
+
+    function activeFilterCount() {
+      let n = 0;
+      n += active.status.size + active.severity.size + active.reform.size + active.money.size;
+      if (selects.group) n += 1;
+      if (selects.year) n += 1;
+      if (selects.party) n += 1;
+      if (searchQuery) n += 1;
+      return n;
+    }
+    function syncToggleBadge() {
+      const n = activeFilterCount();
+      if (filterToggleCount) filterToggleCount.textContent = n > 0 ? '· ' + n + ' active' : '';
+      if (filterToggleClear) filterToggleClear.hidden = n === 0;
+      if (filterToggleBtn) filterToggleBtn.classList.toggle('has-active', n > 0);
+    }
+    function setFilterPanelOpen(open) {
+      if (!filterPanel || !filterToggleBtn) return;
+      filterPanel.hidden = !open;
+      filterToggleBtn.setAttribute('aria-expanded', String(open));
+      const icon = filterToggleBtn.querySelector('.filter-toggle-icon');
+      if (icon) icon.textContent = open ? '−' : '+';
+    }
+    if (filterToggleBtn) {
+      filterToggleBtn.addEventListener('click', () => {
+        setFilterPanelOpen(filterPanel.hidden);
+      });
+    }
+    if (filterToggleClear) {
+      filterToggleClear.addEventListener('click', () => {
+        active.status.clear(); active.severity.clear(); active.reform.clear(); active.money.clear();
+        selects.group = ''; selects.year = ''; selects.party = ''; selects.sort = 'dollars_desc';
+        searchQuery = '';
+        const searchEl = document.getElementById('case-search');
+        if (searchEl) searchEl.value = '';
+        syncChipUI();
+        apply();
+        writeUrl();
+        syncToggleBadge();
+      });
+    }
+
+    // Search input
+    const searchEl = document.getElementById('case-search');
+    if (searchEl) {
+      searchEl.value = searchQuery;
+      let debounceTimer = null;
+      searchEl.addEventListener('input', () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          searchQuery = searchEl.value.trim();
+          apply();
+          writeUrl();
+          syncToggleBadge();
+        }, 120);
+      });
+    }
+
+    readUrl();
+    // Filter panel stays closed on load even if filters are active (e.g. arrived from a lane tile).
+    // The toggle button shows the active count so users know filtering is happening; they open the
+    // panel only if they want to modify or clear.
+    syncChipUI();
+    apply();
+    syncToggleBadge();
+
+    // Keep badge fresh after any chip/select/reset interaction.
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('.chip') || e.target.closest('#reset-filters')) {
+        syncToggleBadge();
+      }
+    });
+    document.addEventListener('change', (e) => {
+      if (e.target.closest('[data-filter-select]')) syncToggleBadge();
+    });
+  })();
+</script>
+</Base>

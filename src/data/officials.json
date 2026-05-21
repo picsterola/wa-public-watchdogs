@@ -1,0 +1,141 @@
+{
+  "_doc": "Photo registry for officials named in Documented + Reported cases. Keyed by lowercase-dash slug of the actor name. photo: relative path under /img/officials/ (256x256 grayscale JPEG). source_url: primary government bio page or Wikimedia Commons file page. license: short license tag. download_url: original full-resolution image fetched at build time (do not link to in the UI). Officials with no qualifying primary-source portrait have photo: null and the case page will fall back to plain text.",
+  "officials": {
+    "dow-constantine": {
+      "name": "Dow Constantine",
+      "title": "CEO, Sound Transit",
+      "photo": "/img/officials/dow-constantine.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Dow_Constantine_%2819090348039%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Dow_Constantine",
+      "license": "Wikimedia Commons"
+    },
+    "bob-ferguson": {
+      "name": "Bob Ferguson",
+      "title": "Governor of Washington",
+      "photo": "/img/officials/bob-ferguson.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bob_Ferguson_at_his_2023_Shrimp_Feed_02_%28cropped%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Ferguson_(politician)",
+      "license": "Wikimedia Commons CC BY-SA 4.0"
+    },
+    "bruce-harrell": {
+      "name": "Bruce Harrell",
+      "title": "Former Mayor of Seattle",
+      "photo": "/img/officials/bruce-harrell.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bruce_Harrell_%2852457507483%29_%282%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Bruce_Harrell",
+      "license": "Wikimedia Commons"
+    },
+    "adrian-diaz": {
+      "name": "Adrian Diaz",
+      "title": "Former Chief, Seattle Police Department",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "brent-jones": {
+      "name": "Brent Jones",
+      "title": "Former Superintendent, Seattle Public Schools",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "kelly-kinnison": {
+      "name": "Kelly Kinnison",
+      "title": "CEO, KCRHA",
+      "photo": "/img/officials/kelly-kinnison.jpg",
+      "download_url": "https://kcrha.org/wp-content/uploads/2024/06/KCRHA_CEO_Kelly-Kinnison_sm-1.png",
+      "source_url": "https://kcrha.org/about/leadership/",
+      "license": "Official agency portrait"
+    },
+    "kymber-waltmunson": {
+      "name": "Kymber Waltmunson",
+      "title": "King County Auditor",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "liza-rankin": {
+      "name": "Liza Rankin",
+      "title": "Director, Seattle Public Schools Board",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "nick-brown": {
+      "name": "Nick Brown",
+      "title": "Washington State Attorney General",
+      "photo": "/img/officials/nick-brown.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Nicholas_W._Brown%2C_U.S._Attorney_official.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Nicholas_W._Brown_(lawyer)",
+      "license": "Wikimedia Commons / federal government work"
+    },
+    "reagan-dunn": {
+      "name": "Reagan Dunn",
+      "title": "King County Councilmember, District 9",
+      "photo": "/img/officials/reagan-dunn.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Reagan_Dunn_Portrait.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Reagan_Dunn",
+      "license": "Wikimedia Commons"
+    },
+    "rod-dembowski": {
+      "name": "Rod Dembowski",
+      "title": "King County Councilmember, District 1",
+      "photo": "/img/officials/rod-dembowski.jpg",
+      "download_url": "https://cdn.kingcounty.gov/-/media/king-county/depts/council/rod-dembowski/councilmember-rod-dembowski_official-portrait.jpg?rev=d1d34cd6ec4d4de48340d02af0c34e6f&hash=7E849C2B12960CE13043D0E49FA07A0F",
+      "source_url": "https://www.kingcounty.gov/en/dept/council/r-dembowski",
+      "license": "Official King County government portrait"
+    },
+    "sarah-perry": {
+      "name": "Sarah Perry",
+      "title": "King County Council Chair, District 3",
+      "photo": "/img/officials/sarah-perry.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sarah_Perry_at_Twin_Peaks_Day_Proclamation_%28cropped%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Sarah_Perry_(politician)",
+      "license": "Wikimedia Commons"
+    },
+    "shon-barnes": {
+      "name": "Shon Barnes",
+      "title": "Chief, Seattle Police Department",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "steve-metruck": {
+      "name": "Steve Metruck",
+      "title": "Executive Director, Port of Seattle",
+      "photo": "/img/officials/steve-metruck.jpg",
+      "download_url": "https://www.portseattle.org/sites/default/files/styles/detailpageimagesize/public/2018-02/Metruck_171219_016.jpg?itok=qNdg-M5h",
+      "source_url": "https://www.portseattle.org/news/port-seattle-appoints-stephen-metruck-executive-director",
+      "license": "Official Port of Seattle portrait"
+    },
+    "terri-mestas": {
+      "name": "Terri Mestas",
+      "title": "Deputy CEO Megaproject Delivery, Sound Transit",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "victoria-baecher-wassmer": {
+      "name": "Victoria Baecher Wassmer",
+      "title": "Deputy CEO Finance, Sound Transit",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    },
+    "wayne-barnett": {
+      "name": "Wayne Barnett",
+      "title": "Executive Director, Seattle Ethics & Elections Commission",
+      "photo": null,
+      "download_url": null,
+      "source_url": null,
+      "license": null
+    }
+  }
+}

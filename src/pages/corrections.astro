@@ -1,0 +1,156 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Corrections">
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">Corrections · The registry's own ledger</div>
+      <h1>What we got <em>wrong</em>, and when.</h1>
+      <p class="page-hero-lede">
+        Every substantive change to a published case is logged here, in reverse chronological order. Typos and stylistic edits are not logged.
+      </p>
+    </div>
+  </header>
+
+  <section class="prose">
+    <h2>Policy</h2>
+    <p>A registry that calls out other people's bookkeeping has to show its own. When a published case is materially changed — a dollar figure corrected, a name added or removed, a legal-status field updated, an evidentiary tier downgraded — the change appears below with the date, the case slug, the field changed, and the source that prompted it. Old URLs remain live; pages are amended, not deleted. Cases that are formally exonerated are tombstoned at the same URL with an exoneration note.</p>
+
+    <h2>2026-05-20 · KCRHA title language</h2>
+    <p><a href="/cases/kcrha-forensic-audit">KCRHA forensic audit</a>: removed the phrase "no fraud found" from the case title and <code>outcome_summary</code> field. The audit is active and ongoing, and a corrective-action plan was not yet due at the time of release. Stating "no fraud found" at the headline level reads as a conclusion when the matter is in fact under investigation. The audit's own statement that it did not find fraud is preserved in the case body, alongside the audit's caveat identifying gift cards, purchase cards, employee reimbursements, and account permissions as four high-risk areas where fraud could occur without being detected under existing controls.</p>
+
+    <h2>2026-05-20 · SPS batch intake (4 new cases)</h2>
+    <p>Four new Seattle Public Schools cases added through the INTAKE.md workflow. All passed §1 hard-reject gates and §4 inline cross-reference checks. The new cases:</p>
+    <ul>
+      <li><a href="/cases/sps-garfield-sex-abuse-settlement">SPS-2024-001 — Garfield High School coach sexual abuse, $16M settlement</a>. Tier 1: PWRFL Law settlement announcement; Walter Junior Jones mistrial December 2025 (King County, Judge Michael Ryan); Marvin Wayne Hall guilty plea summer 2025. Tier 2: <a href="https://www.seattletimes.com/education-lab/seattle-public-schools-to-pay-16m-to-settle-sex-abuse-lawsuit/">Seattle Times</a>, <a href="https://www.fox13seattle.com/news/sps-sexual-abuse-tort-claim">Fox 13 / Wixey</a>, <a href="https://www.kiro7.com/news/local/mistrial-declared-child-rape-case-involving-coach-with-seattle-public-schools/DYLQHK5M5ZEXRDHSPCJPTZ2FAM/">KIRO 7</a>.</li>
+      <li><a href="/cases/sps-garfield-hazing-first-amendment-settlement">SPS-2024-002 — Garfield swim team hazing / First Amendment retaliation, $125K settlement</a>. Tier 1: King County Superior Court Case No. 22-2-10907-6 SEA; <a href="https://law.justia.com/cases/washington/court-of-appeals-division-i/2024/85998-6.html">Washington Court of Appeals parallel PRA case (No. 85998-6-I)</a>. Tier 2: <a href="https://www.kiro7.com/news/local/former-seattle-student-wins-settlement-against-sps/JERFW36DTBCAVKYDHCHVYKZ7CI/">KIRO 7</a>.</li>
+      <li><a href="/cases/sps-nathan-hale-antisemitism-lawsuit">SPS-2025-004 — Nathan Hale High School antisemitism lawsuit (state + federal)</a>. Tier 1: SPS district statement (Sophia Charcuk, June 17, 2025); federal complaint filed November 20, 2025 under Title VI. Tier 2: <a href="https://www.seattletimes.com/education-lab/suit-alleges-antisemitic-bullying-at-seattles-nathan-hale-high/">Seattle Times / Bryan</a>, <a href="https://katu.com/news/local/nathan-hale-high-seattle-public-schools-lawsuit-former-student-jewish-antisemitism-harassment-verbal-assaults">KATU-KOMO / Kent</a>, <a href="https://www.kiro7.com/news/local/family-says-seattle-public-schools-ignored-threats-slurs-swastikas-targeting-jewish-student/BT4KN32Q4JEPPKIUOIS5F6RRWI/">KIRO 7 / Garrett</a>.</li>
+      <li><a href="/cases/sps-ag-pregnancy-lactation-lawsuit">SPS-2025-005 — WA AG civil rights lawsuit over pregnancy and lactation accommodations</a>. Tier 1: <a href="https://www.atg.wa.gov/news/news-releases/attorney-general-s-office-sues-seattle-public-schools-over-illegal-treatment">WA AG press release (April 15, 2025)</a>; SPS Policy 5010SP.B (November 2025). Tier 2: <a href="https://www.seattletimes.com/education-lab/wa-sues-seattle-schools-over-its-treatment-of-pregnant-and-nursing-employees/">Seattle Times / Bryan</a>, KIRO 7, KOMO News, Fox 13.</li>
+    </ul>
+    <p>Rejected during triage (failed §1 G3 source-tier gate): toxic-work-environment Instagram post, remote-work salary critique (Instagram), former-employees Facebook lawsuit reference, and unsourced pattern-claim items. The four published cases all pass the documented standard with multiple Tier 1 and Tier 2 sources.</p>
+
+    <h2>2026-05-20 · Cross-case consistency pass</h2>
+    <p>A structural pass across all 36 cases checking for broken cross-references, date conflicts, dollar-baseline confusion, inconsistent actor metadata, and tag duplicates. Twenty issues identified; five high/medium-severity fixes applied below. Low-severity tag normalizations folded in.</p>
+
+    <h3>Broken cross-case references</h3>
+    <ul>
+      <li><a href="/cases/port-seattle-pie-fraud">Port of Seattle PIE fraud</a>: Cross-reference to KCRHA forensic audit corrected from <code>KC-2025-007</code> to <code>KC-2026-001</code>.</li>
+      <li><a href="/cases/kc-youth-program-self-dealing">KC youth program self-dealing</a>: Cross-reference to King County Inspector General proposal corrected from <code>KC-2026-002</code> to <code>KC-2026-007</code>.</li>
+    </ul>
+
+    <h3>Date conflict</h3>
+    <ul>
+      <li><a href="/cases/constantine-ceo-ethics-complaint">Constantine CEO ethics complaint</a>: Constantine's Sound Transit CEO appointment date corrected in body from "March 28, 2025" to <strong>March 27, 2025</strong> to match the <a href="https://www.soundtransit.org/get-to-know-us/news-events/news-releases/dow-constantine-hired-sound-transit-ceo">Sound Transit press release</a> and the related <code>dow-soundtransit-ceo</code> case. The separate March 26, 2025 date for Aspelund's ethics complaint filing is preserved.</li>
+    </ul>
+
+    <h3>Dollar-baseline clarification</h3>
+    <ul>
+      <li><a href="/cases/sound-transit-st3-program-reset">Sound Transit ST3 program reset</a>: Added a clarifying note that the $4.2B West Seattle Link baseline is the 2016 ST3 finance-plan figure in year-of-expenditure dollars, while case <code>sound-transit-west-seattle-cost</code> uses the ~$2.7B 2014-dollar ballot-pamphlet figure. Both are accurate within their respective baselines; the gap is an accounting-convention difference, not a discrepancy.</li>
+    </ul>
+
+    <h3>Internal dollar consistency</h3>
+    <ul>
+      <li><a href="/cases/kc-inspector-general-proposal">KC Inspector General proposal</a>: DCHS program scale reference corrected from "$1.5B+" to <strong>$1.8B+</strong> to match the corrected DCHS audit figure (KC-2025-001).</li>
+    </ul>
+
+    <h3>Tag normalization</h3>
+    <ul>
+      <li><code>ombudsman</code> → <code>ombuds</code> (DCHS Ombuds investigation case), to match the King County office's actual name and other cases using <code>ombuds</code>.</li>
+      <li><code>megaprojects</code> → <code>mega_project</code> (Sound Transit ST3 program reset), to align with snake_case convention used elsewhere.</li>
+      <li><code>inspector_general_push</code> → <code>inspector_general</code> (KC youth program self-dealing), removing a near-duplicate tag.</li>
+    </ul>
+
+    <h2>2026-05-20 · Actor-fact validation pass</h2>
+    <p>A systematic review of every named actor, title, party affiliation, jurisdiction, <code>legal_status</code>, and <code>evidentiary_status</code> field across all 36 cases. 124 individual claims validated; 81.4% verified clean. Eighteen substantive fixes applied below.</p>
+
+    <h3>Name and title corrections</h3>
+    <ul>
+      <li><a href="/cases/sound-transit-st3-program-reset">Sound Transit ST3 program reset</a>: Deputy CEO name corrected from "Victoria Wass" to <strong>Victoria Baecher Wassmer</strong>; title updated to full "Deputy CEO, Finance &amp; Business Administration" per <a href="https://www.soundtransit.org/get-to-know-us/news-events/news-releases/sound-transit-welcomes-new-leaders-finance-business">Sound Transit press release (Feb 18, 2025)</a>. Dow Constantine <code>party</code> field set to D.</li>
+      <li><a href="/cases/leb-24-06-mullet-public-resources">LEB 24-06 Mullet</a>: Mark Mullet's title updated from "Washington State Senator" to "former Washington State Senator" (left the Senate January 2025 to run for Governor).</li>
+      <li><a href="/cases/port-seattle-pie-fraud">Port of Seattle PIE fraud</a>: Bookda Gheisar's title corrected to include "Office of" (Senior Director, Office of Equity, Diversity, and Inclusion).</li>
+    </ul>
+
+    <h3>Legal status updates (LEB cases)</h3>
+    <p>Eleven Legislative Ethics Board cases were carrying <code>legal_status: complaint_filed</code> after the LEB had already issued advisory opinions. All eleven were updated to <code>closed_no_action</code> per the <a href="https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/">LEB opinion index</a>. The oldest stale entry was LEB 24-06 Mullet (opinion issued June 4, 2024 — nearly two years stale).</p>
+    <ul>
+      <li>LEB 24-06 Mullet, 25-01 Hackney, 25-02 Caldier, 25-03 House Dem Caucus social media, 25-04 Zahn, 25-06 Walen, 25-09 Jinkins, 25-10 Troyer/Wirtz, 25-11 Alvarado, 25-37 Parshley, 25-38 Simmons.</li>
+    </ul>
+
+    <h3>Other legal status updates</h3>
+    <ul>
+      <li><a href="/cases/sound-transit-st3-program-reset">Sound Transit ST3 program reset</a>: <code>legal_status</code> changed from <code>under_investigation</code> to <code>no_action</code>. The program reset is an internal agency planning process, not an external investigation.</li>
+      <li><a href="/cases/port-seattle-pie-fraud">Port of Seattle PIE fraud</a>: <code>outcome_summary</code> expanded to document the criminal investigation referral to King County Sheriff's Department (per Port Internal Audit Report #2024-17), which was not previously reflected in the record. No public charging decision as of this update.</li>
+    </ul>
+
+    <h3>Evidentiary status downgrades</h3>
+    <p>Six cases were marked <code>documented</code> while citing only Tier 2 journalism sources. Two were corrected by adding a qualifying Tier 1 agency source. Four were downgraded to <code>reported</code>.</p>
+    <ul>
+      <li><a href="/cases/sound-transit-st3-program-reset">Sound Transit ST3 program reset</a>: <strong>retained documented</strong> by adding <a href="https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability">Sound Transit's official program-reset agency page</a> as a Tier 1 agency_statement source.</li>
+      <li><a href="/cases/dow-soundtransit-ceo">Dow Constantine appointed Sound Transit CEO</a>: <strong>retained documented</strong> by adding <a href="https://www.soundtransit.org/get-to-know-us/news-events/news-releases/dow-constantine-hired-sound-transit-ceo">Sound Transit's official CEO appointment press release</a> as a Tier 1 agency_statement source.</li>
+      <li><a href="/cases/kc-youth-program-self-dealing">KC youth program self-dealing</a>: <strong>downgraded to <code>reported</code></strong>. The underlying King County internal investigation report (Dec 2025) was obtained by the Seattle Times via public records request but is not independently cited in the registry. Until the report can be cited directly, the case is properly classified as reported.</li>
+      <li><a href="/cases/spd-overtime-overspending">SPD overtime overspending</a>: downgraded to <code>reported</code> (single PubliCola source; underlying SPD memo not independently cited).</li>
+      <li><a href="/cases/lni-it-modernization">L&amp;I IT modernization</a>: downgraded to <code>reported</code> (single Governing/Seattle Times reprint source; no SAO or OCIO report cited).</li>
+      <li><a href="/cases/ferguson-pdc-vacancies-recall">Ferguson PDC vacancies</a>: downgraded to <code>reported</code> (OPB and Lynnwood Times only; no PDC filing or appointment order cited).</li>
+    </ul>
+
+    <h2>2026-05-20 · Dollar-figure validation pass</h2>
+    <p>A systematic review of every <code>dollars_at_issue</code> claim in the registry against the cited primary sources surfaced four major discrepancies and one fiscal-year attribution error. All five were corrected the same day.</p>
+
+    <h3><a href="/cases/dchs-systemic-audit">DCHS systemic audit</a></h3>
+    <ul>
+      <li><strong>Field:</strong> <code>dollars_at_issue</code>, <code>dollars_basis</code>, <code>outcome_summary</code>, body text, sources</li>
+      <li><strong>Was:</strong> $1.87B at issue; 2019-2020 baseline cited as $22M; outcome flagged a $900M correction as pending verification</li>
+      <li><strong>Is:</strong> $1.8B at issue; 2019-2020 baseline corrected to $922M per the September 9, 2025 King County Auditor errata</li>
+      <li><strong>Why:</strong> The original audit's $22M baseline was a typographical error that the Auditor's Office formally corrected via errata. The widely-circulated "6,700% growth" framing was based on the uncorrected figure. Actual growth is approximately 2x over four years.</li>
+      <li><strong>Source:</strong> <a href="https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/auditors-office/reports/audits/2025/dchs-contracts/dchs-contracts-errata-2025.pdf">King County Auditor's Office — DCHS Contracts Audit Errata (Sep 9, 2025)</a></li>
+    </ul>
+
+    <h3><a href="/cases/constantine-ceo-ethics-complaint">Constantine CEO ethics complaint</a></h3>
+    <ul>
+      <li><strong>Field:</strong> <code>dollars_at_issue</code>, <code>dollars_basis</code>, body text, sources</li>
+      <li><strong>Was:</strong> $675,000 cited as Constantine's Sound Transit CEO salary</li>
+      <li><strong>Is:</strong> $450,000 base salary at hire (raised to $474,276 effective January 2026)</li>
+      <li><strong>Why:</strong> The $675K figure appeared on a Krauthamer recruiting firm invoice as an anticipated maximum, not as the contracted salary. Fox 13 Seattle and the Seattle Times document the $450K base.</li>
+      <li><strong>Source:</strong> <a href="https://www.seattletimes.com/seattle-news/transportation/why-sound-transits-ceo-is-postponing-part-of-his-pay-raise/">Seattle Times (Jan 2026)</a></li>
+    </ul>
+
+    <h3><a href="/cases/dow-soundtransit-ceo">Dow Constantine appointed Sound Transit CEO</a></h3>
+    <ul>
+      <li><strong>Field:</strong> <code>dollars_at_issue</code>, <code>dollars_basis</code>, body text, sources</li>
+      <li><strong>Was:</strong> $675,000 as reported annual salary</li>
+      <li><strong>Is:</strong> $450,000 base salary at hire</li>
+      <li><strong>Why:</strong> Same recruiter-invoice error as the companion ethics-complaint case.</li>
+      <li><strong>Source:</strong> <a href="https://www.seattletimes.com/seattle-news/transportation/why-sound-transits-ceo-is-postponing-part-of-his-pay-raise/">Seattle Times (Jan 2026)</a></li>
+    </ul>
+
+    <h3><a href="/cases/kc-health-through-housing">King County Health Through Housing</a></h3>
+    <ul>
+      <li><strong>Field:</strong> <code>title</code>, <code>dollars_at_issue</code>, <code>dollars_basis</code>, body text, sources</li>
+      <li><strong>Was:</strong> $455 million total program cost; approximately $333,000 per unit</li>
+      <li><strong>Is:</strong> $297.8 million capital budget per the 2021 Implementation Plan; per-unit capital cost $229,300 to $285,772 across 2022-2024 annual reports</li>
+      <li><strong>Why:</strong> Neither the $455M total nor the $333K per-unit figure appeared in the cited sources or in King County's own published annual reports. Replaced with King County's own documented figures.</li>
+      <li><strong>Source:</strong> <a href="https://cdn.kingcounty.gov/-/media/king-county/depts/dchs/housing/health-through-housing/annual-reports/2024-health-through-housing-annual-report.pdf">King County DCHS — Health Through Housing 2024 Annual Report</a></li>
+    </ul>
+
+    <h3><a href="/cases/sps-structural-deficit">Seattle Public Schools structural deficit</a></h3>
+    <ul>
+      <li><strong>Field:</strong> <code>dollars_basis</code>, body text</li>
+      <li><strong>Was:</strong> $94-104M structural deficit attributed to FY 2025-26</li>
+      <li><strong>Is:</strong> $104M for FY 2024-25; $94M+ projected for FY 2025-26</li>
+      <li><strong>Why:</strong> The $104M figure is the FY 2024-25 carry-forward, not the FY 2025-26 projection. The $94M+ is the FY 2025-26 figure. Both are accurate; the attribution was off.</li>
+    </ul>
+
+    <h2>2026-05-20 · URL liveness pass</h2>
+    <p><em>(Earlier the same day, before the dollar-figure validation pass.)</em></p>
+    <p>Every source URL in every published case was checked for liveness. Four genuinely broken or stale URLs were replaced. Nine apparent 403s from Seattle Times and seattle.gov were confirmed as bot-block false positives; those URLs are live in a browser and were retained.</p>
+    <ul>
+      <li><a href="/cases/spd-diaz-misconduct">SPD Diaz misconduct</a>: Cascade PBS ghost.io URL replaced with the seattle.gov OIG findings letter PDF.</li>
+      <li>Three additional dead URLs replaced with archival or canonical primary-source equivalents (see individual case histories for specifics).</li>
+    </ul>
+
+    <h2>2026-05-20 · Substantive rewrite</h2>
+    <ul>
+      <li><a href="/cases/kc-youth-program-self-dealing">KC youth program self-dealing</a>: Following two independent Tier 2 reports (Seattle Times Apr 26, 2026; Fox 13 Apr 27, 2026) naming Yolanda McGhee on the record based on a county investigation report obtained via public records request, the case was promoted from <code>alleged</code> to <code>documented</code> and the manager was named per the registry's standing naming policy (named only when a public story already exists in the media). <code>criminal_fraud</code> was removed from <code>severity_type</code> because no charges or referral has been announced; <code>conflict_of_interest</code>, <code>special_privileges</code>, and <code>rule_gaming</code> were retained.</li>
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,223 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="About">
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">About</div>
+      <h1>A compiled record, not a <em>news outlet</em>.</h1>
+      <p class="page-hero-lede">
+        Mission, editorial stance, and disclosures. The registry exists to make accountability
+        cases legible to a non-specialist reader, anchored to documents anyone can verify.
+      </p>
+      <div class="page-hero-stats">
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">4</span>
+          <span class="page-hero-stat-label">Layers of government</span>
+        </div>
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">1</span>
+          <span class="page-hero-stat-label">Independent editor</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">01 · Why</span>
+      <h2>The drip became a pattern.</h2>
+      <p class="dek">Most of these cases were already public. Few had been tied together.</p>
+    </div>
+    <p>
+      Over the past two years, the layers of government that touch this region (Washington State, King County, the
+      City of Seattle, and the regional bodies that tax it) have produced a steady drip of accountability stories:
+      a $1.8 billion homelessness program with one percent of spending audited, a $34 billion transit megaproject
+      that quietly reset its scope, a regional homelessness authority with $13 million unaccounted for, ethics
+      findings against multiple sitting legislators, public-records lawsuits over school-district conduct. Most of
+      these surfaced in named-byline reporting or formal audit findings. Few got tied together.
+    </p>
+    <p>
+      This registry exists to be the single place a Washington resident can go to see those cases laid out side by side,
+      organized consistently, and connected back to the specific structural reform that would have caught each one
+      sooner. It is built for the concerned citizen, not the political insider.
+    </p>
+  </section>
+
+  <div class="section-band">
+    <div class="section-band-inner">
+      <div class="prose">
+        <div class="narrative-head">
+          <span class="kicker">02 · Scope</span>
+          <h2>What the registry is, and is not.</h2>
+          <p class="dek">A compiled public record bounded by source quality, geography, and time.</p>
+        </div>
+        <p>
+          The registry is a compiled public record. It is not a news outlet, does not break stories, and does not run
+          anonymous tip lines. Every case here is anchored in documents you can read yourself: audits, court filings,
+          ethics rulings, settlement agreements, or named-byline reporting in established Washington news outlets.
+          Anonymous tips, rumor, partisan commentary, and social media chatter are not eligible sources.
+        </p>
+        <p>
+          Scope is deliberately bounded. The registry covers Washington State government, King County government, the
+          City of Seattle (including Seattle Public Schools), and regional or interlocal bodies with independent taxing
+          authority that operate here (Sound Transit, KCRHA, Port of Seattle, and similar). Seattle is the starting
+          point because it sits at the center of the regional governments above it: nearly every interlocal body in
+          scope is anchored here, and most of the documented record over the past two years runs through it. Other
+          Washington cities and their school districts are out of scope for now and may be added in later phases. The
+          full scope rules live on the <a href="/methodology#which-governments-are-in-scope">Methodology page</a>.
+        </p>
+        <p>
+          The registry does not assert motive. It does not characterize any matter as more serious than its evidentiary
+          record supports. Cases are labeled as <em>documented</em>, <em>reported</em>, or <em>alleged</em>, and the
+          language in each case reflects that label. See the <a href="/methodology">Methodology</a> page for how cases
+          are classified and how the source tiers work.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">03 · Sources</span>
+      <h2>The source hierarchy that anchors every case.</h2>
+      <p class="dek">Tier 1 is required for any documented record. Tier 3 is excluded entirely.</p>
+    </div>
+    <p>
+      Every case is anchored in a tiered source structure. Tier 1 sources are required for any case classified as
+      <em>documented</em>. The summary below is the public-facing version of the registry's full source-tier policy,
+      which governs intake, validation, and naming decisions across the project.
+    </p>
+
+    <table class="tier-table">
+      <thead>
+        <tr>
+          <th>Tier</th>
+          <th>What counts</th>
+          <th>Role in a record</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tier 1</td>
+          <td>
+            Primary documentary sources: SAO and King County Auditor reports; King County Ombudsman reports; Seattle
+            City Auditor reports; Legislative Ethics Board (LEB) opinions; Public Disclosure Commission (PDC) findings;
+            Seattle Ethics and Elections Commission (SEEC) decisions; King County Board of Ethics opinions; federal,
+            state, and local Inspector General reports; court filings, indictments, settlements, and judgments;
+            official agency statements (press releases, board minutes, formal letters from elected officials acting in
+            their public capacity); and FOIA / PRA returned records.
+          </td>
+          <td>Required as lead source for <em>documented</em> records. Always archived via Wayback at intake.</td>
+        </tr>
+        <tr>
+          <td>Tier 2</td>
+          <td>
+            Named-byline reporting from established news organizations with editorial accountability. Canonical Tier 2
+            outlets: Seattle Times, KUOW, Cascade PBS / Crosscut, KING 5, Fox 13 Seattle, KIRO 7, PubliCola, The
+            Urbanist, MyNorthwest news desk, Axios Seattle, GeekWire (for business stories touching public agencies),
+            and Associated Press. National outlets (Bloomberg, Reuters, Wall Street Journal, New York Times, Washington
+            Post) qualify when they cover Washington matters. A news article that summarizes a Tier 1 document is
+            itself Tier 2; the underlying document is Tier 1.
+          </td>
+          <td>
+            Supporting source for <em>documented</em> records. May serve as lead source for <em>reported</em> records.
+            Two independent Tier 2 sources are required to name a private individual; a single Tier 1 source naming
+            them is sufficient on its own.
+          </td>
+        </tr>
+        <tr>
+          <td>Tier 3</td>
+          <td>
+            Excluded categories: partisan advocacy organizations (Change Washington, Shift WA, Washington Policy
+            Center, Discovery Institute, Economic Opportunity Institute, Sightline Institute, and equivalents on any
+            side of the spectrum); political-party communications (WA GOP, WA State Democrats, county party
+            committees, campaign press releases); personal blogs and substacks; anonymous tips and leaks (unless the
+            leaked document itself is Tier 1, in which case the document is cited, not the leak channel); social media
+            posts; interest-group press releases (Chamber of Commerce, labor organizations, trade associations); PR /
+            public relations firm communications; polling crosstabs; and YouTube or podcast commentary, even from
+            credentialed individuals.
+          </td>
+          <td>
+            Excluded from case records. May appear in commentary or further-reading sections on reform pages, clearly
+            labeled as advocacy or opinion.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="muted">
+      Editorials and opinion columns at Tier 2 outlets are treated as opinion, not reporting, and do not establish
+      facts for a case record. Talk-radio segments at otherwise-Tier-2 stations (KIRO Radio, etc.) are Tier 3; only the
+      news desks of those stations qualify as Tier 2.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">04 · Naming</span>
+      <h2>When the registry names a name.</h2>
+    </div>
+    <p>
+      Individuals are named in the registry only where they have already been named in a public record by a Tier 1
+      source, or independently named by two or more Tier 2 sources. Mid-level staff, contractors, and nonprofit
+      executive directors are referenced by role until a public-record threshold is met. The threshold is lower for
+      senior elected officials, who are public figures by virtue of office. The standard for naming a minor or
+      non-public-figure crime victim is strict: only where a Tier 1 source has already done so, or where the
+      individual has chosen to identify themselves publicly through litigation or media.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">05 · Composition</span>
+      <h2>On partisan balance.</h2>
+      <p class="dek">Stated, not engineered.</p>
+    </div>
+    <p>
+      The dataset skews heavily Democratic. Democrats hold essentially every statewide and King County office in
+      Washington, and the registry reflects who is currently in a position to commit or enable the conduct it
+      documents. Where Republican or non-partisan actors are implicated by Tier 1 or Tier 2 sources, they are included
+      on the same evidentiary terms. The criterion is the source record, not the party label, and no documented case
+      is omitted to engineer the appearance of partisan balance.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">06 · Time</span>
+      <h2>A rolling two-year window.</h2>
+    </div>
+    <p>
+      The registry operates on a rolling two-year window from the date a case became part of the public record. Older
+      cases age out of the active index but remain accessible at their permanent URLs as historical references. The
+      intent is a working accountability resource for current concerns, not a permanent grievance archive.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">07 · Resolution</span>
+      <h2>What happens when a case resolves.</h2>
+      <p class="dek">Records are never silently deleted. Retraction without history is worse than the original allegation.</p>
+    </div>
+    <p>
+      Cases that resolve favorably to the accused, through exoneration, dismissal, or a finding of no misconduct, are
+      not deleted. The record is preserved at the same URL with a clear notice at the top describing the resolution,
+      and the legal-status field is updated. Every substantive change to a published case is logged on the
+      <a href="/corrections">Corrections</a> page.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">08 · Authorship</span>
+      <h2>Who maintains this.</h2>
+    </div>
+    <p>
+      The registry is maintained by an independent Washington researcher. Editorial decisions and source vetting are
+      done by a single editor. The registry takes no funding from political parties, candidates, advocacy
+      organizations, or any party named in a case. It does not solicit donations.
+    </p>
+  </section>
+</Base>

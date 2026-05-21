@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-05-21T06:42:36.433Z",
+  "method": "objective metadata scoring per SCHEMA.md",
+  "top5": [
+    {
+      "slug": "kcrha-forensic-audit",
+      "score": 20,
+      "pinned": true,
+      "reasons": [
+        "legal:under_investigation=+2",
+        "evid:documented=+4",
+        "$13M>=10M=+5",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2",
+        "xref:2=+2"
+      ]
+    },
+    {
+      "slug": "sound-transit-st3-program-reset",
+      "score": 16,
+      "pinned": true,
+      "reasons": [
+        "evid:documented=+4",
+        "$34500M>=10M=+5",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2"
+      ]
+    },
+    {
+      "slug": "dchs-systemic-audit",
+      "score": 23,
+      "pinned": false,
+      "reasons": [
+        "legal:audit_finding=+5",
+        "evid:documented=+4",
+        "$1800M>=10M=+5",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2",
+        "xref:5=+2"
+      ]
+    },
+    {
+      "slug": "sps-garfield-sex-abuse-settlement",
+      "score": 23,
+      "pinned": false,
+      "reasons": [
+        "legal:settled=+5",
+        "evid:documented=+4",
+        "$16M>=10M=+5",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2",
+        "xref:2=+2"
+      ]
+    },
+    {
+      "slug": "kc-health-through-housing",
+      "score": 21,
+      "pinned": false,
+      "reasons": [
+        "legal:audit_finding=+5",
+        "evid:documented=+4",
+        "$298M>=10M=+5",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2"
+      ]
+    }
+  ]
+}

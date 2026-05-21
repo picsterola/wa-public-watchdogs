@@ -1,0 +1,2061 @@
+{
+  "cases": [
+    {
+      "filename": "2021-kc-health-through-housing.md",
+      "slug": "kc-health-through-housing",
+      "id": "KC-2021-006",
+      "title": "King County Health Through Housing \u2014 $297.8M capital program, ~$273K-$286K per unit",
+      "date_surfaced": "2021-05-11",
+      "date_conduct_start": "2021-01-01",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-21",
+      "actors": [
+        {
+          "name": "King County Department of Community and Human Services",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "cost_transparency_reporting",
+        "program_outcome_auditing",
+        "independent_inspector_general"
+      ],
+      "dollars_at_issue": 297800000,
+      "dollars_basis": "King County HTH 2021 Implementation Plan capital budget: $297.8M through 2028. Per-unit capital cost per King County HTH annual reports: $229,300 (2022 report), $273,021 (2023 report), $285,772 (2024 report) for repurposed hotel rooms. The program is funded by a 0.1% county sales tax and a $400M bonding package. NOTE: An earlier version of this record cited $455M total and $333K per unit; those figures could not be verified in the cited sources or King County's own annual reports and were corrected on 2026-05-21.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "audit_finding",
+      "outcome_summary": null,
+      "review_status": "published",
+      "tags": [
+        "homelessness_funding",
+        "health_through_housing",
+        "dchs",
+        "cost_efficiency"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-001",
+        "KC-2021-006"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "program_outcome_auditing",
+        "cost_transparency_reporting"
+      ],
+      "body": "## What happened\n\nKing County launched the Health Through Housing program in 2021, funded by a 0.1% county sales tax and a $400 million bonding package. The 2021 Implementation Plan budgeted $297.8 million in capital through 2028. The county purchased a series of hotels to convert into permanent supportive housing, with a stated capacity of approximately 1,600 units. Per-unit capital cost per King County's own annual reports averaged $229,300 (2022 report), $273,021 (2023 report), and $285,772 (2024 report).\n\n## What the primary source says\n\nKing County's HTH 2024 Annual Report documents the per-unit capital cost figures cited above. KNKX Public Radio reported the program's launch and scale in May 2021. The county's stated rationale was that hotel acquisition provided more rapid shelter capacity than new construction at comparable or lower cost per unit.\n\n## Status\n\nThe program is ongoing. All 15 hotels are in operation. The 2025 King County Auditor review of DCHS contracting (case KC-2025-001) found systemic weaknesses in subrecipient monitoring across DCHS programs; Health Through Housing was within the audit scope. No published independent cost-effectiveness analysis of the program's outcomes relative to per-unit cost has been released as of this record's last update.\n\n## Why it's in the registry\n\nThis is a documented cost-efficiency and oversight concern. The per-unit capital cost (averaging $273K-$286K per hotel-room unit across 2022-2024 annual reports) is a King County-documented public fact. The registry includes this case because the program scale and the documented weakness in DCHS contract oversight (case KC-2025-001) create a legitimate public interest in knowing what outcomes the program has produced per dollar spent. This is not an allegation of fraud; it is a cost-transparency and outcome-accountability question.\n\n## Reform implication\n\nPrograms at this scale \u2014 and funded through a dedicated county tax \u2014 warrant mandatory annual public reporting on unit-level outcomes: bed occupancy rates, exits to permanent housing, 12-month recidivism, and per-outcome cost. The current DCHS monitoring structure (found by the 2025 Auditor to cover ~1% of expenditures) cannot provide that accountability. An independent Inspector General with program-audit authority, reporting to the County Council, would provide the structural accountability this program lacks. See [reform: cost_transparency_reporting] and [reform: program_outcome_auditing].\n"
+    },
+    {
+      "filename": "2023-ferguson-pdc-surplus-transfer.md",
+      "slug": "ferguson-pdc-surplus-transfer",
+      "id": "WA-2023-PDC-001",
+      "title": "Ferguson PDC surplus-funds transfer \u2014 complaint dismissed, rule subsequently amended",
+      "date_surfaced": "2023-07-11",
+      "date_conduct_start": "2023-01-01",
+      "date_conduct_end": "2023-12-21",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Bob Ferguson",
+          "role_type": "elected",
+          "title": "Washington State Attorney General (at time of transfer); Governor (from January 2025)",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "rule_gaming"
+      ],
+      "reforms_implicated": [
+        "campaign_finance_reform",
+        "pdc_enforcement"
+      ],
+      "dollars_at_issue": 1200000,
+      "dollars_basis": "Approximately $1.2M transferred from prior AG campaign surplus accounts to Ferguson's gubernatorial campaign, per PDC records and Seattle Times reporting.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "dismissed",
+      "outcome_summary": "PDC unanimously dismissed the complaint against Ferguson's campaign by written order dated December 21, 2023, finding no violation of the rule as it then existed. PDC subsequently amended its surplus-funds guidance to close the transfer mechanism Ferguson used.",
+      "review_status": "published",
+      "tags": [
+        "campaign_finance",
+        "pdc",
+        "surplus_funds",
+        "rule_gaming",
+        "ferguson"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2023-PDC-001"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "campaign_finance_reform",
+        "pdc_enforcement"
+      ],
+      "body": "## What happened\n\nIn 2023, then-Attorney General Bob Ferguson transferred approximately $1.2 million in surplus funds from his prior AG campaign accounts into his newly launched gubernatorial campaign. The transfer used an existing PDC surplus-funds rule that allowed such transfers under the rules then in effect. A complaint was subsequently filed with the PDC. The PDC dismissed the complaint by written order dated December 21, 2023, finding no violation of the rule as it then existed. The PDC subsequently amended its surplus-funds guidance, closing the transfer mechanism Ferguson had used.\n\n## What the primary source says\n\nThe PDC's written dismissal order (Tier 1, December 21, 2023) is the controlling document. It found the transfer compliant with PDC rules as they existed at the time of the transfer. The Seattle Times reported on the transfer and the pending rule change before the dismissal. The Columbian reported on the initial complaint.\n\n## Status\n\nComplaint dismissed. Rule subsequently amended. The transfer itself stands as completed; no restitution or reversal was ordered. This case is resolved in the sense that both the complaint and the rule-change process have concluded.\n\n## Why it's in the registry\n\nThis is a documented rule-gaming case with a completed rule change as its consequence. The PDC dismissed the complaint because no rule was violated \u2014 but the rule was then changed because of the transfer. The registry includes this case not as a finding of wrongdoing but as a documented instance of an actor using a regulatory gap that was subsequently identified as undesirable and closed. The reform is the point.\n\n## Reform implication\n\nThe surplus-funds gap that Ferguson used has been closed by PDC guidance change. The reform implication is about the cycle: gaps exist in campaign finance rules, high-profile actors find and use them, complaints generate attention, and rules are eventually updated. A proactive PDC self-audit cycle \u2014 reviewing surplus-fund and transfer rules on a defined schedule rather than reactively after high-profile uses \u2014 would close such gaps before rather than after use. See [reform: campaign_finance_reform] and [reform: pdc_enforcement].\n"
+    },
+    {
+      "filename": "2024-leb-24-06-mullet-public-resources.md",
+      "slug": "leb-24-06-mullet-public-resources",
+      "id": "WA-2024-006",
+      "title": "LEB Case 24-06 \u2014 Sen. Mark Mullet, alleged use of public resources for campaign purposes",
+      "date_surfaced": "2024-06-04",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Mark Mullet",
+          "role_type": "elected",
+          "title": "former Washington State Senator (left the Senate January 2025; ran for Governor)",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "public_resources_firewall",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on June 4, 2024. Full opinion outcome not independently confirmed in Tier 1 or Tier 2 sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "public_resources",
+        "senate"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2024-006"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 24-06 on June 4, 2024, concerning a complaint against Sen. Mark Mullet. The subject matter is identified in the LEB docket as \"Use of Public Resources for Campaign purposes.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued June 4, 2024. The docket reflects this as a resolved complaint with an issued opinion. This record will be updated when the full opinion text is reviewed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Senator and the use of public resources for campaign activity. It is included as part of the documented 2024-2026 pattern of LEB complaints and opinions involving the same conduct categories. The registry treats the pattern as a structural finding, independent of how any single complaint resolved.\n\n## Reform implication\n\nThe LEB system combines limited public visibility of complaint details, modest sanctions, and inconsistent publication timelines. Standardizing the publication of complaint texts and opinions in machine-readable form \u2014 alongside financial penalties scaled to legislator compensation rather than nominal fines \u2014 would both deter conduct and enable the pattern analysis that the current system makes difficult. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2024-port-seattle-pie-fraud.md",
+      "slug": "port-seattle-pie-fraud",
+      "id": "POS-2024-001",
+      "title": "Port of Seattle \u2014 Partner in Employment contract fraud ($250K misappropriated, $509K Port contracts)",
+      "date_surfaced": "2024-12-01",
+      "date_conduct_start": "2023-01-01",
+      "date_conduct_end": "2024-08-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Port of Seattle",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Hien Kieu",
+          "role_type": "nonprofit",
+          "title": "Executive Director, Partner in Employment",
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Partner in Employment (PIE)",
+          "role_type": "nonprofit",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Bookda Gheisar",
+          "role_type": "bureaucrat",
+          "title": "Senior Director, Office of Equity, Diversity, and Inclusion, Port of Seattle",
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Anna Pavlik",
+          "role_type": "bureaucrat",
+          "title": "Director, Workforce Development, Port of Seattle",
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "criminal_fraud",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "nonprofit_subrecipient_monitoring",
+        "port_internal_audit_authority",
+        "workforce_program_verification"
+      ],
+      "dollars_at_issue": 509000,
+      "dollars_basis": "Port Internal Audit Report #2024-17 (Dec 2024) documented approximately $250,000 misappropriated from Partner in Employment by its Executive Director. Total Port contracts with PIE totaled approximately $509,000. PIE reported 45 clients served in April 2024 (actual: 10) and 21 placements (actual: 0).",
+      "dollars_confirmed_loss": 250000,
+      "legal_status": "audit_finding",
+      "outcome_summary": "Port Internal Audit Report #2024-17 published December 2024. Documents $250K misappropriated by PIE Executive Director Hien Kieu, with falsified client-served and placement counts (PIE self-reported 45 clients served in April 2024 vs. actual 10; 21 placements vs. actual 0). Per the audit report itself: PIE reported the fraud to King County Sheriff's Department and a criminal investigation was opened, expected to conclude in late September 2024. As of last update, no charging decisions have been publicly announced and no charges have been filed against any individual. Port contracts with PIE suspended.",
+      "review_status": "published",
+      "tags": [
+        "port_of_seattle",
+        "nonprofit_fraud",
+        "workforce_development",
+        "internal_audit",
+        "misappropriation"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-007"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "nonprofit_subrecipient_monitoring"
+      ],
+      "body": "## What happened\n\nThe Port of Seattle's Internal Audit Department published Report #2024-17 in December 2024, documenting that approximately $250,000 was misappropriated from Partner in Employment (PIE), a Port nonprofit subrecipient, by PIE's Executive Director Hien Kieu. PIE held approximately $509,000 in Port contracts.\n\nSpecific performance falsifications documented in the audit:\n- April 2024: PIE reported 45 clients served; actual count was 10\n- April 2024: PIE reported 21 job placements; actual count was zero\n\nPort staff involved in the contracting relationship: Bookda Gheisar (Senior Director, EDI) and Anna Pavlik (Director, Workforce Development).\n\n## What the primary source says\n\nThe audit report itself is the Tier 1 source. It documents the misappropriation, the falsified performance metrics, and the Port contract amounts. It does not confirm criminal referral status \u2014 that information would require a PRR to the Port and to the King County Sheriff's Office.\n\n## Status\n\nPIE contracts with the Port were suspended following the audit. Criminal referral status not publicly confirmed. This is an audit-finding-level case until further action surfaces.\n\n## Why it's in the registry\n\nTier 1 (Port Internal Audit) documented case of nonprofit subrecipient fraud against a regional public agency, with named actors and confirmed dollar loss. The falsification of client-served and placement counts is significant beyond the dollar figure because it speaks to whether outcome data from public-funded nonprofit programs can be trusted as reported.\n\n## Reform implication\n\nThree reforms are implicated. First, nonprofit subrecipient performance verification at intervals shorter than annual \u2014 the 45-vs-10 and 21-vs-zero gap should have been caught by program management, not internal audit. Second, Port Internal Audit authority and resourcing to act on red flags faster. Third, standardized outcome-data verification protocols for workforce programs across regional agencies that contract with nonprofit providers. See [reform: nonprofit_subrecipient_monitoring].\n\n## Relationship to other cases\n\n- KC-2025-007 (KCRHA Clark Nuber forensic audit) covers similar themes around regional-agency subrecipient oversight failures.\n- A PRR to Port of Seattle for the post-audit contract action timeline is the next investigatory step.\n"
+    },
+    {
+      "filename": "2024-port-seattle-rhysida-breach.md",
+      "slug": "port-seattle-rhysida-breach",
+      "id": "POS-2024-002",
+      "title": "Port of Seattle \u2014 Rhysida ransomware attack, ~90,000 individuals' data exposed, $6M ransom refused",
+      "date_surfaced": "2024-08-24",
+      "date_conduct_start": "2024-08-24",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Port of Seattle",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Steve Metruck",
+          "role_type": "bureaucrat",
+          "title": "Executive Director, Port of Seattle",
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "critical_infrastructure_cybersecurity",
+        "breach_notification_timelines",
+        "ransomware_response_protocols"
+      ],
+      "dollars_at_issue": 6000000,
+      "dollars_basis": "Rhysida ransomware group demanded approximately $6 million ransom, refused by Port. Approximately 90,000 individuals notified of data exposure in April 2025 \u2014 roughly eight months after the August 24, 2024 attack. Direct response and recovery costs to the Port not yet itemized in public reporting.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "Port of Seattle confirmed ransomware attack August 24, 2024. Port refused to pay the approximately $6M ransom demanded by Rhysida ransomware group. Approximately 90,000 individuals were notified of personal data exposure in April 2025. No regulatory enforcement action publicly reported.",
+      "review_status": "published",
+      "tags": [
+        "port_of_seattle",
+        "cybersecurity",
+        "ransomware",
+        "data_breach",
+        "critical_infrastructure"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "critical_infrastructure_cybersecurity"
+      ],
+      "body": "## What happened\n\nOn August 24, 2024, the Port of Seattle was hit by a Rhysida ransomware attack affecting systems supporting Seattle-Tacoma International Airport and other Port operations. The Port refused to pay the approximately $6 million ransom demanded.\n\nIn April 2025, the Port notified approximately 90,000 individuals that their personal data had been exposed. The eight-month gap between attack and individual notification has drawn attention from cybersecurity reporters covering the case.\n\n## What the primary source says\n\nThe Port's April 2025 public notice confirms the attack date, the approximate number of individuals notified, and the categories of data exposed. The ransom amount and the decision to refuse payment were widely reported by KOMO News, The Record, and others in early April 2025.\n\n## Status\n\nNo regulatory enforcement action publicly reported. The case is categorized as closed_no_action at the regulatory level, though the underlying response-and-recovery costs to the Port remain unitemized in public reporting.\n\n## Why it's in the registry\n\nThis is a documented structural-failure case affecting a regional public agency with critical infrastructure responsibilities. The case is not about wrongdoing by Port leadership \u2014 the decision to refuse the ransom is defensible \u2014 but about the structural questions that surface around breach-notification timelines and critical infrastructure cybersecurity standards. The eight-month notification gap is the specific structural item flagged.\n\n## Reform implication\n\nThree reform categories: (1) state-level breach-notification timeline tightening for critical infrastructure operators (RCW 19.255); (2) ransomware response protocol standards adopted across regional public agencies; (3) cybersecurity audit and reporting requirements for agencies operating critical infrastructure such as airports and ports. See [reform: critical_infrastructure_cybersecurity].\n\n## Relationship to other cases\n\n- Standalone Port of Seattle case unrelated to POS-2024-001 (PIE fraud) substantively, but both surface in the same audit/oversight cycle for the Port.\n"
+    },
+    {
+      "filename": "2024-spd-diaz-misconduct.md",
+      "slug": "spd-diaz-misconduct",
+      "id": "SEA-2024-001",
+      "title": "SPD Chief Adrian Diaz \u2014 fired after OIG investigation found dishonesty, undisclosed relationship, hiring violations",
+      "date_surfaced": "2024-05-29",
+      "date_conduct_start": "2023-01-01",
+      "date_conduct_end": "2024-12-17",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Adrian Diaz",
+          "role_type": "bureaucrat",
+          "title": "Chief of Police, Seattle Police Department (former)",
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        },
+        {
+          "name": "Jamie Tompkins",
+          "role_type": "bureaucrat",
+          "title": "Chief of Staff to SPD Chief (former)",
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        },
+        {
+          "name": "Bruce Harrell",
+          "role_type": "elected",
+          "title": "Mayor of Seattle",
+          "party": "D",
+          "jurisdiction": "City of Seattle"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "conflict_of_interest",
+        "special_privileges",
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "independent_inspector_general",
+        "personnel_oversight",
+        "executive_accountability"
+      ],
+      "dollars_at_issue": 338000,
+      "dollars_basis": "Diaz retained his $338,000 chief salary for approximately six months in a 'special projects' role after being demoted as chief in May 2024 before being terminated in December 2024. Diaz subsequently filed a $10 million tort claim against the city alleging wrongful discharge.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "OIG investigation concluded Diaz violated SPD policies on dishonesty, professionalism, conflict-of-interest disclosure, and improper personal relationships. Diaz was terminated December 17, 2024. Tompkins resigned November 8, 2024 amid allegations she lied to investigators and falsified evidence (altering handwriting on a birthday card). Diaz filed a $10M wrongful-termination tort claim against the City. No criminal charges filed.",
+      "review_status": "published",
+      "tags": [
+        "spd",
+        "police_accountability",
+        "oig",
+        "personnel",
+        "city_of_seattle"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2026-007"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "independent_inspector_general",
+        "personnel_oversight"
+      ],
+      "body": "## What happened\n\nIn May 2024, Mayor Bruce Harrell removed Adrian Diaz as Chief of Police and moved him to a \"special projects\" role amid mounting reports of harassment, retaliation, and management dysfunction in the Seattle Police Department. Diaz retained his $338,000 chief salary in the special-projects role. On December 17, 2024, following an Office of Inspector General investigation, Harrell terminated Diaz.\n\nThe OIG investigation found that Diaz created a chief-of-staff position for Jamie Tompkins, a woman with whom he was romantically involved, and circumvented the department's standard background-check process by having a member of his executive protection unit conduct her personnel check. Diaz repeatedly denied the relationship internally and to investigators.\n\n## What the primary source says\n\nPer the OIG Findings Letter (Case 2023OIG-0286, December 17, 2024), Diaz violated SPD policies on dishonesty, professionalism, conflict-of-interest disclosure, and improper personal relationships. Tompkins was found to have lied to investigators and to have falsified evidence by disguising her handwriting on a Star Wars-themed birthday card to Diaz that was discovered in an SPD patrol vehicle.\n\n## Status\n\nDiaz was terminated December 17, 2024. Two weeks before his termination, Diaz had filed a $10 million tort claim against the City alleging wrongful discharge, discrimination, and retaliation. Tompkins resigned November 8, 2024. PubliCola subsequently reported Diaz was being placed on the national \"Brady List\" of officers with credibility issues. No criminal charges have been filed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented executive-personnel misconduct finding by an independent oversight body (Seattle OIG) against a department head, with subsequent termination. The case is included not because the system failed to act \u2014 it ultimately did \u2014 but because the seven-month gap between demotion and termination, during which Diaz collected his full chief salary, illustrates a structural gap in executive accountability timelines.\n\n## Reform implication\n\nThe OIG functioned as a working independent oversight mechanism, which is itself an argument for the broader Inspector General reform proposed at the King County level (KC-2026-007). The specific structural gap surfaced here \u2014 the lack of a defined timeline between substantiated misconduct findings and disposition for senior administrative-leave employees \u2014 is addressable through council-level personnel oversight rules. See [reform: personnel_oversight] and [reform: independent_inspector_general].\n"
+    },
+    {
+      "filename": "2025-constantine-ceo-ethics-complaint.md",
+      "slug": "constantine-ceo-ethics-complaint",
+      "id": "KC-2025-008",
+      "title": "Constantine Sound Transit CEO selection ethics complaint \u2014 dismissed by King County Ombuds",
+      "date_surfaced": "2025-03-26",
+      "date_conduct_start": "2025-02-01",
+      "date_conduct_end": "2025-06-18",
+      "last_updated": "2026-05-21",
+      "actors": [
+        {
+          "name": "Dow Constantine",
+          "role_type": "bureaucrat",
+          "title": "CEO, Sound Transit (former King County Executive, former ST Board member)",
+          "party": "D",
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "conflict_of_interest",
+        "rule_gaming"
+      ],
+      "reforms_implicated": [
+        "appointment_accountability",
+        "ethics_code_reform"
+      ],
+      "dollars_at_issue": 450000,
+      "dollars_basis": "Constantine CEO base salary at Sound Transit: $450,000 at hire (per Fox 13 Seattle and Seattle Times; later raised to $474,276 effective January 2026). The ethics complaint did not allege a specific dollar misappropriation; the underlying concern was the structural overlap between Constantine's prior role as King County Executive (appointing ~10 of 18 ST board members) and his candidacy for the CEO position those appointees would select. The $675K figure that circulated in early coverage was a ceiling estimate on a Krauthamer recruiting invoice, not the actual contracted salary.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "dismissed",
+      "outcome_summary": "King County Office of the Ombuds dismissed Ethics Complaint OMB-2025-0160 by report dated June 18, 2025, finding no violation of the King County Ethics Code. The Ombuds found Constantine did not participate in his own evaluation in his county executive capacity, and that the hiring process did not constitute a conflict of interest under the applicable code provisions.",
+      "review_status": "published",
+      "tags": [
+        "sound_transit",
+        "king_county",
+        "ethics_complaint",
+        "conflict_of_interest",
+        "ombuds"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-ST-PROG",
+        "KC-2025-008",
+        "KC-2025-005"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "ethics_code_reform",
+        "appointment_accountability"
+      ],
+      "body": "## What happened\n\nIn February 2025, Seattle Times and The Urbanist reported that then-King County Executive Dow Constantine was a candidate for the Sound Transit CEO position. Constantine had appointed approximately 10 of 18 Sound Transit board members in his capacity as King County Executive, raising public questions about whether he could be evaluated impartially by a board he largely appointed.\n\nOn March 26, 2025, Jennifer Aspelund filed Ethics Complaint OMB-2025-0160 with the King County Office of the Ombuds, alleging violation of the King County Ethics Code in the CEO selection process. Constantine was appointed CEO on March 28, 2025.\n\nOn June 18, 2025, the Ombuds dismissed the complaint, finding no Ethics Code violation.\n\n## What the primary source says\n\nPer the Ombuds Report OMB-2025-0160 (June 18, 2025), the Ombuds found Constantine did not participate in his own evaluation in his county executive capacity (he held a separate board member capacity that was distinct from his executive appointment authority), and the hiring process did not constitute a conflict of interest under the applicable King County Ethics Code provisions.\n\n## Status\n\nComplaint dismissed. No further administrative appeal pursued. Constantine remains Sound Transit CEO at a base salary of $450,000 at hire, raised to $474,276 in January 2026 (see KC-2025-005).\n\n## Why it's in the registry\n\nThis is a Tier 1 dismissed complaint, included to document the practical reach of the existing King County Ethics Code in evaluating structural conflicts between appointment authority and candidacy for appointee-filled positions. Per registry policy, dismissed cases are not tombstoned when the substantive governance question they raise remains a live policy issue.\n\n## Reform implication\n\nThe Ombuds' analysis was narrow and rule-bound. The broader structural question \u2014 whether the Ethics Code should bar or restrict an appointing official from becoming a candidate for positions filled by their appointees \u2014 is not addressed by the existing code. Reform options include cooling-off periods, recusal requirements for appointed board members when evaluating a candidate who appointed them, or a bright-line rule. See [reform: ethics_code_reform] and [reform: appointment_accountability].\n\n## Relationship to other cases\n\n- KC-2025-005 (Dow Constantine appointed Sound Transit CEO) covers the same appointment from the governance-pattern angle.\n- WA-2025-ST-PROG (Sound Transit ST3 program reset) covers the agency-level cost issues Constantine inherits.\n"
+    },
+    {
+      "filename": "2025-dchs-systemic-audit.md",
+      "slug": "dchs-systemic-audit",
+      "id": "KC-2025-001",
+      "title": "DCHS contract oversight failure \u2014 $1.8B+ program, ~1% of spending reviewed",
+      "date_surfaced": "2025-08-26",
+      "date_conduct_start": "2019-01-01",
+      "date_conduct_end": "2024-12-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "King County Department of Community and Human Services",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "independent_inspector_general",
+        "subrecipient_monitoring",
+        "procurement_reform"
+      ],
+      "dollars_at_issue": 1800000000,
+      "dollars_basis": "DCHS contracting program scope per King County Auditor's 2025 report as corrected by the September 9, 2025 errata. Corrected figures: DCHS awarded more than $1.8 billion in 2023-2024, up from $922 million in 2019-2020 (the original audit incorrectly stated the 2019-2020 baseline as $22 million, which produced an inflated growth figure that circulated in early reporting). Corrected growth is approximately 2x over four years, not the 6,700% figure quoted in initial coverage.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "audit_finding",
+      "outcome_summary": "Audit published Aug 26, 2025. King County Auditor's Office issued a formal errata on September 9, 2025 correcting the 2019-2020 contracting baseline from $22 million to $922 million; the 2023-2024 figure of more than $1.8 billion was unchanged. Nineteen contractors were subsequently referred to the King County Ombudsman (tracked separately as KC-2025-003). DCHS publicly working through corrective action plan; no criminal charges filed against agency staff as of last update.",
+      "review_status": "published",
+      "tags": [
+        "homelessness_funding",
+        "grant_oversight",
+        "dchs",
+        "king_county_council"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-003",
+        "KC-2025-001"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "independent_inspector_general"
+      ],
+      "body": "## What happened\n\nThe King County Auditor's 2025 review of the Department of Community and Human Services (DCHS) found that the agency's contracting program had grown from approximately $922 million in 2019-2020 to more than $1.8 billion across 2023-2024 (figures per the September 9, 2025 errata; the original audit stated the 2019-2020 figure as $22 million, which was corrected). The share of expenditures subject to required subrecipient monitoring fell to approximately 1% against a 33% target. The audit identified altered invoices used to inflate reimbursements, payments to subcontractors operating outside approved contract scopes, and a population of contracting organizations of which nearly half were classified as \"high risk.\"\n\n## What the primary source says\n\nPer the King County Auditor's report (2025), the program lacked the subrecipient monitoring required by federal grant rules, and the controls in place were insufficient to detect improper payments at the scale identified. The Auditor referred specific cases for further investigation by the Ombudsman and outside authorities.\n\n## Status\n\nAudit findings are public. Nineteen contractors were subsequently referred to the King County Ombudsman for independent investigation (tracked separately as case KC-2025-003). DCHS has acknowledged the audit and is publicly working through a corrective action plan. No criminal charges have been filed against agency staff as of the last update to this record.\n\n## Why it's in the registry\n\nThis is a documented audit finding of systemic oversight failure in a multi-billion-dollar county program. It is included not because individuals are accused of fraud, but because the structural absence of monitoring created conditions in which fraud \u2014 alleged in multiple downstream cases \u2014 was both possible and not detectable in the ordinary course of agency operations.\n\n## Reform implication\n\nThe audit's central finding maps directly to the case for an independent King County Inspector General. Current oversight sits inside the executive branch that authorizes the spending; an IG reporting to the Council with subpoena power and a separate budget line is the structural reform that addresses the root cause rather than the symptoms. See [reform: independent_inspector_general] for the full proposal.\n"
+    },
+    {
+      "filename": "2025-dow-soundtransit-ceo.md",
+      "slug": "dow-soundtransit-ceo",
+      "id": "KC-2025-005",
+      "title": "Dow Constantine appointed Sound Transit CEO by board he largely controls",
+      "date_surfaced": "2025-03-27",
+      "date_conduct_start": "2025-03-24",
+      "date_conduct_end": "2025-03-27",
+      "last_updated": "2026-05-21",
+      "actors": [
+        {
+          "name": "Dow Constantine",
+          "role_type": "elected",
+          "title": "King County Executive (departing); Sound Transit CEO (incoming)",
+          "party": "D",
+          "jurisdiction": "King County / Washington State"
+        },
+        {
+          "name": "Sound Transit Board of Directors",
+          "role_type": "board_appointee",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "conflict_of_interest",
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "board_recusal_rules",
+        "transit_governance_reform",
+        "independent_inspector_general"
+      ],
+      "dollars_at_issue": 450000,
+      "dollars_basis": "Sound Transit CEO base salary at hire: $450,000 (Fox 13 Seattle and Seattle Times). Raised to $474,276 effective January 2026. The $675K figure that appeared in initial coverage was a ceiling estimate on a Krauthamer recruiting invoice, not the actual contracted salary.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "no_action",
+      "outcome_summary": "Constantine was confirmed as Sound Transit CEO on March 27, 2025. No legal challenge has been filed. The structural conflict is a matter of public record.",
+      "review_status": "published",
+      "tags": [
+        "sound_transit",
+        "governance",
+        "conflict_of_interest",
+        "transit_board"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-005"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "board_recusal_rules",
+        "transit_governance_reform"
+      ],
+      "body": "## What happened\n\nSound Transit's board identified Dow Constantine \u2014 then serving as King County Executive \u2014 as its preferred candidate for CEO on March 24, 2025, and formally appointed him on March 27, 2025. Constantine had served on the Sound Transit board for 16 years as King County Executive. The CEO position pays a base salary of $450,000 at hire, raised to $474,276 effective January 2026.\n\n## What the primary source says\n\nPer reporting by The Urbanist and the Seattle Transit Blog, Constantine held appointment authority over 10 of the 18 Sound Transit board seats at the time of his selection. Two of his appointees \u2014 Girmay Zahilay and Claudia Balducci \u2014 were candidates to succeed Constantine as King County Executive while the CEO vote was held. None of Constantine's appointees recused from the vote selecting him as CEO.\n\n## Status\n\nConstantine took office as Sound Transit CEO. The appointment is a completed public record. No ethics complaint or legal challenge has been filed. The governance concern \u2014 the structural relationship between appointing authority and board composition during CEO selection \u2014 has not been formally reviewed by an independent body.\n\n## Why it's in the registry\n\nThis is a documented governance appointment raising a structural conflict-of-interest question. Constantine was selected by a board composed substantially of his own appointees. The concern is not that the appointment was illegal \u2014 it appears to have been lawful \u2014 but that no recusal rules required board members appointed by the candidate to step aside. This is the type of structural gap the registry documents.\n\n## Reform implication\n\nRegional transit board governance in Washington lacks explicit recusal requirements for board members who owe their appointment to a CEO candidate. A policy requiring recusal by any board member appointed by an executive-branch candidate for the same agency's top post \u2014 or appointed by someone running for that post \u2014 would prevent the appearance and reality of self-referential appointment loops. See [reform: board_recusal_rules] and [reform: transit_governance_reform].\n"
+    },
+    {
+      "filename": "2025-gomez-mayors-office-allegation.md",
+      "slug": "gomez-mayors-office-allegation",
+      "id": "SEA-2025-002",
+      "title": "Mayor's External Affairs Director Pedro Gomez \u2014 resigned January 2025 after rape allegation referred to King County Prosecutor",
+      "date_surfaced": "2025-01-23",
+      "date_conduct_start": "2024-06-18",
+      "date_conduct_end": "2025-01-06",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Pedro Gomez",
+          "role_type": "bureaucrat",
+          "title": "Director of External Affairs, Office of Mayor Bruce Harrell (former)",
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        },
+        {
+          "name": "Bruce Harrell",
+          "role_type": "elected",
+          "title": "Mayor of Seattle",
+          "party": "D",
+          "jurisdiction": "City of Seattle"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "special_privileges",
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "personnel_oversight",
+        "executive_accountability"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": "Reported Gomez salary approximately $150,000 per year, continued during paid administrative leave from late September 2024 through resignation January 6, 2025 (approximately 3.5 months).",
+      "dollars_confirmed_loss": null,
+      "legal_status": "under_investigation",
+      "outcome_summary": "Gomez resigned January 6, 2025, the same day the Mayor's Office learned the Seattle Police Department had referred the case to the King County Prosecuting Attorney's Office Special Assault Unit. The allegation involves an encounter with Cheryl Delostrinos on June 18, 2024, who Gomez had met for a business meeting Harrell helped arrange. The Mayor's Office was notified of the police report in late September 2024 and placed Gomez on paid administrative leave at that time. No charges have been publicly filed as of this record's last update. Subsequent reporting identified additional women who described uncomfortable encounters with Gomez.",
+      "review_status": "published",
+      "tags": [
+        "mayors_office",
+        "personnel",
+        "city_of_seattle",
+        "sexual_assault_allegation"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "executive_accountability",
+        "personnel_oversight"
+      ],
+      "body": "## What happened\n\nAccording to reporting first published by The Stranger and South Seattle Emerald (January 23, 2025), Pedro Gomez, Director of External Affairs in Mayor Bruce Harrell's office, was accused of rape in the second degree by Cheryl Delostrinos following a June 18, 2024 encounter that began as a business meeting Harrell had helped arrange. A police incident report describes Delostrinos waking up at a Lake Union apartment to find Gomez performing a nonconsensual sex act on her.\n\nThe Seattle Police Department investigated and referred the case to the King County Prosecuting Attorney's Office Special Assault Unit on or before January 6, 2025. Gomez resigned January 6, 2025.\n\n## What the primary source says\n\nThis case relies on Tier 2 reporting; the underlying police incident report and prosecutor's review remain non-public as of this record. Per the Mayor's Office spokesperson statement to The Stranger: the City was notified of the investigation on September 24, 2024, \"promptly placed Gomez on paid administrative leave pending the results of the investigation,\" and barred him from contacting City employees, engaging with community partners, or entering municipal offices while the investigation was active. The Mayor's Office stated Gomez had no prior reported allegations of sexual assault.\n\nPubliCola subsequently reported (March 21, 2025) that additional women came forward describing uncomfortable encounters with Gomez, including a coworker who said she had not reported her own alleged assault.\n\n## Status\n\nGomez resigned January 6, 2025. The King County Prosecuting Attorney's Office Special Assault Unit is reviewing the allegations. No charges have been publicly filed as of this record's last update.\n\n## Why it's in the registry\n\nThis is a Tier 2 documented allegation against a senior mayoral-office staffer that resulted in resignation and prosecutorial referral. The allegation itself is not yet adjudicated and is recorded as \"alleged\" pending charging decision or other Tier 1 outcome. The case is included primarily for the structural-process question it surfaces: the ~3.5-month paid administrative leave window and the absence of public-record protocols for executive-office personnel pending criminal referral.\n\nPer the registry's naming policy, Gomez is named because the allegation has been publicly reported in multiple Tier 2 outlets including South Seattle Emerald, PubliCola, The Stranger, and The Urbanist.\n\n## Reform implication\n\nThis case shares the structural concern surfaced in the Diaz misconduct case (SEA-2024-001): the absence of defined timelines and Council notification requirements for paid administrative leave of senior executive-office personnel pending investigation. See [reform: personnel_oversight] and [reform: executive_accountability].\n\n## Note on resolution handling\n\nIf the King County Prosecuting Attorney's Office declines to file charges, or if charges are later dismissed or result in acquittal, this case will be updated with that disposition at this same URL per the registry's tombstone policy. Allegation status will be revised accordingly.\n"
+    },
+    {
+      "filename": "2025-harrell-tiktok-seec-complaint.md",
+      "slug": "harrell-tiktok-seec-complaint",
+      "id": "SEA-2025-004",
+      "title": "Harrell TikTok account SEEC complaint \u2014 dismissed by Executive Director, affirmed unanimously on appeal",
+      "date_surfaced": "2025-09-04",
+      "date_conduct_start": "2025-08-01",
+      "date_conduct_end": "2025-11-05",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Bruce Harrell",
+          "role_type": "elected",
+          "title": "Mayor of Seattle",
+          "party": "D",
+          "jurisdiction": "City of Seattle"
+        },
+        {
+          "name": "Wayne Barnett",
+          "role_type": "bureaucrat",
+          "title": "Executive Director, Seattle Ethics and Elections Commission",
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "rule_gaming"
+      ],
+      "reforms_implicated": [
+        "campaign_finance_reform",
+        "electioneering_definition"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": "No specific dollar figure published. Complaint concerned the use of City staff time and platform resources to launch and operate a new official TikTok account in the weeks before a primary election in which Harrell was a candidate.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "dismissed",
+      "outcome_summary": "SEEC Executive Director Wayne Barnett dismissed the complaint pursuant to SMC 2.04.070(D)(2) on September 4, 2025. The Commission unanimously affirmed the dismissal at its October 1, 2025 public meeting and issued a written Supplementary Opinion on November 5, 2025 holding that the Executive Director's dismissal did not lack a rational basis under the Nickels precedent.",
+      "review_status": "published",
+      "tags": [
+        "seec",
+        "electioneering",
+        "mayors_office",
+        "city_of_seattle",
+        "campaign_finance"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "electioneering_definition",
+        "campaign_finance_reform"
+      ],
+      "body": "## What happened\n\nIn August 2025, the Mayor's Office launched a new official City of Seattle TikTok account in the weeks before the August primary election in which Mayor Bruce Harrell was a candidate. SEEC Executive Director Wayne Barnett initially declined to characterize the activity as problematic. Seattle resident Paul Chapman subsequently filed a formal SEEC complaint alleging the account constituted use of City resources for electioneering in violation of SMC 2.04.300.\n\nOn September 4, 2025, Barnett dismissed the complaint, finding it did not lack a rational basis to conclude that the account's primary purpose was not electioneering. Chapman appealed. On October 1, 2025, the Commission heard the appeal in public session and unanimously affirmed the dismissal. The Commission issued its written Supplementary Opinion on November 5, 2025.\n\n## What the primary source says\n\nPer the SEEC Supplementary Opinion (November 5, 2025), the Commission applied the multi-factor analysis from the 2005 Nickels Decision, examining content, style, tone, audience, and timing. The opinion states: \"No one can credibly dispute the spike in activity in the month of August\" but holds that timing alone is \"insufficient as a matter of law to overcome the tone, tenor, and audience factors, none of which suggest that the primary purpose of the TikTok account was to drum up electoral support for the Mayor.\" The opinion notes that unmoderated public comments \u2014 many critical of the Mayor \u2014 supported a public-purpose rather than electioneering interpretation.\n\n## Status\n\nComplaint dismissed by Executive Director. Dismissal unanimously affirmed by the Commission. No further appeal available within the SEEC process.\n\n## Why it's in the registry\n\nThis case is included as a Tier 1 dismissed complaint to document the practical reach of the current Seattle electioneering standard. It is not included as misconduct \u2014 the SEEC explicitly found no rational basis to conclude electioneering occurred \u2014 but as a record of how the Nickels multi-factor test applies to a contemporary fact pattern. Per registry policy, dismissed cases are not tombstoned when the substantive question (here, the scope of the electioneering rule) remains a live policy issue.\n\n## Reform implication\n\nThe Commission's reliance on the Nickels factors, with timing as relevant-but-not-determinative, leaves a substantial gray zone for incumbent officials expanding official communication channels in pre-election windows. Reform options range from amending the Nickels factors to weight timing more heavily, to adopting a bright-line rule (e.g., no new official channels launched within a defined pre-election window). See [reform: campaign_finance_reform] and [reform: electioneering_definition].\n"
+    },
+    {
+      "filename": "2025-kc-dchs-ombuds-investigation.md",
+      "slug": "kc-dchs-ombuds-investigation",
+      "id": "KC-2025-003",
+      "title": "King County Ombudsman takes over DCHS contractor investigation \u2014 19 organizations flagged",
+      "date_surfaced": "2025-10-31",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "King County Ombudsman's Office",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "King County Department of Community and Human Services",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Kymber Waltmunson",
+          "role_type": "bureaucrat",
+          "title": "King County Auditor",
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "independent_inspector_general",
+        "subrecipient_monitoring",
+        "procurement_reform"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": "Dollar amounts at issue in individual contractor irregularities not independently confirmed at Tier 1 or Tier 2 beyond the examples cited. Individual examples include: executive director self-loan of $14K without board consent; nonprofit donation of $111K to organization connected to a board member; payment 46% above budget; suspected forged invoices.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "under_investigation",
+      "outcome_summary": null,
+      "review_status": "published",
+      "tags": [
+        "dchs",
+        "ombudsman",
+        "contractor_fraud",
+        "investigation",
+        "king_county"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-003",
+        "KC-2025-001"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "subrecipient_monitoring",
+        "independent_inspector_general"
+      ],
+      "body": "## What happened\n\nFollowing the King County Auditor's 2025 review of DCHS contracting (KC-2025-001), 19 contractor organizations were flagged for \"dubious expenses\" and financial irregularities. In October 2025, Auditor Kymber Waltmunson sent a letter to the office of King County Executive Shannon Braddock expressing \"deep concern\" about DCHS's response to the audit findings. In late 2025, the King County Ombudsman's Office assumed oversight of the investigation from DCHS internal review. The Ombudsman's director, Jeremy Bell, is overseeing the inquiry, with an outside investigator contract pending.\n\n## What the primary source says\n\nThe King County Ombuds Office report OMB20250697 (Tier 1) documents the scope of the programmatic contract evaluation. Seattle Times reporting (Tier 2, November 28, 2025) confirmed the transfer of investigative authority to the Ombudsman. The same reporting cited specific examples drawn from the investigation: an executive director who loaned herself $14,000 without board consent; a nonprofit executive paid 46% above budget; suspected forged invoices and agreements; and a $111,000 nonprofit donation to a group connected to a board member.\n\n## Status\n\nUnder investigation by the King County Ombudsman. No criminal charges have been filed as of this record's last update. An outside investigator contract was pending as of late 2025. DCHS has acknowledged the audit findings and is cooperating with the Ombudsman review.\n\n## Why it's in the registry\n\nThis is a documented oversight escalation \u2014 a case in which internal agency review was found inadequate by the independent auditor, prompting transfer to an external oversight body. The 19 contractors flagged, the specific irregularities documented, and the auditor's public expression of concern about the agency's response are all Tier 1 and Tier 2 documented facts. This case is distinct from KC-2025-001 (the original DCHS audit) and serves as the downstream accountability action triggered by that audit.\n\n## Reform implication\n\nThe chain of events \u2014 audit identifies irregularities, agency internal review is found inadequate, auditor writes public letter of concern, Ombudsman takes over \u2014 illustrates the cost of not having a standing independent investigative authority. An Inspector General with direct investigative authority, reporting to the County Council, would have assumed jurisdiction immediately rather than requiring a multi-step escalation process over months. See [reform: independent_inspector_general] and [reform: subrecipient_monitoring].\n"
+    },
+    {
+      "filename": "2025-kc-youth-program-self-dealing.md",
+      "slug": "kc-youth-program-self-dealing",
+      "id": "KC-2025-002",
+      "title": "King County DCHS program manager Yolanda McGhee \u2014 $813K in grants routed to five relatives over five years",
+      "date_surfaced": "2026-04-26",
+      "date_conduct_start": "2020-01-01",
+      "date_conduct_end": "2025-01-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Yolanda McGhee",
+          "role_type": "bureaucrat",
+          "title": "Program Manager, Liberation and Healing from Systemic Racism (\"Liberated Village\")",
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "King County Department of Community and Human Services",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "reported",
+      "severity_type": [
+        "conflict_of_interest",
+        "special_privileges",
+        "rule_gaming"
+      ],
+      "reforms_implicated": [
+        "independent_inspector_general",
+        "conflict_disclosure_grants",
+        "procurement_reform"
+      ],
+      "dollars_at_issue": 813000,
+      "dollars_basis": "Approximately $813,000 routed via subcontracts to five relatives (daughter, two brothers, cousin, sister-in-law) of program manager McGhee over the 2020-2025 period, per the King County internal investigation report (concluded December 2025) obtained by Seattle Times under public records. The program McGhee managed, Liberated Village, distributed over $10M across 19 contracts from 2022 to 2025.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "under_investigation",
+      "outcome_summary": "McGhee was fired in January 2026 for what King County characterized as 'serious policy violations'. The county investigation report (December 2025) was obtained by the Seattle Times via public records request and published April 26, 2026. McGhee is contesting her firing through her labor union. No criminal charges filed; the King County Prosecuting Attorney's Office has not announced whether criminal referral is contemplated. The case became a primary public-facing driver of the April 2026 King County Council Inspector General proposal.",
+      "review_status": "published",
+      "tags": [
+        "youth_programs",
+        "grant_oversight",
+        "conflict_of_interest",
+        "inspector_general_push",
+        "liberated_village",
+        "dchs"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-001",
+        "KC-2026-001",
+        "KC-2025-002",
+        "KC-2026-002"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "conflict_disclosure_grants",
+        "procurement_reform",
+        "independent_inspector_general"
+      ],
+      "body": "## What happened\n\nYolanda McGhee, a King County Department of Community and Human Services program manager who ran the $10 million \"Liberated Village\" (Liberation and Healing from Systemic Racism) youth program, routed approximately $813,000 in grant funds to five relatives \u2014 her daughter, two brothers, a cousin, and a sister-in-law \u2014 through subcontracts she controlled, according to a King County internal investigation completed in December 2025 and obtained by the Seattle Times via public records request.\n\nSpecific facts established in the investigation and the Times reporting:\n\n- County officials first received a complaint about McGhee's potential conflict of interest in 2020, via an email from a former contractor employee. The complaint went unaddressed; staff later told investigators that the pandemic had made the department \"too chaotic\" to act.\n- Three years later, DCHS leaders independently discovered a contractor link to McGhee's daughter and referred it to the county Ethics Program. Officials concluded it was not a conflict because McGhee claimed she did not influence her daughter's hiring.\n- One month after that, managers found McGhee had submitted a $9,999 payment for one of her brothers \u2014 one dollar below the threshold that typically triggers competitive bidding. The payment was canceled, but McGhee was not reassigned and no further investigation was opened.\n- Three contractors told investigators McGhee pressured them to hire or subcontract with her daughter's company.\n- Two contractors alleged McGhee pushed to remove two Latino consultants from the program, saying the program was intended to \"uplift black and brown scholars\" and on one program call describing the consultants as looking \"too white.\" (McGhee disputes the county's characterization.)\n- \"Educate to Liberate Consulting,\" one of the subcontractor entities, received approximately $660,000. The county later flagged its invoices as incomplete, inaccurate, or lacking detail. Educate to Liberate then disbursed approximately $146,000 to businesses owned by two of McGhee's relatives.\n\nMcGhee was fired in January 2026 for \"serious policy violations\" and is contesting the termination through her labor union.\n\n## What the primary source says\n\nThe underlying King County internal investigation report (December 2025) is not publicly posted but is referenced and quoted in both the Seattle Times investigation (April 26, 2026) and Fox 13 Seattle follow-up coverage (April 27, 2026). A PRR for the report itself would upgrade this case to a Tier 1 source.\n\n## Status\n\nMcGhee fired January 2026, contesting through union. No criminal charges. King County Prosecuting Attorney has not announced any referral decision. The case became a primary public-facing driver of King County Councilmembers' April 2026 push for an independent Inspector General office.\n\n## Why it's in the registry\n\nTwo independent Tier 2 sources (Seattle Times investigation based on PRR-obtained government investigation report; Fox 13 follow-up confirming key facts) name McGhee on the public record. The naming policy threshold is satisfied. The case is documented because the underlying conduct is established in a county investigation report, not in dispute as to occurrence, with McGhee's contest going to characterization rather than to the underlying payments themselves.\n\n## Reform implication\n\nThree structural reforms map to this case. First, mandatory conflict-of-interest disclosure for staff with grant-award authority, paired with automated cross-checks against subcontractor principals \u2014 the county does not currently run this at scale. Second, an independent Inspector General with subpoena authority and a separate reporting line. Third, rule changes to close the sub-$10K bidding loophole that the $9,999 brother-payment allegedly exploited. The 2020 ignored complaint is the strongest evidence that the current ethics-complaint intake pipeline is structurally broken at the front end, not just at the investigation end. See [reform: independent_inspector_general], [reform: conflict_disclosure_grants], [reform: procurement_reform].\n\n## Relationship to other cases\n\n- KC-2025-001 (DCHS systemic audit) is the upstream structural case that documents the broader oversight failure that allowed the McGhee conduct to go undetected for years.\n- KC-2026-001 (KCRHA forensic audit) is a parallel regional-agency case with similar oversight failures, both cited together by Council members pushing the Inspector General proposal.\n- KC-2026-002 (Inspector General proposal) is the direct legislative response.\n"
+    },
+    {
+      "filename": "2025-leb-25-01-hackney-conflict.md",
+      "slug": "leb-25-01-hackney-conflict",
+      "id": "WA-2025-001",
+      "title": "LEB Case 25-01 \u2014 Rep. David Hackney, alleged conflict of interest",
+      "date_surfaced": "2025-03-04",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "David Hackney",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "conflict_of_interest"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on March 4, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "conflict_of_interest",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-001"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-01 on March 4, 2025, concerning a complaint against Rep. David Hackney. The subject matter is identified in the LEB docket as \"Conflict of Interest.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued March 4, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative and a conflict-of-interest allegation. It is included as part of the documented 2024-2026 pattern of LEB complaints involving conflict-of-interest allegations. The registry treats the pattern as a structural finding worth surfacing.\n\n## Reform implication\n\nThe volume of conflict-of-interest complaints at the LEB \u2014 five filed in 2025 alone \u2014 points to the absence of a proactive disclosure regime. Requiring legislators to file affirmative annual disclosures of outside income sources and financial interests, published publicly and cross-checked against legislative committee assignments, would reduce the conditions that generate complaints. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-02-caldier-special-privileges.md",
+      "slug": "leb-25-02-caldier-special-privileges",
+      "id": "WA-2025-002",
+      "title": "LEB Case 25-02 \u2014 Rep. Michelle Caldier, alleged special privileges",
+      "date_surfaced": "2025-05-22",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Michelle Caldier",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "R",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "special_privileges"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on May 22, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "special_privileges",
+        "house",
+        "republican"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-002"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-02 on May 22, 2025, concerning a complaint against Rep. Michelle Caldier. The subject matter is identified in the LEB docket as \"Special Privileges.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued May 22, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative and a special-privileges allegation. Caldier is a Republican; this case is included with the same framing as Democratic LEB cases in this registry. The registry documents the pattern of LEB proceedings across party lines without altering language based on party affiliation.\n\n## Reform implication\n\nThe LEB's enforcement mechanism currently relies primarily on formal opinions, which may include reprimand or referral. Without financial penalties proportionate to the benefit alleged to have been received \u2014 or to legislator compensation \u2014 the deterrent effect is limited. Meaningful sanctions scaled to the severity and value of the conduct alleged would strengthen the enforcement regime. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-03-house-dem-caucus-social-media.md",
+      "slug": "leb-25-03-house-dem-caucus-social-media",
+      "id": "WA-2025-003",
+      "title": "LEB Case 25-03 \u2014 House Democratic Caucus, alleged blocking of user from official social media",
+      "date_surfaced": "2025-04-10",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Washington State House Democratic Caucus",
+          "role_type": "agency",
+          "title": null,
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "public_resources_firewall",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on April 10, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "social_media",
+        "public_resources",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-003"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "public_resources_firewall"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-03 on April 10, 2025, concerning a complaint against the Washington State House Democratic Caucus. The subject matter is identified in the LEB docket as \"Blocking User from Official Caucus Social Media.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued April 10, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an official legislative caucus and the use of official social media accounts to restrict public access. The conduct category \u2014 blocking constituents from official government-operated social media \u2014 has been the subject of significant legal scrutiny nationally. The registry includes this case as part of the documented 2024-2026 pattern of LEB proceedings.\n\n## Reform implication\n\nOfficial legislative social media accounts maintained with public resources are subject to First Amendment constraints that campaign accounts are not. Clear guidance distinguishing official from campaign accounts \u2014 and prohibiting viewpoint-based blocking on official accounts \u2014 would resolve the ambiguity that generates complaints of this type. See [reform: public_resources_firewall] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-04-zahn-outside-employment.md",
+      "slug": "leb-25-04-zahn-outside-employment",
+      "id": "WA-2025-004",
+      "title": "LEB Case 25-04 \u2014 Rep. Janice Zahn, alleged conflict of interest \u2014 outside employment",
+      "date_surfaced": "2025-04-10",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Janice Zahn",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "conflict_of_interest"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on April 10, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "conflict_of_interest",
+        "outside_employment",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-004"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-04 on April 10, 2025, concerning a complaint against Rep. Janice Zahn. The subject matter is identified in the LEB docket as \"Conflict of Interest \u2013 Outside Employment.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued April 10, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative and an outside-employment conflict-of-interest allegation. It is included as part of the documented 2025 pattern of LEB outside-employment complaints (25-04, 25-06, 25-11), which together constitute the leading category of LEB activity in 2025.\n\n## Reform implication\n\nThe legislature's part-time structure creates recurring outside-employment conflicts. A uniform affirmative disclosure regime \u2014 requiring legislators to report outside income sources and business interests annually, in a machine-readable format, cross-referenced against their committee assignments \u2014 would make these conflicts visible before they generate formal complaints. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-06-walen-outside-employment.md",
+      "slug": "leb-25-06-walen-outside-employment",
+      "id": "WA-2025-006",
+      "title": "LEB Case 25-06 \u2014 Rep. Amy Walen, alleged conflict of interest \u2014 outside employment",
+      "date_surfaced": "2025-04-10",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Amy Walen",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "conflict_of_interest"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on April 10, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "conflict_of_interest",
+        "outside_employment",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-006"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-06 on April 10, 2025, concerning a complaint against Rep. Amy Walen. The subject matter is identified in the LEB docket as \"Conflict of Interest \u2013 Outside Employment.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued April 10, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative and an outside-employment conflict-of-interest allegation. It is included as part of the documented 2025 pattern of LEB outside-employment complaints. The registry treats the cluster of similar cases in a single session cycle as a structural finding.\n\n## Reform implication\n\nThe pattern of outside-employment conflict complaints at the LEB \u2014 three in 2025 alone involving House members \u2014 reflects a structural gap in the legislature's conflict-disclosure regime. A mandatory annual disclosure requirement for legislators, with public posting in a machine-readable format and cross-referencing against committee assignments, would surface potential conflicts before they require formal complaint proceedings. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-09-jinkins-public-resources.md",
+      "slug": "leb-25-09-jinkins-public-resources",
+      "id": "WA-2025-009",
+      "title": "LEB Case 25-09 \u2014 Speaker Jinkins and others, alleged use of public resources for private gain",
+      "date_surfaced": "2025-10-27",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Laurie Jinkins",
+          "role_type": "elected",
+          "title": "Speaker, Washington State House of Representatives",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        },
+        {
+          "name": "Additional respondents named in LEB Case 25-09",
+          "role_type": "bureaucrat",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "misuse_public_resources",
+        "rule_gaming"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "public_resources_firewall",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": "Not specified in publicly available LEB docket entry; would require the full complaint and any resulting opinion to quantify.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued advisory opinion on October 27, 2025. Full opinion outcome not independently summarized at the time of this record; LEB advisory opinions are guidance documents that conclude the underlying complaint without imposing sanctions.",
+      "review_status": "draft",
+      "tags": [
+        "legislative_ethics",
+        "house_leadership",
+        "leb_docket"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-009"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board's public docket lists Case 25-09, filed October 27, 2025, naming Speaker Laurie Jinkins and additional respondents, with the subject identified as \"Campaign and use of public resources for Private Gain.\" The docket entry is the public-record artifact at this stage; the underlying complaint narrative and any Board opinion are the next documents required to characterize the conduct in detail.\n\n## What the primary source says\n\nThe Legislative Ethics Board's case docket (Tier 1) records the filing, the named respondents, and the topic classification. The Board has not, as of this record's last update, issued a public opinion resolving the complaint.\n\n## Status\n\nComplaint filed; under LEB review. No finding has been issued. This record will be updated when the Board acts and when the underlying complaint and any opinion become publicly available.\n\n## Why it's in the registry\n\nThis is an `alleged` case sourced from a Tier 1 government docket. It is included because (a) the respondent is the Speaker of the Washington State House, a public figure for whom the threshold for inclusion is appropriately lower, and (b) the case sits within a documented pattern of similar LEB filings during the 2024-2026 period (cases 24-06, 25-02, 25-03, 25-04, 25-06, 25-10, 25-11, 25-37, 25-38), several of which involve the same conduct categories. The registry treats the pattern itself as a structural finding worth surfacing, independent of how any single complaint resolves.\n\n## Reform implication\n\nThe LEB system as currently designed combines low-visibility dockets, modest sanctions, and slow public release of opinions. A reform package would standardize the publication of complaints and opinions in machine-readable form (so patterns like this one can be tracked without manual docket review), tie financial penalties to a meaningful share of legislator compensation, and require positive certification each session that no public resources were used for campaign activity. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-10-troyer-wirtz-public-resources.md",
+      "slug": "leb-25-10-troyer-wirtz-public-resources",
+      "id": "WA-2025-010",
+      "title": "LEB Case 25-10 \u2014 Troyer, Wirtz, Handy & Wold, alleged campaign use of public resources for private gain",
+      "date_surfaced": "2025-07-07",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Troyer, Wirtz, Handy & Wold (respondents in LEB Case 25-10)",
+          "role_type": "bureaucrat",
+          "title": "Legislative employees or officials named in LEB 25-10",
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "public_resources_firewall",
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on July 7, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "public_resources",
+        "campaign_use"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-010"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "public_resources_firewall",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-10 on July 7, 2025, concerning a complaint against respondents identified in the docket as Troyer, Wirtz, Handy, and Wold. The subject matter is \"Campaign and use of public resources for Private Gain.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondents, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry. Note that the respondents' roles (legislator, legislative employee, or other) are not specified in the docket entry alone.\n\n## Status\n\nLEB opinion issued July 7, 2025. This record will be updated when the full opinion text is reviewed and the roles and findings confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving multiple respondents and the use of public resources for campaign purposes. It is included as part of the documented 2024-2026 pattern of LEB proceedings in this conduct category, alongside cases 24-06 and 25-09. The registry treats the pattern as a structural finding.\n\n## Reform implication\n\nThe recurring appearance of public-resources-for-campaign-purposes complaints at the LEB \u2014 across multiple years and involving both legislators and staff \u2014 indicates that the current disclosure and certification regime does not effectively prevent the conduct. Mandatory per-session certification, a clear internal audit mechanism, and financial penalties proportionate to the benefit received would shift the system from complaint-reactive to preventive. See [reform: public_resources_firewall] and [reform: ethics_enforcement_teeth].\n"
+    },
+    {
+      "filename": "2025-leb-25-11-alvarado-outside-employment.md",
+      "slug": "leb-25-11-alvarado-outside-employment",
+      "id": "WA-2025-011",
+      "title": "LEB Case 25-11 \u2014 Emily Alvarado, alleged conflict of interest with outside employment",
+      "date_surfaced": "2025-05-22",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Emily Alvarado",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "conflict_of_interest"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on May 22, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "conflict_of_interest",
+        "outside_employment",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-011"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-11 on May 22, 2025, concerning a complaint against Emily Alvarado. The subject matter is identified in the LEB docket as \"Conflict of Interest with Outside Employment.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued May 22, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative and an outside-employment conflict-of-interest allegation. It is one of three outside-employment conflicts reaching the LEB in 2025 (alongside 25-04 and 25-06), reflecting a structural gap in the legislature's conflict management framework.\n\n## Reform implication\n\nThree outside-employment conflict-of-interest complaints reaching formal LEB proceedings in a single year indicates the current disclosure regime is insufficient to identify and manage these conflicts proactively. A mandatory annual outside-income disclosure, cross-referenced against committee assignments and legislative votes, would reduce both the incidence of conflicts and the burden on the LEB complaint process. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-leb-25-37-parshley-conflict.md",
+      "slug": "leb-25-37-parshley-conflict",
+      "id": "WA-2025-037",
+      "title": "LEB Case 25-37 \u2014 Rep. Lisa Parshley, alleged conflict of interest",
+      "date_surfaced": "2025-12-15",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Lisa Parshley",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "conflict_of_interest"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on December 15, 2025. Full opinion outcome not independently confirmed in sources available at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "conflict_of_interest",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-037"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-37 on December 15, 2025, concerning a complaint against Rep. Lisa Parshley. The subject matter is identified in the LEB docket as \"Conflict of Interest.\" The LEB issued a formal opinion on this date, indicating the complaint was reviewed and adjudicated.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The full opinion text is the definitive source for findings; this record is drawn from the docket entry, which is the information publicly available.\n\n## Status\n\nLEB opinion issued December 15, 2025. This record will be updated when the full opinion text is reviewed and the resolution confirmed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative and a conflict-of-interest allegation. It is one of multiple conflict-of-interest complaints resolved by the LEB in 2025, and is included as part of the documented pattern of such cases during the 2024-2026 period.\n\n## Reform implication\n\nThe LEB docket in 2025 includes at least five conflict-of-interest proceedings against House members. This volume indicates a systemic rather than isolated problem. Proactive, public conflict-of-interest disclosures \u2014 combined with a cross-referencing mechanism against committee assignments and votes \u2014 would reduce both the incidence of conflicts and the reactive burden on the LEB. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2025-lni-it-modernization.md",
+      "slug": "lni-it-modernization",
+      "id": "WA-2025-LNI-IT",
+      "title": "L&I workers' compensation IT modernization \u2014 $31M spent over 10 years, $292M current estimate, not delivered",
+      "date_surfaced": "2025-04-14",
+      "date_conduct_start": "2015-01-01",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Washington State Department of Labor and Industries",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        },
+        {
+          "name": "Washington Technology Solutions (WATech)",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "reported",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "it_project_oversight",
+        "independent_inspector_general",
+        "procurement_reform"
+      ],
+      "dollars_at_issue": 31000000,
+      "dollars_basis": "$31M spent as of April 2025 over 10 years (since 2015). Current estimated total project cost: $292M (reduced from prior $362M estimate). Project is not terminated; agency is requesting $18M additional in the current budget cycle. Wrap-up projected 2034.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "audit_finding",
+      "outcome_summary": "Project ongoing as of this record's last update. The project has been paused and reset multiple times since 2015. Agency is pursuing a reduced-scope cost estimate of $292M.",
+      "review_status": "published",
+      "tags": [
+        "it_modernization",
+        "labor_and_industries",
+        "cost_overrun",
+        "project_management"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-LNI-IT"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "it_project_oversight",
+        "procurement_reform"
+      ],
+      "body": "## What happened\n\nWashington State's Department of Labor and Industries (L&I) began a workers' compensation system IT modernization project in 2015. As of April 2025, the project had spent approximately $31 million over ten years without delivering the system. The current estimated cost to complete stands at $292 million \u2014 reduced from a prior estimate of $362 million after scope adjustments. The project is not terminated; the agency is seeking $18 million in additional budget in the current cycle, with a projected wrap-up date of 2034.\n\n## What the primary source says\n\nGoverning magazine, in a piece reprinted by the Seattle Times (April 14, 2025), reported that the project has had more than seven project directors since 2019 and has been paused and reset multiple times. Former state Sen. Reuven Carlyle was quoted describing the statewide IT project failure pattern as \"total, complete, absolute nuclear meltdown failure ... on virtually every large IT project.\" The reporting identified 70 ongoing state IT projects totaling $2.5 billion, with seven assessed at significant risk.\n\n## Status\n\nThe L&I project is ongoing. The agency has not terminated the project; it is in a reduced-scope configuration with a 2034 target delivery date. No criminal investigation or audit finding specific to fraud has been issued; this is a project management and cost-control failure.\n\n## Why it's in the registry\n\nThis is a documented structural failure in a multi-decade state IT project. The $31 million spent figure and the $292 million current estimate are publicly reported and traceable to named journalism. The registry includes this case because the failure pattern \u2014 repeated resets, budget growth, director turnover, and no delivery \u2014 constitutes a structural management failure with material public cost, independent of any allegation of fraud.\n\n## Reform implication\n\nThe statewide pattern of large IT project failures points to the absence of an independent oversight mechanism with authority to stop projects before they consume hundreds of millions in additional funds. Independent stage-gate reviews \u2014 conducted by a body outside the sponsoring agency and with authority to recommend project termination \u2014 are the structural control repeatedly missing from these procurements. See [reform: it_project_oversight] and [reform: procurement_reform].\n"
+    },
+    {
+      "filename": "2025-psesd-sao-conflict-letter.md",
+      "slug": "psesd-sao-conflict-letter",
+      "id": "PSESD-2025-001",
+      "title": "Puget Sound ESD \u2014 SAO conflict-of-interest matters communicated to management (SAO Report #1036582)",
+      "date_surfaced": "2025-02-06",
+      "date_conduct_start": "2022-09-01",
+      "date_conduct_end": "2023-08-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Puget Sound Educational Service District",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "conflict_of_interest"
+      ],
+      "reforms_implicated": [
+        "esd_governance_transparency",
+        "sao_management_letter_disclosure"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": "SAO accountability audit covering fiscal years Sep 1, 2022 to Aug 31, 2023. Specific dollar exposure not disclosed in public report; conflict-of-interest matters were communicated to management via a separate Jan 29, 2025 letter that is not posted on SAO's public portal.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "audit_finding",
+      "outcome_summary": "SAO published Accountability Audit Report #1036582 on Feb 6, 2025. The report references that 'matters relating to conflict of interest' were communicated to PSESD management via a separate letter dated Jan 29, 2025. The management letter itself is not posted publicly. No formal SAO 'finding' was issued \u2014 the matters were handled at the lesser 'communicated to management' level.",
+      "review_status": "published",
+      "tags": [
+        "psesd",
+        "sao",
+        "conflict_of_interest",
+        "management_letter",
+        "transparency"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "sao_management_letter_disclosure"
+      ],
+      "body": "## What happened\n\nThe Washington State Auditor's Office published Accountability Audit Report #1036582 for Puget Sound Educational Service District on February 6, 2025, covering the audit period Sep 1, 2022 through Aug 31, 2023. The audit references that \"matters relating to conflict of interest\" at PSESD were communicated separately to management via a letter dated January 29, 2025.\n\nThe management letter is not posted on SAO's public portal. The published report does not name individuals, describe the dollar exposure, or characterize the nature of the conflict beyond the bare reference to the letter.\n\n## What the primary source says\n\nThe SAO report itself is the only public document confirming the conflict-of-interest matters exist. It does not constitute a formal SAO \"finding\" \u2014 SAO uses a tiered framework where formal findings appear in the published report, while lesser concerns are sent to management in separate letters that are not publicly posted by default.\n\n## Status\n\nNo formal audit finding. No publicly known follow-up action. The Jan 29, 2025 management letter would need to be obtained via Public Records Act request directed to PSESD (RCW 42.56) to determine the substance.\n\n## Why it's in the registry\n\nDocumented Tier 1 (SAO) reference to conflict-of-interest matters at a regional public agency. The case is included to flag the existence of the management letter and to make clear that the registry does not have access to the substantive content. A PRR is the next investigatory step.\n\n## Reform implication\n\nThe structural issue is the SAO tiered-disclosure framework itself: serious enough to write a private letter about, not serious enough to publish. For public agencies handling state and federal funds, the threshold for \"public finding\" vs \"private letter\" deserves scrutiny. See [reform: sao_management_letter_disclosure].\n\n## Relationship to other cases\n\n- This is the only PSESD case currently in the registry. PSRC, PSCAA, and Puget Sound Partnership were researched and produced no qualifying cases in the 2024\u20132026 window.\n"
+    },
+    {
+      "filename": "2025-sound-transit-st3-program-reset.md",
+      "slug": "sound-transit-st3-program-reset",
+      "id": "WA-2025-ST-PROG",
+      "title": "Sound Transit ST3 program-wide cost shortfall \u2014 $22\u201334.5B over 2016 finance plan, formal program reset announced",
+      "date_surfaced": "2025-08-28",
+      "date_conduct_start": "2016-11-08",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-21",
+      "actors": [
+        {
+          "name": "Sound Transit",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        },
+        {
+          "name": "Dow Constantine",
+          "role_type": "bureaucrat",
+          "title": "CEO, Sound Transit",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        },
+        {
+          "name": "Terri Mestas",
+          "role_type": "bureaucrat",
+          "title": "Deputy CEO, Megaproject Delivery",
+          "party": null,
+          "jurisdiction": "Washington State"
+        },
+        {
+          "name": "Victoria Baecher Wassmer",
+          "role_type": "bureaucrat",
+          "title": "Deputy CEO, Finance & Business Administration",
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "transit_governance_reform",
+        "cost_transparency_reporting",
+        "capital_project_oversight"
+      ],
+      "dollars_at_issue": 34500000000,
+      "dollars_basis": "August 2025 'bottom-up' capital re-estimate revealed $22\u201330B shortfall in 2025 dollars vs. 2016 voter-approved ST3 finance plan. By March 2026 board retreat, agency staff revised shortfall to approximately $34.5B. Specific project impacts: West Seattle Link grew from $4.2B (finance plan) to $7.0\u2013$7.9B; Ballard Link grew from ~$11.9B to $20.1\u2013$22.6B.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "no_action",
+      "outcome_summary": "Sound Transit announced a formal 'program reset' process to determine which ST3 projects to build, delay, or descope within existing taxing authority. No new voter-approved funding increase has been sought. As of March 2026, the board is working through scope/sequencing decisions. No external investigation, audit referral, or enforcement action is underway; this is an internal agency planning process. The West Seattle Link Extension (WA-2025-ST-WSL) is one of several projects affected; this record covers the program-wide shortfall.",
+      "review_status": "published",
+      "tags": [
+        "sound_transit",
+        "st3",
+        "capital_projects",
+        "cost_overrun",
+        "megaprojects"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-ST-PROG",
+        "WA-2025-ST-WSL",
+        "KC-2025-005"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "cost_transparency_reporting",
+        "capital_project_oversight"
+      ],
+      "body": "## What happened\n\nIn August 2025, Sound Transit released \"bottom-up\" capital cost re-estimates for ST3 megaprojects, revealing a $22\u201330 billion shortfall in 2025 dollars against the 2016 voter-approved finance plan. Specific project impacts disclosed:\n\n- West Seattle Link: grew from $4.2B (finance plan) to $7.0\u2013$7.9B\n- Ballard Link: grew from approximately $11.9B (finance plan) to $20.1\u2013$22.6B\n\nBy March 2026, at a board retreat, agency staff revised the total program shortfall to approximately $34.5 billion. The agency announced a formal \"program reset\" process to determine which projects to build, delay, or descope within existing taxing authority.\n\n## What the primary source says\n\nThe figures cited are drawn from Sound Transit board materials and staff briefings reported by Seattle Times and The Urbanist on August 28, 2025, and Lynnwood Times on March 21, 2026. Sound Transit's own ST3 finance plan and project pages remain the underlying Tier 1 reference for the 2016 baseline figures.\n\n## Status\n\nSound Transit is conducting a \"program reset\" as of this record's last update. The reset process is intended to align ST3 scope and sequencing with available taxing authority. No new voter-approved revenue increase has been sought. Individual project decisions, including the West Seattle Link Extension covered in case WA-2025-ST-WSL, are being made within this broader process.\n\n## Why it's in the registry\n\nThis is a Tier 2-sourced (multiple independent outlets) documented capital-cost shortfall against a voter-approved finance plan, with formal agency acknowledgment via a publicly announced \"program reset.\" It is included as a structural-failure case \u2014 not because misconduct has been identified, but because the magnitude of the variance ($22\u201334.5B against a ~$54B 2016 plan) over the 9 years between voter approval and shortfall disclosure raises structural questions about cost-estimation, oversight, and reporting that no single existing oversight body has fully addressed.\n\n## Reform implication\n\nThree categories of reform are implicated: (1) independent cost-validation review at defined intervals for megaproject portfolios above a budget threshold; (2) board-level cost-variance disclosure triggers requiring public reporting when project cost estimates move beyond a defined band; (3) governance separation between project sponsors and cost estimators. The fact that the shortfall was surfaced through a \"bottom-up\" internal re-estimate, rather than through an external audit or independent cost validation, is itself the structural finding. See [reform: capital_project_oversight] and [reform: cost_transparency_reporting].\n\n## Relationship to other cases\n\n- WA-2025-ST-WSL (West Seattle Link Extension cost growth) is one project within this program-wide shortfall.\n- KC-2025-005 (Dow Constantine appointed Sound Transit CEO) covers the governance question of Constantine's transition from board appointer to CEO during this period.\n"
+    },
+    {
+      "filename": "2025-sound-transit-west-seattle-cost.md",
+      "slug": "sound-transit-west-seattle-cost",
+      "id": "WA-2025-ST-WSL",
+      "title": "Sound Transit West Seattle Link Extension \u2014 cost growth from $2.7B (2016) to $4.9\u20135.3B (2025 dollars)",
+      "date_surfaced": "2024-09-30",
+      "date_conduct_start": "2016-01-01",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Sound Transit",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "transit_governance_reform",
+        "it_project_oversight",
+        "cost_transparency_reporting"
+      ],
+      "dollars_at_issue": 5300000000,
+      "dollars_basis": "Upper bound of the March 2026 post-cost-reduction range: $4.9\u2013$5.3B in 2025 dollars, after station consolidation and route changes. Original 2016 voter approval projection: $2.7B. Prior estimates in mid-2024 ranged from $5.1\u2013$5.6B; bottom-up estimate September 2024 reached $6.7\u2013$7.1B; September 2025 range was $7.1\u2013$7.9B before cost-reduction analysis.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "no_action",
+      "outcome_summary": "Sound Transit board is continuing the project as of this record's last update. Cost-reduction options include truncating the line at Delridge ($3.3\u2013$3.4B). No termination decision has been made.",
+      "review_status": "published",
+      "tags": [
+        "sound_transit",
+        "west_seattle_link",
+        "cost_overrun",
+        "transit",
+        "mega_project"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2025-ST-WSL"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "cost_transparency_reporting",
+        "transit_governance_reform"
+      ],
+      "body": "## What happened\n\nSound Transit's West Seattle Link Extension was included in the 2016 Sound Transit 3 ballot measure, which projected a construction cost of approximately $2.7 billion. The project underwent successive cost increases through 2024-2025. By September 2025, the estimated range had reached $7.1\u2013$7.9 billion. A cost-reduction analysis completed in March 2026 brought the estimate back to $4.9\u2013$5.3 billion in 2025 dollars, primarily through station consolidation and route changes. The Sound Transit board is also considering a truncated alignment terminating at Delridge, estimated at $3.3\u2013$3.4 billion.\n\n## What the primary source says\n\nSound Transit's project page (Tier 1) documents the project scope and current status. The Urbanist reported in September 2024 that the board voted to continue the project despite the then-current cost range of $5.1\u2013$5.6 billion, well above the 2016 voter estimate. The progression from 2016 projection to 2024-2025 estimates represents cost growth of between 80% and 192% depending on the estimate used, before cost-reduction measures.\n\n## Status\n\nProject is ongoing. The Sound Transit board has not terminated the project. Cost-reduction options are under board consideration as of this record's last update. No fraud or criminal investigation has been opened; this is a mega-project cost-control concern.\n\n## Why it's in the registry\n\nThis is a documented structural failure in regional transit project cost control. The cost trajectory \u2014 from a voter-approved baseline to estimates nearly three times that baseline before cost-reduction measures \u2014 is a documented public record traceable to Tier 1 and Tier 2 sources. The registry includes this case as a project management and governance accountability concern, not a fraud allegation.\n\n## Reform implication\n\nRegional transit mega-projects in Washington lack an independent, binding cost-control mechanism. The Sound Transit board's composition \u2014 substantially consisting of elected officials appointed from jurisdictions with political stakes in project completion \u2014 creates structural incentives to continue rather than stop or significantly restructure projects even as costs escalate. An independent stage-gate review authority with binding stop/continue authority at defined cost thresholds would provide the check that the current governance structure does not. See [reform: transit_governance_reform] and [reform: cost_transparency_reporting].\n"
+    },
+    {
+      "filename": "2025-spd-overtime-overspending.md",
+      "slug": "spd-overtime-overspending",
+      "id": "SEA-2025-003",
+      "title": "SPD overtime overspending \u2014 $5.5M projected deficit on $53M overtime budget, mid-year corrective restrictions",
+      "date_surfaced": "2025-12-01",
+      "date_conduct_start": "2025-01-01",
+      "date_conduct_end": "2025-12-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Seattle Police Department",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        },
+        {
+          "name": "Shon Barnes",
+          "role_type": "bureaucrat",
+          "title": "Chief of Police, Seattle Police Department",
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        }
+      ],
+      "evidentiary_status": "reported",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "budget_oversight",
+        "quarterly_reporting",
+        "subrecipient_monitoring"
+      ],
+      "dollars_at_issue": 5500000,
+      "dollars_basis": "Per PubliCola reporting on a November 18, 2025 internal SPD memo: SPD's 2025 overtime budget was increased by $12.8M to over $53M; the department was on pace for a $5.5M deficit if typical overtime use continued; SPD planned to absorb 11,000 extra hours (~$1.2M) by repurposing other budget lines.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "SPD imposed mid-year overtime restrictions in November 2025: all overtime requires Assistant Chief/Executive Director pre-approval; no overtime for property crime investigations (burglary, theft), nonviolent drug crimes, community meetings, or Real-Time Crime Center work through end of 2025. Homicide investigations and parking enforcement require direct Chief command staff approval. City Council passed an amendment requiring SPD to include overtime data in quarterly hiring reports 'when available.'",
+      "review_status": "published",
+      "tags": [
+        "spd",
+        "budget",
+        "overtime",
+        "city_of_seattle"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "budget_oversight",
+        "quarterly_reporting"
+      ],
+      "body": "## What happened\n\nA November 18, 2025 internal SPD memo, surfaced by PubliCola on December 1, 2025, projected the Seattle Police Department would run a $5.5 million deficit against its 2025 overtime budget if typical overtime use continued through year-end. The 2025 city budget had already added $12.8 million in overtime funding, bringing the SPD overtime budget to over $53 million.\n\nIn response, SPD imposed mid-year restrictions: all overtime required Assistant Chief or Executive Director pre-approval; no overtime would be funded for property crime investigations (burglary, theft), nonviolent drug crimes, community meetings, or Real-Time Crime Center work through the end of 2025; homicide investigations and parking enforcement required direct command-staff approval.\n\n## What the primary source says\n\nThis case is currently sourced to a single Tier 2 outlet (PubliCola) that reviewed the underlying internal memo. The underlying memo and SPD's quarterly hiring report (which the City Council amended to include overtime data \"when available\") would be Tier 1 sources but have not been independently verified by this record. SPD media relations did not respond to PubliCola's questions.\n\n## Status\n\nCorrective restrictions in effect through end of 2025. No public disclosure as of this record's last update on actual year-end overtime spending versus the November projection. The City Council amendment requiring overtime data in quarterly hiring reports is in effect.\n\n## Why it's in the registry\n\nThis is a documented mid-year budget overrun on a defined-purpose line item ($53M overtime) in a high-public-interest department. The case is recorded as a structural failure \u2014 not misconduct \u2014 because the trigger for corrective action was an internal department memo rather than a standing budget-variance reporting mechanism.\n\n## Reform implication\n\nThe structural gap is the absence of monthly or quarterly budget-variance reporting with automatic Council notification when variance exceeds a defined trigger. The Council's recent amendment to include overtime data in quarterly hiring reports is a partial step but is qualified by \"when available\" language. See [reform: budget_oversight] and [reform: quarterly_reporting].\n\n## Note on sourcing\n\nThis record is held to a single Tier 2 source. A second independent source (Tier 1 or Tier 2) confirming the $5.5M figure or the underlying memo would strengthen the record. If contradictory information surfaces \u2014 for example, if year-end actuals come in below the November projection \u2014 the record will be updated.\n"
+    },
+    {
+      "filename": "2025-sps-ecf-unresolved-finding.md",
+      "slug": "sps-ecf-unresolved-finding",
+      "id": "SPS-2025-002",
+      "title": "Seattle Public Schools \u2014 Emergency Connectivity Fund $4.9M questioned costs, multi-year 'Not Corrected'",
+      "date_surfaced": "2025-05-22",
+      "date_conduct_start": "2021-09-01",
+      "date_conduct_end": "2024-08-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Seattle Public Schools",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "federal_grant_compliance",
+        "audit_finding_resolution_tracking"
+      ],
+      "dollars_at_issue": 4912945,
+      "dollars_basis": "$4,912,945 in questioned costs related to Emergency Connectivity Fund (ECF) program compliance. Status listed as 'Not Corrected' in the 2023-24 SAO audit, indicating the finding has persisted across multiple audit cycles without resolution.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "audit_finding",
+      "outcome_summary": "Reported as 'Not Corrected' in SAO Report #1037358 (May 22, 2025). This is a carryover finding from prior audit cycles. The persistence of an unresolved $4.9M finding across multiple audits is the structural item of interest, independent of final FCC/program disposition.",
+      "review_status": "published",
+      "tags": [
+        "seattle_public_schools",
+        "sao",
+        "federal_compliance",
+        "emergency_connectivity_fund",
+        "unresolved_finding"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "audit_finding_resolution_tracking"
+      ],
+      "body": "## What happened\n\nThe Washington State Auditor's Office reported in the 2023-24 audit (SAO Report #1037358, published May 22, 2025) that $4,912,945 in questioned costs related to Seattle Public Schools' use of federal Emergency Connectivity Fund (ECF) money remains \"Not Corrected.\" This is a carryover finding from prior audit cycles.\n\nThe ECF program was a federal pandemic-era initiative to connect students to remote learning. Audit findings questioning the eligibility or documentation of specific expenditures are not uncommon for the program; what is notable here is the persistence of the finding across audit cycles without resolution.\n\n## What the primary source says\n\nThe SAO report documents the questioned-cost figure and the \"Not Corrected\" status. It does not characterize the underlying dispute in detail \u2014 that would require obtaining the prior audit reports and the SPS-FCC correspondence on the matter.\n\n## Status\n\n\"Not Corrected\" in the most recent audit cycle. Final disposition depends on FCC/ECF program review. Whether the questioned costs will be required to be repaid, written off, or resolved by additional documentation remains open.\n\n## Why it's in the registry\n\nTier 1 (SAO) documented finding of $4.9M questioned costs that has persisted across multiple audit cycles. The structural concern is the lack of resolution mechanism rather than the underlying program dispute. Included alongside SPS-2025-001 (Paid Lunch Equity) and SPS-2025-003 (structural deficit) as part of the broader SPS financial-controls picture.\n\n## Reform implication\n\nTwo reforms: (1) board-level audit-finding resolution tracking with hard timelines; (2) escalation protocols when findings remain unresolved beyond a defined number of audit cycles. See [reform: audit_finding_resolution_tracking].\n\n## Relationship to other cases\n\n- SPS-2025-001 (Paid Lunch Equity $3.1M finding) is in the same SAO report and the same audit cycle.\n- SPS-2025-003 (structural deficit) covers board-level financial governance.\n"
+    },
+    {
+      "filename": "2025-sps-paid-lunch-equity-finding.md",
+      "slug": "sps-paid-lunch-equity-finding",
+      "id": "SPS-2025-001",
+      "title": "Seattle Public Schools \u2014 Paid Lunch Equity significant deficiency, $3.1M potential nonfederal contribution (SAO Finding 2024-001)",
+      "date_surfaced": "2025-05-22",
+      "date_conduct_start": "2023-09-01",
+      "date_conduct_end": "2024-08-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Seattle Public Schools",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "federal_grant_compliance",
+        "school_district_financial_controls"
+      ],
+      "dollars_at_issue": 3128043,
+      "dollars_basis": "SAO Finding 2024-001 (significant deficiency) identified $3,128,043 as the potential nonfederal contribution that may be owed back due to noncompliance with Paid Lunch Equity (PLE) requirements under federal Child Nutrition Programs. Final disposition of the $3.1M depends on federal program review.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "audit_finding",
+      "outcome_summary": "SAO Financial Statement and Single Audit Report (Report #1037358) published May 22, 2025. Finding 2024-001 classified as significant deficiency under federal compliance standards. SPS response and corrective action plan included in the published report.",
+      "review_status": "published",
+      "tags": [
+        "seattle_public_schools",
+        "sao",
+        "federal_compliance",
+        "paid_lunch_equity",
+        "significant_deficiency"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "federal_grant_compliance"
+      ],
+      "body": "## What happened\n\nThe Washington State Auditor's Office published the Financial Statement and Single Audit Report for Seattle Public Schools (Report #1037358) on May 22, 2025. Finding 2024-001 identified noncompliance with federal Paid Lunch Equity (PLE) requirements under Child Nutrition Programs, with a potential nonfederal contribution of $3,128,043.\n\nThe finding is classified as a \"significant deficiency\" \u2014 the middle severity tier under federal Single Audit Act compliance standards, below \"material weakness\" but above lesser observations.\n\n## What the primary source says\n\nThe SAO report documents the noncompliance, calculates the potential nonfederal contribution, and includes SPS's response and corrective action plan. The district's June 2025 republication of the report on its own website is the second Tier 1 source.\n\n## Status\n\nAudit finding. Final disposition of the $3.1M depends on federal program review. SPS has acknowledged the finding and submitted a corrective action plan; whether the corrective actions resolve the underlying compliance issue will be tested in the next audit cycle.\n\n## Why it's in the registry\n\nTier 1 (SAO) significant deficiency at the largest school district in the state, with a specific dollar exposure. Federal-grant-compliance findings at this scale at a large district warrant tracking because they tend to compound with related findings \u2014 see SPS-2025-002 for the unrelated but contemporaneous Emergency Connectivity Fund finding.\n\n## Reform implication\n\nTwo reform categories: (1) district-level federal grant compliance controls and staff training in Child Nutrition Programs specifically; (2) board-level oversight of audit findings with verified corrective action timelines. See [reform: federal_grant_compliance].\n\n## Relationship to other cases\n\n- SPS-2025-002 (Emergency Connectivity Fund $4.9M unresolved finding) and SPS-2025-003 (structural deficit) document the broader financial-controls and oversight picture at SPS during this period.\n"
+    },
+    {
+      "filename": "2025-sps-structural-deficit.md",
+      "slug": "sps-structural-deficit",
+      "id": "SPS-2025-003",
+      "title": "Seattle Public Schools \u2014 $100M structural deficit, $27.5M interfund loan without Finance/Audit Committee oversight (board had dissolved it)",
+      "date_surfaced": "2025-01-22",
+      "date_conduct_start": "2023-09-01",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "Seattle Public Schools",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Brent Jones",
+          "role_type": "bureaucrat",
+          "title": "Superintendent, Seattle Public Schools (resigned)",
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Liza Rankin",
+          "role_type": "elected",
+          "title": "Board President, Seattle Public Schools",
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "school_district_financial_oversight",
+        "board_committee_governance_standards"
+      ],
+      "dollars_at_issue": 104000000,
+      "dollars_basis": "Structural operating deficit: $104M for FY 2024-25 (carried forward), $94M+ projected for FY 2025-26 per district budget materials. Interfund loan of $27.5M authorized FY 2024-25 without Finance/Audit Committee review (board had previously dissolved that committee). Reserve drawdown of approximately $42M in FY 2023-24.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "no_action",
+      "outcome_summary": "No formal audit finding on the structural deficit itself; the deficit is documented in district budget materials and reported by the Seattle Times. The governance question \u2014 that the Finance/Audit Committee had been dissolved by the board prior to authorization of the $27.5M interfund loan \u2014 is the specific item flagged. Superintendent Brent Jones resigned during this period; context only, not a standalone case.",
+      "review_status": "published",
+      "tags": [
+        "seattle_public_schools",
+        "structural_deficit",
+        "board_governance",
+        "interfund_loan",
+        "finance_audit_committee"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "school_district_financial_oversight"
+      ],
+      "body": "## What happened\n\nSeattle Public Schools entered FY 2024-25 with a deteriorating financial position, drawing down approximately $42M from reserves in FY 2023-24 and authorizing an interfund loan of $27.5M in FY 2024-25. The board had previously dissolved its Finance and Audit Committee, meaning the $27.5M interfund loan was not reviewed by the standing committee that would conventionally vet such a transaction.\n\nThe structural operating deficit was approximately $104 million for FY 2024-25 and is projected at $94 million or more for FY 2025-26. Superintendent Brent Jones resigned during this period (context for the broader leadership picture, not a standalone accountability case in this record).\n\n## What the primary source says\n\nThe district's January 22, 2025 Budget Study Session materials document the interfund loan, the reserve drawdown, and the structural deficit projection. The Seattle Times has reported on the \"balanced for now\" budget framing and the governance questions around the Finance/Audit Committee dissolution.\n\n## Status\n\nNo formal audit finding on the structural deficit itself. The deficit and the governance structure are documented in district materials and contemporaneous reporting. The case is included for the governance question \u2014 committee dissolution prior to authorization of significant interfund borrowing \u2014 rather than for any legal-status determination.\n\n## Why it's in the registry\n\nTier 1 (district materials) and Tier 2 (Seattle Times) documented case of structural financial deficit at the state's largest school district, combined with a specific governance fact \u2014 the dissolution of the Finance/Audit Committee \u2014 that warrants tracking. The case is structural, not adversarial: it is included to surface a board-governance question that the SAO audit cycle has not addressed directly.\n\n## Reform implication\n\nTwo reforms: (1) state-level minimum standards for school district financial-oversight committee structures, possibly modeled on municipal finance-committee requirements; (2) board governance norms requiring committee continuity through periods of fiscal stress. See [reform: school_district_financial_oversight].\n\n## Relationship to other cases\n\n- SPS-2025-001 (Paid Lunch Equity) and SPS-2025-002 (ECF unresolved finding) document specific federal-compliance findings in the same period.\n- Together the three SPS cases describe a district under financial-controls and oversight stress concurrent with leadership transition.\n"
+    },
+    {
+      "filename": "2026-dcyf-payment-compliance.md",
+      "slug": "dcyf-payment-compliance",
+      "id": "WA-2026-DCYF",
+      "title": "DCYF child care payment system \u2014 SAO flags $37M in questioned payments, cites structural compliance failure",
+      "date_surfaced": "2026-03-30",
+      "date_conduct_start": "2021-01-01",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Washington State Department of Children, Youth, and Families",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "subrecipient_monitoring",
+        "program_outcome_auditing",
+        "independent_inspector_general"
+      ],
+      "dollars_at_issue": 37000000,
+      "dollars_basis": "$37M is a sample-extrapolated questioned-payments figure from the SAO 2025 Single Audit. The figure extrapolates from 14 noncompliant payments out of a 59-payment sample drawn from approximately 400,000 monthly payments. This is not confirmed loss; the SAO explicitly stated it did not conclude that fraud occurred. Confirmed overpayment in the sample: $6,123.",
+      "dollars_confirmed_loss": 6123,
+      "legal_status": "audit_finding",
+      "outcome_summary": null,
+      "review_status": "published",
+      "tags": [
+        "dcyf",
+        "child_care",
+        "audit_finding",
+        "compliance_failure",
+        "federal_funds"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2026-DCYF"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "program_outcome_auditing",
+        "subrecipient_monitoring"
+      ],
+      "body": "## What happened\n\nThe Washington State Auditor's Office released its 2025 Single Audit on March 30, 2026, which included a review of DCYF's child care payment system. The audit identified $37 million in \"questioned payments\" extrapolated from a sample: auditors reviewed 59 monthly payments out of approximately 400,000 and found 14 with noncompliance or overpayment totaling $6,123 in the sample. The $37 million figure is a statistical extrapolation from that sample to the full payment population \u2014 it is not a confirmed loss total.\n\n## What the primary source says\n\nThe State Auditor's Office explicitly stated in the 2025 Single Audit that it \"did not conclude that fraud occurred.\" The causes identified were operational: providers not responding to attendance-record requests, alleged overbilling for services not reflected in attendance records, and missing parent and guardian signatures. DCYF responded that federal audits have not identified misuse of funds and that the $37 million is the SAO's extrapolation, not confirmed fraud. The SAO had been unable to audit the Child Care Development Fund since FY2021 due to DCYF accounting issues; this was the first full audit in four years.\n\n## Status\n\nAudit findings are public as of March 30, 2026. DCYF has disputed the characterization of the $37 million figure as confirmed misuse. No criminal investigation has been opened.\n\n## Why it's in the registry\n\nThis is a documented SAO audit finding of structural compliance failure in DCYF's child care payment system. It is included not as a fraud allegation \u2014 the SAO explicitly found none \u2014 but because the failure to maintain auditable records, the four-year gap in federal audit coverage, and the structural inadequacy of the payment verification system constitute a documented accountability failure in a program handling federal child care funds.\n\n## Reform implication\n\nThe SAO's inability to audit the Child Care Development Fund for four years is the central structural concern. A system requiring real-time reconciliation of provider attendance records against payment records, combined with mandatory federal-audit readiness certification, would prevent the conditions that generated both the payment irregularities and the four-year audit gap. See [reform: subrecipient_monitoring] and [reform: program_outcome_auditing].\n"
+    },
+    {
+      "filename": "2026-ferguson-pdc-vacancies-recall.md",
+      "slug": "ferguson-pdc-vacancies-recall",
+      "id": "WA-2026-PDC-002",
+      "title": "Ferguson PDC commissioner vacancies \u2014 statutory 30-day deadline missed, recall filed, vacancies filled, recall ended",
+      "date_surfaced": "2026-04-01",
+      "date_conduct_start": "2025-01-01",
+      "date_conduct_end": "2026-04-25",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Bob Ferguson",
+          "role_type": "elected",
+          "title": "Washington State Governor",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "reported",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "pdc_enforcement",
+        "appointment_accountability"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "Recall effort ended April 25, 2026 after Ferguson filled both PDC commissioner vacancies. Matt Segal appointed April 16, 2026; Teebah Alsaleh appointed late April 2026. Recall filed April 1, 2026 by attorney Conner Edwards.",
+      "review_status": "published",
+      "tags": [
+        "pdc",
+        "governor",
+        "appointments",
+        "recall",
+        "governance_failure",
+        "ferguson"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2026-PDC-002"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "pdc_enforcement",
+        "appointment_accountability"
+      ],
+      "body": "## What happened\n\nWashington's Public Disclosure Commission (PDC) had two commissioner vacancies as of early 2026. One seat had been vacant since January 2025 \u2014 nearly all of Governor Ferguson's first year in office. State law requires the governor to fill PDC commissioner vacancies within 30 days. On April 1, 2026, attorney Conner Edwards filed a recall petition against Ferguson, citing the failure to fill the vacancies within the statutory window. Ferguson's office argued in a legal filing that the 30-day requirement is \"simply a procedural guide\" rather than a hard deadline.\n\n## What the primary source says\n\nOPB reported that Ferguson appointed Matt Segal to the PDC on April 16, 2026, and Teebah Alsaleh in late April 2026. Edwards ended the recall effort on April 25, 2026, after the appointments were made. OPB also reported that Segal is a founding partner at Pacifica Law Group, which serves as Ferguson's private legal counsel \u2014 a relationship that raises a separate conflict-of-interest question about the appointment.\n\n## Status\n\nResolved. Both PDC commissioner vacancies have been filled. The recall effort was withdrawn April 25, 2026. The underlying governance failure \u2014 the extended vacancy of a campaign finance watchdog seat \u2014 was resolved only after a recall petition was filed.\n\n## Why it's in the registry\n\nThis is a documented governance failure: a statutory 30-day appointment deadline for a campaign finance watchdog agency was not met for over a year, and the governor contested the legal force of the deadline. The failure was resolved, but only under the pressure of a formal recall filing. The registry includes resolved governance failures because the mechanism of resolution \u2014 political pressure rather than legal enforcement \u2014 is itself a structural concern.\n\n## Reform implication\n\nA statutory appointment deadline for independent oversight bodies that carries no enforcement mechanism beyond public pressure is effectively optional. An automatic escalation mechanism \u2014 for example, vesting appointment authority in the legislature if the executive fails to act within the statutory window \u2014 would make the deadline binding rather than advisory. Additionally, the appointment of the governor's own private legal counsel to an oversight body should trigger a recusal review. See [reform: pdc_enforcement] and [reform: appointment_accountability].\n"
+    },
+    {
+      "filename": "2026-kc-inspector-general-proposal.md",
+      "slug": "kc-inspector-general-proposal",
+      "id": "KC-2026-007",
+      "title": "King County Council pushes to establish independent Inspector General \u2014 reform proposal",
+      "date_surfaced": "2026-03-25",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Reagan Dunn",
+          "role_type": "elected",
+          "title": "King County Councilmember",
+          "party": "R",
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Rod Dembowski",
+          "role_type": "elected",
+          "title": "King County Councilmember",
+          "party": "D",
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Sarah Perry",
+          "role_type": "elected",
+          "title": "King County Councilmember",
+          "party": "D",
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "independent_inspector_general",
+        "procurement_reform",
+        "subrecipient_monitoring"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "no_action",
+      "outcome_summary": "Legislation had not been introduced as of this record's last update. The joint letter signals legislative intent; no bill number assigned.",
+      "review_status": "published",
+      "tags": [
+        "inspector_general",
+        "king_county_council",
+        "dchs",
+        "reform_proposal"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-003",
+        "KC-2026-007",
+        "KC-2025-001"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "independent_inspector_general"
+      ],
+      "body": "## What happened\n\nOn March 25, 2026, King County Councilmembers Reagan Dunn (R), Rod Dembowski (D), and Sarah Perry (D) issued a joint letter to the King County Executive signaling intent to draft legislation establishing a King County Office of Inspector General. The letter followed a joint report from the King County Auditor and Ombudsman recommending structural oversight reforms in the wake of the DCHS contracting audit and subsequent Ombudsman investigation.\n\n## What the primary source says\n\nThe King County Council newsroom release (Tier 1) identifies three specific proposals: creation of an independent Inspector General office, establishment of a centralized fraud reporting system, and implementation of regular fraud-awareness training for contractors. Councilmember Dembowski was quoted: \"I support the specific recommendation for a fraud hotline and believe that we should also establish an independent Inspector General office.\" The proposed IG would have subpoena power for documents and witnesses.\n\n## Status\n\nThe joint letter was a statement of legislative intent, not a bill. Legislation had not been formally introduced as of this record's last update. The proposal is bipartisan \u2014 Dunn (R), Dembowski (D), Perry (D) \u2014 and was publicly connected to the Auditor's and Ombudsman's findings on DCHS.\n\n## Why it's in the registry\n\nThis record documents an active governance reform proposal directly responsive to documented structural failures in King County oversight. It is included not as an allegation but as the affirmative legislative response to cases KC-2025-001 (DCHS audit) and KC-2025-003 (Ombudsman investigation). Tracking the status of the IG proposal is part of the registry's reform-accountability function.\n\n## Reform implication\n\nThe proposed Inspector General represents the most significant structural accountability reform proposed for King County in this period. The case for it rests on three documented failures: (1) subrecipient monitoring covering ~1% of expenditures in a $1.5B+ program (KC-2025-001); (2) 19 contractors with financial irregularities referred to an external body only after auditor pressure (KC-2025-003); and (3) investigation authority currently sitting inside the same executive chain that authorized the spending. See [reform: independent_inspector_general].\n"
+    },
+    {
+      "filename": "2026-kcrha-forensic-audit.md",
+      "slug": "kcrha-forensic-audit",
+      "id": "KC-2026-001",
+      "title": "KCRHA forensic audit \u2014 $13M unaccounted, $44.7M negative cash position, no fraud found",
+      "date_surfaced": "2026-04-22",
+      "date_conduct_start": "2021-06-01",
+      "date_conduct_end": "2025-07-31",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "King County Regional Homelessness Authority",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "King County"
+        },
+        {
+          "name": "Kelly Kinnison",
+          "role_type": "bureaucrat",
+          "title": "CEO, KCRHA",
+          "party": null,
+          "jurisdiction": "King County"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure",
+        "misuse_public_resources"
+      ],
+      "reforms_implicated": [
+        "independent_inspector_general",
+        "subrecipient_monitoring",
+        "procurement_reform",
+        "cost_transparency_reporting"
+      ],
+      "dollars_at_issue": 13000000,
+      "dollars_basis": "Per Clark Nuber forensic evaluation (April 17, 2026): approximately $8M in receivables that could not be reconciled, plus $4.26M administrative operating deficit (including $1.27M in unrecoverable interest charges from negative cash balances in the King County Investment Pool), plus $1M+ in additional interest-related variance. Total contextualized against ~$800M in cumulative KCRHA budget over the 2021\u20132025 audit period.",
+      "dollars_confirmed_loss": 1270000,
+      "legal_status": "under_investigation",
+      "outcome_summary": "Audit released April 22, 2026. KCRHA submitted initial response May 12, 2026; full corrective action plan due May 23, 2026, with follow-ups June 30 and July 31. Multiple elected officials (Dembowski, Kettle, Mayor Wilson) have publicly called for dissolution of the agency. Audit explicitly did not find fraud, but identified gift cards, purchase cards, and reimbursements as areas where fraud could occur undetected.",
+      "review_status": "published",
+      "tags": [
+        "homelessness_funding",
+        "kcrha",
+        "forensic_audit",
+        "king_county",
+        "city_of_seattle",
+        "dissolution_proposal"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "KC-2025-003",
+        "KC-2026-001",
+        "KC-2025-001"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "cost_transparency_reporting",
+        "independent_inspector_general"
+      ],
+      "body": "## What happened\n\nThe City of Seattle and King County jointly commissioned a forensic evaluation of the King County Regional Homelessness Authority (KCRHA) in August 2025, conducted by Clark Nuber P.S. The audit, released April 22, 2026, reviewed KCRHA operations from mid-2021 through July 31, 2025.\n\nThe evaluation identified a negative cash position of approximately $44.7 million as of July 31, 2025, an $8 million receivables balance that could not be reconciled based on available records, a $4.26 million administrative operating deficit (including approximately $1.27 million in unrecoverable interest charges from negative balances in the King County Investment Pool), and a $6.4 million unapproved programmatic overspend in 2025.\n\nThe audit also found that KCRHA received $226.9 million in advance funds during the review period but had no tracking mechanism to link how those funds were used.\n\n## What the primary source says\n\nPer the Clark Nuber forensic evaluation (April 17, 2026):\n\n- \"A receivables balance of $8 million could not be reconciled based on available records, indicating a potential need to write it off.\"\n- \"An administrative operating deficit of approximately $4.26 million was identified, which includes approximately $1.26 million in interest charges that are not expected to be recovered.\"\n- \"Significant exceptions and gaps were noted in the design and execution of internal controls.\"\n- \"Roles and responsibilities related to financial leadership and oversight were not clearly defined.\"\n\nThe audit explicitly states it did not find fraud, but identified gift cards, purchase cards, employee reimbursements, and account permissions as four high-risk areas where fraud could occur without being detected under existing controls.\n\n## Status\n\nKCRHA submitted an initial response on May 12, 2026, with CEO Kelly Kinnison stating the agency will review each transaction to identify the source of the $8 million in unreconciled receivables. A full corrective action plan is due May 23, 2026, with follow-up reporting on June 30 and July 31, 2026.\n\nMultiple elected officials have publicly called for dissolution of the agency, including King County Councilmember Rod Dembowski, Seattle Councilmember Bob Kettle, and Seattle Mayor Katie Wilson. The KCRHA Governance Committee met April 25, 2026, to consider next steps.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented forensic audit finding of systemic financial control failure in a publicly funded inter-local agency with approximately $800 million in cumulative budget authority over the audit period. The case is included not because fraud was found \u2014 the audit explicitly states it was not \u2014 but because the documented structural absence of basic accounting controls (segregation of duties, advance-fund tracking, defined financial roles) over a multi-year period in a high-public-interest program meets the registry's threshold for structural failure.\n\nThe case is distinct from the DCHS audit (KC-2025-001) and DCHS ombudsman investigation (KC-2025-003) \u2014 KCRHA is a separate inter-local agency, not a King County department, though both relate to the regional homelessness response system.\n\n## Reform implication\n\nThe audit's findings on undefined financial roles, absent internal control framework, and persistent negative cash balances without corrective action over 19+ months point to a governance-structure failure rather than a single point of misconduct. The split accountability between the City of Seattle and King County is itself part of the structural problem. Reform options include: (1) an independent Inspector General with cross-jurisdictional authority covering both KCRHA and its funders; (2) governance restructuring to consolidate fiscal accountability; or (3) dissolution and reabsorption of functions into a single jurisdiction with existing audit infrastructure, as proposed by Councilmember Dembowski and others. See [reform: independent_inspector_general] and [reform: cost_transparency_reporting].\n"
+    },
+    {
+      "filename": "2026-leb-25-38-simmons-special-privileges.md",
+      "slug": "leb-25-38-simmons-special-privileges",
+      "id": "WA-2026-038",
+      "title": "LEB Case 25-38 \u2014 Rep. Tarra Simmons, alleged special privileges",
+      "date_surfaced": "2026-05-03",
+      "date_conduct_start": "None",
+      "date_conduct_end": "None",
+      "last_updated": "2026-05-28",
+      "actors": [
+        {
+          "name": "Tarra Simmons",
+          "role_type": "elected",
+          "title": "Washington State Representative",
+          "party": "D",
+          "jurisdiction": "Washington State"
+        }
+      ],
+      "evidentiary_status": "alleged",
+      "severity_type": [
+        "special_privileges"
+      ],
+      "reforms_implicated": [
+        "ethics_enforcement_teeth",
+        "leb_transparency"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": null,
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "LEB issued opinion on May 3, 2026. Full opinion outcome not independently confirmed at the time of this record.",
+      "review_status": "published",
+      "tags": [
+        "legislative_ethics",
+        "leb_docket",
+        "special_privileges",
+        "campaign_finance",
+        "house"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [
+        "WA-2026-038"
+      ],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "leb_transparency",
+        "ethics_enforcement_teeth"
+      ],
+      "body": "## What happened\n\nThe Washington State Legislative Ethics Board issued Opinion 25-38 on May 3, 2026, concerning a complaint against Rep. Tarra Simmons. The subject matter is identified in the LEB docket as \"Special Privileges and Lack of Subject Matter Jurisdiction.\" InvestigateWest reported in January 2026 on complaints alleging Simmons made $30,000 in surplus campaign fund donations to organizations with which she had personal ties.\n\n## What the primary source says\n\nThe LEB's publicly posted opinion index (Tier 1) records the case number, date, respondent, and subject. The docket notation of \"Lack of Subject Matter Jurisdiction\" indicates the Board found at least part of the complaint fell outside its statutory authority. InvestigateWest (Tier 2) reported the underlying complaint involved $30,000 donated in two installments from surplus campaign funds to a Nevada-based nonprofit, Better Minds Better Communities, with which Simmons had personal ties.\n\n## Status\n\nLEB opinion issued May 3, 2026. The jurisdictional finding suggests the LEB resolved some or all aspects of the complaint on jurisdictional grounds. This record will be updated when the full opinion text is reviewed.\n\n## Why it's in the registry\n\nThis is a Tier 1 documented LEB proceeding involving an elected state Representative, reported surplus campaign fund use, and a special-privileges allegation. The case is notable for the LEB's jurisdictional finding, which raises questions about which body \u2014 LEB, PDC, or another authority \u2014 has authority over the conduct alleged.\n\n## Reform implication\n\nWhen a complaint involves conduct at the intersection of legislative activity and campaign finance, jurisdictional gaps between the LEB and the PDC can leave the conduct unreviewed by either body. Clarifying this boundary \u2014 and establishing a referral mechanism ensuring that conduct falling outside LEB jurisdiction is automatically forwarded to the PDC \u2014 would close a gap the current structure leaves open. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].\n"
+    },
+    {
+      "filename": "2026-seattle-sao-accountability-audit.md",
+      "slug": "seattle-sao-accountability-audit",
+      "id": "SEA-2026-005",
+      "title": "Seattle SAO accountability audit \u2014 competitive procurement and emergency exemption noncompliance flagged",
+      "date_surfaced": "2026-03-23",
+      "date_conduct_start": "2024-07-01",
+      "date_conduct_end": "2025-06-30",
+      "last_updated": "2026-05-20",
+      "actors": [
+        {
+          "name": "City of Seattle",
+          "role_type": "agency",
+          "title": null,
+          "party": null,
+          "jurisdiction": "City of Seattle"
+        }
+      ],
+      "evidentiary_status": "documented",
+      "severity_type": [
+        "structural_failure"
+      ],
+      "reforms_implicated": [
+        "procurement_reform",
+        "subrecipient_monitoring"
+      ],
+      "dollars_at_issue": null,
+      "dollars_basis": "Audit reviewed FY July 1 2024 \u2013 June 30 2025. Specific dollar figures associated with the noncompliant procurement and emergency-exemption transactions were communicated to City management via a March 17, 2026 letter and are not stated in the public audit summary. Audit areas examined included: SPU public works and change orders, sole-source blanket contracts, equipment purchases, City Light utility billing, credit cards, vendor payments, payroll overtime, theft-sensitive asset tracking, petty cash, restricted-fund use (including affordable housing and criminal justice funding), and bond debt covenants.",
+      "dollars_confirmed_loss": null,
+      "legal_status": "closed_no_action",
+      "outcome_summary": "Published March 23, 2026 by the Washington State Auditor's Office (Report No. 1039250). Overall finding: City operations complied 'in all material respects' with state laws, regulations, and City policies, with adequate controls over public resources. Exception: noncompliance with competitive procurement and emergency exemption requirements, communicated to the Mayor and City Council in a separate March 17, 2026 letter. Federal program findings (subrecipient monitoring, reporting, housing quality standards, earmarking) addressed in a separate Single Audit report.",
+      "review_status": "published",
+      "tags": [
+        "sao",
+        "procurement",
+        "city_of_seattle",
+        "audit"
+      ],
+      "contributor": "vn",
+      "body_case_id_refs": [],
+      "body_slug_refs": [],
+      "body_reform_refs": [
+        "procurement_reform",
+        "cost_transparency_reporting"
+      ],
+      "body": "## What happened\n\nThe Washington State Auditor's Office published its Accountability Audit Report on the City of Seattle on March 23, 2026, covering the fiscal year July 1, 2024 through June 30, 2025. The audit reviewed selected areas representing the highest risk of fraud, loss, abuse, or noncompliance, including procurement at Seattle Public Utilities, accounts receivable at Seattle City Light, accounts payable, payroll overtime, theft-sensitive asset tracking, petty cash, use of restricted funds (including affordable housing and criminal justice funding), and bond debt covenants.\n\nThe overall finding was that City operations complied \"in all material respects\" with applicable state laws, regulations, and City policies. The audit identified one exception: noncompliance with competitive procurement and emergency exemption requirements, which the SAO communicated to City management and the Mayor and Council in a separate March 17, 2026 letter rather than as a published finding.\n\n## What the primary source says\n\nPer the SAO Accountability Audit Report (March 23, 2026, Report No. 1039250):\n\n> \"In those selected areas, City operations complied, in all material respects, with applicable state laws, regulations, and its own policies, and provided adequate controls over the safeguarding of public resources. However, we noted certain matters related to noncompliance with competitive procurement and emergency exemption requirements that we communicated to City management and the Mayor and City Council in a letter dated March 17, 2026.\"\n\nFederal program findings \u2014 including federal subrecipient monitoring, reporting, housing quality standards, and earmarking compliance \u2014 are addressed in a separate Single Audit report referenced in the report.\n\n## Status\n\nAudit published March 23, 2026. The March 17, 2026 management letter has not been publicly released as of this record's last update. No regulatory or enforcement action has been announced.\n\n## Why it's in the registry\n\nThis is a Tier 1 accountability audit by an independent state oversight body. It is included as a baseline documented finding \u2014 not because the audit identified misconduct (it did not) \u2014 but because (1) the procurement and emergency-exemption noncompliance was real enough to warrant a separate management letter, and (2) the management letter itself is not publicly available, creating a transparency gap that is a structural concern in its own right.\n\n## Reform implication\n\nThe structural concern is the gap between published audit findings and unpublished management letters. SAO management letters reflect noncompliance that was found but did not rise to the level of a published finding. Requiring publication of all such letters in the same SAO portal \u2014 or at minimum a public log of their existence, recipients, and subject matter \u2014 would close the transparency gap. See [reform: procurement_reform] and [reform: cost_transparency_reporting].\n\n## Note on dollar amounts\n\nThis record does not include a dollars_at_issue figure because the specific transactions and amounts are described only in the unpublished management letter. If the management letter is subsequently released \u2014 by FOIA request or otherwise \u2014 this record will be updated.\n"
+    }
+  ],
+  "all_slugs": [
+    "constantine-ceo-ethics-complaint",
+    "dchs-systemic-audit",
+    "dcyf-payment-compliance",
+    "dow-soundtransit-ceo",
+    "ferguson-pdc-surplus-transfer",
+    "ferguson-pdc-vacancies-recall",
+    "gomez-mayors-office-allegation",
+    "harrell-tiktok-seec-complaint",
+    "kc-dchs-ombuds-investigation",
+    "kc-health-through-housing",
+    "kc-inspector-general-proposal",
+    "kc-youth-program-self-dealing",
+    "kcrha-forensic-audit",
+    "leb-24-06-mullet-public-resources",
+    "leb-25-01-hackney-conflict",
+    "leb-25-02-caldier-special-privileges",
+    "leb-25-03-house-dem-caucus-social-media",
+    "leb-25-04-zahn-outside-employment",
+    "leb-25-06-walen-outside-employment",
+    "leb-25-09-jinkins-public-resources",
+    "leb-25-10-troyer-wirtz-public-resources",
+    "leb-25-11-alvarado-outside-employment",
+    "leb-25-37-parshley-conflict",
+    "leb-25-38-simmons-special-privileges",
+    "lni-it-modernization",
+    "port-seattle-pie-fraud",
+    "port-seattle-rhysida-breach",
+    "psesd-sao-conflict-letter",
+    "seattle-sao-accountability-audit",
+    "sound-transit-st3-program-reset",
+    "sound-transit-west-seattle-cost",
+    "spd-diaz-misconduct",
+    "spd-overtime-overspending",
+    "sps-ecf-unresolved-finding",
+    "sps-paid-lunch-equity-finding",
+    "sps-structural-deficit"
+  ],
+  "all_ids": [
+    "KC-2021-006",
+    "KC-2025-001",
+    "KC-2025-002",
+    "KC-2025-003",
+    "KC-2025-005",
+    "KC-2025-008",
+    "KC-2026-001",
+    "KC-2026-007",
+    "POS-2024-001",
+    "POS-2024-002",
+    "PSESD-2025-001",
+    "SEA-2024-001",
+    "SEA-2025-002",
+    "SEA-2025-003",
+    "SEA-2025-004",
+    "SEA-2026-005",
+    "SPS-2025-001",
+    "SPS-2025-002",
+    "SPS-2025-003",
+    "WA-2023-PDC-001",
+    "WA-2024-006",
+    "WA-2025-001",
+    "WA-2025-002",
+    "WA-2025-003",
+    "WA-2025-004",
+    "WA-2025-006",
+    "WA-2025-009",
+    "WA-2025-010",
+    "WA-2025-011",
+    "WA-2025-037",
+    "WA-2025-LNI-IT",
+    "WA-2025-ST-PROG",
+    "WA-2025-ST-WSL",
+    "WA-2026-038",
+    "WA-2026-DCYF",
+    "WA-2026-PDC-002"
+  ]
+}

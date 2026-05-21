@@ -1,0 +1,124 @@
+{
+  "_doc": "Photo registry. Keyed by lowercase-dash slug of the actor name (e.g. 'dow-constantine'). photo: relative path under /img/officials/. source_url: where the original portrait came from (must be primary government source, official biography page, or other public domain government work). license: short string describing why we believe we can use it ('public-domain-gov-work', 'cc-by-2.0', 'used-with-attribution', etc.). photo: null means we are intentionally not displaying a face for this person (either we could not source a primary photo, or we judged them not a public-figure enough to warrant identification).",
+  "officials": {
+    "dow-constantine": {
+      "name": "Dow Constantine",
+      "title": "CEO, Sound Transit",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "bob-ferguson": {
+      "name": "Bob Ferguson",
+      "title": "Governor of Washington",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "bruce-harrell": {
+      "name": "Bruce Harrell",
+      "title": "Mayor of Seattle",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "adrian-diaz": {
+      "name": "Adrian Diaz",
+      "title": "Former Chief, Seattle Police Department",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "brent-jones": {
+      "name": "Brent Jones",
+      "title": "Former Superintendent, Seattle Public Schools",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "kelly-kinnison": {
+      "name": "Kelly Kinnison",
+      "title": "CEO, KCRHA",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "kymber-waltmunson": {
+      "name": "Kymber Waltmunson",
+      "title": "King County Auditor",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "liza-rankin": {
+      "name": "Liza Rankin",
+      "title": "Board President, Seattle Public Schools",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "nick-brown": {
+      "name": "Nick Brown",
+      "title": "Washington State Attorney General",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "reagan-dunn": {
+      "name": "Reagan Dunn",
+      "title": "King County Councilmember",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "rod-dembowski": {
+      "name": "Rod Dembowski",
+      "title": "King County Councilmember",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "sarah-perry": {
+      "name": "Sarah Perry",
+      "title": "King County Councilmember",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "shon-barnes": {
+      "name": "Shon Barnes",
+      "title": "Chief, Seattle Police Department",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "steve-metruck": {
+      "name": "Steve Metruck",
+      "title": "Executive Director, Port of Seattle",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "terri-mestas": {
+      "name": "Terri Mestas",
+      "title": "Deputy CEO, Megaproject Delivery, Sound Transit",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "victoria-baecher-wassmer": {
+      "name": "Victoria Baecher Wassmer",
+      "title": "Deputy CEO, Finance & Business Administration, Sound Transit",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    },
+    "wayne-barnett": {
+      "name": "Wayne Barnett",
+      "title": "Executive Director, Seattle Ethics and Elections Commission",
+      "photo": null,
+      "source_url": null,
+      "license": null
+    }
+  }
+}

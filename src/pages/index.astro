@@ -1,0 +1,178 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { formatDollars, SEVERITY_LABELS } from '../lib/format';
+import featuredData from '../data/featured.json';
+
+const allCases = await getCollection('cases');
+
+const byStatus = {
+  documented: allCases.filter((c) => c.data.evidentiary_status === 'documented').length,
+  reported: allCases.filter((c) => c.data.evidentiary_status === 'reported').length,
+  alleged: allCases.filter((c) => c.data.evidentiary_status === 'alleged').length,
+};
+
+const totalDollars = allCases.reduce((sum, c) => sum + (c.data.dollars_at_issue ?? 0), 0);
+
+// Featured cases: computed monthly by scripts/compute-featured.mjs using
+// objective metadata scoring (see SCHEMA.md "Featured score" section).
+const featured = (featuredData.top5 as Array<{ slug: string; score: number; pinned: boolean }>)
+  .map((entry) => {
+    const c = allCases.find((x) => x.slug === entry.slug);
+    return c ? { ...entry, case: c } : null;
+  })
+  .filter((x): x is NonNullable<typeof x> => x !== null);
+
+// Big-number hero wall: top 4 by dollars_at_issue, deduplicated by primary
+// actor so a single agency does not dominate the hero. (E.g. Sound Transit
+// has multiple high-dollar cases; only the largest gets the hero slot.)
+const heroSeenActors = new Set<string>();
+const heroCases: typeof allCases = [];
+for (const c of [...allCases]
+  .filter((c) => (c.data.dollars_at_issue ?? 0) > 0)
+  .sort((a, b) => (b.data.dollars_at_issue ?? 0) - (a.data.dollars_at_issue ?? 0))) {
+  const primary = c.data.actors[0]?.name ?? c.slug;
+  if (heroSeenActors.has(primary)) continue;
+  heroSeenActors.add(primary);
+  heroCases.push(c);
+  if (heroCases.length === 4) break;
+}
+
+// Severity ramp: 4 = documented + criminal_fraud / structural_failure;
+// 3 = documented; 2 = reported; 1 = alleged.
+function sevLevel(c: typeof allCases[number]): 1 | 2 | 3 | 4 {
+  const sev = c.data.severity_type ?? [];
+  const heavy = sev.includes('criminal_fraud') || sev.includes('structural_failure');
+  if (c.data.evidentiary_status === 'documented' && heavy) return 4;
+  if (c.data.evidentiary_status === 'documented') return 3;
+  if (c.data.evidentiary_status === 'reported') return 2;
+  return 1;
+}
+
+// Short gloss: take the part before " — " or " - " or first comma in title.
+function gloss(title: string): string {
+  const m = title.match(/^([^—\-,]+?)(?:\s*[—\-,]|$)/);
+  return (m ? m[1] : title).trim();
+}
+
+// Tail of title after the first em dash, if any (the "what happened" clause).
+function tail(title: string): string | null {
+  const idx = title.indexOf('—');
+  if (idx < 0) return null;
+  return title.slice(idx + 1).trim();
+}
+---
+<Base title="Washington Accountability Registry">
+  <section class="cover-hero">
+    <div class="cover-hero-inner">
+      <div class="cover-hero-eyebrow">Tracking scandals, audits, and accountability failures across Washington State government · {allCases.length} cases on file</div>
+      <h1>Watchdogs are only as good as the public's <em>attention span</em>.</h1>
+      <p class="cover-hero-lede">
+        One place to track every accountability failure across four layers of Washington government. Headlines generate attention. News reports get forgotten. The receipts shouldn't.
+      </p>
+      <div class="cover-hero-actions">
+        <a class="cover-hero-btn cover-hero-btn-primary" href="/cases">See the cases →</a>
+        <a class="cover-hero-btn cover-hero-btn-secondary" href="/methodology">How this works →</a>
+      </div>
+      <div class="cover-hero-stats">
+        <div class="cover-hero-stat">
+          <span class="cover-hero-stat-num">{allCases.length}</span>
+          <span class="cover-hero-stat-label">Cases on file</span>
+        </div>
+        <div class="cover-hero-stat">
+          <span class="cover-hero-stat-num">{formatDollars(totalDollars)}</span>
+          <span class="cover-hero-stat-label">Dollars at issue<span class="cover-hero-stat-note"> · program totals, overruns, and questioned spending combined. Not a loss figure.</span></span>
+        </div>
+        <div class="cover-hero-stat">
+          <span class="cover-hero-stat-num">4</span>
+          <span class="cover-hero-stat-label">Layers of government</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="narrative-head">
+      <span class="kicker">Featured · Refreshed monthly</span>
+      <h2>The cases drawing the most heat right now.</h2>
+      <p class="dek">Ranked monthly across legal posture, evidence tier, dollars at issue, primary sourcing, recency, and cross-references. See <a href="/methodology">Methodology</a> for the full ranking criteria.</p>
+    </div>
+    <ul class="featured-list">
+      {featured.map(({ case: c, pinned }) => (
+        <li class="featured-item" data-sev={sevLevel(c)}>
+          <div class="featured-header">
+            <a class="featured-title" href={`/cases/${c.slug}`}>{c.data.title}</a>
+            <span class={`badge badge-${c.data.evidentiary_status}`}>{c.data.evidentiary_status}</span>
+          </div>
+          <div class="featured-meta">
+            {c.data.dollars_at_issue && (
+              <span class="featured-dollars">{formatDollars(c.data.dollars_at_issue)}</span>
+            )}
+            <span class="featured-severity">{c.data.severity_type.map((s) => SEVERITY_LABELS[s] ?? s).join(' · ')}</span>
+            {pinned && <span class="featured-pin">Editor pinned</span>}
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="hero-wall" aria-label="Highest-dollar cases">
+    {heroCases.map((c) => {
+      const sev = sevLevel(c);
+      const t = tail(c.data.title);
+      return (
+        <a class="hero-wall-row" data-sev={sev} href={`/cases/${c.slug}`}>
+          <div class="hero-wall-num">{formatDollars(c.data.dollars_at_issue)}</div>
+          <div class="hero-wall-body">
+            <p class="hero-wall-gloss">{gloss(c.data.title)}</p>
+            {t && <div class="hero-wall-sub">{t}</div>}
+          </div>
+          <div class="hero-wall-arrow" aria-hidden="true">→</div>
+        </a>
+      );
+    })}
+  </section>
+  <div class="hero-wall-footer">
+    <span>Top four cases by dollars at issue. Figures combine program totals, overruns, and questioned spending.</span>
+    <span class="total">Aggregate: {formatDollars(totalDollars)} across {allCases.length} cases</span>
+  </div>
+
+  <section class="mission prose">
+    <p>
+      Every case links to primary-source documents: audits, court filings, ethics opinions, and named-byline reporting.
+      Each case is connected to the specific structural reform that would have prevented or surfaced it.
+      The registry is intentionally narrow. Other Washington cities are out of scope for now and may be added in later
+      phases. We do not publish anonymous tips, partisan commentary, or rumor.
+    </p>
+  </section>
+
+  <section class="mt-8 prose">
+    <div class="narrative-head">
+      <span class="kicker">About this project</span>
+      <h2>A reference, not a publication.</h2>
+    </div>
+    <p>
+      The registry is maintained as a public-record reference, not a news outlet. See
+      <a href="/methodology">Methodology</a> for how cases enter, get updated, or get retracted, and
+      <a href="/about">About</a> for editorial policy and disclosures.
+    </p>
+  </section>
+
+  <section class="bookend" aria-label="Closing">
+    <div class="bookend-inner">
+      <div>
+        <div class="bookend-eyebrow">Why this exists</div>
+        <p class="bookend-quote">One case is a story. Forty is a <em>pattern</em>.</p>
+      </div>
+      <div>
+        <p class="bookend-body">
+          Washington produces a steady stream of audits, indictments, and ethics rulings. They scroll past in the news and disappear. The registry keeps the receipts in one place, connected to the reforms that would have stopped them.
+        </p>
+        <div class="bookend-actions">
+          <a href="/cases">Browse all {allCases.length} cases →</a>
+          <a href="/reforms">See the reforms →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

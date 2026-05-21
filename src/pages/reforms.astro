@@ -1,0 +1,297 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { humanizeReform, STATUS_LABELS } from '../lib/format';
+
+const allCases = await getCollection('cases');
+
+// Build a map: reform slug -> [{ case }]
+const map = new Map<string, typeof allCases>();
+for (const c of allCases) {
+  for (const r of c.data.reforms_implicated) {
+    if (!map.has(r)) map.set(r, [] as any);
+    (map.get(r) as any).push(c);
+  }
+}
+
+// Plain-English titles for the recurring reforms. The slug names are
+// policy-shorthand; these are written so a normal reader can scan the page.
+const plainTitles: Record<string, string> = {
+  leb_transparency: 'Make legislative ethics decisions searchable.',
+  ethics_enforcement_teeth: 'Put real consequences behind ethics findings.',
+  independent_inspector_general: "Stand up a King County Inspector General that doesn't report to the people it audits.",
+  procurement_reform: 'Tighten conflict-of-interest rules on public contracts.',
+  subrecipient_monitoring: 'Actually audit the nonprofits that spend public money.',
+  cost_transparency_reporting: 'Make agencies show their cost math, every time.',
+  public_resources_firewall: 'Keep public staff and channels out of campaign work.',
+  transit_governance_reform: "Fix the conflicts baked into Sound Transit's board structure.",
+  appointment_accountability: 'Put deadlines and consequences on public appointments.',
+  campaign_finance_reform: 'Close campaign finance gray zones before complaints, not after.',
+  executive_accountability: 'Make executives publish what happened when senior staff leave under a cloud.',
+  federal_grant_compliance: 'Force districts to actually close recurring federal audit findings.',
+  it_project_oversight: 'Stop letting public IT projects double in cost without independent review.',
+  mandatory_reporting_enforcement: "Track every mandatory report from receipt to resolution.",
+  pdc_enforcement: 'Tighten Public Disclosure Commission enforcement and vacancy backstops.',
+  personnel_oversight: 'Route senior-official misconduct complaints to outside investigators.',
+  program_outcome_auditing: 'Audit whether big programs delivered, not just whether dollars were spent in compliance.',
+};
+
+// One-sentence TL;DR for each major reform, written for a non-policy reader.
+const tldrs: Record<string, string> = {
+  leb_transparency:
+    "You can't compare ethics rulings against legislators today without a law degree and a free weekend.",
+  ethics_enforcement_teeth:
+    "A 'documented violation' that ends in a polite letter is not a consequence; that's the current default.",
+  independent_inspector_general:
+    'King County is one of the few large counties in the country without one. Oversight currently runs through the same chain of command that approved the spending.',
+  procurement_reform:
+    'Big public contracts are still written and awarded with weak conflict checks and limited competition.',
+  subrecipient_monitoring:
+    'Public agencies are supposed to audit a defined slice of nonprofit spending each year. Several cases here show that slice was not met.',
+  cost_transparency_reporting:
+    'Agencies quietly switch between ballot dollars, current dollars, and year-of-expenditure dollars, so cost growth gets blurred.',
+  public_resources_firewall:
+    "Using public staff and official accounts for campaign work is policed one complaint at a time, after the fact.",
+  transit_governance_reform:
+    "The Sound Transit board hires the CEO, and some board members are themselves eligible. The recent CEO selection made the conflict exposure public.",
+  appointment_accountability:
+    "Statutory deadlines for filling public positions get missed; conflict screening for appointees happens after complaints, not before.",
+  campaign_finance_reform:
+    "The PDC keeps writing new rules after each high-profile complaint gets dismissed on a technicality. The pattern is regulation by case, not in advance.",
+  executive_accountability:
+    'When a senior appointee leaves under misconduct circumstances, the public typically gets a press release, not a record of what was investigated or referred.',
+  federal_grant_compliance:
+    'Seattle Public Schools has recurring federal audit findings that have been open across multiple cycles without being closed.',
+  it_project_oversight:
+    "Big public IT modernizations balloon for years without independent technical review; L&I's IT system at $292M to finish and West Seattle Link at $5.3B are recent examples.",
+  mandatory_reporting_enforcement:
+    "When school staff fail to report misconduct against students, the consequences are inconsistent. Mandatory reporting law exists; tracking and enforcement don't.",
+  pdc_enforcement:
+    "The Public Disclosure Commission has both a posture problem (dismissals on close calls) and a capacity problem (statutory commissioner vacancies missed).",
+  personnel_oversight:
+    'Senior misconduct typically surfaces through outside investigation or media reporting, not internal HR. By then it has usually continued for a while.',
+  program_outcome_auditing:
+    "Capital and benefits programs get audited on whether dollars were spent in compliance, not on whether the program actually delivered. A $297.8M housing program building units at $273-286K each illustrates the gap.",
+};
+
+// Who actually has the power to make this happen. Kept short — these render as chips.
+const whoActs: Record<string, string[]> = {
+  leb_transparency: ['Legislative Ethics Board', 'WA Legislature'],
+  ethics_enforcement_teeth: ['WA Legislature', 'Ethics boards'],
+  independent_inspector_general: ['KC Council', 'County Executive'],
+  procurement_reform: ['Agency leadership', 'Councils/Legislature'],
+  subrecipient_monitoring: ['Agency directors', 'State Auditor'],
+  cost_transparency_reporting: ['WA Legislature', 'Agency boards'],
+  public_resources_firewall: ['Ethics boards', 'Agency leadership'],
+  transit_governance_reform: ['Sound Transit board', 'WA Legislature'],
+  appointment_accountability: ['WA Legislature', 'Appointing authorities'],
+  campaign_finance_reform: ['PDC', 'WA Legislature'],
+  executive_accountability: ['Councils', 'Executive offices'],
+  federal_grant_compliance: ['SPS Board', 'State Auditor'],
+  it_project_oversight: ['WA Legislature', 'Agency boards'],
+  mandatory_reporting_enforcement: ['OSPI', 'Districts', 'WA Legislature'],
+  pdc_enforcement: ['WA Legislature', 'PDC'],
+  personnel_oversight: ['Executives', 'Councils'],
+  program_outcome_auditing: ['State Auditor', 'Legislative bodies'],
+};
+
+// One-paragraph briefs for the reforms that show up across multiple cases.
+// These are the long-form explainers; the TL;DR above is the layman version.
+const briefs: Record<string, string> = {
+  leb_transparency:
+    'The Legislative Ethics Board (LEB) publishes its advisory opinions and complaint dispositions in a format that is hard to search and harder to compare across cases. Multiple cases in this registry rely on LEB opinions to establish conduct; readers should not have to reconstruct that record case-by-case. Reform here means a searchable public index of LEB opinions, machine-readable formats, and consistent metadata across opinions. The Board itself can act on this; the legislature can require it.',
+  independent_inspector_general:
+    'King County has no independent Inspector General. Oversight of county agencies currently runs back up the same chain of command that approved the spending under review. An independent IG with subpoena power and a separate reporting line to the County Council, not the County Executive, would let auditors follow a finding wherever it leads. The Council and Executive can stand one up by ordinance and charter amendment; a current proposal sits in the registry as KC-2026-007.',
+  ethics_enforcement_teeth:
+    'Several cases involve findings by ethics bodies that carry no meaningful consequence beyond the finding itself. A documented violation that ends in a private letter does not deter the next one. Reform here is graduated, predictable enforcement: civil penalties indexed to office, mandatory public reporting of repeat findings, and clear referral paths for criminal conduct. State legislature and the boards themselves can act on this.',
+  subrecipient_monitoring:
+    'Multiple registry cases involve public money flowing from a state or county agency to a nonprofit subrecipient that then spent the funds with limited oversight. State and county audit standards require a defined percentage of subrecipient spending to be reviewed each year. The registry shows multiple cases where that percentage was not met. The fix is enforcement: tying agency director performance to subrecipient-monitoring rates and publishing those rates in budget documents.',
+  procurement_reform:
+    'Several cases trace back to large public contracts written and approved with weak conflict-of-interest checks, limited competitive bidding, or no post-award performance review. Procurement reform here means tighter conflict declarations for contract awarders, mandatory competitive thresholds, and standing post-award audits for contracts above a defined dollar level. Most procurement rules sit in agency policy and county or city code, where the legislative bodies that wrote them can change them.',
+  public_resources_firewall:
+    'A recurring pattern in LEB cases is the use of public staff time, public communications channels, or public facilities for what amounts to private or campaign work. The line between official communication and campaign communication is currently enforced after-the-fact, one complaint at a time. Reform here is preventive: clearer training, automatic logging of public-account use, and standing audit of constituent-communication tools during campaign cycles.',
+  cost_transparency_reporting:
+    'Capital projects and large agency programs in the registry routinely report cost figures against different baselines: ballot dollars, year-of-expenditure dollars, current-year dollars, sometimes silently switching between them. The public cannot meaningfully compare year over year. Reform here is a standing requirement that any agency publishing capital or program costs publish the baseline and dollar-year alongside the figure, every time. The legislature and the relevant boards can require it.',
+  transit_governance_reform:
+    'Sound Transit and other multi-jurisdiction transit bodies in the registry have governance structures where elected officials sit on the board, the board hires the CEO, and individual board members may themselves be eligible for the CEO role. The cases here document the conflict-of-interest exposure that structure creates. Reform proposals range from clearer recusal rules for board members in CEO selection, to longer cooling-off periods, to restructuring the appointment chain. These changes sit with the boards themselves and with the legislative authorities that empower them.',
+  program_outcome_auditing:
+    'Several capital and benefits programs in the registry pass financial audit but never get audited on whether they actually delivered what was promised. A $297.8M housing program that builds units at $273K-$286K each, or a child care payment system flagged with $37M in questioned payments, can sail through year after year because the auditor is checking whether dollars were spent in compliance, not whether outcomes hit the published targets. Reform here is mandating performance auditing for large programs alongside financial auditing, with published baselines, and a standing requirement that the audit body report when outcomes drift. The State Auditor and the relevant legislative bodies can require it.',
+  campaign_finance_reform:
+    'Multiple cases in the registry involve campaign finance complaints that ended in dismissal not because the conduct was clearly fine, but because the underlying rules were ambiguous, narrowly drawn, or written before the conduct was contemplated. After at least one such dismissal, the PDC then amended the rule. The pattern is the regulator catching up by case. Reform here means proactive rulemaking on predictable gray zones such as surplus-fund transfers, official social media accounts, and incumbent communications during campaign cycles, rather than amending one rule at a time after each dismissed complaint. The Public Disclosure Commission and the legislature can act.',
+  pdc_enforcement:
+    'The Public Disclosure Commission is the front-line enforcer of Washington campaign finance and disclosure law, and the registry contains cases that test both its enforcement posture (complaints dismissed on close calls) and its institutional capacity (statutory deadlines missed on commissioner vacancies). Reform here is twofold: clearer standards and disclosure when the PDC dismisses on threshold grounds rather than the merits, and an enforceable backstop when the appointing authority fails to fill statutory vacancies on time. The legislature can tighten both; the PDC itself can publish dismissal rationales more consistently.',
+  personnel_oversight:
+    'Senior personnel cases in the registry surfaced through outside investigation or media reporting rather than through routine internal HR controls. By the time misconduct reaches that level, the conduct has typically continued for some time. Reform here is structural: independent intake channels for complaints against senior officials, mandatory routing of such complaints to outside investigators, and clear public reporting when senior personnel separations follow misconduct findings. City and county executives can establish the protocols; councils can require them.',
+  executive_accountability:
+    'When misconduct involves senior officials reporting directly to an elected executive, the lines between investigation, discipline, and political damage control blur. Cases in the registry show executives announcing personnel changes without a public record of who investigated, what was found, and which findings were referred onward. Reform here is procedural transparency: when a senior appointee separates under misconduct circumstances, the executive office publishes the investigative findings, the referral disposition, and the reform actions taken, on a defined timeline. Councils can require it by ordinance.',
+  mandatory_reporting_enforcement:
+    'School district cases in the registry trace back to staff who knew or should have known about misconduct against students and either did not report or reported late. Mandatory reporting laws already exist; the gap is enforcement and tracking. Reform here is a documented chain of custody for every mandatory report from receipt through resolution, public reporting of districts where reports stall, and clear personnel consequences when reporting duties are not met. The State Superintendent of Public Instruction and the legislature can act; districts themselves can adopt stronger internal protocols.',
+  appointment_accountability:
+    'Several cases involve appointments to public bodies that are either contested on conflict-of-interest grounds, or never made on time. Both failures share a common feature: the appointing authority operates without an enforceable performance standard. Reform here is straightforward in concept and difficult in practice: defined timelines with consequences for missed appointments, conflict screening done before appointments rather than after complaints, and a transparent register of pending appointments, deadlines, and dispositions. The legislature can codify the standards.',
+  it_project_oversight:
+    'Large public IT modernization projects in the registry show a recurring pattern: budgets that escalate over years, schedules that slip without consequence, and oversight bodies that lack the technical capacity to challenge agency estimates. A workers compensation system at $31M spent over a decade with $292M now estimated to finish, and a transit project tracking from $2.7B at ballot to $5.3B in current dollars, are not isolated mismanagement; they are the structural result of weak IT project governance. Reform here is mandatory independent technical review at defined cost or schedule thresholds, published cost-to-complete estimates updated quarterly, and stop-or-restructure decision points tied to those estimates. The legislature and individual boards can require it.',
+  federal_grant_compliance:
+    'Several Seattle Public Schools cases involve federal grant programs where audit findings were issued, the district did not correct, and the findings then recurred in subsequent audit cycles. The federal dollars at issue are small relative to the district budget, but the pattern signals a compliance system that does not close findings. Reform here is an internal corrective-action tracking system that ties each open federal finding to a responsible owner, a closure deadline, and board-level reporting until closed. The district board can require it; the State Auditor can publish district-level recurrence rates.',
+};
+
+const reformsAll = Array.from(map.keys())
+  .map((slug) => ({
+    slug,
+    name: humanizeReform(slug),
+    plainTitle: plainTitles[slug] ?? null,
+    tldr: tldrs[slug] ?? null,
+    whoActs: whoActs[slug] ?? [],
+    brief: briefs[slug] ?? null,
+    cases: (map.get(slug) as any[]).sort(
+      (a, b) => b.data.date_surfaced.getTime() - a.data.date_surfaced.getTime()
+    ),
+  }))
+  .sort((a, b) => {
+    if (!!a.brief !== !!b.brief) return a.brief ? -1 : 1;
+    if (a.cases.length !== b.cases.length) return b.cases.length - a.cases.length;
+    return a.name.localeCompare(b.name);
+  });
+
+// Split: substantive (briefed) reforms get the full treatment; single-tag
+// long-tail reforms get collapsed into one section at the bottom.
+const featuredReforms = reformsAll.filter((r) => r.brief);
+const longTailReforms = reformsAll.filter((r) => !r.brief)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Bar chart: clip to top 8.
+const chartAll = [...reformsAll].sort((a, b) => b.cases.length - a.cases.length);
+const chartReforms = chartAll.slice(0, 8);
+const chartLongTailCount = chartAll.length - chartReforms.length;
+const chartLongTailCases = chartAll.slice(chartReforms.length).reduce((s, r) => s + r.cases.length, 0);
+const maxCount = Math.max(1, ...chartReforms.map((r) => r.cases.length));
+const multiCaseReforms = chartAll.filter((r) => r.cases.length >= 2).length;
+const topReformName = plainTitles[chartReforms[0]?.slug ?? ''] ?? chartReforms[0]?.name ?? '';
+---
+<Base title="Reforms">
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">Reforms</div>
+      <h1>The reforms aren't new. Here's where to <em>push</em>.</h1>
+      <p class="page-hero-lede">
+        Every case in this registry is tagged with the structural reforms it points to. Most aren't novel. They're recommendations that ethics boards, auditors, and oversight bodies have made before, then watched go unimplemented while the next case showed up.
+      </p>
+      <div class="page-hero-stats">
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">{featuredReforms.length}</span>
+          <span class="page-hero-stat-label">Recurring reforms with briefs</span>
+        </div>
+        <div class="page-hero-stat">
+          <span class="page-hero-stat-num">{reformsAll.length}</span>
+          <span class="page-hero-stat-label">Distinct reforms tagged total</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="chart-top">
+    <div class="narrative-head">
+      <span class="kicker">At a glance</span>
+      <h2>The same gaps keep producing different scandals.</h2>
+      <p class="dek">The top reform shows up in <strong>{chartReforms[0]?.cases.length ?? 0} of {allCases.length}</strong> cases. Different officials, different agencies, same missing guardrail.</p>
+    </div>
+
+    <div class="reform-chart">
+      <div class="reform-chart-title">Top 8 reforms by case count · {allCases.length}-case dataset</div>
+      {chartReforms.map((r) => {
+        const pct = (r.cases.length / maxCount) * 100;
+        return (
+          <a class="reform-bar-row" href={`#${r.slug}`}>
+            <span class="reform-bar-label">{r.name}</span>
+            <div class="reform-bar-track" aria-hidden="true">
+              <div class="reform-bar-fill" style={`width: ${pct}%`}></div>
+            </div>
+            <span class="reform-bar-count">{r.cases.length}</span>
+          </a>
+        );
+      })}
+      {chartLongTailCount > 0 && (
+        <p class="reform-chart-note">
+          Plus a long tail of {chartLongTailCount} more single-case reforms covering {chartLongTailCases} tags. <a href="#long-tail">Jump to the list ↓</a>
+        </p>
+      )}
+    </div>
+  </section>
+
+  <section class="prose">
+    <p>
+      The reforms below are listed by how many registry cases implicate each one. Each entry has a one-sentence summary, a tag showing who has the power to make it happen, and a longer brief for readers who want the policy detail. Single-case reforms are collected at the bottom of the page; the cases themselves carry the reform argument in their own &ldquo;Why this is in the registry&rdquo; sections.
+    </p>
+  </section>
+
+  {reformsAll.length === 0 && (
+    <p class="muted">No reforms have been tagged on any case yet.</p>
+  )}
+
+  {featuredReforms.map((r) => (
+    <section id={r.slug} class="reform-section mt-8">
+      <div class="section-head">
+        <h2>
+          {r.plainTitle ?? r.name}
+        </h2>
+        <span class="section-head-meta">
+          <span class="sans small muted">{r.cases.length} case{r.cases.length === 1 ? '' : 's'}</span>
+          <a class="back-to-chart" href="#chart-top">↑ Back to chart</a>
+        </span>
+      </div>
+      <div class="reform-sub">
+        <span class="reform-slugname">{r.name}</span>
+        {r.whoActs.length > 0 && (
+          <span class="reform-who">
+            <span class="reform-who-label">Who can act:</span>
+            {r.whoActs.map((w) => <span class="reform-chip">{w}</span>)}
+          </span>
+        )}
+      </div>
+      {r.tldr && <p class="reform-tldr">{r.tldr}</p>}
+      <details class="reform-brief-details">
+        <summary>Full brief</summary>
+        <p class="prose">{r.brief}</p>
+      </details>
+      <ul class="recent-list">
+        {r.cases.map((c: any) => (
+          <li>
+            <span class="recent-date">{c.data.date_surfaced.toISOString().slice(0, 10)}</span>
+            <span class="recent-title">
+              <a href={`/cases/${c.slug}`}>{c.data.title}</a>
+            </span>
+            <span class={`badge badge-${c.data.evidentiary_status}`}>{STATUS_LABELS[c.data.evidentiary_status]}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+
+  {longTailReforms.length > 0 && (
+    <section id="long-tail" class="reform-section mt-8">
+      <div class="section-head">
+        <h2>Single-case reforms</h2>
+        <span class="section-head-meta">
+          <span class="sans small muted">{longTailReforms.length} reforms · 1 case each</span>
+          <a class="back-to-chart" href="#chart-top">↑ Back to chart</a>
+        </span>
+      </div>
+      <p class="prose">
+        These reforms have only one case in the registry pointing to them today. They're listed here so the case-to-reform mapping stays complete, but they don't yet show the recurring pattern that warrants a standalone brief. Click through to read the case for context.
+      </p>
+      <ul class="longtail-list">
+        {longTailReforms.map((r) => {
+          const c: any = r.cases[0];
+          return (
+            <li class="longtail-row">
+              <span class="longtail-name">{r.name}</span>
+              <span class="longtail-case">
+                <a href={`/cases/${c.slug}`}>{c.data.title}</a>
+              </span>
+              <span class={`badge badge-${c.data.evidentiary_status} longtail-badge`}>{STATUS_LABELS[c.data.evidentiary_status]}</span>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
+</Base>
