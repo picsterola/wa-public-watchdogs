@@ -7,8 +7,8 @@
     "dev": "astro dev",
     "featured": "node scripts/compute-featured.mjs",
     "featured:dry": "node scripts/compute-featured.mjs --dry-run",
-    "build": "node scripts/compute-featured.mjs && node scripts/download-officials.mjs && node scripts/generate-og-images.mjs && astro build && node scripts/relativize.mjs",
-    "og": "node scripts/generate-og-images.mjs",
+    "build": "node scripts/compute-featured.mjs && node scripts/download-officials.mjs && node scripts/bake-og-bg.mjs && node scripts/generate-og-images.mjs && astro build && node scripts/relativize.mjs",
+    "og": "node scripts/bake-og-bg.mjs && node scripts/generate-og-images.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "officials": "node scripts/download-officials.mjs"

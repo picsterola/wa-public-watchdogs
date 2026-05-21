@@ -14,8 +14,12 @@ const ROOT = dirname(dirname(fileURLToPath(import.meta.url))); // wa-registry/
 const CASES_DIR = join(ROOT, 'src', 'content', 'cases');
 const OUT_DIR = join(ROOT, 'public', 'og');
 const FM = join(ROOT, 'node_modules', '@fontsource');
+const BG_PATH = join(ROOT, 'public', 'img', 'og-bg.jpg');
 
 if (!existsSync(OUT_DIR)) mkdirSync(OUT_DIR, { recursive: true });
+
+// Load baked background (documents photo + scrim) as a data URL satori can use.
+const BG_DATA_URL = `data:image/jpeg;base64,${readFileSync(BG_PATH).toString('base64')}`;
 
 // Load fonts as Buffers
 const FONTS = [
@@ -149,8 +153,8 @@ function headlineBlock(head, fontSize, accentWord) {
   };
 }
 
-// Card builder - minimal. Three zones: wordmark, dollar+headline, url.
-function buildCard({ dollars, head }) {
+// Card builder. Documents photo background + scrim, three text zones.
+function buildCard({ dollars, head, italicAccent }) {
   // Truncate headline aggressively. If it's long, take first ~60 chars
   // and cut at the nearest word boundary.
   let trimmedHead = head;
@@ -159,6 +163,8 @@ function buildCard({ dollars, head }) {
     const sp = cut.lastIndexOf(' ');
     trimmedHead = (sp > 50 ? cut.slice(0, sp) : cut) + '…';
   }
+  // Optional italic terracotta accent on a separate line below the headline.
+  // Used on the homepage to echo the site h1 pattern.
   return {
     type: 'div',
     props: {
@@ -166,7 +172,10 @@ function buildCard({ dollars, head }) {
         display: 'flex',
         width: '1200px',
         height: '630px',
-        background: NIGHT,
+        backgroundColor: NIGHT,
+        backgroundImage: `url("${BG_DATA_URL}")`,
+        backgroundSize: '1200px 630px',
+        backgroundRepeat: 'no-repeat',
         color: CREAM,
         fontFamily: 'SourceSerif4',
       },
@@ -240,14 +249,30 @@ function buildCard({ dollars, head }) {
                       props: {
                         style: {
                           display: 'flex',
-                          fontSize: dollars ? '44px' : '64px',
+                          fontSize: dollars ? '44px' : '60px',
                           fontWeight: 700,
                           color: CREAM,
                           lineHeight: 1.15,
                           letterSpacing: '-0.01em',
-                          maxWidth: '1000px',
+                          maxWidth: dollars ? '720px' : '780px',
                         },
                         children: trimmedHead,
+                      },
+                    },
+                    italicAccent && {
+                      type: 'div',
+                      props: {
+                        style: {
+                          display: 'flex',
+                          fontSize: '60px',
+                          fontWeight: 400,
+                          fontStyle: 'italic',
+                          color: TERRACOTTA,
+                          lineHeight: 1.15,
+                          letterSpacing: '-0.01em',
+                          maxWidth: '780px',
+                        },
+                        children: italicAccent,
                       },
                     },
                   ].filter(Boolean),
@@ -330,7 +355,8 @@ async function main() {
   // Homepage card
   const home = buildCard({
     dollars: null,
-    head: 'Every open accountability case across WA state, county, and city government.',
+    head: "Watchdogs are only as good as the public's",
+    italicAccent: 'attention span.',
   });
   await renderToPng(home, join(OUT_DIR, 'home.png'));
 
