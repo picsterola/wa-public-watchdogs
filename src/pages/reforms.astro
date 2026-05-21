@@ -252,17 +252,23 @@ const topReformName = plainTitles[chartReforms[0]?.slug ?? ''] ?? chartReforms[0
         <summary>Full brief</summary>
         <p class="prose">{r.brief}</p>
       </details>
-      <ul class="recent-list">
-        {r.cases.map((c: any) => (
-          <li>
-            <span class="recent-date">{c.data.date_surfaced.toISOString().slice(0, 10)}</span>
-            <span class="recent-title">
-              <a href={`/cases/${c.slug}`}>{c.data.title}</a>
-            </span>
-            <span class={`badge badge-${c.data.evidentiary_status}`}>{STATUS_LABELS[c.data.evidentiary_status]}</span>
-          </li>
-        ))}
-      </ul>
+      <details class="reform-cases-details">
+        <summary>
+          <span class="reform-cases-summary-label">Cases pointing here</span>
+          <span class="reform-cases-summary-count">{r.cases.length}</span>
+        </summary>
+        <ul class="recent-list">
+          {r.cases.map((c: any) => (
+            <li>
+              <span class="recent-date">{c.data.date_surfaced.toISOString().slice(0, 10)}</span>
+              <span class="recent-title">
+                <a href={`/cases/${c.slug}`}>{c.data.title}</a>
+              </span>
+              <span class={`badge badge-${c.data.evidentiary_status}`}>{STATUS_LABELS[c.data.evidentiary_status]}</span>
+            </li>
+          ))}
+        </ul>
+      </details>
     </section>
   ))}
 

@@ -1951,6 +1951,56 @@ select.filter-select, input.filter-input {
   color: var(--ink-muted);
   max-width: 72ch;
 }
+.reform-cases-details {
+  margin: var(--space-3) 0 var(--space-4);
+  font-family: var(--font-sans);
+  border-top: 1px dashed var(--rule);
+  padding-top: var(--space-2);
+}
+.reform-cases-details > summary {
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  padding: var(--space-2) 0;
+  list-style: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.reform-cases-details > summary::-webkit-details-marker { display: none; }
+.reform-cases-details > summary::before {
+  content: '+';
+  color: var(--accent);
+  font-weight: 700;
+  display: inline-block;
+  width: 1ch;
+}
+.reform-cases-details[open] > summary::before { content: '−'; }
+.reform-cases-details > summary:hover { color: var(--accent); }
+.reform-cases-summary-count {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 0 0.5em;
+  background: var(--rule);
+  color: var(--ink);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  font-weight: 700;
+}
+.reform-cases-details[open] .reform-cases-summary-count {
+  background: var(--accent);
+  color: var(--cream);
+}
+.reform-cases-details > .recent-list {
+  margin-top: var(--space-2);
+}
 .longtail-list {
   list-style: none;
   padding: 0;
