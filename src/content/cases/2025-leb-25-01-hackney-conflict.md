@@ -41,7 +41,7 @@ sources:
     title: "Legislative Ethics Board — Case 25-01: Conflict of Interest"
     publisher: Washington State Legislative Ethics Board
     date: 2025-03-04
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-01/
     archive_url: null
 
 # === REFORM LINKAGE ===

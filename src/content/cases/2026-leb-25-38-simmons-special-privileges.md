@@ -41,7 +41,7 @@ sources:
     title: "Legislative Ethics Board — Case 25-38: Special Privileges and Lack of Subject Matter Jurisdiction"
     publisher: Washington State Legislative Ethics Board
     date: 2026-05-03
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/
     archive_url: null
   - tier: 2
     type: news

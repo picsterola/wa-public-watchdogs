@@ -41,7 +41,7 @@ sources:
     title: "Legislative Ethics Board — Case 25-11: Conflict of Interest with Outside Employment"
     publisher: Washington State Legislative Ethics Board
     date: 2025-05-22
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-11/
     archive_url: null
 
 # === REFORM LINKAGE ===

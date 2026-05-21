@@ -48,7 +48,7 @@ sources:
     title: "Legislative Ethics Board — Case 25-09 docket entry: Campaign and use of public resources for Private Gain"
     publisher: Washington State Legislative Ethics Board
     date: 2025-10-27
-    url: https://leg.wa.gov/legislativeagencies/ethics/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-09/
     archive_url: null   # TODO: archive docket entry and any subsequent opinion
   # TODO: Add the full Board opinion as a Tier 1 source once issued.
 

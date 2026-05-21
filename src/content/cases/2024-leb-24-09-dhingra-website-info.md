@@ -42,7 +42,7 @@ sources:
     title: "Legislative Ethics Board — Case 24-09: Incorrect Information on Legislator's Official Website page"
     publisher: Washington State Legislative Ethics Board
     date: 2024-09-01
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-09/
     archive_url: null
 
 # === REFORM LINKAGE ===

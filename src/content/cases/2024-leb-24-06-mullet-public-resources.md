@@ -42,7 +42,7 @@ sources:
     title: "Legislative Ethics Board — Case 24-06: Use of Public Resources for Campaign purposes"
     publisher: Washington State Legislative Ethics Board
     date: 2024-06-04
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-06/
     archive_url: null
 
 # === REFORM LINKAGE ===

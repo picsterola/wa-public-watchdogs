@@ -42,7 +42,7 @@ sources:
     title: "Legislative Ethics Board — Case 24-10: Altering Website during Election Season"
     publisher: Washington State Legislative Ethics Board
     date: 2024-10-01
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-10/
     archive_url: null
 
 # === REFORM LINKAGE ===

@@ -42,7 +42,7 @@ sources:
     title: "Legislative Ethics Board — Case 25-10: Campaign and use of public resources for Private Gain"
     publisher: Washington State Legislative Ethics Board
     date: 2025-07-07
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
+    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-10/
     archive_url: null
 
 # === REFORM LINKAGE ===
