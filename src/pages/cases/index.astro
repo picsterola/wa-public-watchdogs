@@ -6,6 +6,7 @@ import {
   formatDate,
   SEVERITY_LABELS,
   STATUS_LABELS,
+  STATUS_LABELS_LONG,
   bodySnippet,
   humanizeReform,
   caseGroup,
@@ -306,7 +307,7 @@ const moneyCounts = moneyBuckets.map((b) => ({
             </h3>
             {r.snippet && <p class="case-row-snippet">{r.snippet}</p>}
             <div class="case-row-badges">
-              <span class={`badge badge-${r.status}`}>{STATUS_LABELS[r.status]}</span>
+              <span class={`badge badge-${r.status}`}>{STATUS_LABELS_LONG[r.status] ?? STATUS_LABELS[r.status]}</span>
               {r.severities.map((s) => (
                 <span class="badge badge-severity">{SEVERITY_LABELS[s] ?? s}</span>
               ))}

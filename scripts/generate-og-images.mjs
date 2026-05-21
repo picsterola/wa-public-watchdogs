@@ -154,7 +154,7 @@ function headlineBlock(head, fontSize, accentWord) {
 }
 
 // Card builder. Documents photo background + scrim, three text zones.
-function buildCard({ dollars, head, italicAccent, scopeLine }) {
+function buildCard({ dollars, head, italicAccent, scopeLine, disclaimer }) {
   // Truncate headline aggressively. If it's long, take first ~60 chars
   // and cut at the nearest word boundary.
   let trimmedHead = head;
@@ -194,11 +194,45 @@ function buildCard({ dollars, head, italicAccent, scopeLine }) {
             style: {
               display: 'flex',
               flexDirection: 'column',
-              justifyContent: 'space-between',
               flex: 1,
-              padding: '64px 80px',
             },
             children: [
+              // Top disclaimer stripe (alleged/reported only). Sits at the
+              // very top so screenshots and link previews carry the legal
+              // posture even when cropped.
+              disclaimer && {
+                type: 'div',
+                props: {
+                  style: {
+                    display: 'flex',
+                    width: '100%',
+                    height: '46px',
+                    background: disclaimer.bg,
+                    color: disclaimer.fg,
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontFamily: 'JetBrainsMono',
+                    fontSize: '16px',
+                    letterSpacing: '0.18em',
+                    textTransform: 'uppercase',
+                    fontWeight: 700,
+                    flexShrink: 0,
+                  },
+                  children: disclaimer.text,
+                },
+              },
+              // Padded inner column: wordmark, headline, footer
+              {
+                type: 'div',
+                props: {
+                  style: {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between',
+                    flex: 1,
+                    padding: disclaimer ? '40px 80px 64px' : '64px 80px',
+                  },
+                  children: [
               // Top: ledger mark + wordmark only
               {
                 type: 'div',
@@ -317,12 +351,27 @@ function buildCard({ dollars, head, italicAccent, scopeLine }) {
                   ].filter(Boolean),
                 },
               },
-            ],
+                  ],
+                },
+              },
+            ].filter(Boolean),
           },
         },
       ],
     },
   };
+}
+
+// Map evidentiary status to a top-of-card legal posture stripe.
+// Documented gets no stripe. Reported gets amber. Alleged gets loud oxblood.
+function disclaimerFor(status) {
+  if (status === 'alleged') {
+    return { text: 'Allegation · Not yet adjudicated', bg: ACCENT, fg: CREAM };
+  }
+  if (status === 'reported') {
+    return { text: 'Reported · No government finding yet', bg: '#b8860b', fg: NIGHT };
+  }
+  return null;
 }
 
 // Pick a keyword in a case headline to italicize. We try a short list of
@@ -370,7 +419,7 @@ async function main() {
     const dollars = formatDollars(data.dollars_at_issue);
     const { head, sub } = splitTitle(data.title || '');
 
-    const card = buildCard({ dollars, head });
+    const card = buildCard({ dollars, head, disclaimer: disclaimerFor(data.evidentiary_status) });
 
     await renderToPng(card, join(OUT_DIR, `${slug}.png`));
     count++;

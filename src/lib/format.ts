@@ -15,6 +15,14 @@ export const STATUS_LABELS: Record<string, string> = {
   alleged: 'Alleged',
 };
 
+// Verbose form for cards and snippets where a single word like "Alleged"
+// loses the legal posture. Used in the case index and in the page chrome.
+export const STATUS_LABELS_LONG: Record<string, string> = {
+  documented: 'Documented',
+  reported: 'Reported · no finding yet',
+  alleged: 'Alleged · not adjudicated',
+};
+
 export const LEGAL_STATUS_LABELS: Record<string, string> = {
   no_action: 'No action',
   complaint_filed: 'Complaint filed',

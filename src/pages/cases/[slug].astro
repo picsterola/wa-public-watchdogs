@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import AllegationBanner from '../../components/AllegationBanner.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { formatDate, formatDollars, SEVERITY_LABELS, STATUS_LABELS, LEGAL_STATUS_LABELS, ROLE_LABELS, SOURCE_TYPE_LABELS, humanizeReform, caseGroup, GROUP_SLUG } from '../../lib/format';
+import { formatDate, formatDollars, SEVERITY_LABELS, STATUS_LABELS, STATUS_LABELS_LONG, LEGAL_STATUS_LABELS, ROLE_LABELS, SOURCE_TYPE_LABELS, humanizeReform, caseGroup, GROUP_SLUG } from '../../lib/format';
 import officialsData from '../../data/officials.json';
 
 const OFFICIALS = officialsData.officials as Record<string, { name: string; title: string; photo: string | null; source_url: string | null; license: string | null }>;
@@ -49,11 +50,12 @@ const groupHref = `/cases?group=${encodeURIComponent(group)}#group-${GROUP_SLUG[
 
   <article class="case-detail">
     <div>
+      {!isRetracted && <AllegationBanner status={d.evidentiary_status} />}
       <header class="case-header">
         <div class="case-id">{d.id}</div>
         <h1 class="case-title">{d.title}</h1>
         <div class="case-header-badges">
-          <span class={`badge badge-${d.evidentiary_status}`}>{STATUS_LABELS[d.evidentiary_status]}</span>
+          <span class={`badge badge-${d.evidentiary_status}`}>{STATUS_LABELS_LONG[d.evidentiary_status] ?? STATUS_LABELS[d.evidentiary_status]}</span>
           {d.severity_type.map((s) => (
             <span class="badge badge-severity">{SEVERITY_LABELS[s] ?? s}</span>
           ))}

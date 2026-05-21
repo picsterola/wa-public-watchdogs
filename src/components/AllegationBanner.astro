@@ -1,0 +1,74 @@
+---
+// Top-of-page legal disclosure for non-Documented cases.
+// Renders above the h1 so a casual reader, screenshotter, or social
+// crawler cannot miss the evidentiary posture.
+//
+// Usage:
+//   <AllegationBanner status={d.evidentiary_status} />
+//
+// Only renders for "alleged" (loud, oxblood) and "reported" (quieter, amber).
+// Returns null for "documented" and any retracted case.
+
+interface Props {
+  status: 'documented' | 'reported' | 'alleged' | string;
+}
+const { status } = Astro.props;
+
+const COPY: Record<string, { label: string; body: string; variant: 'alleged' | 'reported' }> = {
+  alleged: {
+    label: 'Allegation · Not yet adjudicated',
+    body: 'A complaint has been filed with a court, board, or oversight body. No finding of wrongdoing has been issued. Conduct described below is alleged unless explicitly noted otherwise.',
+    variant: 'alleged',
+  },
+  reported: {
+    label: 'Reported · No government finding yet',
+    body: 'Established news outlets with named bylines have surfaced this matter. No government body has issued a formal finding. Treat as journalism, not adjudication.',
+    variant: 'reported',
+  },
+};
+const copy = COPY[status];
+---
+{copy && (
+  <aside class={`allegation-banner allegation-banner-${copy.variant}`} role="note" aria-label={copy.label}>
+    <div class="allegation-banner-tag">{copy.label}</div>
+    <p class="allegation-banner-body">{copy.body}</p>
+  </aside>
+)}
+
+<style>
+  .allegation-banner {
+    margin: 1.5rem 0 1.25rem;
+    padding: 1rem 1.25rem;
+    border-radius: 4px;
+    border-left: 6px solid var(--accent);
+    background: rgba(122, 31, 31, 0.08);
+    color: var(--ink);
+  }
+  .allegation-banner-alleged {
+    border-left-color: var(--accent);
+    background: rgba(122, 31, 31, 0.10);
+  }
+  .allegation-banner-reported {
+    border-left-color: #b8860b;
+    background: rgba(184, 134, 11, 0.10);
+  }
+  .allegation-banner-tag {
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+  .allegation-banner-reported .allegation-banner-tag {
+    color: #8a6508;
+  }
+  .allegation-banner-body {
+    margin: 0;
+    font-family: var(--font-body, var(--font-serif, Georgia, serif));
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+</style>
