@@ -1,6 +1,6 @@
 ---
 # === IDENTITY ===
-id: WA-2025-DSHS-HHA-OIG
+id: WA-2024-DSHS-HHA-OIG
 title: "HHS OIG — Washington adult family home oversight; 17 of 20 homes failed health and safety standards; COVID inspection suspension unremediated up to 3 years"
 slug: dshs-hha-adult-family-homes-hhs-oig
 date_surfaced: 2024-11-13

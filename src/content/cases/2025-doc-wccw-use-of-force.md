@@ -51,9 +51,16 @@ sources:
     title: "Use of Force & Restrictive Housing Policy Violations at WCCW"
     publisher: Washington Office of the Corrections Ombuds
     date: 2025-06-09
-    url: https://oco.wa.gov/data-publications-reports/reports/investigative-reports-with-doc-response
+    url: https://oco.wa.gov/sites/default/files/OCO%20Report%20%26%20DOC%20Response%20-%20UOF%20%26%20RH%20Policy%20Violations%20at%20WCCW%209JUNE2025.pdf
     archive_url: null
     quote: "The ombuds found this unnecessary because she posed no threat and other staff were en route to determine if a transfer was necessary."
+  - tier: 1
+    type: agency_statement
+    title: "DOC Response to OCO WCCW Report"
+    publisher: Washington Department of Corrections
+    date: 2025-06-09
+    url: https://oco.wa.gov/sites/default/files/DOC%20Response%20to%20OCO%20WCCW%20Report%20JUNE2025.pdf
+    archive_url: null
   - tier: 2
     type: news
     title: "WA report criticizes women's prison for concerning use of pepper spray"
