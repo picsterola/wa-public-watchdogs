@@ -24,6 +24,7 @@ actors:
 # === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
+  - statutory_noncompliance
   - structural_failure
 reforms_implicated:
   - police_training_enforcement

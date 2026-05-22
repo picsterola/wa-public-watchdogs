@@ -18,9 +18,9 @@ actors:
     jurisdiction: Washington State
 
 # === CLASSIFICATION ===
-evidentiary_status: documented
+evidentiary_status: adjudicated
 severity_type:
-  - structural_failure
+  - civil_rights_harm
 reforms_implicated:
   - behavioral_health_capacity
   - independent_inspector_general

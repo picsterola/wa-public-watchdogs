@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 
-const evidentiaryStatus = z.enum(['documented', 'reported', 'alleged']);
+const evidentiaryStatus = z.enum(['adjudicated', 'documented', 'reported', 'alleged']);
 
 const roleType = z.enum([
   'elected',
@@ -20,6 +20,9 @@ const severityType = z.enum([
   'rule_gaming',
   'special_privileges',
   'misuse_public_resources',
+  'civil_rights_harm',
+  'statutory_noncompliance',
+  'aggregate_liability_pattern',
 ]);
 
 const reformsImplicated = z.string(); // open-ended reform slug
@@ -43,9 +46,12 @@ const sourceType = z.enum([
   'indictment',
   'leb_opinion',
   'sao_report',
+  'jlarc_report',
   'pdc_filing',
   'ig_report',
   'ombudsman_report',
+  'settlement_document',
+  'federal_oversight_report',
   'news',
   'agency_statement',
   'foia_response',

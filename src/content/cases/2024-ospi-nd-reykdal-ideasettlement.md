@@ -23,9 +23,10 @@ actors:
     jurisdiction: Washington State
 
 # === CLASSIFICATION ===
-evidentiary_status: documented
+evidentiary_status: adjudicated
 severity_type:
-  - structural_failure
+  - civil_rights_harm
+  - statutory_noncompliance
 reforms_implicated:
   - special_education_compliance
   - statutory_compliance_monitoring
@@ -42,7 +43,7 @@ outcome_summary: "Federal District Court for the Western District of Washington 
 # === SOURCES ===
 sources:
   - tier: 1
-    type: court_filing
+    type: settlement_document
     title: "N.D., et al., v. Reykdal — Order Granting Preliminary Approval of Class Action Settlement"
     publisher: U.S. District Court, Western District of Washington (Judge Lauren King)
     date: 2024-11-22

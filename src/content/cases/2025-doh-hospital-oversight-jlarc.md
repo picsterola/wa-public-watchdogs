@@ -20,6 +20,7 @@ actors:
 evidentiary_status: documented
 severity_type:
   - structural_failure
+  - statutory_noncompliance
 reforms_implicated:
   - regulatory_capacity
   - patient_safety_oversight
@@ -36,21 +37,21 @@ outcome_summary: "JLARC's July 2025 final report (25-06) found DOH systemically 
 # === SOURCES ===
 sources:
   - tier: 1
-    type: audit
+    type: jlarc_report
     title: "Oversight of Hospital Data Reporting, Inspections, and Complaints (25-06 Final Report)"
     publisher: Joint Legislative Audit & Review Committee
     date: 2025-07-16
     url: https://leg.wa.gov/jlarc/reports/2025/Hospital/f_iii/default.html
     archive_url: null
   - tier: 1
-    type: audit
+    type: jlarc_report
     title: "Oversight of Hospital Data Reporting, Inspections, and Complaints — Executive Summary PDF"
     publisher: Joint Legislative Audit & Review Committee
     date: 2025-07-16
     url: https://leg.wa.gov/JLARC/reports/2025/Hospital/f_iii/printExec.pdf
     archive_url: null
   - tier: 1
-    type: audit
+    type: jlarc_report
     title: "Oversight of Hospital Data Reporting, Inspections, and Complaints — Published Audit Landing Page"
     publisher: Joint Legislative Audit & Review Committee
     date: 2025-07-16

@@ -18,8 +18,9 @@ actors:
     jurisdiction: Washington State
 
 # === CLASSIFICATION ===
-evidentiary_status: documented
+evidentiary_status: adjudicated
 severity_type:
+  - civil_rights_harm
   - structural_failure
 reforms_implicated:
   - facility_conditions_oversight

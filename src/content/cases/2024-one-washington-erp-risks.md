@@ -3,10 +3,10 @@
 id: WA-2024-ONE-WASHINGTON
 title: "One Washington ERP — SAO finds $465M+ statewide financial system project lacks contingency plan, schedule risks ahead of July 2025 launch"
 slug: one-washington-erp-risks
-date_surfaced: 2024-08-01
+date_surfaced: 2024-08-20
 date_conduct_start: 2018-01-01
-last_updated: 2024-08-22
-last_verified: 2024-08-22
+last_updated: 2026-05-21
+last_verified: 2026-05-21
 
 # === ACTORS ===
 actors:
@@ -42,10 +42,10 @@ outcome_summary: "SAO performance audit published August 2024 found the One Wash
 sources:
   - tier: 1
     type: sao_report
-    title: "One Washington: Opportunities to Strengthen Plans for Producing Reliable Financial Statements (Performance Audit)"
+    title: "One Washington: Opportunities to strengthen plans for producing reliable financial statements (Performance Audit, ARN 1035323)"
     publisher: Office of the Washington State Auditor
-    date: 2024-08-01
-    url: https://portal.sao.wa.gov/ReportSearch/
+    date: 2024-08-20
+    url: https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1035323&isFinding=false&sp=false
     archive_url: null
   - tier: 2
     type: news

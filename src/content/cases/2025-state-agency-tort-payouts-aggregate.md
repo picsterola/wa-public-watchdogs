@@ -35,7 +35,7 @@ actors:
 # === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
-  - structural_failure
+  - aggregate_liability_pattern
 reforms_implicated:
   - independent_inspector_general
   - agency_liability_disclosure
