@@ -46,7 +46,7 @@ for (const f of files) {
     review_status: data.review_status || '',
     contributor: data.contributor || '',
     tags,
-    url: `https://picsterola.github.io/wa-public-watchdogs/cases/${data.slug || f.replace(/\.md$/, '')}/`,
+    url: `https://wacountability.org/cases/${data.slug || f.replace(/\.md$/, '')}/`,
   });
 }
 

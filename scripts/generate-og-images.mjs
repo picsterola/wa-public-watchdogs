@@ -345,7 +345,7 @@ function buildCard({ dollars, head, italicAccent, scopeLine, disclaimer }) {
                           color: MUTED,
                           fontWeight: 600,
                         },
-                        children: 'picsterola.github.io/wa-public-watchdogs',
+                        children: 'wacountability.org',
                       },
                     },
                   ].filter(Boolean),

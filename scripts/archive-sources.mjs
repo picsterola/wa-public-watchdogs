@@ -49,9 +49,12 @@ async function submitToWayback(url) {
       redirect: 'manual',
       headers: { 'User-Agent': 'wa-public-watchdogs-archiver/1.0' },
     });
-    // SPN returns 302 -> /web/<timestamp>/<url>. Capture the Location.
+    // SPN returns 302 with a Location header. In current Wayback behavior the
+    // Location can be either relative (`/web/<ts>/<url>`) or absolute
+    // (`https://web.archive.org/web/<ts>/<url>`). Handle both.
     const loc = res.headers.get('location');
     if (loc && loc.includes('/web/')) {
+      if (loc.startsWith('http://') || loc.startsWith('https://')) return loc;
       return 'https://web.archive.org' + (loc.startsWith('/') ? loc : '/' + loc);
     }
     // Fallback: query the availability API for the latest snapshot.
