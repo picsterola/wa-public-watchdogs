@@ -15,7 +15,11 @@ import Base from '../layouts/Base.astro';
   <section class="prose" id="submit">
     <h2>Request a correction or right of response</h2>
     <p>If you are named in a case, or you see something the registry got wrong, use this form. A human reads every submission and replies within five business days. Substantive changes are logged below with the date and the source that prompted them.</p>
-    <form class="corrections-form" action="https://formspree.io/f/REPLACE_ME" method="POST">
+    <form class="corrections-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="REPLACE_ME" />
+      <input type="hidden" name="subject" value="Correction request — wacountability.org" />
+      <input type="hidden" name="from_name" value="WA Accountability Registry — corrections form" />
+      <input type="hidden" name="redirect" value="https://wacountability.org/corrections/thanks" />
       <div class="corrections-form-row">
         <label for="cf-name">Your name <span class="corrections-form-optional">(optional, but helpful)</span></label>
         <input id="cf-name" name="name" type="text" autocomplete="name" />
@@ -50,12 +54,11 @@ import Base from '../layouts/Base.astro';
         <label for="cf-sources">Supporting links or document URLs <span class="corrections-form-optional">(one per line)</span></label>
         <textarea id="cf-sources" name="sources" rows="3" placeholder="https://..."></textarea>
       </div>
-      <!-- Honeypot for bots; humans leave it empty -->
+      <!-- Honeypot for bots; humans leave it empty (Web3Forms reserved field name) -->
       <div class="corrections-form-honeypot" aria-hidden="true">
         <label for="cf-website">Website</label>
-        <input id="cf-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+        <input id="cf-website" name="botcheck" type="checkbox" tabindex="-1" autocomplete="off" />
       </div>
-      <input type="hidden" name="_subject" value="Correction request — wacountability.org" />
       <div class="corrections-form-actions">
         <button type="submit" class="corrections-form-submit">Send to the registry</button>
         <p class="corrections-form-fineprint">Your email is used only to reply. The registry does not publish your name or email unless you explicitly ask us to add an on-the-record response to a case.</p>
