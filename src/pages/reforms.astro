@@ -19,7 +19,7 @@ for (const c of allCases) {
 const plainTitles: Record<string, string> = {
   leb_transparency: 'Make legislative ethics decisions searchable.',
   ethics_enforcement_teeth: 'Put real consequences behind ethics findings.',
-  independent_inspector_general: "Stand up a King County Inspector General that doesn't report to the people it audits.",
+  independent_inspector_general: 'Stand up independent inspectors general across state and local government — bodies that audit on their own authority and report outside the chain of command they investigate.',
   procurement_reform: 'Tighten conflict-of-interest rules on public contracts.',
   subrecipient_monitoring: 'Actually audit the nonprofits that spend public money.',
   cost_transparency_reporting: 'Make agencies show their cost math, every time.',
@@ -43,7 +43,7 @@ const tldrs: Record<string, string> = {
   ethics_enforcement_teeth:
     "A 'documented violation' that ends in a polite letter is not a consequence; that's the current default.",
   independent_inspector_general:
-    'King County is one of the few large counties in the country without one. Oversight currently runs through the same chain of command that approved the spending.',
+    'Most Washington jurisdictions audit themselves. Findings route back through the same chain of command that approved the spending. Independent inspectors general with subpoena power and a separate reporting line break that loop.',
   procurement_reform:
     'Big public contracts are still written and awarded with weak conflict checks and limited competition.',
   subrecipient_monitoring:
@@ -78,7 +78,7 @@ const tldrs: Record<string, string> = {
 const whoActs: Record<string, string[]> = {
   leb_transparency: ['Legislative Ethics Board', 'WA Legislature'],
   ethics_enforcement_teeth: ['WA Legislature', 'Ethics boards'],
-  independent_inspector_general: ['KC Council', 'County Executive'],
+  independent_inspector_general: ['WA Legislature', 'Local councils', 'County executives', 'Agency boards'],
   procurement_reform: ['Agency leadership', 'Councils/Legislature'],
   subrecipient_monitoring: ['Agency directors', 'State Auditor'],
   cost_transparency_reporting: ['WA Legislature', 'Agency boards'],
@@ -101,7 +101,7 @@ const briefs: Record<string, string> = {
   leb_transparency:
     'The Legislative Ethics Board (LEB) publishes a chronological opinions index covering 1995 to the present at leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions, with stable per-opinion pages for each entry (e.g. /25-01/). That puts WA ahead of many state ethics bodies. The remaining gaps are structural. The index has no machine-readable export (no CSV, JSON, or RSS feed), no standardized outcome field showing whether a complaint resulted in a finding, a dismissal for jurisdiction, or a dismissal on the merits, and an inconsistent topic taxonomy that mixes capitalization, punctuation, and category labels across years. Multi-case rollups like "25-13 thru 15" collapse separate matters into single rows and single URLs, so a recurrence search treats one filer hitting five members as one event. Reform here means a machine-readable export, a standardized disposition field on every entry, a controlled topic vocabulary, and splitting rollups into one URL per respondent. The Board itself can act on most of this; the legislature can require it.',
   independent_inspector_general:
-    'King County has no independent Inspector General. Oversight of county agencies currently runs back up the same chain of command that approved the spending under review. An independent IG with subpoena power and a separate reporting line to the County Council, not the County Executive, would let auditors follow a finding wherever it leads. The Council and Executive can stand one up by ordinance and charter amendment; a current proposal sits in the registry as KC-2026-007.',
+    'Across the cases in this registry, oversight typically runs back up the same chain of command that approved the conduct under review. A state agency director responds to the state auditor; a county department reports to the executive who appointed it; a city department answers to the mayor. The pattern is structural, not partisan, and it shows up at every level. King County is one of the few large counties in the country without an independent IG, and a current proposal sits in the registry as KC-2026-007. At the state level, the same gap recurs: Trueblood v. DSHS reached a third federal contempt order in part because no in-state body had the standing or teeth to compel the structural fix. The DCYF child care subsidy system went four consecutive years with a disclaimer opinion on roughly $413M in federal funds. The Seattle Police Department surfaced major misconduct findings through outside investigation rather than internal controls. The fix is the same architecture in different containers: an inspector general office created by statute or charter, with subpoena authority, dedicated counsel, fixed-term protection from removal except for cause, and a reporting line outside the entity being audited. State-level options include expanding SAO performance-audit authority with subpoena teeth, creating a standalone State Inspector General, or empowering JLARC to refer findings directly to law enforcement. Local options are charter or ordinance creation of city and county IGs reporting to councils rather than executives. The legislature and individual councils can each act in their own lane.',
   ethics_enforcement_teeth:
     'Several cases involve findings by ethics bodies that carry no meaningful consequence beyond the finding itself. A documented violation that ends in a private letter does not deter the next one. Reform here is graduated, predictable enforcement: civil penalties indexed to office, mandatory public reporting of repeat findings, and clear referral paths for criminal conduct. State legislature and the boards themselves can act on this.',
   subrecipient_monitoring:
