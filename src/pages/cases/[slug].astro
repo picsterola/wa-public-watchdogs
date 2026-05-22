@@ -195,7 +195,7 @@ const groupHref = `/cases?group=${encodeURIComponent(group)}#group-${GROUP_SLUG[
 
   {!isRetracted && (() => {
     const shareTitle = d.title.replace(/—/g, '-');
-    const shareUrl = 'https://picsterola.github.io/wa-public-watchdogs';
+    const shareUrl = 'https://wacountability.org';
     const shareText = `Washington Accountability Registry: ${shareTitle}. From the registry tracking ${d.id} and other open accountability cases across WA.`;
     const bskyHref = `https://bsky.app/intent/compose?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
     const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;

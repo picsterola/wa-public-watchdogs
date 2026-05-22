@@ -2,7 +2,7 @@
 const year = new Date().getFullYear();
 // Public canonical URL. When the custom domain is in place, update this in
 // one spot and the share links will follow.
-const SITE_URL = 'https://picsterola.github.io/wa-public-watchdogs';
+const SITE_URL = 'https://wacountability.org';
 const shareText = 'Washington Accountability Registry — every open accountability case across WA state, county, and Seattle government, in one place.';
 const bskyHref = `https://bsky.app/intent/compose?text=${encodeURIComponent(shareText + ' ' + SITE_URL)}`;
 const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(SITE_URL)}`;
@@ -27,7 +27,7 @@ const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareT
       <a href="/methodology">Methodology</a>
       <a href="/corrections">Corrections</a>
       <a href="/about">About</a>
-      <a href="mailto:corrections@wa-public-watchdogs.example?subject=Correction%20request%20or%20right%20of%20response">Request a correction or response</a>
+      <a href="/corrections#submit">Request a correction or response</a>
     </div>
   </div>
 </footer>

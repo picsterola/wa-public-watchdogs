@@ -7,10 +7,61 @@ import Base from '../layouts/Base.astro';
       <div class="page-hero-eyebrow">Corrections · The registry's own ledger</div>
       <h1>What we got <em>wrong</em>, and when.</h1>
       <p class="page-hero-lede">
-        Every substantive change to a published case is logged here, in reverse chronological order. Typos and stylistic edits are not logged.
+        Every substantive change to a published case is logged below, in reverse chronological order. To request a correction or exercise your right of response, use the intake form first. Typos and stylistic edits are not logged.
       </p>
     </div>
   </header>
+
+  <section class="prose" id="submit">
+    <h2>Request a correction or right of response</h2>
+    <p>If you are named in a case, or you see something the registry got wrong, use this form. A human reads every submission and replies within five business days. Substantive changes are logged below with the date and the source that prompted them.</p>
+    <form class="corrections-form" action="https://formspree.io/f/REPLACE_ME" method="POST">
+      <div class="corrections-form-row">
+        <label for="cf-name">Your name <span class="corrections-form-optional">(optional, but helpful)</span></label>
+        <input id="cf-name" name="name" type="text" autocomplete="name" />
+      </div>
+      <div class="corrections-form-row">
+        <label for="cf-email">Email <span class="corrections-form-required">(required so we can reply)</span></label>
+        <input id="cf-email" name="email" type="email" autocomplete="email" required />
+      </div>
+      <div class="corrections-form-row">
+        <label for="cf-affiliation">Affiliation <span class="corrections-form-optional">(if relevant — agency, firm, organization)</span></label>
+        <input id="cf-affiliation" name="affiliation" type="text" />
+      </div>
+      <div class="corrections-form-row">
+        <label for="cf-case-id">Case ID or slug <span class="corrections-form-optional">(e.g. KC-2026-001 or /cases/dchs-systemic-audit)</span></label>
+        <input id="cf-case-id" name="case_id" type="text" />
+      </div>
+      <div class="corrections-form-row">
+        <label for="cf-type">Type of submission</label>
+        <select id="cf-type" name="submission_type" required>
+          <option value="correction">Correction — a fact in the record is wrong</option>
+          <option value="right_of_response">Right of response — I'm named and want my position on the record</option>
+          <option value="new_source">New source — adds to or updates a case</option>
+          <option value="new_case">New case — something the registry should be tracking</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="corrections-form-row">
+        <label for="cf-detail">Detail <span class="corrections-form-required">(required)</span></label>
+        <textarea id="cf-detail" name="detail" rows="8" required placeholder="Quote the specific sentence or field you dispute, explain what's wrong, and link to a document or source that supports your position."></textarea>
+      </div>
+      <div class="corrections-form-row">
+        <label for="cf-sources">Supporting links or document URLs <span class="corrections-form-optional">(one per line)</span></label>
+        <textarea id="cf-sources" name="sources" rows="3" placeholder="https://..."></textarea>
+      </div>
+      <!-- Honeypot for bots; humans leave it empty -->
+      <div class="corrections-form-honeypot" aria-hidden="true">
+        <label for="cf-website">Website</label>
+        <input id="cf-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+      <input type="hidden" name="_subject" value="Correction request — wacountability.org" />
+      <div class="corrections-form-actions">
+        <button type="submit" class="corrections-form-submit">Send to the registry</button>
+        <p class="corrections-form-fineprint">Your email is used only to reply. The registry does not publish your name or email unless you explicitly ask us to add an on-the-record response to a case.</p>
+      </div>
+    </form>
+  </section>
 
   <section class="prose">
     <h2>Policy</h2>
