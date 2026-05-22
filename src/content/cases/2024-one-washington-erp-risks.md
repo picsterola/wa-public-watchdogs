@@ -1,14 +1,13 @@
 ---
-# === IDENTITY ===
 id: WA-2024-ONE-WASHINGTON
-title: "One Washington ERP — SAO finds $465M+ statewide financial system project lacks contingency plan, schedule risks ahead of July 2025 launch"
+title: >-
+  One Washington ERP — SAO finds $465M+ statewide financial system project lacks
+  contingency plan, schedule risks ahead of July 2025 launch
 slug: one-washington-erp-risks
-date_surfaced: 2024-08-20
-date_conduct_start: 2018-01-01
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+date_surfaced: 2024-08-20T00:00:00.000Z
+date_conduct_start: 2018-01-01T00:00:00.000Z
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Office of Financial Management
     role_type: agency
@@ -20,42 +19,53 @@ actors:
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
 reforms_implicated:
   - it_modernization_governance
   - independent_inspector_general
-
-# === SCALE ===
 dollars_at_issue: 465000000
-dollars_basis: "$465M is the project cost estimate cited in the SAO performance audit. Project scope: consolidation of Washington State's core financial management, budgeting, and procurement systems into a single ERP platform (Workday) with a target go-live of July 1, 2025. No confirmed loss has been published; the audit identified risk exposure, not realized failure. The audit covered the financial management module only; the full project including HR, payroll, and procurement is part of the larger $465M program."
+dollars_basis: >-
+  $465M is the project cost estimate cited in the SAO performance audit. Project
+  scope: consolidation of Washington State's core financial management,
+  budgeting, and procurement systems into a single ERP platform (Workday) with a
+  target go-live of July 1, 2025. No confirmed loss has been published; the
+  audit identified risk exposure, not realized failure. The audit covered the
+  financial management module only; the full project including HR, payroll, and
+  procurement is part of the larger $465M program.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "SAO performance audit published August 2024 found the One Washington ERP project — replacing Washington State's decades-old core financial management system (AFRS) with Workday — lacked a documented contingency plan as of July 2024, with the July 1, 2025 go-live 11 months away. Schedule delays had compressed time for critical testing and end-user training. One Washington disputed the framing, noting contingency planning work was scheduled to begin August 2024 after the audit period. The July 2025 go-live proceeded. Post-launch outcome status is open for follow-up."
-
-# === SOURCES ===
+outcome_summary: >-
+  SAO performance audit published August 2024 found the One Washington ERP
+  project — replacing Washington State's decades-old core financial management
+  system (AFRS) with Workday — lacked a documented contingency plan as of July
+  2024, with the July 1, 2025 go-live 11 months away. Schedule delays had
+  compressed time for critical testing and end-user training. One Washington
+  disputed the framing, noting contingency planning work was scheduled to begin
+  August 2024 after the audit period. The July 2025 go-live proceeded.
+  Post-launch outcome status is open for follow-up.
 sources:
   - tier: 1
     type: sao_report
-    title: "One Washington: Opportunities to strengthen plans for producing reliable financial statements (Performance Audit, ARN 1035323)"
+    title: >-
+      One Washington: Opportunities to strengthen plans for producing reliable
+      financial statements (Performance Audit, ARN 1035323)
     publisher: Office of the Washington State Auditor
-    date: 2024-08-20
-    url: https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1035323&isFinding=false&sp=false
-    archive_url: null
+    date: 2024-08-20T00:00:00.000Z
+    url: >-
+      https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1035323&isFinding=false&sp=false
+    archive_url: >-
+      https://web.archive.org/web/20260522221846/https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1035323&isFinding=false&sp=false
   - tier: 2
     type: news
-    title: "Audit — WA State Computer Upgrade Behind Schedule, No Backup Plan"
+    title: 'Audit — WA State Computer Upgrade Behind Schedule, No Backup Plan'
     publisher: NEWStalk 870 (via The Center Square)
-    date: 2024-08-22
-    url: https://newstalk870.am/audit-wa-state-computer-upgrade-behind-schedule-no-backup-plan/
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2024-08-22T00:00:00.000Z
+    url: >-
+      https://newstalk870.am/audit-wa-state-computer-upgrade-behind-schedule-no-backup-plan/
+    archive_url: >-
+      https://web.archive.org/web/20260522221904/https://newstalk870.am/audit-wa-state-computer-upgrade-behind-schedule-no-backup-plan/
 reform_argument: |
   The One Washington audit is the state-level analog of the L&I workers'
   comp IT modernization case already in this registry. Both reflect the same
@@ -79,8 +89,6 @@ reform_argument: |
   SAO audit explicitly does not cover.
   See [reform: it_modernization_governance] and
   [reform: independent_inspector_general].
-
-# === GOVERNANCE METADATA ===
 review_status: draft
 retraction_note: null
 contributor: vn

@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: WA-2024-OSPI-IDEA
-title: "N.D. v. Reykdal — federal court approves settlement on OSPI's IDEA age-out violations; compensatory education for class"
+title: >-
+  N.D. v. Reykdal — federal court approves settlement on OSPI's IDEA age-out
+  violations; compensatory education for class
 slug: ospi-nd-reykdal-idea-settlement
-date_surfaced: 2024-11-22
-date_conduct_start: 2020-11-11
-date_conduct_end: 2024-11-22
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+date_surfaced: 2024-11-22T00:00:00.000Z
+date_conduct_start: 2020-11-11T00:00:00.000Z
+date_conduct_end: 2024-11-22T00:00:00.000Z
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Office of Superintendent of Public Instruction
     role_type: agency
@@ -21,8 +20,6 @@ actors:
     title: Superintendent of Public Instruction
     party: NP
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: adjudicated
 severity_type:
   - civil_rights_harm
@@ -30,57 +27,83 @@ severity_type:
 reforms_implicated:
   - special_education_compliance
   - statutory_compliance_monitoring
-
-# === SCALE ===
 dollars_at_issue: 210000
-dollars_basis: "Settlement provides individual compensatory education awards of up to $150,000 to class representative N.D. and up to $60,000 to class representative E.A., for a named-plaintiff total of up to $210,000. Additionally, OSPI agreed to pay plaintiffs' reasonable attorney's fees and costs, which plaintiffs estimated at approximately $440,000 as of the preliminary approval motion. Class-wide compensatory education (direct services, monetary compensation in lieu of services, or reimbursement for private services obtained) has no fixed published dollar ceiling; amounts are determined by individual IEP teams."
+dollars_basis: >-
+  Settlement provides individual compensatory education awards of up to $150,000
+  to class representative N.D. and up to $60,000 to class representative E.A.,
+  for a named-plaintiff total of up to $210,000. Additionally, OSPI agreed to
+  pay plaintiffs' reasonable attorney's fees and costs, which plaintiffs
+  estimated at approximately $440,000 as of the preliminary approval motion.
+  Class-wide compensatory education (direct services, monetary compensation in
+  lieu of services, or reimbursement for private services obtained) has no fixed
+  published dollar ceiling; amounts are determined by individual IEP teams.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: settled
-outcome_summary: "Federal District Court for the Western District of Washington (Judge Lauren King) granted preliminary approval of the class-action settlement on November 22, 2024 (Case No. 2:22-cv-01621-LK). The settlement requires OSPI to: (1) direct districts to extend special-education age eligibility to students' 22nd birthday; (2) immediately resume services under the last implemented IEP for any student who aged out during the lawsuit and has not yet turned 22; (3) convene IEP teams to determine whether compensatory education is owed to each class member. Final Approval Hearing scheduled June 17, 2025."
-
-# === SOURCES ===
+outcome_summary: >-
+  Federal District Court for the Western District of Washington (Judge Lauren
+  King) granted preliminary approval of the class-action settlement on November
+  22, 2024 (Case No. 2:22-cv-01621-LK). The settlement requires OSPI to: (1)
+  direct districts to extend special-education age eligibility to students' 22nd
+  birthday; (2) immediately resume services under the last implemented IEP for
+  any student who aged out during the lawsuit and has not yet turned 22; (3)
+  convene IEP teams to determine whether compensatory education is owed to each
+  class member. Final Approval Hearing scheduled June 17, 2025.
 sources:
   - tier: 1
     type: settlement_document
-    title: "N.D., et al., v. Reykdal — Order Granting Preliminary Approval of Class Action Settlement"
-    publisher: U.S. District Court, Western District of Washington (Judge Lauren King)
-    date: 2024-11-22
-    url: https://www.casemine.com/judgement/us/6742ac2c395a1d617fc85068
+    title: >-
+      N.D., et al., v. Reykdal — Order Granting Preliminary Approval of Class
+      Action Settlement
+    publisher: 'U.S. District Court, Western District of Washington (Judge Lauren King)'
+    date: 2024-11-22T00:00:00.000Z
+    url: 'https://www.casemine.com/judgement/us/6742ac2c395a1d617fc85068'
     archive_url: null
-    quote: "the state's policy of aging students out of special education at the end of the school year in which they turn 21 pursuant to Wash. Rev. Code § 28A.155.020 and Wash. Admin. Code § 392.172A.02000(2)(c) presently violates the IDEA, has violated the IDEA at all times during the two years preceding the filing of this lawsuit, and will continue to violate the IDEA absent a substantial change in the state's policies for charging and waiving tuition for its adult secondary education programs."
+    quote: >-
+      the state's policy of aging students out of special education at the end
+      of the school year in which they turn 21 pursuant to Wash. Rev. Code §
+      28A.155.020 and Wash. Admin. Code § 392.172A.02000(2)(c) presently
+      violates the IDEA, has violated the IDEA at all times during the two years
+      preceding the filing of this lawsuit, and will continue to violate the
+      IDEA absent a substantial change in the state's policies for charging and
+      waiving tuition for its adult secondary education programs.
   - tier: 1
     type: agency_statement
-    title: "N.D. v. Reykdal Settlement update"
+    title: N.D. v. Reykdal Settlement update
     publisher: Washington Autism Alliance & Advocacy
-    author: "Arzu Forough"
-    date: 2025-03-05
-    url: https://washingtonautismalliance.org/n-d-v-reykdal-settlement-update/
-    archive_url: null
+    author: Arzu Forough
+    date: 2025-03-05T00:00:00.000Z
+    url: 'https://washingtonautismalliance.org/n-d-v-reykdal-settlement-update/'
+    archive_url: >-
+      https://web.archive.org/web/20260522222017/https://washingtonautismalliance.org/n-d-v-reykdal-settlement-update/
   - tier: 1
     type: agency_statement
-    title: "OSPI Special Education Update — December 2024 (N.D. v. Reykdal settlement notice)"
+    title: >-
+      OSPI Special Education Update — December 2024 (N.D. v. Reykdal settlement
+      notice)
     publisher: Washington Office of Superintendent of Public Instruction
-    date: 2024-12-06
-    url: https://content.govdelivery.com/accounts/WAOSPI/bulletins/3c5ac27
-    archive_url: null
+    date: 2024-12-06T00:00:00.000Z
+    url: 'https://content.govdelivery.com/accounts/WAOSPI/bulletins/3c5ac27'
+    archive_url: >-
+      https://web.archive.org/web/20260522222042/https://content.govdelivery.com/accounts/WAOSPI/bulletins/3c5ac27
   - tier: 2
     type: court_filing
-    title: "N.D. v. Reykdal — Ninth Circuit opinion vacating denial of preliminary injunction"
-    publisher: U.S. Court of Appeals, Ninth Circuit
-    date: 2024-05-22
-    url: https://law.justia.com/cases/federal/appellate-courts/ca9/23-35580/23-35580-2024-05-22.html
-    archive_url: null
+    title: >-
+      N.D. v. Reykdal — Ninth Circuit opinion vacating denial of preliminary
+      injunction
+    publisher: 'U.S. Court of Appeals, Ninth Circuit'
+    date: 2024-05-22T00:00:00.000Z
+    url: >-
+      https://law.justia.com/cases/federal/appellate-courts/ca9/23-35580/23-35580-2024-05-22.html
+    archive_url: >-
+      http://web.archive.org/web/20250409141620/https://law.justia.com/cases/federal/appellate-courts/ca9/23-35580/23-35580-2024-05-22.html
   - tier: 2
     type: agency_statement
-    title: "N.D. v Reykdal Update: 9th Circuit Court Ruling"
+    title: 'N.D. v Reykdal Update: 9th Circuit Court Ruling'
     publisher: Washington Office of Superintendent of Public Instruction
-    date: 2024-05-23
-    url: https://content.govdelivery.com/accounts/WAOSPI/bulletins/39f6f61
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2024-05-23T00:00:00.000Z
+    url: 'https://content.govdelivery.com/accounts/WAOSPI/bulletins/39f6f61'
+    archive_url: >-
+      https://web.archive.org/web/20260522222203/https://content.govdelivery.com/accounts/WAOSPI/bulletins/39f6f61
 reform_argument: |
   The IDEA age-out case documents a systemic statutory compliance failure
   at the state agency level. Washington's special-education age-out law
@@ -114,8 +137,6 @@ reform_argument: |
   against federal IDEA requirements on a regular cycle, with correction
   before litigation forces it. See [reform: special_education_compliance],
   [reform: statutory_compliance_monitoring].
-
-# === GOVERNANCE METADATA ===
 review_status: draft
 retraction_note: null
 contributor: vn

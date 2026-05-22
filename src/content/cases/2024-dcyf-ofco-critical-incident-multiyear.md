@@ -1,17 +1,16 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DCYF-OFCO-FATALITIES
-title: "OFCO Critical Incident Reports — DCYF child fatalities and near-fatalities 2024-2025; 92 H1 2025 incidents vs. 36 reported by DCYF"
+title: >-
+  OFCO Critical Incident Reports — DCYF child fatalities and near-fatalities
+  2024-2025; 92 H1 2025 incidents vs. 36 reported by DCYF
 slug: dcyf-ofco-critical-incident-multiyear
-date_surfaced: 2024-12-31
-date_conduct_start: 2024-01-01
-date_conduct_end: 2025-12-31
-last_updated: 2026-07-21
-last_verified: 2026-07-21
-
-# === ACTORS ===
+date_surfaced: 2024-12-31T00:00:00.000Z
+date_conduct_start: 2024-01-01T00:00:00.000Z
+date_conduct_end: 2025-12-31T00:00:00.000Z
+last_updated: 2026-07-21T00:00:00.000Z
+last_verified: 2026-07-21T00:00:00.000Z
 actors:
-  - name: Washington State Department of Children, Youth, and Families
+  - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
     title: null
     party: null
@@ -21,8 +20,6 @@ actors:
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - civil_rights_harm
@@ -31,61 +28,77 @@ reforms_implicated:
   - independent_inspector_general
   - child_welfare_oversight
   - agency_data_integrity
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
 outcome_summary: null
-
-# === SOURCES ===
 sources:
   - tier: 1
     type: ombudsman_report
-    title: "OFCO 2024 Critical Incident Report — Child Fatalities and Near Fatalities in Washington State (CY2023 data)"
+    title: >-
+      OFCO 2024 Critical Incident Report — Child Fatalities and Near Fatalities
+      in Washington State (CY2023 data)
     publisher: Office of the Family and Children's Ombuds
-    date: 2024-07-01
-    url: https://ofco.wa.gov/sites/default/files/2024-07/2024_OFCO_Critical_Incident_Report.pdf
-    archive_url: null
+    date: 2024-07-01T00:00:00.000Z
+    url: >-
+      https://ofco.wa.gov/sites/default/files/2024-07/2024_OFCO_Critical_Incident_Report.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522220407/https://ofco.wa.gov/sites/default/files/2024-07/2024_OFCO_Critical_Incident_Report.pdf
     quote: null
   - tier: 1
     type: ombudsman_report
-    title: "OFCO 2025 Critical Incident Report — Child Fatalities and Near Fatalities in Washington State (CY2024 data)"
+    title: >-
+      OFCO 2025 Critical Incident Report — Child Fatalities and Near Fatalities
+      in Washington State (CY2024 data)
     publisher: Office of the Family and Children's Ombuds
-    date: 2025-07-01
-    url: https://ofco.wa.gov/sites/default/files/2025-07/2025_OFCO_Critical_Incident_Report_0.pdf
-    archive_url: null
-    quote: "OFCO is not notified of all child fatalities or near fatalities, only those that are recorded in the DCYF reporting system."
+    date: 2025-07-01T00:00:00.000Z
+    url: >-
+      https://ofco.wa.gov/sites/default/files/2025-07/2025_OFCO_Critical_Incident_Report_0.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522220414/https://ofco.wa.gov/sites/default/files/2025-07/2025_OFCO_Critical_Incident_Report_0.pdf
+    quote: >-
+      OFCO is not notified of all child fatalities or near fatalities, only
+      those that are recorded in the DCYF reporting system.
   - tier: 1
     type: ombudsman_report
-    title: "OFCO mid-year H1 2025 data disclosure — DCYF Oversight Board presentation by Director Patrick Dowd (July 17, 2025)"
+    title: >-
+      OFCO mid-year H1 2025 data disclosure — DCYF Oversight Board presentation
+      by Director Patrick Dowd (July 17, 2025)
     publisher: Office of the Family and Children's Ombuds
-    date: 2025-07-17
-    url: https://ofco.wa.gov/reports
-    archive_url: null
-    quote: "We didn't want to give the impression that things are getting better, and are actually starting to decline, when in fact we had preliminary information for the first quarter of 2025 that might paint a very different picture."
+    date: 2025-07-17T00:00:00.000Z
+    url: 'https://ofco.wa.gov/reports'
+    archive_url: >-
+      http://web.archive.org/web/20191224123632/http://www.ofco.wa.gov:80/reports/
+    quote: >-
+      We didn't want to give the impression that things are getting better, and
+      are actually starting to decline, when in fact we had preliminary
+      information for the first quarter of 2025 that might paint a very
+      different picture.
   - tier: 2
     type: news
-    title: "State agency reports 92 children died or nearly died in first six months of 2025"
+    title: >-
+      State agency reports 92 children died or nearly died in first six months
+      of 2025
     publisher: Lynnwood Times
     author: Carleen Johnson
-    date: 2025-07-21
-    url: https://lynnwoodtimes.com/2025/07/21/families-together/
-    archive_url: null
+    date: 2025-07-21T00:00:00.000Z
+    url: 'https://lynnwoodtimes.com/2025/07/21/families-together/'
+    archive_url: >-
+      https://web.archive.org/web/20260522220442/https://lynnwoodtimes.com/2025/07/21/families-together/
     quote: null
   - tier: 2
     type: news
-    title: "OFCO: 45 child deaths or near-deaths in WA last 3 months, many involving fentanyl at home"
+    title: >-
+      OFCO: 45 child deaths or near-deaths in WA last 3 months, many involving
+      fentanyl at home
     publisher: KIRO 7 News Seattle
-    date: 2025-07-18
-    url: https://www.kiro7.com/news/local/ofco-45-child-deaths-or-near-deaths-wa-last-3-months-many-involving-fentanyl-home/V7EJV3EPTNHHLIFTT6AR2A4U5U/
-    archive_url: null
+    date: 2025-07-18T00:00:00.000Z
+    url: >-
+      https://www.kiro7.com/news/local/ofco-45-child-deaths-or-near-deaths-wa-last-3-months-many-involving-fentanyl-home/V7EJV3EPTNHHLIFTT6AR2A4U5U/
+    archive_url: >-
+      https://web.archive.org/web/20260522220516/https://www.kiro7.com/news/local/ofco-45-child-deaths-or-near-deaths-wa-last-3-months-many-involving-fentanyl-home/V7EJV3EPTNHHLIFTT6AR2A4U5U/
     quote: null
-
-# === REFORM LINKAGE ===
 reform_argument: |
   The data-integrity gap is the structural finding, not the fatality counts
   themselves. OFCO tracked 92 child deaths or near-deaths in H1 2025; DCYF
@@ -125,8 +138,6 @@ reform_argument: |
   concurrent authority to certify the completeness of DCYF's incident
   reporting. See [reform: independent_inspector_general],
   [reform: child_welfare_oversight], and [reform: agency_data_integrity].
-
-# === GOVERNANCE METADATA ===
 review_status: draft
 retraction_note: null
 contributor: vn

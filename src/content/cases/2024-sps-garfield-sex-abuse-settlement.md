@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: SPS-2024-001
-title: "Seattle Public Schools — $16M settlement over Garfield High School coach sexual abuse"
+title: >-
+  Seattle Public Schools — $16M settlement over Garfield High School coach
+  sexual abuse
 slug: sps-garfield-sex-abuse-settlement
-date_surfaced: 2024-10-31
-date_conduct_start: 2013-01-01
-date_conduct_end: 2022-12-31
-last_updated: 2026-05-20
-last_verified: 2026-05-20
-
-# === ACTORS ===
+date_surfaced: 2024-10-31T00:00:00.000Z
+date_conduct_start: 2013-01-01T00:00:00.000Z
+date_conduct_end: 2022-12-31T00:00:00.000Z
+last_updated: 2026-05-20T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Seattle Public Schools
     role_type: agency
@@ -23,21 +22,23 @@ actors:
     jurisdiction: Washington State
   - name: Walter Junior Jones
     role_type: contractor
-    title: Volunteer weightlifting coach, Garfield High School (placed on SPS "Do Not Re-Hire" list before being allowed to volunteer)
+    title: >-
+      Volunteer weightlifting coach, Garfield High School (placed on SPS "Do Not
+      Re-Hire" list before being allowed to volunteer)
     party: null
     jurisdiction: King County
   - name: Marvin Wayne Hall
     role_type: contractor
-    title: Assistant boys' basketball coach, school security staff, and head girls' basketball coach (fired 2022), Garfield High School
+    title: >-
+      Assistant boys' basketball coach, school security staff, and head girls'
+      basketball coach (fired 2022), Garfield High School
     party: null
     jurisdiction: King County
   - name: Ed Haskins
     role_type: bureaucrat
-    title: Athletic Director, Garfield High School
+    title: 'Athletic Director, Garfield High School'
     party: null
     jurisdiction: King County
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
@@ -46,57 +47,67 @@ reforms_implicated:
   - background_check_enforcement
   - athletics_oversight
   - mandatory_reporting_enforcement
-
-# === SCALE ===
 dollars_at_issue: 16000000
-dollars_basis: "$16,000,000 total civil settlement announced October 31, 2024, reported as the largest tort settlement in Seattle Public Schools history. SPS direct payment: $500,000 (settlement fees and defense costs). Washington Schools Risk Management Pool (district insurer) paid the remaining $15,500,000."
+dollars_basis: >-
+  $16,000,000 total civil settlement announced October 31, 2024, reported as the
+  largest tort settlement in Seattle Public Schools history. SPS direct payment:
+  $500,000 (settlement fees and defense costs). Washington Schools Risk
+  Management Pool (district insurer) paid the remaining $15,500,000.
 dollars_confirmed_loss: 16000000
-
-# === STATUS ===
 legal_status: settled
-outcome_summary: "Civil case settled October 31, 2024 for $16M; SPS denied liability. Criminal proceedings against the two coaches are separate: Marvin Wayne Hall pleaded guilty to sexual misconduct with a minor (summer 2025). Walter Junior Jones was charged with two counts of felony child rape in King County Superior Court; a mistrial was declared December 3, 2025 (Judge Michael Ryan) after a jury deadlocked. Retrial status open as of this record's last update."
-
-# === SOURCES ===
+outcome_summary: >-
+  Civil case settled October 31, 2024 for $16M; SPS denied liability. Criminal
+  proceedings against the two coaches are separate: Marvin Wayne Hall pleaded
+  guilty to sexual misconduct with a minor (summer 2025). Walter Junior Jones
+  was charged with two counts of felony child rape in King County Superior
+  Court; a mistrial was declared December 3, 2025 (Judge Michael Ryan) after a
+  jury deadlocked. Retrial status open as of this record's last update.
 sources:
   - tier: 1
     type: agency_statement
-    title: "PWRFL Law settlement announcement — Garfield High School sexual abuse case"
+    title: PWRFL Law settlement announcement — Garfield High School sexual abuse case
     publisher: PWRFL Law (plaintiff counsel of record)
-    date: 2024-10-31
-    url: https://pwrfl-law.com/news-and-updates/331533
-    archive_url: null
+    date: 2024-10-31T00:00:00.000Z
+    url: 'https://pwrfl-law.com/news-and-updates/331533'
+    archive_url: >-
+      https://web.archive.org/web/20260522223026/https://pwrfl-law.com/news-and-updates/331533
   - tier: 2
     type: news
-    title: "Seattle Public Schools to pay $16M to former student alleging years of sexual abuse"
+    title: >-
+      Seattle Public Schools to pay $16M to former student alleging years of
+      sexual abuse
     publisher: Fox 13 Seattle
-    author: "Will Wixey"
-    date: 2024-11-01
-    url: https://www.fox13seattle.com/news/sps-sexual-abuse-tort-claim
+    author: Will Wixey
+    date: 2024-11-01T00:00:00.000Z
+    url: 'https://www.fox13seattle.com/news/sps-sexual-abuse-tort-claim'
     archive_url: null
   - tier: 2
     type: news
-    title: "Seattle Public Schools to pay $16M to settle sex abuse lawsuit"
+    title: Seattle Public Schools to pay $16M to settle sex abuse lawsuit
     publisher: Seattle Times
-    date: 2024-10-31
-    url: https://www.seattletimes.com/education-lab/seattle-public-schools-to-pay-16m-to-settle-sex-abuse-lawsuit/
+    date: 2024-10-31T00:00:00.000Z
+    url: >-
+      https://www.seattletimes.com/education-lab/seattle-public-schools-to-pay-16m-to-settle-sex-abuse-lawsuit/
     archive_url: null
   - tier: 2
     type: news
-    title: "Mistrial declared in child rape case involving a coach with Seattle Public Schools"
+    title: >-
+      Mistrial declared in child rape case involving a coach with Seattle Public
+      Schools
     publisher: KIRO 7 / MyNorthwest
-    author: "MyNorthwest.com Staff"
-    date: 2025-12-03
-    url: https://www.kiro7.com/news/local/mistrial-declared-child-rape-case-involving-coach-with-seattle-public-schools/DYLQHK5M5ZEXRDHSPCJPTZ2FAM/
+    author: MyNorthwest.com Staff
+    date: 2025-12-03T00:00:00.000Z
+    url: >-
+      https://www.kiro7.com/news/local/mistrial-declared-child-rape-case-involving-coach-with-seattle-public-schools/DYLQHK5M5ZEXRDHSPCJPTZ2FAM/
     archive_url: null
   - tier: 2
     type: news
-    title: "SPS to Pay $16M to Settle Garfield High School Abuse Lawsuit"
+    title: SPS to Pay $16M to Settle Garfield High School Abuse Lawsuit
     publisher: South Seattle Emerald
-    date: 2024-11-05
-    url: https://southseattleemerald.org/news/2024/11/05/news-gleams-seattle-public-schools-to-pay-16m-to-settle-garfield-high-school-sex-abuse-lawsuit-sound-transit-begins-scoping-period-for-ballard-link-extension
+    date: 2024-11-05T00:00:00.000Z
+    url: >-
+      https://southseattleemerald.org/news/2024/11/05/news-gleams-seattle-public-schools-to-pay-16m-to-settle-garfield-high-school-sex-abuse-lawsuit-sound-transit-begins-scoping-period-for-ballard-link-extension
     archive_url: null
-
-# === REFORM LINKAGE ===
 reform_argument: |
   Three structural failures sit beneath the largest tort settlement in
   SPS history. First, a coach previously dismissed from another district
@@ -113,8 +124,6 @@ reform_argument: |
   cost-of-failure that recurs across audit cycles and the structural deficit
   case. See [reform: background_check_enforcement],
   [reform: athletics_oversight], [reform: mandatory_reporting_enforcement].
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn

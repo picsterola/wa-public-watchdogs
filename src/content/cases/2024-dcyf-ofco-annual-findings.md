@@ -1,17 +1,16 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DCYF-OFCO-FINDINGS
-title: "OFCO 2024 Annual Report — 39 formal adverse findings against DCYF; 2,623 placement disruptions documented"
+title: >-
+  OFCO 2024 Annual Report — 39 formal adverse findings against DCYF; 2,623
+  placement disruptions documented
 slug: dcyf-ofco-annual-findings
-date_surfaced: 2024-11-01
-date_conduct_start: 2024-01-01
-date_conduct_end: 2024-12-31
-last_updated: 2026-07-21
-last_verified: 2026-07-21
-
-# === ACTORS ===
+date_surfaced: 2024-11-01T00:00:00.000Z
+date_conduct_start: 2024-01-01T00:00:00.000Z
+date_conduct_end: 2024-12-31T00:00:00.000Z
+last_updated: 2026-07-21T00:00:00.000Z
+last_verified: 2026-07-21T00:00:00.000Z
 actors:
-  - name: Washington State Department of Children, Youth, and Families
+  - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
     title: null
     party: null
@@ -21,8 +20,6 @@ actors:
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
@@ -30,65 +27,88 @@ severity_type:
 reforms_implicated:
   - independent_inspector_general
   - child_welfare_oversight
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
 outcome_summary: null
-
-# === SOURCES ===
 sources:
   - tier: 1
     type: ombudsman_report
-    title: "OFCO 2024 Annual Report"
+    title: OFCO 2024 Annual Report
     publisher: Office of the Family and Children's Ombuds
-    date: 2024-11-01
-    url: https://ofco.wa.gov/sites/default/files/2024-10/2024_OFCO_Annual_Report.pdf
-    archive_url: null
+    date: 2024-11-01T00:00:00.000Z
+    url: >-
+      https://ofco.wa.gov/sites/default/files/2024-10/2024_OFCO_Annual_Report.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522220340/https://ofco.wa.gov/sites/default/files/2024-10/2024_OFCO_Annual_Report.pdf
     quote: null
-
-# === REFORM LINKAGE ===
-reform_argument: |
+reform_argument: >
   Thirty-nine formal adverse findings in a single year against an agency
+
   that responds to ombuds findings without any binding correction obligation
+
   is the inverse-incentive structure that ombuds-with-teeth reform is designed
+
   to address. OFCO issues findings; DCYF reviews them through its internal
+
   Recommendation Review Committee; the committee classifies responses as
+
   "implemented," "considered but not implemented," or "on hold." None of
+
   those classifications carry an enforcement consequence. A finding that DCYF
+
   classifies as "on hold" is a finding DCYF has declined to act on, with no
+
   mechanism for OFCO to compel action or escalate to an independent body.
 
+
   The 2024 Annual Report also documented a structural gap in Juvenile
+
   Rehabilitation oversight: state law does not clearly define OFCO's authority
+
   to investigate complaints from youth and young adults (ages 18–25) in JR
+
   facilities. DCYF has requested funding for a uniform grievance process and
+
   an impartial hearing process for JR youth, but as of the report date neither
+
   existed. JR complaint categories documented by OFCO include room
+
   confinement and isolation, assault, illegal drug access, staff use of force,
+
   and inhumane living conditions.
 
+
   The placement disruption figure — 2,623 placement exception events from
+
   September 2023 through August 2024 — represents children cycling through
+
   emergency, unlicensed, or otherwise non-standard placements. The 2024 report
+
   identifies Region 4 and Region 6 as experiencing the highest concentration
+
   of placement exceptions, with OFCO recommending expansion of licensed
+
   receiving care resources in both regions. This is a geographic equity
+
   finding: the children most exposed to placement instability are in the
+
   regions with the fewest licensed alternatives.
 
-  See companion case [WA-2024-DCYF-OFCO-FATALITIES] for the 2024 and 2025
-  Critical Incident Reports. The two cases together document OFCO's annual
-  accountability cycle against DCYF: 39 adverse findings in the annual report,
-  the child fatality trajectory in the critical incident reports, and no
-  enforcement mechanism linking either to mandatory agency correction.
-  See [reform: independent_inspector_general] and [reform: child_welfare_oversight].
 
-# === GOVERNANCE METADATA ===
+  See companion case [WA-2024-DCYF-OFCO-FATALITIES] for the 2024 and 2025
+
+  Critical Incident Reports. The two cases together document OFCO's annual
+
+  accountability cycle against DCYF: 39 adverse findings in the annual report,
+
+  the child fatality trajectory in the critical incident reports, and no
+
+  enforcement mechanism linking either to mandatory agency correction.
+
+  See [reform: independent_inspector_general] and [reform:
+  child_welfare_oversight].
 review_status: draft
 retraction_note: null
 contributor: vn

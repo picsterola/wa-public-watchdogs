@@ -1,23 +1,20 @@
 ---
-# === IDENTITY ===
 id: WA-2024-009
-title: "LEB Case 24-09 — Sen. Manka Dhingra, alleged incorrect information on legislator's official website"
+title: >-
+  LEB Case 24-09 — Sen. Manka Dhingra, alleged incorrect information on
+  legislator's official website
 slug: leb-24-09-dhingra-website-info
-date_surfaced: 2024-09-01
+date_surfaced: 2024-09-01T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Manka Dhingra
     role_type: elected
     title: Washington State Senator
     party: D
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: alleged
 severity_type:
   - misuse_public_resources
@@ -25,36 +22,38 @@ reforms_implicated:
   - ethics_enforcement_teeth
   - public_resources_firewall
   - leb_transparency
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "LEB issued opinion in 2024. Full opinion outcome not independently confirmed in Tier 1 or Tier 2 sources available at the time of this record."
-
-# === SOURCES ===
+outcome_summary: >-
+  LEB issued opinion in 2024. Full opinion outcome not independently confirmed
+  in Tier 1 or Tier 2 sources available at the time of this record.
 sources:
   - tier: 1
     type: leb_opinion
-    title: "Legislative Ethics Board — Case 24-09: Incorrect Information on Legislator's Official Website page"
+    title: >-
+      Legislative Ethics Board — Case 24-09: Incorrect Information on
+      Legislator's Official Website page
     publisher: Washington State Legislative Ethics Board
-    date: 2024-09-01
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-09/
-    archive_url: null
+    date: 2024-09-01T00:00:00.000Z
+    url: >-
+      https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-09/
+    archive_url: >-
+      http://web.archive.org/web/20251110035052/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-09/
+reform_argument: >
+  Case 24-09 sits in a category the registry under-represented before this
+  entry:
 
-# === REFORM LINKAGE ===
-reform_argument: |
-  Case 24-09 sits in a category the registry under-represented before this entry:
   use of an official legislative website for content that arguably crosses
-  into campaign communication, partisan advocacy, or factually contested
-  statements. The category recurs across Cases 24-09, 24-10, 24-11, and others
-  in the same biennium. The recurrence, not the resolution of any one case,
-  is the structural finding.
 
-# === GOVERNANCE METADATA ===
+  into campaign communication, partisan advocacy, or factually contested
+
+  statements. The category recurs across Cases 24-09, 24-10, 24-11, and others
+
+  in the same biennium. The recurrence, not the resolution of any one case,
+
+  is the structural finding.
 review_status: published
 retraction_note: null
 contributor: vn

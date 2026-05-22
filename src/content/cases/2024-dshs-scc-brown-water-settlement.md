@@ -1,23 +1,20 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DSHS-SCC-WATER
-title: "Special Commitment Center brown water class action — DSHS pays $7.325M to ~200 McNeil Island residents over contaminated drinking water"
+title: >-
+  Special Commitment Center brown water class action — DSHS pays $7.325M to ~200
+  McNeil Island residents over contaminated drinking water
 slug: dshs-scc-brown-water-settlement
-date_surfaced: 2024-03-01
-date_conduct_start: 2016-01-01
-date_conduct_end: 2024-03-01
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+date_surfaced: 2024-03-01T00:00:00.000Z
+date_conduct_start: 2016-01-01T00:00:00.000Z
+date_conduct_end: 2024-03-01T00:00:00.000Z
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Department of Social and Health Services
     role_type: agency
-    title: "Operator, Special Commitment Center (McNeil Island)"
+    title: 'Operator, Special Commitment Center (McNeil Island)'
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: adjudicated
 severity_type:
   - civil_rights_harm
@@ -25,45 +22,63 @@ severity_type:
 reforms_implicated:
   - facility_conditions_oversight
   - independent_inspector_general
-
-# === SCALE ===
 dollars_at_issue: 7325000
-dollars_basis: "DSHS settled the class-action federal lawsuit for approximately $7.5 million total, of which $7.325 million represents the judgment/resident payout fund (approximately $263 per month per eligible resident for each month they resided at the Special Commitment Center on McNeil Island). Of the total settlement, $2.5 million went to plaintiff attorneys. Roughly 200 current and former residents were eligible to file claims."
+dollars_basis: >-
+  DSHS settled the class-action federal lawsuit for approximately $7.5 million
+  total, of which $7.325 million represents the judgment/resident payout fund
+  (approximately $263 per month per eligible resident for each month they
+  resided at the Special Commitment Center on McNeil Island). Of the total
+  settlement, $2.5 million went to plaintiff attorneys. Roughly 200 current and
+  former residents were eligible to file claims.
 dollars_confirmed_loss: 7325000
-
-# === STATUS ===
 legal_status: settled
-outcome_summary: "Class-action lawsuit settled in March 2024. DSHS denied wrongdoing, citing unfavorable court rulings and the expense of an individual jury trial for more than 200 plaintiffs as the reasons for settling. Payments to class members were delayed by approximately 10 months while residents submitted required tax paperwork."
-
-# === SOURCES ===
+outcome_summary: >-
+  Class-action lawsuit settled in March 2024. DSHS denied wrongdoing, citing
+  unfavorable court rulings and the expense of an individual jury trial for more
+  than 200 plaintiffs as the reasons for settling. Payments to class members
+  were delayed by approximately 10 months while residents submitted required tax
+  paperwork.
 sources:
   - tier: 1
     type: news
-    title: "DSHS settles Special Commitment Center suit for $7.5 million"
+    title: DSHS settles Special Commitment Center suit for $7.5 million
     publisher: Tacoma News Tribune
-    date: 2024-03-05
-    url: https://www.thenewstribune.com/news/local/article286255175.html
+    date: 2024-03-05T00:00:00.000Z
+    url: 'https://www.thenewstribune.com/news/local/article286255175.html'
     archive_url: null
-    quote: "This resolution is not an admission of wrongdoing on the part of the Department of Social and Health Services. Unfortunately, we received some disappointing rulings from the court that would require a lengthy and expensive jury trial involving more than 200 individual plaintiffs to resolve the matter."
+    quote: >-
+      This resolution is not an admission of wrongdoing on the part of the
+      Department of Social and Health Services. Unfortunately, we received some
+      disappointing rulings from the court that would require a lengthy and
+      expensive jury trial involving more than 200 individual plaintiffs to
+      resolve the matter.
   - tier: 2
     type: news
-    title: "Half billion in state agency settlement payouts backdrop for WA GOP oversight bill"
+    title: >-
+      Half billion in state agency settlement payouts backdrop for WA GOP
+      oversight bill
     publisher: Washington Examiner / The Center Square
-    author: "Carleen Johnson"
-    date: 2025-01-19
-    url: https://www.washingtonexaminer.com/news/3292139/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill/
-    archive_url: null
-    quote: "When we filed the bill, we hadn't even heard of this 'brown water' case involving the Special Commitment Center and McNeil Island, but now there are 7.3 million more reasons to take action."
+    author: Carleen Johnson
+    date: 2025-01-19T00:00:00.000Z
+    url: >-
+      https://www.washingtonexaminer.com/news/3292139/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill/
+    archive_url: >-
+      http://web.archive.org/web/20260522221155/https://www.washingtonexaminer.com/news/3292139/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill/
+    quote: >-
+      When we filed the bill, we hadn't even heard of this 'brown water' case
+      involving the Special Commitment Center and McNeil Island, but now there
+      are 7.3 million more reasons to take action.
   - tier: 2
     type: news
-    title: "Half billion in state agency settlement payouts backdrop for WA GOP oversight bill"
+    title: >-
+      Half billion in state agency settlement payouts backdrop for WA GOP
+      oversight bill
     publisher: Denver Gazette / The Center Square
-    author: "Carleen Johnson"
-    date: 2025-01-19
-    url: https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
+    author: Carleen Johnson
+    date: 2025-01-19T00:00:00.000Z
+    url: >-
+      https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
     archive_url: null
-
-# === REFORM LINKAGE ===
 reform_argument: |
   The brown water case at the Special Commitment Center illustrates two
   overlapping governance failures. First, a civil commitment facility
@@ -90,8 +105,6 @@ reform_argument: |
   The brown water settlement and R.R. v. DSHS together reflect a
   pattern of DSHS failing to meet basic operational and treatment
   obligations at the same facility.
-
-# === GOVERNANCE METADATA ===
 review_status: draft
 retraction_note: null
 contributor: vn

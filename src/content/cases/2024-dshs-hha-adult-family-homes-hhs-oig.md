@@ -1,23 +1,20 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DSHS-HHA-OIG
-title: "HHS OIG — Washington adult family home oversight; 17 of 20 homes failed health and safety standards; COVID inspection suspension unremediated up to 3 years"
+title: >-
+  HHS OIG — Washington adult family home oversight; 17 of 20 homes failed health
+  and safety standards; COVID inspection suspension unremediated up to 3 years
 slug: dshs-hha-adult-family-homes-hhs-oig
-date_surfaced: 2024-11-13
-date_conduct_start: 2023-01-01
-date_conduct_end: 2024-12-31
-last_updated: 2026-05-22
-last_verified: 2026-05-22
-
-# === ACTORS ===
+date_surfaced: 2024-11-13T00:00:00.000Z
+date_conduct_start: 2023-01-01T00:00:00.000Z
+date_conduct_end: 2024-12-31T00:00:00.000Z
+last_updated: 2026-05-22T00:00:00.000Z
+last_verified: 2026-05-22T00:00:00.000Z
 actors:
   - name: Washington DSHS Home and Community Services
     role_type: agency
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
@@ -26,68 +23,110 @@ reforms_implicated:
   - federal_oversight_response
   - dsh_long_term_care_oversight
   - independent_inspector_general
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "HHS OIG published report OEI-09-23-00370 (November 2024) finding that 17 of 20 Washington adult family homes inspected did not comply with at least one health and safety requirement, and 19 of 20 did not comply with at least one administrative requirement, for a total of 214 instances of noncompliance. The OIG attributed the compliance gaps in part to COVID-19 pandemic inspection suspensions that were never fully remediated — some homes had not been inspected for up to 3 years. Washington state's oversight of adult family home licensure and inspection was determined inadequate to ensure compliance with federal Medicaid waiver requirements. OIG recommended CMS take corrective action to strengthen oversight."
-
-# === SOURCES ===
+outcome_summary: >-
+  HHS OIG published report OEI-09-23-00370 (November 2024) finding that 17 of 20
+  Washington adult family homes inspected did not comply with at least one
+  health and safety requirement, and 19 of 20 did not comply with at least one
+  administrative requirement, for a total of 214 instances of noncompliance. The
+  OIG attributed the compliance gaps in part to COVID-19 pandemic inspection
+  suspensions that were never fully remediated — some homes had not been
+  inspected for up to 3 years. Washington state's oversight of adult family home
+  licensure and inspection was determined inadequate to ensure compliance with
+  federal Medicaid waiver requirements. OIG recommended CMS take corrective
+  action to strengthen oversight.
 sources:
   - tier: 1
     type: federal_oversight_report
-    title: "Washington State's Oversight Could Better Ensure That Adult Family Homes Comply With Health and Safety and Administrative Requirements (OEI-09-23-00370)"
+    title: >-
+      Washington State's Oversight Could Better Ensure That Adult Family Homes
+      Comply With Health and Safety and Administrative Requirements
+      (OEI-09-23-00370)
     publisher: HHS Office of Inspector General
-    date: 2024-11-13
-    url: https://oig.hhs.gov/reports/all/2024/washington-states-oversight-could-better-ensure-that-adult-family-homes-comply-with-health-and-safety-and-administrative-requirements/
-    archive_url: null
-    quote: "17 of the 20 family homes did not comply with one or more health and safety requirements. 19 of the 20 family homes did not comply with one or more administrative requirements."
-
-# === REFORM LINKAGE ===
-reform_argument: |
+    date: 2024-11-13T00:00:00.000Z
+    url: >-
+      https://oig.hhs.gov/reports/all/2024/washington-states-oversight-could-better-ensure-that-adult-family-homes-comply-with-health-and-safety-and-administrative-requirements/
+    archive_url: >-
+      https://web.archive.org/web/20260522221030/https://oig.hhs.gov/reports/all/2024/washington-states-oversight-could-better-ensure-that-adult-family-homes-comply-with-health-and-safety-and-administrative-requirements/
+    quote: >-
+      17 of the 20 family homes did not comply with one or more health and
+      safety requirements. 19 of the 20 family homes did not comply with one or
+      more administrative requirements.
+reform_argument: >
   The HHS OIG adult family home audit is federal oversight reaching down into
+
   a state-licensed long-term care program and finding state oversight
+
   inadequate. The pattern — state regulatory failure prompts federal auditors
+
   to audit the state's oversight program directly — is the same federal-
+
   escalation dynamic that the DOJ CRIPA investigation of WCCW (WA-2026-DOJ-
+
   CRIPA-WCCW) represents for corrections. In both cases, Washington's own
+
   oversight infrastructure failed to identify or correct the harm before a
+
   federal agency stepped in.
 
+
   The proximate cause identified by OIG is the COVID-19 pandemic inspection
+
   suspension that was never fully remediated. Homes that went uninspected for
+
   up to three years during and after the pandemic were allowed to continue
+
   operating without the health and safety verification required under federal
+
   Medicaid waiver rules. The decision not to return to full inspection
+
   schedules after the pandemic — or to conduct catch-up inspections for
+
   homes that fell behind — was an administrative choice with predictable
+
   consequences: 214 compliance violations across 20 homes, 17 of which failed
+
   at least one health and safety standard.
 
+
   Adult family homes are among Washington's most vulnerable long-term care
+
   settings: typically small (2-6 residents), operated out of private residences,
+
   and serving individuals who may be elderly, physically disabled, or
+
   cognitively impaired. Residents are often unable to self-advocate or report
+
   violations. The inspection regime is the primary accountability mechanism.
+
   When that regime lapses — even for pandemic reasons — there is no substitute
+
   enforcement pathway.
 
-  The reform argument is structural: post-emergency remediation of inspection
-  backlogs should be mandatory, time-bounded, and tracked independently.
-  DSHS Home and Community Services administering a self-directed catch-up
-  inspection plan without independent verification is the same structure that
-  produced the inspection lapse in the first place. An independent oversight
-  function reporting to the Legislature, with statutory authority to track
-  inspection compliance rates for licensed long-term care settings, would have
-  identified the post-pandemic backlog and triggered mandatory catch-up before
-  a federal OIG audit was required. See [reform: dsh_long_term_care_oversight],
-  [reform: federal_oversight_response], and [reform: independent_inspector_general].
 
-# === GOVERNANCE METADATA ===
+  The reform argument is structural: post-emergency remediation of inspection
+
+  backlogs should be mandatory, time-bounded, and tracked independently.
+
+  DSHS Home and Community Services administering a self-directed catch-up
+
+  inspection plan without independent verification is the same structure that
+
+  produced the inspection lapse in the first place. An independent oversight
+
+  function reporting to the Legislature, with statutory authority to track
+
+  inspection compliance rates for licensed long-term care settings, would have
+
+  identified the post-pandemic backlog and triggered mandatory catch-up before
+
+  a federal OIG audit was required. See [reform: dsh_long_term_care_oversight],
+
+  [reform: federal_oversight_response], and [reform:
+  independent_inspector_general].
 review_status: draft
 retraction_note: null
 contributor: vn

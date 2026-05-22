@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DOC-UFR
-title: "OCO FY2024 Unexpected Fatality Review — 26 unexpected prisoner deaths, 13 without corrective action plans"
+title: >-
+  OCO FY2024 Unexpected Fatality Review — 26 unexpected prisoner deaths, 13
+  without corrective action plans
 slug: doc-oco-unexpected-fatality-review
-date_surfaced: 2025-01-10
-date_conduct_start: 2023-07-01
-date_conduct_end: 2024-06-30
-last_updated: 2026-05-22
-last_verified: 2026-05-22
-
-# === ACTORS ===
+date_surfaced: 2025-01-10T00:00:00.000Z
+date_conduct_start: 2023-07-01T00:00:00.000Z
+date_conduct_end: 2024-06-30T00:00:00.000Z
+last_updated: 2026-05-22T00:00:00.000Z
+last_verified: 2026-05-22T00:00:00.000Z
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -21,72 +20,103 @@ actors:
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - civil_rights_harm
 reforms_implicated:
   - independent_inspector_general
   - prison_medical_care
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "OCO's FY2024 UFR Annual Report, published January 10, 2025, reviewed 26 unexpected prisoner deaths during Fiscal Year 2024 (July 1, 2023 through June 30, 2024). 13 of the 26 deaths generated no DOC Corrective Action Plan. 71% of UFR Committee recommendations were designated as non-binding 'Consultative Remarks' with no staff assignment or tracking mechanism. DOC agreed to three OCO recommendations in the report but declined to produce CAPs for half of the reviewed deaths. Two deaths occurred in solitary confinement housing."
-
-# === SOURCES ===
+outcome_summary: >-
+  OCO's FY2024 UFR Annual Report, published January 10, 2025, reviewed 26
+  unexpected prisoner deaths during Fiscal Year 2024 (July 1, 2023 through June
+  30, 2024). 13 of the 26 deaths generated no DOC Corrective Action Plan. 71% of
+  UFR Committee recommendations were designated as non-binding 'Consultative
+  Remarks' with no staff assignment or tracking mechanism. DOC agreed to three
+  OCO recommendations in the report but declined to produce CAPs for half of the
+  reviewed deaths. Two deaths occurred in solitary confinement housing.
 sources:
   - tier: 1
     type: ombudsman_report
-    title: "Unexpected Fatality Review Recommendations — FY 2024 Annual Review of UFR Reports, Committee Recommendations, and Corrective Action Plans"
+    title: >-
+      Unexpected Fatality Review Recommendations — FY 2024 Annual Review of UFR
+      Reports, Committee Recommendations, and Corrective Action Plans
     publisher: Washington Office of the Corrections Ombuds
-    date: 2025-01-10
-    url: https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=OCO+2024+UFR+Annual+Report_0_5ec7a993-d1a3-4441-a42b-d2682c02b7a3.pdf
-    archive_url: null
-    quote: "WADOC chose to designate 71% of the recommendations as Consultative Remarks for WADOC to consider."
-
-# === REFORM LINKAGE ===
-reform_argument: |
+    date: 2025-01-10T00:00:00.000Z
+    url: >-
+      https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=OCO+2024+UFR+Annual+Report_0_5ec7a993-d1a3-4441-a42b-d2682c02b7a3.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522220956/https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=OCO+2024+UFR+Annual+Report_0_5ec7a993-d1a3-4441-a42b-d2682c02b7a3.pdf
+    quote: >-
+      WADOC chose to designate 71% of the recommendations as Consultative
+      Remarks for WADOC to consider.
+reform_argument: >
   The OCO UFR Annual Report presents a structural accountability problem
+
   embedded in DOC's implementation of RCW 72.09.770, which requires the
+
   department to conduct an unexpected fatality review for each unexpected
+
   death in custody. The law requires DOC to produce the review and may
+
   generate Corrective Action Plans; it does not require DOC to produce
+
   a CAP for every death.
 
+
   The result in FY2024: 13 of 26 unexpected deaths — 50% — produced no
+
   Corrective Action Plan. DOC designated 71% of all UFR Committee
+
   recommendations as "Consultative Remarks" — advisory comments with no
+
   staff assignment, no tracking mechanism, and no completion requirement.
+
   The OCO has consistently raised concerns about this designation pattern
+
   since 2022, and DOC agreed to begin tracking Consultative Remarks as
+
   part of the FY2024 report negotiation — but only after OCO's sustained
+
   pressure, and only for the prospective period.
 
+
   The overdose and suicide data are the most acute findings: 7 deaths by
+
   overdose (the leading cause), 5 by suicide (the second leading cause),
+
   with two suicides occurring in solitary confinement units specifically.
+
   The OCO's recommendation to provide universal access to the 988 Suicide
+
   and Crisis Lifeline inside DOC facilities was accepted by DOC in the
+
   report — but the fact that 988 access does not yet exist systemically
+
   inside Washington prisons is itself a documented gap.
 
-  Prison medical care oversight requires either: (a) a statutory requirement
-  that DOC produce a Corrective Action Plan for every unexpected death
-  reviewed by the UFR Committee, removing the CAP/Consultative Remark
-  discretion that DOC currently exercises; or (b) independent medical
-  review authority for in-custody deaths, exercised by the OCO or an
-  independent medical examiner, with binding findings. The current
-  structure gives DOC the discretion to designate away the accountability
-  mechanism in half of reviewed deaths. See [reform: independent_inspector_general]
-  and [reform: prison_medical_care].
 
-# === GOVERNANCE METADATA ===
+  Prison medical care oversight requires either: (a) a statutory requirement
+
+  that DOC produce a Corrective Action Plan for every unexpected death
+
+  reviewed by the UFR Committee, removing the CAP/Consultative Remark
+
+  discretion that DOC currently exercises; or (b) independent medical
+
+  review authority for in-custody deaths, exercised by the OCO or an
+
+  independent medical examiner, with binding findings. The current
+
+  structure gives DOC the discretion to designate away the accountability
+
+  mechanism in half of reviewed deaths. See [reform:
+  independent_inspector_general]
+
+  and [reform: prison_medical_care].
 review_status: draft
 retraction_note: null
 contributor: vn

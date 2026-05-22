@@ -1,19 +1,18 @@
 ---
-# === IDENTITY ===
 id: SEA-2024-001
-title: "SPD Chief Adrian Diaz — fired after OIG investigation found dishonesty, undisclosed relationship, hiring violations"
+title: >-
+  SPD Chief Adrian Diaz — fired after OIG investigation found dishonesty,
+  undisclosed relationship, hiring violations
 slug: spd-diaz-misconduct
-date_surfaced: 2024-05-29
-date_conduct_start: 2023-01-01
-date_conduct_end: 2024-12-17
-last_updated: 2026-05-20
-last_verified: 2026-05-20
-
-# === ACTORS ===
+date_surfaced: 2024-05-29T00:00:00.000Z
+date_conduct_start: 2023-01-01T00:00:00.000Z
+date_conduct_end: 2024-12-17T00:00:00.000Z
+last_updated: 2026-05-20T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Adrian Diaz
     role_type: bureaucrat
-    title: Chief of Police, Seattle Police Department (former)
+    title: 'Chief of Police, Seattle Police Department (former)'
     party: null
     jurisdiction: City of Seattle
   - name: Jamie Tompkins
@@ -26,8 +25,6 @@ actors:
     title: Mayor of Seattle
     party: D
     jurisdiction: City of Seattle
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - conflict_of_interest
@@ -37,63 +34,80 @@ reforms_implicated:
   - independent_inspector_general
   - personnel_oversight
   - executive_accountability
-
-# === SCALE ===
 dollars_at_issue: 338000
-dollars_basis: "Diaz retained his $338,000 chief salary for approximately six months in a 'special projects' role after being demoted as chief in May 2024 before being terminated in December 2024. Diaz subsequently filed a $10 million tort claim against the city alleging wrongful discharge."
+dollars_basis: >-
+  Diaz retained his $338,000 chief salary for approximately six months in a
+  'special projects' role after being demoted as chief in May 2024 before being
+  terminated in December 2024. Diaz subsequently filed a $10 million tort claim
+  against the city alleging wrongful discharge.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "OIG investigation concluded Diaz violated SPD policies on dishonesty, professionalism, conflict-of-interest disclosure, and improper personal relationships. Diaz was terminated December 17, 2024. Tompkins resigned November 8, 2024 amid allegations she lied to investigators and falsified evidence (altering handwriting on a birthday card). Diaz filed a $10M wrongful-termination tort claim against the City. No criminal charges filed."
-
-# === SOURCES ===
+outcome_summary: >-
+  OIG investigation concluded Diaz violated SPD policies on dishonesty,
+  professionalism, conflict-of-interest disclosure, and improper personal
+  relationships. Diaz was terminated December 17, 2024. Tompkins resigned
+  November 8, 2024 amid allegations she lied to investigators and falsified
+  evidence (altering handwriting on a birthday card). Diaz filed a $10M
+  wrongful-termination tort claim against the City. No criminal charges filed.
 sources:
   - tier: 1
     type: ig_report
-    title: "OIG Findings Letter — Adrian Diaz Investigation (Case 2023OIG-0286)"
+    title: OIG Findings Letter — Adrian Diaz Investigation (Case 2023OIG-0286)
     publisher: Seattle Office of Inspector General
-    date: 2024-12-17
-    url: https://www.seattle.gov/documents/departments/oig/investigations/cop%20case%20documents/2023opa0286findingsletter.pdf
-    archive_url: null
+    date: 2024-12-17T00:00:00.000Z
+    url: >-
+      https://www.seattle.gov/documents/departments/oig/investigations/cop%20case%20documents/2023opa0286findingsletter.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522222526/https://www.seattle.gov/documents/departments/oig/investigations/cop%20case%20documents/2023opa0286findingsletter.pdf
   - tier: 2
     type: news
-    title: "Former Seattle Police Chief Adrian Diaz fired by Mayor Harrell"
+    title: Former Seattle Police Chief Adrian Diaz fired by Mayor Harrell
     publisher: Cascade PBS
-    date: 2024-12-17
-    url: https://www.cascadepbs.org/politics/2024/12/former-seattle-police-chief-adrian-diaz-fired-mayor-harrell/
-    archive_url: null
+    date: 2024-12-17T00:00:00.000Z
+    url: >-
+      https://www.cascadepbs.org/politics/2024/12/former-seattle-police-chief-adrian-diaz-fired-mayor-harrell/
+    archive_url: >-
+      https://web.archive.org/web/20260522222536/https://www.cascadepbs.org/politics/2024/12/former-seattle-police-chief-adrian-diaz-fired-mayor-harrell/
   - tier: 2
     type: news
-    title: "Witnesses In Diaz Investigation Say Former Chief 'Obsessed' Over Affair Rumors, Asked Employees to Use WhatsApp to Evade Disclosure"
+    title: >-
+      Witnesses In Diaz Investigation Say Former Chief 'Obsessed' Over Affair
+      Rumors, Asked Employees to Use WhatsApp to Evade Disclosure
     publisher: PubliCola
     author: Erica C. Barnett
-    date: 2025-08-15
-    url: https://publicola.com/2025/08/15/witnesses-in-diaz-investigation-say-former-chief-obsessed-over-affair-rumors-asked-employees-to-use-whatsapp-to-evade-disclosure/
-    archive_url: null
+    date: 2025-08-15T00:00:00.000Z
+    url: >-
+      https://publicola.com/2025/08/15/witnesses-in-diaz-investigation-say-former-chief-obsessed-over-affair-rumors-asked-employees-to-use-whatsapp-to-evade-disclosure/
+    archive_url: >-
+      https://web.archive.org/web/20260522222605/https://publicola.com/2025/08/15/witnesses-in-diaz-investigation-say-former-chief-obsessed-over-affair-rumors-asked-employees-to-use-whatsapp-to-evade-disclosure/
   - tier: 2
     type: news
-    title: "Chief of staff to former SPD chief Adrian Diaz resigns amid allegations she lied to investigators"
+    title: >-
+      Chief of staff to former SPD chief Adrian Diaz resigns amid allegations
+      she lied to investigators
     publisher: PubliCola
-    date: 2024-11-08
-    url: https://publicola.com/2024/11/08/chief-of-staff-to-former-spd-chief-adrian-diaz-resigns-amid-allegations-she-lied-to-investigators/
-    archive_url: null
+    date: 2024-11-08T00:00:00.000Z
+    url: >-
+      https://publicola.com/2024/11/08/chief-of-staff-to-former-spd-chief-adrian-diaz-resigns-amid-allegations-she-lied-to-investigators/
+    archive_url: >-
+      https://web.archive.org/web/20260522222634/https://publicola.com/2024/11/08/chief-of-staff-to-former-spd-chief-adrian-diaz-resigns-amid-allegations-she-lied-to-investigators/
   - tier: 2
     type: news
-    title: "Former Seattle police chief Adrian Diaz files $10M claim against city"
+    title: Former Seattle police chief Adrian Diaz files $10M claim against city
     publisher: Seattle Times
-    date: 2024-10-15
-    url: https://www.seattletimes.com/seattle-news/politics/former-seattle-police-chief-adrian-diaz-files-10m-claim-against-city/
-    archive_url: null
+    date: 2024-10-15T00:00:00.000Z
+    url: >-
+      https://www.seattletimes.com/seattle-news/politics/former-seattle-police-chief-adrian-diaz-files-10m-claim-against-city/
+    archive_url: >-
+      https://web.archive.org/web/20260522222657/https://www.seattletimes.com/seattle-news/politics/former-seattle-police-chief-adrian-diaz-files-10m-claim-against-city/
   - tier: 2
     type: news
-    title: "New documents, recordings reveal investigation into fired SPD chief"
+    title: 'New documents, recordings reveal investigation into fired SPD chief'
     publisher: KOMO News
-    date: 2025-06-04
-    url: https://www.youtube.com/watch?v=5Zrbz59XW9E
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2025-06-04T00:00:00.000Z
+    url: 'https://www.youtube.com/watch?v=5Zrbz59XW9E'
+    archive_url: >-
+      https://web.archive.org/web/20260522222746/https://www.youtube.com/watch?v=5Zrbz59XW9E
 reform_argument: |
   The OIG investigation worked as designed — it produced a documented finding
   of policy violation. The structural concern is the gap between the OIG
@@ -103,8 +117,6 @@ reform_argument: |
   timelines for disposition of substantiated misconduct findings — and
   independent council review of high-paid administrative-leave decisions —
   would address the salary-during-investigation gap.
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn

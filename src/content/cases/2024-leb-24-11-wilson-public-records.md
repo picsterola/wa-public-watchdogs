@@ -1,23 +1,20 @@
 ---
-# === IDENTITY ===
 id: WA-2024-011
-title: "LEB Case 24-11 — Sen. Jeff Wilson, alleged failure to respond to public records request for text messages on official phone"
+title: >-
+  LEB Case 24-11 — Sen. Jeff Wilson, alleged failure to respond to public
+  records request for text messages on official phone
 slug: leb-24-11-wilson-public-records
-date_surfaced: 2024-11-01
+date_surfaced: 2024-11-01T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Jeff Wilson
     role_type: elected
     title: Washington State Senator
     party: R
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: alleged
 severity_type:
   - misuse_public_resources
@@ -25,35 +22,31 @@ reforms_implicated:
   - ethics_enforcement_teeth
   - public_resources_firewall
   - leb_transparency
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "LEB issued opinion in 2024. Full opinion outcome not independently confirmed in Tier 1 or Tier 2 sources available at the time of this record."
-
-# === SOURCES ===
+outcome_summary: >-
+  LEB issued opinion in 2024. Full opinion outcome not independently confirmed
+  in Tier 1 or Tier 2 sources available at the time of this record.
 sources:
   - tier: 1
     type: leb_opinion
-    title: "Legislative Ethics Board — Case 24-11: Failure to Respond to Public Disclosure Request for Text Messages on Official Phone"
+    title: >-
+      Legislative Ethics Board — Case 24-11: Failure to Respond to Public
+      Disclosure Request for Text Messages on Official Phone
     publisher: Washington State Legislative Ethics Board
-    date: 2024-11-01
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-11/
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2024-11-01T00:00:00.000Z
+    url: >-
+      https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-11/
+    archive_url: >-
+      https://web.archive.org/web/20260522221825/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-11/
 reform_argument: |
   Case 24-11 is the public-records side of the same electronic-resources
   cluster as 24-09 and 24-10. 24-09 and 24-10 are about what goes on an
   official website. 24-11 is about what has to be produced from an official
   phone. Same underlying question: what counts as a public resource, and
   what duties attach when an officeholder uses it.
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn

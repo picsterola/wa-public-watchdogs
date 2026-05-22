@@ -1,23 +1,20 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DCYF-OAKLEY-CARLSON
-title: "Oakley Carlson DCYF child fatality review — mandatory statutory review for high-profile presumed-deceased child"
+title: >-
+  Oakley Carlson DCYF child fatality review — mandatory statutory review for
+  high-profile presumed-deceased child
 slug: dcyf-oakley-carlson-fatality-review
-date_surfaced: 2026-02-18
-date_conduct_start: 2016-01-01
-date_conduct_end: 2022-02-01
-last_updated: 2026-07-21
-last_verified: 2026-07-21
-
-# === ACTORS ===
+date_surfaced: 2026-02-18T00:00:00.000Z
+date_conduct_start: 2016-01-01T00:00:00.000Z
+date_conduct_end: 2022-02-01T00:00:00.000Z
+last_updated: 2026-07-21T00:00:00.000Z
+last_verified: 2026-07-21T00:00:00.000Z
 actors:
-  - name: Washington State Department of Children, Youth, and Families
+  - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - civil_rights_harm
@@ -26,98 +23,152 @@ reforms_implicated:
   - independent_inspector_general
   - child_welfare_oversight
   - mandatory_fatality_review
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "DCYF's mandatory child fatality review committee, convened following Oakley Carlson's legal declaration of death in July 2025, published its report in February 2026 (finalized December 2025). The review documented 14 DCYF referrals involving the family over approximately eight years, of which only 8 met the legal threshold for a CPS investigation or Family Assessment Response intervention. The review offered improvement opportunities but no final recommendations, and stated explicitly that the identified improvement opportunities are not intended to suggest a direct correlation with the presumed fatality. No criminal charges have been filed against Oakley's parents in connection with her disappearance. Both biological parents remain persons of interest."
-
-# === SOURCES ===
+outcome_summary: >-
+  DCYF's mandatory child fatality review committee, convened following Oakley
+  Carlson's legal declaration of death in July 2025, published its report in
+  February 2026 (finalized December 2025). The review documented 14 DCYF
+  referrals involving the family over approximately eight years, of which only 8
+  met the legal threshold for a CPS investigation or Family Assessment Response
+  intervention. The review offered improvement opportunities but no final
+  recommendations, and stated explicitly that the identified improvement
+  opportunities are not intended to suggest a direct correlation with the
+  presumed fatality. No criminal charges have been filed against Oakley's
+  parents in connection with her disappearance. Both biological parents remain
+  persons of interest.
 sources:
   - tier: 1
     type: agency_statement
-    title: "DCYF mandatory child fatality review — Oakley Carlson (initials O.C., CY2021-2022 case)"
-    publisher: Washington State Department of Children, Youth, and Families
-    date: 2026-02-18
-    url: https://dcyf.wa.gov/practice/oiaa/reports/child-fatality/child-welfare
-    archive_url: null
-    quote: "Any identified improvement opportunities are not intended to suggest a direct correlation with the presumed fatality in this case. Improvement opportunities are defined as the gap between what the family needed and what they received from the child welfare system."
+    title: >-
+      DCYF mandatory child fatality review — Oakley Carlson (initials O.C.,
+      CY2021-2022 case)
+    publisher: 'Washington State Department of Children, Youth, and Families'
+    date: 2026-02-18T00:00:00.000Z
+    url: 'https://dcyf.wa.gov/practice/oiaa/reports/child-fatality/child-welfare'
+    archive_url: >-
+      http://web.archive.org/web/20260212195007/https://www.dcyf.wa.gov/practice/oiaa/reports/child-fatality/child-welfare
+    quote: >-
+      Any identified improvement opportunities are not intended to suggest a
+      direct correlation with the presumed fatality in this case. Improvement
+      opportunities are defined as the gap between what the family needed and
+      what they received from the child welfare system.
   - tier: 2
     type: news
-    title: "State fatality review details DCYF gaps and strengths in missing Oakley Carlson case"
+    title: >-
+      State fatality review details DCYF gaps and strengths in missing Oakley
+      Carlson case
     publisher: KOMO News
     author: Michelle Esteban
-    date: 2026-02-18
-    url: https://komonews.com/news/local/oakley-carlson-july-2025-washington-state-department-of-children-youth-families-dcyf-grays-harbor-county-documentation-law-enforcement-child-fatality-report-agency-contracted-assessments
-    archive_url: null
+    date: 2026-02-18T00:00:00.000Z
+    url: >-
+      https://komonews.com/news/local/oakley-carlson-july-2025-washington-state-department-of-children-youth-families-dcyf-grays-harbor-county-documentation-law-enforcement-child-fatality-report-agency-contracted-assessments
+    archive_url: >-
+      https://web.archive.org/web/20260522220131/https://komonews.com/news/local/oakley-carlson-july-2025-washington-state-department-of-children-youth-families-dcyf-grays-harbor-county-documentation-law-enforcement-child-fatality-report-agency-contracted-assessments
     quote: null
   - tier: 2
     type: news
-    title: "Report reveals what preceded Oakley Carlson's 2021 disappearance in WA"
+    title: Report reveals what preceded Oakley Carlson's 2021 disappearance in WA
     publisher: Seattle Times
     author: null
-    date: 2026-02-19
-    url: https://www.seattletimes.com/seattle-news/law-justice/report-reveals-what-preceded-oakley-carlsons-2021-disappearance-in-wa/
-    archive_url: null
+    date: 2026-02-19T00:00:00.000Z
+    url: >-
+      https://www.seattletimes.com/seattle-news/law-justice/report-reveals-what-preceded-oakley-carlsons-2021-disappearance-in-wa/
+    archive_url: >-
+      https://web.archive.org/web/20260522220258/https://www.seattletimes.com/seattle-news/law-justice/report-reveals-what-preceded-oakley-carlsons-2021-disappearance-in-wa/
     quote: null
   - tier: 2
     type: news
-    title: "Report reveals years of warnings before 5-year-old Oakley Carlson disappeared from WA home"
+    title: >-
+      Report reveals years of warnings before 5-year-old Oakley Carlson
+      disappeared from WA home
     publisher: The Independent
-    date: 2026-02-20
-    url: https://www.independent.co.uk/news/world/americas/crime/missing-oakley-carlson-warnings-new-report-b2924583.html
+    date: 2026-02-20T00:00:00.000Z
+    url: >-
+      https://www.independent.co.uk/news/world/americas/crime/missing-oakley-carlson-warnings-new-report-b2924583.html
     archive_url: null
     quote: null
-
-# === REFORM LINKAGE ===
-reform_argument: |
+reform_argument: >
   The Oakley Carlson fatality review's registry value is not the individual
+
   narrative — it is the structural pattern the review surfaces and the way
+
   that pattern replicates across OFCO's aggregate caseload.
 
+
   The review documented 14 referrals over eight years, with 6 not meeting
+
   the legal threshold for a CPS investigation or Family Assessment Response
+
   intervention. The improvement opportunities named — better documentation
+
   of physical observations, more training on domestic violence and family
+
   isolation dynamics, improved oversight of contracted assessments, better
+
   rural service access — are not Oakley Carlson-specific findings. They are
+
   the same structural gaps that appear across OFCO's 2024 and 2025 Critical
+
   Incident Reports: documentation failures, rural service gaps, inadequate
+
   assessment of co-occurring domestic violence, and limited contracted
+
   service oversight (see WA-2024-DCYF-OFCO-FATALITIES).
 
+
   The review also documented the effect of shifting permanency plans: DCYF
+
   filed for dependency and removed the children, parents engaged with
+
   services, the permanency plan shifted toward trial return home, courts
+
   closed the dependency case in June 2020, and Oakley was last seen in
+
   February 2021. DCYF had one more contact in January 2021 — a caseworker
+
   was denied entry, briefly observed Oakley through a glass door, and noted
+
   no concerns. The case was closed in March 2021. She was not reported
+
   missing until December 2021.
 
+
   The review committee explicitly declined to issue final recommendations
+
   and stated that improvement opportunities should not be read as direct
+
   causal factors in the presumed fatality. That framing is standard for
+
   DCYF fatality reviews, which are not designed as forensic investigations.
+
   It is also the structural limitation of the review process: a committee
+
   that cannot compel testimony, cannot access information beyond DCYF's own
+
   case records, and is instructed not to draw causal conclusions produces
+
   improvement opportunities — not accountability findings.
 
-  When a single fatality review surfaces patterns that recur across OFCO's
-  broader caseload, the corrective response cannot be confined to that case
-  file. The Oakley Carlson review belongs in the registry within the same
-  structural-failure framework as the OFCO aggregate findings — not as a
-  standalone high-profile case but as evidence that the patterns OFCO
-  documents at aggregate scale appear in individual reviewed cases.
-  See [reform: independent_inspector_general], [reform: child_welfare_oversight],
-  and [reform: mandatory_fatality_review].
 
-# === GOVERNANCE METADATA ===
+  When a single fatality review surfaces patterns that recur across OFCO's
+
+  broader caseload, the corrective response cannot be confined to that case
+
+  file. The Oakley Carlson review belongs in the registry within the same
+
+  structural-failure framework as the OFCO aggregate findings — not as a
+
+  standalone high-profile case but as evidence that the patterns OFCO
+
+  documents at aggregate scale appear in individual reviewed cases.
+
+  See [reform: independent_inspector_general], [reform:
+  child_welfare_oversight],
+
+  and [reform: mandatory_fatality_review].
 review_status: draft
 retraction_note: null
 contributor: vn

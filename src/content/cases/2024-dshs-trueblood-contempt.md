@@ -1,91 +1,134 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DSHS-TRUEBLOOD
-title: "Trueblood v. DSHS — federal court issues third contempt order, $100M in fines for decade of unconstitutional competency-services delays"
+title: >-
+  Trueblood v. DSHS — federal court issues third contempt order, $100M in fines
+  for decade of unconstitutional competency-services delays
 slug: dshs-trueblood-contempt
-date_surfaced: 2023-07-07
-date_conduct_start: 2015-04-01
+date_surfaced: 2023-07-07T00:00:00.000Z
+date_conduct_start: 2015-04-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Department of Social and Health Services
     role_type: agency
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: adjudicated
 severity_type:
   - civil_rights_harm
 reforms_implicated:
   - behavioral_health_capacity
   - independent_inspector_general
-
-# === SCALE ===
 dollars_at_issue: 100000000
-dollars_basis: "$100 million in contempt fines ordered by U.S. District Judge Marsha J. Pechman on July 7, 2023, representing the third contempt finding against DSHS in A.B. by and through Trueblood et al. v. Washington State DSHS. The $100M was paid by the state in fiscal year 2024 after DSHS requested an installment plan from the court. Prior contempt fines in the case exceeded $80M (2018), bringing total court-ordered fines to well over $180M across the life of the litigation."
+dollars_basis: >-
+  $100 million in contempt fines ordered by U.S. District Judge Marsha J.
+  Pechman on July 7, 2023, representing the third contempt finding against DSHS
+  in A.B. by and through Trueblood et al. v. Washington State DSHS. The $100M
+  was paid by the state in fiscal year 2024 after DSHS requested an installment
+  plan from the court. Prior contempt fines in the case exceeded $80M (2018),
+  bringing total court-ordered fines to well over $180M across the life of the
+  litigation.
 dollars_confirmed_loss: 100000000
-
-# === STATUS ===
 legal_status: settled
-outcome_summary: "U.S. District Judge Marsha J. Pechman issued the third contempt order against DSHS on July 7, 2023, finding that DSHS had breached the 2018 contempt settlement agreement by diverting forensic beds to long-term civil commitment patients rather than Trueblood class members awaiting competency evaluation and restoration services. The court ordered payment of $100M in contempt fines and required DSHS to transfer or discharge civil conversion patients within 60 days. DSHS paid the $100M fine in FY2024. Phase III of the settlement rollout (Thurston, Mason, Kitsap, Jefferson, and Clallam counties) was implemented in 2023–2025. As of 2025, DSHS reported first-time compliance in some counties. Disability Rights Washington noted that class members continue to wait weeks and months in some jurisdictions."
-
-# === SOURCES ===
+outcome_summary: >-
+  U.S. District Judge Marsha J. Pechman issued the third contempt order against
+  DSHS on July 7, 2023, finding that DSHS had breached the 2018 contempt
+  settlement agreement by diverting forensic beds to long-term civil commitment
+  patients rather than Trueblood class members awaiting competency evaluation
+  and restoration services. The court ordered payment of $100M in contempt fines
+  and required DSHS to transfer or discharge civil conversion patients within 60
+  days. DSHS paid the $100M fine in FY2024. Phase III of the settlement rollout
+  (Thurston, Mason, Kitsap, Jefferson, and Clallam counties) was implemented in
+  2023–2025. As of 2025, DSHS reported first-time compliance in some counties.
+  Disability Rights Washington noted that class members continue to wait weeks
+  and months in some jurisdictions.
 sources:
   - tier: 1
     type: court_filing
-    title: "A.B. by and through Trueblood et al. v. Washington State DSHS — Disability Rights Washington case page"
+    title: >-
+      A.B. by and through Trueblood et al. v. Washington State DSHS — Disability
+      Rights Washington case page
     publisher: Disability Rights Washington
-    date: 2024-05-21
-    url: https://disabilityrightswa.org/cases/trueblood/
-    archive_url: null
-    quote: "DSHS has never once been in compliance"
+    date: 2024-05-21T00:00:00.000Z
+    url: 'https://disabilityrightswa.org/cases/trueblood/'
+    archive_url: >-
+      https://web.archive.org/web/20260522221450/https://disabilityrightswa.org/cases/trueblood/
+    quote: DSHS has never once been in compliance
   - tier: 2
     type: news
-    title: "Federal judge fines WA agency $100 million for mental health failures"
+    title: Federal judge fines WA agency $100 million for mental health failures
     publisher: Seattle Times
-    date: 2023-07-07
-    url: https://www.seattletimes.com/seattle-news/mental-health/federal-judge-fines-wa-agency-100-million-for-mental-health-failures/
-    archive_url: null
-    quote: "The primary reason [people who fall under the settlement's terms] suffered was DSHS's own lack of foresight, creativity, planning, and timely response to a crisis of its own making"
-
-# === REFORM LINKAGE ===
-reform_argument: |
+    date: 2023-07-07T00:00:00.000Z
+    url: >-
+      https://www.seattletimes.com/seattle-news/mental-health/federal-judge-fines-wa-agency-100-million-for-mental-health-failures/
+    archive_url: >-
+      https://web.archive.org/web/20260522221513/https://www.seattletimes.com/seattle-news/mental-health/federal-judge-fines-wa-agency-100-million-for-mental-health-failures/
+    quote: >-
+      The primary reason [people who fall under the settlement's terms] suffered
+      was DSHS's own lack of foresight, creativity, planning, and timely
+      response to a crisis of its own making
+reform_argument: >
   The Trueblood case is the clearest available example in the registry of a
+
   structural failure that persisted because the agency being held accountable
+
   was also the agency responsible for designing the remedy. DSHS was found in
+
   contempt in 2016, entered a settlement in 2018, was found in breach of that
+
   settlement in 2023, paid $100M in fines in 2024, and as of 2025 reports
+
   first-time compliance in some counties — a decade after the original court
+
   order. The court's finding that "DSHS has never once been in compliance" was
+
   made after three contempt proceedings.
 
-  The structural argument for an independent behavioral health oversight function —
-  an inspector general or monitor with authority outside the executive branch and
+
+  The structural argument for an independent behavioral health oversight
+  function —
+
+  an inspector general or monitor with authority outside the executive branch
+  and
+
   reporting to the Legislature — is made by the Trueblood timeline itself. The
+
   court monitor (Dr. Danna Mauch) provided external oversight, but the monitor's
+
   role was advisory and compliance-checking rather than operational. The fines
+
   accumulated because there was no mechanism to compel DSHS to resolve the bed
+
   shortage other than contempt proceedings initiated by the plaintiffs. An
+
   independent inspector general with proactive authority over behavioral health
+
   capacity planning would have identified the civil conversion bed conflict —
+
   the specific mechanism that triggered the 2023 contempt order — years earlier.
 
-  The DSHS behavioral health capacity failure also intersects with the King County
-  pattern documented in KC-2025-001 and KC-2026-008: when state-level capacity
-  fails, counties absorb the cost in the form of longer jail stays, higher mental
-  health crisis call volume, and community service demand that exceeds county
-  program capacity. The $100M in contempt fines paid by the state in 2024 did
-  not go to the individuals who waited in jail; under the court's 2016 order,
-  those funds were directed to diversion programs — a structural remedy, not
-  individual compensation. See [reform: behavioral_health_capacity] and
-  [reform: independent_inspector_general].
 
-# === GOVERNANCE METADATA ===
+  The DSHS behavioral health capacity failure also intersects with the King
+  County
+
+  pattern documented in KC-2025-001 and KC-2026-008: when state-level capacity
+
+  fails, counties absorb the cost in the form of longer jail stays, higher
+  mental
+
+  health crisis call volume, and community service demand that exceeds county
+
+  program capacity. The $100M in contempt fines paid by the state in 2024 did
+
+  not go to the individuals who waited in jail; under the court's 2016 order,
+
+  those funds were directed to diversion programs — a structural remedy, not
+
+  individual compensation. See [reform: behavioral_health_capacity] and
+
+  [reform: independent_inspector_general].
 review_status: published
 retraction_note: null
 contributor: vn

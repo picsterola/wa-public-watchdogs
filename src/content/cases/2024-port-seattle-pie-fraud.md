@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: POS-2024-001
-title: "Port of Seattle — Partner in Employment contract fraud ($250K misappropriated, $509K Port contracts)"
+title: >-
+  Port of Seattle — Partner in Employment contract fraud ($250K misappropriated,
+  $509K Port contracts)
 slug: port-seattle-pie-fraud
-date_surfaced: 2024-12-01
-date_conduct_start: 2023-01-01
-date_conduct_end: 2024-08-31
-last_updated: 2026-05-20
-last_verified: 2026-05-20
-
-# === ACTORS ===
+date_surfaced: 2024-12-01T00:00:00.000Z
+date_conduct_start: 2023-01-01T00:00:00.000Z
+date_conduct_end: 2024-08-31T00:00:00.000Z
+last_updated: 2026-05-20T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Port of Seattle
     role_type: agency
@@ -18,7 +17,7 @@ actors:
     jurisdiction: King County
   - name: Hien Kieu
     role_type: nonprofit
-    title: Executive Director, Partner in Employment
+    title: 'Executive Director, Partner in Employment'
     party: null
     jurisdiction: King County
   - name: Partner in Employment (PIE)
@@ -28,16 +27,16 @@ actors:
     jurisdiction: King County
   - name: Bookda Gheisar
     role_type: bureaucrat
-    title: Senior Director, Office of Equity, Diversity, and Inclusion, Port of Seattle
+    title: >-
+      Senior Director, Office of Equity, Diversity, and Inclusion, Port of
+      Seattle
     party: null
     jurisdiction: King County
   - name: Anna Pavlik
     role_type: bureaucrat
-    title: Director, Workforce Development, Port of Seattle
+    title: 'Director, Workforce Development, Port of Seattle'
     party: null
     jurisdiction: King County
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - criminal_fraud
@@ -46,27 +45,34 @@ reforms_implicated:
   - nonprofit_subrecipient_monitoring
   - port_internal_audit_authority
   - workforce_program_verification
-
-# === SCALE ===
 dollars_at_issue: 509000
-dollars_basis: "Port Internal Audit Report #2024-17 (Dec 2024) documented approximately $250,000 misappropriated from Partner in Employment by its Executive Director. Total Port contracts with PIE totaled approximately $509,000. PIE reported 45 clients served in April 2024 (actual: 10) and 21 placements (actual: 0)."
+dollars_basis: >-
+  Port Internal Audit Report #2024-17 (Dec 2024) documented approximately
+  $250,000 misappropriated from Partner in Employment by its Executive Director.
+  Total Port contracts with PIE totaled approximately $509,000. PIE reported 45
+  clients served in April 2024 (actual: 10) and 21 placements (actual: 0).
 dollars_confirmed_loss: 250000
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "Port Internal Audit Report #2024-17 published December 2024. Documents $250K misappropriated by PIE Executive Director Hien Kieu, with falsified client-served and placement counts (PIE self-reported 45 clients served in April 2024 vs. actual 10; 21 placements vs. actual 0). Per the audit report itself: PIE reported the fraud to King County Sheriff's Department and a criminal investigation was opened, expected to conclude in late September 2024. As of last update, no charging decisions have been publicly announced and no charges have been filed against any individual. Port contracts with PIE suspended."
-
-# === SOURCES ===
+outcome_summary: >-
+  Port Internal Audit Report #2024-17 published December 2024. Documents $250K
+  misappropriated by PIE Executive Director Hien Kieu, with falsified
+  client-served and placement counts (PIE self-reported 45 clients served in
+  April 2024 vs. actual 10; 21 placements vs. actual 0). Per the audit report
+  itself: PIE reported the fraud to King County Sheriff's Department and a
+  criminal investigation was opened, expected to conclude in late September
+  2024. As of last update, no charging decisions have been publicly announced
+  and no charges have been filed against any individual. Port contracts with PIE
+  suspended.
 sources:
   - tier: 1
     type: audit
-    title: "Partner in Employment — Audit Report No. 2024-17"
+    title: Partner in Employment — Audit Report No. 2024-17
     publisher: Port of Seattle Internal Audit
-    date: 2024-12-01
-    url: https://www.portseattle.org/sites/default/files/2024-12/Partner%20in%20Employment-Audit%20Report%20No.%202024-17.pdf
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2024-12-01T00:00:00.000Z
+    url: >-
+      https://www.portseattle.org/sites/default/files/2024-12/Partner%20in%20Employment-Audit%20Report%20No.%202024-17.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522222227/https://www.portseattle.org/sites/default/files/2024-12/Partner%20in%20Employment-Audit%20Report%20No.%202024-17.pdf
 reform_argument: |
   PIE self-reported 45 clients served when actual was 10, and 21 job
   placements when actual was zero. The variance was caught only by a
@@ -76,8 +82,6 @@ reform_argument: |
   (2) Port internal audit authority and resourcing to act on red
   flags faster; (3) standard outcome-data verification protocols for
   workforce programs across regional agencies.
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn

@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DOC-SOLITARY
-title: "OCO Solitary Confinement Parts I & II — WA prisoners in segregation suicide at 33x national average; 400-page legislative report"
+title: >-
+  OCO Solitary Confinement Parts I & II — WA prisoners in segregation suicide at
+  33x national average; 400-page legislative report
 slug: doc-oco-solitary-confinement
-date_surfaced: 2024-06-30
-date_conduct_start: 2020-01-01
+date_surfaced: 2024-06-30T00:00:00.000Z
+date_conduct_start: 2020-01-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-22
-last_verified: 2026-05-22
-
-# === ACTORS ===
+last_updated: 2026-05-22T00:00:00.000Z
+last_verified: 2026-05-22T00:00:00.000Z
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -21,8 +20,6 @@ actors:
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - civil_rights_harm
@@ -31,50 +28,64 @@ reforms_implicated:
   - behavioral_health_capacity
   - independent_inspector_general
   - solitary_confinement_reform
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "OCO published two legislative reports in 2024 finding systemic and ongoing use of prolonged isolation in DOC facilities despite a 2021 legislative mandate and DOC's own 90% reduction pledge. DOC received approximately one-eighth of the funding the Legislature identified as necessary to achieve the 90% reduction goal under HB 1090. No corrective action with enforcement mechanism has been implemented as of the date of this registry entry."
-
-# === SOURCES ===
+outcome_summary: >-
+  OCO published two legislative reports in 2024 finding systemic and ongoing use
+  of prolonged isolation in DOC facilities despite a 2021 legislative mandate
+  and DOC's own 90% reduction pledge. DOC received approximately one-eighth of
+  the funding the Legislature identified as necessary to achieve the 90%
+  reduction goal under HB 1090. No corrective action with enforcement mechanism
+  has been implemented as of the date of this registry entry.
 sources:
   - tier: 1
     type: ombudsman_report
-    title: "Solitary Confinement: Part I — The Many Faces of Isolation in Washington Prisons"
+    title: >-
+      Solitary Confinement: Part I — The Many Faces of Isolation in Washington
+      Prisons
     publisher: Washington Office of the Corrections Ombuds
-    date: 2024-06-30
-    url: https://oco.wa.gov/sites/default/files/OCO_SolitaryConfinementReport_Part1_June2024.pdf
-    archive_url: null
-    quote: "More than 3,000 people have been officially in solitary confinement in Washington DOC — more than 20% of the prison population."
+    date: 2024-06-30T00:00:00.000Z
+    url: >-
+      https://oco.wa.gov/sites/default/files/OCO_SolitaryConfinementReport_Part1_June2024.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522220701/https://oco.wa.gov/sites/default/files/OCO_SolitaryConfinementReport_Part1_June2024.pdf
+    quote: >-
+      More than 3,000 people have been officially in solitary confinement in
+      Washington DOC — more than 20% of the prison population.
   - tier: 1
     type: ombudsman_report
-    title: "Solitary Confinement: Part II — Conditions, Restraints, and Self-Harm in Washington Segregation Units"
+    title: >-
+      Solitary Confinement: Part II — Conditions, Restraints, and Self-Harm in
+      Washington Segregation Units
     publisher: Washington Office of the Corrections Ombuds
-    date: 2024-09-19
-    url: https://oco.wa.gov/sites/default/files/Solitary%20Confinement%20Part%20II_0.pdf
-    archive_url: null
-    quote: "There were 14 deaths by suicide in DOC segregation units, a rate of almost 467 per 100,000 — dwarfing the United States average of 14.2."
+    date: 2024-09-19T00:00:00.000Z
+    url: >-
+      https://oco.wa.gov/sites/default/files/Solitary%20Confinement%20Part%20II_0.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522220718/https://oco.wa.gov/sites/default/files/Solitary%20Confinement%20Part%20II_0.pdf
+    quote: >-
+      There were 14 deaths by suicide in DOC segregation units, a rate of almost
+      467 per 100,000 — dwarfing the United States average of 14.2.
   - tier: 2
     type: news
-    title: "Report: Prisoners still routinely isolated in WA"
+    title: 'Report: Prisoners still routinely isolated in WA'
     publisher: Auburn Reporter
-    date: 2024-08-19
-    url: https://auburn-reporter.com/2024/08/19/report-prisoners-still-routinely-isolated-in-wa/
-    archive_url: null
+    date: 2024-08-19T00:00:00.000Z
+    url: >-
+      https://auburn-reporter.com/2024/08/19/report-prisoners-still-routinely-isolated-in-wa/
+    archive_url: >-
+      https://web.archive.org/web/20260522220732/https://www.auburn-reporter.com/2024/08/19/report-prisoners-still-routinely-isolated-in-wa/
   - tier: 2
     type: news
-    title: "'Eye Opening' Self-Harm Found in Washington DOC Solitary Confinement"
+    title: '''Eye Opening'' Self-Harm Found in Washington DOC Solitary Confinement'
     publisher: Prison Legal News
-    date: 2025-03-01
-    url: https://www.prisonlegalnews.org/news/2025/mar/1/eye-opening-self-harm-found-washington-doc-solitary-confinement/
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2025-03-01T00:00:00.000Z
+    url: >-
+      https://www.prisonlegalnews.org/news/2025/mar/1/eye-opening-self-harm-found-washington-doc-solitary-confinement/
+    archive_url: >-
+      https://web.archive.org/web/20260522220909/https://www.prisonlegalnews.org/news/2025/mar/1/eye-opening-self-harm-found-washington-doc-solitary-confinement/
 reform_argument: |
   The two-part OCO solitary confinement report is the most comprehensive
   available documentation of the gap between Washington's stated policy
@@ -108,8 +119,6 @@ reform_argument: |
   responsible for remediation received one-eighth of the funds needed to
   do it. See [reform: solitary_confinement_reform], [reform:
   behavioral_health_capacity], and [reform: independent_inspector_general].
-
-# === GOVERNANCE METADATA ===
 review_status: draft
 retraction_note: null
 contributor: vn

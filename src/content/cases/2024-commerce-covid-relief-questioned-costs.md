@@ -1,81 +1,102 @@
 ---
-# === IDENTITY ===
 id: WA-2024-COMMERCE-COVID
-title: "Commerce COVID relief — SAO single audit identifies 12 findings, $75M in questioned costs on rental assistance and utility payments"
+title: >-
+  Commerce COVID relief — SAO single audit identifies 12 findings, $75M in
+  questioned costs on rental assistance and utility payments
 slug: commerce-covid-relief-questioned-costs
-date_surfaced: 2024-06-06
-date_conduct_start: 2021-01-01
+date_surfaced: 2024-06-06T00:00:00.000Z
+date_conduct_start: 2021-01-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Department of Commerce
     role_type: agency
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
 reforms_implicated:
   - subrecipient_monitoring
   - procurement_reform
-
-# === SCALE ===
 dollars_at_issue: 75000000
-dollars_basis: "$75M in questioned costs identified by the SAO FY2023 Statewide Single Audit across 12 findings related to Washington State Department of Commerce administration of COVID Emergency Rental Assistance and utility payment programs. Questioned costs represent payments to subrecipients without adequate documentation or required monitoring; this is not a confirmed fraud finding. The FY2023 single audit had 86 findings overall — a record high — of which Commerce drew 12."
+dollars_basis: >-
+  $75M in questioned costs identified by the SAO FY2023 Statewide Single Audit
+  across 12 findings related to Washington State Department of Commerce
+  administration of COVID Emergency Rental Assistance and utility payment
+  programs. Questioned costs represent payments to subrecipients without
+  adequate documentation or required monitoring; this is not a confirmed fraud
+  finding. The FY2023 single audit had 86 findings overall — a record high — of
+  which Commerce drew 12.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
 outcome_summary: null
-
-# === SOURCES ===
 sources:
   - tier: 1
     type: sao_report
-    title: "Washington State Auditor FY2023 Statewide Single Audit — Department of Commerce COVID relief findings"
+    title: >-
+      Washington State Auditor FY2023 Statewide Single Audit — Department of
+      Commerce COVID relief findings
     publisher: Washington State Auditor's Office
-    date: 2024-06-06
-    url: https://portal.sao.wa.gov/ReportSearch/
-    archive_url: null
+    date: 2024-06-06T00:00:00.000Z
+    url: 'https://portal.sao.wa.gov/ReportSearch/'
+    archive_url: >-
+      https://web.archive.org/web/20260522220015/https://sao.wa.gov/reports-data/audit-reports
   - tier: 2
     type: news
-    title: "Audit finds more problems in how WA spent federal COVID aid"
+    title: Audit finds more problems in how WA spent federal COVID aid
     publisher: Cascade PBS
-    date: 2024-06-06
-    url: https://www.cascadepbs.org/investigations/2024/06/audit-finds-more-problems-how-wa-spent-federal-covid-aid/
-    archive_url: null
-
-# === REFORM LINKAGE ===
-reform_argument: |
+    date: 2024-06-06T00:00:00.000Z
+    url: >-
+      https://www.cascadepbs.org/investigations/2024/06/audit-finds-more-problems-how-wa-spent-federal-covid-aid/
+    archive_url: >-
+      https://web.archive.org/web/20260522220051/https://www.cascadepbs.org/investigations/2024/06/audit-finds-more-problems-how-wa-spent-federal-covid-aid/
+reform_argument: >
   The subrecipient monitoring failure at Commerce is the same structural gap
+
   that produced the King County DCHS contracting findings (KC-2025-001,
+
   KC-2026-008). In both cases, a government agency disbursed federal or
+
   public funds to community organizations and subrecipients without maintaining
+
   the documentation required to verify the funds were used for their intended
+
   purpose. In both cases, auditors found the gap after the money had moved.
 
+
   The distinction is scale: Commerce disbursed COVID relief funds at a speed and
+
   volume — driven by emergency authorization — that overwhelmed the monitoring
+
   infrastructure that normally governs subrecipient oversight. Advance payments
-  were made without required monitoring in place; fiscal monitoring of subrecipients
+
+  were made without required monitoring in place; fiscal monitoring of
+  subrecipients
+
   was inadequate even after disbursement. The result was 12 findings and $75M in
-  questioned costs in a single audit cycle that also set a statewide record of 86
+
+  questioned costs in a single audit cycle that also set a statewide record of
+  86
+
   total findings.
 
-  The pattern across Commerce, King County DCHS, and the broader statewide single
-  audit record is consistent: subrecipient monitoring is the weakest link in
-  Washington's public funds oversight infrastructure when volume and speed exceed
-  the capacity of existing controls. Emergency spending authorization without a
-  parallel emergency monitoring protocol is the structural gap that recurs.
-  See [reform: subrecipient_monitoring] and [reform: procurement_reform].
 
-# === GOVERNANCE METADATA ===
+  The pattern across Commerce, King County DCHS, and the broader statewide
+  single
+
+  audit record is consistent: subrecipient monitoring is the weakest link in
+
+  Washington's public funds oversight infrastructure when volume and speed
+  exceed
+
+  the capacity of existing controls. Emergency spending authorization without a
+
+  parallel emergency monitoring protocol is the structural gap that recurs.
+
+  See [reform: subrecipient_monitoring] and [reform: procurement_reform].
 review_status: published
 retraction_note: null
 contributor: vn

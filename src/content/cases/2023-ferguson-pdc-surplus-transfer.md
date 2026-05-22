@@ -1,77 +1,94 @@
 ---
-# === IDENTITY ===
 id: WA-2023-PDC-001
-title: "Ferguson PDC surplus-funds transfer — complaint dismissed, rule subsequently amended"
+title: >-
+  Ferguson PDC surplus-funds transfer — complaint dismissed, rule subsequently
+  amended
 slug: ferguson-pdc-surplus-transfer
-date_surfaced: 2023-07-11
-date_conduct_start: 2023-01-01
-date_conduct_end: 2023-12-21
-last_updated: 2026-05-28
-last_verified: 2026-05-20
-
-# === ACTORS ===
+date_surfaced: 2023-07-11T00:00:00.000Z
+date_conduct_start: 2023-01-01T00:00:00.000Z
+date_conduct_end: 2023-12-21T00:00:00.000Z
+last_updated: 2026-05-28T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Bob Ferguson
     role_type: elected
-    title: Washington State Attorney General (at time of transfer); Governor (from January 2025)
+    title: >-
+      Washington State Attorney General (at time of transfer); Governor (from
+      January 2025)
     party: D
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - rule_gaming
 reforms_implicated:
   - campaign_finance_reform
   - pdc_enforcement
-
-# === SCALE ===
 dollars_at_issue: 1200000
-dollars_basis: "Approximately $1.2M transferred from prior AG campaign surplus accounts to Ferguson's gubernatorial campaign, per PDC records and Seattle Times reporting."
+dollars_basis: >-
+  Approximately $1.2M transferred from prior AG campaign surplus accounts to
+  Ferguson's gubernatorial campaign, per PDC records and Seattle Times
+  reporting.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: dismissed
-outcome_summary: "PDC unanimously dismissed the complaint against Ferguson's campaign by written order dated December 21, 2023, finding no violation of the rule as it then existed. PDC subsequently amended its surplus-funds guidance to close the transfer mechanism Ferguson used."
-
-# === SOURCES ===
+outcome_summary: >-
+  PDC unanimously dismissed the complaint against Ferguson's campaign by written
+  order dated December 21, 2023, finding no violation of the rule as it then
+  existed. PDC subsequently amended its surplus-funds guidance to close the
+  transfer mechanism Ferguson used.
 sources:
   - tier: 1
     type: pdc_filing
-    title: "PDC written order dismissing complaint — Ferguson campaign surplus transfer"
+    title: >-
+      PDC written order dismissing complaint — Ferguson campaign surplus
+      transfer
     publisher: Washington State Public Disclosure Commission
-    date: 2023-12-21
-    url: https://www.pdc.wa.gov/news/2023/pdc-dismisses-complaint-against-ferguson-campaign-written-order
-    archive_url: null
+    date: 2023-12-21T00:00:00.000Z
+    url: >-
+      https://www.pdc.wa.gov/news/2023/pdc-dismisses-complaint-against-ferguson-campaign-written-order
+    archive_url: >-
+      https://web.archive.org/web/20260522215716/https://www.pdc.wa.gov/news/2023/pdc-dismisses-complaint-against-ferguson-campaign-written-order
   - tier: 2
     type: news
-    title: "Before rule change, AG Bob Ferguson moves $1.2M 'surplus' to gubernatorial campaign"
+    title: >-
+      Before rule change, AG Bob Ferguson moves $1.2M 'surplus' to gubernatorial
+      campaign
     publisher: Seattle Times
     author: null
     date: 2023
-    url: https://www.seattletimes.com/seattle-news/politics/ahead-of-possible-rule-change-ag-bob-ferguson-moves-1-2m-surplus-to-gubernatorial-campaign/
-    archive_url: null
+    url: >-
+      https://www.seattletimes.com/seattle-news/politics/ahead-of-possible-rule-change-ag-bob-ferguson-moves-1-2m-surplus-to-gubernatorial-campaign/
+    archive_url: >-
+      https://web.archive.org/web/20260522215739/https://www.seattletimes.com/seattle-news/politics/ahead-of-possible-rule-change-ag-bob-ferguson-moves-1-2m-surplus-to-gubernatorial-campaign/
   - tier: 2
     type: news
-    title: "Complaint pushes for Ferguson to reveal donors of $1.2M in campaign transfers"
+    title: >-
+      Complaint pushes for Ferguson to reveal donors of $1.2M in campaign
+      transfers
     publisher: The Columbian
     author: null
-    date: 2023-07-11
-    url: https://www.columbian.com/news/2023/jul/11/complaint-pushes-for-ferguson-to-reveal-donors-of-1-2m-in-campaign-transfers/
-    archive_url: null
+    date: 2023-07-11T00:00:00.000Z
+    url: >-
+      https://www.columbian.com/news/2023/jul/11/complaint-pushes-for-ferguson-to-reveal-donors-of-1-2m-in-campaign-transfers/
+    archive_url: >-
+      https://web.archive.org/web/20260522215834/https://www.columbian.com/news/2023/jul/11/complaint-pushes-for-ferguson-to-reveal-donors-of-1-2m-in-campaign-transfers/
+reform_argument: >
+  The Ferguson surplus transfer is not in this registry as a fraud case — the
+  PDC
 
-# === REFORM LINKAGE ===
-reform_argument: |
-  The Ferguson surplus transfer is not in this registry as a fraud case — the PDC
   found no violation of the rule as it then existed. It is here because the
-  transfer was the proximate cause of a rule change at the PDC. That is itself
-  a notable fact: a high-profile use of a regulatory gap prompted the regulator
-  to close that gap. The reform implication is about the broader campaign-finance
-  audit cycle — how long regulatory gaps remain open between high-profile uses
-  and corrections, and whether periodic PDC self-audits of surplus-fund rules
-  could close such gaps proactively.
 
-# === GOVERNANCE METADATA ===
+  transfer was the proximate cause of a rule change at the PDC. That is itself
+
+  a notable fact: a high-profile use of a regulatory gap prompted the regulator
+
+  to close that gap. The reform implication is about the broader
+  campaign-finance
+
+  audit cycle — how long regulatory gaps remain open between high-profile uses
+
+  and corrections, and whether periodic PDC self-audits of surplus-fund rules
+
+  could close such gaps proactively.
 review_status: published
 retraction_note: null
 contributor: vn

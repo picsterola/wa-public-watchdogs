@@ -1,23 +1,20 @@
 ---
-# === IDENTITY ===
 id: WA-2024-001
-title: "LEB Case 24-01 — Sen. Rebecca Saldaña, alleged use of public resources for private gain"
+title: >-
+  LEB Case 24-01 — Sen. Rebecca Saldaña, alleged use of public resources for
+  private gain
 slug: leb-24-01-saldana-public-resources
-date_surfaced: 2024-01-15
+date_surfaced: 2024-01-15T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+last_updated: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Rebecca Saldaña
     role_type: elected
     title: Washington State Senator
     party: D
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: alleged
 severity_type:
   - misuse_public_resources
@@ -25,35 +22,36 @@ reforms_implicated:
   - ethics_enforcement_teeth
   - public_resources_firewall
   - leb_transparency
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "LEB issued opinion in 2024. Full opinion outcome not independently confirmed in Tier 1 or Tier 2 sources available at the time of this record."
-
-# === SOURCES ===
+outcome_summary: >-
+  LEB issued opinion in 2024. Full opinion outcome not independently confirmed
+  in Tier 1 or Tier 2 sources available at the time of this record.
 sources:
   - tier: 1
     type: leb_opinion
-    title: "Legislative Ethics Board — Case 24-01: Use of Public Resources for Private Gain"
+    title: >-
+      Legislative Ethics Board — Case 24-01: Use of Public Resources for Private
+      Gain
     publisher: Washington State Legislative Ethics Board
-    date: 2024-01-15
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-01/
-    archive_url: null
-
-# === REFORM LINKAGE ===
-reform_argument: |
+    date: 2024-01-15T00:00:00.000Z
+    url: >-
+      https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-01/
+    archive_url: >-
+      https://web.archive.org/web/20260522221628/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-01/
+reform_argument: >
   Case 24-01 sits in the same conduct category as Cases 24-04, 24-06, 25-09, and
-  25-10 in this registry: alleged use of public resources for private or campaign
-  benefit by a sitting legislator. The recurring pattern across multiple years
-  and respondents from both caucuses is the structural finding the registry
-  tracks, independent of how any single complaint resolves.
 
-# === GOVERNANCE METADATA ===
+  25-10 in this registry: alleged use of public resources for private or
+  campaign
+
+  benefit by a sitting legislator. The recurring pattern across multiple years
+
+  and respondents from both caucuses is the structural finding the registry
+
+  tracks, independent of how any single complaint resolves.
 review_status: published
 retraction_note: null
 contributor: vn

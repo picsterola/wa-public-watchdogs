@@ -1,0 +1,7 @@
+- `dcyf-oakley-carlson-fatality-review` source not archived: https://www.independent.co.uk/news/world/americas/crime/missing-oakley-carlson-warnings-new-report-b2924583.html
+- `dshs-scc-brown-water-settlement` source not archived: https://www.thenewstribune.com/news/local/article286255175.html
+- `dshs-scc-brown-water-settlement` source not archived: https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
+- `kc-jimerson-freedom-project-ombuds` source not archived: https://kingcounty.gov/en/legacy/council/issues/ethics
+- `ospi-nd-reykdal-idea-settlement` source not archived: https://www.casemine.com/judgement/us/6742ac2c395a1d617fc85068
+- `sps-garfield-hazing-first-amendment-settlement` source not archived: https://kingcounty.gov/courts/clerk/access-records/records-portal.aspx
+- `sps-garfield-hazing-first-amendment-settlement` source not archived: https://law.justia.com/cases/washington/court-of-appeals-division-i/2024/85998-6.html

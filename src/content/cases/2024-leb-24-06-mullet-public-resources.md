@@ -1,23 +1,22 @@
 ---
-# === IDENTITY ===
 id: WA-2024-006
-title: "LEB Case 24-06 — Sen. Mark Mullet, alleged use of public resources for campaign purposes"
+title: >-
+  LEB Case 24-06 — Sen. Mark Mullet, alleged use of public resources for
+  campaign purposes
 slug: leb-24-06-mullet-public-resources
-date_surfaced: 2024-06-04
+date_surfaced: 2024-06-04T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-28
-last_verified: 2026-05-20
-
-# === ACTORS ===
+last_updated: 2026-05-28T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Mark Mullet
     role_type: elected
-    title: former Washington State Senator (left the Senate January 2025; ran for Governor)
+    title: >-
+      former Washington State Senator (left the Senate January 2025; ran for
+      Governor)
     party: D
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: alleged
 severity_type:
   - misuse_public_resources
@@ -25,27 +24,25 @@ reforms_implicated:
   - ethics_enforcement_teeth
   - public_resources_firewall
   - leb_transparency
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "LEB issued opinion on June 4, 2024. Full opinion outcome not independently confirmed in Tier 1 or Tier 2 sources available at the time of this record."
-
-# === SOURCES ===
+outcome_summary: >-
+  LEB issued opinion on June 4, 2024. Full opinion outcome not independently
+  confirmed in Tier 1 or Tier 2 sources available at the time of this record.
 sources:
   - tier: 1
     type: leb_opinion
-    title: "Legislative Ethics Board — Case 24-06: Use of Public Resources for Campaign purposes"
+    title: >-
+      Legislative Ethics Board — Case 24-06: Use of Public Resources for
+      Campaign purposes
     publisher: Washington State Legislative Ethics Board
-    date: 2024-06-04
-    url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-06/
-    archive_url: null
-
-# === REFORM LINKAGE ===
+    date: 2024-06-04T00:00:00.000Z
+    url: >-
+      https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-06/
+    archive_url: >-
+      http://web.archive.org/web/20251111193554/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/24-06/
 reform_argument: |
   Case 24-06 is one of several LEB docket entries during 2024-2025 involving the
   use of public resources for campaign purposes. The recurring pattern across
@@ -54,8 +51,6 @@ reform_argument: |
   mandatory per-session certification, meaningful penalties, and automatic
   publication of complaint and opinion in machine-readable form — would deter
   conduct and enable pattern-tracking that manual docket review cannot support.
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn

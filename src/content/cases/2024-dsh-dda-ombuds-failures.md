@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: WA-2024-DSHS-DDA-OMBUDS
-title: "DD Ombuds SFY2024-2025 Annual Reports — END HARM abuse line non-functional; 75 people stuck in hospitals 60+ days; $9M residential abuse settlement"
+title: >-
+  DD Ombuds SFY2024-2025 Annual Reports — END HARM abuse line non-functional; 75
+  people stuck in hospitals 60+ days; $9M residential abuse settlement
 slug: dshs-dda-ombuds-failures
-date_surfaced: 2024-11-01
-date_conduct_start: 2023-07-01
-date_conduct_end: 2025-06-30
-last_updated: 2026-05-22
-last_verified: 2026-05-22
-
-# === ACTORS ===
+date_surfaced: 2024-11-01T00:00:00.000Z
+date_conduct_start: 2023-07-01T00:00:00.000Z
+date_conduct_end: 2025-06-30T00:00:00.000Z
+last_updated: 2026-05-22T00:00:00.000Z
+last_verified: 2026-05-22T00:00:00.000Z
 actors:
   - name: Washington DSHS Developmental Disabilities Administration
     role_type: agency
@@ -21,8 +20,6 @@ actors:
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - civil_rights_harm
@@ -31,76 +28,132 @@ reforms_implicated:
   - independent_inspector_general
   - behavioral_health_capacity
   - dda_oversight
-
-# === SCALE ===
 dollars_at_issue: 9000000
-dollars_basis: "DD Ombuds SFY2025 Annual Report documented a $9M lawsuit settlement paid by a DDCS-certified residential provider after a developmentally disabled person was abused and neglected in their care. During the period of abuse, numerous complaints were filed and investigated, but Residential Care Services issued only one citation — unrelated to the issues raised in the lawsuit. The dollar figure represents a confirmed settlement, not a confirmed loss to the state; it reflects the harm-scale of under-enforced residential provider oversight."
+dollars_basis: >-
+  DD Ombuds SFY2025 Annual Report documented a $9M lawsuit settlement paid by a
+  DDCS-certified residential provider after a developmentally disabled person
+  was abused and neglected in their care. During the period of abuse, numerous
+  complaints were filed and investigated, but Residential Care Services issued
+  only one citation — unrelated to the issues raised in the lawsuit. The dollar
+  figure represents a confirmed settlement, not a confirmed loss to the state;
+  it reflects the harm-scale of under-enforced residential provider oversight.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
-outcome_summary: "Two consecutive DD Ombuds annual reports (SFY2024, published November 2024; SFY2025, published October 31, 2025) documented persistent structural failures in DSHS Developmental Disabilities Administration oversight: the END HARM abuse-reporting line remained non-functional or inadequate as a 24/7 reporting resource across both reporting periods; DDA reported at least 75 developmentally disabled adults stuck in community hospitals for more than 60 days in SFY2024 due to inadequate community residential placement; a certified residential provider settled a lawsuit for $9M following documented abuse and neglect with inadequate RCS enforcement response. No state criminal investigation or legislative action has been documented as of this record's last update."
-
-# === SOURCES ===
+outcome_summary: >-
+  Two consecutive DD Ombuds annual reports (SFY2024, published November 2024;
+  SFY2025, published October 31, 2025) documented persistent structural failures
+  in DSHS Developmental Disabilities Administration oversight: the END HARM
+  abuse-reporting line remained non-functional or inadequate as a 24/7 reporting
+  resource across both reporting periods; DDA reported at least 75
+  developmentally disabled adults stuck in community hospitals for more than 60
+  days in SFY2024 due to inadequate community residential placement; a certified
+  residential provider settled a lawsuit for $9M following documented abuse and
+  neglect with inadequate RCS enforcement response. No state criminal
+  investigation or legislative action has been documented as of this record's
+  last update.
 sources:
   - tier: 1
     type: ombudsman_report
-    title: "Annual Report on Activities SFY 2024 — Office of Developmental Disabilities Ombuds"
+    title: >-
+      Annual Report on Activities SFY 2024 — Office of Developmental
+      Disabilities Ombuds
     publisher: Office of Developmental Disabilities Ombuds
-    date: 2024-10-31
-    url: https://ddombuds.org/wp-content/uploads/2024/11/DD-Ombuds-Annual-Report-SFY-2024-Final.pdf
-    archive_url: null
-    quote: "DDA reported that at least 75 people were stuck in the hospital in SFY 2024 for more than 60 days. The DD Ombuds also stated they worked with several people this year who had been stuck in the hospital for more than a year."
+    date: 2024-10-31T00:00:00.000Z
+    url: >-
+      https://ddombuds.org/wp-content/uploads/2024/11/DD-Ombuds-Annual-Report-SFY-2024-Final.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522221007/https://ddombuds.org/wp-content/uploads/2024/11/DD-Ombuds-Annual-Report-SFY-2024-Final.pdf
+    quote: >-
+      DDA reported that at least 75 people were stuck in the hospital in SFY
+      2024 for more than 60 days. The DD Ombuds also stated they worked with
+      several people this year who had been stuck in the hospital for more than
+      a year.
   - tier: 1
     type: ombudsman_report
-    title: "Annual Report on Activities SFY 2025 — Office of Developmental Disabilities Ombuds"
+    title: >-
+      Annual Report on Activities SFY 2025 — Office of Developmental
+      Disabilities Ombuds
     publisher: Office of Developmental Disabilities Ombuds
-    date: 2025-10-31
-    url: https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=DD+Ombuds+Annual+Report+SFY+2025+Final_99c6fd7a-fa96-4a24-9814-60c5b23f7e41.pdf
-    archive_url: null
-    quote: "The DD Ombuds uncovered a major problem with the END HARM abuse reporting line and is meeting with DSHS to resolve the issues. The END HARM line is still not a good resource for reporting vulnerable adult abuse 24/7."
-
-# === REFORM LINKAGE ===
-reform_argument: |
+    date: 2025-10-31T00:00:00.000Z
+    url: >-
+      https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=DD+Ombuds+Annual+Report+SFY+2025+Final_99c6fd7a-fa96-4a24-9814-60c5b23f7e41.pdf
+    archive_url: >-
+      https://web.archive.org/web/20260522221019/https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=DD+Ombuds+Annual+Report+SFY+2025+Final_99c6fd7a-fa96-4a24-9814-60c5b23f7e41.pdf
+    quote: >-
+      The DD Ombuds uncovered a major problem with the END HARM abuse reporting
+      line and is meeting with DSHS to resolve the issues. The END HARM line is
+      still not a good resource for reporting vulnerable adult abuse 24/7.
+reform_argument: >
   The two consecutive DD Ombuds annual reports document a system in which
+
   the first contact point for abuse — the END HARM line — is structurally
+
   broken, community hospitals are being used as de facto residential placements
+
   for people with developmental disabilities who have no medical need to be
+
   hospitalized, and a certified residential provider can generate numerous
+
   complaints and investigations and receive only one unrelated citation before
+
   a $9M settlement is reached for abuse and neglect.
 
+
   The END HARM line failure is not a funding gap or a capacity shortage — it
+
   is a design and accountability failure. The line was established to give
+
   developmentally disabled adults and their families a guaranteed 24/7 point
+
   of contact for reporting abuse. When that line routes callers to an
+
   unanswered phone or an outdated website, the oversight chain is broken at
+
   its first step. The person trying to report abuse has nowhere to go.
 
+
   The 75-person hospital backlog documents the downstream consequence of
+
   inadequate residential placement infrastructure: when DDA cannot arrange
+
   community residential services, individuals end up in hospitals that are
+
   not equipped to provide habilitative services and that may resort to
+
   physical restraints to manage individuals who are there without a medical
+
   need. This is a rights violation by any clinical or legal standard.
 
+
   The $9M settlement and the RCS enforcement record — one citation during a
+
   period of numerous complaints — is the enforcement failure pattern that
+
   recurs across Washington's oversight of congregate care settings. The same
+
   federal-escalation dynamic that produced the HHS OIG adult family home
+
   finding (WA-2025-DSHS-HHA-OIG) applies here: when state oversight fails to
+
   enforce its own rules, the harm accumulates until external review exposes it.
 
-  Couple thematically with the Trueblood DSHS case (WA-2024-DSHS-TRUEBLOOD),
-  which documents similar behavioral-health-capacity failures for a different
-  population — civilly committed individuals — resulting in federal contempt.
-  The structural argument is the same: Washington cannot place people with
-  high-needs behavioral and developmental profiles in appropriate community
-  settings, and the accountability mechanisms (abuse lines, RCS inspections,
-  hospital boarding limits) are not enforced. See [reform: behavioral_health_capacity],
-  [reform: dda_oversight], and [reform: independent_inspector_general].
 
-# === GOVERNANCE METADATA ===
+  Couple thematically with the Trueblood DSHS case (WA-2024-DSHS-TRUEBLOOD),
+
+  which documents similar behavioral-health-capacity failures for a different
+
+  population — civilly committed individuals — resulting in federal contempt.
+
+  The structural argument is the same: Washington cannot place people with
+
+  high-needs behavioral and developmental profiles in appropriate community
+
+  settings, and the accountability mechanisms (abuse lines, RCS inspections,
+
+  hospital boarding limits) are not enforced. See [reform:
+  behavioral_health_capacity],
+
+  [reform: dda_oversight], and [reform: independent_inspector_general].
 review_status: draft
 retraction_note: null
 contributor: vn
