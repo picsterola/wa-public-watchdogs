@@ -1570,6 +1570,11 @@ select.filter-select, input.filter-input {
   font-weight: 600;
   color: var(--ink-soft);
   margin-top: var(--space-2);
+  /* Allow long enum labels (e.g. "Statutory noncompliance") to wrap inside
+     the tile rather than clipping at the right edge. */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
 }
 .lane-tile-blurb {
   font-family: var(--font-sans);

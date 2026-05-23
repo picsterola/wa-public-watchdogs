@@ -7,6 +7,9 @@ export const SEVERITY_LABELS: Record<string, string> = {
   rule_gaming: 'Rule gaming',
   special_privileges: 'Special privileges',
   misuse_public_resources: 'Misuse of public resources',
+  civil_rights_harm: 'Civil rights harm',
+  statutory_noncompliance: 'Statutory noncompliance',
+  aggregate_liability_pattern: 'Aggregate liability',
 };
 
 export const STATUS_LABELS: Record<string, string> = {
