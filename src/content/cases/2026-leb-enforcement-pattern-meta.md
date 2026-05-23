@@ -34,7 +34,7 @@ dollars_basis: >-
   comparison, OGEC collected approximately $54,974 in fines across the
   2021–23 biennium alone.
 dollars_confirmed_loss: null
-legal_status: under_investigation
+legal_status: no_action
 outcome_summary: >-
   This is a meta-case assessing the Legislative Ethics Board as an enforcement
   body. Across approximately 130–170 published complaint opinions from 2015
