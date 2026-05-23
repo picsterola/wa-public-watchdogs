@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T00:54:41.675Z",
+  "generated_at": "2026-05-23T04:08:14.818Z",
   "method": "objective metadata scoring per SCHEMA.md",
   "top5": [
     {
@@ -57,13 +57,13 @@
       ]
     },
     {
-      "slug": "ospi-school-funding-it-system",
+      "slug": "dcyf-payment-compliance",
       "score": 21,
       "pinned": false,
       "reasons": [
         "legal:audit_finding=+5",
         "evid:documented=+4",
-        "$30000M>=10M=+5",
+        "$413M>=10M=+5",
         "tier1=+3",
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2"

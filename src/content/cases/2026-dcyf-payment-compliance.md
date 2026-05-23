@@ -1,14 +1,14 @@
 ---
 id: WA-2026-DCYF
 title: >-
-  DCYF child care subsidy system — 4-year audit gap, FY2024 $413M disclaimer
-  opinion, FY2025 $37M questioned payments
+  DCYF child care subsidy system — 4-year audit gap (FY2021–FY2024), FY2024
+  $413M disclaimer opinion, FY2025 $37M questioned payments
 slug: dcyf-payment-compliance
 date_surfaced: 2026-03-30T00:00:00.000Z
 date_conduct_start: 2021-01-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: '2026-05-23'
-last_verified: 2026-05-20T00:00:00.000Z
+last_updated: '2026-05-22'
+last_verified: 2026-05-22T00:00:00.000Z
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
@@ -24,18 +24,26 @@ reforms_implicated:
   - independent_inspector_general
 dollars_at_issue: 413000000
 dollars_basis: >-
-  The $413M figure represents the federal Child Care Development Fund (CCDF)
-  expenditure that Washington State Auditors issued a disclaimer opinion on in
-  the FY2024 Single Audit — meaning auditors could not form any opinion at all
-  on $413M of federal funds because provider-level data was insufficient to
-  support the audit. This is the fourth consecutive year (FY2021–FY2024) that
-  the CCDF program was unauditable. The $37M figure is a separate,
-  sample-extrapolated questioned-payments figure from the FY2025 Single Audit,
-  which was the first full federal audit review in four years. The FY2025 audit
-  extrapolated from 14 noncompliant payments in a 59-payment sample drawn from
-  approximately 400,000 monthly payments. The SAO explicitly stated it did not
-  conclude that fraud occurred. Confirmed overpayment in the FY2025 sample:
-  $6,123.
+  The $413M figure represents the FY2024 CCDF spending that received a
+  disclaimer opinion in the FY2024 Single Audit — meaning auditors could not
+  form any opinion on that year's CCDF expenditures because DCYF could not
+  produce sufficient provider-level data. The SAO issued disclaimer opinions
+  for four consecutive years (FY2021, FY2022, FY2023, FY2024) on each year's
+  CCDF spending. Total CCDF program spending under disclaimer across all four
+  years has been reported as approximately $1.33B, with year-by-year breakdowns
+  (FY2021 ~$293M, FY2022 ~$268.5M, FY2023 ~$356M, FY2024 ~$416M) circulating in
+  secondary reporting but not yet independently verified by this registry
+  against each year's Single Audit PDF. State Auditor McCarthy stated in her
+  January 2026 Seattle Times op-ed that the SAO "questioned the expenditures of
+  the program fiscal years 2021, 2022, 2023, and 2024, totaling $416 million in
+  federal child care program spending," though her phrasing is grammatically
+  ambiguous between a four-year total and a single-year figure. The $37M figure
+  is a separate, sample-extrapolated questioned-payments figure from the FY2025
+  Single Audit, the first full federal audit review in four years. The FY2025
+  audit extrapolated from 14 noncompliant payments in a 59-payment sample drawn
+  from approximately 400,000 monthly payments. The SAO explicitly stated it
+  did not conclude that fraud occurred. Confirmed overpayment in the FY2025
+  sample: $6,123.
 dollars_confirmed_loss: 6123
 legal_status: audit_finding
 outcome_summary: null
@@ -140,11 +148,13 @@ next_milestone: FY2026 SAO Single Audit publication
 next_milestone_date: '2027-03-31'
 ---
 
-**For four consecutive years — FY2021 through FY2024 — Washington State auditors could not form any opinion at all on $413 million of federal child care funds at DCYF, issuing disclaimer opinions because the agency lacked sufficient provider-level data. The FY2025 audit, the first full federal review in four years, then produced a $37 million extrapolated questioned-payments figure, with six of seven findings being repeats from prior years.**
+**For four consecutive years — FY2021 through FY2024 — Washington State auditors could not form any opinion on DCYF's federal Child Care Development Fund spending, issuing disclaimer opinions each year because the agency lacked sufficient provider-level data. The FY2024 disclaimer covered approximately $413 million in spending that year. Aggregate CCDF spending under disclaimer across all four years has been reported as approximately $1.3 billion in secondary coverage, though this registry has not yet independently verified each year's amount against the underlying Single Audit reports. The FY2025 audit, the first full federal review in four years, then produced a $37 million extrapolated questioned-payments figure, with six of seven findings being repeats from prior years.**
 
 ## What happened
 
-The Washington State Auditor's Office (SAO) FY2024 Single Audit, released in March 2025, issued a **disclaimer opinion** on DCYF's Child Care Development Fund (CCDF) program — meaning auditors could not form any opinion whatsoever on approximately **$413 million** in federal child care expenditures. A disclaimer opinion is not a qualified finding or a flag; it is the auditor's declaration that the underlying records are so insufficient that an audit opinion cannot be expressed. This was the fourth consecutive year — FY2021, FY2022, FY2023, and FY2024 — that the CCDF program at DCYF was effectively unauditable due to missing provider-level data.
+The Washington State Auditor's Office (SAO) FY2024 Single Audit, released in March 2025, issued a **disclaimer opinion** on DCYF's Child Care Development Fund (CCDF) program — meaning auditors could not form any opinion whatsoever on approximately **$413 million** in FY2024 federal child care expenditures. A disclaimer opinion is not a qualified finding or a flag; it is the auditor's declaration that the underlying records are so insufficient that an audit opinion cannot be expressed.
+
+This was the fourth consecutive year — FY2021, FY2022, FY2023, and FY2024 — that the CCDF program at DCYF received a disclaimer opinion due to missing provider-level data. Each year's disclaimer covered that fiscal year's CCDF spending, not a cumulative figure. Year-by-year amounts circulating in secondary reporting (FY2021 ~$293M, FY2022 ~$268.5M, FY2023 ~$356M, FY2024 ~$416M, summing to ~$1.33B) trace to a partisan outlet (The National Pulse) without a primary-source citation and have not been independently verified against the FY2021, FY2022, and FY2023 Single Audit reports by this registry. State Auditor Pat McCarthy, in her January 2026 Seattle Times op-ed, wrote that the SAO "questioned the expenditures of the program fiscal years 2021, 2022, 2023, and 2024, totaling $416 million in federal child care program spending" — phrasing that reads ambiguously between a four-year total and a single-year FY2024 figure. The SAO's March 2026 press release for the FY2025 Single Audit framed $413M as the FY2024 amount specifically.
 
 The FY2025 Single Audit, released March 30, 2026, was the first audit in four years that broke through and produced measurable findings. Auditors reviewed a sample of 59 monthly payments out of approximately 400,000 and found 14 with noncompliance issues or overpayments totaling $6,123 in the actual sample. Extrapolating from that sample to the full payment pool produced the headline figure: **$37 million in "questioned payments."** That number is a statistical projection — not a confirmed loss.
 
@@ -162,7 +172,7 @@ FY2024 audit findings (disclaimer opinion on $413M) are public as of March 2025.
 
 ## Why it's in the registry
 
-The $37M headline figure is a projection. The $413M disclaimer opinion is the structural fact. A state agency responsible for distributing federal child care funds went four consecutive years without being able to produce the records an auditor needs to say whether the money was spent correctly. That is not a data gap — it is a governance failure at regime scale, and the multi-year blackout means there is no way to know what happened to those funds in the intervening years. When auditors finally obtained sufficient data in FY2025, six of seven findings were repeats, confirming the underlying system had not changed.
+The $37M headline figure is a statistical projection. The four-year sequence of disclaimer opinions is the structural fact. A state agency responsible for distributing federal child care funds went four consecutive fiscal years without being able to produce the records an auditor needs to say whether the money was spent correctly. That is not a data gap — it is a governance failure at regime scale, and the multi-year blackout means there is no way to know what happened to CCDF funds in the intervening years. When auditors finally obtained sufficient data in FY2025, six of seven findings were repeats, confirming the underlying system had not changed.
 
 ## Reform implication
 
