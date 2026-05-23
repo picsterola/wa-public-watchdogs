@@ -252,6 +252,46 @@ tags:
 featured_pin: false
 ---
 
+## How we got here
+
+Restorative Community Pathways was approved by the King County Council in the 2021-22 biennial budget as the operational expression of the County's [Zero Youth Detention](https://kingcounty.gov/en/legacy/depts/community-human-services/zero-youth-detention.aspx) and Road Map policy commitments. It was not a rogue program. It was the centerpiece of a decade of community organizing, an explicit Council policy choice, and a sitting King County Executive's (Dow Constantine) signature juvenile-justice reform. The 2021 Implementation Plan transmitted to the Council under Motion 16063 contemplated up to 600 eligible youth referrals annually, a Youth Steering Committee, a community-navigator workforce, and a restitution fund. It was the kind of program a community wants to succeed on its merits.
+
+The original sin was not the program's design. It was the gap between the program's design and what was actually contracted and instrumented.
+
+From launch in October 2021, the County entered into grant agreements with 18 nonprofits totaling roughly $28M as of KUOW's reporting in April 2023. The contracts did not require organizations to report participation rates after referral. They did not require organizations to track whether referred youth completed the program. The County's own spokesperson confirmed to KUOW that the County had not requested or received gift-card tracking logs the contracts nominally required. The Juvenile Division Chief, Jimmy Hung, was quoted telling KUOW "we don't need to know how things are going" and "we'll know if things haven't gone right because the kid has committed another crime." That quote is real and unretracted. Whether it reflected program design intent or was a rhetorical concession to community partners who had argued against carceral surveillance of diversion participants is itself contested, and the registry doesn't resolve it. But operationally, the program ran without the feedback loop you would want for any $28M public investment.
+
+## What broke when the data finally arrived
+
+In May 2024, the County released an RFP for an independent program evaluation. Impact Justice — a nonprofit research organization with criminal-justice methodological credentials — won the contract through a competitive process and delivered its evaluation in August 2025. The report is detailed, methodologically careful, and broadly sympathetic to RCP's model. It is also unsparing about implementation. The evaluation documents that "data collection tools and procedures lacked standardization and varied across partners," that quantitative measures across the consortium were "high-level yes/no" formats that "fail to capture nuance," that the RCP Consortium Coordinator role had been vacant during the evaluation period, and that the accelerated 2021 rollout had left "foundational instability" and "model drift from the community-led vision." Most consequentially for the public-accountability question: Impact Justice was **denied access to KCPAO data** and as a result could not independently evaluate recidivism or long-term legal-system outcomes. The independent evaluator that the County paid to evaluate the program was prevented by the County's own Prosecuting Attorney's Office from doing the part of the evaluation that mattered most.
+
+At nearly the same moment, KCPAO commissioned its own analysis from Seattle University economist Claus Pörtner using KCPAO's internal data — the same data Impact Justice was not given. Pörtner found a 24-month felony recidivism rate of 53.2% for RCP participants. On August 3, 2025, Prosecuting Attorney Leesa Manion sent a memo to the Council announcing the pause of felony referrals to RCP pending a secondary analysis. KCPAO had what it considered evidence of a serious problem; the independent evaluator did not have the data to confirm or contradict it; the public got both reports and the pause within a few weeks of each other.
+
+## Why the numbers are not as clean as they look
+
+This is where it gets harder, and the registry has to be honest about both sides.
+
+Pörtner himself flagged "several significant study limitations" in his own report: "relatively small sample sizes, newness of the program, lack of a comparison group, and unique impacts of the COVID-19 pandemic." A 53% recidivism number with no comparison group is a number, not a finding. University of Washington researchers Walker and Beckett, writing in response, argued that "the lack of a direct comparison in the PAO analysis, along with the best available benchmark data showing comparable recidivism rates, lead us to conclude that the PAO's decision to pause referral to the RCP is unsupported by the available data." Impact Justice's Lallen Johnson made a related methodological point: measuring recidivism by police referrals (the KCPAO data source) is suspect when policing density varies across the neighborhoods these youth come from. The 53% is real. It is also the kind of statistic a competent peer reviewer would refuse to publish without an explicit baseline.
+
+That does not mean Manion's pause was unjustified. It does mean the pause was a prosecutorial discretion call dressed as a data-driven conclusion, and the registry should say so. A more honest framing would have been: "We don't have the evidence base to know whether this program works at the level we'd expect for the public investment, and the cost of being wrong on cases involving violent recidivism is high enough that we're pausing while we build the comparison." That framing would have been defensible. The 53% framing was politically clean but methodologically thin.
+
+## The DCHS grant-administration overlay
+
+While this was unfolding, the King County Auditor was completing a broader review of how DCHS administered youth-program grants — covering RCP plus three other programs. The Urbanist's [Amy Sundberg](https://www.theurbanist.org/king-county-looks-to-replace-program-diverting-youth-from-jail/) reports that the headline figures in early coverage of that audit were significantly overstated: an auditor's error initially exaggerated DCHS grant growth by approximately $900M, and the only verified fraud was one DCHS employee with apparent dual employment and one or two organizations submitting altered documents for amounts between $1,000 and $7,000. The audit's two RCP-specific findings were that two organizations filled out prepaid card logs incorrectly and one organization submitted an erroneous expense report that was later reimbursed. That is not a fraud case. It is a contract-administration tightening case.
+
+The distinction matters because Councilmember Rod Dembowski, an RCP critic going back years, has used the audit narrative to argue for replacing the program. Defenders of RCP read the same audit and see a procurement-tightening agenda being weaponized for a policy outcome that was always Dembowski's preference. Both readings are defensible on the record. The registry's claim does not depend on resolving that fight.
+
+## What the registry is claiming, narrowly
+
+For four years, King County funded a $28M juvenile diversion program without the contract clauses, data infrastructure, or feedback loops required to evaluate whether it worked. The Council approved it. The Executive championed it. The Prosecutor referred to it. The community organizations operated it in good faith. And none of those four sets of actors built the instrumentation that would let any of them — or the public — know whether $28M was buying public safety, individual rehabilitation, both, or neither.
+
+That is not a fraud case and the registry does not call it one. It is not an indictment of community-based diversion as policy and the registry does not say otherwise. It is a documented, sustained, four-year failure of contracted outcome tracking on a program large enough and politically prominent enough that the data gap was visible from the outside in April 2023 (KUOW), confirmed from the inside in August 2025 (Impact Justice), and is now driving an active 2026-27 budget fight that the Council should not have had to be having in the absence of program-design data that anyone could have required at any point in the previous four years.
+
+## The active fight
+
+Executive Shannon Braddock's October 2025 proposal would replace RCP with the King County Youth Diversion and Intervention Program, county-led and DCHS-coordinated, with a $1.65M cut from youth diversion funding for the 2026-27 biennium and an RFP for community organization contracts in early 2026. Council positions are visible: Dembowski wants "a break from the old existing program"; Teresa Mosqueda wants funding to allow overlap and wants felony diversion kept available; Jorge Barón wants clearer goals before transition; Public Defense Director Matt Sanders wants the door kept open for youth felony diversion as a matter of equity. The Council's November 2025 budget action and the early-2026 RFP are the next decision points.
+
+Whether RCP-the-program survives in some form is a question for the Council. Whether the next iteration is built with the instrumentation RCP lacked is a question the registry will keep watching. The KC-2023-004 case file stays open until that question is answered on the record.
+
 ## What's documented vs. what's contested
 
 **Documented (Tier 1, primary sources):**
@@ -269,9 +309,3 @@ featured_pin: false
 - Whether RCP's recidivism rate is bad in absolute terms (KCPAO position) or comparable to traditional prosecution and therefore not a basis for pausing (Walker/Beckett, Impact Justice, RCP consortium)
 - Whether the Jimmy Hung 2023 quote ("we don't need to know how things are going") reflects an actual hands-off design choice or was a rhetorical flourish that doesn't represent the program's contract structure
 - Whether the KC Auditor's findings on DCHS grant administration constitute serious accountability failure or, as The Urbanist's Sundberg reports, were mischaracterized by mainstream media coverage
-
-## What the registry is and is not claiming
-
-The registry is **not** claiming RCP failed, that community-based diversion is the wrong approach, or that the KCPAO pause was correct. Those are policy judgments and the contested-claims block above lays out the symmetric case.
-
-The registry **is** claiming that, as a matter of contract administration and public-money accountability, the County funded a multi-year, multi-million-dollar program without the data infrastructure required to evaluate it honestly, and that this was a problem visible from 2023 (KUOW) through 2025 (Impact Justice) regardless of which side of the policy debate one occupies.
