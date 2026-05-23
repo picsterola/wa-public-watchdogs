@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T05:18:43.302Z",
+  "generated_at": "2026-05-23T14:58:38.839Z",
   "method": "objective metadata scoring per SCHEMA.md",
   "top5": [
     {
@@ -23,6 +23,18 @@
       "reasons": [
         "evid:documented=+4",
         "$34500M>=10M=+5",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2"
+      ]
+    },
+    {
+      "slug": "leb-enforcement-pattern-meta",
+      "score": 13,
+      "pinned": true,
+      "reasons": [
+        "legal:under_investigation=+2",
+        "evid:documented=+4",
         "tier1=+3",
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2"
@@ -54,19 +66,6 @@
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2",
         "xref:2=+2"
-      ]
-    },
-    {
-      "slug": "dcyf-payment-compliance",
-      "score": 21,
-      "pinned": false,
-      "reasons": [
-        "legal:audit_finding=+5",
-        "evid:documented=+4",
-        "$413M>=10M=+5",
-        "tier1=+3",
-        "recent<=90d=+2",
-        "severity:criminal_or_structural=+2"
       ]
     }
   ]

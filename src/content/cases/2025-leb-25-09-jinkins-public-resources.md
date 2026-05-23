@@ -41,6 +41,14 @@ dollars_confirmed_loss: null
 legal_status: closed_no_action
 outcome_summary: "LEB issued advisory opinion on October 27, 2025. Full opinion outcome not independently summarized at the time of this record; LEB advisory opinions are guidance documents that conclude the underlying complaint without imposing sanctions."
 
+# === RESOLUTION TRACKING ===
+remediation_status: not_required
+remediation_note: "LEB cases are procedural ethics adjudications; structural resolution is tracked at the meta-case level (WA-2026-META-LEB). Individual case disposition is reflected in legal_status and outcome_summary above."
+reform_status: none_proposed
+reform_status_note: "Structural reform of LEB enforcement (penalty modernization, staffing, public-hearing frequency) is tracked at the meta-case level (WA-2026-META-LEB)."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1
