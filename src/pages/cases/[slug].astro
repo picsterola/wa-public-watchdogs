@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
 import AllegationBanner from '../../components/AllegationBanner.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { formatDate, formatDollars, SEVERITY_LABELS, STATUS_LABELS, STATUS_LABELS_LONG, LEGAL_STATUS_LABELS, ROLE_LABELS, SOURCE_TYPE_LABELS, humanizeReform, caseGroup, GROUP_SLUG } from '../../lib/format';
+import { formatDate, formatDollars, SEVERITY_LABELS, STATUS_LABELS, STATUS_LABELS_LONG, LEGAL_STATUS_LABELS, REMEDIATION_LABELS, REMEDIATION_VERDICTS, REFORM_STATUS_LABELS, ROLE_LABELS, SOURCE_TYPE_LABELS, humanizeReform, caseGroup, GROUP_SLUG } from '../../lib/format';
 import officialsData from '../../data/officials.json';
 
 const OFFICIALS = officialsData.officials as Record<string, { name: string; title: string; photo: string | null; source_url: string | null; license: string | null }>;
@@ -183,6 +183,31 @@ const groupHref = `/cases?group=${encodeURIComponent(group)}#group-${GROUP_SLUG[
         <p class="value">{LEGAL_STATUS_LABELS[d.legal_status] ?? d.legal_status}</p>
         {d.outcome_summary && <p class="sub">{d.outcome_summary}</p>}
       </div>
+
+      {(d.remediation_status !== 'unknown' || d.reform_status !== 'unknown' || d.next_milestone) && (
+        <div class={`sidebar-block resolution-block resolution-${d.remediation_status}`}>
+          <h3>Resolution</h3>
+          {d.remediation_status !== 'unknown' && (
+            <>
+              <p class="value">{REMEDIATION_LABELS[d.remediation_status] ?? d.remediation_status}</p>
+              <p class="sub resolution-verdict">{REMEDIATION_VERDICTS[d.remediation_status]}</p>
+              {d.remediation_note && <p class="sub">{d.remediation_note}</p>}
+            </>
+          )}
+          {d.reform_status && d.reform_status !== 'unknown' && (
+            <p class="sub resolution-reform">
+              <span class="resolution-reform-label">Reform:</span> {REFORM_STATUS_LABELS[d.reform_status] ?? d.reform_status}
+              {d.reform_status_note && <span> · {d.reform_status_note}</span>}
+            </p>
+          )}
+          {d.next_milestone && (
+            <p class="sub resolution-milestone">
+              <span class="resolution-reform-label">Next:</span> {d.next_milestone}
+              {d.next_milestone_date && <span> · {formatDate(d.next_milestone_date as any)}</span>}
+            </p>
+          )}
+        </div>
+      )}
 
       {d.tags.length > 0 && (
         <div class="sidebar-block">

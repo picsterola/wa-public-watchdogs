@@ -2215,3 +2215,36 @@ select.filter-select, input.filter-input {
   margin: 0;
   max-width: 60ch;
 }
+
+/* ---- Resolution block (case sidebar) ----
+   Color-coded left border by remediation_status so the eye lands on
+   "did the dysfunction get fixed?" before reading text. */
+.resolution-block {
+  border-left: 3px solid var(--rule);
+  padding-left: var(--space-3);
+}
+.resolution-block .resolution-verdict {
+  font-style: italic;
+  margin-top: 2px;
+}
+.resolution-block .resolution-reform,
+.resolution-block .resolution-milestone {
+  margin-top: var(--space-2);
+}
+.resolution-block .resolution-reform-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-muted);
+  font-weight: 600;
+  margin-right: 4px;
+}
+/* Verdict color coding */
+.resolution-verified_resolved { border-left-color: #5a7a47; }   /* sage green */
+.resolution-in_progress       { border-left-color: #c89348; }   /* warm amber */
+.resolution-implemented_unverified { border-left-color: #c89348; }
+.resolution-not_started       { border-left-color: var(--accent); }
+.resolution-repeat_finding    { border-left-color: var(--accent); }
+.resolution-regressed         { border-left-color: var(--accent); }
+.resolution-not_required      { border-left-color: var(--rule); }

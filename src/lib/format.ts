@@ -36,6 +36,42 @@ export const LEGAL_STATUS_LABELS: Record<string, string> = {
   closed_no_action: 'Closed, no action',
 };
 
+export const REMEDIATION_LABELS: Record<string, string> = {
+  unknown: 'Unknown',
+  not_required: 'Not required',
+  not_started: 'Not started',
+  in_progress: 'In progress',
+  implemented_unverified: 'Implemented (unverified)',
+  verified_resolved: 'Verified resolved',
+  repeat_finding: 'Repeat finding',
+  regressed: 'Regressed',
+};
+
+// Short verdict text shown in compact UI surfaces. Pairs with REMEDIATION_LABELS
+// to give a one-line read of "did the dysfunction get fixed?"
+export const REMEDIATION_VERDICTS: Record<string, string> = {
+  unknown: 'Not yet researched',
+  not_required: 'No operational fix needed',
+  not_started: 'Promised, not begun',
+  in_progress: 'Under remediation',
+  implemented_unverified: 'Agency claims fixed; no audit confirm',
+  verified_resolved: 'Fix confirmed by follow-up',
+  repeat_finding: 'Problem persists in later audit',
+  regressed: 'Problem returned after fix',
+};
+
+export const REFORM_STATUS_LABELS: Record<string, string> = {
+  unknown: 'Unknown',
+  none_proposed: 'None proposed',
+  bill_introduced: 'Bill introduced',
+  bill_in_committee: 'Bill in committee',
+  bill_passed: 'Bill passed',
+  bill_died: 'Bill died',
+  rulemaking_in_progress: 'Rulemaking in progress',
+  structural_change_implemented: 'Structural change implemented',
+  structural_change_failed: 'Structural change failed',
+};
+
 export const ROLE_LABELS: Record<string, string> = {
   elected: 'Elected',
   bureaucrat: 'Bureaucrat',
