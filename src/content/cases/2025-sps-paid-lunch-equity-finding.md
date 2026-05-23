@@ -35,6 +35,14 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: "SAO Financial Statement and Single Audit Report (Report #1037358) published May 22, 2025. Finding 2024-001 classified as significant deficiency under federal compliance standards. SPS response and corrective action plan included in the published report."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

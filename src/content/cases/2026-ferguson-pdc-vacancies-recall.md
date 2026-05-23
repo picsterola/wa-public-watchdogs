@@ -34,6 +34,14 @@ dollars_confirmed_loss: null
 legal_status: closed_no_action
 outcome_summary: "Recall effort ended April 25, 2026 after Ferguson filled both PDC commissioner vacancies. Matt Segal appointed April 16, 2026; Teebah Alsaleh appointed late April 2026. Recall filed April 1, 2026 by attorney Conner Edwards."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 2

@@ -52,6 +52,14 @@ dollars_confirmed_loss: null
 legal_status: no_action
 outcome_summary: "Sound Transit announced a formal 'program reset' process to determine which ST3 projects to build, delay, or descope within existing taxing authority. No new voter-approved funding increase has been sought. As of March 2026, the board is working through scope/sequencing decisions. No external investigation, audit referral, or enforcement action is underway; this is an internal agency planning process. The West Seattle Link Extension (WA-2025-ST-WSL) is one of several projects affected; this record covers the program-wide shortfall."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

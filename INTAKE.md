@@ -72,6 +72,7 @@ These are high-impact fields where drift breaks the registry's credibility:
 | **X3 · Dollar baseline reconciliation** | If the case references a dollar figure that appears in another case, baselines (YOE vs constant dollars, gross vs net, fiscal year vs calendar year) are stated explicitly. |
 | **X4 · Named actor consistency** | If a named person appears in another case, their name spelling, party, and title-at-time-of-event match. Role-at-time-of-event rule applies (see §6). |
 | **X5 · Schema validation** | All enum fields use allowed values. All required fields present. |
+| **X6 · Resolution tracking present** | `remediation_status` and `reform_status` are explicitly set (use `unknown` if not yet researched — never omit). Powers the /cases resolution filter. |
 
 ### Deferred (caught by periodic audit, does not block publish)
 

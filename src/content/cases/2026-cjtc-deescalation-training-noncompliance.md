@@ -37,6 +37,14 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: "SAO performance audit published April 14–15, 2026 (Report No. 1039295) found only 16% of veteran officers and 14% of new officers had completed legally required de-escalation and community safety training under the Law Enforcement Training and Community Safety Act. CJTC lacks enforcement tools to compel compliance. The audit recommended the Legislature establish consequences for noncompliant agencies and convene a working group to address compliance barriers. At current rates, approximately half of all officers will not complete required patrol tactics training by 2028. CJTC responded publicly through the commission's YouTube channel in May 2026."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

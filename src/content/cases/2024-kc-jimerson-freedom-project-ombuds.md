@@ -58,6 +58,13 @@ outcome_summary: >-
   3.04.057(A); no public record of appeal outcome reviewed for this entry.
   Report was distributed to the King County Prosecuting Attorney's Office; no
   criminal charges have been publicly announced as of last verification.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: ombudsman_report

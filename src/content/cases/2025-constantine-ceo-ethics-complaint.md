@@ -36,6 +36,14 @@ dollars_confirmed_loss: null
 legal_status: dismissed
 outcome_summary: "King County Office of the Ombuds dismissed Ethics Complaint OMB-2025-0160 by report dated June 18, 2025, finding no violation of the King County Ethics Code. The Ombuds found Constantine did not participate in his own evaluation in his county executive capacity, and that the hiring process did not constitute a conflict of interest under the applicable code provisions."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

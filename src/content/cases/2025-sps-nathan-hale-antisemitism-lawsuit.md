@@ -50,6 +50,14 @@ dollars_confirmed_loss: null
 legal_status: civil_filed
 outcome_summary: "State civil complaint filed in King County Superior Court on or about June 12-13, 2025; district was served June 17, 2025. The state case was voluntarily dismissed without prejudice before being refiled in U.S. District Court (Western District of Washington) on November 20, 2025 under Title VI of the Civil Rights Act of 1964, the Equal Protection Clause, and multiple state laws. A separate, second Nathan Hale lawsuit was filed in King County Superior Court by a different former student (Alexandra Greenstein) and reported in May 2026. Case status is active as of this record's last update."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

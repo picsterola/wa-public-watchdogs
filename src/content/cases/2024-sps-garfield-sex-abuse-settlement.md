@@ -62,6 +62,13 @@ outcome_summary: >-
   was charged with two counts of felony child rape in King County Superior
   Court; a mistrial was declared December 3, 2025 (Judge Michael Ryan) after a
   jury deadlocked. Retrial status open as of this record's last update.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: agency_statement

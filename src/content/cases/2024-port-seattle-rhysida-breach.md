@@ -40,6 +40,13 @@ outcome_summary: >-
   pay the approximately $6M ransom demanded by Rhysida ransomware group.
   Approximately 90,000 individuals were notified of personal data exposure in
   April 2025. No regulatory enforcement action publicly reported.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: agency_statement

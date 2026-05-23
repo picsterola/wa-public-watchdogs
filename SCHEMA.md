@@ -57,6 +57,22 @@ legal_status: audit_finding         # no_action | complaint_filed | under_invest
                                     # | civil_filed | criminal_charged | settled | convicted | dismissed | closed_no_action
 outcome_summary: null               # Short text. Populate when there's a resolution.
 
+# === RESOLUTION TRACKING (REQUIRED) ===
+# Every case must commit to a remediation_status and a reform_status. Use
+# 'unknown' explicitly if not yet researched — do not omit. These fields
+# drive the /cases resolution-status filter and tell readers whether the
+# underlying dysfunction was actually fixed and whether the implied
+# structural reform actually happened.
+remediation_status: unknown         # unknown | not_required | not_started | in_progress
+                                    # | implemented_unverified | verified_resolved | repeat_finding | regressed
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown              # unknown | none_proposed | bill_introduced | bill_in_committee
+                                    # | bill_passed | bill_died | rulemaking_in_progress
+                                    # | structural_change_implemented | structural_change_failed
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null                # Short text. The next watchable event (hearing, audit, bill vote).
+next_milestone_date: null           # ISO date if known. Drives the registry's 'what we are watching' surface.
+
 # === SOURCES (the credibility backbone) ===
 # Sources are tiered. Tier 1 is required for evidentiary_status = documented.
 sources:

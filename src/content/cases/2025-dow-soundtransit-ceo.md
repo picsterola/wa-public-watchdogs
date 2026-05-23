@@ -42,6 +42,14 @@ dollars_confirmed_loss: null
 legal_status: no_action
 outcome_summary: "Constantine was confirmed as Sound Transit CEO on March 27, 2025. No legal challenge has been filed. The structural conflict is a matter of public record."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

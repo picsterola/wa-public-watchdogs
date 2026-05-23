@@ -35,6 +35,13 @@ outcome_summary: >-
   order dated December 21, 2023, finding no violation of the rule as it then
   existed. PDC subsequently amended its surplus-funds guidance to close the
   transfer mechanism Ferguson used.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: pdc_filing

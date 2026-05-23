@@ -35,6 +35,14 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: "Reported as 'Not Corrected' in SAO Report #1037358 (May 22, 2025). This is a carryover finding from prior audit cycles. The persistence of an unresolved $4.9M finding across multiple audits is the structural item of interest, independent of final FCC/program disposition."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

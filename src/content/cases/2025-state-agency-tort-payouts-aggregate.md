@@ -49,6 +49,14 @@ dollars_confirmed_loss: 500000000
 legal_status: settled
 outcome_summary: "Not a single case — an aggregation of state agency tort payouts compiled by Sen. Chris Gildon (R-Puyallup) from Office of Risk Management data, released publicly January 19, 2025. Gildon introduced SB 5144, requiring legislative hearings when a state agency tort payout reaches $1 million or more. The bill was referred to the Senate Law and Justice Committee. The underlying payouts reflect final, settled or adjudicated liabilities paid from the state Liability Account."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 2

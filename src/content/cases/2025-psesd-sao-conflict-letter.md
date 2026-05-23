@@ -34,6 +34,14 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: "SAO published Accountability Audit Report #1036582 on Feb 6, 2025. The report references that 'matters relating to conflict of interest' were communicated to PSESD management via a separate letter dated Jan 29, 2025. The management letter itself is not posted publicly. No formal SAO 'finding' was issued — the matters were handled at the lesser 'communicated to management' level."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

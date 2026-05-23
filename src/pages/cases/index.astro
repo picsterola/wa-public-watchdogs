@@ -71,6 +71,8 @@ const rows = initialCases.map((c) => {
     dollarsLabel: formatDollars(c.data.dollars_at_issue),
     snippet: bodySnippet(c.body),
     retracted: c.data.review_status === 'retracted',
+    remediation: c.data.remediation_status ?? 'unknown',
+    reform: c.data.reform_status ?? 'unknown',
     group,
   };
 });
@@ -193,6 +195,17 @@ const moneyCounts = moneyBuckets.map((b) => ({
       </div>
 
       <div class="filter-group">
+        <span class="filter-label">Resolution</span>
+        <div class="filter-chips" data-filter-group="resolution">
+          <button type="button" class="chip" data-value="open">Open / unresolved</button>
+          <button type="button" class="chip" data-value="in_progress">In progress</button>
+          <button type="button" class="chip" data-value="resolved">Resolved</button>
+          <button type="button" class="chip" data-value="repeat">Repeat / regressed</button>
+          <button type="button" class="chip" data-value="unknown">Unknown</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
         <span class="filter-label">Government body</span>
         <select class="filter-select" data-filter-select="group">
           <option value="">All</option>
@@ -291,6 +304,8 @@ const moneyCounts = moneyBuckets.map((b) => ({
             data-dollars={r.dollars}
             data-date-surfaced={r.date_surfaced}
             data-last-updated={r.last_updated}
+            data-remediation={r.remediation}
+            data-reform={r.reform}
             data-search={[r.id, r.title, r.snippet, r.primaryActor, r.primaryActorJurisdiction, r.group, r.severities.map((s) => SEVERITY_LABELS[s] ?? s).join(' '), r.reforms.join(' ')].filter(Boolean).join(' ').toLowerCase()}
           >
             <div class="case-row-meta">
@@ -330,7 +345,17 @@ const moneyCounts = moneyBuckets.map((b) => ({
     const noResults = document.getElementById('no-results');
     const groupSections = Array.from(document.querySelectorAll('.case-group'));
 
-    const active = { status: new Set(), severity: new Set(), reform: new Set(), money: new Set() };
+    const active = { status: new Set(), severity: new Set(), reform: new Set(), money: new Set(), resolution: new Set() };
+
+    // Resolution filter groups remediation_status enum values into 5 user-facing buckets.
+    // Mapping is intentionally lossy — the filter is for discovery, not precision.
+    const resolutionBuckets = {
+      open: ['not_started'],
+      in_progress: ['in_progress', 'implemented_unverified'],
+      resolved: ['verified_resolved', 'not_required'],
+      repeat: ['repeat_finding', 'regressed'],
+      unknown: ['unknown'],
+    };
     const selects = { group: '', year: '', party: '', sort: 'dollars_desc' };
     let searchQuery = '';
 
@@ -343,7 +368,7 @@ const moneyCounts = moneyBuckets.map((b) => ({
 
     function readUrl() {
       const p = new URLSearchParams(window.location.search);
-      ['status', 'severity', 'reform', 'money'].forEach((k) => {
+      ['status', 'severity', 'reform', 'money', 'resolution'].forEach((k) => {
         const v = p.get(k);
         if (v) v.split(',').filter(Boolean).forEach((x) => active[k].add(x));
       });
@@ -357,7 +382,7 @@ const moneyCounts = moneyBuckets.map((b) => ({
 
     function writeUrl() {
       const p = new URLSearchParams();
-      ['status', 'severity', 'reform', 'money'].forEach((k) => {
+      ['status', 'severity', 'reform', 'money', 'resolution'].forEach((k) => {
         if (active[k].size) p.set(k, Array.from(active[k]).join(','));
       });
       ['group', 'year', 'party'].forEach((k) => {
@@ -404,6 +429,15 @@ const moneyCounts = moneyBuckets.map((b) => ({
         for (const key of active.money) {
           const range = moneyRanges[key];
           if (range && d >= range[0] && d <= range[1]) { any = true; break; }
+        }
+        if (!any) return false;
+      }
+      if (active.resolution.size) {
+        const rem = row.dataset.remediation || 'unknown';
+        let any = false;
+        for (const bucket of active.resolution) {
+          const enums = resolutionBuckets[bucket] || [];
+          if (enums.includes(rem)) { any = true; break; }
         }
         if (!any) return false;
       }

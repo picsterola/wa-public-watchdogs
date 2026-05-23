@@ -48,6 +48,13 @@ outcome_summary: >-
   any student who aged out during the lawsuit and has not yet turned 22; (3)
   convene IEP teams to determine whether compensatory education is owed to each
   class member. Final Approval Hearing scheduled June 17, 2025.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: settlement_document

@@ -44,6 +44,14 @@ dollars_confirmed_loss: null
 legal_status: no_action
 outcome_summary: "No formal audit finding on the structural deficit itself; the deficit is documented in district budget materials and reported by the Seattle Times. The governance question — that the Finance/Audit Committee had been dissolved by the board prior to authorization of the $27.5M interfund loan — is the specific item flagged. Superintendent Brent Jones resigned during this period; context only, not a standalone case."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

@@ -39,6 +39,13 @@ outcome_summary: >-
   the funding the Legislature identified as necessary to achieve the 90%
   reduction goal under HB 1090. No corrective action with enforcement mechanism
   has been implemented as of the date of this registry entry.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: ombudsman_report

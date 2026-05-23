@@ -63,6 +63,13 @@ outcome_summary: >-
   2024. As of last update, no charging decisions have been publicly announced
   and no charges have been filed against any individual. Port contracts with PIE
   suspended.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: audit

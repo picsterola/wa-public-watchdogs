@@ -34,6 +34,14 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: "JLARC's July 2025 final report (25-06) found DOH systemically out of compliance with two core statutory obligations: hospital inspection schedules and adverse-event correction plan review. DOH agreed to JLARC's five recommendations and committed to presenting a strategic management plan and progress report at JLARC's July 2026 meeting. DOH received one-time funding for a staff position to address inspection backlog, but that position was filled in February 2025 and funding expired June 2025."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

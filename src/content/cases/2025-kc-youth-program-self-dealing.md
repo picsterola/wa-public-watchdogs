@@ -45,6 +45,14 @@ dollars_confirmed_loss: null
 legal_status: under_investigation
 outcome_summary: "McGhee was fired in January 2026 for what King County characterized as 'serious policy violations'. The county investigation report (December 2025) was obtained by the Seattle Times via public records request and published April 26, 2026. McGhee is contesting her firing through her labor union. No criminal charges filed; the King County Prosecuting Attorney's Office has not announced whether criminal referral is contemplated. The case became a primary public-facing driver of the April 2026 King County Council Inspector General proposal."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 2

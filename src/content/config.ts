@@ -155,10 +155,13 @@ const cases = defineCollection({
 
     // Resolution tracking — whether the underlying dysfunction was fixed
     // and whether the implied structural reform actually happened.
-    // Defaults to 'unknown' on existing cases until backfilled.
-    remediation_status: remediationStatus.default('unknown'),
+    // REQUIRED on all cases. Use 'unknown' explicitly if not yet researched
+    // rather than omitting. Every intake must commit to a value here so
+    // the registry's resolution-tracking schema stays consistent and the
+    // /cases resolution-status filter remains accurate.
+    remediation_status: remediationStatus,
     remediation_note: z.string().nullable().optional(),
-    reform_status: reformStatus.default('unknown'),
+    reform_status: reformStatus,
     reform_status_note: z.string().nullable().optional(),
     next_milestone: z.string().nullable().optional(),
     next_milestone_date: flexibleDate,

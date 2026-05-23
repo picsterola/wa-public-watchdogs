@@ -41,6 +41,14 @@ dollars_confirmed_loss: null
 legal_status: closed_no_action
 outcome_summary: "SPD imposed mid-year overtime restrictions in November 2025: all overtime requires Assistant Chief/Executive Director pre-approval; no overtime for property crime investigations (burglary, theft), nonviolent drug crimes, community meetings, or Real-Time Crime Center work through end of 2025. Homicide investigations and parking enforcement require direct Chief command staff approval. City Council passed an amendment requiring SPD to include overtime data in quarterly hiring reports 'when available.'"
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 2

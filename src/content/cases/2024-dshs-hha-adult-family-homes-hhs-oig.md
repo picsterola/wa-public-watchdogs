@@ -38,6 +38,13 @@ outcome_summary: >-
   licensure and inspection was determined inadequate to ensure compliance with
   federal Medicaid waiver requirements. OIG recommended CMS take corrective
   action to strengthen oversight.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: federal_oversight_report

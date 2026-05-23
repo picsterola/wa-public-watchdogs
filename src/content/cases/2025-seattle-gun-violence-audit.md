@@ -51,6 +51,14 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: "Audit published March 25, 2025 by the Seattle Office of City Auditor. Mayor's Office 'generally concurred' with all four recommendations per the audit's response section. In the March 27, 2025 presentation to the City Council Governance Committee, Deputy Mayor Tiffany Washington publicly disputed the framing, stating the Mayor's Office was 'already doing the things that were in the audit findings.' CARE Department Chief Amy Barden told Council the same week that she 'has not been endorsed to do that part of the work yet,' confirming the audit's finding that the ordinance-mandated integration initiative had not begun roughly 17 months after CARE's October 2023 establishment. No corrective-action timeline published as of last verification. Long-time City Auditor David G. Jones retired in December 2025; the audit recommendation tracker reports City departments implemented 10% of 94 open audit recommendations in 2025."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

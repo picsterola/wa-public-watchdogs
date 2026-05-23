@@ -38,6 +38,13 @@ outcome_summary: >-
   Remarks' with no staff assignment or tracking mechanism. DOC agreed to three
   OCO recommendations in the report but declined to produce CAPs for half of the
   reviewed deaths. Two deaths occurred in solitary confinement housing.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: ombudsman_report

@@ -34,6 +34,14 @@ dollars_confirmed_loss: null
 legal_status: closed_no_action
 outcome_summary: "Published March 23, 2026 by the Washington State Auditor's Office (Report No. 1039250). Overall finding: City operations complied 'in all material respects' with state laws, regulations, and City policies, with adequate controls over public resources. Exception: noncompliance with competitive procurement and emergency exemption requirements, communicated to the Mayor and City Council in a separate March 17, 2026 letter. Federal program findings (subrecipient monitoring, reporting, housing quality standards, earmarking) addressed in a separate Single Audit report."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1

@@ -48,6 +48,13 @@ outcome_summary: >-
   v. Seattle School District No. 1, Washington Court of Appeals Case No.
   85998-6-I, decided November 25, 2024) confirmed the OSCR investigation
   timeline and was decided in the district's favor on the PRA question.
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 sources:
   - tier: 1
     type: court_filing

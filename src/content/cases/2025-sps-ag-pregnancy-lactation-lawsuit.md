@@ -45,6 +45,14 @@ dollars_confirmed_loss: null
 legal_status: civil_filed
 outcome_summary: "Civil lawsuit filed April 15, 2025 in King County Superior Court by the Washington State Attorney General's Office under the Healthy Starts Act (RCW 43.10.005) and the Washington Law Against Discrimination (RCW 49.60.030, 49.60.180). AG sought pre-suit negotiation with SPS; those discussions were unsuccessful. SPS published district Policy 5010SP.B (Workplace Accommodations for Pregnancy and Nursing) in November 2025, citing the relevant RCWs. Whether the post-suit policy satisfies the AG's demands has not been publicly resolved. Case active as of this record's last update."
 
+# === RESOLUTION TRACKING ===
+remediation_status: unknown
+remediation_note: "Resolution tracking not yet researched. To be backfilled."
+reform_status: unknown
+reform_status_note: "Reform tracking not yet researched. To be backfilled."
+next_milestone: null
+next_milestone_date: null
+
 # === SOURCES ===
 sources:
   - tier: 1
