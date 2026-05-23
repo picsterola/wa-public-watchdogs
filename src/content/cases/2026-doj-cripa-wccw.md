@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: WA-2026-DOJ-CRIPA-WCCW
-title: "DOJ CRIPA investigation — federal Civil Rights Division opens Eighth Amendment investigation of Washington Corrections Center for Women"
+title: >-
+  DOJ CRIPA investigation — federal Civil Rights Division opens Eighth Amendment
+  investigation of Washington Corrections Center for Women
 slug: doj-cripa-wccw
-date_surfaced: 2026-05-19
+date_surfaced: 2026-05-19T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-22
-last_verified: 2026-05-22
-
-# === ACTORS ===
+last_updated: '2026-05-23'
+last_verified: 2026-05-22T00:00:00.000Z
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -21,53 +20,67 @@ actors:
     title: null
     party: null
     jurisdiction: Federal
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - civil_rights_harm
 reforms_implicated:
   - independent_inspector_general
   - federal_oversight_response
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: under_investigation
-outcome_summary: "DOJ Civil Rights Division formally notified Washington Governor Bob Ferguson on May 19, 2026 that the United States has commenced a CRIPA investigation into the Washington Corrections Center for Women (WCCW) in Gig Harbor. The investigation is open; no findings or conclusions have been issued. DOJ has not reached any conclusions as to whether constitutional violations exist."
-
-# === SOURCES ===
+outcome_summary: >-
+  DOJ Civil Rights Division formally notified Washington Governor Bob Ferguson
+  on May 19, 2026 that the United States has commenced a CRIPA investigation
+  into the Washington Corrections Center for Women (WCCW) in Gig Harbor. The
+  investigation is open; no findings or conclusions have been issued. DOJ has
+  not reached any conclusions as to whether constitutional violations exist.
 sources:
   - tier: 1
     type: federal_oversight_report
-    title: "Justice Department Notifies Washington of Investigation into Whether Housing Biological Men in Women's Prison Violates Constitution"
+    title: >-
+      Justice Department Notifies Washington of Investigation into Whether
+      Housing Biological Men in Women's Prison Violates Constitution
     publisher: U.S. Department of Justice Office of Public Affairs
-    date: 2026-05-19
-    url: https://www.justice.gov/opa/pr/justice-department-notifies-washington-investigation-whether-housing-biological-men-womens
+    date: 2026-05-19T00:00:00.000Z
+    url: >-
+      https://www.justice.gov/opa/pr/justice-department-notifies-washington-investigation-whether-housing-biological-men-womens
     archive_url: null
-    quote: "The Justice Department will investigate whether Washington engages in a pattern or practice of violating the constitutional rights of female prisoners incarcerated at the Washington Corrections Center for Women (WCCW) in Gig Harbor, Washington."
+    quote: >-
+      The Justice Department will investigate whether Washington engages in a
+      pattern or practice of violating the constitutional rights of female
+      prisoners incarcerated at the Washington Corrections Center for Women
+      (WCCW) in Gig Harbor, Washington.
   - tier: 1
     type: federal_oversight_report
-    title: "Investigation of Washington Corrections Center for Women — CRIPA Notice Letter from Assistant Attorney General Harmeet K. Dhillon to Governor Bob Ferguson"
+    title: >-
+      Investigation of Washington Corrections Center for Women — CRIPA Notice
+      Letter from Assistant Attorney General Harmeet K. Dhillon to Governor Bob
+      Ferguson
     publisher: U.S. Department of Justice Civil Rights Division
     author: Harmeet K. Dhillon
-    date: 2026-05-19
-    url: https://www.justice.gov/crt/media/1441251/dl
+    date: 2026-05-19T00:00:00.000Z
+    url: 'https://www.justice.gov/crt/media/1441251/dl'
     archive_url: null
-    quote: "Our investigation is based on information that WCCW has failed to protect female prisoners from sexual and physical violence, harassment, voyeurism, and intimidation from male prisoners who identify as female and who WDOC has housed at WCCW."
+    quote: >-
+      Our investigation is based on information that WCCW has failed to protect
+      female prisoners from sexual and physical violence, harassment, voyeurism,
+      and intimidation from male prisoners who identify as female and who WDOC
+      has housed at WCCW.
   - tier: 2
     type: news
-    title: "DOJ investigates WA women's prison over transgender inmate policy"
+    title: DOJ investigates WA women's prison over transgender inmate policy
     publisher: FOX 13 Seattle
-    date: 2026-05-20
-    url: https://www.fox13seattle.com/news/doj-womens-prison-transgender-policy
+    date: 2026-05-20T00:00:00.000Z
+    url: 'https://www.fox13seattle.com/news/doj-womens-prison-transgender-policy'
     archive_url: null
-    quote: "The federal probe focuses on the Washington Corrections Center (WCCW) for Women, which is located in Gig Harbor. According to federal officials, the investigation will look into allegations that the state is depriving female prisoners of their Eighth Amendment protections against cruel and unusual punishment."
-
-# === REFORM LINKAGE ===
+    quote: >-
+      The federal probe focuses on the Washington Corrections Center (WCCW) for
+      Women, which is located in Gig Harbor. According to federal officials, the
+      investigation will look into allegations that the state is depriving
+      female prisoners of their Eighth Amendment protections against cruel and
+      unusual punishment.
 reform_argument: |
   The DOJ CRIPA notice of May 19, 2026 is the formal federal-level
   escalation in a sequence that includes two prior OCO investigative
@@ -97,8 +110,6 @@ reform_argument: |
   institutional layer between documented OCO findings and federal CRIPA
   intervention. See [reform: independent_inspector_general] and
   [reform: federal_oversight_response].
-
-# === GOVERNANCE METADATA ===
 review_status: draft
 retraction_note: null
 contributor: vn
@@ -109,6 +120,15 @@ tags:
   - cripa
   - federal_investigation
   - eighth_amendment
+remediation_status: in_progress
+reform_status: unknown
+remediation_note: >-
+  DOJ CRIPA investigation formally opened May 19, 2026; state confirmed
+  cooperation; no findings or consent decree issued yet.
+reform_status_note: >-
+  No legislative response identified; investigation only 3 days old at time of
+  research.
+next_milestone: DOJ preliminary findings letter to Governor
 ---
 
 **On May 19, 2026, the U.S. Department of Justice Civil Rights Division formally notified Washington Governor Bob Ferguson that the United States has opened a CRIPA investigation into the Washington Corrections Center for Women (WCCW) in Gig Harbor. The investigation centers on Eighth Amendment protections for female prisoners in connection with DOC's policy of housing male-identifying prisoners at WCCW.**

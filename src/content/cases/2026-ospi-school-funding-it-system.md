@@ -1,72 +1,98 @@
 ---
-# === IDENTITY ===
 id: WA-2026-OSPI-IT
-title: "OSPI school funding apportionment system — SAO performance audit finds $30B-per-biennium system at 'high risk for catastrophic failure'"
+title: >-
+  OSPI school funding apportionment system — SAO performance audit finds
+  $30B-per-biennium system at 'high risk for catastrophic failure'
 slug: ospi-school-funding-it-system
-date_surfaced: 2026-05-19
-date_conduct_start: 2009-01-01
+date_surfaced: 2026-05-19T00:00:00.000Z
+date_conduct_start: 2009-01-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+last_updated: '2026-05-23'
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Office of Superintendent of Public Instruction
     role_type: agency
     title: null
     party: null
     jurisdiction: Washington State
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
 reforms_implicated:
   - it_modernization_governance
   - independent_inspector_general
-
-# === SCALE ===
 dollars_at_issue: 30000000000
-dollars_basis: "The OSPI apportionment system distributes more than $30 billion per biennium to Washington school districts. SAO did not quantify a confirmed loss; the dollar figure represents the annual flow of public funds through a system the third-party assessment characterized as at 'high risk for catastrophic failure.'"
+dollars_basis: >-
+  The OSPI apportionment system distributes more than $30 billion per biennium
+  to Washington school districts. SAO did not quantify a confirmed loss; the
+  dollar figure represents the annual flow of public funds through a system the
+  third-party assessment characterized as at 'high risk for catastrophic
+  failure.'
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: audit_finding
 outcome_summary: null
-
-# === SOURCES ===
 sources:
   - tier: 1
     type: sao_report
-    title: "SAO Performance Audit — OSPI School Funding Apportionment System (Report ARN 1039634)"
+    title: >-
+      SAO Performance Audit — OSPI School Funding Apportionment System (Report
+      ARN 1039634)
     publisher: Washington State Auditor's Office
-    date: 2026-05-19
-    url: https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039634&isFinding=false&sp=false
+    date: 2026-05-19T00:00:00.000Z
+    url: >-
+      https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039634&isFinding=false&sp=false
     archive_url: null
-
-# === REFORM LINKAGE ===
-reform_argument: |
+reform_argument: >
   The OSPI apportionment system is the closest analog in the registry to the
+
   L&I workers' compensation IT modernization failure (WA-2025-LNI-IT). Both
-  cases feature a decades-old legacy system with no documented controls, reliance
-  on the institutional memory of a small number of staff, and a projected failure
-  mode that would be catastrophic to a large population of public-service recipients.
-  The difference is that L&I has been spending money on modernization for ten years
-  with nothing delivered; OSPI has not yet begun a modernization program, meaning
+
+  cases feature a decades-old legacy system with no documented controls,
+  reliance
+
+  on the institutional memory of a small number of staff, and a projected
+  failure
+
+  mode that would be catastrophic to a large population of public-service
+  recipients.
+
+  The difference is that L&I has been spending money on modernization for ten
+  years
+
+  with nothing delivered; OSPI has not yet begun a modernization program,
+  meaning
+
   the failure risk is entirely unmitigated.
 
-  Washington has documented a statewide pattern of IT project failures (70 projects
-  totaling $2.5 billion, 7 at significant risk as of 2025). The OSPI system represents
-  a distinct category of risk: not a project that is running over budget, but a legacy
-  system that has never been assessed for modernization while it processes the largest
-  single flow of state education dollars. An independent stage-gate authority with
-  mandatory stop/restart authority — the same structural reform implicated by the L&I
-  case — would be the appropriate mechanism to govern any modernization program.
-  In the interim, the documented absence of controls and the single-point-of-failure
-  staffing model require immediate remediation independent of any long-term IT plan.
-  See [reform: it_modernization_governance] and [reform: independent_inspector_general].
 
-# === GOVERNANCE METADATA ===
+  Washington has documented a statewide pattern of IT project failures (70
+  projects
+
+  totaling $2.5 billion, 7 at significant risk as of 2025). The OSPI system
+  represents
+
+  a distinct category of risk: not a project that is running over budget, but a
+  legacy
+
+  system that has never been assessed for modernization while it processes the
+  largest
+
+  single flow of state education dollars. An independent stage-gate authority
+  with
+
+  mandatory stop/restart authority — the same structural reform implicated by
+  the L&I
+
+  case — would be the appropriate mechanism to govern any modernization program.
+
+  In the interim, the documented absence of controls and the
+  single-point-of-failure
+
+  staffing model require immediate remediation independent of any long-term IT
+  plan.
+
+  See [reform: it_modernization_governance] and [reform:
+  independent_inspector_general].
 review_status: published
 retraction_note: null
 contributor: vn
@@ -76,6 +102,17 @@ tags:
   - sao_audit
   - structural_failure
   - school_funding
+remediation_status: in_progress
+reform_status: rulemaking_in_progress
+remediation_note: >-
+  Legislature allocated $16M over four fiscal years starting 2025-27 biennium;
+  OSPI RFP (SASQUATCH) closed February 2026; new system targeted 2028-29 school
+  year.
+reform_status_note: >-
+  Legislative appropriation secured; OSPI procurement underway; no standalone
+  reform statute; formal CAP to SAO pending (audit published May 19, 2026).
+next_milestone: OSPI contractor selection and contract execution
+next_milestone_date: '2026-09-30'
 ---
 
 **A May 2026 SAO performance audit found that Washington's 17-year-old OSPI school funding apportionment system — which distributes more than $30 billion per biennium to school districts — has no documented controls, depends on the institutional memory of a handful of staff, has already experienced a multi-day outage, and was characterized by an independent third-party assessment as at "high risk for catastrophic failure."**

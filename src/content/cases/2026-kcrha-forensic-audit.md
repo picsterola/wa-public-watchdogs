@@ -1,15 +1,12 @@
 ---
-# === IDENTITY ===
 id: KC-2026-001
-title: "KCRHA forensic audit — $13M unaccounted, $44.7M negative cash position"
+title: 'KCRHA forensic audit — $13M unaccounted, $44.7M negative cash position'
 slug: kcrha-forensic-audit
-date_surfaced: 2026-04-22
-date_conduct_start: 2021-06-01
-date_conduct_end: 2025-07-31
-last_updated: 2026-05-20
-last_verified: 2026-05-20
-
-# === ACTORS ===
+date_surfaced: 2026-04-22T00:00:00.000Z
+date_conduct_start: 2021-06-01T00:00:00.000Z
+date_conduct_end: 2025-07-31T00:00:00.000Z
+last_updated: '2026-05-23'
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: King County Regional Homelessness Authority
     role_type: agency
@@ -18,11 +15,9 @@ actors:
     jurisdiction: King County
   - name: Kelly Kinnison
     role_type: bureaucrat
-    title: CEO, KCRHA
+    title: 'CEO, KCRHA'
     party: null
     jurisdiction: King County
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
@@ -32,86 +27,98 @@ reforms_implicated:
   - subrecipient_monitoring
   - procurement_reform
   - cost_transparency_reporting
-
-# === SCALE ===
 dollars_at_issue: 13000000
-dollars_basis: "Per Clark Nuber forensic evaluation (April 17, 2026): approximately $8M in receivables that could not be reconciled, plus $4.26M administrative operating deficit (including $1.27M in unrecoverable interest charges from negative cash balances in the King County Investment Pool), plus $1M+ in additional interest-related variance. Total contextualized against ~$800M in cumulative KCRHA budget over the 2021–2025 audit period."
+dollars_basis: >-
+  Per Clark Nuber forensic evaluation (April 17, 2026): approximately $8M in
+  receivables that could not be reconciled, plus $4.26M administrative operating
+  deficit (including $1.27M in unrecoverable interest charges from negative cash
+  balances in the King County Investment Pool), plus $1M+ in additional
+  interest-related variance. Total contextualized against ~$800M in cumulative
+  KCRHA budget over the 2021–2025 audit period.
 dollars_confirmed_loss: 1270000
-
-# === STATUS ===
 legal_status: under_investigation
-outcome_summary: "Audit released April 22, 2026. KCRHA submitted initial response May 12, 2026; full corrective action plan due May 23, 2026, with follow-ups June 30 and July 31. Multiple elected officials (Dembowski, Kettle, Mayor Wilson) have publicly called for dissolution of the agency. Audit identified gift cards, purchase cards, and reimbursements as areas where fraud could occur undetected."
-
-# === SOURCES ===
+outcome_summary: >-
+  Audit released April 22, 2026. KCRHA submitted initial response May 12, 2026;
+  full corrective action plan due May 23, 2026, with follow-ups June 30 and July
+  31. Multiple elected officials (Dembowski, Kettle, Mayor Wilson) have publicly
+  called for dissolution of the agency. Audit identified gift cards, purchase
+  cards, and reimbursements as areas where fraud could occur undetected.
 sources:
   - tier: 1
     type: audit
-    title: "City of Seattle Human Services Department — Forensic Evaluation of KCRHA"
+    title: City of Seattle Human Services Department — Forensic Evaluation of KCRHA
     publisher: Clark Nuber P.S.
-    date: 2026-04-17
-    url: https://publicola.com/wp-content/uploads/2026/04/4-17-26-Organizational-Forensic-Audit.pdf
+    date: 2026-04-17T00:00:00.000Z
+    url: >-
+      https://publicola.com/wp-content/uploads/2026/04/4-17-26-Organizational-Forensic-Audit.pdf
     archive_url: null
   - tier: 1
     type: agency_statement
-    title: "Councilmember Kettle on results of King County Regional Homelessness Authority audit"
+    title: >-
+      Councilmember Kettle on results of King County Regional Homelessness
+      Authority audit
     publisher: Seattle City Council
-    date: 2026-04-22
-    url: https://council.seattle.gov/2026/04/22/councilmember-kettle-on-results-of-king-county-regional-homelessness-authority-audit/
+    date: 2026-04-22T00:00:00.000Z
+    url: >-
+      https://council.seattle.gov/2026/04/22/councilmember-kettle-on-results-of-king-county-regional-homelessness-authority-audit/
     archive_url: null
   - tier: 2
     type: news
-    title: "Forensic Audit Exposes King County Homelessness Authority Failures"
+    title: Forensic Audit Exposes King County Homelessness Authority Failures
     publisher: The Seattle Medium
     author: null
-    date: 2026-04-23
-    url: https://seattlemedium.com/king-county-homelessness-authority-failures/
+    date: 2026-04-23T00:00:00.000Z
+    url: 'https://seattlemedium.com/king-county-homelessness-authority-failures/'
     archive_url: null
   - tier: 2
     type: news
-    title: "Alarming Audit, Missing Millions: Is the End Nigh for KCRHA?"
+    title: 'Alarming Audit, Missing Millions: Is the End Nigh for KCRHA?'
     publisher: PubliCola
     author: Erica C. Barnett
-    date: 2026-04-23
-    url: https://publicola.com/2026/04/23/alarming-audit-missing-millions-is-the-end-nigh-for-kcrha/
+    date: 2026-04-23T00:00:00.000Z
+    url: >-
+      https://publicola.com/2026/04/23/alarming-audit-missing-millions-is-the-end-nigh-for-kcrha/
     archive_url: null
   - tier: 2
     type: news
-    title: "KCRHA gives first steps after audit says millions are missing"
+    title: KCRHA gives first steps after audit says millions are missing
     publisher: KIRO 7
-    date: 2026-05-12
-    url: https://www.kiro7.com/news/local/kcrha-gives-first-steps-after-audit-says-millions-are-missing/5NOE2PL52VAL7F4SWNOZX4TCS4/
+    date: 2026-05-12T00:00:00.000Z
+    url: >-
+      https://www.kiro7.com/news/local/kcrha-gives-first-steps-after-audit-says-millions-are-missing/5NOE2PL52VAL7F4SWNOZX4TCS4/
     archive_url: null
   - tier: 2
     type: news
-    title: "KCRHA pushes back after audit finds millions unaccounted for"
+    title: KCRHA pushes back after audit finds millions unaccounted for
     publisher: Westside Seattle
-    date: 2026-05-12
-    url: https://www.westsideseattle.com/robinson-papers/2026/05/12/kcrha-pushes-back-after-audit-finds-millions-unaccounted-seattle-leaders
+    date: 2026-05-12T00:00:00.000Z
+    url: >-
+      https://www.westsideseattle.com/robinson-papers/2026/05/12/kcrha-pushes-back-after-audit-finds-millions-unaccounted-seattle-leaders
     archive_url: null
   - tier: 2
     type: news
-    title: "An audit could end King County's homelessness plan. Should it?"
+    title: An audit could end King County's homelessness plan. Should it?
     publisher: KUOW
     author: Amy Radil
-    date: 2026-04-28
-    url: https://www.youtube.com/watch?v=C6n-x--Ufco
+    date: 2026-04-28T00:00:00.000Z
+    url: 'https://www.youtube.com/watch?v=C6n-x--Ufco'
     archive_url: null
   - tier: 2
     type: news
-    title: "Mayor Wilson statement on KCRHA forensic evaluation"
+    title: Mayor Wilson statement on KCRHA forensic evaluation
     publisher: West Seattle Blog
-    date: 2026-04-22
-    url: https://westseattleblog.com/2026/04/the-agency-is-unable-to-account-for-13-million-in-public-funds-what-the-mayor-says-about-regional-homelessness-agency-review-results/
+    date: 2026-04-22T00:00:00.000Z
+    url: >-
+      https://westseattleblog.com/2026/04/the-agency-is-unable-to-account-for-13-million-in-public-funds-what-the-mayor-says-about-regional-homelessness-agency-review-results/
     archive_url: null
   - tier: 2
     type: agency_statement
-    title: "Dembowski calls for dissolution of Regional Homeless Authority"
+    title: Dembowski calls for dissolution of Regional Homeless Authority
     publisher: Shoreline Area News
-    date: 2026-04-23
-    url: https://www.shorelineareanews.com/2026/04/dembowski-calls-for-dissolution-of.html
+    date: 2026-04-23T00:00:00.000Z
+    url: >-
+      https://www.shorelineareanews.com/2026/04/dembowski-calls-for-dissolution-of.html
     archive_url: null
-
-# === REFORM LINKAGE ===
 reform_argument: |
   The Clark Nuber audit identified the absence of a formal internal control
   framework, undefined financial leadership roles, and the same-person approve-
@@ -125,8 +132,6 @@ reform_argument: |
   fraud "could occur" in gift card, purchase card, and reimbursement processes
   without being detected is itself a structural finding about the limits of the
   current oversight regime.
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn
@@ -138,6 +143,17 @@ tags:
   - king_county
   - city_of_seattle
   - dissolution_proposal
+remediation_status: in_progress
+reform_status: bill_introduced
+remediation_note: >-
+  CAP submitted May 8/12, 2026; KC Council initiated 90-day dissolution process
+  April 28; Seattle Council resolution May 15 requests mayor recommendation by
+  Aug 1.
+reform_status_note: >-
+  KC dissolution ordinance introduced April 28, 2026; IG ordinance 2026-0101
+  introduced same day; neither has received final vote.
+next_milestone: Seattle Mayor recommendation on KCRHA successor structure
+next_milestone_date: '2026-08-01'
 ---
 
 **A forensic audit found that Seattle and King County's homelessness agency, the King County Regional Homelessness Authority (KCRHA), could not account for $13 million in public funds and was carrying a $44.7 million negative cash position — with no fraud found, but also no basic financial controls in place.**

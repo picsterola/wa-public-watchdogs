@@ -7,7 +7,7 @@ slug: spd-diaz-misconduct
 date_surfaced: 2024-05-29T00:00:00.000Z
 date_conduct_start: 2023-01-01T00:00:00.000Z
 date_conduct_end: 2024-12-17T00:00:00.000Z
-last_updated: 2026-05-20T00:00:00.000Z
+last_updated: '2026-05-23'
 last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Adrian Diaz
@@ -126,6 +126,15 @@ tags:
   - oig
   - personnel
   - city_of_seattle
+remediation_status: verified_resolved
+reform_status: none_proposed
+remediation_note: >-
+  OIG process completed; misconduct substantiated; Diaz fired December 17, 2024;
+  Tompkins resigned November 2024; new leadership installed. Diaz wrongful
+  termination lawsuit pending but does not affect remediation status.
+reform_status_note: >-
+  No legislation filed to address 7-month administrative-leave-with-pay gap
+  identified in audit.
 ---
 
 **Seattle Police Department (SPD) Chief Adrian Diaz was fired in December 2024 after an Office of Inspector General (OIG) investigation found he had hired a romantic partner as his chief of staff, bypassed the department's background check process, and lied to investigators — all while collecting his $338,000 salary in a "special projects" role for seven months after his demotion.**

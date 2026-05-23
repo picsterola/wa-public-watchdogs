@@ -7,7 +7,7 @@ slug: commerce-covid-relief-questioned-costs
 date_surfaced: 2024-06-06T00:00:00.000Z
 date_conduct_start: 2021-01-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-21T00:00:00.000Z
+last_updated: '2026-05-23'
 last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Department of Commerce
@@ -107,6 +107,13 @@ tags:
   - subrecipient_monitoring
   - questioned_costs
   - federal_funds
+remediation_status: implemented_unverified
+reform_status: none_proposed
+remediation_note: >-
+  Commerce hired additional staff and bolstered documentation per agency
+  statement; no follow-up SAO audit has independently confirmed findings
+  cleared.
+next_milestone: SAO follow-up accountability audit
 ---
 
 **The SAO's FY2023 Statewide Single Audit — a record-setting 86 findings statewide — identified 12 findings and $75 million in questioned costs at the Washington State Department of Commerce related to COVID Emergency Rental Assistance and utility payment programs, citing inadequate documentation and insufficient subrecipient monitoring.**

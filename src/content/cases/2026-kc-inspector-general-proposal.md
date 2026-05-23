@@ -1,15 +1,14 @@
 ---
-# === IDENTITY ===
 id: KC-2026-007
-title: "King County Council pushes to establish independent Inspector General — reform proposal"
+title: >-
+  King County Council pushes to establish independent Inspector General — reform
+  proposal
 slug: kc-inspector-general-proposal
-date_surfaced: 2026-03-25
+date_surfaced: 2026-03-25T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-28
-last_verified: 2026-05-20
-
-# === ACTORS ===
+last_updated: '2026-05-23'
+last_verified: 2026-05-20T00:00:00.000Z
 actors:
   - name: Reagan Dunn
     role_type: elected
@@ -26,8 +25,6 @@ actors:
     title: King County Councilmember
     party: D
     jurisdiction: King County
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
@@ -35,53 +32,59 @@ reforms_implicated:
   - independent_inspector_general
   - procurement_reform
   - subrecipient_monitoring
-
-# === SCALE ===
 dollars_at_issue: null
 dollars_basis: null
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: no_action
-outcome_summary: "Legislation had not been introduced as of this record's last update. The joint letter signals legislative intent; no bill number assigned."
-
-# === SOURCES ===
+outcome_summary: >-
+  Legislation had not been introduced as of this record's last update. The joint
+  letter signals legislative intent; no bill number assigned.
 sources:
   - tier: 1
     type: agency_statement
-    title: "Dunn, Perry, Dembowski Oversight Report on DCHS release — joint letter March 25, 2026"
+    title: >-
+      Dunn, Perry, Dembowski Oversight Report on DCHS release — joint letter
+      March 25, 2026
     publisher: King County Council Newsroom
-    date: 2026-03-25
-    url: https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/03-25-dunn-perry-dembowski-oversight-report-dchs-release
+    date: 2026-03-25T00:00:00.000Z
+    url: >-
+      https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/03-25-dunn-perry-dembowski-oversight-report-dchs-release
     archive_url: null
   - tier: 1
     type: agency_statement
-    title: "King County GovDelivery bulletin — oversight report and IG proposal"
+    title: King County GovDelivery bulletin — oversight report and IG proposal
     publisher: King County
-    date: 2026-03-27
-    url: https://content.govdelivery.com/accounts/WAKING/bulletins/4105692
+    date: 2026-03-27T00:00:00.000Z
+    url: 'https://content.govdelivery.com/accounts/WAKING/bulletins/4105692'
     archive_url: null
   - tier: 2
     type: news
-    title: "This Week on PubliCola — May 2, 2026"
+    title: 'This Week on PubliCola — May 2, 2026'
     publisher: PubliCola
     author: null
-    date: 2026-05-02
-    url: https://publicola.com/2026/05/02/this-week-on-publicola-may-2-2026/
+    date: 2026-05-02T00:00:00.000Z
+    url: 'https://publicola.com/2026/05/02/this-week-on-publicola-may-2-2026/'
     archive_url: null
+reform_argument: >
+  The joint letter and associated Auditor-Ombuds report represent the first
+  formal
 
-# === REFORM LINKAGE ===
-reform_argument: |
-  The joint letter and associated Auditor-Ombuds report represent the first formal
-  legislative push for a King County Inspector General. The three proposed reforms —
+  legislative push for a King County Inspector General. The three proposed
+  reforms —
+
   an independent IG office, a centralized fraud reporting hotline, and mandatory
-  fraud-awareness training for contractors — address the structural gaps identified
-  in the 2025 DCHS Auditor report (KC-2025-001) and the Ombudsman investigation
-  (KC-2025-003). An IG with subpoena authority reporting to the Council, rather
-  than to the Executive, would provide oversight independent of the same chain that
-  approves agency budgets and contractor relationships.
 
-# === GOVERNANCE METADATA ===
+  fraud-awareness training for contractors — address the structural gaps
+  identified
+
+  in the 2025 DCHS Auditor report (KC-2025-001) and the Ombudsman investigation
+
+  (KC-2025-003). An IG with subpoena authority reporting to the Council, rather
+
+  than to the Executive, would provide oversight independent of the same chain
+  that
+
+  approves agency budgets and contractor relationships.
 review_status: published
 retraction_note: null
 contributor: vn
@@ -90,6 +93,15 @@ tags:
   - king_county_council
   - dchs
   - reform_proposal
+remediation_status: not_required
+reform_status: bill_in_committee
+remediation_note: >-
+  This is a structural reform proposal case, not an operational failure
+  requiring agency remediation; no corrective action target exists.
+reform_status_note: >-
+  Ordinance 2026-0101 introduced April 28, 2026 with 5 sponsors including
+  Dembowski and Dunn; fast-tracked but not yet voted.
+next_milestone: KC Council vote on Ordinance 2026-0101
 ---
 
 **Three King County Councilmembers — crossing party lines — announced plans in March 2026 to create an independent Inspector General for King County, directly in response to documented failures in how the county oversees hundreds of millions of dollars in contracts.**

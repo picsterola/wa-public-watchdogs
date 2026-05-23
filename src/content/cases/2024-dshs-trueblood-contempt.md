@@ -7,7 +7,7 @@ slug: dshs-trueblood-contempt
 date_surfaced: 2023-07-07T00:00:00.000Z
 date_conduct_start: 2015-04-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-21T00:00:00.000Z
+last_updated: '2026-05-23'
 last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Department of Social and Health Services
@@ -139,6 +139,16 @@ tags:
   - contempt
   - behavioral_health
   - class_action
+remediation_status: in_progress
+reform_status: bill_passed
+remediation_note: >-
+  Phase 4 CAP active July 2025–June 2027; court monitor ongoing; DRW says class
+  members still waiting weeks or months.
+reform_status_note: >-
+  2SHB 1359 (Chapter 358, Laws of 2025) passed; authorized task force,
+  recodified RCW 10.77 competency statutes.
+next_milestone: Phase 4 full compliance audit by court monitor
+next_milestone_date: '2027-06-30'
 ---
 
 **A federal class action established in 2015 that DSHS was unconstitutionally delaying competency evaluations and restoration services for people held in jails. Three contempt orders and more than $180M in fines later, the state paid $100M in FY2024 — the third contempt payment — and reported first-time compliance in some counties in 2025, a decade after the original court order.**

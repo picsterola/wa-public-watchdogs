@@ -1,15 +1,15 @@
 ---
-# === IDENTITY ===
 id: KC-2026-008
-title: "King County Ombuds forensic review of DCHS youth program contracts — Clark Nuber finds ~$690K in questionable costs, referrals to State Auditor and law enforcement"
+title: >-
+  King County Ombuds forensic review of DCHS youth program contracts — Clark
+  Nuber finds ~$690K in questionable costs, referrals to State Auditor and law
+  enforcement
 slug: kc-ombuds-dchs-forensic-clark-nuber
-date_surfaced: 2026-05-19
-date_conduct_start: 2022-01-01
-date_conduct_end: 2025-12-31
-last_updated: 2026-05-21
-last_verified: 2026-05-21
-
-# === ACTORS ===
+date_surfaced: 2026-05-19T00:00:00.000Z
+date_conduct_start: 2022-01-01T00:00:00.000Z
+date_conduct_end: 2025-12-31T00:00:00.000Z
+last_updated: '2026-05-23'
+last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: King County Department of Community and Human Services
     role_type: agency
@@ -21,8 +21,6 @@ actors:
     title: null
     party: null
     jurisdiction: King County
-
-# === CLASSIFICATION ===
 evidentiary_status: documented
 severity_type:
   - structural_failure
@@ -33,79 +31,113 @@ reforms_implicated:
   - subrecipient_monitoring
   - procurement_reform
   - ethics_enforcement_teeth
-
-# === SCALE ===
 dollars_at_issue: 12000000
-dollars_basis: "Approximately $12 million in DCHS grant funding across the 19 community partner contracts reviewed in the Clark Nuber forensic engagement, per KOMO News coverage of the Ombuds report release (May 19, 2026). Within that pool, the Ombuds report identifies $690,617 in questionable costs. DCHS told KOMO it had identified approximately $370,000 in questionable costs before payment, bringing the figure under active improper-payment review to approximately $320,000. Dollars_at_issue field reflects total grant exposure under review; dollars_confirmed_loss is null pending law enforcement and State Auditor review."
+dollars_basis: >-
+  Approximately $12 million in DCHS grant funding across the 19 community
+  partner contracts reviewed in the Clark Nuber forensic engagement, per KOMO
+  News coverage of the Ombuds report release (May 19, 2026). Within that pool,
+  the Ombuds report identifies $690,617 in questionable costs. DCHS told KOMO it
+  had identified approximately $370,000 in questionable costs before payment,
+  bringing the figure under active improper-payment review to approximately
+  $320,000. Dollars_at_issue field reflects total grant exposure under review;
+  dollars_confirmed_loss is null pending law enforcement and State Auditor
+  review.
 dollars_confirmed_loss: null
-
-# === STATUS ===
 legal_status: under_investigation
-outcome_summary: "King County Office of the Ombuds publicly released a forensic review report on May 19, 2026, conducted by accounting firm Clark Nuber P.S. between December 2025 and April 2026. The review examined 19 community partner contracts originally flagged in the August 2025 King County Auditor report on DCHS. Findings include $690,617 in questionable costs, evidence of altered or after-the-fact financial records, possible conflicts of interest, missing documentation, and poor financial management. Ombuds Director Jeremy Bell stated the Ombuds will refer the report to the Washington State Auditor's Office for review and will refer specific observations indicating possible fraud, forgery, or attempted theft to law enforcement. As of the report release, DCHS had not identified which law enforcement agency (local, state, or federal) would receive the criminal referrals. Acting DCHS Director Susan McLaughlin sent a letter to Ombuds Director Bell asking that 'speculation' about fraud be avoided until law enforcement completes review."
-
-# === SOURCES ===
+outcome_summary: >-
+  King County Office of the Ombuds publicly released a forensic review report on
+  May 19, 2026, conducted by accounting firm Clark Nuber P.S. between December
+  2025 and April 2026. The review examined 19 community partner contracts
+  originally flagged in the August 2025 King County Auditor report on DCHS.
+  Findings include $690,617 in questionable costs, evidence of altered or
+  after-the-fact financial records, possible conflicts of interest, missing
+  documentation, and poor financial management. Ombuds Director Jeremy Bell
+  stated the Ombuds will refer the report to the Washington State Auditor's
+  Office for review and will refer specific observations indicating possible
+  fraud, forgery, or attempted theft to law enforcement. As of the report
+  release, DCHS had not identified which law enforcement agency (local, state,
+  or federal) would receive the criminal referrals. Acting DCHS Director Susan
+  McLaughlin sent a letter to Ombuds Director Bell asking that 'speculation'
+  about fraud be avoided until law enforcement completes review.
 sources:
   - tier: 1
     type: ombudsman_report
-    title: "King County Office of the Ombuds — Forensic review report on DCHS youth program contracts (Clark Nuber P.S. engagement, public release)"
+    title: >-
+      King County Office of the Ombuds — Forensic review report on DCHS youth
+      program contracts (Clark Nuber P.S. engagement, public release)
     publisher: King County Office of the Ombuds
-    date: 2026-05-19
-    url: https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/office-of-the-ombuds
+    date: 2026-05-19T00:00:00.000Z
+    url: >-
+      https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/office-of-the-ombuds
     archive_url: null
   - tier: 1
     type: agency_statement
-    title: "Letter from Councilmember Reagan Dunn to County Executive Shannon Braddock re: DCHS audit investigation and oversight (October 31, 2025)"
+    title: >-
+      Letter from Councilmember Reagan Dunn to County Executive Shannon Braddock
+      re: DCHS audit investigation and oversight (October 31, 2025)
     publisher: King County Council
     author: Councilmember Reagan Dunn
-    date: 2025-10-31
-    url: https://cdn.kingcounty.gov/-/media/king-county/depts/council/reagan-dunn/documents/2025/20251031-dchs-audit-investigation-and-oversight.pdf
+    date: 2025-10-31T00:00:00.000Z
+    url: >-
+      https://cdn.kingcounty.gov/-/media/king-county/depts/council/reagan-dunn/documents/2025/20251031-dchs-audit-investigation-and-oversight.pdf
     archive_url: null
   - tier: 1
     type: agency_statement
-    title: "Dunn demands accountability, calls for DCHS investigations to be transferred to independent Office of the Ombuds"
+    title: >-
+      Dunn demands accountability, calls for DCHS investigations to be
+      transferred to independent Office of the Ombuds
     publisher: King County Council
     author: Councilmember Reagan Dunn
-    date: 2025-10-31
-    url: https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2025/10-31-dunn-dchs-investigation-release
+    date: 2025-10-31T00:00:00.000Z
+    url: >-
+      https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2025/10-31-dunn-dchs-investigation-release
     archive_url: null
   - tier: 1
     type: agency_statement
-    title: "Balducci leads charge for full transparency in county grant spending — Council amends Auditor 2026-2027 work plan to review full DCHS contracting program"
+    title: >-
+      Balducci leads charge for full transparency in county grant spending —
+      Council amends Auditor 2026-2027 work plan to review full DCHS contracting
+      program
     publisher: King County Council
     author: Councilmember Claudia Balducci
-    date: 2026-01-27
-    url: https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/01-27-balducci-dchs-audit-amendment-release
+    date: 2026-01-27T00:00:00.000Z
+    url: >-
+      https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/01-27-balducci-dchs-audit-amendment-release
     archive_url: null
   - tier: 2
     type: news
-    title: "Law enforcement to review 'fraud, forgery, and attempted theft' of King County grant money"
+    title: >-
+      Law enforcement to review 'fraud, forgery, and attempted theft' of King
+      County grant money
     publisher: KOMO News
-    date: 2026-05-19
-    url: https://komonews.com/news/local/dchs-audit-fallout-deepens-as-report-finds-700k-in-questionable-spending-possible-fraud-king-county-seattle-youth-diversion-program-family-intervention-liberation-healing-systemic-racism-restorative-commnity-school-to-prison-withdrawal-stipends
+    date: 2026-05-19T00:00:00.000Z
+    url: >-
+      https://komonews.com/news/local/dchs-audit-fallout-deepens-as-report-finds-700k-in-questionable-spending-possible-fraud-king-county-seattle-youth-diversion-program-family-intervention-liberation-healing-systemic-racism-restorative-commnity-school-to-prison-withdrawal-stipends
     archive_url: null
   - tier: 2
     type: news
-    title: "King County report recommends fraud investigation into DCHS"
+    title: King County report recommends fraud investigation into DCHS
     publisher: FOX 13 Seattle
-    date: 2026-05-20
-    url: https://www.fox13seattle.com/news/king-county-wa-report-fraud-youth-programs
+    date: 2026-05-20T00:00:00.000Z
+    url: >-
+      https://www.fox13seattle.com/news/king-county-wa-report-fraud-youth-programs
     archive_url: null
   - tier: 2
     type: news
-    title: "King County fraud investigation shifts to independent office"
+    title: King County fraud investigation shifts to independent office
     publisher: Seattle Times
-    date: 2025-11-28
-    url: https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
+    date: 2025-11-28T00:00:00.000Z
+    url: >-
+      https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
     archive_url: null
   - tier: 2
     type: news
-    title: "King County response to possible fraud has auditor 'deeply concerned'"
+    title: King County response to possible fraud has auditor 'deeply concerned'
     publisher: Seattle Times
-    date: 2025-10-31
-    url: https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
+    date: 2025-10-31T00:00:00.000Z
+    url: >-
+      https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
     archive_url: null
-
-# === REFORM LINKAGE ===
 reform_argument: |
   The May 2026 Ombuds forensic report is the sequel the registry's
   structural argument has been waiting for. The August 2025 DCHS audit
@@ -122,8 +154,6 @@ reform_argument: |
   Inspector General with subpoena power and the authority to take
   these referrals at the audit stage would have collapsed nine months
   of escalation into one referral.
-
-# === GOVERNANCE METADATA ===
 review_status: published
 retraction_note: null
 contributor: vn
@@ -135,6 +165,16 @@ tags:
   - law_enforcement_referral
   - state_auditor_referral
   - youth_programs
+remediation_status: in_progress
+reform_status: bill_in_committee
+remediation_note: >-
+  Clark Nuber report released May 19, 2026; law enforcement referral for
+  fraud/forgery pending; SAO referral made; expanded SAO review of full DCHS
+  contracting in 2026-27 workplan.
+reform_status_note: >-
+  Ordinance 2026-0101 (KC Inspector General) directly responsive to this
+  finding; introduced April 28, 2026; not yet voted.
+next_milestone: Law enforcement agency identification and referral acceptance
 ---
 
 **The King County Office of the Ombuds publicly released a forensic review on May 19, 2026 documenting roughly $690,617 in questionable costs across 19 DCHS-funded youth program contracts representing about $12 million in grant spending. The Ombuds will refer the findings to the Washington State Auditor's Office and specific observations to law enforcement for review of possible fraud, forgery, and attempted theft.**

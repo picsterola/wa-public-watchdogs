@@ -7,7 +7,7 @@ slug: dshs-scc-brown-water-settlement
 date_surfaced: 2024-03-01T00:00:00.000Z
 date_conduct_start: 2016-01-01T00:00:00.000Z
 date_conduct_end: 2024-03-01T00:00:00.000Z
-last_updated: 2026-05-21T00:00:00.000Z
+last_updated: '2026-05-23'
 last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Department of Social and Health Services
@@ -115,6 +115,15 @@ tags:
   - class_action
   - settlement
   - facility_conditions
+remediation_status: implemented_unverified
+reform_status: bill_introduced
+remediation_note: >-
+  DOC states water system upgraded and water clean per DSHS post-settlement
+  statement; settlement paid and legally closed; no independent post-remediation
+  water quality assessment publicly documented.
+reform_status_note: >-
+  SB 5144 (2025 session) would require legislative hearings when agencies incur
+  tort payouts ≥$1M; cited this case as impetus.
 ---
 
 **Washington's Department of Social and Health Services paid $7.325 million to settle a class-action lawsuit brought by approximately 200 current and former residents of the Special Commitment Center on McNeil Island, who alleged for nearly a decade that they were forced to drink contaminated brown water that caused physical harm.**

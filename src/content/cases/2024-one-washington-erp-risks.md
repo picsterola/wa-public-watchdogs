@@ -6,7 +6,7 @@ title: >-
 slug: one-washington-erp-risks
 date_surfaced: 2024-08-20T00:00:00.000Z
 date_conduct_start: 2018-01-01T00:00:00.000Z
-last_updated: 2026-05-21T00:00:00.000Z
+last_updated: '2026-05-23'
 last_verified: 2026-05-21T00:00:00.000Z
 actors:
   - name: Washington State Office of Financial Management
@@ -100,6 +100,17 @@ tags:
   - it_modernization
   - sao_audit
   - structural_failure
+remediation_status: in_progress
+reform_status: rulemaking_in_progress
+remediation_note: >-
+  July 2025 go-live did not happen; OFM restructured $776M project in January
+  2026; new Phase 1A launch date 2027 at earliest; $120M additional funding
+  requested.
+reform_status_note: >-
+  OFM restructuring program governance via executive action; staggered rollout
+  plan underway; no specific legislation passed.
+next_milestone: 'Phase 1A go-live (staggered rollout, first agencies)'
+next_milestone_date: '2027-12-31'
 ---
 
 **A Washington State Auditor performance audit published August 2024 found that the One Washington ERP project — Washington's largest IT modernization effort, replacing decades-old core financial systems at a projected cost of $465 million — lacked a documented contingency plan as of July 2024, with schedule delays compressing time for testing and training ahead of the planned July 1, 2025 go-live.**

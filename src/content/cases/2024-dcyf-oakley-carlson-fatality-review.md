@@ -7,7 +7,7 @@ slug: dcyf-oakley-carlson-fatality-review
 date_surfaced: 2026-02-18T00:00:00.000Z
 date_conduct_start: 2016-01-01T00:00:00.000Z
 date_conduct_end: 2022-02-01T00:00:00.000Z
-last_updated: 2026-07-21T00:00:00.000Z
+last_updated: '2026-05-23'
 last_verified: 2026-07-21T00:00:00.000Z
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
@@ -178,6 +178,12 @@ tags:
   - oakley_carlson
   - fatality_review
   - child_welfare
+remediation_status: not_started
+reform_status: none_proposed
+remediation_note: >-
+  Review offered non-binding improvement opportunities only; no formal DCYF
+  corrective action plan generated as of publication; statutory review cannot
+  compel action.
 ---
 
 **Oakley Carlson, born 2016 in Grays Harbor County, was last credibly seen in February 2021 at age 4–5. She was declared legally dead by a Pacific County judge in July 2025, triggering a mandatory state child fatality review under RCW 74.13.640. The review, finalized in December 2025 and published February 2026, documented 14 DCYF referrals involving her family over eight years, with 6 not meeting the threshold for a CPS investigation or Family Assessment Response. Both biological parents — Andrew Carlson and Jordan Bowers — remain persons of interest in her disappearance. Neither has been charged in connection with her death.**
