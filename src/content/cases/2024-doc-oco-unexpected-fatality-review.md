@@ -41,7 +41,7 @@ outcome_summary: >-
 remediation_status: repeat_finding
 remediation_note: "PrisonLegalNews May 1, 2025 confirms pattern continues: 26 DOC unexpected fatalities in FY ending June 2024 (after 29 the prior year); half lacked Corrective Action Plans. No formal DOC structural response identified."
 reform_status: bill_died
-reform_status_note: "A statewide jail-oversight bill died in the 2026 legislative session per InvestigateWest, March 2, 2026 (https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/). Note: that bill targeted jails, not DOC prisons, but it is the closest structural reform vehicle to fail in this domain."
+reform_status_note: "A statewide jail-oversight bill died in the 2026 legislative session per InvestigateWest, March 2, 2026. Note: that bill targeted jails, not DOC prisons, but it is the closest structural reform vehicle to fail in this domain."
 next_milestone: null
 next_milestone_date: null
 
@@ -60,6 +60,16 @@ sources:
     quote: >-
       WADOC chose to designate 71% of the recommendations as Consultative
       Remarks for WADOC to consider.
+  - tier: 2
+    type: news
+    title: >-
+      Bill to establish statewide oversight of jails in Washington dies in Legislature
+    publisher: InvestigateWest
+    date: 2026-03-02T00:00:00.000Z
+    url: >-
+      https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
+    archive_url: null
+    quote: null
 reform_argument: >
   The OCO UFR Annual Report presents a structural accountability problem
 

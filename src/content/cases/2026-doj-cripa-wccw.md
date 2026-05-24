@@ -81,6 +81,16 @@ sources:
       investigation will look into allegations that the state is depriving
       female prisoners of their Eighth Amendment protections against cruel and
       unusual punishment.
+  - tier: 2
+    type: news
+    title: >-
+      Bill to establish statewide oversight of jails in Washington dies in Legislature
+    publisher: InvestigateWest
+    date: 2026-03-02T00:00:00.000Z
+    url: >-
+      https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
+    archive_url: null
+    quote: null
 reform_argument: |
   The DOJ CRIPA notice of May 19, 2026 is the formal federal-level
   escalation in a sequence that includes two prior OCO investigative
@@ -122,7 +132,7 @@ tags:
   - eighth_amendment
 remediation_status: in_progress
 reform_status: none_proposed
-remediation_note: "DOJ Civil Rights Division formal notification letter May 19, 2026 confirms investigation remains active and expands scope to housing of biological men in the women's prison (https://www.justice.gov/opa/pr/justice-department-notifies-washington-investigation-whether-housing-biological-men-womens). No corrective action plan finalized. Original opening was May 2025; state confirmed cooperation; no findings or consent decree issued yet."
+remediation_note: "DOJ Civil Rights Division formal notification letter May 19, 2026 confirms investigation remains active and expands scope to housing of biological men in the women's prison. No corrective action plan finalized. Original opening was May 2025; state confirmed cooperation; no findings or consent decree issued yet."
 reform_status_note: "No CRIPA-specific legislative reform identified. A separate jail-oversight bill (different scope) died in the 2026 session per InvestigateWest, March 2, 2026."
 next_milestone: DOJ preliminary findings letter to Governor
 ---

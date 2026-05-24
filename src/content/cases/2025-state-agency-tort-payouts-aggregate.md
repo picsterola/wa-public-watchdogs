@@ -53,7 +53,7 @@ outcome_summary: "Not a single case — an aggregation of state agency tort payo
 remediation_status: in_progress
 remediation_note: "No agency-side remediation tracked. The structural follow-up is legislative, see reform field."
 reform_status: bill_in_committee
-reform_status_note: "SB 6239 (2025-26 session) introduced; requires JLARC review of the arbitration requirement and report claims, lawsuit, and payout data to the Legislature by December 31, 2032 (Senate Bill Report, January 29, 2026, https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/6239%20SBR%20WM%20OC%2026.pdf)."
+reform_status_note: "SB 6239 (2025-26 session) introduced; requires JLARC review of the arbitration requirement and report claims, lawsuit, and payout data to the Legislature by December 31, 2032 (Senate Bill Report, January 29, 2026)."
 next_milestone: null
 next_milestone_date: null
 
@@ -90,6 +90,13 @@ sources:
     publisher: Washington State Legislature (Senate Bill 5144, 2025-2026 session)
     date: 2025-01-07
     url: https://fastdemocracy.com/bill-search/wa/2025-2026/bills/WAB00022156/
+    archive_url: null
+  - tier: 1
+    type: agency_statement
+    title: "SB 6239 Senate Bill Report - Senate Committee on Ways & Means"
+    publisher: Washington State Legislature
+    date: 2026-01-29
+    url: https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/6239%20SBR%20WM%20OC%2026.pdf
     archive_url: null
 
 # === REFORM LINKAGE ===

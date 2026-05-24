@@ -54,9 +54,9 @@ outcome_summary: "Sound Transit announced a formal 'program reset' process to de
 
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
-remediation_note: "Sound Transit Board retreat March 2026 evaluated three approaches to close the $34.5B program-wide shortfall; full ST3 recalibration vote scheduled for May 2026 per The Urbanist, March 23, 2026 (https://www.theurbanist.org/three-more-takeaways-from-a-pivotal-sound-transit-board-retreat/)."
+remediation_note: "Sound Transit Board retreat March 2026 evaluated three approaches to close the $34.5B program-wide shortfall; full ST3 recalibration vote scheduled for May 2026 per The Urbanist, March 23, 2026."
 reform_status: bill_in_committee
-reform_status_note: "SB 6148 (bond term flexibility for transit authorities) introduced in 2026 session per Transportation Choices Coalition, January 28, 2026 (https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/)."
+reform_status_note: "SB 6148 (bond term flexibility for transit authorities) introduced in 2026 session per Transportation Choices Coalition, January 28, 2026."
 next_milestone: null
 next_milestone_date: null
 
@@ -89,6 +89,20 @@ sources:
     publisher: Lynnwood Times
     date: 2026-03-21
     url: https://lynnwoodtimes.com/2026/03/21/sound-transit-budget/
+    archive_url: null
+  - tier: 2
+    type: news
+    title: "Three more takeaways from a pivotal Sound Transit Board retreat"
+    publisher: The Urbanist
+    date: 2026-03-23
+    url: https://www.theurbanist.org/three-more-takeaways-from-a-pivotal-sound-transit-board-retreat/
+    archive_url: null
+  - tier: 2
+    type: news
+    title: "Build the damn trains: How Senate Bill 6148 could help deliver Sound Transit 3 projects"
+    publisher: Transportation Choices Coalition
+    date: 2026-01-28
+    url: https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/
     archive_url: null
 
 # === REFORM LINKAGE ===

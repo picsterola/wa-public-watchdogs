@@ -36,7 +36,7 @@ outcome_summary: "JLARC's July 2025 final report (25-06) found DOH systemically 
 
 # === RESOLUTION TRACKING ===
 remediation_status: implemented_unverified
-remediation_note: "DOH concurred with all 6 JLARC recommendations in the July 2025 final report (https://leg.wa.gov/JLARC/reports/2025/Hospital/f_iii/printExec.pdf). No follow-up audit has been completed as of May 2026, so concurrence is documented but operational implementation is unverified."
+remediation_note: "DOH concurred with all 6 JLARC recommendations in the July 2025 final report. No follow-up audit has been completed as of May 2026, so concurrence is documented but operational implementation is unverified."
 reform_status: none_proposed
 reform_status_note: "No legislation specifically targeting DOH hospital inspection backlog has been identified through May 2026."
 next_milestone: null

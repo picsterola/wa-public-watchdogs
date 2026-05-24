@@ -34,7 +34,7 @@ dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: null
 remediation_status: in_progress
-remediation_note: "DCYF published a formal Q1 2025 Critical Incident Briefing response July 29, 2025 (https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029,2025.pdf). Quarterly response cadence is now established; verification of impact on critical-incident frequency requires multi-year tracking."
+remediation_note: "DCYF published a formal Q1 2025 Critical Incident Briefing response on July 29, 2025. Quarterly response cadence is now established; verification of impact on critical-incident frequency requires multi-year tracking."
 reform_status: unknown
 reform_status_note: "No specific legislative reform identified as of May 2026."
 next_milestone: null
@@ -105,6 +105,16 @@ sources:
       https://www.kiro7.com/news/local/ofco-45-child-deaths-or-near-deaths-wa-last-3-months-many-involving-fentanyl-home/V7EJV3EPTNHHLIFTT6AR2A4U5U/
     archive_url: >-
       https://web.archive.org/web/20260522220516/https://www.kiro7.com/news/local/ofco-45-child-deaths-or-near-deaths-wa-last-3-months-many-involving-fentanyl-home/V7EJV3EPTNHHLIFTT6AR2A4U5U/
+    quote: null
+  - tier: 1
+    type: agency_statement
+    title: >-
+      DCYF's Response to OFCO Q1 2025 Critical Incident Briefing — Briefing Slides
+    publisher: Washington State Department of Children, Youth, and Families
+    date: 2025-07-29T00:00:00.000Z
+    url: >-
+      https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029,2025.pdf
+    archive_url: null
     quote: null
 reform_argument: |
   The data-integrity gap is the structural finding, not the fatality counts

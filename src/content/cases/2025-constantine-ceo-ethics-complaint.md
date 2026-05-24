@@ -38,7 +38,7 @@ outcome_summary: "King County Office of the Ombuds dismissed Ethics Complaint OM
 
 # === RESOLUTION TRACKING ===
 remediation_status: not_required
-remediation_note: "King County Ombuds case OMB-2025-0160 (Aspelund v. Constantine) dismissed June 18, 2025 (https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/office-of-the-ombuds/reports/omb-2025-0160_ethics_report.pdf). Ombuds Office found no reasonable cause to believe Constantine violated the King County Employee Code of Ethics; dual roles as County Executive and Sound Transit Board member were statutorily required under RCW 81.112.040, and Constantine recused from hiring deliberations. Caveat: the dismissal turned partly on the Ethics Code definition of \"person\" excluding governmental units, not on a merits finding that no apparent conflict existed."
+remediation_note: "King County Ombuds case OMB-2025-0160 (Aspelund v. Constantine) dismissed June 18, 2025. Ombuds Office found no reasonable cause to believe Constantine violated the King County Employee Code of Ethics; dual roles as County Executive and Sound Transit Board member were statutorily required under RCW 81.112.040, and Constantine recused from hiring deliberations. Caveat: the dismissal turned partly on the Ethics Code definition of \"person\" excluding governmental units, not on a merits finding that no apparent conflict existed."
 reform_status: none_proposed
 reform_status_note: "No structural amendment to KCC 3.04 or RCW 81.112.040 in response to this complaint has been identified."
 next_milestone: null

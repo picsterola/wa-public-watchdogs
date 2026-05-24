@@ -36,7 +36,7 @@ outcome_summary: "Published March 23, 2026 by the Washington State Auditor's Off
 
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
-remediation_note: "SAO Report #1039250 documents City of Seattle commitment to resolve competitive procurement and emergency exemption noncompliance matters communicated in a management letter dated March 17, 2026 (https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039250&isFinding=false&sp=false). No follow-up verification audit has been completed."
+remediation_note: "SAO Report #1039250 documents City of Seattle commitment to resolve competitive procurement and emergency exemption noncompliance matters communicated in a management letter dated March 17, 2026. No follow-up verification audit has been completed."
 reform_status: none_proposed
 reform_status_note: "No structural reform to City procurement controls beyond standard SAO management-letter response has been identified."
 next_milestone: null

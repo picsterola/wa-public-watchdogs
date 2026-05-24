@@ -46,7 +46,7 @@ outcome_summary: "Jeremiah Bourgeois was fired as OCO director on April 24, 2026
 
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
-remediation_note: "Bourgeois fired April 24, 2026 by Governor Ferguson; concurrent ethical misconduct investigation per PrisonLegalNews May 1, 2026 (https://www.prisonlegalnews.org/news/2026/may/1/washington-governor-fires-independent-prison-watchdog/). OCO interim leadership and structural review status not yet publicly resolved."
+remediation_note: "Bourgeois fired April 24, 2026 by Governor Ferguson; concurrent ethical misconduct investigation per PrisonLegalNews May 1, 2026. OCO interim leadership and structural review status not yet publicly resolved."
 reform_status: none_proposed
 reform_status_note: "No structural reform of OCO has been identified as of May 2026."
 next_milestone: null

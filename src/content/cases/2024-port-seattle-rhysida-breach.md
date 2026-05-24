@@ -41,7 +41,7 @@ outcome_summary: >-
   Approximately 90,000 individuals were notified of personal data exposure in
   April 2025. No regulatory enforcement action publicly reported.
 remediation_status: implemented_unverified
-remediation_note: "Port disclosed approximately 90,000 individuals affected and began mailing breach notification letters April 2025, including approximately 71,000 in Washington (The Record, April 4, 2025, https://therecord.media/port-of-seattle-says-90000-impacted-in-2024-ransomware-attack). One year of free credit monitoring offered to affected individuals. Port refused to pay ransom. Whether legacy systems used for employee data have been decommissioned has not been publicly confirmed."
+remediation_note: "Port disclosed approximately 90,000 individuals affected and began mailing breach notification letters April 2025, including approximately 71,000 in Washington (The Record, April 4, 2025). One year of free credit monitoring offered to affected individuals. Port refused to pay ransom. Whether legacy systems used for employee data have been decommissioned has not been publicly confirmed."
 reform_status: none_proposed
 reform_status_note: "No legislative or Port Commission reform identified specific to the Rhysida incident."
 next_milestone: null

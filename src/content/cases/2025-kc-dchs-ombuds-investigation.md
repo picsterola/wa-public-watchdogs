@@ -48,7 +48,7 @@ outcome_summary: null
 
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
-remediation_note: "Clark Nuber PS report released May 20, 2026: $690,617 in questionable costs across 16 of 19 community partners reviewed. DCHS had already withheld over $370,000, so net improperly disbursed payments are approximately $320,000. Ombuds office will refer specific observations indicating possible fraud, forgery, or attempted theft of funds to law enforcement (KIRO 7, May 20, 2026, https://www.kiro7.com/news/local/king-county-review-finds-nearly-700k-questionable-costs-across-youth-programs/CRHFQW6AHVHCLI4KL3K4Y6OJNQ/)."
+remediation_note: "Clark Nuber PS report released May 20, 2026: $690,617 in questionable costs across 16 of 19 community partners reviewed. DCHS had already withheld over $370,000, so net improperly disbursed payments are approximately $320,000. Ombuds office will refer specific observations indicating possible fraud, forgery, or attempted theft of funds to law enforcement (KIRO 7, May 20, 2026)."
 reform_status: bill_introduced
 reform_status_note: "King County Council planning to introduce independent Inspector General legislation in response to this audit and the McGhee case (Fox13, April 27, 2026)."
 next_milestone: null
@@ -78,6 +78,14 @@ sources:
     author: null
     date: 2025-10-31
     url: https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
+    archive_url: null
+  - tier: 2
+    type: news
+    title: "King County review finds nearly $700K in questionable costs across youth programs"
+    publisher: KIRO 7 News Seattle
+    author: null
+    date: 2026-05-20
+    url: https://www.kiro7.com/news/local/king-county-review-finds-nearly-700k-questionable-costs-across-youth-programs/CRHFQW6AHVHCLI4KL3K4Y6OJNQ/
     archive_url: null
 
 # === REFORM LINKAGE ===

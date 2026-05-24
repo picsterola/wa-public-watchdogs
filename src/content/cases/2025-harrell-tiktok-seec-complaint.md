@@ -41,7 +41,7 @@ outcome_summary: "SEEC Executive Director Wayne Barnett dismissed the complaint 
 
 # === RESOLUTION TRACKING ===
 remediation_status: not_required
-remediation_note: "Seattle Ethics and Elections Commission Supplementary Opinion November 5, 2025 unanimously affirmed the Executive Director's dismissal of the complaint (https://www1.seattle.gov/documents/Departments/EthicsElections/Commission/Commission%20Actions/2025.11.05%20SEEC%20Supplementary%20Opinion.pdf). Commission applied deferential standard of review and concluded primary purpose of the TikTok account was not influencing the outcome of an election."
+remediation_note: "Seattle Ethics and Elections Commission Supplementary Opinion November 5, 2025 unanimously affirmed the Executive Director's dismissal of the complaint. Commission applied deferential standard of review and concluded primary purpose of the TikTok account was not influencing the outcome of an election."
 reform_status: none_proposed
 reform_status_note: "No reform of SEEC electioneering-on-official-accounts standard identified following the dismissal."
 next_milestone: null
