@@ -7,8 +7,8 @@ slug: kc-inspector-general-proposal
 date_surfaced: 2026-03-25T00:00:00Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: '2026-05-23'
-last_verified: 2026-05-20T00:00:00Z
+last_updated: '2026-05-24'
+last_verified: 2026-05-24T00:00:00Z
 actors:
   - name: Reagan Dunn
     role_type: elected
