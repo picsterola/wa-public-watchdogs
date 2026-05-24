@@ -327,7 +327,7 @@ const jsonLd: Record<string, unknown> = {
   {!isRetracted && (() => {
     const shareTitle = d.title.replace(/—/g, '-');
     const shareUrl = `https://wacountability.org/cases/${entry.slug}.html`;
-    const shareText = `${shareTitle} - Washington Accountability Registry, case ${d.id}.`;
+    const shareText = shareTitle;
     const bskyHref = `https://bsky.app/intent/compose?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`;
     const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
     return (
