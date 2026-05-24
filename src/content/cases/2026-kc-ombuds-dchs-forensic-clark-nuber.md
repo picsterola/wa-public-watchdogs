@@ -8,8 +8,8 @@ slug: kc-ombuds-dchs-forensic-clark-nuber
 date_surfaced: 2026-05-19T00:00:00Z
 date_conduct_start: 2022-01-01T00:00:00Z
 date_conduct_end: 2025-12-31T00:00:00Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00Z
+last_updated: '2026-05-24'
+last_verified: '2026-05-24'
 actors:
   - name: King County Department of Community and Human Services
     role_type: agency

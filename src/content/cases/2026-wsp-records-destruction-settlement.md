@@ -160,7 +160,7 @@ tags:
   - covid_vaccine_mandate
   - wsp_pra_pattern
   - cjtc_intake
-featured: false
+featured_pin: false
 ---
 
 **The Washington State Patrol agreed in May 2026 to pay $340,000 to settle a Public Records Act lawsuit alleging the agency destroyed or withheld chat messages, texts, phone records, emails, and litigation-hold notices related to the October 2021 termination of 132 employees (70 troopers, 8 sergeants, and 1 captain) who refused the COVID-19 vaccine mandate. The plaintiffs, identifying themselves as the "WSP Transparency Task Force," alleged WSP maintained an unconstitutional auto-deletion policy and used the "transitory communications" designation to encourage routine deletion of chat messages regardless of litigation-hold obligations. The complaint cited an email from Chief John Batiste instructing employees that text and chat messaging on state devices must be restricted to transitory communications and deleted immediately. The settlement contains no admission of liability and bars the plaintiffs from making further PRA requests concerning the vaccine mandate. A related complaint is under intake review at the Criminal Justice Training Commission. This case is the only one of three recent WSP PRA matters (totaling approximately $548,000 in public funds over 18 months) that alleges actual records destruction; the other two involve withholding or delayed production rather than destruction.**

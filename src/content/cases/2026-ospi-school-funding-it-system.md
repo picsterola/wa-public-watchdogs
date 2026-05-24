@@ -7,8 +7,8 @@ slug: ospi-school-funding-it-system
 date_surfaced: 2026-05-19T00:00:00Z
 date_conduct_start: 2009-01-01T00:00:00Z
 date_conduct_end: null
-last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00Z
+last_updated: '2026-05-24'
+last_verified: '2026-05-24'
 actors:
   - name: Office of Superintendent of Public Instruction
     role_type: agency
