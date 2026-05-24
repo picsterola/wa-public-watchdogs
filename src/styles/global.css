@@ -986,6 +986,11 @@ select.filter-select, input.filter-input {
   font-size: 0.85rem;
   position: sticky;
   top: var(--space-5);
+  /* Defense in depth: any unbroken token (raw URLs, statute citations, long
+     contract numbers) wraps inside the sidebar column instead of overflowing. */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  min-width: 0;
 }
 .sidebar h3 {
   font-family: var(--font-sans);
@@ -2238,6 +2243,11 @@ select.filter-select, input.filter-input {
 .resolution-block {
   border-left: 3px solid var(--rule);
   padding-left: var(--space-3);
+  /* Long unbroken tokens (raw URLs in notes, statute citations) must wrap
+     rather than push the sidebar column past its container edge. */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  min-width: 0;
 }
 .resolution-block .resolution-verdict {
   font-style: italic;
