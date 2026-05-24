@@ -6,8 +6,8 @@ slug: spd-overtime-overspending
 date_surfaced: 2025-12-01
 date_conduct_start: 2025-01-01
 date_conduct_end: 2025-12-31
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -42,10 +42,10 @@ legal_status: closed_no_action
 outcome_summary: "SPD imposed mid-year overtime restrictions in November 2025: all overtime requires Assistant Chief/Executive Director pre-approval; no overtime for property crime investigations (burglary, theft), nonviolent drug crimes, community meetings, or Real-Time Crime Center work through end of 2025. Homicide investigations and parking enforcement require direct Chief command staff approval. City Council passed an amendment requiring SPD to include overtime data in quarterly hiring reports 'when available.'"
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "SPD November 18, 2025 internal memo barred overtime for property crime investigations, nonviolent drug investigations, community meetings, and Real-Time Crime Center work through year-end 2025; required pre-approval at Assistant Chief / Executive Director level for all overtime including authorized categories (PubliCola, December 1, 2025). 2026 budget assumes lower overtime usage (450,000 hours) with a $5.5M projected deficit if historical pattern continues."
+reform_status: none_proposed
+reform_status_note: "Seattle City Council added an amendment requiring SPD to include overtime data in quarterly hiring reports \"when available,\" but no structural overtime cap or contract reform has been adopted."
 next_milestone: null
 next_milestone_date: null
 

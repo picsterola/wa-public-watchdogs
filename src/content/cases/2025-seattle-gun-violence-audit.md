@@ -6,8 +6,8 @@ slug: seattle-gun-violence-audit
 date_surfaced: 2025-03-25
 date_conduct_start: 2021-01-01
 date_conduct_end: 2025-03-25
-last_updated: 2026-05-21
-last_verified: 2026-05-21
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -52,10 +52,10 @@ legal_status: audit_finding
 outcome_summary: "Audit published March 25, 2025 by the Seattle Office of City Auditor. Mayor's Office 'generally concurred' with all four recommendations per the audit's response section. In the March 27, 2025 presentation to the City Council Governance Committee, Deputy Mayor Tiffany Washington publicly disputed the framing, stating the Mayor's Office was 'already doing the things that were in the audit findings.' CARE Department Chief Amy Barden told Council the same week that she 'has not been endorsed to do that part of the work yet,' confirming the audit's finding that the ordinance-mandated integration initiative had not begun roughly 17 months after CARE's October 2023 establishment. No corrective-action timeline published as of last verification. Long-time City Auditor David G. Jones retired in December 2025; the audit recommendation tracker reports City departments implemented 10% of 94 open audit recommendations in 2025."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: not_started
+remediation_note: "Mayor's Office took a defensive posture at the March 2025 audit presentation; Deputy Mayor Tiffany Washington framed the audit as duplicative (\"we don't need to publish another report\"). CARE Chief Amy Barden told Council she has not been endorsed to perform the violence-prevention integration role mandated by the Seattle City Charter. Mid-year supplemental budget process summer 2026 is the next milestone for CARE expansion (The Urbanist, April 18, 2025)."
+reform_status: none_proposed
+reform_status_note: "No reform vehicle assigning gun violence prevention coordination to a specific city department has been adopted."
 next_milestone: null
 next_milestone_date: null
 

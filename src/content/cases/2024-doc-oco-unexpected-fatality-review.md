@@ -7,8 +7,8 @@ slug: doc-oco-unexpected-fatality-review
 date_surfaced: 2025-01-10T00:00:00.000Z
 date_conduct_start: 2023-07-01T00:00:00.000Z
 date_conduct_end: 2024-06-30T00:00:00.000Z
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -38,10 +38,10 @@ outcome_summary: >-
   Remarks' with no staff assignment or tracking mechanism. DOC agreed to three
   OCO recommendations in the report but declined to produce CAPs for half of the
   reviewed deaths. Two deaths occurred in solitary confinement housing.
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: repeat_finding
+remediation_note: "PrisonLegalNews May 1, 2025 confirms pattern continues: 26 DOC unexpected fatalities in FY ending June 2024 (after 29 the prior year); half lacked Corrective Action Plans. No formal DOC structural response identified."
+reform_status: bill_died
+reform_status_note: "A statewide jail-oversight bill died in the 2026 legislative session per InvestigateWest, March 2, 2026 (https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/). Note: that bill targeted jails, not DOC prisons, but it is the closest structural reform vehicle to fail in this domain."
 next_milestone: null
 next_milestone_date: null
 

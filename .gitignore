@@ -7,3 +7,4 @@ dist/
 .env.*
 !.env.example
 scripts/inspect.mjs
+_backfill/

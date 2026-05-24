@@ -6,8 +6,8 @@ slug: gomez-mayors-office-allegation
 date_surfaced: 2025-01-23
 date_conduct_start: 2024-06-18
 date_conduct_end: 2025-01-06
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -41,10 +41,10 @@ legal_status: under_investigation
 outcome_summary: "Gomez resigned January 6, 2025, the same day the Mayor's Office learned the Seattle Police Department had referred the case to the King County Prosecuting Attorney's Office Special Assault Unit. The allegation involves an encounter with Cheryl Delostrinos on June 18, 2024, who Gomez had met for a business meeting Harrell helped arrange. The Mayor's Office was notified of the police report in late September 2024 and placed Gomez on paid administrative leave at that time. No charges have been publicly filed as of this record's last update. Subsequent reporting identified additional women who described uncomfortable encounters with Gomez."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: not_required
+remediation_note: "King County Prosecuting Attorney's Office declined to charge Gomez per The Stranger/Facebook January 13, 2026 reporting. Gomez had resigned January 6, 2025 prior to the KCPAO declination, preempting any mayor's-office review."
+reform_status: none_proposed
+reform_status_note: "No reform to Mayor's Office vetting or background check process has been publicly adopted in response."
 next_milestone: null
 next_milestone_date: null
 

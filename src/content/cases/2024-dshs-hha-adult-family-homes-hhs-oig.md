@@ -7,8 +7,8 @@ slug: dshs-hha-adult-family-homes-hhs-oig
 date_surfaced: 2024-11-13T00:00:00.000Z
 date_conduct_start: 2023-01-01T00:00:00.000Z
 date_conduct_end: 2024-12-31T00:00:00.000Z
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Washington DSHS Home and Community Services
     role_type: agency
@@ -38,10 +38,10 @@ outcome_summary: >-
   licensure and inspection was determined inadequate to ensure compliance with
   federal Medicaid waiver requirements. OIG recommended CMS take corrective
   action to strengthen oversight.
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: implemented_unverified
+remediation_note: "DSHS/ALTSA concurred with the first two HHS-OIG recommendations and partially concurred with the third, describing actions taken or planned (HHS-OIG report, November 15, 2024). DSHS public hearing on proposed updates to WAC 388-76 (Adult Family Home licensing rules) scheduled May 26, 2026 (Adult Family Home Council). 2024 Residential Care Services citation tables show persistent themes (medication storage, care plans, background checks, infection control) per silveragecare.com May 8, 2026."
+reform_status: rulemaking_in_progress
+reform_status_note: "DSHS WAC 388-76 update under active rulemaking; public hearing May 26, 2026."
 next_milestone: null
 next_milestone_date: null
 

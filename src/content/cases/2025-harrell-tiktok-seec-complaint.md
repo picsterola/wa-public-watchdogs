@@ -6,8 +6,8 @@ slug: harrell-tiktok-seec-complaint
 date_surfaced: 2025-09-04
 date_conduct_start: 2025-08-01
 date_conduct_end: 2025-11-05
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -40,10 +40,10 @@ legal_status: dismissed
 outcome_summary: "SEEC Executive Director Wayne Barnett dismissed the complaint pursuant to SMC 2.04.070(D)(2) on September 4, 2025. The Commission unanimously affirmed the dismissal at its October 1, 2025 public meeting and issued a written Supplementary Opinion on November 5, 2025 holding that the Executive Director's dismissal did not lack a rational basis under the Nickels precedent."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: not_required
+remediation_note: "Seattle Ethics and Elections Commission Supplementary Opinion November 5, 2025 unanimously affirmed the Executive Director's dismissal of the complaint (https://www1.seattle.gov/documents/Departments/EthicsElections/Commission/Commission%20Actions/2025.11.05%20SEEC%20Supplementary%20Opinion.pdf). Commission applied deferential standard of review and concluded primary purpose of the TikTok account was not influencing the outcome of an election."
+reform_status: none_proposed
+reform_status_note: "No reform of SEEC electioneering-on-official-accounts standard identified following the dismissal."
 next_milestone: null
 next_milestone_date: null
 

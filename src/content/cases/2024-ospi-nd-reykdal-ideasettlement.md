@@ -7,8 +7,8 @@ slug: ospi-nd-reykdal-idea-settlement
 date_surfaced: 2024-11-22T00:00:00.000Z
 date_conduct_start: 2020-11-11T00:00:00.000Z
 date_conduct_end: 2024-11-22T00:00:00.000Z
-last_updated: 2026-05-21T00:00:00.000Z
-last_verified: 2026-05-21T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Office of Superintendent of Public Instruction
     role_type: agency
@@ -48,10 +48,10 @@ outcome_summary: >-
   any student who aged out during the lawsuit and has not yet turned 22; (3)
   convene IEP teams to determine whether compensatory education is owed to each
   class member. Final Approval Hearing scheduled June 17, 2025.
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: implemented_unverified
+remediation_note: "Federal District Court for Western District of Washington approved the settlement November 22, 2024; final approval hearing held June 17, 2025. OSPI is required by court-ordered settlement to (1) direct districts to extend IEP services to the 22nd birthday, (2) direct districts to offer immediate resumption of services for students who aged out during litigation, and (3) direct districts to reconvene IEP teams to consider compensatory education. Implementation tracking by Washington Autism Alliance & Advocacy, March 5, 2025. Verification of district-level compliance not yet documented."
+reform_status: structural_change_implemented
+reform_status_note: "Court-ordered settlement is itself a structural change: OSPI must direct school districts statewide to extend age eligibility for special education services to the 22nd birthday."
 next_milestone: null
 next_milestone_date: null
 

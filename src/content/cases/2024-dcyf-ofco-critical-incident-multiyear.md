@@ -7,8 +7,8 @@ slug: dcyf-ofco-critical-incident-multiyear
 date_surfaced: 2024-12-31T00:00:00.000Z
 date_conduct_start: 2024-01-01T00:00:00.000Z
 date_conduct_end: 2025-12-31T00:00:00.000Z
-last_updated: 2026-07-21T00:00:00.000Z
-last_verified: 2026-07-21T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
@@ -33,10 +33,10 @@ dollars_basis: null
 dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: null
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "DCYF published a formal Q1 2025 Critical Incident Briefing response July 29, 2025 (https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029,2025.pdf). Quarterly response cadence is now established; verification of impact on critical-incident frequency requires multi-year tracking."
 reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+reform_status_note: "No specific legislative reform identified as of May 2026."
 next_milestone: null
 next_milestone_date: null
 

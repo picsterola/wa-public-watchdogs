@@ -6,8 +6,8 @@ slug: ferguson-pdc-vacancies-recall
 date_surfaced: 2026-04-01
 date_conduct_start: 2025-01-01
 date_conduct_end: 2026-04-25
-last_updated: 2026-05-28
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -35,10 +35,10 @@ legal_status: closed_no_action
 outcome_summary: "Recall effort ended April 25, 2026 after Ferguson filled both PDC commissioner vacancies. Matt Segal appointed April 16, 2026; Teebah Alsaleh appointed late April 2026. Recall filed April 1, 2026 by attorney Conner Edwards."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: verified_resolved
+remediation_note: "Recall effort against Governor Ferguson ended April 28, 2026 after Ferguson filled the final Public Disclosure Commission seat with the appointment of Matt Segal on April 23, 2026 (OPB, April 23 and April 28, 2026; Lynnwood Times, April 28, 2026). Statutory 30-day deadline noncompliance is closed."
+reform_status: none_proposed
+reform_status_note: "No structural reform to the PDC appointment process or the statutory 30-day deadline has been identified."
 next_milestone: null
 next_milestone_date: null
 

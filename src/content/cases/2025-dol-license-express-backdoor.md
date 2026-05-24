@@ -6,8 +6,8 @@ slug: dol-license-express-backdoor
 date_surfaced: 2026-03-05
 date_conduct_start: 2018-09-03
 date_conduct_end: 2025-02-18
-last_updated: 2026-05-23
-last_verified: 2026-05-23
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -35,10 +35,10 @@ legal_status: complaint_filed
 outcome_summary: "A tort claim filed March 3, 2026 by attorney Joel Ard (Ard Law Group) on behalf of Washington resident William Black alleges that the Washington Department of Licensing maintained a known security vulnerability in its License Express online portal from approximately Labor Day 2018 through February 18, 2025, enabling identity thieves to access resident driver's license records, change addresses, and order replacement licenses redirected to attacker-controlled locations. The filing states that at least one fraudster completed more than 1,000 identity thefts using the vulnerability. DOL disputes the allegation of widespread fraud and states it found no evidence of a data breach through License Express. WSP investigated suspected fraudulent use of the system beginning August 2019 and closed the investigation in September 2021 due to a lack of active leads. DOL took License Express offline February 10–18, 2025 to implement a fix. The tort claim alleges DOL violated its obligations under the Washington Data Breach Notification Act by failing to notify affected individuals."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "DOL is reviewing the tort claim notice filed with the Department of Enterprise Services on March 3, 2026 (Fox13, March 5, 2026). DOL publicly disputes the allegation of widespread fraud and states it has found no evidence of a data breach through License Express. KIRO 7 March 5, 2026 frames the issue as the September 2018 License Express upgrade having created a structural vulnerability. No DOL corrective action publicly disclosed."
 reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+reform_status_note: "No legislative reform identified as of May 2026."
 next_milestone: null
 next_milestone_date: null
 

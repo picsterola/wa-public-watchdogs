@@ -6,8 +6,8 @@ slug: sps-structural-deficit
 date_surfaced: 2025-01-22
 date_conduct_start: 2023-09-01
 date_conduct_end: null
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -45,10 +45,10 @@ legal_status: no_action
 outcome_summary: "No formal audit finding on the structural deficit itself; the deficit is documented in district budget materials and reported by the Seattle Times. The governance question — that the Finance/Audit Committee had been dissolved by the board prior to authorization of the $27.5M interfund loan — is the specific item flagged. Superintendent Brent Jones resigned during this period; context only, not a standalone case."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "SPS proposed to extend interfund loan repayment (up to $17.6M of the $27.5M) into a future fiscal year as part of the 2025-26 budget (Seattle Public Schools Budget Study Session, September 24, 2025). 2026-27 budget development underway with district stating \"not considering\" school closures (KOMO, February 5, 2026)."
+reform_status: none_proposed
+reform_status_note: "No specific governance reform addressing the Finance & Audit Committee bypass on the $27.5M interfund loan has been adopted by the SPS Board."
 next_milestone: null
 next_milestone_date: null
 

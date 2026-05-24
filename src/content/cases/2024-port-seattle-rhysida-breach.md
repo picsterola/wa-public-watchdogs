@@ -7,8 +7,8 @@ slug: port-seattle-rhysida-breach
 date_surfaced: 2024-08-24T00:00:00.000Z
 date_conduct_start: 2024-08-24T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-20T00:00:00.000Z
-last_verified: 2026-05-20T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Port of Seattle
     role_type: agency
@@ -40,10 +40,10 @@ outcome_summary: >-
   pay the approximately $6M ransom demanded by Rhysida ransomware group.
   Approximately 90,000 individuals were notified of personal data exposure in
   April 2025. No regulatory enforcement action publicly reported.
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: implemented_unverified
+remediation_note: "Port disclosed approximately 90,000 individuals affected and began mailing breach notification letters April 2025, including approximately 71,000 in Washington (The Record, April 4, 2025, https://therecord.media/port-of-seattle-says-90000-impacted-in-2024-ransomware-attack). One year of free credit monitoring offered to affected individuals. Port refused to pay ransom. Whether legacy systems used for employee data have been decommissioned has not been publicly confirmed."
+reform_status: none_proposed
+reform_status_note: "No legislative or Port Commission reform identified specific to the Rhysida incident."
 next_milestone: null
 next_milestone_date: null
 

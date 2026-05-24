@@ -5,8 +5,8 @@ title: "DOH hospital oversight — JLARC finds 72% of inspections late, mandator
 slug: doh-hospital-oversight-jlarc
 date_surfaced: 2025-07-16
 date_conduct_start: 2011-01-01
-last_updated: 2025-07-16
-last_verified: 2025-07-16
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -35,10 +35,10 @@ legal_status: audit_finding
 outcome_summary: "JLARC's July 2025 final report (25-06) found DOH systemically out of compliance with two core statutory obligations: hospital inspection schedules and adverse-event correction plan review. DOH agreed to JLARC's five recommendations and committed to presenting a strategic management plan and progress report at JLARC's July 2026 meeting. DOH received one-time funding for a staff position to address inspection backlog, but that position was filled in February 2025 and funding expired June 2025."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: implemented_unverified
+remediation_note: "DOH concurred with all 6 JLARC recommendations in the July 2025 final report (https://leg.wa.gov/JLARC/reports/2025/Hospital/f_iii/printExec.pdf). No follow-up audit has been completed as of May 2026, so concurrence is documented but operational implementation is unverified."
+reform_status: none_proposed
+reform_status_note: "No legislation specifically targeting DOH hospital inspection backlog has been identified through May 2026."
 next_milestone: null
 next_milestone_date: null
 

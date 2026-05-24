@@ -6,8 +6,8 @@ slug: sps-nathan-hale-antisemitism-lawsuit
 date_surfaced: 2025-06-26
 date_conduct_start: 2023-10-07
 date_conduct_end: 2024-06-30
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -51,10 +51,10 @@ legal_status: civil_filed
 outcome_summary: "State civil complaint filed in King County Superior Court on or about June 12-13, 2025; district was served June 17, 2025. The state case was voluntarily dismissed without prejudice before being refiled in U.S. District Court (Western District of Washington) on November 20, 2025 under Title VI of the Civil Rights Act of 1964, the Equal Protection Clause, and multiple state laws. A separate, second Nathan Hale lawsuit was filed in King County Superior Court by a different former student (Alexandra Greenstein) and reported in May 2026. Case status is active as of this record's last update."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
+remediation_status: repeat_finding
+remediation_note: "Second lawsuit filed May 15, 2026 (Greenstein v. SPS) following the November 2025 M.K.L. lawsuit; complaint alleges Principal Johnson \"admitted that antisemitism at the school was pervasive\" but no remediation steps taken (JNS, May 15, 2026). Pattern of inadequate response is now subject to two pending civil actions."
 reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+reform_status_note: "JCRC and Jewish community organizations engaged with SPS on anti-bias training per JNS reporting; no structural commitment or policy adoption by SPS has been identified."
 next_milestone: null
 next_milestone_date: null
 

@@ -5,8 +5,8 @@ title: "Criminal Justice Training Commission — SAO performance audit finds 84%
 slug: cjtc-deescalation-training-noncompliance
 date_surfaced: 2026-04-15
 date_conduct_start: 2021-07-25
-last_updated: 2026-04-15
-last_verified: 2026-04-15
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -38,10 +38,10 @@ legal_status: audit_finding
 outcome_summary: "SAO performance audit published April 14–15, 2026 (Report No. 1039295) found only 16% of veteran officers and 14% of new officers had completed legally required de-escalation and community safety training under the Law Enforcement Training and Community Safety Act. CJTC lacks enforcement tools to compel compliance. The audit recommended the Legislature establish consequences for noncompliant agencies and convene a working group to address compliance barriers. At current rates, approximately half of all officers will not complete required patrol tactics training by 2028. CJTC responded publicly through the commission's YouTube channel in May 2026."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: repeat_finding
+remediation_note: "SAO follow-up published April 2026 finds \"limited progress\" on de-escalation training compliance (Police1, April 17, 2026; SAO LinkedIn April 15, 2026). The April 2026 follow-up shows the original noncompliance pattern persists."
+reform_status: none_proposed
+reform_status_note: "No legislative reform targeting CJTC training compliance enforcement identified as of May 2026."
 next_milestone: null
 next_milestone_date: null
 

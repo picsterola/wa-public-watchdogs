@@ -6,8 +6,8 @@ slug: kc-dchs-ombuds-investigation
 date_surfaced: 2025-10-31
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-28
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -47,10 +47,10 @@ legal_status: under_investigation
 outcome_summary: null
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "Clark Nuber PS report released May 20, 2026: $690,617 in questionable costs across 16 of 19 community partners reviewed. DCHS had already withheld over $370,000, so net improperly disbursed payments are approximately $320,000. Ombuds office will refer specific observations indicating possible fraud, forgery, or attempted theft of funds to law enforcement (KIRO 7, May 20, 2026, https://www.kiro7.com/news/local/king-county-review-finds-nearly-700k-questionable-costs-across-youth-programs/CRHFQW6AHVHCLI4KL3K4Y6OJNQ/)."
+reform_status: bill_introduced
+reform_status_note: "King County Council planning to introduce independent Inspector General legislation in response to this audit and the McGhee case (Fox13, April 27, 2026)."
 next_milestone: null
 next_milestone_date: null
 

@@ -6,8 +6,8 @@ slug: state-agency-tort-payouts-aggregate
 date_surfaced: 2025-01-19
 date_conduct_start: 2023-01-01
 date_conduct_end: 2025-01-01
-last_updated: 2026-05-21
-last_verified: 2026-05-21
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -50,10 +50,10 @@ legal_status: settled
 outcome_summary: "Not a single case — an aggregation of state agency tort payouts compiled by Sen. Chris Gildon (R-Puyallup) from Office of Risk Management data, released publicly January 19, 2025. Gildon introduced SB 5144, requiring legislative hearings when a state agency tort payout reaches $1 million or more. The bill was referred to the Senate Law and Justice Committee. The underlying payouts reflect final, settled or adjudicated liabilities paid from the state Liability Account."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "No agency-side remediation tracked. The structural follow-up is legislative, see reform field."
+reform_status: bill_in_committee
+reform_status_note: "SB 6239 (2025-26 session) introduced; requires JLARC review of the arbitration requirement and report claims, lawsuit, and payout data to the Legislature by December 31, 2032 (Senate Bill Report, January 29, 2026, https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/6239%20SBR%20WM%20OC%2026.pdf)."
 next_milestone: null
 next_milestone_date: null
 

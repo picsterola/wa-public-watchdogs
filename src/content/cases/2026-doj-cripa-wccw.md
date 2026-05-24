@@ -7,8 +7,8 @@ slug: doj-cripa-wccw
 date_surfaced: 2026-05-19T00:00:00.000Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: '2026-05-23'
-last_verified: 2026-05-22T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -121,13 +121,9 @@ tags:
   - federal_investigation
   - eighth_amendment
 remediation_status: in_progress
-reform_status: unknown
-remediation_note: >-
-  DOJ CRIPA investigation formally opened May 19, 2026; state confirmed
-  cooperation; no findings or consent decree issued yet.
-reform_status_note: >-
-  No legislative response identified; investigation only 3 days old at time of
-  research.
+reform_status: none_proposed
+remediation_note: "DOJ Civil Rights Division formal notification letter May 19, 2026 confirms investigation remains active and expands scope to housing of biological men in the women's prison (https://www.justice.gov/opa/pr/justice-department-notifies-washington-investigation-whether-housing-biological-men-womens). No corrective action plan finalized. Original opening was May 2025; state confirmed cooperation; no findings or consent decree issued yet."
+reform_status_note: "No CRIPA-specific legislative reform identified. A separate jail-oversight bill (different scope) died in the 2026 session per InvestigateWest, March 2, 2026."
 next_milestone: DOJ preliminary findings letter to Governor
 ---
 

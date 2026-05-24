@@ -7,8 +7,8 @@ slug: dcyf-ofco-annual-findings
 date_surfaced: 2024-11-01T00:00:00.000Z
 date_conduct_start: 2024-01-01T00:00:00.000Z
 date_conduct_end: 2024-12-31T00:00:00.000Z
-last_updated: 2026-07-21T00:00:00.000Z
-last_verified: 2026-07-21T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
@@ -32,10 +32,10 @@ dollars_basis: null
 dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: null
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
+remediation_status: repeat_finding
+remediation_note: "SAO fiscal year 2025 audit (released March 2026) estimated $27.2M in questionable Child Care Development Fund payments by DCYF, with an additional $9.8M in questionable state-fund payments for a combined $37M estimate (KOMO, March 30, 2026). Auditors noted improvement in payment traceability after years of limited visibility, but the questionable-payment finding pattern continues."
 reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+reform_status_note: "No DCYF-specific legislative reform identified as of May 2026."
 next_milestone: null
 next_milestone_date: null
 

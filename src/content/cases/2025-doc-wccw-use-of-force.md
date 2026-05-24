@@ -7,8 +7,8 @@ slug: doc-wccw-use-of-force
 date_surfaced: 2025-06-09T00:00:00.000Z
 date_conduct_start: 2024-09-01T00:00:00.000Z
 date_conduct_end: 2024-12-31T00:00:00.000Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-22T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Washington Corrections Center for Women
     role_type: agency
@@ -154,14 +154,12 @@ tags:
   - medical_screening
   - oc_spray
 remediation_status: implemented_unverified
-reform_status: unknown
+reform_status: structural_change_implemented
 remediation_note: >-
   DOC discontinued medical seclusion, added HQ-level UoF review, and provided
   training; but no independent re-audit confirmed; CRIPA opening 11 months later
   signals insufficient correction.
-reform_status_note: >-
-  No specific legislation filed targeting OCO-identified WCCW use-of-force
-  violations.
+reform_status_note: "Statewide mandatory monthly use-of-force reporting for all approximately 300 Washington law enforcement agencies went live September 5, 2025, with public-facing database updated monthly (KOMO/youtube, June 2, 2025). This is a statewide structural change, not WCCW-specific. No specific legislation filed targeting OCO-identified WCCW use-of-force violations."
 next_milestone: DOJ CRIPA preliminary findings
 ---
 

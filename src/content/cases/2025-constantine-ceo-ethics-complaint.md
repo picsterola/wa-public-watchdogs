@@ -6,8 +6,8 @@ slug: constantine-ceo-ethics-complaint
 date_surfaced: 2025-03-26
 date_conduct_start: 2025-02-01
 date_conduct_end: 2025-06-18
-last_updated: 2026-05-21
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 # 2026-05-21: salary figure corrected from $675K to $450K base at hire. The $675K had appeared only as a ceiling on a Krauthamer recruiting invoice, not as an actual salary. Fox 13 and Seattle Times confirm the $450K base.
 
 # === ACTORS ===
@@ -37,10 +37,10 @@ legal_status: dismissed
 outcome_summary: "King County Office of the Ombuds dismissed Ethics Complaint OMB-2025-0160 by report dated June 18, 2025, finding no violation of the King County Ethics Code. The Ombuds found Constantine did not participate in his own evaluation in his county executive capacity, and that the hiring process did not constitute a conflict of interest under the applicable code provisions."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: not_required
+remediation_note: "King County Ombuds case OMB-2025-0160 (Aspelund v. Constantine) dismissed June 18, 2025 (https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/office-of-the-ombuds/reports/omb-2025-0160_ethics_report.pdf). Ombuds Office found no reasonable cause to believe Constantine violated the King County Employee Code of Ethics; dual roles as County Executive and Sound Transit Board member were statutorily required under RCW 81.112.040, and Constantine recused from hiring deliberations. Caveat: the dismissal turned partly on the Ethics Code definition of \"person\" excluding governmental units, not on a merits finding that no apparent conflict existed."
+reform_status: none_proposed
+reform_status_note: "No structural amendment to KCC 3.04 or RCW 81.112.040 in response to this complaint has been identified."
 next_milestone: null
 next_milestone_date: null
 

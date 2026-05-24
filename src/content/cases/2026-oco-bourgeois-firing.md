@@ -6,8 +6,8 @@ slug: oco-bourgeois-firing
 date_surfaced: 2026-04-24
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-22
-last_verified: 2026-05-22
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -45,10 +45,10 @@ legal_status: no_action
 outcome_summary: "Jeremiah Bourgeois was fired as OCO director on April 24, 2026, after approximately six months in the role. He was the first formerly incarcerated person to hold a senior executive position in Washington state government. The OCO is operating under acting leadership. No legal action has been filed. The Governor's office declined to comment publicly beyond the stated grounds of ethical misconduct and insubordination."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "Bourgeois fired April 24, 2026 by Governor Ferguson; concurrent ethical misconduct investigation per PrisonLegalNews May 1, 2026 (https://www.prisonlegalnews.org/news/2026/may/1/washington-governor-fires-independent-prison-watchdog/). OCO interim leadership and structural review status not yet publicly resolved."
+reform_status: none_proposed
+reform_status_note: "No structural reform of OCO has been identified as of May 2026."
 next_milestone: null
 next_milestone_date: null
 

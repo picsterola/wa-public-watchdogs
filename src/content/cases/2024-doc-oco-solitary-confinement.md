@@ -7,8 +7,8 @@ slug: doc-oco-solitary-confinement
 date_surfaced: 2024-06-30T00:00:00.000Z
 date_conduct_start: 2020-01-01T00:00:00.000Z
 date_conduct_end: null
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -39,10 +39,10 @@ outcome_summary: >-
   the funding the Legislature identified as necessary to achieve the 90%
   reduction goal under HB 1090. No corrective action with enforcement mechanism
   has been implemented as of the date of this registry entry.
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
+remediation_status: repeat_finding
+remediation_note: "PrisonLegalNews March 1, 2025 (\"Eye Opening Self-Harm Found in Washington DOC Solitary Confinement\") documents continuing pattern. Mid-Level Managers Association of Corrections (MCO-SEIU) January 15, 2026 letter to Director Washington calls for MORE segregation beds and Level 5 conversions, indicating internal pressure runs opposite to OCO recommendations. No published DOC corrective action plan on the OCO solitary report."
 reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+reform_status_note: "No specific legislative reform identified as of May 2026."
 next_milestone: null
 next_milestone_date: null
 

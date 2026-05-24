@@ -6,8 +6,8 @@ slug: sound-transit-west-seattle-cost
 date_surfaced: 2024-09-30
 date_conduct_start: 2016-01-01
 date_conduct_end: null
-last_updated: 2026-05-28
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -36,10 +36,10 @@ legal_status: no_action
 outcome_summary: "Sound Transit board is continuing the project as of this record's last update. Cost-reduction options include truncating the line at Delridge ($3.3–$3.4B). No termination decision has been made."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "New cost estimate $4.9-5.3B (2025 dollars) reflects $2.1-2.6B in identified savings versus the $6.2-6.5B fall 2025 estimate. Sound Transit briefed the System Expansion Committee on March 12, 2026; cost-saving measures (Avalon station elimination, SoDo station optimization, precast Duwamish bridge) not yet finalized. The Urbanist, March 12, 2026."
+reform_status: none_proposed
+reform_status_note: "No reform specific to West Seattle Link cost identified separately from the broader ST3 program reset."
 next_milestone: null
 next_milestone_date: null
 

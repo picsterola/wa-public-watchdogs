@@ -6,8 +6,8 @@ slug: sound-transit-st3-program-reset
 date_surfaced: 2025-08-28
 date_conduct_start: 2016-11-08
 date_conduct_end: null
-last_updated: 2026-05-21
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 # 2026-05-21: Wassmer name corrected (was "Victoria Wass"); Constantine party set to D; legal_status changed from under_investigation to no_action (program reset is internal agency process, not external investigation); Sound Transit affordability page added as Tier 1 agency_statement to support documented evidentiary status.
 
 # === ACTORS ===
@@ -53,10 +53,10 @@ legal_status: no_action
 outcome_summary: "Sound Transit announced a formal 'program reset' process to determine which ST3 projects to build, delay, or descope within existing taxing authority. No new voter-approved funding increase has been sought. As of March 2026, the board is working through scope/sequencing decisions. No external investigation, audit referral, or enforcement action is underway; this is an internal agency planning process. The West Seattle Link Extension (WA-2025-ST-WSL) is one of several projects affected; this record covers the program-wide shortfall."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "Sound Transit Board retreat March 2026 evaluated three approaches to close the $34.5B program-wide shortfall; full ST3 recalibration vote scheduled for May 2026 per The Urbanist, March 23, 2026 (https://www.theurbanist.org/three-more-takeaways-from-a-pivotal-sound-transit-board-retreat/)."
+reform_status: bill_in_committee
+reform_status_note: "SB 6148 (bond term flexibility for transit authorities) introduced in 2026 session per Transportation Choices Coalition, January 28, 2026 (https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/)."
 next_milestone: null
 next_milestone_date: null
 

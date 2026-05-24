@@ -6,8 +6,8 @@ slug: kc-youth-program-self-dealing
 date_surfaced: 2026-04-26
 date_conduct_start: 2020-01-01
 date_conduct_end: 2025-01-31
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 # Named per the registry's policy: two independent Tier 2 sources (Seattle Times investigation,
@@ -46,10 +46,10 @@ legal_status: under_investigation
 outcome_summary: "McGhee was fired in January 2026 for what King County characterized as 'serious policy violations'. The county investigation report (December 2025) was obtained by the Seattle Times via public records request and published April 26, 2026. McGhee is contesting her firing through her labor union. No criminal charges filed; the King County Prosecuting Attorney's Office has not announced whether criminal referral is contemplated. The case became a primary public-facing driver of the April 2026 King County Council Inspector General proposal."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "McGhee fired January 2026 for \"serious violations\" per Fox13/Seattle Times reporting (Fox13, April 27, 2026, https://www.fox13seattle.com/news/king-county-inspector-general-800k-fraud). KCPAO referral status and any criminal charges have not been publicly confirmed as of May 2026."
+reform_status: bill_introduced
+reform_status_note: "King County Council members are planning to introduce an independent Inspector General office in response to this case and the broader DCHS contractor pattern (Fox13, April 27, 2026). Related to existing case 2026-kc-inspector-general-proposal."
 next_milestone: null
 next_milestone_date: null
 

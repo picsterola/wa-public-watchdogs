@@ -6,8 +6,8 @@ slug: seattle-sao-accountability-audit
 date_surfaced: 2026-03-23
 date_conduct_start: 2024-07-01
 date_conduct_end: 2025-06-30
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+last_updated: 2026-05-24
+last_verified: 2026-05-24
 
 # === ACTORS ===
 actors:
@@ -35,10 +35,10 @@ legal_status: closed_no_action
 outcome_summary: "Published March 23, 2026 by the Washington State Auditor's Office (Report No. 1039250). Overall finding: City operations complied 'in all material respects' with state laws, regulations, and City policies, with adequate controls over public resources. Exception: noncompliance with competitive procurement and emergency exemption requirements, communicated to the Mayor and City Council in a separate March 17, 2026 letter. Federal program findings (subrecipient monitoring, reporting, housing quality standards, earmarking) addressed in a separate Single Audit report."
 
 # === RESOLUTION TRACKING ===
-remediation_status: unknown
-remediation_note: "Resolution tracking not yet researched. To be backfilled."
-reform_status: unknown
-reform_status_note: "Reform tracking not yet researched. To be backfilled."
+remediation_status: in_progress
+remediation_note: "SAO Report #1039250 documents City of Seattle commitment to resolve competitive procurement and emergency exemption noncompliance matters communicated in a management letter dated March 17, 2026 (https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039250&isFinding=false&sp=false). No follow-up verification audit has been completed."
+reform_status: none_proposed
+reform_status_note: "No structural reform to City procurement controls beyond standard SAO management-letter response has been identified."
 next_milestone: null
 next_milestone_date: null
 
