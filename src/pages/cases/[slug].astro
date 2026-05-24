@@ -32,8 +32,55 @@ const isRetracted = d.review_status === 'retracted';
 const jurisdictions = Array.from(new Set(d.actors.map((a) => a.jurisdiction)));
 const group = caseGroup(d.actors);
 const groupHref = `/cases?group=${encodeURIComponent(group)}#group-${GROUP_SLUG[group]}`;
+
+// Structured data: schema.org Report. Cases are documented findings with
+// primary-source citations, which maps cleanly to Report. Retracted records
+// are explicitly marked so search engines do not promote them.
+function toISODate(v: unknown): string | undefined {
+  if (!v) return undefined;
+  if (v instanceof Date) return v.toISOString().slice(0, 10);
+  if (typeof v === 'string' || typeof v === 'number') {
+    const dt = new Date(v as any);
+    return isNaN(dt.getTime()) ? undefined : dt.toISOString().slice(0, 10);
+  }
+  return undefined;
+}
+const SITE_URL = 'https://wacountability.org';
+const caseUrl = `${SITE_URL}/cases/${entry.slug}.html`;
+const jsonLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Report',
+  '@id': caseUrl,
+  url: caseUrl,
+  name: d.title,
+  headline: d.title,
+  identifier: d.id,
+  inLanguage: 'en',
+  isAccessibleForFree: true,
+  datePublished: toISODate(d.date_surfaced),
+  dateModified: toISODate(d.last_updated) ?? toISODate(d.date_surfaced),
+  author: { '@type': 'Organization', name: 'Washington Accountability Registry', url: SITE_URL },
+  publisher: { '@type': 'Organization', name: 'Washington Accountability Registry', url: SITE_URL },
+  about: d.actors.map((a) => ({
+    '@type': a.role_type === 'agency' ? 'GovernmentOrganization' : 'Person',
+    name: a.name,
+    ...(a.title ? { jobTitle: a.title } : {}),
+  })),
+  keywords: [...(d.tags ?? []), ...d.severity_type, ...jurisdictions].join(', '),
+  citation: d.sources.map((s) => ({
+    '@type': 'CreativeWork',
+    name: s.title,
+    ...(s.url ? { url: s.url } : {}),
+    ...(s.publisher ? { publisher: { '@type': 'Organization', name: s.publisher } } : {}),
+    ...(s.author ? { author: { '@type': 'Person', name: s.author } } : {}),
+    ...(toISODate(s.date as any) ? { datePublished: toISODate(s.date as any) } : {}),
+  })),
+  image: `${SITE_URL}/og/${entry.slug}.png`,
+  mainEntityOfPage: caseUrl,
+  creativeWorkStatus: isRetracted ? 'Retracted' : (d.legal_status ?? 'documented'),
+};
 ---
-<Base title={d.title} description={d.title} ogImage={`/og/${entry.slug}.png`}>
+<Base title={d.title} description={d.title} ogImage={`/og/${entry.slug}.png`} jsonLd={jsonLd}>
   <Breadcrumb items={[
     { label: 'Cases', href: '/cases' },
     { label: group, href: groupHref },

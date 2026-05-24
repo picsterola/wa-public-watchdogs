@@ -1,0 +1,9 @@
+# Washington Accountability Registry
+# https://wacountability.org
+
+User-agent: *
+Allow: /
+
+# Be polite to crawlers; no aggressive crawl-delay needed for a static site.
+
+Sitemap: https://wacountability.org/sitemap-index.xml

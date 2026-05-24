@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // Public canonical URL for the site (used in OG meta tags and sitemap).
 // Custom domain: https://wacountability.org (Cloudflare DNS, GitHub Pages host).
@@ -15,4 +16,11 @@ export default defineConfig({
     // directory paths to index.html.
     format: 'file',
   },
+  integrations: [
+    sitemap({
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+    }),
+  ],
 });

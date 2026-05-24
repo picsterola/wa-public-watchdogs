@@ -7,14 +7,18 @@ interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  jsonLd?: unknown;
 }
-const { title, description = 'Documenting fraud, conflicts of interest, and structural oversight failures across Washington State, King County, Seattle, and the regional bodies in between.', ogImage = '/og/home.png' } = Astro.props;
+const { title, description = 'Documenting fraud, conflicts of interest, and structural oversight failures across Washington State, King County, Seattle, and the regional bodies in between.', ogImage = '/og/home.png', jsonLd } = Astro.props;
 const fullTitle = title === 'Washington Accountability Registry'
   ? title
   : `${title} · Washington Accountability Registry`;
 const SITE_URL = 'https://wacountability.org';
 // Resolve relative og path against the deploy URL so social platforms can fetch it.
 const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE_URL.replace(/\/$/, '')}${ogImage}`;
+// Canonical URL for the current page. Strips index.html on root paths.
+const pathname = Astro.url.pathname.replace(/\/index\.html$/, '/');
+const canonicalUrl = `${SITE_URL}${pathname}`;
 ---
 <!doctype html>
 <html lang="en">
@@ -24,7 +28,9 @@ const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE_URL.replace(/\
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -36,6 +42,9 @@ const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE_URL.replace(/\
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageAbs} />
+    {jsonLd && (
+      <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
