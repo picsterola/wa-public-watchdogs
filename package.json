@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "featured": "node scripts/compute-featured.mjs",
     "featured:dry": "node scripts/compute-featured.mjs --dry-run",
-    "build": "node scripts/compute-featured.mjs && node scripts/download-officials.mjs && node scripts/bake-og-bg.mjs && node scripts/generate-og-images.mjs && astro build && node scripts/relativize.mjs",
+    "build": "node scripts/compute-featured.mjs && node scripts/download-officials.mjs && node scripts/bake-og-bg.mjs && node scripts/generate-og-images.mjs && astro build && node scripts/export-cases-csv.mjs && node scripts/relativize.mjs",
     "og": "node scripts/bake-og-bg.mjs && node scripts/generate-og-images.mjs",
     "preview": "astro preview",
     "astro": "astro",
@@ -16,6 +16,7 @@
     "online": "node scripts/toggle-offline.mjs --online"
   },
   "dependencies": {
+    "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.2.1",
     "@fontsource-variable/inter": "^5.1.0",
     "@fontsource/fraunces": "^5.2.9",

@@ -1,0 +1,103 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+import { AGENCIES, agencySlugFromName, AGENCY_BY_SLUG } from '../../lib/agencies';
+
+const cases = await getCollection('cases');
+const counts = new Map<string, number>();
+for (const c of cases) {
+  if (c.data.review_status === 'retracted') continue;
+  const seen = new Set<string>();
+  for (const a of c.data.actors) {
+    if (a.role_type !== 'agency') continue;
+    const slug = agencySlugFromName(a.name);
+    if (!(slug in AGENCY_BY_SLUG) || seen.has(slug)) continue;
+    seen.add(slug);
+    counts.set(slug, (counts.get(slug) ?? 0) + 1);
+  }
+}
+
+const rows = AGENCIES
+  .map((a) => ({ ...a, count: counts.get(a.slug) ?? 0 }))
+  .filter((a) => a.count >= 2)
+  .sort((a, b) => b.count - a.count);
+
+const SITE_URL = 'https://wacountability.org';
+const pageUrl = `${SITE_URL}/agencies.html`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': pageUrl,
+  url: pageUrl,
+  name: 'Agencies in the Washington Accountability Registry',
+  description: 'Index of Washington State and local government agencies tracked in the registry, with case counts.',
+  isPartOf: { '@type': 'WebSite', name: 'Washington Accountability Registry', url: SITE_URL },
+  hasPart: rows.map((r) => ({
+    '@type': 'CollectionPage',
+    name: r.name,
+    url: `${SITE_URL}/agencies/${r.slug}.html`,
+  })),
+};
+---
+<Base title="Agencies" description="Index of Washington State and local agencies tracked in the registry." jsonLd={jsonLd}>
+  <Breadcrumb items={[{ label: 'Agencies' }]} />
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">{rows.length} agencies with two or more cases</div>
+      <h1>By agency.</h1>
+      <p class="page-hero-lede">
+        Some agencies show up once. Some show up over and over. This page is the latter list.
+      </p>
+    </div>
+  </header>
+
+  <section class="agency-index" aria-label="Agencies list">
+    <ul class="agency-index-list">
+      {rows.map((a) => (
+        <li class="agency-index-item">
+          <a class="agency-index-link" href={`/agencies/${a.slug}.html`}>
+            <div class="agency-index-name">
+              {a.name}
+              {a.short && <span class="agency-index-short"> · {a.short}</span>}
+            </div>
+            <div class="agency-index-count">{a.count} {a.count === 1 ? 'case' : 'cases'}</div>
+            <div class="agency-index-blurb">{a.description}</div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .agency-index { max-width: 880px; margin: 2rem auto; padding: 0 1rem; }
+  .agency-index-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+  .agency-index-link {
+    display: block; text-decoration: none; color: inherit;
+    border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem 1.25rem;
+    background: var(--bg);
+    transition: border-color 120ms ease, background 120ms ease;
+  }
+  .agency-index-link:hover { border-color: var(--accent); background: var(--bg-elev); }
+  .agency-index-name { font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; }
+  .agency-index-short { color: var(--ink-muted); font-weight: 400; }
+  .agency-index-count {
+    font-family: var(--font-sans); font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-muted); margin-top: 0.2rem;
+  }
+  .agency-index-blurb {
+    margin-top: 0.6rem; font-size: 0.95rem; color: var(--ink); line-height: 1.5;
+  }
+  .agency-hero { max-width: 880px; margin: 2rem auto 0.5rem; padding: 0 1rem; }
+  .agency-hero-eyebrow {
+    font-family: var(--font-sans); font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-muted);
+  }
+  .agency-hero-title {
+    font-family: var(--font-serif); font-size: 2.2rem; line-height: 1.15; margin: 0.2rem 0 0.1rem;
+  }
+  .agency-hero-sub { color: var(--ink-muted); font-family: var(--font-mono); font-size: 0.9rem; }
+  .agency-hero-blurb { margin-top: 0.8rem; font-size: 1.02rem; line-height: 1.55; max-width: 70ch; }
+  .agency-cases { max-width: 880px; margin: 1rem auto; padding: 0 1rem; }
+</style>

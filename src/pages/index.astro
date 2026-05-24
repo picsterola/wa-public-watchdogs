@@ -178,6 +178,36 @@ function tail(title: string): string | null {
     </p>
   </section>
 
+  <section class="data-section" aria-label="Data and feeds">
+    <div class="narrative-head">
+      <span class="kicker">Data</span>
+      <h2>Take the data with you.</h2>
+    </div>
+    <p class="data-section-lede">Researchers, journalists, and policy staff: the registry is machine-readable. Source is on GitHub, the full case set is downloadable, and updates publish to RSS as new cases are added.</p>
+    <ul class="data-grid">
+      <li class="data-card">
+        <div class="data-card-title">Case CSV export</div>
+        <div class="data-card-desc">Every case with id, title, actors, dollars, severity, reforms, sources. Regenerated on each build.</div>
+        <a class="data-card-link" href="/wa-registry-cases.csv">Download CSV →</a>
+      </li>
+      <li class="data-card">
+        <div class="data-card-title">RSS feed</div>
+        <div class="data-card-desc">50 most recent cases, with full body snippets, severity categories, and pub dates.</div>
+        <a class="data-card-link" href="/rss.xml">Subscribe to feed →</a>
+      </li>
+      <li class="data-card">
+        <div class="data-card-title">Source on GitHub</div>
+        <div class="data-card-desc">Every case is a YAML+Markdown file in a public repo. File an issue, submit a correction, or fork it.</div>
+        <a class="data-card-link" href="https://github.com/picsterola/wa-public-watchdogs" target="_blank" rel="noopener">View repository →</a>
+      </li>
+      <li class="data-card">
+        <div class="data-card-title">Sitemap</div>
+        <div class="data-card-desc">Machine-readable index of every page in the registry for crawlers and link checkers.</div>
+        <a class="data-card-link" href="/sitemap-index.xml">View sitemap →</a>
+      </li>
+    </ul>
+  </section>
+
   <section class="bookend" aria-label="Closing">
     <div class="bookend-inner">
       <div>
@@ -196,3 +226,24 @@ function tail(title: string): string | null {
     </div>
   </section>
 </Base>
+
+<style>
+  .data-section { max-width: 1080px; margin: 2.5rem auto; padding: 0 1rem; }
+  .data-section-lede { max-width: 70ch; font-size: 1.02rem; line-height: 1.55; margin: 0 0 1.2rem; }
+  .data-grid {
+    list-style: none; padding: 0; margin: 0;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;
+  }
+  .data-card {
+    border: 1px solid var(--rule); border-radius: 8px; padding: 1.1rem 1.2rem;
+    background: var(--bg);
+    display: flex; flex-direction: column; gap: 0.45rem;
+  }
+  .data-card-title { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 600; }
+  .data-card-desc { font-size: 0.92rem; color: var(--ink-muted); line-height: 1.45; flex: 1; }
+  .data-card-link {
+    font-family: var(--font-sans); font-size: 0.85rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--accent); text-decoration: none; margin-top: 0.3rem;
+  }
+  .data-card-link:hover { text-decoration: underline; }
+</style>

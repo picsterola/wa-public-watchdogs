@@ -1,0 +1,128 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { formatDollars, formatDate, SEVERITY_LABELS, STATUS_LABELS, bodySnippet } from '../../lib/format';
+import { AGENCY_BY_SLUG, agencySlugFromName, AGENCIES } from '../../lib/agencies';
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases');
+  // Build slug -> matching cases. Only emit pages for curated agencies with >=2 cases.
+  const bySlug = new Map<string, CollectionEntry<'cases'>[]>();
+  for (const c of cases) {
+    if (c.data.review_status === 'retracted') continue;
+    const slugs = new Set<string>();
+    for (const a of c.data.actors) {
+      if (a.role_type !== 'agency') continue;
+      const s = agencySlugFromName(a.name);
+      if (s in AGENCY_BY_SLUG) slugs.add(s);
+    }
+    for (const s of slugs) {
+      if (!bySlug.has(s)) bySlug.set(s, []);
+      bySlug.get(s)!.push(c);
+    }
+  }
+  return AGENCIES.filter((a) => (bySlug.get(a.slug)?.length ?? 0) >= 2).map((a) => ({
+    params: { slug: a.slug },
+    props: { agency: a, cases: bySlug.get(a.slug)! },
+  }));
+}
+
+type Props = { agency: typeof AGENCIES[number]; cases: CollectionEntry<'cases'>[] };
+const { agency, cases } = Astro.props;
+
+// Sort by date_surfaced desc so the freshest matter shows first.
+const sorted = [...cases].sort((a, b) => b.data.date_surfaced.getTime() - a.data.date_surfaced.getTime());
+
+// Note: we deliberately don't aggregate dollars across the agency. A case's
+// `dollars_at_issue` can be agency-specific (a settlement against this agency)
+// or aggregate (e.g. statewide tort-payout totals where this agency is one of
+// many). Summing them would inflate the number and misrepresent the record.
+// Per-case dollars are still shown on each row.
+
+// Build JSON-LD CollectionPage that lists each case as an associated Report.
+const SITE_URL = 'https://wacountability.org';
+const pageUrl = `${SITE_URL}/agencies/${agency.slug}.html`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': pageUrl,
+  url: pageUrl,
+  name: `${agency.name} accountability cases`,
+  description: agency.description,
+  about: { '@type': 'GovernmentOrganization', name: agency.name },
+  isPartOf: { '@type': 'WebSite', name: 'Washington Accountability Registry', url: SITE_URL },
+  hasPart: sorted.map((c) => ({
+    '@type': 'Report',
+    name: c.data.title,
+    identifier: c.data.id,
+    url: `${SITE_URL}/cases/${c.slug}.html`,
+    datePublished: c.data.date_surfaced.toISOString().slice(0, 10),
+    dateModified: c.data.last_updated.toISOString().slice(0, 10),
+  })),
+};
+const description = `${cases.length} documented accountability cases involving ${agency.name}${agency.short ? ` (${agency.short})` : ''} in the Washington Accountability Registry.`;
+---
+<Base title={`${agency.short ?? agency.name} cases`} description={description} jsonLd={jsonLd}>
+  <Breadcrumb items={[
+    { label: 'Agencies', href: '/agencies' },
+    { label: agency.short ?? agency.name },
+  ]} />
+
+  <header class="agency-hero">
+    <div class="agency-hero-eyebrow">Agency record · {cases.length} {cases.length === 1 ? 'case' : 'cases'} on file</div>
+    <h1 class="agency-hero-title">{agency.name}</h1>
+    {agency.short && <div class="agency-hero-sub">{agency.short}</div>}
+    <p class="agency-hero-blurb">{agency.description}</p>
+  </header>
+
+  <section class="agency-cases" aria-label={`Cases involving ${agency.name}`}>
+    <ol class="case-list">
+      {sorted.map((c) => (
+        <li class="case-row" data-sev={c.data.evidentiary_status === 'documented' ? 3 : c.data.evidentiary_status === 'reported' ? 2 : 1}>
+          <div class="case-row-meta">
+            <span>{c.data.id}</span>
+            <span class="sep">·</span>
+            <span>{formatDate(c.data.date_surfaced)}</span>
+            <span class="sep">·</span>
+            <span>{STATUS_LABELS[c.data.evidentiary_status] ?? c.data.evidentiary_status}</span>
+            {c.data.dollars_at_issue != null && (
+              <>
+                <span class="sep">·</span>
+                <span class="case-row-dollars">{formatDollars(c.data.dollars_at_issue)}</span>
+              </>
+            )}
+          </div>
+          <div class="case-row-title">
+            <a href={`/cases/${c.slug}.html`}>{c.data.title}</a>
+          </div>
+          <div class="case-row-snippet">{bodySnippet(c.body)}</div>
+          <div class="case-row-badges">
+            {c.data.severity_type.map((s) => (
+              <span class="badge badge-severity">{SEVERITY_LABELS[s] ?? s}</span>
+            ))}
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <nav class="case-foot-nav" aria-label="Agency navigation">
+    <a href="/agencies">← All agencies</a>
+    <a href="/cases">All cases →</a>
+  </nav>
+</Base>
+
+<style>
+  .agency-hero { max-width: 880px; margin: 2rem auto 0.5rem; padding: 0 1rem; }
+  .agency-hero-eyebrow {
+    font-family: var(--font-sans); font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-muted);
+  }
+  .agency-hero-title {
+    font-family: var(--font-serif); font-size: 2.2rem; line-height: 1.15; margin: 0.2rem 0 0.1rem;
+  }
+  .agency-hero-sub { color: var(--ink-muted); font-family: var(--font-mono); font-size: 0.9rem; }
+  .agency-hero-blurb { margin-top: 0.8rem; font-size: 1.02rem; line-height: 1.55; max-width: 70ch; }
+  .agency-cases { max-width: 880px; margin: 1rem auto; padding: 0 1rem; }
+</style>

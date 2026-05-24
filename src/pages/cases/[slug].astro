@@ -4,6 +4,8 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import AllegationBanner from '../../components/AllegationBanner.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { formatDate, formatDollars, SEVERITY_LABELS, STATUS_LABELS, STATUS_LABELS_LONG, LEGAL_STATUS_LABELS, REMEDIATION_LABELS, REMEDIATION_VERDICTS, REFORM_STATUS_LABELS, ROLE_LABELS, SOURCE_TYPE_LABELS, humanizeReform, caseGroup, GROUP_SLUG } from '../../lib/format';
+import { agencySlugFromName, AGENCY_BY_SLUG } from '../../lib/agencies';
+import { REFORM_BY_SLUG } from '../../lib/reforms';
 import officialsData from '../../data/officials.json';
 
 const OFFICIALS = officialsData.officials as Record<string, { name: string; title: string; photo: string | null; source_url: string | null; license: string | null }>;
@@ -20,14 +22,48 @@ export async function getStaticPaths() {
   const cases = await getCollection('cases');
   return cases.map((c) => ({
     params: { slug: c.slug },
-    props: { entry: c },
+    props: { entry: c, all: cases },
   }));
 }
 
-type Props = { entry: CollectionEntry<'cases'> };
-const { entry } = Astro.props;
+type Props = { entry: CollectionEntry<'cases'>; all: CollectionEntry<'cases'>[] };
+const { entry, all } = Astro.props;
 const { Content } = await entry.render();
 const d = entry.data;
+
+// === Related cases ===
+// Score every other (non-retracted, non-this) case by overlap on agency,
+// reform, and severity. We keep the top 4. The intent is internal linking
+// for SEO and to give readers a next step, not exhaustive related-content.
+const thisAgencySlugs = new Set(
+  d.actors.filter((a) => a.role_type === 'agency').map((a) => agencySlugFromName(a.name)),
+);
+const thisReforms = new Set(d.reforms_implicated ?? []);
+const thisSeverities = new Set(d.severity_type ?? []);
+function scoreRelated(c: CollectionEntry<'cases'>): number {
+  if (c.slug === entry.slug) return -1;
+  if (c.data.review_status === 'retracted') return -1;
+  const otherAgencies = new Set(
+    c.data.actors.filter((a) => a.role_type === 'agency').map((a) => agencySlugFromName(a.name)),
+  );
+  let score = 0;
+  for (const s of otherAgencies) if (thisAgencySlugs.has(s)) score += 3;
+  for (const r of c.data.reforms_implicated ?? []) if (thisReforms.has(r)) score += 2;
+  for (const s of c.data.severity_type ?? []) if (thisSeverities.has(s)) score += 1;
+  return score;
+}
+const relatedCases = all
+  .map((c) => ({ c, score: scoreRelated(c) }))
+  .filter((x) => x.score > 0)
+  .sort((a, b) => b.score - a.score || b.c.data.date_surfaced.getTime() - a.c.data.date_surfaced.getTime())
+  .slice(0, 4)
+  .map((x) => x.c);
+
+// === Curated agency / reform deep-links for the sidebar ===
+const curatedAgencies = Array.from(thisAgencySlugs)
+  .filter((s) => s in AGENCY_BY_SLUG)
+  .map((s) => AGENCY_BY_SLUG[s]);
+const curatedReforms = (d.reforms_implicated ?? []).filter((r) => r in REFORM_BY_SLUG);
 const isRetracted = d.review_status === 'retracted';
 const jurisdictions = Array.from(new Set(d.actors.map((a) => a.jurisdiction)));
 const group = caseGroup(d.actors);
@@ -123,7 +159,7 @@ const jsonLd: Record<string, unknown> = {
           {d.reforms_implicated.length > 0 && (
             <div class="reform-tags">
               {d.reforms_implicated.map((r) => (
-                <a class="reform-tag" href={`/reforms#${r}`}>{humanizeReform(r)}</a>
+                <a class="reform-tag" href={r in REFORM_BY_SLUG ? `/reforms/${r}.html` : `/reforms.html#${r}`}>{humanizeReform(r)}</a>
               ))}
             </div>
           )}
@@ -206,6 +242,15 @@ const jsonLd: Record<string, unknown> = {
         <p class="value">{jurisdictions.join(', ')}</p>
       </div>
 
+      {curatedAgencies.length > 0 && (
+        <div class="sidebar-block">
+          <h3>Agency record</h3>
+          {curatedAgencies.map((a) => (
+            <p class="value"><a href={`/agencies/${a.slug}.html`}>All {a.short ?? a.name} cases →</a></p>
+          ))}
+        </div>
+      )}
+
       <div class="sidebar-block">
         <h3>Date surfaced</h3>
         <p class="value">{formatDate(d.date_surfaced)}</p>
@@ -283,8 +328,57 @@ const jsonLd: Record<string, unknown> = {
     );
   })()}
 
+  {!isRetracted && relatedCases.length > 0 && (
+    <section class="related-cases" aria-label="Related cases">
+      <h2 class="related-cases-title">Related cases</h2>
+      <p class="related-cases-sub">Other registry entries that share an agency, a reform implication, or a similar pattern.</p>
+      <ol class="related-cases-list">
+        {relatedCases.map((c) => (
+          <li class="related-case-item">
+            <a class="related-case-link" href={`/cases/${c.slug}.html`}>
+              <div class="related-case-meta">
+                <span>{c.data.id}</span>
+                <span class="sep">·</span>
+                <span>{formatDate(c.data.date_surfaced)}</span>
+                {c.data.dollars_at_issue != null && (
+                  <><span class="sep">·</span><span>{formatDollars(c.data.dollars_at_issue)}</span></>
+                )}
+              </div>
+              <div class="related-case-title">{c.data.title}</div>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  )}
+
   <nav class="case-foot-nav" aria-label="Case page navigation">
     <a href="/cases">← All cases</a>
     <a href={groupHref}>More {group} cases →</a>
   </nav>
 </Base>
+
+<style>
+  .related-cases { max-width: 880px; margin: 2.5rem auto 1rem; padding: 0 1rem; }
+  .related-cases-title {
+    font-family: var(--font-sans); font-size: 0.85rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-muted);
+    border-bottom: 1px solid var(--rule); padding-bottom: 0.5rem; margin: 0;
+  }
+  .related-cases-sub { font-size: 0.95rem; color: var(--ink-muted); margin: 0.6rem 0 1rem; }
+  .related-cases-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+  .related-case-link {
+    display: block; text-decoration: none; color: inherit;
+    border: 1px solid var(--rule); border-radius: 6px; padding: 0.8rem 1rem;
+    transition: border-color 120ms ease, background 120ms ease;
+  }
+  .related-case-link:hover { border-color: var(--accent); background: var(--bg-elev); }
+  .related-case-meta {
+    font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-muted);
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .related-case-meta .sep { color: var(--rule-strong); }
+  .related-case-title {
+    font-family: var(--font-serif); font-size: 1.02rem; line-height: 1.35; margin-top: 0.25rem;
+  }
+</style>

@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { formatDollars, formatDate, SEVERITY_LABELS, STATUS_LABELS, bodySnippet, humanizeReform } from '../../lib/format';
+import { REFORM_BY_SLUG } from '../../lib/reforms';
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases');
+  // slug -> matching cases (any reform appearing in 2+ cases gets a page).
+  const bySlug = new Map<string, CollectionEntry<'cases'>[]>();
+  for (const c of cases) {
+    if (c.data.review_status === 'retracted') continue;
+    const seen = new Set<string>();
+    for (const r of c.data.reforms_implicated ?? []) {
+      if (seen.has(r)) continue;
+      seen.add(r);
+      if (!bySlug.has(r)) bySlug.set(r, []);
+      bySlug.get(r)!.push(c);
+    }
+  }
+  const out: Array<{ params: { slug: string }; props: { slug: string; cases: CollectionEntry<'cases'>[] } }> = [];
+  for (const [slug, list] of bySlug.entries()) {
+    if (list.length < 2) continue;
+    out.push({ params: { slug }, props: { slug, cases: list } });
+  }
+  return out;
+}
+
+type Props = { slug: string; cases: CollectionEntry<'cases'>[] };
+const { slug, cases } = Astro.props;
+const curated = REFORM_BY_SLUG[slug];
+const title = curated?.title ?? humanizeReform(slug);
+const description = curated?.description ?? `Cases in the Washington Accountability Registry that implicate ${humanizeReform(slug).toLowerCase()}.`;
+
+const sorted = [...cases].sort((a, b) => b.data.date_surfaced.getTime() - a.data.date_surfaced.getTime());
+
+const SITE_URL = 'https://wacountability.org';
+const pageUrl = `${SITE_URL}/reforms/${slug}.html`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': pageUrl,
+  url: pageUrl,
+  name: title,
+  description,
+  isPartOf: { '@type': 'WebSite', name: 'Washington Accountability Registry', url: SITE_URL },
+  hasPart: sorted.map((c) => ({
+    '@type': 'Report',
+    name: c.data.title,
+    identifier: c.data.id,
+    url: `${SITE_URL}/cases/${c.slug}.html`,
+    datePublished: c.data.date_surfaced.toISOString().slice(0, 10),
+  })),
+};
+const pageDescription = `${cases.length} cases in the Washington Accountability Registry implicating ${title.toLowerCase()}.`;
+---
+<Base title={title} description={pageDescription} jsonLd={jsonLd}>
+  <Breadcrumb items={[
+    { label: 'Reforms', href: '/reforms' },
+    { label: title },
+  ]} />
+
+  <header class="reform-hero">
+    <div class="reform-hero-eyebrow">Reform implication · {cases.length} {cases.length === 1 ? 'case' : 'cases'}</div>
+    <h1 class="reform-hero-title">{title}</h1>
+    <p class="reform-hero-blurb">{description}</p>
+  </header>
+
+  <section class="reform-cases" aria-label={`Cases tagged ${title}`}>
+    <ol class="case-list">
+      {sorted.map((c) => (
+        <li class="case-row" data-sev={c.data.evidentiary_status === 'documented' ? 3 : c.data.evidentiary_status === 'reported' ? 2 : 1}>
+          <div class="case-row-meta">
+            <span>{c.data.id}</span>
+            <span class="sep">·</span>
+            <span>{formatDate(c.data.date_surfaced)}</span>
+            <span class="sep">·</span>
+            <span>{STATUS_LABELS[c.data.evidentiary_status] ?? c.data.evidentiary_status}</span>
+            {c.data.dollars_at_issue != null && (
+              <>
+                <span class="sep">·</span>
+                <span class="case-row-dollars">{formatDollars(c.data.dollars_at_issue)}</span>
+              </>
+            )}
+          </div>
+          <div class="case-row-title">
+            <a href={`/cases/${c.slug}.html`}>{c.data.title}</a>
+          </div>
+          <div class="case-row-snippet">{bodySnippet(c.body)}</div>
+          <div class="case-row-badges">
+            {c.data.severity_type.map((s) => (
+              <span class="badge badge-severity">{SEVERITY_LABELS[s] ?? s}</span>
+            ))}
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <nav class="case-foot-nav" aria-label="Reform navigation">
+    <a href="/reforms">← All reforms</a>
+    <a href="/cases">All cases →</a>
+  </nav>
+</Base>
+
+<style>
+  .reform-hero { max-width: 880px; margin: 2rem auto 0.5rem; padding: 0 1rem; }
+  .reform-hero-eyebrow {
+    font-family: var(--font-sans); font-size: 0.78rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--ink-muted);
+  }
+  .reform-hero-title {
+    font-family: var(--font-serif); font-size: 2.2rem; line-height: 1.15; margin: 0.2rem 0 0.5rem;
+  }
+  .reform-hero-blurb { font-size: 1.02rem; line-height: 1.55; max-width: 70ch; }
+  .reform-cases { max-width: 880px; margin: 1rem auto; padding: 0 1rem; }
+</style>

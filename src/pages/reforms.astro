@@ -235,6 +235,9 @@ const topReformName = plainTitles[chartReforms[0]?.slug ?? ''] ?? chartReforms[0
         </h2>
         <span class="section-head-meta">
           <span class="sans small muted">{r.cases.length} case{r.cases.length === 1 ? '' : 's'}</span>
+          {r.cases.length >= 2 && (
+            <a class="reform-page-link" href={`/reforms/${r.slug}.html`}>Dedicated page →</a>
+          )}
           <a class="back-to-chart" href="#chart-top">↑ Back to chart</a>
         </span>
       </div>
