@@ -61,7 +61,7 @@ sources:
     publisher: Washington State Attorney General's Office
     date: 2025-04-15
     url: https://www.atg.wa.gov/news/news-releases/attorney-general-s-office-sues-seattle-public-schools-over-illegal-treatment
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260501091120/https://www.atg.wa.gov/news/news-releases/attorney-general-s-office-sues-seattle-public-schools-over-illegal-treatment
     quote: "These employees suffered mentally, physically, and financially because of the school district's actions. The Legislature has been clear that employers must accommodate the health needs of their pregnant and nursing workers, which is why Washington has laws banning employers from doing what Seattle Public Schools did to its employees."
   - tier: 1
     type: agency_statement
@@ -69,7 +69,7 @@ sources:
     publisher: Seattle Public Schools
     date: 2025-11-01
     url: https://www.seattleschools.org/wp-content/uploads/2025/11/5010SP.B.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251218085035/https://www.seattleschools.org/wp-content/uploads/2025/11/5010SP.B.pdf
   - tier: 2
     type: news
     title: "WA sues Seattle schools over its treatment of pregnant and nursing employees"
@@ -84,7 +84,7 @@ sources:
     publisher: KIRO 7
     date: 2025-04-15
     url: https://www.kiro7.com/news/local/attorney-general-sues-seattle-public-schools-alleged-illegal-treatment-pregnant-employees/4332MR3WXBBSZH5JUO6LYXJQWM/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250906080904/https://www.kiro7.com/news/local/attorney-general-sues-seattle-public-schools-alleged-illegal-treatment-pregnant-employees/4332MR3WXBBSZH5JUO6LYXJQWM/
   - tier: 2
     type: news
     title: "Seattle Public Schools sued for failing to accommodate pregnant, lactating employees"
@@ -92,7 +92,7 @@ sources:
     author: "Whitaker"
     date: 2025-04-16
     url: https://komonews.com/news/local/seattle-public-schools-sued-failing-accommodate-pregnant-lactating-employees-nursing-accusation-legaly-required-accomodations-employees-attorney-general-nick-brown-breast-feeding-resonable-retaliation-reports-wrongful-unfair-treatment-teacher
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251215132557/https://komonews.com/news/local/seattle-public-schools-sued-failing-accommodate-pregnant-lactating-employees-nursing-accusation-legaly-required-accomodations-employees-attorney-general-nick-brown-breast-feeding-resonable-retaliation-reports-wrongful-unfair-treatment-teacher
   - tier: 2
     type: news
     title: "WA sues Seattle Public Schools over pregnancy accommodations"

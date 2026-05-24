@@ -4,11 +4,11 @@ title: >-
   OSPI school funding apportionment system — SAO performance audit finds
   $30B-per-biennium system at 'high risk for catastrophic failure'
 slug: ospi-school-funding-it-system
-date_surfaced: 2026-05-19T00:00:00.000Z
-date_conduct_start: 2009-01-01T00:00:00.000Z
+date_surfaced: 2026-05-19T00:00:00Z
+date_conduct_start: 2009-01-01T00:00:00Z
 date_conduct_end: null
 last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00Z
 actors:
   - name: Office of Superintendent of Public Instruction
     role_type: agency
@@ -38,10 +38,10 @@ sources:
       SAO Performance Audit — OSPI School Funding Apportionment System (Report
       ARN 1039634)
     publisher: Washington State Auditor's Office
-    date: 2026-05-19T00:00:00.000Z
+    date: 2026-05-19T00:00:00Z
     url: >-
       https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039634&isFinding=false&sp=false
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260520215059/https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039634&isFinding=false&sp=false
 reform_argument: >
   The OSPI apportionment system is the closest analog in the registry to the
 

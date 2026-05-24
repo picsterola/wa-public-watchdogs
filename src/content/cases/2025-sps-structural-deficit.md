@@ -67,7 +67,7 @@ sources:
     publisher: Seattle Times
     date: 2025-06-01
     url: https://www.seattletimes.com/seattle-news/seattle-public-schools-presents-balanced-budget-for-now/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251025170531/https://www.seattletimes.com/seattle-news/seattle-public-schools-presents-balanced-budget-for-now/
 
 # === REFORM LINKAGE ===
 reform_argument: |

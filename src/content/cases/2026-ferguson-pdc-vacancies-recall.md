@@ -59,7 +59,7 @@ sources:
     author: null
     date: 2026-04-23
     url: https://www.opb.org/article/2026/04/23/governor-ferguson-washington-watchdog-panel-seat-filled-matt-segal/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260424034728/https://www.opb.org/article/2026/04/23/governor-ferguson-washington-watchdog-panel-seat-filled-matt-segal/
   - tier: 2
     type: news
     title: "Ferguson faces recall effort over unfilled Public Disclosure Commission seats"

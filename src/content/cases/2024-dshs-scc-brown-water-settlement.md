@@ -4,11 +4,11 @@ title: >-
   Special Commitment Center brown water class action — DSHS pays $7.325M to ~200
   McNeil Island residents over contaminated drinking water
 slug: dshs-scc-brown-water-settlement
-date_surfaced: 2024-03-01T00:00:00.000Z
-date_conduct_start: 2016-01-01T00:00:00.000Z
-date_conduct_end: 2024-03-01T00:00:00.000Z
+date_surfaced: 2024-03-01T00:00:00Z
+date_conduct_start: 2016-01-01T00:00:00Z
+date_conduct_end: 2024-03-01T00:00:00Z
 last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00Z
 actors:
   - name: Washington State Department of Social and Health Services
     role_type: agency
@@ -43,9 +43,9 @@ sources:
     type: news
     title: DSHS settles Special Commitment Center suit for $7.5 million
     publisher: Tacoma News Tribune
-    date: 2024-03-05T00:00:00.000Z
+    date: 2024-03-05T00:00:00Z
     url: 'https://www.thenewstribune.com/news/local/article286255175.html'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250121143022/https://www.thenewstribune.com/news/local/article286255175.html
     quote: >-
       This resolution is not an admission of wrongdoing on the part of the
       Department of Social and Health Services. Unfortunately, we received some
@@ -59,7 +59,7 @@ sources:
       oversight bill
     publisher: Washington Examiner / The Center Square
     author: Carleen Johnson
-    date: 2025-01-19T00:00:00.000Z
+    date: 2025-01-19T00:00:00Z
     url: >-
       https://www.washingtonexaminer.com/news/3292139/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill/
     archive_url: >-
@@ -75,10 +75,10 @@ sources:
       oversight bill
     publisher: Denver Gazette / The Center Square
     author: Carleen Johnson
-    date: 2025-01-19T00:00:00.000Z
+    date: 2025-01-19T00:00:00Z
     url: >-
       https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260522221433/https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
 reform_argument: |
   The brown water case at the Special Commitment Center illustrates two
   overlapping governance failures. First, a civil commitment facility

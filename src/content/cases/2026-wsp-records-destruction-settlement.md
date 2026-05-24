@@ -58,7 +58,7 @@ sources:
     author: null
     date: 2025-02-01
     url: https://www.sos.wa.gov/sites/default/files/2025-06/washington-state-patrol-records-retention-schedule.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251005103404/https://www.sos.wa.gov/sites/default/files/2025-06/washington-state-patrol-records-retention-schedule.pdf
     quote: "Public records must not be destroyed if they are subject to ongoing or reasonably anticipated litigation. Such public records must be managed in accordance with the agency's policies and procedures for legal holds. Public records must not be destroyed if they are subject to an existing public records request in accordance with chapter 42.56 RCW."
   - tier: 1
     type: agency_statement
@@ -67,7 +67,7 @@ sources:
     author: null
     date: 2025-06-01
     url: https://www.sos.wa.gov/sites/default/files/2025-06/law-enforcement-records-retention-schedule.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250701134935/https://www.sos.wa.gov/sites/default/files/2025-06/law-enforcement-records-retention-schedule.pdf
   - tier: 2
     type: news
     title: "WSP settles $340K lawsuit over deleted vaccine mandate records"
@@ -75,7 +75,7 @@ sources:
     author: Shauna Sowersby
     date: 2026-05-21
     url: https://www.seattletimes.com/seattle-news/politics/wsp-settles-340k-lawsuit-over-deleted-vaccine-mandate-records/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260522123859/https://www.seattletimes.com/seattle-news/politics/wsp-settles-340k-lawsuit-over-deleted-vaccine-mandate-records/
     quote: "The Washington State Patrol has reached a settlement of $340,000 in a lawsuit that accused the agency of destroying or withholding text messages and other documents connected to the dismissal of state troopers who declined to comply with the COVID-19 vaccine mandate."
   - tier: 2
     type: news
@@ -92,7 +92,7 @@ sources:
     author: null
     date: 2026-02-20
     url: https://www.washcog.org/in-the-news/appeals-court-rejects-challenge-to-state-auto-deleting-chats
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260309002542/https://www.washcog.org/in-the-news/appeals-court-rejects-challenge-to-state-auto-deleting-chats
     quote: "The Washington state Court of Appeals on Wednesday upheld a lower court's dismissal of a lawsuit that challenged the state's automatic destruction of agency text messages after seven days. ... The spotlight on text-message retention now swivels back to Gov. Bob Ferguson, who suspended the auto deletion of Teams chat messages a year ago, on Feb. 17, 2025. ... The Governor's Office has yet to disclose the evaluation's outcome."
   - tier: 2
     type: news
@@ -110,7 +110,7 @@ sources:
     author: null
     date: 2024-12-10
     url: https://saalawoffice.com/washington-state-patrol-fined-for-withholding-critical-public-records/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260117083134/https://saalawoffice.com/washington-state-patrol-fined-for-withholding-critical-public-records/
     quote: "A judge has fined the Washington State Patrol $150,000 for failing to disclose essential public records in a case involving a fatal car crash. ... Judge Richards found WSP in violation of Washington's PRA. In her ruling, she stated that the delays appeared intentional, aimed at avoiding scrutiny over potential mishandling of the crash investigation."
   - tier: 3
     type: news
@@ -128,7 +128,7 @@ sources:
     author: null
     date: 2025-08-12
     url: https://brechner.org/2025/08/12/washington-reinstate-30-day-email-auto-delete-policy/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260223091949/https://brechner.org/2025/08/12/washington-reinstate-30-day-email-auto-delete-policy/
 
 # === REFORM LINKAGE ===
 reform_argument: |

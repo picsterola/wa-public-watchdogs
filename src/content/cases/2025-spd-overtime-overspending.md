@@ -58,7 +58,7 @@ sources:
     author: Erica C. Barnett
     date: 2025-12-01
     url: https://publicola.com/2025/12/01/after-overspending-spd-scrambles-to-drastically-reduce-overtime/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260422220543/https://publicola.com/2025/12/01/after-overspending-spd-scrambles-to-drastically-reduce-overtime/
 
 # === REFORM LINKAGE ===
 reform_argument: |

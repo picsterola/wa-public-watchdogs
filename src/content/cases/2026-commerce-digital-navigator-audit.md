@@ -5,11 +5,11 @@ title: >-
   program with $10.7M to single contractor without documentation; executives
   bypassed state procurement rules
 slug: commerce-digital-navigator-audit
-date_surfaced: 2026-01-27T00:00:00.000Z
-date_conduct_start: 2022-01-01T00:00:00.000Z
-date_conduct_end: 2025-06-30T00:00:00.000Z
+date_surfaced: 2026-01-27T00:00:00Z
+date_conduct_start: 2022-01-01T00:00:00Z
+date_conduct_end: 2025-06-30T00:00:00Z
 last_updated: '2026-05-23'
-last_verified: 2026-05-22T00:00:00.000Z
+last_verified: 2026-05-22T00:00:00Z
 actors:
   - name: Washington State Department of Commerce
     role_type: agency
@@ -61,10 +61,10 @@ sources:
       Assessing the Department of Commerce's Management of the Digital Navigator
       Program (Performance Audit, ARN 1038954)
     publisher: Washington State Auditor's Office
-    date: 2026-01-27T00:00:00.000Z
+    date: 2026-01-27T00:00:00Z
     url: >-
       https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1038954&isFinding=false&sp=false
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260309031054/https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1038954&isFinding=false&sp=false
     quote: >-
       Commerce's Digital Navigator program lacked effective oversight at
       multiple levels because Commerce did not adopt or develop proper grant
@@ -73,7 +73,7 @@ sources:
     type: agency_statement
     title: Commerce responds to audit of shuttered Digital Navigator program
     publisher: Washington State Department of Commerce
-    date: 2026-01-27T00:00:00.000Z
+    date: 2026-01-27T00:00:00Z
     url: >-
       https://www.commerce.wa.gov/commerce-responds-to-audit-of-shuttered-digital-navigator-program/
     archive_url: null
@@ -88,7 +88,7 @@ sources:
       Equity Grant Program
     publisher: KVI / The Center Square
     author: Ari Hoffman
-    date: 2026-02-03T00:00:00.000Z
+    date: 2026-02-03T00:00:00Z
     url: >-
       https://www.kvi.com/2026/02/03/state-audit-finds-commerce-department-mishandled-92-million-digital-equity-grant-program/
     archive_url: null

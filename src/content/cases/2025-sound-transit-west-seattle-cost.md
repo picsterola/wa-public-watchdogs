@@ -51,7 +51,7 @@ sources:
     publisher: Sound Transit
     date: null
     url: https://www.soundtransit.org/system-expansion/west-seattle-link-extension
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260509044808/https://www.soundtransit.org/system-expansion/west-seattle-link-extension
   - tier: 2
     type: news
     title: "Sound Transit Board Forges Ahead on West Seattle Link Despite Cost Jumps"

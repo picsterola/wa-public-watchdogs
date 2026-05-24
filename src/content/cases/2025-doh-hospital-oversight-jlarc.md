@@ -50,28 +50,28 @@ sources:
     publisher: Joint Legislative Audit & Review Committee
     date: 2025-07-16
     url: https://leg.wa.gov/jlarc/reports/2025/Hospital/f_iii/default.html
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260216203135/https://leg.wa.gov/JLARC/reports/2025/Hospital/f_iii/default.html
   - tier: 1
     type: jlarc_report
     title: "Oversight of Hospital Data Reporting, Inspections, and Complaints — Executive Summary PDF"
     publisher: Joint Legislative Audit & Review Committee
     date: 2025-07-16
     url: https://leg.wa.gov/JLARC/reports/2025/Hospital/f_iii/printExec.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251225115907/https://leg.wa.gov/JLARC/reports/2025/Hospital/f_iii/printExec.pdf
   - tier: 1
     type: jlarc_report
     title: "Oversight of Hospital Data Reporting, Inspections, and Complaints — Published Audit Landing Page"
     publisher: Joint Legislative Audit & Review Committee
     date: 2025-07-16
     url: https://leg.wa.gov/studies-audits-and-reports/performance-audits/published-audits/2025DOH/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260218212725/https://leg.wa.gov/studies-audits-and-reports/performance-audits/published-audits/2025doh/
   - tier: 2
     type: agency_statement
     title: "Key Takeaways from the May 14 JLARC Meeting (preliminary report briefing, DOH hospital oversight)"
     publisher: Washington State Legislature / JLARC GovDelivery
     date: 2025-05-19
     url: https://content.govdelivery.com/accounts/WALEG/bulletins/3e09298
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250520003316/https://content.govdelivery.com/accounts/WALEG/bulletins/3e09298
 
 # === REFORM LINKAGE ===
 reform_argument: |

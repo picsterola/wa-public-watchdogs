@@ -75,14 +75,14 @@ sources:
     author: "Carleen Johnson"
     date: 2025-01-19
     url: https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260522221433/https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/
   - tier: 2
     type: agency_statement
     title: "$ave Washington — Agency mistakes are costing taxpayers hundreds of millions"
     publisher: Washington State Senate Republican Caucus
     date: 2025-03-09
     url: https://src.wastateleg.org/ave-washington/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260310191744/https://src.wastateleg.org/ave-washington/
     quote: "State government has paid out more than $500 million in the past two years alone due to claims and judgments, and the 2025 fiscal year is on pace to be even more expensive. Nearly 200 claims totaling $1 million or more apiece have been paid in the past four years alone, and 3/4 of those are associated with the state Department of Children, Youth and Families."
   - tier: 2
     type: agency_statement

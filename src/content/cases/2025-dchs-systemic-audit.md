@@ -2,11 +2,11 @@
 id: KC-2025-001
 title: 'DCHS contract oversight failure — $1.8B+ program, ~1% of spending reviewed'
 slug: dchs-systemic-audit
-date_surfaced: 2025-08-26T00:00:00.000Z
-date_conduct_start: 2019-01-01T00:00:00.000Z
-date_conduct_end: 2024-12-31T00:00:00.000Z
+date_surfaced: 2025-08-26T00:00:00Z
+date_conduct_start: 2019-01-01T00:00:00Z
+date_conduct_end: 2024-12-31T00:00:00Z
 last_updated: '2026-05-23'
-last_verified: 2026-05-20T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00Z
 actors:
   - name: King County Department of Community and Human Services
     role_type: agency
@@ -47,37 +47,37 @@ sources:
       Department of Community and Human Services Needs to Strengthen Financial
       Stewardship
     publisher: King County Auditor's Office
-    date: 2025-08-26T00:00:00.000Z
+    date: 2025-08-26T00:00:00Z
     url: >-
       https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/auditors-office/reports-papers/reports/2025/dchs-contracts
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260407065451/https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/auditors-office/reports-papers/reports/2025/dchs-contracts
   - tier: 1
     type: audit
     title: DCHS Contracts Audit (full report PDF)
     publisher: King County Auditor's Office
-    date: 2025-08-26T00:00:00.000Z
+    date: 2025-08-26T00:00:00Z
     url: >-
       https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/auditors-office/reports/audits/2025/dchs-contracts/dchs-contracts-2025.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250826214658/https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/auditors-office/reports/audits/2025/dchs-contracts/dchs-contracts-2025.pdf
   - tier: 1
     type: audit
     title: >-
       DCHS Contracts Audit — Errata (September 9, 2025): corrects 2019-2020
       baseline from $22M to $922M
     publisher: King County Auditor's Office
-    date: 2025-09-09T00:00:00.000Z
+    date: 2025-09-09T00:00:00Z
     url: >-
       https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/auditors-office/reports/audits/2025/dchs-contracts/dchs-contracts-errata-2025.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250917143300/https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/auditors-office/reports/audits/2025/dchs-contracts/dchs-contracts-errata-2025.pdf
   - tier: 2
     type: news
     title: 'King County audit finds unapproved payments, possible fraud'
     publisher: Seattle Times
     author: null
-    date: 2025-08-26T00:00:00.000Z
+    date: 2025-08-26T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/politics/king-county-audit-finds-unapproved-payments-possible-fraud/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260325181810/https://www.seattletimes.com/seattle-news/politics/king-county-audit-finds-unapproved-payments-possible-fraud/
   - tier: 2
     type: news
     title: >-
@@ -85,10 +85,10 @@ sources:
       diversion programs
     publisher: KOMO News
     author: null
-    date: 2025-08-26T00:00:00.000Z
+    date: 2025-08-26T00:00:00Z
     url: >-
       https://komonews.com/news/local/audit-reveals-potential-fraud-with-taxpayer-dollars-in-king-county-contracts-unapproved-contractor-paymenr-human-services-taxes-millions-billions-family-intervention-restorative-services-racism-restoriatve-community-pathays-school-to-prison-equity
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260519222140/https://komonews.com/news/local/audit-reveals-potential-fraud-with-taxpayer-dollars-in-king-county-contracts-unapproved-contractor-paymenr-human-services-taxes-millions-billions-family-intervention-restorative-services-racism-restoriatve-community-pathays-school-to-prison-equity
 reform_argument: |
   The Auditor found subrecipient monitoring covered roughly 1% of expenditures
   against a 33% target. The structural problem is that oversight currently sits

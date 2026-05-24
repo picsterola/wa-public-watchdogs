@@ -78,7 +78,7 @@ sources:
     author: null
     date: 2025-10-31
     url: https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251128155729/https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
   - tier: 2
     type: news
     title: "King County review finds nearly $700K in questionable costs across youth programs"
@@ -86,7 +86,7 @@ sources:
     author: null
     date: 2026-05-20
     url: https://www.kiro7.com/news/local/king-county-review-finds-nearly-700k-questionable-costs-across-youth-programs/CRHFQW6AHVHCLI4KL3K4Y6OJNQ/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260521065749/https://www.kiro7.com/news/local/king-county-review-finds-nearly-700k-questionable-costs-across-youth-programs/CRHFQW6AHVHCLI4KL3K4Y6OJNQ/
 
 # === REFORM LINKAGE ===
 reform_argument: |

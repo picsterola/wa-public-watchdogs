@@ -56,21 +56,21 @@ sources:
     publisher: PubliCola
     date: 2025-03-21
     url: https://publicola.com/2025/03/23/this-week-on-publicola-march-23-2025/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260422220844/https://publicola.com/2025/03/23/this-week-on-publicola-march-23-2025/
   - tier: 2
     type: news
     title: "Seeking Justice in a System She Seeks to Abolish"
     publisher: South Seattle Emerald
     date: 2025-01-23
     url: https://southseattleemerald.org/voices/2025/01/23/seeking-justice-in-a-system-she-seeks-to-abolish
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260210063823/https://southseattleemerald.org/voices/2025/01/23/seeking-justice-in-a-system-she-seeks-to-abolish
   - tier: 2
     type: news
     title: "Bruce Harrell's Long History of Covering for Abusers"
     publisher: The Urbanist
     date: 2025-03-19
     url: https://www.theurbanist.org/op-ed-bruce-harrells-long-history-of-covering-for-abusers/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260314201827/https://www.theurbanist.org/op-ed-bruce-harrells-long-history-of-covering-for-abusers/
 
 # === REFORM LINKAGE ===
 reform_argument: |

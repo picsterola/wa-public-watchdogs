@@ -50,7 +50,7 @@ sources:
     publisher: Washington State Legislative Ethics Board
     date: 2026-05-03
     url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260518165437/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/
   - tier: 2
     type: news
     title: "Complaint alleges WA Rep. Simmons misused campaign funds"
@@ -58,7 +58,7 @@ sources:
     author: null
     date: 2026-01-21
     url: https://www.investigatewest.org/complaint-against-wa-rep-tarra-simmons-alleges-misuse-of-30-000-in-campaign-funds/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260521172522/https://www.investigatewest.org/complaint-against-wa-rep-tarra-simmons-alleges-misuse-of-30-000-in-campaign-funds/
 
 # === REFORM LINKAGE ===
 reform_argument: |

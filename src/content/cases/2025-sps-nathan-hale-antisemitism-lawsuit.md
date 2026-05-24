@@ -75,7 +75,7 @@ sources:
     author: "Claire Bryan"
     date: 2025-06-26
     url: https://www.seattletimes.com/education-lab/suit-alleges-antisemitic-bullying-at-seattles-nathan-hale-high/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251125183651/https://www.seattletimes.com/education-lab/suit-alleges-antisemitic-bullying-at-seattles-nathan-hale-high/
   - tier: 2
     type: news
     title: "Jewish student sues Seattle school district, claims failure to stop antisemitism"

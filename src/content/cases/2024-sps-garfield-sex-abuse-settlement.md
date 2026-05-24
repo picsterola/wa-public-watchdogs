@@ -4,11 +4,11 @@ title: >-
   Seattle Public Schools — $16M settlement over Garfield High School coach
   sexual abuse
 slug: sps-garfield-sex-abuse-settlement
-date_surfaced: 2024-10-31T00:00:00.000Z
-date_conduct_start: 2013-01-01T00:00:00.000Z
-date_conduct_end: 2022-12-31T00:00:00.000Z
-last_updated: 2026-05-20T00:00:00.000Z
-last_verified: 2026-05-20T00:00:00.000Z
+date_surfaced: 2024-10-31T00:00:00Z
+date_conduct_start: 2013-01-01T00:00:00Z
+date_conduct_end: 2022-12-31T00:00:00Z
+last_updated: 2026-05-20T00:00:00Z
+last_verified: 2026-05-20T00:00:00Z
 actors:
   - name: Seattle Public Schools
     role_type: agency
@@ -74,7 +74,7 @@ sources:
     type: agency_statement
     title: PWRFL Law settlement announcement — Garfield High School sexual abuse case
     publisher: PWRFL Law (plaintiff counsel of record)
-    date: 2024-10-31T00:00:00.000Z
+    date: 2024-10-31T00:00:00Z
     url: 'https://pwrfl-law.com/news-and-updates/331533'
     archive_url: >-
       https://web.archive.org/web/20260522223026/https://pwrfl-law.com/news-and-updates/331533
@@ -85,14 +85,14 @@ sources:
       sexual abuse
     publisher: Fox 13 Seattle
     author: Will Wixey
-    date: 2024-11-01T00:00:00.000Z
+    date: 2024-11-01T00:00:00Z
     url: 'https://www.fox13seattle.com/news/sps-sexual-abuse-tort-claim'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250809191558/https://www.fox13seattle.com/news/sps-sexual-abuse-tort-claim
   - tier: 2
     type: news
     title: Seattle Public Schools to pay $16M to settle sex abuse lawsuit
     publisher: Seattle Times
-    date: 2024-10-31T00:00:00.000Z
+    date: 2024-10-31T00:00:00Z
     url: >-
       https://www.seattletimes.com/education-lab/seattle-public-schools-to-pay-16m-to-settle-sex-abuse-lawsuit/
     archive_url: null
@@ -103,18 +103,18 @@ sources:
       Schools
     publisher: KIRO 7 / MyNorthwest
     author: MyNorthwest.com Staff
-    date: 2025-12-03T00:00:00.000Z
+    date: 2025-12-03T00:00:00Z
     url: >-
       https://www.kiro7.com/news/local/mistrial-declared-child-rape-case-involving-coach-with-seattle-public-schools/DYLQHK5M5ZEXRDHSPCJPTZ2FAM/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251221035545/https://www.kiro7.com/news/local/mistrial-declared-child-rape-case-involving-coach-with-seattle-public-schools/DYLQHK5M5ZEXRDHSPCJPTZ2FAM/
   - tier: 2
     type: news
     title: SPS to Pay $16M to Settle Garfield High School Abuse Lawsuit
     publisher: South Seattle Emerald
-    date: 2024-11-05T00:00:00.000Z
+    date: 2024-11-05T00:00:00Z
     url: >-
       https://southseattleemerald.org/news/2024/11/05/news-gleams-seattle-public-schools-to-pay-16m-to-settle-garfield-high-school-sex-abuse-lawsuit-sound-transit-begins-scoping-period-for-ballard-link-extension
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251030161947/https://southseattleemerald.org/news/2024/11/05/news-gleams-seattle-public-schools-to-pay-16m-to-settle-garfield-high-school-sex-abuse-lawsuit-sound-transit-begins-scoping-period-for-ballard-link-extension
 reform_argument: |
   Three structural failures sit beneath the largest tort settlement in
   SPS history. First, a coach previously dismissed from another district

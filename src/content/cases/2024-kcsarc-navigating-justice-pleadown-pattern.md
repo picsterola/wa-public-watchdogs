@@ -4,11 +4,11 @@ title: >-
   KCSARC 'Navigating Justice' report finds 60% of King County sexual assault
   cases pleaded down — most to non-sex offenses, 16% reached trial
 slug: kcsarc-navigating-justice-pleadown-pattern
-date_surfaced: 2024-03-05T00:00:00.000Z
-date_conduct_start: 2021-01-01T00:00:00.000Z
-date_conduct_end: 2024-03-05T00:00:00.000Z
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+date_surfaced: 2024-03-05T00:00:00Z
+date_conduct_start: 2021-01-01T00:00:00Z
+date_conduct_end: 2024-03-05T00:00:00Z
+last_updated: 2026-05-22T00:00:00Z
+last_verified: 2026-05-22T00:00:00Z
 actors:
   - name: King County Prosecuting Attorney's Office (KCPAO)
     role_type: agency
@@ -67,7 +67,7 @@ sources:
     title: Navigating Justice report
     publisher: King County Sexual Assault Resource Center (KCSARC)
     author: KCSARC
-    date: 2024-03-05T00:00:00.000Z
+    date: 2024-03-05T00:00:00Z
     url: 'https://www.kcsarc.org/en/navigating-justice-report/'
     archive_url: null
     quote: >-
@@ -84,10 +84,10 @@ sources:
       advocates say
     publisher: KUOW
     author: Ann Dornfeld
-    date: 2024-03-06T00:00:00.000Z
+    date: 2024-03-06T00:00:00Z
     url: >-
       https://www.kuow.org/stories/too-many-king-county-sex-crime-convictions-are-pleaded-down-to-lesser-crimes-advocates-say
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250820042017/https://www.kuow.org/stories/too-many-king-county-sex-crime-convictions-are-pleaded-down-to-lesser-crimes-advocates-say
     quote: >-
       KCSARC analyzed 408 cases involving 319 defendants opened in 2021. Three
       quarters of the cases were crimes against children. 16% resolved at
@@ -100,10 +100,10 @@ sources:
       King County sexual assault report finds many defendants pleaded down
     publisher: The Seattle Times
     author: Lauren Girgis
-    date: 2024-03-19T00:00:00.000Z
+    date: 2024-03-19T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/law-justice/king-county-sexual-assault-report-finds-many-defendants-pleaded-down/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250719141211/https://www.seattletimes.com/seattle-news/law-justice/king-county-sexual-assault-report-finds-many-defendants-pleaded-down/
     quote: >-
       KCPAO Special Assault Unit chair Maggi Qerimi: 'We understand KCSARC's
       point of view and understand that they are representing victims and
@@ -118,7 +118,7 @@ sources:
       assault cases
     publisher: KOMO News
     author: Lynnanne Nguyen
-    date: 2024-03-08T00:00:00.000Z
+    date: 2024-03-08T00:00:00Z
     url: >-
       https://komonews.com/news/local/king-county-sexual-assault-resource-center-cases-kate-krug-kcsarc-sex-offender-prosecutors-washington-state-protection-order-victims-evidentiary-concerns-resource-line-anonymous-information-guilty-verdict-prosecuting-attorneys-office
     archive_url: null

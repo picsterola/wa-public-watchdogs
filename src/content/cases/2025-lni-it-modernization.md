@@ -57,7 +57,7 @@ sources:
     author: null
     date: 2025-04-14
     url: https://www.governing.com/management-and-administration/after-10-years-and-31m-wa-workers-comp-upgrade-has-little-to-show
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260305144446/https://www.governing.com/management-and-administration/after-10-years-and-31m-wa-workers-comp-upgrade-has-little-to-show
 
 # === REFORM LINKAGE ===
 reform_argument: |

@@ -66,7 +66,7 @@ sources:
     author: null
     date: 2025-03-24
     url: https://www.theurbanist.org/sound-transit-picks-dow-constantine-as-ceo/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260409195410/https://www.theurbanist.org/sound-transit-picks-dow-constantine-as-ceo/
   - tier: 2
     type: news
     title: "Dow Constantine is Sound Transit's 'Preferred Candidate' for CEO"
@@ -74,7 +74,7 @@ sources:
     author: null
     date: 2025-03-25
     url: https://seattletransitblog.com/2025/03/25/dow-constantine-is-sound-transits-preferred-candidate-for-ceo/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260110210004/https://seattletransitblog.com/2025/03/25/dow-constantine-is-sound-transits-preferred-candidate-for-ceo/
   - tier: 2
     type: news
     title: "Sound Transit reveals that King County Executive Dow Constantine is the board's preferred candidate for its CEO vacancy"
@@ -82,7 +82,7 @@ sources:
     author: null
     date: 2025-03-24
     url: https://www.nwprogressive.org/weblog/2025/03/sound-transit-reveals-that-king-county-executive-dow-constantine-is-the-boards-preferred-candidate-for-its-ceo-vacancy.html
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250724151152/https://www.nwprogressive.org/weblog/2025/03/sound-transit-reveals-that-king-county-executive-dow-constantine-is-the-boards-preferred-candidate-for-its-ceo-vacancy.html
   - tier: 2
     type: news
     title: "Why Sound Transit's CEO is postponing part of his pay raise (documents $450K hire salary, $474,276 raise effective Jan 2026)"
@@ -90,7 +90,7 @@ sources:
     author: null
     date: 2026-01-15
     url: https://www.seattletimes.com/seattle-news/transportation/why-sound-transits-ceo-is-postponing-part-of-his-pay-raise/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260109053650/https://www.seattletimes.com/seattle-news/transportation/why-sound-transits-ceo-is-postponing-part-of-his-pay-raise/
 
 # === REFORM LINKAGE ===
 reform_argument: |

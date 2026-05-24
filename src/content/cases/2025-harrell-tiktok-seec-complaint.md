@@ -62,7 +62,7 @@ sources:
     publisher: The Burner
     date: 2025-09-05
     url: https://www.theburnerseattle.com/post/ethics-board-to-discuss-mayor-bruce-harrell-alleged-electioneering-on-city-s-official-social-media-a
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260117103934/https://www.theburnerseattle.com/post/ethics-board-to-discuss-mayor-bruce-harrell-alleged-electioneering-on-city-s-official-social-media-a
   - tier: 2
     type: news
     title: "Op-Ed: Will Ethics Commission Hold Harrell Accountable for Campaigning with Public Resources?"

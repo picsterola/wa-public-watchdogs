@@ -4,11 +4,11 @@ title: >-
   DCYF child care subsidy system — 4-year audit gap (FY2021–FY2024), FY2024
   $413M disclaimer opinion, FY2025 $37M questioned payments
 slug: dcyf-payment-compliance
-date_surfaced: 2026-03-30T00:00:00.000Z
-date_conduct_start: 2021-01-01T00:00:00.000Z
+date_surfaced: 2026-03-30T00:00:00Z
+date_conduct_start: 2021-01-01T00:00:00Z
 date_conduct_end: null
 last_updated: '2026-05-22'
-last_verified: 2026-05-22T00:00:00.000Z
+last_verified: 2026-05-22T00:00:00Z
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
@@ -54,16 +54,16 @@ sources:
       Washington State Auditor FY2024 Single Audit — DCYF CCDF disclaimer
       opinion (fourth consecutive year unauditable)
     publisher: Washington State Auditor's Office
-    date: 2025-03-31T00:00:00.000Z
+    date: 2025-03-31T00:00:00Z
     url: 'https://portal.sao.wa.gov/ReportSearch/'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20190110201342/http://portal.sao.wa.gov/ReportSearch
   - tier: 1
     type: sao_report
     title: >-
       Washington State Auditor FY2025 Single Audit — DCYF child care payment
       system findings
     publisher: Washington State Auditor's Office
-    date: 2026-03-30T00:00:00.000Z
+    date: 2026-03-30T00:00:00Z
     archive_url: null
     quote: did not conclude that fraud occurred
   - tier: 2
@@ -71,7 +71,7 @@ sources:
     title: Washington audit finds weaknesses in DCYF payment system
     publisher: The Olympian
     author: null
-    date: 2026-03-31T00:00:00.000Z
+    date: 2026-03-31T00:00:00Z
     url: 'https://www.theolympian.com/news/local/article315250417.html'
     archive_url: null
   - tier: 2
@@ -81,10 +81,10 @@ sources:
       child care payments
     publisher: KOMO News
     author: null
-    date: 2026-03-31T00:00:00.000Z
+    date: 2026-03-31T00:00:00Z
     url: >-
       https://komonews.com/news/local/washington-spending-audit-finds-improvements-flags-weak-oversight-of-child-care-payments-dcyf-childcare-day-care-daycare-fraud-taxpayer-funding-program-children-waste-watch-investigation-federal-legal-lawsuit-minnesota-social-media
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260514092756/https://komonews.com/news/local/washington-spending-audit-finds-improvements-flags-weak-oversight-of-child-care-payments-dcyf-childcare-day-care-daycare-fraud-taxpayer-funding-program-children-waste-watch-investigation-federal-legal-lawsuit-minnesota-social-media
 reform_argument: >
   The multi-year disclaimer opinion is the deeper rot in this case, not the $37M
 

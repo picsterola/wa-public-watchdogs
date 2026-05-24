@@ -68,21 +68,21 @@ sources:
     publisher: Sound Transit
     date: null
     url: https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260416174726/https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability
   - tier: 2
     type: news
     title: "Sound Transit's expansion plans balloon by up to $30 billion"
     publisher: Seattle Times
     date: 2025-08-28
     url: https://www.seattletimes.com/seattle-news/transportation/sound-transits-expansion-plans-balloon-by-up-to-30-billion/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260505195017/https://www.seattletimes.com/seattle-news/transportation/sound-transits-expansion-plans-balloon-by-up-to-30-billion/
   - tier: 2
     type: news
     title: "Sound Transit plans major program reset in face of $30 to $40 billion shortfall"
     publisher: The Urbanist
     date: 2025-08-28
     url: https://www.theurbanist.org/sound-transit-plans-major-program-reset-in-face-of-30-to-40-billion-shortfall/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260409155522/https://www.theurbanist.org/sound-transit-plans-major-program-reset-in-face-of-30-to-40-billion-shortfall/
   - tier: 2
     type: news
     title: "Sound Transit budget update — March 2026 board retreat"
@@ -96,14 +96,14 @@ sources:
     publisher: The Urbanist
     date: 2026-03-23
     url: https://www.theurbanist.org/three-more-takeaways-from-a-pivotal-sound-transit-board-retreat/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260328210248/https://www.theurbanist.org/three-more-takeaways-from-a-pivotal-sound-transit-board-retreat/
   - tier: 2
     type: news
     title: "Build the damn trains: How Senate Bill 6148 could help deliver Sound Transit 3 projects"
     publisher: Transportation Choices Coalition
     date: 2026-01-28
     url: https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260209145314/https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/
 
 # === REFORM LINKAGE ===
 reform_argument: |

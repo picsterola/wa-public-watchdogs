@@ -70,7 +70,7 @@ sources:
     author: null
     date: 2026-04-27
     url: https://www.fox13seattle.com/news/king-county-inspector-general-800k-fraud
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260521015103/https://www.fox13seattle.com/news/king-county-inspector-general-800k-fraud
   # TIER 1 GAP: The underlying King County internal investigation report (Dec 2025) is referenced
   # in both Tier 2 sources but is not posted publicly. A direct PRR to King County DCHS or the
   # Executive's office for the McGhee investigation report would upgrade this case's source tier.

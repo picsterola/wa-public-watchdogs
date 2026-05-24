@@ -2,11 +2,11 @@
 id: KC-2026-001
 title: 'KCRHA forensic audit — $13M unaccounted, $44.7M negative cash position'
 slug: kcrha-forensic-audit
-date_surfaced: 2026-04-22T00:00:00.000Z
-date_conduct_start: 2021-06-01T00:00:00.000Z
-date_conduct_end: 2025-07-31T00:00:00.000Z
+date_surfaced: 2026-04-22T00:00:00Z
+date_conduct_start: 2021-06-01T00:00:00Z
+date_conduct_end: 2025-07-31T00:00:00Z
 last_updated: '2026-05-23'
-last_verified: 2026-05-20T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00Z
 actors:
   - name: King County Regional Homelessness Authority
     role_type: agency
@@ -48,26 +48,26 @@ sources:
     type: audit
     title: City of Seattle Human Services Department — Forensic Evaluation of KCRHA
     publisher: Clark Nuber P.S.
-    date: 2026-04-17T00:00:00.000Z
+    date: 2026-04-17T00:00:00Z
     url: >-
       https://publicola.com/wp-content/uploads/2026/04/4-17-26-Organizational-Forensic-Audit.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260424231829/https://publicola.com/wp-content/uploads/2026/04/4-17-26-Organizational-Forensic-Audit.pdf
   - tier: 1
     type: agency_statement
     title: >-
       Councilmember Kettle on results of King County Regional Homelessness
       Authority audit
     publisher: Seattle City Council
-    date: 2026-04-22T00:00:00.000Z
+    date: 2026-04-22T00:00:00Z
     url: >-
       https://council.seattle.gov/2026/04/22/councilmember-kettle-on-results-of-king-county-regional-homelessness-authority-audit/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260423020347/https://council.seattle.gov/2026/04/22/councilmember-kettle-on-results-of-king-county-regional-homelessness-authority-audit/
   - tier: 2
     type: news
     title: Forensic Audit Exposes King County Homelessness Authority Failures
     publisher: The Seattle Medium
     author: null
-    date: 2026-04-23T00:00:00.000Z
+    date: 2026-04-23T00:00:00Z
     url: 'https://seattlemedium.com/king-county-homelessness-authority-failures/'
     archive_url: null
   - tier: 2
@@ -75,15 +75,15 @@ sources:
     title: 'Alarming Audit, Missing Millions: Is the End Nigh for KCRHA?'
     publisher: PubliCola
     author: Erica C. Barnett
-    date: 2026-04-23T00:00:00.000Z
+    date: 2026-04-23T00:00:00Z
     url: >-
       https://publicola.com/2026/04/23/alarming-audit-missing-millions-is-the-end-nigh-for-kcrha/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260429020514/https://publicola.com/2026/04/23/alarming-audit-missing-millions-is-the-end-nigh-for-kcrha/
   - tier: 2
     type: news
     title: KCRHA gives first steps after audit says millions are missing
     publisher: KIRO 7
-    date: 2026-05-12T00:00:00.000Z
+    date: 2026-05-12T00:00:00Z
     url: >-
       https://www.kiro7.com/news/local/kcrha-gives-first-steps-after-audit-says-millions-are-missing/5NOE2PL52VAL7F4SWNOZX4TCS4/
     archive_url: null
@@ -91,7 +91,7 @@ sources:
     type: news
     title: KCRHA pushes back after audit finds millions unaccounted for
     publisher: Westside Seattle
-    date: 2026-05-12T00:00:00.000Z
+    date: 2026-05-12T00:00:00Z
     url: >-
       https://www.westsideseattle.com/robinson-papers/2026/05/12/kcrha-pushes-back-after-audit-finds-millions-unaccounted-seattle-leaders
     archive_url: null
@@ -100,25 +100,25 @@ sources:
     title: An audit could end King County's homelessness plan. Should it?
     publisher: KUOW
     author: Amy Radil
-    date: 2026-04-28T00:00:00.000Z
+    date: 2026-04-28T00:00:00Z
     url: 'https://www.youtube.com/watch?v=C6n-x--Ufco'
     archive_url: null
   - tier: 2
     type: news
     title: Mayor Wilson statement on KCRHA forensic evaluation
     publisher: West Seattle Blog
-    date: 2026-04-22T00:00:00.000Z
+    date: 2026-04-22T00:00:00Z
     url: >-
       https://westseattleblog.com/2026/04/the-agency-is-unable-to-account-for-13-million-in-public-funds-what-the-mayor-says-about-regional-homelessness-agency-review-results/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260424013020/https://westseattleblog.com/2026/04/the-agency-is-unable-to-account-for-13-million-in-public-funds-what-the-mayor-says-about-regional-homelessness-agency-review-results/
   - tier: 2
     type: agency_statement
     title: Dembowski calls for dissolution of Regional Homeless Authority
     publisher: Shoreline Area News
-    date: 2026-04-23T00:00:00.000Z
+    date: 2026-04-23T00:00:00Z
     url: >-
       https://www.shorelineareanews.com/2026/04/dembowski-calls-for-dissolution-of.html
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260425015831/https://www.shorelineareanews.com/2026/04/dembowski-calls-for-dissolution-of.html
 reform_argument: |
   The Clark Nuber audit identified the absence of a formal internal control
   framework, undefined financial leadership roles, and the same-person approve-

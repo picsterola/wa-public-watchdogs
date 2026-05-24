@@ -53,28 +53,28 @@ sources:
     publisher: Office of the Washington State Auditor
     date: 2026-04-14
     url: https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039295&isFinding=false&sp=false
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260515032146/https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039295&isFinding=false&sp=false
   - tier: 2
     type: news
     title: "Washington state audit finds most officers missed required training"
     publisher: KHQ (NonStop Local)
     date: 2026-04-15
     url: https://www.khq.com/news/washington-state-audit-finds-most-officers-missed-required-training/article_505db35d-2270-4ee1-b6ad-394365f5e1f4.html
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260417123751/https://www.khq.com/news/washington-state-audit-finds-most-officers-missed-required-training/article_505db35d-2270-4ee1-b6ad-394365f5e1f4.html
   - tier: 2
     type: news
     title: "Washington Audit Finds Low Compliance With Police De-Escalation Training Law"
     publisher: Officer.com
     date: 2026-04-17
     url: https://www.officer.com/training-careers/news/55371612/washington-audit-finds-low-compliance-with-police-deescalation-training-law
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260419014233/https://www.officer.com/training-careers/news/55371612/washington-audit-finds-low-compliance-with-police-deescalation-training-law
   - tier: 2
     type: news
     title: "Most Washington police officers lag on required training"
     publisher: Axios Seattle
     date: 2026-05-13
     url: https://www.axios.com/local/seattle/2026/05/13/washington-police-training-audit-deescalation-cultural-awareness-i940
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260520205332/https://www.axios.com/local/seattle/2026/05/13/washington-police-training-audit-deescalation-cultural-awareness-i940
   - tier: 2
     type: agency_statement
     title: "Audit finds limited progress in police training required under the Law Enforcement Training and Community Safety Act (SAO LinkedIn announcement)"

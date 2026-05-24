@@ -4,9 +4,9 @@ title: >-
   OCO FY2024 Unexpected Fatality Review — 26 unexpected prisoner deaths, 13
   without corrective action plans
 slug: doc-oco-unexpected-fatality-review
-date_surfaced: 2025-01-10T00:00:00.000Z
-date_conduct_start: 2023-07-01T00:00:00.000Z
-date_conduct_end: 2024-06-30T00:00:00.000Z
+date_surfaced: 2025-01-10T00:00:00Z
+date_conduct_start: 2023-07-01T00:00:00Z
+date_conduct_end: 2024-06-30T00:00:00Z
 last_updated: 2026-05-24
 last_verified: 2026-05-24
 actors:
@@ -52,7 +52,7 @@ sources:
       Unexpected Fatality Review Recommendations — FY 2024 Annual Review of UFR
       Reports, Committee Recommendations, and Corrective Action Plans
     publisher: Washington Office of the Corrections Ombuds
-    date: 2025-01-10T00:00:00.000Z
+    date: 2025-01-10T00:00:00Z
     url: >-
       https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=OCO+2024+UFR+Annual+Report_0_5ec7a993-d1a3-4441-a42b-d2682c02b7a3.pdf
     archive_url: >-
@@ -65,10 +65,10 @@ sources:
     title: >-
       Bill to establish statewide oversight of jails in Washington dies in Legislature
     publisher: InvestigateWest
-    date: 2026-03-02T00:00:00.000Z
+    date: 2026-03-02T00:00:00Z
     url: >-
       https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260509183315/https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
     quote: null
 reform_argument: >
   The OCO UFR Annual Report presents a structural accountability problem

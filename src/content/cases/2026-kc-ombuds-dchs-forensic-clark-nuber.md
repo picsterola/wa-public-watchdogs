@@ -5,11 +5,11 @@ title: >-
   Nuber finds ~$690K in questionable costs, referrals to State Auditor and law
   enforcement
 slug: kc-ombuds-dchs-forensic-clark-nuber
-date_surfaced: 2026-05-19T00:00:00.000Z
-date_conduct_start: 2022-01-01T00:00:00.000Z
-date_conduct_end: 2025-12-31T00:00:00.000Z
+date_surfaced: 2026-05-19T00:00:00Z
+date_conduct_start: 2022-01-01T00:00:00Z
+date_conduct_end: 2025-12-31T00:00:00Z
 last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00.000Z
+last_verified: 2026-05-21T00:00:00Z
 actors:
   - name: King County Department of Community and Human Services
     role_type: agency
@@ -66,7 +66,7 @@ sources:
       King County Office of the Ombuds — Forensic review report on DCHS youth
       program contracts (Clark Nuber P.S. engagement, public release)
     publisher: King County Office of the Ombuds
-    date: 2026-05-19T00:00:00.000Z
+    date: 2026-05-19T00:00:00Z
     url: >-
       https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/office-of-the-ombuds
     archive_url: null
@@ -77,10 +77,10 @@ sources:
       re: DCHS audit investigation and oversight (October 31, 2025)
     publisher: King County Council
     author: Councilmember Reagan Dunn
-    date: 2025-10-31T00:00:00.000Z
+    date: 2025-10-31T00:00:00Z
     url: >-
       https://cdn.kingcounty.gov/-/media/king-county/depts/council/reagan-dunn/documents/2025/20251031-dchs-audit-investigation-and-oversight.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251031215135/https://cdn.kingcounty.gov/-/media/king-county/depts/council/reagan-dunn/documents/2025/20251031-dchs-audit-investigation-and-oversight.pdf
   - tier: 1
     type: agency_statement
     title: >-
@@ -88,10 +88,10 @@ sources:
       transferred to independent Office of the Ombuds
     publisher: King County Council
     author: Councilmember Reagan Dunn
-    date: 2025-10-31T00:00:00.000Z
+    date: 2025-10-31T00:00:00Z
     url: >-
       https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2025/10-31-dunn-dchs-investigation-release
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260219040707/https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2025/10-31-dunn-dchs-investigation-release
   - tier: 1
     type: agency_statement
     title: >-
@@ -100,17 +100,17 @@ sources:
       program
     publisher: King County Council
     author: Councilmember Claudia Balducci
-    date: 2026-01-27T00:00:00.000Z
+    date: 2026-01-27T00:00:00Z
     url: >-
       https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/01-27-balducci-dchs-audit-amendment-release
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260218003922/https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/01-27-balducci-dchs-audit-amendment-release
   - tier: 2
     type: news
     title: >-
       Law enforcement to review 'fraud, forgery, and attempted theft' of King
       County grant money
     publisher: KOMO News
-    date: 2026-05-19T00:00:00.000Z
+    date: 2026-05-19T00:00:00Z
     url: >-
       https://komonews.com/news/local/dchs-audit-fallout-deepens-as-report-finds-700k-in-questionable-spending-possible-fraud-king-county-seattle-youth-diversion-program-family-intervention-liberation-healing-systemic-racism-restorative-commnity-school-to-prison-withdrawal-stipends
     archive_url: null
@@ -118,15 +118,15 @@ sources:
     type: news
     title: King County report recommends fraud investigation into DCHS
     publisher: FOX 13 Seattle
-    date: 2026-05-20T00:00:00.000Z
+    date: 2026-05-20T00:00:00Z
     url: >-
       https://www.fox13seattle.com/news/king-county-wa-report-fraud-youth-programs
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260521065528/https://www.fox13seattle.com/news/king-county-wa-report-fraud-youth-programs
   - tier: 2
     type: news
     title: King County fraud investigation shifts to independent office
     publisher: Seattle Times
-    date: 2025-11-28T00:00:00.000Z
+    date: 2025-11-28T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
     archive_url: null
@@ -134,10 +134,10 @@ sources:
     type: news
     title: King County response to possible fraud has auditor 'deeply concerned'
     publisher: Seattle Times
-    date: 2025-10-31T00:00:00.000Z
+    date: 2025-10-31T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251128155729/https://www.seattletimes.com/seattle-news/politics/king-county-response-to-possible-fraud-has-auditor-deeply-concerned/
 reform_argument: |
   The May 2026 Ombuds forensic report is the sequel the registry's
   structural argument has been waiting for. The August 2025 DCHS audit

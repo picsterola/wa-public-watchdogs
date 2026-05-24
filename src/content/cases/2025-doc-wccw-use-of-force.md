@@ -4,9 +4,9 @@ title: >-
   OCO WCCW Use-of-Force Investigation — June 2025; OC spray misuse and medical
   screening failures at women's prison
 slug: doc-wccw-use-of-force
-date_surfaced: 2025-06-09T00:00:00.000Z
-date_conduct_start: 2024-09-01T00:00:00.000Z
-date_conduct_end: 2024-12-31T00:00:00.000Z
+date_surfaced: 2025-06-09T00:00:00Z
+date_conduct_start: 2024-09-01T00:00:00Z
+date_conduct_end: 2024-12-31T00:00:00Z
 last_updated: 2026-05-24
 last_verified: 2026-05-24
 actors:
@@ -48,10 +48,10 @@ sources:
     type: ombudsman_report
     title: Use of Force & Restrictive Housing Policy Violations at WCCW
     publisher: Washington Office of the Corrections Ombuds
-    date: 2025-06-09T00:00:00.000Z
+    date: 2025-06-09T00:00:00Z
     url: >-
       https://oco.wa.gov/sites/default/files/OCO%20Report%20%26%20DOC%20Response%20-%20UOF%20%26%20RH%20Policy%20Violations%20at%20WCCW%209JUNE2025.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260214040609/https://oco.wa.gov/sites/default/files/OCO%20Report%20&%20DOC%20Response%20-%20UOF%20&%20RH%20Policy%20Violations%20at%20WCCW%209JUNE2025.pdf
     quote: >-
       The ombuds found this unnecessary because she posed no threat and other
       staff were en route to determine if a transfer was necessary.
@@ -59,15 +59,15 @@ sources:
     type: agency_statement
     title: DOC Response to OCO WCCW Report
     publisher: Washington Department of Corrections
-    date: 2025-06-09T00:00:00.000Z
+    date: 2025-06-09T00:00:00Z
     url: >-
       https://oco.wa.gov/sites/default/files/DOC%20Response%20to%20OCO%20WCCW%20Report%20JUNE2025.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250720235411/https://oco.wa.gov/sites/default/files/DOC%20Response%20to%20OCO%20WCCW%20Report%20JUNE2025.pdf
   - tier: 2
     type: news
     title: WA report criticizes women's prison for concerning use of pepper spray
     publisher: Seattle Times
-    date: 2025-06-24T00:00:00.000Z
+    date: 2025-06-24T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/law-justice/wa-report-criticizes-womens-prison-for-concerning-use-of-pepper-spray/
     archive_url: null

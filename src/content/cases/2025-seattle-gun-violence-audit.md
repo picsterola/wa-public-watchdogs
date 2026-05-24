@@ -82,7 +82,7 @@ sources:
     publisher: Seattle Times Editorial Board
     date: 2025-04-02
     url: https://www.seattletimes.com/opinion/editorials/seattle-is-weary-of-gun-violence-city-auditors-report-is-a-lifeline/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250406013206/https://www.seattletimes.com/opinion/editorials/seattle-is-weary-of-gun-violence-city-auditors-report-is-a-lifeline/
   - tier: 2
     type: news
     title: "Auditor's Gun Violence Recommendations Prompt Defensive Response from Mayor's Office"
@@ -90,7 +90,7 @@ sources:
     author: Erica C. Barnett
     date: 2025-04-04
     url: https://publicola.com/2025/04/04/auditors-gun-violence-recommendations-prompt-defensive-response-from-mayors-office/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260312112521/https://publicola.com/2025/04/04/auditors-gun-violence-recommendations-prompt-defensive-response-from-mayors-office/
   - tier: 2
     type: news
     title: "Auditor Criticizes Seattle's Approach to Gun Violence, Deputy Mayor Pushes Back"

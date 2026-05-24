@@ -5,11 +5,11 @@ title: >-
   (2015–2026): ~14% sanction rate, $5,000 maximum penalty unchanged since
   1994, ~2 public hearings in 32 years
 slug: leb-enforcement-pattern-meta
-date_surfaced: 2026-05-23T00:00:00.000Z
-date_conduct_start: 2015-01-01T00:00:00.000Z
-date_conduct_end: 2026-05-23T00:00:00.000Z
-last_updated: 2026-05-23T00:00:00.000Z
-last_verified: 2026-05-23T00:00:00.000Z
+date_surfaced: 2026-05-23T00:00:00Z
+date_conduct_start: 2015-01-01T00:00:00Z
+date_conduct_end: 2026-05-23T00:00:00Z
+last_updated: 2026-05-23T00:00:00Z
+last_verified: 2026-05-23T00:00:00Z
 actors:
   - name: Washington State Legislative Ethics Board (LEB)
     role_type: agency
@@ -81,9 +81,9 @@ sources:
     type: agency_statement
     title: RCW 42.52 — Ethics in Public Service Act (chapter index)
     publisher: Washington State Legislature
-    date: 1994-01-01T00:00:00.000Z
+    date: 1994-01-01T00:00:00Z
     url: 'https://app.leg.wa.gov/rcw/default.aspx?cite=42.52'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260523081851/https://app.leg.wa.gov/RCW/default.aspx?cite=42.52
     quote: >-
       Enacted 1994 (1994 c 154). Establishes Legislative Ethics Board with
       jurisdiction over members and employees of the legislature. Authority
@@ -96,7 +96,7 @@ sources:
     type: agency_statement
     title: Legislative Ethics Board — Complaint Opinions Docket (2007–2026)
     publisher: Washington State Legislative Ethics Board
-    date: 2026-05-01T00:00:00.000Z
+    date: 2026-05-01T00:00:00Z
     url: >-
       https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
     archive_url: null
@@ -108,9 +108,9 @@ sources:
     type: agency_statement
     title: LEB 2024 Annual Report
     publisher: Washington State Legislative Ethics Board
-    date: 2025-01-01T00:00:00.000Z
+    date: 2025-01-01T00:00:00Z
     url: 'https://leg.wa.gov/media/bgrjwrjp/2024-annual-report.pdf'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260118071855/https://darya.farivar@leg.wa.gov/media/bgrjwrjp/2024-annual-report.pdf
     quote: >-
       2024 activity: 12 complaint cases resolved; 2 reasonable-cause findings
       (Saldaña, Chang) with $500 fines each ($250 suspended); 6 dismissed for
@@ -123,7 +123,7 @@ sources:
     type: agency_statement
     title: LEB 2025 Annual Report
     publisher: Washington State Legislative Ethics Board
-    date: 2026-01-01T00:00:00.000Z
+    date: 2026-01-01T00:00:00Z
     url: 'https://leg.wa.gov/media/y01jifgf/2025-annual-report.pdf'
     archive_url: null
     quote: >-
@@ -134,10 +134,10 @@ sources:
     type: agency_statement
     title: 'LEB Complaint Opinion 19-05 (Matt Shea)'
     publisher: Washington State Legislative Ethics Board
-    date: 2021-01-21T00:00:00.000Z
+    date: 2021-01-21T00:00:00Z
     url: >-
       https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/19-05/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251112075023/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/19-05/
     quote: >-
       "The Board lacks subject matter jurisdiction on all allegations made
       in the complaint." No fine, no referral. Issued after a separate
@@ -153,10 +153,10 @@ sources:
       Videos on Facebook
     publisher: KUOW / Northwest News Network
     author: Austin Jenkins
-    date: 2017-02-17T00:00:00.000Z
+    date: 2017-02-17T00:00:00Z
     url: >-
       https://www.nwnewsnetwork.org/government-and-politics/2017-02-17/ethics-board-fines-washington-legislator-for-posting-taxpayer-funded-videos-on-facebook
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251209084409/https://www.nwnewsnetwork.org/government-and-politics/2017-02-17/ethics-board-fines-washington-legislator-for-posting-taxpayer-funded-videos-on-facebook
     quote: >-
       Rep. Melanie Stambaugh fined $5,000 (statutory maximum) for posting
       legislative videos and photos on her campaign Facebook page. Board
@@ -170,7 +170,7 @@ sources:
       WA lawmaker stares down ethics charges ahead of rare public hearing
     publisher: News from the States / InvestigateWest
     author: Moe K. Clark
-    date: 2026-05-18T00:00:00.000Z
+    date: 2026-05-18T00:00:00Z
     url: >-
       https://www.newsfromthestates.com/article/wa-lawmaker-stares-down-ethics-charges-ahead-rare-public-hearing
     archive_url: null
@@ -184,9 +184,9 @@ sources:
     type: agency_statement
     title: ORS Chapter 244 — Oregon Government Ethics
     publisher: Oregon Legislature
-    date: 1974-01-01T00:00:00.000Z
+    date: 1974-01-01T00:00:00Z
     url: 'https://www.oregonlegislature.gov/bills_laws/ors/ors244.html'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260406092337/https://www.oregonlegislature.gov/bills_laws/ors/ors244.html
     quote: >-
       Oregon Government Ethics Commission jurisdiction: all Oregon public
       officials at all levels of state and local government. Maximum civil
@@ -198,10 +198,10 @@ sources:
     type: agency_statement
     title: 'OGEC 2025–27 Budget Review (Oregon Legislature)'
     publisher: Oregon Legislature, Joint Ways and Means Subcommittee
-    date: 2025-01-01T00:00:00.000Z
+    date: 2025-01-01T00:00:00Z
     url: >-
       https://olis.oregonlegislature.gov/liz/2025R1/Downloads/CommitteeMeetingDocument/289796
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251223160226/https://olis.oregonlegislature.gov/liz/2025R1/Downloads/CommitteeMeetingDocument/289796
     quote: >-
       OGEC case volume: 566 complaints received in 2024 (272 cases opened);
       583 complaints through September 2025 (315 cases opened). Total fines
@@ -214,7 +214,7 @@ sources:
       Complaints to the Oregon Ethics Board are soaring: What is the OGEC?
     publisher: KLCC
     author: Karen Richards
-    date: 2025-08-18T00:00:00.000Z
+    date: 2025-08-18T00:00:00Z
     url: >-
       https://www.klcc.org/crime-law-justice/2025-08-18/complaints-to-the-oregon-ethics-board-are-soaring-what-is-the-ogec
     archive_url: null
@@ -229,10 +229,10 @@ sources:
     type: news
     title: 'Center for Integrity in Government — Washington Report (2019)'
     publisher: C4 Integrity
-    date: 2019-08-01T00:00:00.000Z
+    date: 2019-08-01T00:00:00Z
     url: >-
       https://www.c4integrity.org/wp-content/uploads/2019/08/Washington-Report-final.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260215122631/https://www.c4integrity.org/wp-content/uploads/2019/08/Washington-Report-final.pdf
     quote: >-
       2016: 16 LEB cases, 5 violations found, fines $100–$5,000; 11 dismissed.
       2017: 43 LEB cases (mass-filing event), 1 violation, $2,000 fine; 42
@@ -243,10 +243,10 @@ sources:
     type: agency_statement
     title: 'House Investigation Report (Rampart Group) — Matt Shea'
     publisher: Washington State House of Representatives
-    date: 2019-12-19T00:00:00.000Z
+    date: 2019-12-19T00:00:00Z
     url: >-
       https://leg.wa.gov/studies-audits-and-reports/investigation-reports/house-investigation-report/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260311215745/https://leg.wa.gov/studies-audits-and-reports/investigation-reports/house-investigation-report/
     quote: >-
       Independent investigation commissioned by House Office of the Speaker
       concluded Rep. Matt Shea "participated in an act of domestic terrorism

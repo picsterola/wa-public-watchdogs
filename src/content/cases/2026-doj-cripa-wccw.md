@@ -4,7 +4,7 @@ title: >-
   DOJ CRIPA investigation — federal Civil Rights Division opens Eighth Amendment
   investigation of Washington Corrections Center for Women
 slug: doj-cripa-wccw
-date_surfaced: 2026-05-19T00:00:00.000Z
+date_surfaced: 2026-05-19T00:00:00Z
 date_conduct_start: null
 date_conduct_end: null
 last_updated: 2026-05-24
@@ -43,10 +43,10 @@ sources:
       Justice Department Notifies Washington of Investigation into Whether
       Housing Biological Men in Women's Prison Violates Constitution
     publisher: U.S. Department of Justice Office of Public Affairs
-    date: 2026-05-19T00:00:00.000Z
+    date: 2026-05-19T00:00:00Z
     url: >-
       https://www.justice.gov/opa/pr/justice-department-notifies-washington-investigation-whether-housing-biological-men-womens
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260522045038/https://www.justice.gov/opa/pr/justice-department-notifies-washington-investigation-whether-housing-biological-men-womens
     quote: >-
       The Justice Department will investigate whether Washington engages in a
       pattern or practice of violating the constitutional rights of female
@@ -60,9 +60,9 @@ sources:
       Ferguson
     publisher: U.S. Department of Justice Civil Rights Division
     author: Harmeet K. Dhillon
-    date: 2026-05-19T00:00:00.000Z
+    date: 2026-05-19T00:00:00Z
     url: 'https://www.justice.gov/crt/media/1441251/dl'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260519215436/https://www.justice.gov/crt/media/1441251/dl
     quote: >-
       Our investigation is based on information that WCCW has failed to protect
       female prisoners from sexual and physical violence, harassment, voyeurism,
@@ -72,7 +72,7 @@ sources:
     type: news
     title: DOJ investigates WA women's prison over transgender inmate policy
     publisher: FOX 13 Seattle
-    date: 2026-05-20T00:00:00.000Z
+    date: 2026-05-20T00:00:00Z
     url: 'https://www.fox13seattle.com/news/doj-womens-prison-transgender-policy'
     archive_url: null
     quote: >-
@@ -86,10 +86,10 @@ sources:
     title: >-
       Bill to establish statewide oversight of jails in Washington dies in Legislature
     publisher: InvestigateWest
-    date: 2026-03-02T00:00:00.000Z
+    date: 2026-03-02T00:00:00Z
     url: >-
       https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260509183315/https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
     quote: null
 reform_argument: |
   The DOJ CRIPA notice of May 19, 2026 is the formal federal-level

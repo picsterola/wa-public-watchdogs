@@ -58,7 +58,7 @@ sources:
     publisher: Seattle Public Schools
     date: 2025-06-01
     url: https://www.seattleschools.org/wp-content/uploads/2025/06/Washington_State_Auditors_Office_Financial_Statement_and_Single_Audit_Report_May_2025.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260204230041/https://www.seattleschools.org/wp-content/uploads/2025/06/Washington_State_Auditors_Office_Financial_Statement_and_Single_Audit_Report_May_2025.pdf
 
 # === REFORM LINKAGE ===
 reform_argument: |

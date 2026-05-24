@@ -5,11 +5,11 @@ title: >-
   ran four years without standardized outcome tracking; KCPAO paused felony
   referrals in August 2025 after 53% recidivism finding
 slug: kc-rcp-accountability-gap
-date_surfaced: 2023-04-26T00:00:00.000Z
-date_conduct_start: 2021-10-01T00:00:00.000Z
-date_conduct_end: 2025-08-03T00:00:00.000Z
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+date_surfaced: 2023-04-26T00:00:00Z
+date_conduct_start: 2021-10-01T00:00:00Z
+date_conduct_end: 2025-08-03T00:00:00Z
+last_updated: 2026-05-22T00:00:00Z
+last_verified: 2026-05-22T00:00:00Z
 actors:
   - name: King County Department of Community and Human Services (DCHS)
     role_type: agency
@@ -111,10 +111,10 @@ sources:
       then they looked away
     publisher: KUOW
     author: Ann Dornfeld
-    date: 2023-04-26T00:00:00.000Z
+    date: 2023-04-26T00:00:00Z
     url: >-
       https://www.kuow.org/stories/king-county-gave-millions-to-no-new-youth-jail-activists-to-help-kids-then-they-looked-away
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260522221603/https://www.kuow.org/stories/king-county-gave-millions-to-no-new-youth-jail-activists-to-help-kids-then-they-looked-away
     quote: >-
       Jimmy Hung, head of the juvenile division of the King County Prosecuting
       Attorney's Office: 'We don't need to know how things are going.' Hung
@@ -133,10 +133,10 @@ sources:
       program
     publisher: KOMO News
     author: Jackie Kent
-    date: 2025-08-03T00:00:00.000Z
+    date: 2025-08-03T00:00:00Z
     url: >-
       https://komonews.com/news/local/king-county-prosecutors-pause-juvenile-felony-referrals-to-diversion-program-crime-assault-murder-teen-teenagers-gun-violence-theft-jail-court-felony-conviction-seattle-bellevue-tacoma
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260421214931/https://komonews.com/news/local/king-county-prosecutors-pause-juvenile-felony-referrals-to-diversion-program-crime-assault-murder-teen-teenagers-gun-violence-theft-jail-court-felony-conviction-seattle-bellevue-tacoma
     quote: >-
       Leesa Manion memo to King County councilmembers: 24-month felony
       recidivism rate of 53%. KCPAO referred 1,722 youth participants and
@@ -152,9 +152,9 @@ sources:
     title: Evaluation of King County Restorative Community Pathways (RCP)
     publisher: Impact Justice
     author: Impact Justice Research and Action Center
-    date: 2025-08-01T00:00:00.000Z
+    date: 2025-08-01T00:00:00Z
     url: 'https://impactjustice.org/wp-content/uploads/ImpactJusticeV4_2.pdf'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20251119120136/https://impactjustice.org/wp-content/uploads/ImpactJusticeV4_2.pdf
     quote: >-
       'Data collection tools and procedures lacked standardization and varied
       across partners,' making it difficult to 'quantify long-term impact,
@@ -171,7 +171,7 @@ sources:
     title: King County Looks to Replace Program Diverting Youth from Jail
     publisher: The Urbanist
     author: Amy Sundberg
-    date: 2025-10-30T00:00:00.000Z
+    date: 2025-10-30T00:00:00Z
     url: >-
       https://www.theurbanist.org/king-county-looks-to-replace-program-diverting-youth-from-jail/
     archive_url: null
@@ -201,7 +201,7 @@ sources:
       Restorative Community Pathways (Attachment A: Implementation Plan,
       August 2021)
     publisher: King County Council
-    date: 2021-07-19T00:00:00.000Z
+    date: 2021-07-19T00:00:00Z
     url: 'https://aqua.kingcounty.gov/council/clerk/OldOrdsMotions/Motion%2016063.pdf'
     archive_url: null
     quote: >-

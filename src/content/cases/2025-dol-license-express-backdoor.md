@@ -51,7 +51,7 @@ sources:
     author: Nathan Olson, Digital Communications and Outreach Director
     date: 2026-03-05
     url: https://www.fox13seattle.com/news/wa-attorney-claims-dol
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260321153115/https://www.fox13seattle.com/news/wa-attorney-claims-dol
     quote: "The Department of Licensing is reviewing the tort claim notice filed with Department of Enterprise Services on March 3, 2026. DOL disputes the allegation of widespread fraud and has found no evidence of a data breach through its License Express service. That service requires customers to input personal credentials (such as birth date and Social Security number, if applicable) before gaining access. DOL takes allegations of fraud seriously."
   - tier: 2
     type: news
@@ -75,7 +75,7 @@ sources:
     author: John Curley (host) and Joel Ard (plaintiff's counsel)
     date: 2026-05-21
     url: https://www.youtube.com/watch?v=pEzqgYujySY
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260522020208/https://www.youtube.com/watch?si=NC3hI3yqtTmHSlCq&v=pEzqgYujySY
     quote: "a lot of people uh to my understanding close to 10,000 at least were affected by driver's license redirects alone in that six-year period."
 
 # === REFORM LINKAGE ===

@@ -5,11 +5,11 @@ title: >-
   embezzling $893K from KC juvenile-diversion nonprofit ($3M+ total across two
   nonprofits); 41 months federal prison
 slug: community-passageways-embezzlement
-date_surfaced: 2023-05-16T00:00:00.000Z
-date_conduct_start: 2020-07-01T00:00:00.000Z
-date_conduct_end: 2022-01-01T00:00:00.000Z
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+date_surfaced: 2023-05-16T00:00:00Z
+date_conduct_start: 2020-07-01T00:00:00Z
+date_conduct_end: 2022-01-01T00:00:00Z
+last_updated: 2026-05-22T00:00:00Z
+last_verified: 2026-05-22T00:00:00Z
 actors:
   - name: Susana Tantico
     role_type: contractor
@@ -104,10 +104,10 @@ sources:
       local non-profits
     publisher: U.S. Attorney's Office, Western District of Washington
     author: U.S. Attorney Nick Brown
-    date: 2023-05-16T00:00:00.000Z
+    date: 2023-05-16T00:00:00Z
     url: >-
       https://www.justice.gov/usao-wdwa/pr/former-finance-director-pleads-guilty-embezzling-3-million-two-local-non-profits
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260403125821/https://www.justice.gov/usao-wdwa/pr/former-finance-director-pleads-guilty-embezzling-3-million-two-local-non-profits
     quote: >-
       Two counts of wire fraud (18 U.S.C. § 1343); ~$2.3M from Country Doctor
       Community Health Centers 2011-June 2020; ~$893K from Community
@@ -117,7 +117,7 @@ sources:
     type: news
     title: Renton woman pleads guilty to embezzling over $3M from local nonprofits
     publisher: Renton Reporter
-    date: 2023-05-19T00:00:00.000Z
+    date: 2023-05-19T00:00:00Z
     url: >-
       https://www.rentonreporter.com/2023/05/19/renton-woman-pleads-guilty-to-embezzling-over-3m-from-local-nonprofits/
     archive_url: null
@@ -131,10 +131,10 @@ sources:
     title: >-
       Dunn Calls for State Audit of County-funded Juvenile Diversion Programs
     publisher: King County Council (Councilmember Reagan Dunn)
-    date: 2023-10-02T00:00:00.000Z
+    date: 2023-10-02T00:00:00Z
     url: >-
       https://kingcounty.gov/uk-ua/dept/council/governance-leadership/county-council/newsroom/2023/10-2-dunn-juvenile-diversion-audit
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260106033538/https://kingcounty.gov/uk-ua/dept/council/governance-leadership/county-council/newsroom/2023/10-2-dunn-juvenile-diversion-audit
     quote: >-
       'The Director of Finance for Community Passageways shockingly embezzled
       $890,000 in taxpayer funds from the program.' Dunn: 'these organizations
@@ -153,10 +153,10 @@ sources:
       It Didn't Stay Here: Seattle non-profit official spent embezzled funds in
       Las Vegas
     publisher: New To Las Vegas (Fred Schoenfeld)
-    date: 2023-05-21T00:00:00.000Z
+    date: 2023-05-21T00:00:00Z
     url: >-
       https://newtolasvegas.com/2023/05/21/it-didnt-stay-here-seattle-non-profit-official-spent-embezzled-funds-in-las-vegas/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260213172750/https://newtolasvegas.com/2023/05/21/it-didnt-stay-here-seattle-non-profit-official-spent-embezzled-funds-in-las-vegas/
     quote: >-
       Account drawn from W.D. Wash. court filings, U.S. Attorney's Office
       press release, and IRS Form 990 filings. From plea agreement: Tantico
