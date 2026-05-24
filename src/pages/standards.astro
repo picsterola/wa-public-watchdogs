@@ -1,0 +1,263 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Editorial Standards">
+  <header class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-eyebrow">Editorial Standards</div>
+      <h1>How the registry guards against being <em>wrong</em>.</h1>
+      <p class="page-hero-lede">
+        The legal posture, verification standard, and operational disciplines that govern every
+        published case. Read alongside the <a href="/methodology">Methodology</a> and <a href="/about">About</a> pages.
+      </p>
+    </div>
+  </header>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">01 · Posture</span>
+      <h2>A compiled record of already-public matters.</h2>
+      <p class="dek">The registry summarizes documents the public can already read. It does not generate accusations.</p>
+    </div>
+    <p>
+      Every case in the registry is a structured summary of a public document, a court filing, an audit
+      finding, an ethics opinion, or named-byline reporting that has already entered the public record. The
+      registry does not generate accusations, does not investigate independently, and does not publish
+      material that has not first been put on the record by a government body or an established news outlet.
+      This posture is the foundation of every editorial standard on this page.
+    </p>
+    <p>
+      The registry relies, where applicable, on the Washington common-law and statutory fair-report privilege
+      for accurate summaries of official proceedings and public records (see, e.g.,
+      <a href="https://app.leg.wa.gov/RCW/default.aspx?cite=4.24.510" target="_blank" rel="noopener">RCW 4.24.510</a>
+      regarding communications to government and to the public on matters of public concern, and on the
+      neutral-reportage doctrine as discussed in Washington appellate cases addressing fair and accurate
+      summary of public proceedings). These doctrines do not protect inaccurate or unfair summaries. They
+      protect accurate ones. The registry's standards are written to keep summaries accurate and fair.
+    </p>
+  </section>
+
+  <div class="section-band">
+    <div class="section-band-inner">
+      <div class="prose">
+        <div class="narrative-head">
+          <span class="kicker">02 · Verification</span>
+          <h2>What gets checked before a case is published.</h2>
+          <p class="dek">A four-step verification standard, applied to every published case.</p>
+        </div>
+        <ol>
+          <li><strong>Source-document review.</strong> Every Tier 1 source cited in the case is read in full,
+            not summarized from a press release. Quotes are checked against the document. Page citations are
+            used where they meaningfully aid retrieval.</li>
+          <li><strong>Independent confirmation for named individuals.</strong> No private individual is named
+            on a single Tier 2 source alone. The naming threshold on the
+            <a href="/about#authorship">About page</a> governs.</li>
+          <li><strong>Status check.</strong> Legal status, evidentiary status, and the active-versus-resolved
+            indicator are checked against the most recent dated source. Any status more recent than the source
+            picture is documented in the <code>last_verified</code> field.</li>
+          <li><strong>Internal cross-reference check.</strong> Dollar figures, dates, actor titles, and
+            cross-case references are checked against other registry records that reference the same actor or
+            matter. Conflicts are resolved before publication or noted as open.</li>
+        </ol>
+        <p>
+          Substantive failures of any of the four checks are logged on the
+          <a href="/corrections">Corrections</a> page when they affect a published record.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">03 · Fact and opinion</span>
+      <h2>Fact, characterization, and reform argument are kept separate.</h2>
+      <p class="dek">Three distinct registers, three distinct standards of proof.</p>
+    </div>
+    <p>
+      Every case file contains three kinds of content, held to three different standards:
+    </p>
+    <ul>
+      <li><strong>Factual claims about conduct.</strong> What a named actor allegedly did or did not do, what
+        a court or oversight body found, what a settlement says. These claims are anchored to a specific
+        cited source for every assertion. The word &ldquo;alleged&rdquo; precedes any claim that has not been
+        the subject of a finding by a court or oversight body.</li>
+      <li><strong>Structural characterization.</strong> The severity-type label (criminal fraud, conflict of
+        interest, structural failure, rule gaming, special privileges, misuse of public resources, civil-rights
+        harm, statutory non-compliance, aggregate-liability pattern) is the registry's classification of the
+        category of conduct at issue. It is a structural label, not a finding of guilt. The labels are defined
+        on the <a href="/methodology">Methodology</a> page.</li>
+      <li><strong>Reform argument.</strong> The <em>reform_argument</em> section in each case explains why the
+        registry treats the matter as illustrative of a specific structural reform need. This section is
+        analytical commentary, not factual assertion. Where the reform argument advances an interpretation
+        beyond what the source documents state on their face, the interpretation is identified as such.</li>
+    </ul>
+    <p>
+      Readers and any subject of a case are entitled to challenge any of the three. The corrections process
+      treats factual disputes, characterization disputes, and reform-argument disputes as distinct categories.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">04 · Pre-publication notice</span>
+      <h2>The registry's notice policy is on-request, not proactive.</h2>
+      <p class="dek">Stated plainly: subjects are not notified before publication.</p>
+    </div>
+    <p>
+      The registry does not contact named subjects in advance of publication. Cases are summaries of material
+      already in the public record from a government body, court, oversight entity, or established news outlet,
+      and the underlying source itself has typically already been the subject of public notice through that
+      original publication. The registry's view is that adding a second pre-publication notice cycle for what
+      is already a derivative compilation would slow the work without materially adding to the protections
+      already provided by the original source's own editorial process.
+    </p>
+    <p>
+      In place of pre-publication notice, the registry offers two post-publication mechanisms with explicit
+      service-level commitments:
+    </p>
+    <ul>
+      <li><strong>Right of response.</strong> Any individual named in a case may submit a response through the
+        <a href="/corrections#submit">corrections intake form</a>. Responses are read within five business
+        days. Substantive on-the-record responses are attached to the case at the subject's option.</li>
+      <li><strong>Correction request.</strong> Any reader, including a named subject, may submit a correction
+        request through the same form. Corrections supported by documentary evidence are applied within five
+        business days and logged on the <a href="/corrections">Corrections page</a> with the date and the
+        prompting source.</li>
+    </ul>
+    <p>
+      This is a deliberate policy choice. Readers who believe pre-publication notice is the better practice
+      are welcome to weigh that against the registry's actual correction record, which is published in full.
+    </p>
+  </section>
+
+  <div class="section-band">
+    <div class="section-band-inner">
+      <div class="prose">
+        <div class="narrative-head">
+          <span class="kicker">05 · Naming and pseudonyms</span>
+          <h2>Who gets named, who stays anonymous, and why.</h2>
+        </div>
+        <p>
+          The naming standard on the <a href="/about">About page</a> governs. In addition:
+        </p>
+        <ul>
+          <li><strong>Whistleblowers and complainants.</strong> Where a Tier 1 source identifies a complainant,
+            whistleblower, or witness only by initials, role, or pseudonym, the registry preserves that
+            treatment. The registry does not de-anonymize sources who have been protected by an oversight body
+            or court.</li>
+          <li><strong>Minors and crime victims.</strong> The registry does not name minors or non-public-figure
+            crime victims except where a Tier 1 source has already done so or where the individual has chosen
+            to identify themselves publicly through litigation or media. This is stricter than the general
+            naming threshold and is applied consistently across cases.</li>
+          <li><strong>Litigation pseudonyms.</strong> Where a court has permitted a party to litigate under a
+            pseudonym (Doe, Roe, initials), the registry uses the pseudonym and does not attempt to identify
+            the party from collateral filings or media speculation.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">06 · Mirrored documents and copyright</span>
+      <h2>The registry links. It does not mirror.</h2>
+    </div>
+    <p>
+      Source documents (audits, court filings, settlement agreements, ethics opinions, agency reports) are
+      linked directly to the publisher's hosted copy or, where the publisher's copy has been removed or is
+      unstable, to the Internet Archive's Wayback Machine capture taken at the time of case intake. The
+      registry does not rehost or mirror copyrighted material on its own infrastructure. Excerpts and quotes
+      cited in case bodies are limited in length and used in service of identification, analysis, and
+      commentary, consistent with fair-use principles.
+    </p>
+    <p>
+      If you believe material on the registry infringes a copyright you control, send a notice with the
+      specific URL, the work claimed, your contact information, and a good-faith statement to the corrections
+      intake address. Notices are read within five business days. Material reasonably claimed to infringe is
+      taken down pending review, and the takedown is logged on the
+      <a href="/corrections">Corrections page</a>.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">07 · Disclosures</span>
+      <h2>What the editor has and does not have a stake in.</h2>
+      <p class="dek">Stated, not buried.</p>
+    </div>
+    <p>
+      The registry is maintained by an independent Washington researcher. The editor's biographical detail is
+      deliberately not published. Anonymity here is the same kind of editorial choice many investigative blogs
+      and policy compilations make, taken for safety and to keep the focus on the documents rather than the
+      compiler. Anonymity does not change the registry's evidentiary standards or its accountability mechanisms,
+      both of which are public on this page and on the <a href="/methodology">Methodology</a> page.
+    </p>
+    <p>
+      The editor disclosure stack:
+    </p>
+    <ul>
+      <li><strong>Political affiliation.</strong> The editor is a politically centrist Washington resident with
+        prior work history on both Democratic and Republican campaigns and in legislative and county-government
+        staff roles in Washington. The registry's editorial criterion is the source record, not the party label.
+        No case is included or excluded to engineer the appearance of partisan balance.</li>
+      <li><strong>Funding.</strong> The registry takes no funding from political parties, candidates, advocacy
+        organizations, public-relations firms, or any party named in a case. It does not solicit donations and
+        has no commercial advertising.</li>
+      <li><strong>Conflicts.</strong> Where the editor has a prior professional relationship with a named
+        actor in a case, the conflict is disclosed in the case body. Cases in which the editor has a current
+        professional or financial relationship with a named actor are not published.</li>
+      <li><strong>Contributors.</strong> The <code>contributor</code> field in each case identifies the person
+        who drafted the record. Where contributors other than the editor are involved in the future, their
+        disclosures will be added here.</li>
+    </ul>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">08 · Source-protection</span>
+      <h2>Why the registry does not need confidential sources.</h2>
+    </div>
+    <p>
+      Because the registry compiles already-public records and named-byline reporting, it does not solicit,
+      cultivate, or rely on confidential sources. There is no tip line. There is no anonymous-submission
+      pathway. If you have information you believe should be in the registry, the appropriate channel is to
+      route it first to the relevant government oversight body, audit office, ethics board, inspector general,
+      or established news outlet. Once that body has acted on the record, the registry can summarize what they
+      put on the record.
+    </p>
+    <p>
+      This is a deliberate design choice. Confidential-source journalism is essential, but it is a different
+      discipline than what the registry does. Conflating the two would dilute both.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">09 · Errors and accountability</span>
+      <h2>A registry that audits other people's bookkeeping has to publish its own.</h2>
+    </div>
+    <p>
+      Every substantive change to a published case is logged on the <a href="/corrections">Corrections</a>
+      page, with the date, the case slug, the field changed, and the source that prompted the change. The
+      corrections log is not summarized or selectively pruned. Earlier corrections remain on the page in
+      chronological order.
+    </p>
+    <p>
+      The registry's standard for what counts as a substantive change: any edit that changes a factual claim,
+      a dollar figure, a date, a named actor, a legal-status field, an evidentiary-status field, or a
+      classification label. Stylistic edits, typo fixes, link reformatting, and metadata-only updates are not
+      logged.
+    </p>
+  </section>
+
+  <section class="prose">
+    <div class="narrative-head">
+      <span class="kicker">10 · Effective date</span>
+      <h2>This page is the canonical statement of the registry's editorial standards.</h2>
+    </div>
+    <p>
+      Effective May 24, 2026. Material changes to this page will be logged on the
+      <a href="/corrections">Corrections page</a> alongside changes to published cases.
+    </p>
+  </section>
+</Base>
