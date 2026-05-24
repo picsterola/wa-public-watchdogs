@@ -25,6 +25,6 @@ export async function GET() {
     site: SITE_URL,
     items,
     customData: '<language>en-us</language>',
-    stylesheet: false,
+    stylesheet: '/rss.xsl',
   });
 }
