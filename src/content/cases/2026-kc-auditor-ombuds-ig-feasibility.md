@@ -161,6 +161,6 @@ themselves about the limits of their current authority.
 
 ## Pairs with
 
-- KC-2026-007 (Inspector General Council proposal)
-- 2025 DCHS Contract Management audit (predicate)
-- KC-2026-009/010/011 (KCSO/OLEO accountability arc)
+- **[KC Inspector General Council proposal (Mar 2026)](/cases/kc-inspector-general-proposal.html)** — the Dembowski + Dunn + Perry legislative response to this feasibility study. This study is the evidentiary spine of that proposal.
+- **2025 DCHS Contract Management audit** (Aug 2025) — the predicate that triggered the Council to commission this study.
+- KC-2026-009 / 010 / 011 / 013 / 015 — KCSO/OLEO accountability arc, the operational backdrop for why fraud investigation capacity matters.

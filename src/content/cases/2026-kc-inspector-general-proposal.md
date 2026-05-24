@@ -124,6 +124,11 @@ As of this record's last update, the joint letter was a statement of legislative
 
 This record documents an active governance reform proposal that is directly responsive to documented structural failures in King County's oversight of public contracts. It is tracked here not as an allegation but as the legislative response to cases KC-2025-001 (DCHS audit) and KC-2025-003 (Ombudsman investigation). Whether this proposal becomes law is itself a measure of the county's accountability reform.
 
+## Related cases in this registry
+
+- **KC-2026-012** — [Auditor + Ombuds IG Feasibility Study (Mar 2026)](/cases/2026-kc-auditor-ombuds-ig-feasibility.html). The actual joint report this proposal is built on, with cost ranges ($850K-$2.3M/yr), FTE ranges (3.5-11), and peer jurisdiction comparisons.
+- **KC-2025-DCHS Contract Management Audit (Aug 2025)** — the predicate audit that triggered the joint study and this proposal.
+
 ## Reform implication
 
 The proposed Inspector General would be the most significant structural accountability reform for King County in this period. The case for it rests on three documented failures: (1) the county monitored only about 1% of expenditures in a program worth over $1.8 billion (KC-2025-001); (2) 19 contractors with financial irregularities were referred for outside review only after the Auditor publicly expressed concern about the agency's handling (KC-2025-003); and (3) the investigation authority currently sits inside the same executive branch that approved the spending in the first place. See [reform: independent_inspector_general].
