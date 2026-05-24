@@ -408,12 +408,14 @@ async function main() {
   // Per-case cards
   let count = 0;
   for (const file of files) {
-    // File names look like 2025-sound-transit-st3-program-reset.md.
-    // Astro content-collection slug strips the leading YYYY- prefix.
+    // Match Astro's resolved slug: prefer manual `slug:` field in
+    // frontmatter, otherwise use the raw filename (no year stripping).
+    // Older cases set `slug:` manually to drop the year prefix; newer
+    // cases default to the full filename.
     const rawSlug = basename(file, '.md');
-    const slug = rawSlug.replace(/^\d{4}-/, '');
     const raw = readFileSync(join(CASES_DIR, file), 'utf-8');
     const { data } = matter(raw);
+    const slug = data.slug || rawSlug;
     if (data.review_status === 'retracted') continue;
 
     const dollars = formatDollars(data.dollars_at_issue);
