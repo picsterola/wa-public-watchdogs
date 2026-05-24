@@ -69,7 +69,7 @@ sources:
     date: 2026-05-19T00:00:00Z
     url: >-
       https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/office-of-the-ombuds
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260226065227/https://kingcounty.gov/en/independents/governance-and-leadership/government-oversight/office-of-the-ombuds
   - tier: 1
     type: agency_statement
     title: >-
@@ -113,7 +113,7 @@ sources:
     date: 2026-05-19T00:00:00Z
     url: >-
       https://komonews.com/news/local/dchs-audit-fallout-deepens-as-report-finds-700k-in-questionable-spending-possible-fraud-king-county-seattle-youth-diversion-program-family-intervention-liberation-healing-systemic-racism-restorative-commnity-school-to-prison-withdrawal-stipends
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142331/https://komonews.com/news/local/dchs-audit-fallout-deepens-as-report-finds-700k-in-questionable-spending-possible-fraud-king-county-seattle-youth-diversion-program-family-intervention-liberation-healing-systemic-racism-restorative-commnity-school-to-prison-withdrawal-stipends
   - tier: 2
     type: news
     title: King County report recommends fraud investigation into DCHS
@@ -129,7 +129,7 @@ sources:
     date: 2025-11-28T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524140718/https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
   - tier: 2
     type: news
     title: King County response to possible fraud has auditor 'deeply concerned'

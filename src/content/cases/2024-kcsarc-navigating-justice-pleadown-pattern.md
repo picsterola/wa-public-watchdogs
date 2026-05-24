@@ -69,7 +69,7 @@ sources:
     author: KCSARC
     date: 2024-03-05T00:00:00Z
     url: 'https://www.kcsarc.org/en/navigating-justice-report/'
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524135559/https://www.kcsarc.org/en/navigating-justice-report/
     quote: >-
       Of the 408 survivors tracked, 60% of cases resolved after the defendant
       pleaded guilty to lesser charges; two-thirds of that group involved
@@ -121,7 +121,7 @@ sources:
     date: 2024-03-08T00:00:00Z
     url: >-
       https://komonews.com/news/local/king-county-sexual-assault-resource-center-cases-kate-krug-kcsarc-sex-offender-prosecutors-washington-state-protection-order-victims-evidentiary-concerns-resource-line-anonymous-information-guilty-verdict-prosecuting-attorneys-office
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260218003432/https://komonews.com/news/local/king-county-sexual-assault-resource-center-cases-kate-krug-kcsarc-sex-offender-prosecutors-washington-state-protection-order-victims-evidentiary-concerns-resource-line-anonymous-information-guilty-verdict-prosecuting-attorneys-office
     quote: >-
       Krug: 'When a case is pled down, the victim feels as though they've not
       been acknowledged… they're looking for some sort of accountability from

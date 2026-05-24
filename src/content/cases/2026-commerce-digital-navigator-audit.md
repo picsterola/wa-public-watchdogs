@@ -76,7 +76,7 @@ sources:
     date: 2026-01-27T00:00:00Z
     url: >-
       https://www.commerce.wa.gov/commerce-responds-to-audit-of-shuttered-digital-navigator-program/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260515032143/https://www.commerce.wa.gov/commerce-responds-to-audit-of-shuttered-digital-navigator-program/
     quote: >-
       In February 2025, shortly after agency leadership learned that EEC was
       reimbursed for $10.7 million that lacked proper documentation, Commerce
@@ -91,7 +91,7 @@ sources:
     date: 2026-02-03T00:00:00Z
     url: >-
       https://www.kvi.com/2026/02/03/state-audit-finds-commerce-department-mishandled-92-million-digital-equity-grant-program/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260217120552/https://www.kvi.com/2026/02/03/state-audit-finds-commerce-department-mishandled-92-million-digital-equity-grant-program/
 reform_argument: >
   The Digital Navigator audit is the federal-grant analog to the Commerce COVID
 

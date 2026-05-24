@@ -95,7 +95,7 @@ sources:
     date: 2024-10-31T00:00:00Z
     url: >-
       https://www.seattletimes.com/education-lab/seattle-public-schools-to-pay-16m-to-settle-sex-abuse-lawsuit/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260401152133/https://www.seattletimes.com/education-lab/seattle-public-schools-to-pay-16m-to-settle-sex-abuse-lawsuit/
   - tier: 2
     type: news
     title: >-

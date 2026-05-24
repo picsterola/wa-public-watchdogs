@@ -59,7 +59,7 @@ sources:
     author: null
     date: 2024-09-30
     url: https://www.theurbanist.org/sound-transit-board-forges-ahead-on-west-seattle-link-despite-cost-jumps/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140951/https://www.theurbanist.org/sound-transit-board-forges-ahead-on-west-seattle-link-despite-cost-jumps/
 
 # === REFORM LINKAGE ===
 reform_argument: |

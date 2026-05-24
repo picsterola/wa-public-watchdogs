@@ -60,7 +60,7 @@ sources:
     publisher: Seattle Public Schools
     date: 2025-01-22
     url: https://www.seattleschools.org/wp-content/uploads/2025/02/2025-01-22-Budget-Study-Session-FINAL-ADA.pdf
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260204194217/https://www.seattleschools.org/wp-content/uploads/2025/02/2025-01-22-Budget-Study-Session-FINAL-ADA.pdf
   - tier: 2
     type: news
     title: "Seattle Public Schools presents 'balanced' budget — for now"

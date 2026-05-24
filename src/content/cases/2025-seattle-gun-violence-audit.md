@@ -68,14 +68,14 @@ sources:
     author: "David G. Jones, City Auditor; Claudia Gross Shader, PhD; Andrew Scoggin"
     date: 2025-03-25
     url: https://www.seattle.gov/documents/Departments/CityAuditor/auditreports/2025/Gun%20Violence%20Audit/GunViolenceAuditFinalReport.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524141037/https://www.seattle.gov/documents/Departments/CityAuditor/auditreports/2025/Gun%20Violence%20Audit/GunViolenceAuditFinalReport.pdf
   - tier: 1
     type: audit
     title: "Seattle Office of City Auditor 2025 Annual Report (documents 10% implementation rate of 94 open recommendations and gun violence audit context)"
     publisher: Seattle Office of City Auditor
     date: 2025-12-31
     url: https://www.seattle.gov/documents/Departments/CityAuditor/annualreports/2025AnnualReport.pdf
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524140559/https://www.seattle.gov/documents/Departments/CityAuditor/annualreports/2025AnnualReport.pdf
   - tier: 2
     type: news
     title: "Seattle is weary of gun violence. City auditor's report is a lifeline"
@@ -97,7 +97,7 @@ sources:
     publisher: The Urbanist
     date: 2025-04-18
     url: https://www.theurbanist.org/auditor-criticizes-seattles-approach-to-gun-violence/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140752/https://www.theurbanist.org/auditor-criticizes-seattles-approach-to-gun-violence/
 
 # === REFORM LINKAGE ===
 reform_argument: |

@@ -51,7 +51,7 @@ sources:
     author: null
     date: 2026-04-28
     url: https://www.opb.org/article/2026/04/28/washington-governor-recall-ends-campaign-finance/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260429103017/https://www.opb.org/article/2026/04/28/washington-governor-recall-ends-campaign-finance/
   - tier: 2
     type: news
     title: "Gov. Ferguson fills seat on Washington campaign watchdog panel"

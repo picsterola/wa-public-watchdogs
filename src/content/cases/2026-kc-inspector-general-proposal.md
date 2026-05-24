@@ -4,11 +4,11 @@ title: >-
   King County Council pushes to establish independent Inspector General — reform
   proposal
 slug: kc-inspector-general-proposal
-date_surfaced: 2026-03-25T00:00:00.000Z
+date_surfaced: 2026-03-25T00:00:00Z
 date_conduct_start: null
 date_conduct_end: null
 last_updated: '2026-05-23'
-last_verified: 2026-05-20T00:00:00.000Z
+last_verified: 2026-05-20T00:00:00Z
 actors:
   - name: Reagan Dunn
     role_type: elected
@@ -46,23 +46,23 @@ sources:
       Dunn, Perry, Dembowski Oversight Report on DCHS release — joint letter
       March 25, 2026
     publisher: King County Council Newsroom
-    date: 2026-03-25T00:00:00.000Z
+    date: 2026-03-25T00:00:00Z
     url: >-
       https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/03-25-dunn-perry-dembowski-oversight-report-dchs-release
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142008/https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/03-25-dunn-perry-dembowski-oversight-report-dchs-release
   - tier: 1
     type: agency_statement
     title: King County GovDelivery bulletin — oversight report and IG proposal
     publisher: King County
-    date: 2026-03-27T00:00:00.000Z
+    date: 2026-03-27T00:00:00Z
     url: 'https://content.govdelivery.com/accounts/WAKING/bulletins/4105692'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524141933/https://content.govdelivery.com/accounts/WAKING/bulletins/4105692
   - tier: 2
     type: news
     title: 'This Week on PubliCola — May 2, 2026'
     publisher: PubliCola
     author: null
-    date: 2026-05-02T00:00:00.000Z
+    date: 2026-05-02T00:00:00Z
     url: 'https://publicola.com/2026/05/02/this-week-on-publicola-may-2-2026/'
     archive_url: null
 reform_argument: >

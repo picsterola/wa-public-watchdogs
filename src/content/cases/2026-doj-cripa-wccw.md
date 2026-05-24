@@ -74,7 +74,7 @@ sources:
     publisher: FOX 13 Seattle
     date: 2026-05-20T00:00:00Z
     url: 'https://www.fox13seattle.com/news/doj-womens-prison-transgender-policy'
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524141633/https://www.fox13seattle.com/news/doj-womens-prison-transgender-policy
     quote: >-
       The federal probe focuses on the Washington Corrections Center (WCCW) for
       Women, which is located in Gig Harbor. According to federal officials, the

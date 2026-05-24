@@ -4,9 +4,9 @@ title: >-
   OFCO Critical Incident Reports — DCYF child fatalities and near-fatalities
   2024-2025; 92 H1 2025 incidents vs. 36 reported by DCYF
 slug: dcyf-ofco-critical-incident-multiyear
-date_surfaced: 2024-12-31T00:00:00.000Z
-date_conduct_start: 2024-01-01T00:00:00.000Z
-date_conduct_end: 2025-12-31T00:00:00.000Z
+date_surfaced: 2024-12-31T00:00:00Z
+date_conduct_start: 2024-01-01T00:00:00Z
+date_conduct_end: 2025-12-31T00:00:00Z
 last_updated: 2026-05-24
 last_verified: 2026-05-24
 actors:
@@ -47,7 +47,7 @@ sources:
       OFCO 2024 Critical Incident Report — Child Fatalities and Near Fatalities
       in Washington State (CY2023 data)
     publisher: Office of the Family and Children's Ombuds
-    date: 2024-07-01T00:00:00.000Z
+    date: 2024-07-01T00:00:00Z
     url: >-
       https://ofco.wa.gov/sites/default/files/2024-07/2024_OFCO_Critical_Incident_Report.pdf
     archive_url: >-
@@ -59,7 +59,7 @@ sources:
       OFCO 2025 Critical Incident Report — Child Fatalities and Near Fatalities
       in Washington State (CY2024 data)
     publisher: Office of the Family and Children's Ombuds
-    date: 2025-07-01T00:00:00.000Z
+    date: 2025-07-01T00:00:00Z
     url: >-
       https://ofco.wa.gov/sites/default/files/2025-07/2025_OFCO_Critical_Incident_Report_0.pdf
     archive_url: >-
@@ -73,7 +73,7 @@ sources:
       OFCO mid-year H1 2025 data disclosure — DCYF Oversight Board presentation
       by Director Patrick Dowd (July 17, 2025)
     publisher: Office of the Family and Children's Ombuds
-    date: 2025-07-17T00:00:00.000Z
+    date: 2025-07-17T00:00:00Z
     url: 'https://ofco.wa.gov/reports'
     archive_url: >-
       http://web.archive.org/web/20191224123632/http://www.ofco.wa.gov:80/reports/
@@ -89,7 +89,7 @@ sources:
       of 2025
     publisher: Lynnwood Times
     author: Carleen Johnson
-    date: 2025-07-21T00:00:00.000Z
+    date: 2025-07-21T00:00:00Z
     url: 'https://lynnwoodtimes.com/2025/07/21/families-together/'
     archive_url: >-
       https://web.archive.org/web/20260522220442/https://lynnwoodtimes.com/2025/07/21/families-together/
@@ -100,7 +100,7 @@ sources:
       OFCO: 45 child deaths or near-deaths in WA last 3 months, many involving
       fentanyl at home
     publisher: KIRO 7 News Seattle
-    date: 2025-07-18T00:00:00.000Z
+    date: 2025-07-18T00:00:00Z
     url: >-
       https://www.kiro7.com/news/local/ofco-45-child-deaths-or-near-deaths-wa-last-3-months-many-involving-fentanyl-home/V7EJV3EPTNHHLIFTT6AR2A4U5U/
     archive_url: >-
@@ -111,10 +111,10 @@ sources:
     title: >-
       DCYF's Response to OFCO Q1 2025 Critical Incident Briefing — Briefing Slides
     publisher: Washington State Department of Children, Youth, and Families
-    date: 2025-07-29T00:00:00.000Z
+    date: 2025-07-29T00:00:00Z
     url: >-
       https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029,2025.pdf
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260316211009/https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029%2C2025.pdf
     quote: null
 reform_argument: |
   The data-integrity gap is the structural finding, not the fatality counts

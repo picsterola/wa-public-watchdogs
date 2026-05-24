@@ -70,7 +70,7 @@ sources:
     date: 2025-06-24T00:00:00Z
     url: >-
       https://www.seattletimes.com/seattle-news/law-justice/wa-report-criticizes-womens-prison-for-concerning-use-of-pepper-spray/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140306/https://www.seattletimes.com/seattle-news/law-justice/wa-report-criticizes-womens-prison-for-concerning-use-of-pepper-spray/
     quote: >-
       Staffers in Washington's only women's prison repeatedly used excessive
       force, according to a report from the state's Office of the Corrections

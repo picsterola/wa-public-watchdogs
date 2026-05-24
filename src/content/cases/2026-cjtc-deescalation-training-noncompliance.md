@@ -81,7 +81,7 @@ sources:
     publisher: Washington State Auditor's Office
     date: 2026-04-15
     url: https://www.linkedin.com/posts/washington-state-auditor-s-office_audit-finds-limited-progress-in-police-training-activity-7450220223707787266-07_4
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524141413/https://www.linkedin.com/posts/washington-state-auditor-s-office_audit-finds-limited-progress-in-police-training-activity-7450220223707787266-07_4
 
 # === REFORM LINKAGE ===
 reform_argument: |

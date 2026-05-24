@@ -51,7 +51,7 @@ sources:
     publisher: Washington State Legislative Ethics Board
     date: 2025-07-07
     url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-10/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524141058/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-10/
 
 # === REFORM LINKAGE ===
 reform_argument: |

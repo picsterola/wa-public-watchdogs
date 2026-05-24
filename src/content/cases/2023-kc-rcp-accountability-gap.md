@@ -174,7 +174,7 @@ sources:
     date: 2025-10-30T00:00:00Z
     url: >-
       https://www.theurbanist.org/king-county-looks-to-replace-program-diverting-youth-from-jail/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524134706/https://www.theurbanist.org/king-county-looks-to-replace-program-diverting-youth-from-jail/
     quote: >-
       Executive Shannon Braddock proposed replacing RCP with the King County
       Youth Diversion and Intervention Program (county-led, DCHS-coordinated),
@@ -203,7 +203,7 @@ sources:
     publisher: King County Council
     date: 2021-07-19T00:00:00Z
     url: 'https://aqua.kingcounty.gov/council/clerk/OldOrdsMotions/Motion%2016063.pdf'
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524135321/https://aqua.kingcounty.gov/council/clerk/OldOrdsMotions/Motion%2016063.pdf
     quote: >-
       Implementation plan stipulates RCP will operate as a consortium
       selected via RFP administered by DCHS, with community navigators, a

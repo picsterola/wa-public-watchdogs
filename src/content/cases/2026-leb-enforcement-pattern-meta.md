@@ -99,7 +99,7 @@ sources:
     date: 2026-05-01T00:00:00Z
     url: >-
       https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142605/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/
     quote: >-
       Complete published-opinions docket covering approximately 130–170
       cases from 2015 through May 2026. Primary source for case counts,
@@ -125,7 +125,7 @@ sources:
     publisher: Washington State Legislative Ethics Board
     date: 2026-01-01T00:00:00Z
     url: 'https://leg.wa.gov/media/y01jifgf/2025-annual-report.pdf'
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260204102847/https://leg.wa.gov/media/y01jifgf/2025-annual-report.pdf
     quote: >-
       2025 activity: ~20 numbered opinions; 1 reasonable-cause finding with
       fine ($500, $250 suspended); 5+ dismissed for no reasonable cause; 7+
@@ -173,7 +173,7 @@ sources:
     date: 2026-05-18T00:00:00Z
     url: >-
       https://www.newsfromthestates.com/article/wa-lawmaker-stares-down-ethics-charges-ahead-rare-public-hearing
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260518181851/https://www.newsfromthestates.com/article/wa-lawmaker-stares-down-ethics-charges-ahead-rare-public-hearing
     quote: >-
       "Such hearings before the ethics board are rare. The last occurred a
       decade ago, and involved a House member's posting of state-produced
@@ -217,7 +217,7 @@ sources:
     date: 2025-08-18T00:00:00Z
     url: >-
       https://www.klcc.org/crime-law-justice/2025-08-18/complaints-to-the-oregon-ethics-board-are-soaring-what-is-the-ogec
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142718/https://www.klcc.org/crime-law-justice/2025-08-18/complaints-to-the-oregon-ethics-board-are-soaring-what-is-the-ogec
     quote: >-
       Casey Fenstermaker (OGEC Compliance and Enforcement Coordinator): "The
       lowest penalty is a letter of education... Otherwise there are

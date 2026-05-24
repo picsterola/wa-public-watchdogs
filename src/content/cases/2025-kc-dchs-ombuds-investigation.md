@@ -70,7 +70,7 @@ sources:
     author: null
     date: 2025-11-28
     url: https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140718/https://www.seattletimes.com/seattle-news/politics/king-county-fraud-investigation-shifts-to-independent-office/
   - tier: 2
     type: news
     title: "King County response to possible fraud has auditor 'deeply concerned'"

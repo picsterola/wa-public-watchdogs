@@ -68,7 +68,7 @@ sources:
     publisher: Daily Fly
     date: 2026-05-06
     url: https://www.dailyfly.com/2026/05/06/critics-question-was-progress-reducing-solitary-confinement-in-state-prisons/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142748/https://www.dailyfly.com/2026/05/06/critics-question-was-progress-reducing-solitary-confinement-in-state-prisons/
     quote: "Gov. Bob Ferguson fired its director, Jeremiah Bourgeois, last month amid allegations of ethical misconduct and fostering a hostile work environment that had led several employees to resign or take medical leave."
   - tier: 2
     type: news
@@ -76,7 +76,7 @@ sources:
     publisher: Seattle Times
     date: 2026-04-27
     url: https://www.reddit.com/r/SeattleWA/comments/1swi6la/tensions_reach_boiling_point_between_governor_wa/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142755/https://www.reddit.com/r/SeattleWA/comments/1swi6la/tensions_reach_boiling_point_between_governor_wa/
     quote: "Bourgeois raised concerns about the timing of the investigation, suggesting that the governor's office has improperly intruded on his role as an independent overseer."
 
 # === REFORM LINKAGE ===

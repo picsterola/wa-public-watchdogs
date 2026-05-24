@@ -77,7 +77,7 @@ sources:
     author: "Claire Bryan"
     date: 2025-04-15
     url: https://www.seattletimes.com/education-lab/wa-sues-seattle-schools-over-its-treatment-of-pregnant-and-nursing-employees/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20250821021245/https://www.seattletimes.com/education-lab/wa-sues-seattle-schools-over-its-treatment-of-pregnant-and-nursing-employees/
   - tier: 2
     type: news
     title: "Attorney General sues Seattle Public Schools for alleged illegal treatment of pregnant employees"
@@ -99,7 +99,7 @@ sources:
     publisher: Fox 13 Seattle
     date: 2025-04-15
     url: https://www.fox13seattle.com/news/wa-sues-sps-pregnancy
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260216115455/https://www.fox13seattle.com/news/wa-sues-sps-pregnancy
 
 # === REFORM LINKAGE ===
 reform_argument: |

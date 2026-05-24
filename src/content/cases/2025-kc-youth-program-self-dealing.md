@@ -62,7 +62,7 @@ sources:
     author: null
     date: 2026-04-26
     url: https://www.seattletimes.com/seattle-news/investigation-uncovers-800k-in-payments-to-king-county-employees-family-members/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140454/https://www.seattletimes.com/seattle-news/investigation-uncovers-800k-in-payments-to-king-county-employees-family-members/
   - tier: 2
     type: news
     title: "King County, WA floats new inspector general after $800K fraud allegations"

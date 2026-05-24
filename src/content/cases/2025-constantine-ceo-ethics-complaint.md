@@ -59,21 +59,21 @@ sources:
     publisher: The Urbanist
     date: 2025-03-28
     url: https://www.theurbanist.org/sound-transit-hires-constantine-as-ceo/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140140/https://www.theurbanist.org/sound-transit-hires-constantine-as-ceo/
   - tier: 2
     type: news
     title: "Constantine pushes back on conflict allegations surrounding Sound Transit CEO bid"
     publisher: The Urbanist
     date: 2025-02-26
     url: https://www.theurbanist.org/constantine-pushes-back-on-conflict-allegations-surrounding-sound-transit-ceo-bid/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140005/https://www.theurbanist.org/constantine-pushes-back-on-conflict-allegations-surrounding-sound-transit-ceo-bid/
   - tier: 2
     type: news
     title: "Why Sound Transit's CEO is postponing part of his pay raise (documents $450K hire salary, $474,276 raise effective Jan 2026)"
     publisher: Seattle Times
     date: 2026-01-15
     url: https://www.seattletimes.com/seattle-news/transportation/why-sound-transits-ceo-is-postponing-part-of-his-pay-raise/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524140233/https://www.seattletimes.com/seattle-news/transportation/why-sound-transits-ceo-is-postponing-part-of-his-pay-raise/
 
 # === REFORM LINKAGE ===
 reform_argument: |

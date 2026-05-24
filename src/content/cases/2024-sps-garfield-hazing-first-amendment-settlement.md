@@ -4,11 +4,11 @@ title: >-
   Seattle Public Schools — $125K settlement over Garfield swim team hazing and
   First Amendment retaliation
 slug: sps-garfield-hazing-first-amendment-settlement
-date_surfaced: 2024-05-09T00:00:00.000Z
-date_conduct_start: 2017-09-01T00:00:00.000Z
-date_conduct_end: 2020-12-31T00:00:00.000Z
-last_updated: 2026-05-20T00:00:00.000Z
-last_verified: 2026-05-20T00:00:00.000Z
+date_surfaced: 2024-05-09T00:00:00Z
+date_conduct_start: 2017-09-01T00:00:00Z
+date_conduct_end: 2020-12-31T00:00:00Z
+last_updated: 2026-05-20T00:00:00Z
+last_verified: 2026-05-20T00:00:00Z
 actors:
   - name: Seattle Public Schools
     role_type: agency
@@ -62,16 +62,16 @@ sources:
       AT v. Seattle School District No. 1, Case No. 22-2-10907-6 SEA (King
       County Superior Court)
     publisher: King County Superior Court
-    date: 2022-01-01T00:00:00.000Z
+    date: 2022-01-01T00:00:00Z
     url: 'https://kingcounty.gov/courts/clerk/access-records/records-portal.aspx'
-    archive_url: null
+    archive_url: http://web.archive.org/web/20220630010113/https://kingcounty.gov/courts/clerk/access-records/records-portal.aspx
   - tier: 1
     type: court_filing
     title: >-
       Thornewell v. Seattle School District No. 1, Washington Court of Appeals
       (Division I), Case No. 85998-6-I (parallel Public Records Act case)
     publisher: 'Washington Court of Appeals, Division I'
-    date: 2024-11-25T00:00:00.000Z
+    date: 2024-11-25T00:00:00Z
     url: >-
       https://law.justia.com/cases/washington/court-of-appeals-division-i/2024/85998-6.html
     archive_url: null
@@ -79,7 +79,7 @@ sources:
     type: news
     title: Former Seattle student wins settlement against Seattle Public Schools
     publisher: KIRO 7
-    date: 2024-05-09T00:00:00.000Z
+    date: 2024-05-09T00:00:00Z
     url: >-
       https://www.kiro7.com/news/local/former-seattle-student-wins-settlement-against-sps/JERFW36DTBCAVKYDHCHVYKZ7CI/
     archive_url: >-
@@ -90,7 +90,7 @@ sources:
       Former Garfield HS student says he was traumatized by swim team hazing
       (video segment)
     publisher: KIRO 7
-    date: 2022-08-26T00:00:00.000Z
+    date: 2022-08-26T00:00:00Z
     url: 'https://www.youtube.com/watch?v=oiWlHGpv1JU'
     archive_url: >-
       https://web.archive.org/web/20260522223002/https://www.youtube.com/watch?v=oiWlHGpv1JU

@@ -66,7 +66,7 @@ sources:
     publisher: Seattle Public Schools (via SPS spokesperson Sophia Charcuk)
     date: 2025-06-17
     url: https://katu.com/news/local/nathan-hale-high-seattle-public-schools-lawsuit-former-student-jewish-antisemitism-harassment-verbal-assaults
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524141118/https://katu.com/news/local/nathan-hale-high-seattle-public-schools-lawsuit-former-student-jewish-antisemitism-harassment-verbal-assaults
     quote: "On Tuesday, June 17, Seattle Public Schools (SPS) received a complaint in a lawsuit alleging that a former Nathan Hale High School student experienced antisemitism while enrolled in the district. SPS will review and address these allegations. The district remains dedicated to creating an inclusive and equitable environment for all students, and does not tolerate racism, discrimination, or violence in any form."
   - tier: 2
     type: news

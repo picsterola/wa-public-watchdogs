@@ -84,7 +84,7 @@ sources:
     author: Shauna Sowersby
     date: 2026-05-21
     url: https://www.chronline.com/stories/washington-state-patrol-settles-340k-lawsuit-over-deleted-vaccine-mandate-records,402873
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260523085543/https://www.chronline.com/stories/washington-state-patrol-settles-340k-lawsuit-over-deleted-vaccine-mandate-records,402873
   - tier: 2
     type: news
     title: "Appeals Court rejects challenge to state auto-deleting chats (Nixon v. State context)"
@@ -119,7 +119,7 @@ sources:
     author: null
     date: 2023-06-05
     url: https://www.governing.com/health/washington-faces-worker-lawsuits-for-requiring-covid-vaccines
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524143004/https://www.governing.com/health/washington-faces-worker-lawsuits-for-requiring-covid-vaccines
     quote: "Another 67 State Patrol troopers, also represented by [Nathan] Arnold, sued the state last August in Thurston County Superior Court."
   - tier: 3
     type: news

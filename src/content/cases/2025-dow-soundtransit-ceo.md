@@ -58,7 +58,7 @@ sources:
     publisher: Sound Transit
     date: 2025-03-27
     url: https://www.soundtransit.org/get-to-know-us/news-events/news-releases/dow-constantine-hired-sound-transit-ceo
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260409184315/https://www.soundtransit.org/get-to-know-us/news-events/news-releases/dow-constantine-hired-sound-transit-ceo
   - tier: 2
     type: news
     title: "Sound Transit Picks Dow Constantine, Elevating Board Insider to CEO"

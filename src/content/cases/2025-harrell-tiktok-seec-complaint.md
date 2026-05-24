@@ -55,7 +55,7 @@ sources:
     publisher: Seattle Ethics and Elections Commission
     date: 2025-11-05
     url: https://www1.seattle.gov/documents/Departments/EthicsElections/Commission/Commission%20Actions/2025.11.05%20SEEC%20Supplementary%20Opinion.pdf
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524140336/https://www1.seattle.gov/documents/Departments/EthicsElections/Commission/Commission%20Actions/2025.11.05%20SEEC%20Supplementary%20Opinion.pdf
   - tier: 2
     type: news
     title: "Ethics Commission To Discuss Mayor Bruce Harrell Alleged Electioneering on City's Official Social Media"
@@ -69,7 +69,7 @@ sources:
     publisher: The Urbanist
     date: 2025-09-13
     url: https://www.theurbanist.org/2025/09/13/op-ed-harrell-campaigning-with-public-resources/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260211180821/https://www.theurbanist.org/2025/09/13/op-ed-harrell-campaigning-with-public-resources/
 
 # === REFORM LINKAGE ===
 reform_argument: |

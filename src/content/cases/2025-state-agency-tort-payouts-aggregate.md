@@ -66,7 +66,7 @@ sources:
     author: "Carleen Johnson"
     date: 2025-01-19
     url: https://www.washingtonexaminer.com/news/3292139/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill/
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524141255/https://www.washingtonexaminer.com/news/3292139/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill/
     quote: "In looking over the last two years alone, we see the state paying out a little over $500 million. That's a half billion because of bad behavior by state employees."
   - tier: 2
     type: news
@@ -90,7 +90,7 @@ sources:
     publisher: Washington State Legislature (Senate Bill 5144, 2025-2026 session)
     date: 2025-01-07
     url: https://fastdemocracy.com/bill-search/wa/2025-2026/bills/WAB00022156/
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524141328/https://fastdemocracy.com/bill-search/wa/2025-2026/bills/WAB00022156/
   - tier: 1
     type: agency_statement
     title: "SB 6239 Senate Bill Report - Senate Committee on Ways & Means"

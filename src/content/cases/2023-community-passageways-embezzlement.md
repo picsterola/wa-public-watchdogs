@@ -120,7 +120,7 @@ sources:
     date: 2023-05-19T00:00:00Z
     url: >-
       https://www.rentonreporter.com/2023/05/19/renton-woman-pleads-guilty-to-embezzling-over-3m-from-local-nonprofits/
-    archive_url: null
+    archive_url: https://web.archive.org/web/20260524135327/https://www.rentonreporter.com/2023/05/19/renton-woman-pleads-guilty-to-embezzling-over-3m-from-local-nonprofits/
     quote: >-
       Susana Tantico, 62, of Renton, pleaded guilty May 16 in U.S. District
       Court Seattle. Embezzlement occurred over nine years. Prosecutors

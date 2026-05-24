@@ -51,7 +51,7 @@ sources:
     publisher: Washington State Auditor's Office
     date: 2025-05-22
     url: https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1037358&isFinding=false&sp=false
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142900/https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1037358&isFinding=false&sp=false
 
 # === REFORM LINKAGE ===
 reform_argument: |

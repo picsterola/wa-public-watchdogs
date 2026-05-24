@@ -94,7 +94,7 @@ sources:
     date: 2026-05-12T00:00:00Z
     url: >-
       https://www.westsideseattle.com/robinson-papers/2026/05/12/kcrha-pushes-back-after-audit-finds-millions-unaccounted-seattle-leaders
-    archive_url: null
+    archive_url: http://web.archive.org/web/20260524142508/https://www.westsideseattle.com/robinson-papers/2026/05/12/kcrha-pushes-back-after-audit-finds-millions-unaccounted-seattle-leaders
   - tier: 2
     type: news
     title: An audit could end King County's homelessness plan. Should it?
