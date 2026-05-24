@@ -1223,6 +1223,17 @@ select.filter-select, input.filter-input {
   max-width: 56ch;
   margin: 0;
 }
+.page-hero a {
+  color: var(--cream);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(246, 242, 233, 0.4);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.page-hero a:hover,
+.page-hero a:focus-visible {
+  color: var(--hero-accent);
+  border-bottom-color: var(--hero-accent);
+}
 .page-hero-stats {
   display: flex;
   flex-wrap: wrap;
