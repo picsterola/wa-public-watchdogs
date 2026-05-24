@@ -144,6 +144,28 @@ The score never appears on case pages. It is internal ranking metadata only.
 
 ---
 
+## Long-form text fields (paragraph formatting)
+
+Four frontmatter fields render as long-form prose and support paragraph breaks: `reform_argument`, `dollars_basis`, `outcome_summary`, and `remediation_note`.
+
+Author them as YAML block scalars using the `|` literal-block indicator. A **blank line** between text becomes a paragraph break in the rendered output. Single line-wraps within a paragraph are collapsed to spaces, so you can format YAML for readability without affecting layout.
+
+```yaml
+reform_argument: |
+  First paragraph. You can wrap lines at any column for readable YAML;
+  single line breaks are collapsed to spaces in the rendered HTML.
+
+  Second paragraph. A blank line is the paragraph delimiter. Use them
+  liberally for long arguments. Three or four paragraphs is fine.
+
+  Third paragraph. Don't use markdown headings inside these fields, the
+  renderer wraps each paragraph in a plain <p>.
+```
+
+Keep each paragraph focused on a single idea. If a `reform_argument` exceeds four paragraphs, consider whether some of it belongs in the main case body instead.
+
+---
+
 ## Body conventions
 
 After the frontmatter, write 3-6 short paragraphs in this order:

@@ -1013,7 +1013,11 @@ select.filter-select, input.filter-input {
 .sidebar-block .sub {
   color: var(--ink-muted);
   font-size: 0.78rem;
-  margin-top: var(--space-1);
+  margin-top: var(--space-2);
+  margin-bottom: 0;
+}
+.sidebar-block .sub + .sub {
+  margin-top: var(--space-2);
 }
 
 .case-body {
@@ -1109,6 +1113,9 @@ select.filter-select, input.filter-input {
 }
 .reform-callout p {
   margin: 0 0 var(--space-3);
+}
+.reform-callout p:last-of-type {
+  margin-bottom: 0;
 }
 .reform-callout .reform-tags {
   display: flex;
