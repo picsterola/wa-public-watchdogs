@@ -1,7 +1,7 @@
 ---
 # === IDENTITY ===
 id: WA-2025-TORT-AGGREGATE
-title: "WA state tort payouts hit ~$502M in FY25 alone — bigger than FY23+FY24 combined, $2.5B in pending claims, liability account facing $569M shortfall"
+title: "FY25 WA state tort payouts bigger than FY23+FY24 combined — $2.5B in pending claims, liability account facing $569M shortfall"
 slug: state-agency-tort-payouts-aggregate
 date_surfaced: 2025-01-19
 date_conduct_start: 2018-07-01
