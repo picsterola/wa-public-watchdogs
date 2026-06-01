@@ -21,6 +21,27 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
+      // The deploy host (and scripts/relativize.mjs) serve explicit `.html`
+      // files — directory paths 404. Every page's <link rel="canonical">,
+      // og:url, and internal links resolve to the `.html` URL, so the sitemap
+      // must list that exact same URL. Without this, Astro emits extensionless
+      // locs (e.g. /about) that don't match the canonical (/about.html),
+      // which Search Console flags as "Duplicate without user-selected
+      // canonical" / "Alternate page with proper canonical tag".
+      serialize(item) {
+        const u = new URL(item.url);
+        // Root stays the bare origin (https://wacountability.org) to match
+        // index.html's self-canonical; `trailingSlash: 'never'` normalizes it.
+        if (u.pathname === '/' || u.pathname === '') return item;
+        // Any other extensionless route -> append `.html`. Skip paths that
+        // already have a file extension (none currently, but future-proof).
+        const lastSeg = u.pathname.split('/').pop() ?? '';
+        if (!/\.[a-zA-Z0-9]{1,8}$/.test(lastSeg)) {
+          u.pathname = u.pathname.replace(/\/+$/, '') + '.html';
+          item.url = u.toString();
+        }
+        return item;
+      },
     }),
   ],
 });

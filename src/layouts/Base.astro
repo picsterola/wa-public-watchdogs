@@ -16,8 +16,13 @@ const fullTitle = title === 'Washington Accountability Registry'
 const SITE_URL = 'https://wacountability.org';
 // Resolve relative og path against the deploy URL so social platforms can fetch it.
 const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE_URL.replace(/\/$/, '')}${ogImage}`;
-// Canonical URL for the current page. Strips index.html on root paths.
-const pathname = Astro.url.pathname.replace(/\/index\.html$/, '/');
+// Canonical URL for the current page. Must match the sitemap loc and the
+// `.html` URL that internal links + the deploy host resolve to, so Search
+// Console doesn't see the canonical and the discovered/linked URL as a
+// duplicate pair. Subpages build to `/about.html` and keep that exact path.
+// The root builds to `/index.html`; collapse it to the bare origin (no
+// trailing slash) to match `trailingSlash: 'never'` and the sitemap root loc.
+const pathname = Astro.url.pathname.replace(/\/?index\.html$/, '').replace(/^\/$/, '');
 const canonicalUrl = `${SITE_URL}${pathname}`;
 ---
 <!doctype html>
