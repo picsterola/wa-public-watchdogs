@@ -105,7 +105,7 @@ reform_argument: |
   The brown water settlement and R.R. v. DSHS together reflect a
   pattern of DSHS failing to meet basic operational and treatment
   obligations at the same facility.
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

@@ -143,7 +143,7 @@ reform_argument: >
   months later. See [reform: use_of_force_oversight] and
 
   [reform: independent_inspector_general].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

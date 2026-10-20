@@ -93,7 +93,7 @@ reform_argument: |
   See [reform: regulatory_capacity] and [reform: patient_safety_oversight].
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

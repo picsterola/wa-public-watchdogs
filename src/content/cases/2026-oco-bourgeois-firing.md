@@ -126,7 +126,7 @@ reform_argument: |
   [reform: independent_inspector_general].
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

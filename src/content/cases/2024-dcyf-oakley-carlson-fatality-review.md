@@ -169,7 +169,7 @@ reform_argument: >
   child_welfare_oversight],
 
   and [reform: mandatory_fatality_review].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

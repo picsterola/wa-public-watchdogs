@@ -134,7 +134,7 @@ reform_argument: >
   independent_inspector_general]
 
   and [reform: prison_medical_care].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

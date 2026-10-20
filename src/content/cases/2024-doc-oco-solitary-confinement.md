@@ -126,7 +126,7 @@ reform_argument: |
   responsible for remediation received one-eighth of the funds needed to
   do it. See [reform: solitary_confinement_reform], [reform:
   behavioral_health_capacity], and [reform: independent_inspector_general].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

@@ -16,6 +16,11 @@ export default defineConfig({
     // directory paths to index.html.
     format: 'file',
   },
+  // Merged or renamed case records. Old URLs stay live as redirect pages
+  // (Astro emits a meta-refresh HTML file with a canonical link).
+  redirects: {
+    '/cases/kc-dchs-ombuds-investigation': '/cases/kc-ombuds-dchs-forensic-clark-nuber.html',
+  },
   integrations: [
     sitemap({
       changefreq: 'weekly',

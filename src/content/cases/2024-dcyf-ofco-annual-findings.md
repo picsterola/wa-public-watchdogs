@@ -116,7 +116,7 @@ reform_argument: >
 
   See [reform: independent_inspector_general] and [reform:
   child_welfare_oversight].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

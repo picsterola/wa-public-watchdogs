@@ -37,7 +37,7 @@ outcome_summary: >-
   errata on September 9, 2025 correcting the 2019-2020 contracting baseline from
   $22 million to $922 million; the 2023-2024 figure of more than $1.8 billion
   was unchanged. Nineteen contractors were subsequently referred to the King
-  County Ombudsman (tracked separately as KC-2025-003). DCHS publicly working
+  County Ombudsman (tracked separately as KC-2026-008). DCHS publicly working
   through corrective action plan; no criminal charges filed against agency staff
   as of last update.
 sources:
@@ -133,7 +133,7 @@ The King County Auditor's report states that DCHS lacked the subrecipient monito
 
 ## Status
 
-Audit findings are public. Nineteen contractors were referred to the King County Ombudsman for independent investigation (tracked separately as KC-2025-003). DCHS has acknowledged the findings and is working through a corrective action plan. No criminal charges have been filed against agency staff as of this record's last update.
+Audit findings are public. Nineteen contractors were referred to the King County Ombudsman for independent investigation (tracked separately as KC-2026-008). DCHS has acknowledged the findings and is working through a corrective action plan. No criminal charges have been filed against agency staff as of this record's last update.
 
 ## Why it's in the registry
 

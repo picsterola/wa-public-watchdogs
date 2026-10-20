@@ -144,7 +144,7 @@ reform_argument: |
   against federal IDEA requirements on a regular cycle, with correction
   before litigation forces it. See [reform: special_education_compliance],
   [reform: statutory_compliance_monitoring].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

@@ -120,7 +120,7 @@ reform_argument: |
   See [reform: cybersecurity_disclosure] and [reform: it_modernization_governance].
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:
