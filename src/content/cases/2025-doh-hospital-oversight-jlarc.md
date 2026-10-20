@@ -1,12 +1,12 @@
 ---
 # === IDENTITY ===
 id: WA-2025-DOH-HOSPITAL-JLARC
-title: "DOH hospital oversight — JLARC finds 72% of inspections late, mandatory adverse-event reviews not done since 2011"
+title: "DOH hospital oversight — JLARC finds 72% of inspections late, does not review hospital adverse-event reports"
 slug: doh-hospital-oversight-jlarc
 date_surfaced: 2025-07-16
-date_conduct_start: 2011-01-01
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+date_conduct_start: 2015-01-01
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -27,7 +27,7 @@ reforms_implicated:
 
 # === SCALE ===
 dollars_at_issue: null
-dollars_basis: "JLARC did not quantify dollar harm. The structural finding is statutory: DOH has not completed acute-care hospital inspections on schedule since 2015 (72% late as of December 2024, some overdue by 6+ years), and has not reviewed hospital adverse health event correction plans required by law since at least 2011, despite an 84% increase in reported adverse events since 2016."
+dollars_basis: "JLARC did not quantify dollar harm. The structural finding is statutory: DOH has not completed acute-care hospital inspections on schedule since 2015 (72% late as of December 2024, some overdue by 6+ years), and does not review hospital adverse health event correction plans required by law, despite an 84% increase in reported adverse events since 2016."
 dollars_confirmed_loss: null
 
 # === STATUS ===
@@ -82,7 +82,7 @@ reform_argument: |
   root cause identified by JLARC: insufficient regulatory capacity and no
   enforcement mechanism to compel DOH to meet its own statutory timelines.
   The inspection backlog dates to 2015 — a full decade of underperformance
-  — and the adverse-event review failure dates to at least 2011. DOH's
+  — and DOH does not review adverse-event reports at all. DOH's
   one-time staffing fix (a position funded through June 2025) illustrates
   the underlying structural problem: the Legislature directed DOH to do this
   work but did not fund it sustainably or create any independent monitoring
@@ -105,7 +105,7 @@ tags:
   - adverse_events
 ---
 
-**A JLARC performance audit approved July 16, 2025 found that the Washington State Department of Health has not met its statutory hospital inspection schedule since 2015 — with 72% of acute-care hospital inspections late as of December 2024, nearly half overdue by six months or more — and has not reviewed mandatory adverse health event correction plans submitted by hospitals since at least 2011.**
+**A JLARC performance audit approved July 16, 2025 found that the Washington State Department of Health has not met its statutory hospital inspection schedule since 2015 — with 72% of acute-care hospital inspections late as of December 2024, nearly half overdue by six months or more — and does not review the adverse health event reports and corrective action plans hospitals are required to submit.**
 
 ## What happened
 
@@ -117,7 +117,7 @@ The audit covered 93 acute-care hospitals in Washington state. Key findings:
 
 **Third-party inspection equivalency not verified.** DOH is permitted to accept inspections by accrediting organizations (such as The Joint Commission) as satisfying state requirements, but only if DOH has verified that the organization's standards are "substantially equivalent" to state standards and receives documentary evidence that the inspection was completed. DOH has not verified any accrediting organization's standards, and does not receive documentation from all hospitals that use these organizations. As a result, DOH does not know whether the hospitals using third-party inspectors are actually meeting state standards.
 
-**Adverse health event correction plans not reviewed.** State law requires hospitals to report adverse health events (avoidable medical errors) to DOH along with a correction plan to prevent recurrence. State law requires DOH to review these plans. DOH has not reviewed or analyzed these reports since at least 2011, despite an 84% increase in adverse event reports since 2016. Correction plans submitted by hospitals after serious adverse events sit unreviewed. There is no documented enforcement mechanism for this failure.
+**Adverse health event correction plans not reviewed.** State law requires hospitals to report adverse health events (avoidable medical errors) to DOH along with a correction plan to prevent recurrence. State law requires DOH to review these plans. DOH does not review or analyze these reports, despite an 84% increase in adverse event reports since 2016. Correction plans submitted by hospitals after serious adverse events sit unreviewed. There is no documented enforcement mechanism for this failure.
 
 **Data accessibility.** DOH publishes hospital data on its website. JLARC found other states make similar information more accessible to the public, and recommended DOH improve public data accessibility.
 
@@ -133,11 +133,11 @@ The preliminary briefing at the [May 14, 2025 JLARC meeting](https://content.gov
 
 ## Status
 
-Audit finding as of July 16, 2025. DOH has agreed to JLARC's six recommendations. Progress report due at JLARC's July 2026 meeting. No independent mechanism exists to enforce the statutory inspection schedule between JLARC oversight cycles.
+Updated October 20, 2026. DOH presented a revised strategic management plan at JLARC's July 15, 2026 meeting, after JLARC asked for a revision in December 2025. Committee members questioned DOH about its progress on on-time inspections and complaint access for people who speak languages other than English. JLARC staff will follow up on the recommendations for four years ([JLARC bulletin](https://content.govdelivery.com/accounts/WALEG/bulletins/420f474)). The 2026 supplemental operating budget directed DOH to act on the recommendations, and DOH floated an adverse-events legislative concept for 2027 ([Washington Hearing Society, reposting DOH notice](https://washingtonhearing.org/event-6750481)). The registry has not found data showing current on-time inspection rates. An earlier version of this record said DOH had not reviewed adverse-event reports "since at least 2011"; JLARC's report does not give that date.
 
 ## Why it's in the registry
 
-This case documents a decade-long pattern of statutory noncompliance at a state agency responsible for patient safety in acute-care hospitals. The adverse-event correction plan failure is particularly striking: the law has required DOH to review these plans since at least 2011, hospitals have been submitting them, and DOH has not reviewed a single one in over fourteen years while adverse event reports increased 84%. This is not a resource gap — it is a structural failure in regulatory design that JLARC has now formally documented.
+This case documents a decade-long pattern of statutory noncompliance at a state agency responsible for patient safety in acute-care hospitals. On adverse events, JLARC found DOH does not review the reports and corrective action plans hospitals submit, even as reported events rose 84% since 2016. JLARC also found DOH has no dedicated funding for this work and that neither the governor's proposed nor the final budgets funded DOH's 2016 and 2020 requests. Both the agency and its budget writers own this gap.
 
 ## Reform implication
 

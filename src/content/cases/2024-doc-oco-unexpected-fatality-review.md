@@ -7,8 +7,8 @@ slug: doc-oco-unexpected-fatality-review
 date_surfaced: 2025-01-10T00:00:00Z
 date_conduct_start: 2023-07-01T00:00:00Z
 date_conduct_end: 2024-06-30T00:00:00Z
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Washington State Department of Corrections
     role_type: agency

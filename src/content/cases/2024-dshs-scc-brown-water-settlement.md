@@ -1,14 +1,14 @@
 ---
 id: WA-2024-DSHS-SCC-WATER
 title: >-
-  Special Commitment Center brown water class action — DSHS pays $7.325M to ~200
+  Special Commitment Center brown water class action — DSHS settles for about $7.5M with ~200
   McNeil Island residents over contaminated drinking water
 slug: dshs-scc-brown-water-settlement
 date_surfaced: 2024-03-01T00:00:00Z
 date_conduct_start: 2016-01-01T00:00:00Z
 date_conduct_end: 2024-03-01T00:00:00Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00Z
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Washington State Department of Social and Health Services
     role_type: agency
@@ -22,15 +22,15 @@ severity_type:
 reforms_implicated:
   - facility_conditions_oversight
   - independent_inspector_general
-dollars_at_issue: 7325000
+dollars_at_issue: 7500000
 dollars_basis: >-
-  DSHS settled the class-action federal lawsuit for approximately $7.5 million
-  total, of which $7.325 million represents the judgment/resident payout fund
-  (approximately $263 per month per eligible resident for each month they
-  resided at the Special Commitment Center on McNeil Island). Of the total
-  settlement, $2.5 million went to plaintiff attorneys. Roughly 200 current and
-  former residents were eligible to file claims.
-dollars_confirmed_loss: 7325000
+  The News Tribune reported a settlement of $7.5 million, of which $2.5 million
+  was designated for plaintiffs' attorneys; eligible residents' claims were
+  calculated at $263 per month at McNeil Island. The Center Square later
+  described it as a $7.325 million judgment. The registry has not seen the
+  settlement agreement or judgment and uses the contemporaneous $7.5 million
+  figure. Roughly 200 current and former residents were eligible to file claims.
+dollars_confirmed_loss: 7500000
 legal_status: settled
 outcome_summary: >-
   Class-action lawsuit settled in March 2024. DSHS denied wrongdoing, citing
@@ -126,13 +126,13 @@ reform_status_note: >-
   tort payouts ≥$1M; cited this case as impetus.
 ---
 
-**Washington's Department of Social and Health Services paid $7.325 million to settle a class-action lawsuit brought by approximately 200 current and former residents of the Special Commitment Center on McNeil Island, who alleged for nearly a decade that they were forced to drink contaminated brown water that caused physical harm.**
+**Washington's Department of Social and Health Services agreed to pay about $7.5 million to settle a class-action lawsuit brought by approximately 200 current and former residents of the Special Commitment Center on McNeil Island, who alleged for nearly a decade that they were forced to drink contaminated brown water that caused physical harm.**
 
 ## What happened
 
 Residents of the Special Commitment Center (SCC) — the state's facility for sexually violent predators who have completed criminal sentences but whom courts have civilly committed as too dangerous to release — filed a federal lawsuit in 2016 alleging that the facility's drinking water was contaminated, caused stomach pain and skin rashes, and had been linked to unexplained deaths.
 
-The case proceeded in federal court for eight years. In March 2024, DSHS announced a settlement of approximately $7.5 million. Of that total, $2.5 million went to plaintiff attorneys. The remaining funds — approximately $7.325 million — were distributed to eligible class members at a rate of $263 per month for each month a resident lived at McNeil Island, [according to the Tacoma News Tribune](https://www.thenewstribune.com/news/local/article286255175.html). Roughly 200 current and former residents were eligible to file claims.
+The case proceeded in federal court for eight years. In March 2024, DSHS announced a settlement of approximately $7.5 million. Of that total, $2.5 million went to plaintiff attorneys. Eligible residents' claims were calculated at $263 for each month they lived at McNeil Island, [according to the Tacoma News Tribune](https://www.thenewstribune.com/news/local/article286255175.html). The Center Square later described the case as a $7.325 million judgment ([Center Square via Denver Gazette](https://www.denvergazette.com/2025/01/19/half-billion-in-state-agency-settlement-payouts-backdrop-for-wa-gop-oversight-bill-954aef17-ca74-5a09-aeb7-502d5991659b/)); the registry has not seen the court documents that would reconcile the two figures. An earlier version of this record said $7.325 million went to residents after the $2.5 million in attorney fees, which is arithmetically impossible against a $7.5 million total. Roughly 200 current and former residents were eligible to file claims.
 
 Payments were delayed by approximately ten months after the settlement was announced because class members had to submit tax paperwork before distributions could be processed.
 

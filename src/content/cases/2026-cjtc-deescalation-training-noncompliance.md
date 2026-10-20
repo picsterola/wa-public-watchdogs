@@ -5,8 +5,8 @@ title: "Criminal Justice Training Commission — SAO performance audit finds 84%
 slug: cjtc-deescalation-training-noncompliance
 date_surfaced: 2026-04-15
 date_conduct_start: 2021-07-25
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:

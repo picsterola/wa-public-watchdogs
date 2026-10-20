@@ -1,13 +1,13 @@
 ---
 # === IDENTITY ===
 id: WA-2025-DOL-LICENSE-EXPRESS
-title: "Washington DOL License Express backdoor — 2018-2025 vulnerability; 1,000+ identity thefts before fix; breach notification law alleged violated"
+title: "Washington DOL License Express — tort claim alleges a 2018-2025 security flaw enabled identity theft and went unreported; DOL disputes any breach"
 slug: dol-license-express-backdoor
 date_surfaced: 2026-03-05
 date_conduct_start: 2018-09-03
 date_conduct_end: 2025-02-18
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -18,7 +18,7 @@ actors:
     jurisdiction: Washington State
 
 # === CLASSIFICATION ===
-evidentiary_status: documented
+evidentiary_status: alleged
 severity_type:
   - structural_failure
 reforms_implicated:
@@ -44,9 +44,9 @@ next_milestone_date: null
 
 # === SOURCES ===
 sources:
-  - tier: 1
+  - tier: 2
     type: agency_statement
-    title: "DOL statement on License Express tort claim — review of March 3, 2026 tort claim notice"
+    title: "DOL statement on License Express tort claim (as published by FOX 13) — review of March 3, 2026 tort claim notice"
     publisher: Washington State Department of Licensing
     author: Nathan Olson, Digital Communications and Outreach Director
     date: 2026-03-05
@@ -77,6 +77,24 @@ sources:
     url: https://www.youtube.com/watch?v=pEzqgYujySY
     archive_url: http://web.archive.org/web/20260522020208/https://www.youtube.com/watch?si=NC3hI3yqtTmHSlCq&v=pEzqgYujySY
     quote: "a lot of people uh to my understanding close to 10,000 at least were affected by driver's license redirects alone in that six-year period."
+  - tier: 2
+    type: news
+    title: "Washington DOL faces claims of long-running data flaw as agency reviews lawsuit allegations (The Center Square)"
+    publisher: The Daily Fly / The Center Square
+    date: 2026-03-21
+    url: https://www.dailyfly.com/2026/03/21/washington-dol-faces-claims-of-long-running-data-flaw-as-agency-reviews-lawsuit-allegations/
+  - tier: 2
+    type: news
+    title: "'Backdoor' in DOL system potentially exposed everyone's personal information, attorney claims"
+    publisher: KIRO 7
+    date: 2026-10-07
+    url: https://www.kiro7.com/news/local/backdoor-dol-system-potentially-exposes-everyones-personal-information/DS65HEEVMRB3DNFW4VWW5KTVEA/
+  - tier: 2
+    type: news
+    title: "Snohomish, WA woman says DOL failure led to ID theft"
+    publisher: FOX 13 Seattle
+    date: 2026-10-16
+    url: https://www.fox13seattle.com/news/snohomish-wa-woman-dol-failure-id-theft
 
 # === REFORM LINKAGE ===
 reform_argument: |
@@ -92,14 +110,13 @@ reform_argument: |
   vulnerability until February 2025 — citing, per the tort claim, budget
   constraints.
 
-  The structural finding is the 6.5-year window. A vulnerability that
-  generates more than 1,000 confirmed identity thefts, that WSP warns DOL
-  about in 2019 and again confirms is overwhelming its caseload in 2024,
-  and that DOL does not fix for budget reasons, is not a technology failure
-  — it is a governance failure. The decision not to allocate budget to fix
-  a known-active-exploitation vulnerability is an executive decision, made
-  repeatedly across multiple budget cycles, with documented ongoing harm to
-  Washington residents.
+  The structural question is the alleged 6.5-year window. If the claim is
+  accurate, a vulnerability that produced more than 1,000 identity thefts,
+  that WSP raised with DOL in 2019 and again around 2024, and that DOL did
+  not fix for budget reasons would be a governance failure, not a technology
+  failure. Those facts are alleged by the claimant and disputed by DOL; WSP
+  has confirmed only that it investigated suspected fraudulent use of
+  License Express from August 2019 to September 2021.
 
   The breach notification failure compounds the structural finding.
   Washington's Data Breach Notification Act requires timely notice to
@@ -131,7 +148,7 @@ tags:
   - it_modernization
 ---
 
-**A March 2026 tort claim alleges the Washington Department of Licensing maintained a known security vulnerability in its License Express online portal from Labor Day 2018 through February 2025, enabling identity theft through address changes and duplicate license orders. At least one fraudster completed more than 1,000 identity thefts using the vulnerability. DOL was warned by WSP in 2019 and again circa 2024, but did not fix the vulnerability until February 2025, citing budget constraints. The tort claim also alleges DOL violated the Washington Data Breach Notification Act.**
+**A March 2026 tort claim alleges the Washington Department of Licensing (DOL) left a known security flaw in its License Express portal open from Labor Day 2018 through February 2025, letting identity thieves change addresses and order duplicate licenses. The claim says one fraudster alone completed more than 1,000 identity thefts, that the Washington State Patrol (WSP) warned DOL repeatedly, that DOL cited budget constraints for not fixing it, and that DOL never gave the notice the state breach law requires. These are allegations. DOL disputes widespread fraud and says it found no evidence of a data breach. No court has ruled.**
 
 ## What happened
 
@@ -179,7 +196,11 @@ DOL's official statement: "The Department of Licensing is reviewing the tort cla
 
 ## Status
 
-Tort claim filed March 3, 2026. DOL had 60 days to respond as of the March 5, 2026 news coverage. DOL disputes the central allegations. No criminal investigation has been publicly announced as of this record's last update. The vulnerability is reported as closed as of February 18, 2025. No confirmed class action has been filed.
+Updated October 20, 2026.
+
+Tort claim filed March 3, 2026. The 60-day period before a lawsuit can be filed has passed; the registry has not found a superior court filing on the March claim. KIRO 7 reported on October 7, 2026 that Ard had filed a tort claim on behalf of clients whose identities were stolen, alleging DOL did not notify the Attorney General or the public within 45 days, and that he is seeking credit monitoring for his clients and possibly the whole class ([KIRO 7](https://www.kiro7.com/news/local/backdoor-dol-system-potentially-exposes-everyones-personal-information/DS65HEEVMRB3DNFW4VWW5KTVEA/)). On October 16, FOX 13 reported a separate Snohomish County case in which a thief accessed a woman's License Express account and called a DOL call center posing as her, then used a duplicate license to finance a car; that defendant pleaded guilty. DOL declined to discuss the case, citing the federal Driver's Privacy Protection Act ([FOX 13](https://www.fox13seattle.com/news/snohomish-wa-woman-dol-failure-id-theft)). Ard told The Center Square that DOL had notified several thousand residents they could be identity-theft victims ([The Center Square via The Daily Fly](https://www.dailyfly.com/2026/03/21/washington-dol-faces-claims-of-long-running-data-flaw-as-agency-reviews-lawsuit-allegations/)); the registry has not seen those notices.
+
+Earlier status as of March 2026: DOL had 60 days to respond as of the March 5, 2026 news coverage. DOL disputes the central allegations. No criminal investigation has been publicly announced as of this record's last update. The vulnerability is reported as closed as of February 18, 2025. No confirmed class action has been filed.
 
 **Note on date_surfaced:** This case was surfaced publicly by the March 2026 tort claim and contemporaneous news coverage. The conduct period (the vulnerability window) runs from approximately September 2018 through February 2025.
 
@@ -187,7 +208,7 @@ Tort claim filed March 3, 2026. DOL had 60 days to respond as of the March 5, 20
 
 ## Why it's in the registry
 
-The 6.5-year vulnerability window is the structural finding: a known-exploitation vulnerability in a state system holding the most sensitive personal data of nearly every Washington driver persisted across multiple administrative cycles, multiple budget years, and multiple warnings from WSP, without remediation or public disclosure. This is not an undiscovered vulnerability — it is a documented decision to not fix a known problem, for budget reasons, while identity theft continued. The breach notification failure means affected residents had no opportunity to protect themselves. Both failures — no remediation and no disclosure — reflect the absence of statutory enforcement mechanisms with fixed timelines and mandatory escalation.
+The alleged 6.5-year vulnerability window is the structural question: an allegedly known and exploited vulnerability in a state system holding the most sensitive personal data of nearly every Washington driver persisted across multiple administrative cycles, multiple budget years, and multiple warnings from WSP, without remediation or public disclosure. If the claim's account holds up, this was not an undiscovered vulnerability but a decision not to fix a known problem, for budget reasons, while identity theft continued. That account has not been tested in court. The breach notification failure means affected residents had no opportunity to protect themselves. Both failures — no remediation and no disclosure — reflect the absence of statutory enforcement mechanisms with fixed timelines and mandatory escalation.
 
 ## Reform implication
 

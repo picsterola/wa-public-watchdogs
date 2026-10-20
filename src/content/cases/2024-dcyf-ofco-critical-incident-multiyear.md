@@ -1,14 +1,14 @@
 ---
 id: WA-2024-DCYF-OFCO-FATALITIES
 title: >-
-  OFCO Critical Incident Reports — DCYF child fatalities and near-fatalities
-  2024-2025; 92 H1 2025 incidents vs. 36 reported by DCYF
+  OFCO Critical Incident Reports — 78 child fatalities and 62 near-fatalities
+  examined in 2024; 47 more critical incidents in Q1 2025
 slug: dcyf-ofco-critical-incident-multiyear
 date_surfaced: 2024-12-31T00:00:00Z
 date_conduct_start: 2024-01-01T00:00:00Z
 date_conduct_end: 2025-12-31T00:00:00Z
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency
@@ -115,59 +115,19 @@ sources:
     url: >-
       https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029,2025.pdf
     archive_url: http://web.archive.org/web/20260316211009/https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029%2C2025.pdf
-    quote: null
+    quote: "Total number of DCYF-reviewable critical incidents: 22* in Q1 2025 vs. 9 in Q1 2024"
 reform_argument: |
-  The data-integrity gap is the structural finding, not the fatality counts
-  themselves. OFCO tracked 92 child deaths or near-deaths in H1 2025; DCYF
-  reported 36 under its narrower statutory scope (RCW 74.13.640, which
-  restricts DCYF review to maltreatment-related cases with prior DCYF
-  involvement within 12 months). OFCO's broader mandate covers any case
-  where child welfare concerns exist. The result is a 56-case gap between
-  the two agencies' counts for the same half-year, and OFCO Director Patrick
-  Dowd broke from the normal annual reporting schedule in July 2025 to
-  publicly disclose the data because he judged the discrepancy too
-  significant to wait.
-
-  This is not a definitional disagreement that resolves itself at year-end.
-  It is a structural design: DCYF's reporting infrastructure is calibrated
-  to its own narrow statutory scope and reports numbers to the public that
-  are not comparable to OFCO's broader tracking. When the independent ombuds
-  is tracking 2.5 times as many critical incidents as the agency publicly
-  discloses for the same period, and the agency's explanation is a statutory
-  definitional boundary, the reform question is whether that boundary serves
-  child welfare or serves the agency's reporting optics.
-
-  The 2025 Critical Incident Report also identified three structural failures
-  by statute and program: confusion over the legal standard for establishing
-  dependency court oversight (specifically whether the HB 1227 threshold for
-  removal also applies to seeking court supervision without removal), a
-  pattern of inadequate engagement with fathers and paternal relatives, and
-  the prevalence of critical incidents connected to maternal substance use at
-  birth with inadequate system capacity — only 5 residential SUD treatment
-  facilities statewide for mothers. Each failure recurs across multiple
-  reviewed cases.
-
-  Reform argument: when an independent ombuds tracks more critical incidents
-  than the agency reports, and the agency's defense is its own statutory
-  definition, the structural response is not to narrow OFCO's mandate — it
-  is to require DCYF to publish both counts simultaneously with a plain-
-  language explanation of the definitional difference, or to give OFCO
-  concurrent authority to certify the completeness of DCYF's incident
-  reporting. See [reform: independent_inspector_general],
+  OFCO's count depends on DCYF's own intake system: the 2025 report says
+  OFCO "is not notified of all child fatalities or near fatalities, only
+  those that are recorded in the DCYF reporting system." The independent
+  reviewer of child deaths cannot see incidents the agency it oversees does
+  not record. A completeness check, such as reconciling OFCO's caseload
+  against Department of Health death records or medical examiner data,
+  would test that dependency. See [reform: independent_inspector_general],
   [reform: child_welfare_oversight], and [reform: agency_data_integrity].
-review_status: published
-retraction_note: null
-contributor: vn
-tags:
-  - dcyf
-  - ofco
-  - child_fatalities
-  - child_welfare
-  - data_integrity
-  - critical_incident
 ---
 
-**OFCO tracked 92 child deaths or near-deaths in the first half of 2025 — 47 in Q1, 45 in Q2 — while DCYF reported 36 for the same period under its narrower statutory mandate. OFCO Director Patrick Dowd broke from normal annual reporting protocol in July 2025 to publicly disclose the H1 data, citing the discrepancy and a trajectory he judged too alarming to withhold. The 2024 and 2025 Critical Incident Reports together document 79 fatalities and 70 near-fatalities in CY2023, and 78 fatalities and 62 near-fatalities in CY2024, with three named structural failures in the 2025 report.**
+**The Office of the Family and Children's Ombuds (OFCO) examined 78 child fatalities and 62 near-fatalities connected to the child welfare system in 2024, and 47 critical incidents in the first quarter of 2025 alone. In July 2025, OFCO Director Patrick Dowd shared early 2025 data with the DCYF Oversight Board, including a reported 45 incidents in the second quarter. The 2024 and 2025 Critical Incident Reports together document 79 fatalities and 70 near-fatalities in CY2023, and 78 fatalities and 62 near-fatalities in CY2024, with three named structural failures in the 2025 report.**
 
 ## What happened
 
@@ -183,11 +143,11 @@ OFCO publishes an annual Critical Incident Report documenting child fatalities a
 
 3. **SUD treatment capacity.** Only five residential substance use disorder treatment facilities for mothers exist statewide. The 2025 report documented a pattern of critical incidents connected to maternal substance use at birth in cases where treatment resources were unavailable or inaccessible.
 
-**The July 2025 mid-year disclosure** broke from OFCO's standard practice. Director Patrick Dowd presented preliminary H1 2025 data to the DCYF Oversight Board on July 17, 2025 — a disclosure OFCO does not normally make during the calendar year — citing alarm at the trajectory. OFCO counted 47 critical incidents in Q1 2025 and 45 in Q2 2025, for a total of 92 child deaths or near-deaths in the first six months of 2025.
+**The July 2025 update.** Director Patrick Dowd presented early 2025 data to the DCYF Oversight Board on July 17, 2025. The 2025 report confirms 47 critical incidents in Q1 2025 ([OFCO](https://ofco.wa.gov/sites/default/files/2025-07/2025_OFCO_Critical_Incident_Report_0.pdf)); the Lynnwood Times reported 45 more in Q2 ([Lynnwood Times](https://lynnwoodtimes.com/2025/07/21/families-together/)). Dowd said: "We wanted to paint a picture of where things are headed in 2025." 
 
-For the same six-month period, DCYF reported 36 incidents under its statutory reporting scope (RCW 74.13.640), which limits DCYF review to maltreatment-related fatalities and near-fatalities with prior DCYF involvement within the preceding 12 months. DCYF's statutory scope excludes cases where a family had no recent DCYF involvement and cases where maltreatment was not the proximate cause, even where child welfare concerns are present. OFCO's mandate is broader: it reviews any case where concerns about child welfare or systemic issues exist.
+DCYF counts differently. In a July 29, 2025 briefing, DCYF reported 22 "DCYF-reviewable" critical incidents in Q1 2025 (4 fatalities, 18 near-fatalities), up from 9 in Q1 2024, and explained that state law (RCW 74.13.640) limits its reviews to maltreatment-related incidents with DCYF involvement in the prior 12 months, while OFCO examines any reported incident raising child-welfare or systemic concerns ([DCYF briefing, archived](http://web.archive.org/web/20260316211009/https://dcyf.wa.gov/sites/default/files/pdf/CriticalIncidentsQ12025_Briefing%20Slides_DCYFsResponse_July%2029%2C2025.pdf)). For Q1 2025, that is 22 under DCYF's criteria against 47 examined by OFCO ([OFCO](https://ofco.wa.gov/sites/default/files/2025-07/2025_OFCO_Critical_Incident_Report_0.pdf)).
 
-The 56-case gap between the two agencies' counts for H1 2025 is the direct consequence of this scope difference. Director Dowd publicly stated that disclosing the preliminary data was necessary to avoid creating a false impression that conditions were stabilizing.
+An earlier version of this record said DCYF reported 36 incidents for the first half of 2025 and described a "56-case gap." No source supports a DCYF figure of 36; it appears to have been confused with Dowd's statement that neglect was clearly the cause in 36% of fatalities ([Lynnwood Times](https://lynnwoodtimes.com/2025/07/21/families-together/)). DCYF's briefing gives Q1 figures only. See the [corrections log](/corrections).
 
 ## What the primary sources say
 
@@ -199,14 +159,12 @@ A healthcare provider testified at the July 2025 public hearing: "A 200% increas
 
 ## Status
 
-Audit finding. The 2024 Critical Incident Report was published July 2024. The 2025 Critical Incident Report was published July 2025. The H1 2025 mid-year data was publicly disclosed July 17, 2025. No enforcement action has been opened based on these reports. The three structural failures named in the 2025 report are subject to DCYF's non-binding response process. OFCO does not have authority to compel corrective action or certify DCYF's incident reporting completeness. See companion case [WA-2024-DCYF-OFCO-FINDINGS] for the 2024 Annual Report's 39 formal adverse findings.
+Audit finding. The 2024 Critical Incident Report was published July 2024. The 2025 Critical Incident Report was published July 2025. Early 2025 data was shared with the DCYF Oversight Board on July 17, 2025. No enforcement action has been opened based on these reports. The three structural failures named in the 2025 report are subject to DCYF's non-binding response process. OFCO does not have authority to compel corrective action or certify DCYF's incident reporting completeness. See companion case [WA-2024-DCYF-OFCO-FINDINGS] for the 2024 Annual Report's 39 formal adverse findings.
 
 ## Why it's in the registry
 
-The fatality counts matter. The data-integrity gap matters more. When an independent ombuds and the agency it oversees report different counts for the same period — 92 versus 36 — and the agency's explanation is a statutory definitional boundary, the accountability structure is doing something other than protecting children. The boundary tells us which incidents DCYF is required to track, not which incidents constitute harm. A child welfare system whose self-reported incident count is 39% of the independent ombuds' count for the same period has a reporting design problem, not a counting problem.
-
-The July 2025 mid-year disclosure is structurally significant on its own: it is the first time in institutional memory that OFCO broke its annual reporting schedule to disclose mid-year data. That choice by Director Dowd is an independent signal of the severity of the trajectory.
+These reports are the main independent accounting of child deaths and near-deaths connected to Washington's child welfare system. They show a sharp rise in fentanyl-related incidents and name recurring practice failures, but OFCO cannot compel corrective action, and its count depends on what DCYF records.
 
 ## Reform implication
 
-DCYF's statutory reporting scope (RCW 74.13.640) is designed for mandatory review obligations, not for public transparency about the full universe of child harm connected to families in the child welfare system. Publishing both counts — DCYF's statutory scope and OFCO's broader tracking — simultaneously, with a plain-language explanation of the difference, would eliminate the false impression that DCYF's narrower figure represents total system-connected child deaths. Alternatively, requiring OFCO to certify the completeness of DCYF's incident reporting system would give the independent ombuds concurrent authority over the accuracy of the data, not just over individual case review. See [reform: independent_inspector_general], [reform: child_welfare_oversight], and [reform: agency_data_integrity].
+See the reform argument above. See [reform: independent_inspector_general], [reform: child_welfare_oversight], and [reform: agency_data_integrity].

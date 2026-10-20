@@ -6,8 +6,8 @@ slug: state-agency-tort-payouts-aggregate
 date_surfaced: 2025-01-19
 date_conduct_start: 2018-07-01
 date_conduct_end: 2025-06-30
-last_updated: 2026-05-26
-last_verified: 2026-05-26
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -62,9 +62,9 @@ outcome_summary: "Aggregate pattern across multiple state agencies. FY25 tort pa
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
 remediation_note: "No agency-side remediation tracked. DES is treating the shortfall as a budget problem (request $569.5M one-time backfill plus ongoing premium increases). OFM is pursuing structural change for the largest single driver (pre-2020 DCYF claims) via HB 2706. Underlying agency conduct remediation is not separately tracked at the aggregate level."
-reform_status: bill_in_committee
-reform_status_note: "Three legislative vehicles active in the 2025-26 biennium. SB 5144 (Gildon, 2025): joint legislative hearings within 12 months of any $1M+ payout from the Liability Account, with AG context report. SB 6239: requires JLARC review of arbitration requirement and claims/lawsuit/payout reporting to the Legislature by December 31, 2032 (Senate Bill Report, January 29, 2026). HB 2706 (Ormsby by request of OFM, 2026): creates a claims commission within OAH to adjudicate pre-2020 DCYF tort claims, citing the $1.3B-$1.4B shortfall this fiscal biennium."
-next_milestone: "HB 2706 committee action; DES 2026 supplemental budget appropriation decision"
+reform_status: bill_died
+reform_status_note: "None of the 2025-26 vehicles was enacted. HB 2706 (OFM request) never left House Civil Rights & Judiciary. E2SSB 6239 passed the Senate 33-16 on Feb. 17, 2026 but got no House committee hearing. SB 5144 never left Senate Law & Justice. Senate Democrats referred tort reform to a stakeholder committee."
+next_milestone: "2027 legislative session; stakeholder committee recommendations"
 next_milestone_date: null
 
 # === SOURCES ===
@@ -286,7 +286,7 @@ The honest read: HB 2706 may pass because it has OFM behind it and a defined fis
 
 ## Related cases in this registry
 
-- **WA-2024-DSHS-SCC-WATER** — One of the 14 DSHS payouts; $7.325M class-action settlement over contaminated drinking water at the Special Commitment Center.
+- **WA-2024-DSHS-SCC-WATER** — One of the 14 DSHS payouts; class-action settlement reported at $7.5M (News Tribune) or $7.325M (Center Square) over contaminated drinking water at the Special Commitment Center.
 - **WA-2024-OSPI-IDEA** — Federal settlement with OSPI; compensatory education costs will flow to school districts from a systemic IDEA compliance failure.
 - Other DCYF-specific cases involving foster-care and child-welfare failures are documented separately; the 151 DCYF payouts are the largest aggregate category and the dominant driver of pending liability.
 
@@ -294,6 +294,6 @@ The honest read: HB 2706 may pass because it has OFM behind it and a defined fis
 
 - Final FY25 figure (year-end June 30, 2025) not yet published; the ~$502M number is as of June 13, 2025.
 - Office of Risk Management underlying dataset not publicly posted in machine-readable form.
-- HB 2706 committee disposition and 2026 supplemental budget appropriation outcome.
-- SB 5144 and SB 6239 floor action status.
+- 2026 supplemental budget appropriation to the Liability Account (not yet confirmed by the registry).
+- Update, October 20, 2026: HB 2706 died in House Civil Rights & Judiciary without a vote ([bill history](https://app.leg.wa.gov/BillSummary/?BillNumber=2706&Year=2025&Initiative=false)). E2SSB 6239 passed the Senate 33-16 but the House committee did not give it a hearing ([bill history](https://app.leg.wa.gov/BillSummary/?BillNumber=6239&Year=2026); [Seattle Times editorial](https://www.seattletimes.com/opinion/editorials/lawsuit-payouts-are-shortchanging-states-budget-wa-needs-tort-reform/)). SB 5144 stayed in Senate Law & Justice ([bill history](https://app.leg.wa.gov/billsummary?BillNumber=5144&Year=2025)).
 - DCYF current-year (post-2020) tort claim trend separated from pre-2020 long-tail not separately published.
