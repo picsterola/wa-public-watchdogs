@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:49:08.694Z",
+  "generated_at": "2026-10-20T07:52:27.558Z",
   "method": "objective metadata scoring per SCHEMA.md",
   "top5": [
     {
@@ -54,16 +54,16 @@
       ]
     },
     {
-      "slug": "dchs-systemic-audit",
+      "slug": "commerce-digital-navigator-audit",
       "score": 21,
       "pinned": false,
       "reasons": [
         "legal:audit_finding=+5",
         "evid:documented=+4",
-        "$1800M>=10M=+5",
+        "$93M>=10M=+5",
         "tier1=+3",
-        "severity:criminal_or_structural=+2",
-        "xref:7=+2"
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2"
       ]
     }
   ]

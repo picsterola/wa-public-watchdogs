@@ -181,6 +181,8 @@ Updated October 20, 2026. The Washington Observer reports Simmons filed a petiti
 
 A separate complaint (26-01) about Simmons asking a primary challenger not to run was dismissed for lack of reasonable cause; the Board found she acted as a candidate, not a legislator ([LEB 26-01](https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/26-01/)). An unrelated earlier opinion, 25-38, dismissed a complaint about her Facebook post for lack of jurisdiction ([LEB 25-38](/cases/leb-25-38-simmons-special-privileges)).
 
+**Related record.** The same organization, the Equity in Education Center, was the primary grantee in the Commerce Digital Navigator Program, where SAO could not verify almost all of the $10.7 million Commerce paid it ([Commerce Digital Navigator audit](/cases/commerce-digital-navigator-audit)). That is a different funding stream. The LEB order does not address Digital Navigator funds, and neither SAO nor the LEB has connected the two matters.
+
 ## Why it's in the registry
 
 It is an adjudicated ethics violation by a sitting legislator, decided after a rare public hearing, with the maximum penalty on every sustained count.
