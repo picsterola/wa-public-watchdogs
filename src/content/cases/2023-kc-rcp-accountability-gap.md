@@ -8,8 +8,8 @@ slug: kc-rcp-accountability-gap
 date_surfaced: 2023-04-26T00:00:00Z
 date_conduct_start: 2021-10-01T00:00:00Z
 date_conduct_end: 2025-08-03T00:00:00Z
-last_updated: 2026-05-22T00:00:00Z
-last_verified: 2026-05-22T00:00:00Z
+last_updated: 2026-10-20T00:00:00Z
+last_verified: 2026-10-20T00:00:00Z
 actors:
   - name: King County Department of Community and Human Services (DCHS)
     role_type: agency
@@ -83,26 +83,40 @@ outcome_summary: >-
   and the consortium itself. Executive Shannon Braddock proposed in October
   2025 to replace RCP with a county-led King County Youth Diversion and
   Intervention Program for the 2026-27 biennium, with a $1.65 million cut and
-  an RFP scheduled for early 2026.
+  an RFP scheduled for early 2026. The adopted 2026-27 budget (Ordinance
+  20023) funded the replacement, the King County Youth Diversion and
+  Intervention (KCYDI) program, at about $8.7M for the biennium, limited to
+  misdemeanor referrals. DCHS released a KCYDI request for proposals (up to
+  $3M) on April 29, 2026; contracts start around January 1, 2027.
 remediation_status: in_progress
 remediation_note: >-
-  Three remediation tracks are in motion. (1) KCPAO paused felony referrals
-  August 2025 pending Pörtner's secondary analysis. (2) Impact Justice
+  As of October 2026: RCP is being replaced, not repaired. KCPAO has not
+  referred youth felonies since July 2025, and KCYDI covers misdemeanors
+  only. DCHS will staff the referral role in-house, collect selected measures
+  quarterly, and finalize performance measures with providers at contracting,
+  so whether the new contracts carry the outcome-tracking obligations RCP
+  lacked cannot be checked until contracts are signed. Earlier tracks: (1)
+  KCPAO paused felony referrals August 2025 pending Pörtner's secondary
+  analysis. (2) Impact Justice
   recommendations on data standardization, intake protocols, and a dedicated
   consortium coordinator are not yet adopted in any public commitment. (3)
   Executive Braddock's proposed replacement program (KCYDIP) would shift
   coordination in-house at DCHS and is pending Council action on the 2026-27
   budget. No follow-up audit has yet verified that data-tracking gaps the
   Impact Justice report identified have been closed.
-reform_status: rulemaking_in_progress
+reform_status: structural_change_implemented
 reform_status_note: >-
   No statute change introduced. The reform vector is at the program-design
   and contract-administration level: Executive Braddock's proposed King
   County Youth Diversion and Intervention Program would replace RCP for the
-  2026-27 biennium subject to Council approval. Outcome is contingent on the
-  Council's November 2025/early 2026 budget decisions and the eventual RFP.
-next_milestone: Council 2026-27 budget action on Braddock's proposed RCP replacement
-next_milestone_date: 2026-01-01
+  2026-27 biennium subject to Council approval. Update (Oct 2026): the
+  adopted 2026-27 budget (Ordinance 20023) replaced RCP with KCYDI and held
+  back $1M until the Council approves a KCYDI program report (Proposed Motion
+  2026-0084, heard in Law and Justice Committee July 1, 2026). The structural
+  change is adopted; whether it fixes the data gap is unverified until
+  contracts and the first quarterly measures exist.
+next_milestone: KCYDI provider contracts begin
+next_milestone_date: 2027-01-01
 sources:
   - tier: 1
     type: news
@@ -210,6 +224,29 @@ sources:
       restitution fund, and a Youth Steering Committee. Plan envisioned up
       to 600 eligible youth referrals annually. Council vote on receipt
       (March 15, 2022): 8 yes, 1 no (Dunn).
+  - tier: 1
+    type: agency_statement
+    title: KCYDI Program Report staff report (Proposed Motion 2026-0084), Law and Justice Committee packet
+    publisher: Metropolitan King County Council
+    date: 2026-07-01T00:00:00Z
+    url: https://aqua.kingcounty.gov/council/agendas/LJ/20260701-LJ-Packet.pdf
+    quote: >-
+      The 2026-2027 adopted biennial County budget (Ordinance 20023) includes
+      resources to implement the King County Youth Diversion and Intervention
+      (KCYDI) to provide diversion services for youth referred by the
+      Prosecuting Attorney's Office (PAO) for an alleged misdemeanor offense
+      ... replacing and revising the County's Restorative Community Pathways
+      (RCP) program.
+  - tier: 1
+    type: agency_statement
+    title: 'New funding opportunity: King County Youth Diversion and Intervention Program'
+    publisher: King County Department of Community and Human Services
+    author: Erin Fenner
+    date: 2026-05-04T00:00:00Z
+    url: https://dchsblog.com/2026/05/04/new-funding-opportunity-king-county-youth-diversion-and-intervention-program/
+    quote: >-
+      DCHS is seeking to award up to $3 million to providers ... Contracts
+      will start on or around January 1, 2027.
 reform_argument: >-
   Three distinct reform vectors converge here, and the registry should be
   precise about which is which because they pull in different directions.
@@ -289,6 +326,10 @@ That is not a fraud case and the registry does not call it one. It is not an ind
 ## The active fight
 
 Executive Shannon Braddock's October 2025 proposal would replace RCP with the King County Youth Diversion and Intervention Program, county-led and DCHS-coordinated, with a $1.65M cut from youth diversion funding for the 2026-27 biennium and an RFP for community organization contracts in early 2026. Council positions are visible: Dembowski wants "a break from the old existing program"; Teresa Mosqueda wants funding to allow overlap and wants felony diversion kept available; Jorge Barón wants clearer goals before transition; Public Defense Director Matt Sanders wants the door kept open for youth felony diversion as a matter of equity. The Council's November 2025 budget action and the early-2026 RFP are the next decision points.
+
+**Update, October 20, 2026.** The Council adopted the replacement. The 2026-27 budget (Ordinance 20023) funds KCYDI at about $8.7 million for the biennium ($7.9 million General Fund, $0.8 million Best Starts for Kids), serving youth referred by the Prosecuting Attorney's Office for alleged misdemeanors. Felony diversion is out: the PAO has not referred youth felonies since July 2025, and the budget asked only for a cost estimate to broaden eligibility. The budget also held back $1 million until the Council approves a KCYDI program report ([King County Council LJ packet](https://aqua.kingcounty.gov/council/agendas/LJ/20260701-LJ-Packet.pdf)). DCHS released a request for proposals of up to $3 million on April 29, with applications due July 15 and contracts starting around January 1, 2027 ([DCHS](https://dchsblog.com/2026/05/04/new-funding-opportunity-king-county-youth-diversion-and-intervention-program/)). Award recipients have not been announced publicly as of this update.
+
+On the registry's narrow question, the new design moves the referral manager in-house to DCHS and promises quarterly measures. But the performance measures themselves will be "finalize[d] ... with contracted partners in the evaluation plans that are created at the time of contracting," so the contracts are the thing to check ([King County Council LJ packet](https://aqua.kingcounty.gov/council/agendas/LJ/20260701-LJ-Packet.pdf)).
 
 Whether RCP-the-program survives in some form is a question for the Council. Whether the next iteration is built with the instrumentation RCP lacked is a question the registry will keep watching. The KC-2023-004 case file stays open until that question is answered on the record.
 

@@ -6,8 +6,8 @@ slug: sound-transit-west-seattle-cost
 date_surfaced: 2024-09-30
 date_conduct_start: 2016-01-01
 date_conduct_end: null
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -33,14 +33,14 @@ dollars_confirmed_loss: null
 
 # === STATUS ===
 legal_status: no_action
-outcome_summary: "Sound Transit board is continuing the project as of this record's last update. Cost-reduction options include truncating the line at Delridge ($3.3–$3.4B). No termination decision has been made."
+outcome_summary: "The Sound Transit Board kept the project in the updated ST3 System Plan adopted May 28, 2026 (Resolution R2026-11), as \"West Seattle Link Extension, no Avalon Station,\" listed as affordable within existing resources. KIRO 7 reports the opening has moved from 2030 to 2035. The Urbanist reports major construction is not likely before 2028 and that the agency hopes for a federal New Starts grant. No termination decision has been made."
 
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
-remediation_note: "New cost estimate $4.9-5.3B (2025 dollars) reflects $2.1-2.6B in identified savings versus the $6.2-6.5B fall 2025 estimate. Sound Transit briefed the System Expansion Committee on March 12, 2026; cost-saving measures (Avalon station elimination, SoDo station optimization, precast Duwamish bridge) not yet finalized. The Urbanist, March 12, 2026."
+remediation_note: "New cost estimate $4.9-5.3B (2025 dollars) reflects $2.1-2.6B in identified savings versus the $6.2-6.5B fall 2025 estimate. Sound Transit briefed the System Expansion Committee on March 12, 2026; cost-saving measures (Avalon station elimination, SoDo station optimization, precast Duwamish bridge) not yet finalized. The Urbanist, March 12, 2026. Update (Oct 2026): the May 28, 2026 ST3 plan update formally dropped Avalon Station. The registry has not re-verified the $4.9-5.3B estimate against a post-May cost baseline."
 reform_status: none_proposed
 reform_status_note: "No reform specific to West Seattle Link cost identified separately from the broader ST3 program reset."
-next_milestone: null
+next_milestone: Federal New Starts grant decision and start of major construction
 next_milestone_date: null
 
 # === SOURCES ===
@@ -60,6 +60,27 @@ sources:
     date: 2024-09-30
     url: https://www.theurbanist.org/sound-transit-board-forges-ahead-on-west-seattle-link-despite-cost-jumps/
     archive_url: http://web.archive.org/web/20260524140951/https://www.theurbanist.org/sound-transit-board-forges-ahead-on-west-seattle-link-despite-cost-jumps/
+
+  - tier: 1
+    type: agency_statement
+    title: "Achieving long-term affordability: ST3 System Plan update"
+    publisher: Sound Transit
+    date: 2026-05-28
+    url: https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability/st3-system-plan-update
+  - tier: 2
+    type: news
+    title: "Sound Transit Board OKs Major ST3 Update, Casting Ballard into Limbo"
+    publisher: The Urbanist
+    author: Ryan Packer and Doug Trumm
+    date: 2026-05-28
+    url: https://www.theurbanist.org/sound-transit-board-oks-major-st3-update-casting-ballard-into-limbo/
+  - tier: 2
+    type: news
+    title: "Sound Transit to provide update on delayed Ballard light rail project"
+    publisher: KIRO 7
+    date: 2026-10-19
+    url: https://www.kiro7.com/news/local/sound-transit-provide-update-delayed-ballard-light-rail-project/DW7GUUIWJREYHLZ66GWD5NAEIE/
+    quote: "The West Seattle extension, previously expected in 2030, is now slated for 2035, with construction expected to begin next year."
 
 # === REFORM LINKAGE ===
 reform_argument: |
@@ -101,7 +122,9 @@ Sound Transit's own project page documents the current scope and status. The Urb
 
 ## Status
 
-The project is ongoing. The Sound Transit board has not terminated it. Cost-reduction options remain under consideration. No enforcement action has been taken.
+Updated October 20, 2026.
+
+The project survived the ST3 reset. The updated ST3 System Plan the Board adopted May 28, 2026 lists "West Seattle Link Extension, no Avalon Station" as affordable within existing resources, so Avalon is formally out ([Sound Transit](https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability/st3-system-plan-update)). The Urbanist reports staff showed West Seattle breaking ground in 2028, with the agency hoping for a federal New Starts grant ([The Urbanist](https://www.theurbanist.org/sound-transit-board-oks-major-st3-update-casting-ballard-into-limbo/)). KIRO 7 reports the opening has moved from 2030 to 2035, with construction starting next year ([KIRO 7](https://www.kiro7.com/news/local/sound-transit-provide-update-delayed-ballard-light-rail-project/DW7GUUIWJREYHLZ66GWD5NAEIE/)); the two outlets differ on whether "construction" means early works or major work. No enforcement action has been taken.
 
 ## Why it's in the registry
 

@@ -8,8 +8,8 @@ slug: commerce-digital-navigator-audit
 date_surfaced: 2026-01-27T00:00:00Z
 date_conduct_start: 2022-01-01T00:00:00Z
 date_conduct_end: 2025-06-30T00:00:00Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-22T00:00:00Z
+last_updated: '2026-10-20'
+last_verified: 2026-10-20T00:00:00Z
 actors:
   - name: Washington State Department of Commerce
     role_type: agency
@@ -53,8 +53,23 @@ outcome_summary: >-
   Commerce paused payments to EEC in February 2025; program ended June 30, 2025.
   Ferguson administration appointed new Commerce leadership; State Auditor noted
   she was 'heartened by the commitment to accountability shown by the agency's
-  new leadership.'
+  new leadership.' SAO's next accountability audit of Commerce (FY2025,
+  published May 28, 2026) did not re-examine the program; Commerce's own
+  status schedule lists both Digital Navigator findings as only partially
+  corrected, with expenditures still under independent third-party review.
 sources:
+  - tier: 1
+    type: sao_report
+    title: >-
+      Accountability Audit Report, Washington State Department of Commerce,
+      July 1, 2024 through June 30, 2025 (Report No. 1039826)
+    publisher: Office of the Washington State Auditor
+    date: 2026-05-28T00:00:00Z
+    url: >-
+      https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=Department%20of%20Commerce_fa195406-b589-4350-8cc8-d69d8a5eebb3.pdf
+    quote: >-
+      The expenditure activity for the Digital Navigator Program is currently
+      being reviewed by an independent third party.
   - tier: 1
     type: sao_report
     title: >-
@@ -92,67 +107,31 @@ sources:
     url: >-
       https://www.kvi.com/2026/02/03/state-audit-finds-commerce-department-mishandled-92-million-digital-equity-grant-program/
     archive_url: http://web.archive.org/web/20260217120552/https://www.kvi.com/2026/02/03/state-audit-finds-commerce-department-mishandled-92-million-digital-equity-grant-program/
-reform_argument: >
+reform_argument: >-
   The Digital Navigator audit is the federal-grant analog to the Commerce COVID
-
-  relief case (WA-2024-COMMERCE-COVID) — same agency, same
-  subrecipient-monitoring
-
-  failure pattern, different program, different year, same structural outcome:
-
-  public funds disbursed to grantees and subgrantees without the documentation
-
-  and oversight infrastructure required to confirm the funds were used for their
-
-  intended purpose.
-
-
-  The COVID relief case produced 12 audit findings and $75M in questioned costs
-
-  in FY2023. The Digital Navigator case produced nearly $11M in unverifiable
-
-  payments to a single grantee across a $92.5M program. The two cases involve
-
-  the same agency, the same structural gap — inadequate subrecipient monitoring
-
-  — and the same audit mechanism: SAO finds the problem after the money has
-  moved.
-
+  relief case (WA-2024-COMMERCE-COVID): same agency, same subrecipient-monitoring
+  failure pattern, different program, different year. The COVID relief case
+  produced 12 audit findings and $75M in questioned costs in FY2023. The Digital
+  Navigator case produced nearly $11M in unverifiable payments to a single
+  grantee across a $92.5M program. Both involve the same structural gap,
+  inadequate subrecipient monitoring, and the same audit mechanism: SAO finds
+  the problem after the money has moved.
 
   The recurrence is the accountability argument. One-off audit findings do not
+  change institutional behavior when the incentives (rapid disbursement,
+  minimal documentation overhead, relationships with grantees) stay the same.
+  The same agency also bypassed competitive procurement, and SAO referred a
+  potential ethics violation (a staff member's employment with a grantee) to
+  the State Ethics Board.
 
-  change institutional behavior when the institutional incentives (rapid
-
-  disbursement, minimal documentation overhead, relationships with grantees)
-
-  remain unchanged. Commerce received 12 findings in 2024 and produced a
-
-  structurally similar failure in the Digital Navigator program through 2025.
-
-  The same agency also bypassed competitive procurement and referred a potential
-
-  ethics violation — a staff member's employment with a grantee — to the State
-
-  Ethics Board. These are not isolated oversights; they are a pattern.
-
-
-  Reform argument: federal-grant oversight at state agencies requires
-  independent
-
-  monitoring capability — not self-certification by the agency — from the moment
-
-  the grant is awarded. The SAO accountability audit that identified the $10.7M
-
-  documentation gap was published years after the money moved. An independent
-
-  grant oversight function with real-time visibility into disbursements would
-
-  have flagged the EEC documentation gap in 2023 or 2024, not January 2026.
-
-  See [reform: subrecipient_monitoring], [reform: procurement_reform], and
-
-  [reform: federal_grant_compliance].
-review_status: draft
+  Reform argument: federal-grant oversight at state agencies needs independent
+  monitoring capability, not agency self-certification, from the moment a grant
+  is awarded. The SAO accountability audit that identified the $10.7M
+  documentation gap was published years after the money moved. Real-time
+  visibility into disbursements would have flagged the EEC documentation gap in
+  2023 or 2024, not January 2026. See [reform: subrecipient_monitoring],
+  [reform: procurement_reform], and [reform: federal_grant_compliance].
+review_status: published
 retraction_note: null
 contributor: vn
 tags:
@@ -163,17 +142,21 @@ tags:
   - federal_grants
   - procurement_bypass
   - subrecipient_monitoring
-remediation_status: implemented_unverified
+remediation_status: in_progress
 reform_status: none_proposed
 remediation_note: >-
   Program shut down June 2025; new Commerce leadership issued April 2026 risk
-  memo; ethics referral made; no independent follow-up audit yet (expected
-  summer 2026).
+  memo; ethics referral made. SAO's FY2025 accountability audit (published
+  May 28, 2026) did not examine the program. In the auditee's summary schedule,
+  Commerce rates findings 2024-001 ($10.7M unsupported EEC reimbursements) and
+  2023-002 ($6.1M to ineligible navigators) as partially corrected, pending an
+  independent third-party review of program expenditures. No public results of
+  that review or of the ethics referral found as of Oct 20, 2026.
 reform_status_note: >-
   Reform is executive action by new Commerce leadership; no legislation filed
   targeting these audit findings.
-next_milestone: SAO accountability audit follow-up (Commerce grant controls)
-next_milestone_date: '2026-09-30'
+next_milestone: Results of independent third-party review of Digital Navigator expenditures
+next_milestone_date: null
 ---
 
 **A Washington State Auditor performance audit published January 27, 2026 (ARN 1038954) found Commerce's Digital Navigator Program — a $92.5 million federal digital equity grant program running from 2022 to 2025 — lacked effective oversight at every stage: non-competitive grant awards, inadequate vetting of grantees, contracts without clear deliverables, failure to monitor grantee performance, and $10.7 million paid to a single grantee without sufficient documentation. Executives bypassed state procurement rules. The program was shut down June 30, 2025.**
@@ -211,6 +194,10 @@ Commerce's public response (January 27, 2026): "In February 2025, shortly after 
 ## Status
 
 SAO performance audit published January 27, 2026. Program shut down June 30, 2025. Potential ethics violation referred to State Ethics Board. Commerce conducting a CPA review of EEC payments. No criminal investigation publicly announced as of this record's last update.
+
+**Update, October 20, 2026.** The expected follow-up came and went without one. SAO's accountability audit of Commerce for July 2024 through June 2025, published May 28, 2026, examined six other high-risk areas and did not test the Digital Navigator Program ([SAO Report 1039826](https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=Department%20of%20Commerce_fa195406-b589-4350-8cc8-d69d8a5eebb3.pdf)). In the prior-findings schedule in that report, Commerce lists the $10.7 million unsupported-reimbursement finding (2024-001) and the $6.1 million ineligible-navigator finding (2023-002) as partially corrected and says program expenditures are "currently being reviewed by an independent third party." That is the agency's self-assessment, not an auditor's verification. The registry has not found published results of that review or of the State Ethics Board referral.
+
+**Related record.** The Equity in Education Center also appears in [LEB 25-05](/cases/leb-25-05-simmons-conflict-special-privileges), where the Legislative Ethics Board found that Rep. Tarra Simmons sponsored a 2024 budget proviso that funded EEC while she was employed there ([LEB final order](https://leg.wa.gov/media/jdzoy2qi/ethicscom202505.pdf)). That proviso ran through the Administrative Office of the Courts and is separate from Digital Navigator funding. Neither SAO nor the LEB has connected the two matters.
 
 ## Why it's in the registry
 
