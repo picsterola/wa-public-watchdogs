@@ -155,7 +155,7 @@ reform_argument: |
   concurrent authority to certify the completeness of DCYF's incident
   reporting. See [reform: independent_inspector_general],
   [reform: child_welfare_oversight], and [reform: agency_data_integrity].
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

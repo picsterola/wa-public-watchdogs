@@ -173,7 +173,7 @@ reform_argument: |
   [reform: agency_liability_disclosure].
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

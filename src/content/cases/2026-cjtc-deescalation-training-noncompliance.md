@@ -106,7 +106,7 @@ reform_argument: |
   See [reform: police_training_enforcement].
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:

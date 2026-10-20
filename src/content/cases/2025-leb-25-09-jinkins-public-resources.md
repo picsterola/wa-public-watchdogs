@@ -1,32 +1,41 @@
 ---
 # === IDENTITY ===
 id: WA-2025-009
-title: "LEB Case 25-09 — Speaker Jinkins and others, alleged use of public resources for private gain"
+title: "LEB Case 25-09 — Speaker Jinkins and House staff: reasonable cause found on official social media posts, no penalty imposed"
 slug: leb-25-09-jinkins-public-resources
 date_surfaced: 2025-10-27
-date_conduct_start: null
-date_conduct_end: null
-last_updated: 2026-05-20
-last_verified: 2026-05-20
+date_conduct_start: 2025-01-01
+date_conduct_end: 2025-04-30
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
   - name: Laurie Jinkins
     role_type: elected
-    title: Speaker, Washington State House of Representatives
+    title: Speaker, Washington State House of Representatives (27th District)
     party: D
     jurisdiction: Washington State
-  - name: "Additional respondents named in LEB Case 25-09"
-    role_type: bureaucrat   # placeholder — will be itemized once individual roles confirmed from the LEB docket
-    title: null
+  - name: Bernard Dean
+    role_type: bureaucrat
+    title: Chief Clerk of the House
+    party: null
+    jurisdiction: Washington State
+  - name: Dominique Meyers
+    role_type: bureaucrat
+    title: Chief of Staff, House Democratic Caucus
+    party: null
+    jurisdiction: Washington State
+  - name: Jen Waldref
+    role_type: bureaucrat
+    title: Director of Communications, House Democratic Caucus
     party: null
     jurisdiction: Washington State
 
 # === CLASSIFICATION ===
-evidentiary_status: alleged
+evidentiary_status: documented
 severity_type:
   - misuse_public_resources
-  - rule_gaming
 reforms_implicated:
   - ethics_enforcement_teeth
   - public_resources_firewall
@@ -34,18 +43,18 @@ reforms_implicated:
 
 # === SCALE ===
 dollars_at_issue: null
-dollars_basis: "Not specified in publicly available LEB docket entry; would require the full complaint and any resulting opinion to quantify."
+dollars_basis: "No dollar amount at issue; the matter concerns content posted on official, taxpayer-supported social media accounts."
 dollars_confirmed_loss: null
 
 # === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "LEB issued advisory opinion on October 27, 2025. Full opinion outcome not independently summarized at the time of this record; LEB advisory opinions are guidance documents that conclude the underlying complaint without imposing sanctions."
+outcome_summary: "On October 27, 2025, the Legislative Ethics Board found reasonable cause to believe Speaker Laurie Jinkins and three House staff (the Chief Clerk, the House Democratic Caucus chief of staff, and its communications director) violated RCW 42.52.160 and .180 by posting personality-style items with no legislative nexus on official social media during the 2025 session. The Board used its discretion not to impose a penalty, dismissed the complaint, and warned it 'will not continue to be so lenient' if such posts continue."
 
 # === RESOLUTION TRACKING ===
 remediation_status: not_required
-remediation_note: "LEB cases are procedural ethics adjudications; structural resolution is tracked at the meta-case level (WA-2026-META-LEB). Individual case disposition is reflected in legal_status and outcome_summary above."
+remediation_note: "LEB cases are procedural ethics adjudications; structural resolution is tracked at the meta-case level (WA-2026-META-LEB)."
 reform_status: none_proposed
-reform_status_note: "Structural reform of LEB enforcement (penalty modernization, staffing, public-hearing frequency) is tracked at the meta-case level (WA-2026-META-LEB)."
+reform_status_note: "Structural reform of LEB enforcement (penalty modernization, staffing, public-hearing frequency) is tracked at the meta-case level (WA-2026-META-LEB). ESSB 5143 (2025) separately clarified the legislative-nexus rules for official social media."
 next_milestone: null
 next_milestone_date: null
 
@@ -53,55 +62,67 @@ next_milestone_date: null
 sources:
   - tier: 1
     type: leb_opinion
-    title: "Legislative Ethics Board — Case 25-09 docket entry: Campaign and use of public resources for Private Gain"
+    title: "Complaint 2025 No. 9, In re Jinkins, Meyers, Waldref & Dean — Reasonable Cause Finding, Order of Dismissal"
+    publisher: Washington State Legislative Ethics Board
+    date: 2025-10-27
+    url: https://leg.wa.gov/media/h5glcmzw/ethicscom202509.pdf
+    quote: >-
+      IT IS HEREBY ORDERED that reasonable cause exists to believe that the
+      named Respondents violated both RCW 42.52.160 and .180 as it existed on
+      the dates of the violations. ... In this matter, the Board does not
+      impose a penalty for these violations; however, if items continue to be
+      posted on official social media sites without the requisite legislative
+      nexus, the Board will not continue to be so lenient.
+  - tier: 1
+    type: leb_opinion
+    title: Complaint Opinion 25-09
     publisher: Washington State Legislative Ethics Board
     date: 2025-10-27
     url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-09/
-    archive_url: http://web.archive.org/web/20260424082310/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-09/ # TODO: archive docket entry and any subsequent opinion
-  # TODO: Add the full Board opinion as a Tier 1 source once issued.
+    archive_url: http://web.archive.org/web/20260424082310/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-09/
 
 # === REFORM LINKAGE ===
 reform_argument: |
-  The LEB docket has a recurring volume of "use of public resources for private
-  gain" and "outside employment" cases (25-04, 25-06, 25-09, 25-10, 25-11, etc.)
-  This pattern suggests the issue is not isolated misconduct but a weak
-  enforcement regime. Three changes would close the gap: (1) meaningful financial
-  penalties tied to a percentage of legislator compensation rather than nominal
-  fines, (2) automatic publication of the full underlying complaint and final
-  opinion in a standardized, machine-readable format, and (3) a structural
-  firewall requiring legislators to certify, per session, that no taxpayer-funded
-  staff or facilities were used for campaign-related activity.
+  The Board found violations by the Speaker and senior House staff, noted that
+  staff had been warned by Board Counsel and House Counsel beforehand, and
+  still imposed no penalty. That is the enforcement pattern the meta-case
+  describes: the Board's discretion runs toward findings without consequences,
+  even for the chamber's top leadership. See [reform: ethics_enforcement_teeth]
+  and [reform: public_resources_firewall].
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:
   - legislative_ethics
   - house_leadership
   - leb_docket
+  - social_media
 ---
 
-**A complaint alleging that House Speaker Laurie Jinkins and others used public resources for campaign purposes was filed with the Washington State Legislative Ethics Board (LEB) in October 2025; no opinion had been issued as of this record's last update.**
+**The Legislative Ethics Board (LEB) found reasonable cause to believe that House Speaker Laurie Jinkins and three senior House staff violated the state ethics law by posting items with no legislative purpose on official social media. It imposed no penalty and closed the case with a warning.**
 
 ## What happened
 
-The Legislative Ethics Board (LEB) docket lists Case 25-09 as filed October 27, 2025, naming House Speaker Laurie Jinkins and additional respondents. The alleged conduct is described as "Campaign and use of public resources for Private Gain."
+A constituent from the 22nd Legislative District filed Complaint 2025 No. 9 on March 20, 2025. It alleged that the respondents posted, or approved posting, items on official legislative social media accounts that amounted to campaign material. The Board discussed it on October 15, 2025, and issued its order October 27, 2025 ([LEB order](https://leg.wa.gov/media/h5glcmzw/ethicscom202509.pdf)).
 
-The LEB's docket entry is the only public document available at this stage. The underlying complaint narrative and any Board opinion are not yet public. No dollar amount is listed in the public record.
+According to the Board's findings, the House Democratic Caucus ran a series of "man on the street" style posts during the 2025 session. Legislators were asked questions like "what music pumps you up?" and about their go-to coffee order. The Senate Republican Caucus raised the posts with House officials during session. Board Counsel then told Chief Clerk Bernard Dean the posts were a concern. The Board found that Dean's response "was to let a complaint be filed and see what the Board would do" ([LEB order](https://leg.wa.gov/media/h5glcmzw/ethicscom202509.pdf)).
 
 ## What the primary source says
 
-The LEB case docket records the filing date, named respondents, and topic classification. The Board had not, as of this record's last update, issued a public opinion resolving the complaint. This entry is based on the docket listing only.
+The Board held that "all items posted on official social media must have a tangible legislative nexus," and that posts extolling a legislator's virtues belong in campaign literature ([LEB 25-09](https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-09/)). It found reasonable cause to believe all four respondents violated RCW 42.52.160 (use of public resources for private benefit) and RCW 42.52.180 (use of public resources for campaigns). It added that the posts would also violate the law as amended by ESSB 5143. The Board said it "is concerned that certain House staff ignored the advice of House Counsel and the Board Counsel."
+
+It then used its discretion to impose no penalty, dismissed the complaint, and warned that "the Board will not continue to be so lenient" if such posts continue ([LEB order](https://leg.wa.gov/media/h5glcmzw/ethicscom202509.pdf)).
 
 ## Status
 
-Complaint filed; under LEB review as of this record. No finding has been issued. This record will be updated when the Board acts and the underlying complaint and opinion become publicly available.
+Closed. Updated October 20, 2026. An earlier version of this record described 25-09 as a complaint filed October 27, 2025 with no opinion issued. That was wrong: October 27 is the date of the Board's order, and the order found reasonable cause on the merits. See the [corrections log](/corrections).
 
 ## Why it's in the registry
 
-The complaint names the Speaker of the Washington State House — a position that warrants a lower inclusion threshold. The case also fits within a documented pattern of similar LEB filings in the 2024-2026 period (Cases 24-06, 25-02, 25-03, 25-04, 25-06, 25-10, 25-11, 25-37, 25-38), several of which involve the same conduct categories. The registry treats the pattern itself as a structural finding, independent of how any individual complaint resolves.
+It is a documented ethics finding against the Speaker of the House and the chamber's senior staff, resolved with no penalty.
 
 ## Reform implication
 
-The LEB system combines low-visibility dockets, modest penalties, and slow public release of opinions. A reform package would make complaints and opinions machine-readable and standardized (so patterns can be tracked without manual docket review), tie financial penalties to a meaningful share of legislator pay, and require positive per-session certification that no public resources were used for campaign activity. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+See the [LEB enforcement meta-case](/cases/leb-enforcement-pattern-meta). See [reform: ethics_enforcement_teeth] and [reform: public_resources_firewall].

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:58:44.766Z",
+  "generated_at": "2026-10-20T08:05:26.079Z",
   "method": "objective metadata scoring per SCHEMA.md",
   "top5": [
     {
@@ -37,7 +37,7 @@
         "tier1=+3",
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2",
-        "xref:2=+2"
+        "xref:3=+2"
       ]
     },
     {

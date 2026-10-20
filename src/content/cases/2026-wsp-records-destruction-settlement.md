@@ -149,7 +149,7 @@ reform_argument: |
   The reform argument is not that auto-deletion is per se unlawful, which Nixon left undecided. The argument is narrower: that when an agency operates under a published litigation-hold rule, allegations of routine automated destruction during active multi-plaintiff litigation, supported by an internal guidance document that frames work communications as deletable transitory records, identify a structural-compliance gap distinct from ordinary slow-walked PRA production. The CJTC intake of the related complaint, if it advances, is the structural-followup mechanism with the most direct authority to prescribe corrective practice for law enforcement agencies statewide.
 
 # === GOVERNANCE METADATA ===
-review_status: draft
+review_status: published
 retraction_note: null
 contributor: vn
 tags:
