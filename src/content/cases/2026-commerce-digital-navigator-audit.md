@@ -8,8 +8,8 @@ slug: commerce-digital-navigator-audit
 date_surfaced: 2026-01-27T00:00:00Z
 date_conduct_start: 2022-01-01T00:00:00Z
 date_conduct_end: 2025-06-30T00:00:00Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-22T00:00:00Z
+last_updated: '2026-10-20'
+last_verified: 2026-10-20T00:00:00Z
 actors:
   - name: Washington State Department of Commerce
     role_type: agency
@@ -53,8 +53,23 @@ outcome_summary: >-
   Commerce paused payments to EEC in February 2025; program ended June 30, 2025.
   Ferguson administration appointed new Commerce leadership; State Auditor noted
   she was 'heartened by the commitment to accountability shown by the agency's
-  new leadership.'
+  new leadership.' SAO's next accountability audit of Commerce (FY2025,
+  published May 28, 2026) did not re-examine the program; Commerce's own
+  status schedule lists both Digital Navigator findings as only partially
+  corrected, with expenditures still under independent third-party review.
 sources:
+  - tier: 1
+    type: sao_report
+    title: >-
+      Accountability Audit Report, Washington State Department of Commerce,
+      July 1, 2024 through June 30, 2025 (Report No. 1039826)
+    publisher: Office of the Washington State Auditor
+    date: 2026-05-28T00:00:00Z
+    url: >-
+      https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=Department%20of%20Commerce_fa195406-b589-4350-8cc8-d69d8a5eebb3.pdf
+    quote: >-
+      The expenditure activity for the Digital Navigator Program is currently
+      being reviewed by an independent third party.
   - tier: 1
     type: sao_report
     title: >-
@@ -163,17 +178,21 @@ tags:
   - federal_grants
   - procurement_bypass
   - subrecipient_monitoring
-remediation_status: implemented_unverified
+remediation_status: in_progress
 reform_status: none_proposed
 remediation_note: >-
   Program shut down June 2025; new Commerce leadership issued April 2026 risk
-  memo; ethics referral made; no independent follow-up audit yet (expected
-  summer 2026).
+  memo; ethics referral made. SAO's FY2025 accountability audit (published
+  May 28, 2026) did not examine the program. In the auditee's summary schedule,
+  Commerce rates findings 2024-001 ($10.7M unsupported EEC reimbursements) and
+  2023-002 ($6.1M to ineligible navigators) as partially corrected, pending an
+  independent third-party review of program expenditures. No public results of
+  that review or of the ethics referral found as of Oct 20, 2026.
 reform_status_note: >-
   Reform is executive action by new Commerce leadership; no legislation filed
   targeting these audit findings.
-next_milestone: SAO accountability audit follow-up (Commerce grant controls)
-next_milestone_date: '2026-09-30'
+next_milestone: Results of independent third-party review of Digital Navigator expenditures
+next_milestone_date: null
 ---
 
 **A Washington State Auditor performance audit published January 27, 2026 (ARN 1038954) found Commerce's Digital Navigator Program — a $92.5 million federal digital equity grant program running from 2022 to 2025 — lacked effective oversight at every stage: non-competitive grant awards, inadequate vetting of grantees, contracts without clear deliverables, failure to monitor grantee performance, and $10.7 million paid to a single grantee without sufficient documentation. Executives bypassed state procurement rules. The program was shut down June 30, 2025.**
@@ -211,6 +230,8 @@ Commerce's public response (January 27, 2026): "In February 2025, shortly after 
 ## Status
 
 SAO performance audit published January 27, 2026. Program shut down June 30, 2025. Potential ethics violation referred to State Ethics Board. Commerce conducting a CPA review of EEC payments. No criminal investigation publicly announced as of this record's last update.
+
+**Update, October 20, 2026.** The expected follow-up came and went without one. SAO's accountability audit of Commerce for July 2024 through June 2025, published May 28, 2026, examined six other high-risk areas and did not test the Digital Navigator Program ([SAO Report 1039826](https://app.leg.wa.gov/ReportsToTheLegislature/Home/GetPDF?fileName=Department%20of%20Commerce_fa195406-b589-4350-8cc8-d69d8a5eebb3.pdf)). In the prior-findings schedule in that report, Commerce lists the $10.7 million unsupported-reimbursement finding (2024-001) and the $6.1 million ineligible-navigator finding (2023-002) as partially corrected and says program expenditures are "currently being reviewed by an independent third party." That is the agency's self-assessment, not an auditor's verification. The registry has not found published results of that review or of the State Ethics Board referral.
 
 ## Why it's in the registry
 

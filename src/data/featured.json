@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T01:35:18.396Z",
+  "generated_at": "2026-10-20T07:49:08.694Z",
   "method": "objective metadata scoring per SCHEMA.md",
   "top5": [
     {
@@ -30,10 +30,24 @@
     },
     {
       "slug": "leb-enforcement-pattern-meta",
-      "score": 11,
+      "score": 13,
       "pinned": true,
       "reasons": [
         "evid:documented=+4",
+        "tier1=+3",
+        "recent<=90d=+2",
+        "severity:criminal_or_structural=+2",
+        "xref:2=+2"
+      ]
+    },
+    {
+      "slug": "ospi-school-funding-it-system",
+      "score": 21,
+      "pinned": false,
+      "reasons": [
+        "legal:audit_finding=+5",
+        "evid:documented=+4",
+        "$30000M>=10M=+5",
         "tier1=+3",
         "recent<=90d=+2",
         "severity:criminal_or_structural=+2"
@@ -41,30 +55,15 @@
     },
     {
       "slug": "dchs-systemic-audit",
-      "score": 23,
+      "score": 21,
       "pinned": false,
       "reasons": [
         "legal:audit_finding=+5",
         "evid:documented=+4",
         "$1800M>=10M=+5",
         "tier1=+3",
-        "recent<=90d=+2",
         "severity:criminal_or_structural=+2",
         "xref:7=+2"
-      ]
-    },
-    {
-      "slug": "sps-garfield-sex-abuse-settlement",
-      "score": 23,
-      "pinned": false,
-      "reasons": [
-        "legal:settled=+5",
-        "evid:documented=+4",
-        "$16M>=10M=+5",
-        "tier1=+3",
-        "recent<=90d=+2",
-        "severity:criminal_or_structural=+2",
-        "xref:2=+2"
       ]
     }
   ]

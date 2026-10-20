@@ -5,8 +5,8 @@ slug: kcrha-forensic-audit
 date_surfaced: 2026-04-22T00:00:00Z
 date_conduct_start: 2021-06-01T00:00:00Z
 date_conduct_end: 2025-07-31T00:00:00Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-20T00:00:00Z
+last_updated: '2026-10-20'
+last_verified: 2026-10-20T00:00:00Z
 actors:
   - name: King County Regional Homelessness Authority
     role_type: agency
@@ -38,11 +38,15 @@ dollars_basis: >-
 dollars_confirmed_loss: 1270000
 legal_status: under_investigation
 outcome_summary: >-
-  Audit released April 22, 2026. KCRHA submitted initial response May 12, 2026;
-  full corrective action plan due May 23, 2026, with follow-ups June 30 and July
-  31. Multiple elected officials (Dembowski, Kettle, Mayor Wilson) have publicly
-  called for dissolution of the agency. Audit identified gift cards, purchase
-  cards, and reimbursements as areas where fraud could occur undetected.
+  Audit released April 22, 2026. KCRHA submitted a corrective action plan May
+  22, 2026; the City and County called it incomplete on June 8 and embedded an
+  outside financial monitor. On July 1, Mayor Wilson and Executive Zahilay
+  announced a plan to keep KCRHA but shrink it: about $159M in locally funded
+  contracts move back to the City and County starting January 2027. An October
+  15, 2026 reconciliation by Turning Point Strategic Advisors put the remaining
+  unresolved funding need at about $16.7M; KCRHA says the reconciliation does
+  not indicate missing or diverted funds. Who covers the gap is unresolved.
+  Final reconciliation is expected in Q1 2027.
 sources:
   - tier: 1
     type: audit
@@ -119,6 +123,85 @@ sources:
     url: >-
       https://www.shorelineareanews.com/2026/04/dembowski-calls-for-dissolution-of.html
     archive_url: http://web.archive.org/web/20260425015831/https://www.shorelineareanews.com/2026/04/dembowski-calls-for-dissolution-of.html
+  - tier: 1
+    type: agency_statement
+    title: KCRHA Corrective Action Plan
+    publisher: King County Regional Homelessness Authority
+    date: 2026-05-22T00:00:00Z
+    url: >-
+      https://kcrha.org/wp-content/uploads/2026/05/KCRHA-Corrective-Action-Plan-05222026.pdf
+  - tier: 1
+    type: agency_statement
+    title: Joint City of Seattle and King County response to the KCRHA corrective action plan
+    publisher: City of Seattle and King County
+    date: 2026-06-08T00:00:00Z
+    url: >-
+      https://content.govdelivery.com/attachments/WAKING/2026/06/08/file_attachments/3677464/Joint%20KCRHA%20CAP%20Response%20June%202026_06082026%20Final.pdf
+  - tier: 1
+    type: agency_statement
+    title: >-
+      Mayor Wilson and Executive Zahilay Announce Immediate Actions to
+      Stabilize, Right Size, and Reset the Regional Homelessness Authority
+    publisher: Office of the Mayor, City of Seattle
+    date: 2026-07-01T00:00:00Z
+    url: >-
+      https://wilson.seattle.gov/2026/07/01/mayor-wilson-and-executive-zahilay-announce-immediate-actions-to-stabilize-right-size-and-reset-the-regional-homelessness-authority/
+    quote: >-
+      The transfer plans will be submitted to the King County and Seattle City
+      Councils by August 1. Contract administration responsibilities will begin
+      transitioning from KCRHA to DCHS and HSD in January 2027.
+  - tier: 1
+    type: agency_statement
+    title: KCRHA Contract Transition Plan (King County)
+    publisher: King County Executive
+    date: 2026-08-03T00:00:00Z
+    url: >-
+      https://executive-488ce56859-deajfee8ara2fnff.a02.azurefd.net/blobexecutive488ce56859/wp-content/uploads/2026/08/A.-KCRHA-Contract-Transition-Plan.pdf
+    quote: >-
+      Consistent with the Executive's prior public statements about needing
+      KCRHA to continue to serve as a key regional partner, the Executive
+      respectfully requests that the King County Council not take action at
+      this time to dissolve KCRHA.
+  - tier: 1
+    type: agency_statement
+    title: 'KCRHA Financial Update: External Review Findings'
+    publisher: King County Regional Homelessness Authority
+    date: 2026-10-15T00:00:00Z
+    url: 'https://kcrha.org/news-kcrha-financial-update-external-review-findings/'
+    quote: >-
+      Based on the reconciliation completed from the agency's inception in 2021
+      through July 31, 2026, the current estimate of the remaining unresolved
+      funding need is approximately $16.7 million.
+  - tier: 1
+    type: agency_statement
+    title: >-
+      Seattle Councilmember Rivera, County Councilmember Dembowski speak out
+      after learning of nearly $17 million in KCRHA debt
+    publisher: Seattle City Council
+    date: 2026-10-15T00:00:00Z
+    url: >-
+      https://council.seattle.gov/2026/10/15/seattle-councilmember-rivera-county-councilmember-dembowski-speak-out-after-learning-of-nearly-17-million-in-kcrha-debt/
+    quote: >-
+      Those resolutions are on hold as the City and County continue to explore
+      potential next steps and how to address the region's need to address
+      homelessness.
+  - tier: 2
+    type: news
+    title: >-
+      Renewed calls to dissolve KCRHA after loss of nearly $17 million in
+      unrecoverable funds
+    publisher: KOMO News
+    author: Chris Daniels
+    date: 2026-10-15T00:00:00Z
+    url: >-
+      https://komonews.com/news/local/renewed-calls-to-dissolve-kcrha-king-county-regional-homelessness-authority-after-loss-of-nearly-17-million-in-unrecoverable-funds-accounting-finances
+  - tier: 2
+    type: news
+    title: Seattle, King County plan to reclaim nearly $160M in homelessness contracts from KCRHA
+    publisher: KIRO 7
+    date: 2026-08-04T00:00:00Z
+    url: >-
+      https://www.kiro7.com/news/local/seattle-king-county-plan-reclaim-nearly-160m-homelessness-contracts-kcrha/IXU34AY7S5AG5HRCLRCRZ6DDMQ/
 reform_argument: |
   The Clark Nuber audit identified the absence of a formal internal control
   framework, undefined financial leadership roles, and the same-person approve-
@@ -146,14 +229,20 @@ tags:
 remediation_status: in_progress
 reform_status: bill_introduced
 remediation_note: >-
-  CAP submitted May 8/12, 2026; KC Council initiated 90-day dissolution process
-  April 28; Seattle Council resolution May 15 requests mayor recommendation by
-  Aug 1.
+  CAP submitted May 22, 2026, with 30/60/90-day progress reports posted June
+  24, July 22, and August 21. The City and County's June 8 response called the
+  CAP incomplete. An independent financial monitor is embedded at KCRHA through
+  the end of 2026. Remediation is agency-reported; no independent follow-up
+  audit has been published.
 reform_status_note: >-
-  KC dissolution ordinance introduced April 28, 2026; IG ordinance 2026-0101
-  introduced same day; neither has received final vote.
-next_milestone: Seattle Mayor recommendation on KCRHA successor structure
-next_milestone_date: '2026-08-01'
+  Dembowski and Rivera introduced companion resolutions to dissolve KCRHA in
+  April 2026; per the Seattle City Council (Oct 15, 2026) they remain on hold.
+  The structural change underway is executive-led: contract administration
+  returns to King County DCHS and Seattle HSD starting January 2027, and the
+  County Executive asked the County Council not to dissolve KCRHA. IG ordinance
+  2026-0101 status not re-verified in this update.
+next_milestone: Contract administration begins moving from KCRHA to the City and County
+next_milestone_date: '2027-01-01'
 ---
 
 **A forensic audit found that Seattle and King County's homelessness agency, the King County Regional Homelessness Authority (KCRHA), could not account for $13 million in public funds and was carrying a $44.7 million negative cash position — with no fraud found, but also no basic financial controls in place.**
@@ -184,9 +273,17 @@ The audit **did not find fraud**. But it flagged gift cards, purchase cards, emp
 
 ## Status
 
-KCRHA submitted an initial response on May 12, 2026. CEO Kelly Kinnison stated the agency would review each transaction to track down the $8 million in unreconciled funds. A full corrective action plan was due May 23, 2026, with follow-up reports due June 30 and July 31, 2026.
+Updated October 20, 2026.
 
-Multiple elected officials called publicly for the agency to be dissolved, including King County Councilmember Rod Dembowski, Seattle Councilmember Bob Kettle, and Seattle Mayor Katie Wilson. The KCRHA Governance Committee met April 25, 2026, to weigh next steps.
+**KCRHA survives, but much smaller.** On July 1, 2026, Seattle Mayor Katie Wilson and King County Executive Girmay Zahilay announced a three-step plan to "stabilize, right size, and reset" the agency rather than dissolve it ([Office of the Mayor](https://wilson.seattle.gov/2026/07/01/mayor-wilson-and-executive-zahilay-announce-immediate-actions-to-stabilize-right-size-and-reset-the-regional-homelessness-authority/)). Under the August 3 transition plans, Seattle's Human Services Department takes back 117 contracts worth about $112.8 million and King County's Department of Community and Human Services takes back 100 contracts worth $46.3 million, starting January 2027 ([KIRO 7](https://www.kiro7.com/news/local/seattle-king-county-plan-reclaim-nearly-160m-homelessness-contracts-kcrha/IXU34AY7S5AG5HRCLRCRZ6DDMQ/)). KCRHA keeps its federal Continuum of Care role, the Point-in-Time Count, Coordinated Entry, and the Homeless Management Information System. The County plan asks the County Council not to dissolve KCRHA at this time ([King County transition plan](https://executive-488ce56859-deajfee8ara2fnff.a02.azurefd.net/blobexecutive488ce56859/wp-content/uploads/2026/08/A.-KCRHA-Contract-Transition-Plan.pdf)).
+
+**The corrective action plan.** KCRHA submitted its plan May 22, 2026 ([KCRHA](https://kcrha.org/wp-content/uploads/2026/05/KCRHA-Corrective-Action-Plan-05222026.pdf)). The City and County's June 8 joint response called it incomplete and set further deadlines ([joint response](https://content.govdelivery.com/attachments/WAKING/2026/06/08/file_attachments/3677464/Joint%20KCRHA%20CAP%20Response%20June%202026_06082026%20Final.pdf)). An independent financial monitoring firm is embedded at KCRHA through the end of 2026.
+
+**The new number: about $16.7 million.** On October 15, 2026, KCRHA published the results of a reconciliation by Turning Point Strategic Advisors covering 2021 through July 31, 2026. It puts the "remaining unresolved funding need" at approximately $16.7 million and says the figure "is not an estimate of administrative overspending" ([KCRHA](https://kcrha.org/news-kcrha-financial-update-external-review-findings/)). KCRHA also states the reconciliation "does not indicate that the shortfall represents missing or diverted funds." That is the agency's description of its consultant's work, not an independent audit finding. Who pays the balance has not been decided, and the final reconciliation is expected in Q1 2027. Executive Zahilay and Mayor Wilson called the balance "unacceptable" ([KOMO News](https://komonews.com/news/local/renewed-calls-to-dissolve-kcrha-king-county-regional-homelessness-authority-after-loss-of-nearly-17-million-in-unrecoverable-funds-accounting-finances)).
+
+**Dissolution.** Seattle Councilmember Maritza Rivera and King County Councilmember Rod Dembowski introduced companion resolutions to dissolve KCRHA in April 2026 and renewed that call after the October numbers. Per the Seattle City Council, those resolutions are on hold ([Seattle City Council](https://council.seattle.gov/2026/10/15/seattle-councilmember-rivera-county-councilmember-dembowski-speak-out-after-learning-of-nearly-17-million-in-kcrha-debt/)).
+
+**Earlier record (April–May 2026).** KCRHA submitted an initial response on May 12, 2026; CEO Kelly Kinnison said the agency would review each transaction to track down the $8 million in unreconciled funds. Councilmembers Dembowski and Kettle publicly called for dissolution. Mayor Wilson said "All options are on the table" ([West Seattle Blog](https://westseattleblog.com/2026/04/the-agency-is-unable-to-account-for-13-million-in-public-funds-what-the-mayor-says-about-regional-homelessness-agency-review-results/)); she did not call for dissolution, and her later plan kept the agency.
 
 ## Why it's in the registry
 

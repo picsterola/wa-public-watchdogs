@@ -8,8 +8,8 @@ slug: leb-enforcement-pattern-meta
 date_surfaced: 2026-05-23T00:00:00Z
 date_conduct_start: 2015-01-01T00:00:00Z
 date_conduct_end: 2026-05-23T00:00:00Z
-last_updated: 2026-05-23T00:00:00Z
-last_verified: 2026-05-23T00:00:00Z
+last_updated: 2026-10-20T00:00:00Z
+last_verified: 2026-10-20T00:00:00Z
 actors:
   - name: Washington State Legislative Ethics Board (LEB)
     role_type: agency
@@ -41,13 +41,15 @@ outcome_summary: >-
   through May 2026, confirmed violation findings with imposed fines number
   approximately 10–14 cases. Typical fines are $250–$500, often with a
   portion suspended. The statutory maximum penalty of $5,000 per violation
-  (RCW 42.52.480) has been imposed once (Stambaugh, 2017) and has not been
+  (RCW 42.52.480) was imposed once before 2026 (Stambaugh, 2017) and then on
+  all three counts in Simmons (25-05, August 2026); the cap has not been
   adjusted for inflation since the Ethics in Public Service Act was enacted
   in 1994 — losing roughly half its real value. No prosecution referral
   under RCW 42.52.470(2) is documented in the public record for the period
   studied. Adjudicative public hearings have occurred approximately twice in
   32 years (Stambaugh 2017; Simmons June 2026), with prior hearings going
-  back to roughly 1994. The board has one staff attorney (Board Counsel
+  back to roughly 1994. The Simmons hearing produced $15,000 in penalties and
+  $37,457.98 in costs; Simmons is seeking court review. The board has one staff attorney (Board Counsel
   Jennifer Strus since 2018) who handles 500+ informal ethics inquiries,
   ~15 trainings, and ~12 formal complaint resolutions per year. Four of
   nine board members are sitting legislators — the same population subject
@@ -74,8 +76,8 @@ reform_status_note: >-
   referral framework, or the staffing model has not been independently
   verified by the registry as of last verification. Logged as
   bill_introduced pending follow-up.
-next_milestone: Outcome of Simmons (25-38) public hearing, June 8–9, 2026
-next_milestone_date: 2026-06-08
+next_milestone: Thurston County Superior Court review of the Simmons (25-05) final order
+next_milestone_date: null
 sources:
   - tier: 1
     type: agency_statement
@@ -254,6 +256,16 @@ sources:
       separate from the LEB complaint process and resulted in House
       Republican Caucus suspending Shea. The LEB itself declined jurisdiction
       over the same conduct (opinion 19-05).
+  - tier: 1
+    type: leb_opinion
+    title: "In re Tarra Simmons, LEB No. 2025-5 — Findings of Fact, Conclusions of Law, and Final Order with Costs"
+    publisher: Washington State Legislative Ethics Board
+    date: 2026-08-28T00:00:00Z
+    url: https://leg.wa.gov/media/jdzoy2qi/ethicscom202505.pdf
+    quote: >-
+      it is hereby ordered that Respondent Rep. Simmons is assessed a civil
+      penalty of $5,000 per violation, for a total monetary civil penalty of
+      $15,000 based on her violations of RCW 42.52.020 and RCW 42.52.070.
 reform_argument: >-
   The accountability question this meta-case poses is whether the
   Legislative Ethics Board, as currently constituted, can credibly deter the
@@ -340,9 +352,9 @@ featured_pin: true
 
 The Washington State Legislative Ethics Board is the body responsible for policing conflicts of interest, use of public resources for political campaigns, gift limits, outside employment restrictions, and related conduct by every member and employee of the Washington State Legislature. It is the enforcement infrastructure for the ethics rules legislators wrote for themselves in 1994. Whether it works as designed, or whether the design itself has aged into structural toothlessness, is a question that has never been answered in one place.
 
-The registry currently logs 15 individual LEB cases from 2024 through 2026 across its docket. Each one is descriptive: this complaint was filed, this disposition issued, this fine (or non-fine) imposed. Read individually, none of those 15 cases tells a story. Read together as a pattern, alongside the broader 32-year LEB enforcement record and a peer-state benchmark, they become evidence for a structural question the individual cases cannot answer.
+The registry currently logs 16 individual LEB cases from 2024 through 2026 across its docket. Each one is descriptive: this complaint was filed, this disposition issued, this fine (or non-fine) imposed. Read individually, none of those 16 cases tells a story. Read together as a pattern, alongside the broader 32-year LEB enforcement record and a peer-state benchmark, they become evidence for a structural question the individual cases cannot answer.
 
-This meta-case is that aggregation. The 15 individual case files remain as evidence base. This file carries the structural argument.
+This meta-case is that aggregation. The 16 individual case files remain as evidence base. This file carries the structural argument.
 
 ## What the record actually shows
 
@@ -350,8 +362,8 @@ This meta-case is that aggregation. The 15 individual case files remain as evide
 
 - Confirmed violation findings with imposed fines: approximately 10–14 cases
 - Typical imposed fine: $250–$500, often with a portion suspended
-- Cumulative fines since 2015: approximately $13,000–$15,000
-- Statutory maximum penalty ($5,000) imposed: once (Stambaugh, 2017)
+- Cumulative fines since 2015: approximately $13,000–$15,000 through May 2026, before the $15,000 Simmons penalty
+- Statutory maximum penalty ($5,000) imposed: once before 2026 (Stambaugh, 2017), then on three counts in Simmons (25-05, August 2026)
 - Prosecution referrals under RCW 42.52.470(2): zero documented
 - Adjudicative public hearings: approximately two in 32 years (Stambaugh 2017; Simmons June 2026; prior ~1994)
 - Staff: one attorney (Board Counsel Jennifer Strus since 2018)
@@ -374,7 +386,7 @@ What is comparable: the statutory frameworks, the maximum penalty levels, and th
 | Cases opened (2024) | ~12 published opinions | 272 |
 | Fines collected (2021–23 biennium) | Not separately reported | ~$54,974 |
 | Penalty matrix | None published; case-by-case | Published OAR 199, scaled by violation type |
-| Highest single recent penalty | $5,000 (2017) | ~$20,000 (stacked, recent) |
+| Highest single recent penalty | $15,000 (3 × $5,000, Simmons 2026) plus $37,458 costs | ~$20,000 (stacked, recent) |
 
 The structural distinctions are real even adjusted for jurisdiction scale: Oregon doubled its willful-violation cap; Washington did not. Oregon publishes a graduated penalty matrix; Washington does not. Oregon's commission can directly remove appointed officials; Washington's can only recommend. Oregon has a standing investigative staff; Washington has Jennifer Strus and her training calendar.
 
@@ -388,17 +400,17 @@ The registry's narrow claim is that an enforcement body operating under 1994 par
 
 ## What we are watching next
 
-1. **Simmons (25-38) public hearing, June 8–9, 2026.** The first LEB adjudicative public hearing in approximately a decade. The procedural conduct of the hearing, the disposition, and the fine (or non-fine) imposed will be a substantive data point about how the board operates when forced into the formal adjudicative track it almost never uses.
+1. **Simmons (25-05) court review.** The June 8–9, 2026 hearing, the first LEB adjudicative public hearing in about a decade, ended with three sustained violations, the $5,000 maximum on each, and $37,457.98 in staff costs ([LEB final order](https://leg.wa.gov/media/jdzoy2qi/ethicscom202505.pdf)). The data point cuts both ways. When forced onto the formal track, the Board used the full penalty it had. But three maximum fines still came to less than half of what the case cost the state, which is the 1994 cap at work. Simmons has sought review in Thurston County Superior Court; how a court treats the Board's findings and process is the next test. Note: an earlier version of this page mislabeled this hearing as case 25-38. See [LEB 25-05](/cases/leb-25-05-simmons-conflict-special-privileges).
 
 2. **SB 5143 (2025 session).** The LEB's 2024 annual report referenced legislation to update portions of the Ethics Act unchanged since 1994. Scope, status, and fate of the bill is a follow-up the registry will track. If the bill modernizes the penalty cap, that materially changes the structural picture.
 
 3. **OGEC penalty trajectory.** Oregon's 2025–27 biennium projections are visible. Whether Washington's enforcement output diverges further from the Oregon benchmark is a comparative question the registry can track without picking sides in any individual case.
 
-4. **The 15 individual LEB cases in this registry.** Each remains independently logged. Resolution tracking on those individual files defers to this meta-case for structural reform status; individual cases close as the board closes them.
+4. **The 16 individual LEB cases in this registry.** Each remains independently logged. Resolution tracking on those individual files defers to this meta-case for structural reform status; individual cases close as the board closes them.
 
 ## Evidence base — individual LEB cases in this registry
 
-The following 15 cases are the descriptive evidence base for this meta-case. Each is logged independently in the registry:
+The following 16 cases are the descriptive evidence base for this meta-case. Each is logged independently in the registry:
 
 - [LEB Case 24-01 — Saldaña, public resources](/cases/leb-24-01-saldana-public-resources)
 - [LEB Case 24-06 — Mullet, public resources](/cases/leb-24-06-mullet-public-resources)
@@ -414,4 +426,5 @@ The following 15 cases are the descriptive evidence base for this meta-case. Eac
 - [LEB Case 25-10 — Troyer/Wirtz, public resources](/cases/leb-25-10-troyer-wirtz-public-resources)
 - [LEB Case 25-11 — Alvarado, outside employment](/cases/leb-25-11-alvarado-outside-employment)
 - [LEB Case 25-37 — Parshley, conflict](/cases/leb-25-37-parshley-conflict)
-- [LEB Case 25-38 — Simmons, special privileges](/cases/leb-25-38-simmons-special-privileges)
+- [LEB Case 25-05 — Simmons, conflict of interest and special privileges (adjudicated)](/cases/leb-25-05-simmons-conflict-special-privileges)
+- [LEB Case 25-38 — Simmons, Facebook-post complaint (dismissed)](/cases/leb-25-38-simmons-special-privileges)

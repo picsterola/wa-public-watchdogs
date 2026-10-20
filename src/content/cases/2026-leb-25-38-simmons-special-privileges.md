@@ -1,13 +1,13 @@
 ---
 # === IDENTITY ===
 id: WA-2026-038
-title: "LEB Case 25-38 — Rep. Tarra Simmons, alleged special privileges"
+title: "LEB Case 25-38 — Rep. Tarra Simmons, Facebook-post complaint dismissed for lack of jurisdiction"
 slug: leb-25-38-simmons-special-privileges
 date_surfaced: 2026-05-03
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-28
-last_verified: 2026-05-20
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -32,7 +32,7 @@ dollars_confirmed_loss: null
 
 # === STATUS ===
 legal_status: closed_no_action
-outcome_summary: "LEB issued opinion on May 3, 2026. Full opinion outcome not independently confirmed at the time of this record."
+outcome_summary: "Dismissed May 3, 2026. The complaint alleged Simmons harassed the complainant by posting on her personal Facebook page that he had filed a bogus ethics complaint. The Board held it lacks jurisdiction over posts on personal social media accounts, and that the complainant's occasional work with legislators did not bring him within the special-privileges statute's definition of work environment."
 
 # === RESOLUTION TRACKING ===
 remediation_status: not_required
@@ -51,25 +51,16 @@ sources:
     date: 2026-05-03
     url: https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/
     archive_url: http://web.archive.org/web/20260518165437/https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/
-  - tier: 2
-    type: news
-    title: "Complaint alleges WA Rep. Simmons misused campaign funds"
-    publisher: InvestigateWest
-    author: null
-    date: 2026-01-21
-    url: https://www.investigatewest.org/complaint-against-wa-rep-tarra-simmons-alleges-misuse-of-30-000-in-campaign-funds/
-    archive_url: http://web.archive.org/web/20260521172522/https://www.investigatewest.org/complaint-against-wa-rep-tarra-simmons-alleges-misuse-of-30-000-in-campaign-funds/
 
 # === REFORM LINKAGE ===
 reform_argument: |
-  Case 25-38 addresses special privileges, a category the LEB has handled for
-  multiple legislators over the 2023-2026 period. The LEB's opinion also addresses
-  jurisdictional limits — indicating that some aspects of the conduct alleged may
-  fall outside the LEB's statutory authority. Clarifying the jurisdictional
-  boundaries of the LEB alongside creating alternative complaint pathways (e.g.,
-  to the PDC for campaign-fund misuse) would ensure conduct falling at the
-  intersection of legislative and campaign activity is fully covered by some
-  enforcement body.
+  Case 25-38 is a jurisdictional dismissal: the LEB held that a legislator's
+  posts on a personal social media account fall outside the Ethics Act. That
+  line is defensible under RCW 42.52, but it means a legislator's public
+  statements about a complainant are policed only if they run through
+  legislative channels. In the separate case 25-05, the Board did sanction
+  Simmons for attempted retaliation against a different complainant because
+  it ran through her legislative influence.
 
 # === GOVERNANCE METADATA ===
 review_status: published
@@ -79,34 +70,32 @@ tags:
   - legislative_ethics
   - leb_docket
   - special_privileges
-  - campaign_finance
+  - jurisdiction
   - house
 ---
 
-**The Washington State Legislative Ethics Board (LEB) reviewed a complaint alleging Rep. Tarra Simmons used $30,000 in leftover campaign funds to donate to organizations with which she had personal connections — and found at least part of the complaint fell outside its legal authority to decide.**
+**The Legislative Ethics Board (LEB) dismissed a complaint that Rep. Tarra Simmons harassed the person who had filed an earlier ethics complaint against her by calling it "bogus" on her personal Facebook page. The Board said it has no jurisdiction over personal social media posts.**
 
 ## What happened
 
-The Legislative Ethics Board (LEB) issued Opinion 25-38 on May 3, 2026, concerning a complaint against Rep. Tarra Simmons. The complaint is alleged to involve the use of surplus campaign funds; a formal LEB opinion on this date indicates the matter was reviewed and decided.
-
-InvestigateWest reported in January 2026 that the underlying complaint alleged Simmons donated $30,000 in two installments from leftover campaign funds to a Nevada-based nonprofit called Better Minds Better Communities, an organization with which she allegedly had personal ties.
-
-The LEB docket identifies the case subject as "Special Privileges and Lack of Subject Matter Jurisdiction" — meaning the Board determined that at least part of the conduct alleged fell outside its legal authority to review.
+The complainant in this matter alleged that Simmons violated the Ethics Act by posting on her personal Facebook page an accusation that he had filed a bogus ethics complaint against her, and that this amounted to harassment in a "work environment" under the special-privileges statute ([LEB 25-38](https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/)).
 
 ## What the primary source says
 
-The LEB's publicly posted opinion index records the case number, date, respondent, and subject matter. The docket's jurisdictional notation indicates the Board resolved some or all of the complaint on the grounds that it lacked the authority to decide it. The full opinion text — which would confirm the precise findings — has not been independently reviewed for this record.
-
-InvestigateWest (January 2026) reported the underlying allegations; that coverage is the source for the $30,000 figure and the Nevada nonprofit connection.
+The Board answered no on both questions. It "lacks jurisdiction over posts legislators make on personal social media accounts," and although the complainant "works with legislators on occasion, it is not sufficient to bring him within the definition of 'work environment' in the special privileges statute" ([LEB 25-38](https://leg.wa.gov/about-the-legislature/ethics/ethics-complaint-opinions/25-38/)).
 
 ## Status
 
-LEB opinion issued May 3, 2026. The case is alleged; the Board's full findings have not been independently confirmed. This record will be updated when the full opinion text is reviewed.
+Closed. Updated October 20, 2026.
+
+An earlier version of this record said 25-38 concerned $30,000 in surplus campaign-fund donations to a Nevada nonprofit, citing InvestigateWest. That was wrong. That reporting concerned a different complaint, and 25-38 is about the Facebook post. See the [corrections log](/corrections).
+
+The separate and much larger Simmons matter, Complaint 25-05, went to a public hearing in June 2026 and ended with three sustained violations and $52,457.98 in penalties and costs. Simmons is seeking court review. See [LEB 25-05 — Simmons](/cases/leb-25-05-simmons-conflict-special-privileges).
 
 ## Why it's in the registry
 
-This is a documented LEB proceeding involving an elected state Representative, alleged surplus campaign fund donations to personally connected organizations, and a special-privileges allegation. What makes it notable beyond the specific allegation is the LEB's jurisdictional finding: if part of the conduct falls outside LEB authority, it may also fall into a gap where neither the LEB nor the Public Disclosure Commission (PDC) reviews it.
+It is part of the LEB docket the registry tracks, and it marks the edge of the Board's jurisdiction over legislators' public speech.
 
 ## Reform implication
 
-Campaign finance and legislative ethics sit in adjacent regulatory jurisdictions. When conduct straddles both, it can fall into the gap between them — the LEB declines jurisdiction, and the PDC may not be automatically notified. A referral mechanism requiring the LEB to forward complaints outside its jurisdiction to the PDC (or other relevant body) would ensure no conduct of this type goes unreviewed. See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].
+See the [LEB enforcement meta-case](/cases/leb-enforcement-pattern-meta). See [reform: ethics_enforcement_teeth] and [reform: leb_transparency].

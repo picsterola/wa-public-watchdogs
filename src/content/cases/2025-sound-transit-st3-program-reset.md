@@ -6,8 +6,8 @@ slug: sound-transit-st3-program-reset
 date_surfaced: 2025-08-28
 date_conduct_start: 2016-11-08
 date_conduct_end: null
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 # 2026-05-21: Wassmer name corrected (was "Victoria Wass"); Constantine party set to D; legal_status changed from under_investigation to no_action (program reset is internal agency process, not external investigation); Sound Transit affordability page added as Tier 1 agency_statement to support documented evidentiary status.
 
 # === ACTORS ===
@@ -50,15 +50,15 @@ dollars_confirmed_loss: null
 
 # === STATUS ===
 legal_status: no_action
-outcome_summary: "Sound Transit announced a formal 'program reset' process to determine which ST3 projects to build, delay, or descope within existing taxing authority. No new voter-approved funding increase has been sought. As of March 2026, the board is working through scope/sequencing decisions. No external investigation, audit referral, or enforcement action is underway; this is an internal agency planning process. The West Seattle Link Extension (WA-2025-ST-WSL) is one of several projects affected; this record covers the program-wide shortfall."
+outcome_summary: "On May 28, 2026, the Sound Transit Board adopted an updated ST3 System Plan (Resolution R2026-11) by a 16-2 vote. No projects were canceled outright, but ten projects (mostly parking and access improvements) were deferred, Ballard Link is funded only to Seattle Center, and West Seattle Link proceeds without Avalon Station. The Urbanist reports $9.3B to $11.3B in savings or new revenue is still needed to finish the major 2016 ST3 projects. No new voter-approved funding has been sought. This is an internal agency planning process; no external investigation or enforcement action is underway. The West Seattle Link Extension (WA-2025-ST-WSL) is tracked separately."
 
 # === RESOLUTION TRACKING ===
 remediation_status: in_progress
-remediation_note: "Sound Transit Board retreat March 2026 evaluated three approaches to close the $34.5B program-wide shortfall; full ST3 recalibration vote scheduled for May 2026 per The Urbanist, March 23, 2026."
-reform_status: bill_in_committee
-reform_status_note: "SB 6148 (bond term flexibility for transit authorities) introduced in 2026 session per Transportation Choices Coalition, January 28, 2026."
-next_milestone: null
-next_milestone_date: null
+remediation_note: "Board adopted the updated ST3 System Plan May 28, 2026 (R2026-11), replacing the March 2026 retreat options. The resolution directs the CEO to present an adaptive program management plan by Q4 2026; an updated Long-Range Financial Plan is also due Q4 2026 under Motion M2025-36. Agency projections, not an independent review."
+reform_status: bill_died
+reform_status_note: "SB 6148 (75-year bond terms for regional transit authorities) passed the Senate 29-20 on Feb 11, 2026, stalled in House Transportation, and was returned to Senate Rules on March 12, 2026, ending it for the 2025-26 biennium. An attempt to add the provision to ESHB 2711 was stripped on the Senate floor (The Urbanist)."
+next_milestone: Sound Transit CEO presents the adaptive program management plan (due Q4 2026)
+next_milestone_date: 2026-12-31
 
 # === SOURCES ===
 sources:
@@ -104,6 +104,46 @@ sources:
     date: 2026-01-28
     url: https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/
     archive_url: http://web.archive.org/web/20260209145314/https://transportationchoices.org/build-the-damn-trains-how-senate-bill-6148-could-help-deliver-sound-transit-3-projects/
+  - tier: 1
+    type: agency_statement
+    title: "Resolution No. R2026-11: Updating the ST3 System Plan"
+    publisher: Sound Transit Board of Directors
+    date: 2026-05-28
+    url: https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2026/Resolution%20R2026-11.pdf
+    quote: "Directs the CEO to establish an adaptive program management plan and approach to ensure program affordability challenges are more actively and transparently managed in the future with direction to present how this plan will be implemented by Q4 2026."
+  - tier: 1
+    type: agency_statement
+    title: "Achieving long-term affordability: ST3 System Plan update"
+    publisher: Sound Transit
+    date: 2026-05-28
+    url: https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability/st3-system-plan-update
+  - tier: 1
+    type: agency_statement
+    title: "SB 6148 (2025-26): Modifying the maximum terms of regional transit authority bond issues — bill history"
+    publisher: Washington State Legislature
+    date: 2026-03-12
+    url: https://app.leg.wa.gov/billsummary/?BillNumber=6148&Year=2026
+  - tier: 2
+    type: news
+    title: "Sound Transit Board OKs Major ST3 Update, Casting Ballard into Limbo"
+    publisher: The Urbanist
+    author: Ryan Packer and Doug Trumm
+    date: 2026-05-28
+    url: https://www.theurbanist.org/sound-transit-board-oks-major-st3-update-casting-ballard-into-limbo/
+    quote: "The final vote to recalibrate the plan was approved 16-2, with Seattle Councilmember Dan Strauss and King County Councilmember Claudia Balducci voting no."
+  - tier: 2
+    type: news
+    title: "Sound Transit to provide update on delayed Ballard light rail project"
+    publisher: KIRO 7
+    date: 2026-10-19
+    url: https://www.kiro7.com/news/local/sound-transit-provide-update-delayed-ballard-light-rail-project/DW7GUUIWJREYHLZ66GWD5NAEIE/
+  - tier: 2
+    type: news
+    title: "Washington Legislature Delivers Sound Transit a One-Two Punch in 2026"
+    publisher: The Urbanist
+    author: Ryan Packer
+    date: 2026-03-13
+    url: https://www.theurbanist.org/washington-legislature-delivers-multiple-blows-to-sound-transit-in-2026/
 
 # === REFORM LINKAGE ===
 reform_argument: |
@@ -152,7 +192,15 @@ The figures come from Sound Transit board materials and staff briefings reported
 
 ## Status
 
-Sound Transit is working through the program reset as of this record's last update. No new voter-approved funding has been sought. Individual project decisions — including the West Seattle Link Extension covered in case WA-2025-ST-WSL — are being made within this broader process. No external investigation or audit referral has been opened.
+Updated October 20, 2026.
+
+**The reset is adopted.** On May 28, 2026, the Sound Transit Board passed Resolution R2026-11 updating the ST3 System Plan ([Sound Transit](https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability/st3-system-plan-update)). The vote was 16-2, with Seattle Councilmember Dan Strauss and King County Councilmember Claudia Balducci voting no ([The Urbanist](https://www.theurbanist.org/sound-transit-board-oks-major-st3-update-casting-ballard-into-limbo/)). Sound Transit's own summary lists what is affordable within existing resources, including West Seattle Link without Avalon Station and Ballard Link only as far as Seattle Center. Ballard from Seattle Center to Market Street is "not currently affordable," and ten projects, mostly parking and access improvements plus the Sounder South platform extensions, are deferred ([Sound Transit](https://www.soundtransit.org/get-to-know-us/achieving-long-term-affordability/st3-system-plan-update)).
+
+**The gap isn't closed.** According to The Urbanist, the adopted plan still leaves $9.3 billion to $11.3 billion in savings or new revenue to find before the major 2016 ST3 projects can be finished ([The Urbanist](https://www.theurbanist.org/sound-transit-board-oks-major-st3-update-casting-ballard-into-limbo/)). KIRO 7 reports Ballard is now not expected before 2042 and West Seattle has slipped from 2030 to 2035 ([KIRO 7](https://www.kiro7.com/news/local/sound-transit-provide-update-delayed-ballard-light-rail-project/DW7GUUIWJREYHLZ66GWD5NAEIE/)). Sound Transit staff told the Board that any Ballard date "will be unreliable, at least until we reach baselining in early 2029."
+
+**The state financing tool died.** SB 6148, which would have let Sound Transit issue bonds of up to 75 years, passed the Senate 29-20 but stalled in House Transportation and was returned to Senate Rules on March 12, 2026 ([Washington State Legislature](https://app.leg.wa.gov/billsummary/?BillNumber=6148&Year=2026)). An attempt to attach the provision to ESHB 2711 was pulled on the Senate floor ([The Urbanist](https://www.theurbanist.org/washington-legislature-delivers-multiple-blows-to-sound-transit-in-2026/)).
+
+**Next.** The resolution directs the CEO to present an adaptive program management plan by Q4 2026, meant to catch cost growth earlier ([Resolution R2026-11](https://www.soundtransit.org/st_sharepoint/download/sites/PRDA/FinalRecords/2026/Resolution%20R2026-11.pdf)). No external investigation or audit referral has been opened.
 
 ## Why it's in the registry
 
