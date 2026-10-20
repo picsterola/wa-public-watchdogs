@@ -7,8 +7,8 @@ slug: dcyf-ofco-annual-findings
 date_surfaced: 2024-11-01T00:00:00.000Z
 date_conduct_start: 2024-01-01T00:00:00.000Z
 date_conduct_end: 2024-12-31T00:00:00.000Z
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency

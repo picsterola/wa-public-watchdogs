@@ -1,13 +1,13 @@
 ---
 id: WA-2024-ONE-WASHINGTON
 title: >-
-  One Washington ERP — SAO finds $465M+ statewide financial system project lacks
-  contingency plan, schedule risks ahead of July 2025 launch
+  One Washington ERP — SAO flagged unfinished contingency plans and schedule
+  risk on $465M core-financials phase; July 2025 launch later postponed to 2027-28
 slug: one-washington-erp-risks
 date_surfaced: 2024-08-20T00:00:00.000Z
 date_conduct_start: 2018-01-01T00:00:00.000Z
-last_updated: '2026-05-23'
-last_verified: 2026-05-21T00:00:00.000Z
+last_updated: '2026-10-20'
+last_verified: 2026-10-20T00:00:00.000Z
 actors:
   - name: Washington State Office of Financial Management
     role_type: agency
@@ -43,8 +43,8 @@ outcome_summary: >-
   2024, with the July 1, 2025 go-live 11 months away. Schedule delays had
   compressed time for critical testing and end-user training. One Washington
   disputed the framing, noting contingency planning work was scheduled to begin
-  August 2024 after the audit period. The July 2025 go-live proceeded.
-  Post-launch outcome status is open for follow-up.
+  August 2024 after the audit period. The July 2025 go-live did not happen;
+  the launch window is now October 2027 to October 2028.
 sources:
   - tier: 1
     type: sao_report
@@ -103,23 +103,23 @@ tags:
 remediation_status: in_progress
 reform_status: rulemaking_in_progress
 remediation_note: >-
-  July 2025 go-live did not happen; OFM restructured $776M project in January
-  2026; new Phase 1A launch date 2027 at earliest; $120M additional funding
-  requested.
+  July 2025 go-live did not happen. In December 2025 OFM restructured the
+  $776M program; Phase 1A now launches in a staggered window from October 2027
+  to October 2028, with $120M in additional funding proposed.
 reform_status_note: >-
   OFM restructuring program governance via executive action; staggered rollout
   plan underway; no specific legislation passed.
 next_milestone: 'Phase 1A go-live (staggered rollout, first agencies)'
-next_milestone_date: '2027-12-31'
+next_milestone_date: '2027-10-01'
 ---
 
-**A Washington State Auditor performance audit published August 2024 found that the One Washington ERP project — Washington's largest IT modernization effort, replacing decades-old core financial systems at a projected cost of $465 million — lacked a documented contingency plan as of July 2024, with schedule delays compressing time for testing and training ahead of the planned July 1, 2025 go-live.**
+**A Washington State Auditor performance audit published August 2024 found that the One Washington ERP project — Washington's largest IT modernization effort, replacing decades-old core financial systems at a projected Phase 1A cost of about $465 million — lacked a documented contingency plan as of July 2024, with schedule delays compressing time for testing and training ahead of the planned July 1, 2025 go-live.**
 
 ## What happened
 
 Washington State's core financial management system, known as AFRS (Agency Financial Reporting System), was built on 1960s-era technology. Governor Inslee requested funding for replacement in 2013. The state created the One Washington program within the Office of Financial Management to oversee the replacement of AFRS and related administrative services. Washington selected Workday — a cloud-based enterprise resource planning (ERP) system — as the platform.
 
-The total projected cost for the full program (covering financial management, procurement, HR, payroll, and other functions) is $465 million. The SAO audit focused specifically on the financial management module, which was scheduled to go live July 1, 2025. The audit covered the period November 2023 through July 2024 — approximately 11 to 20 months before the planned launch.
+The SAO put the cost of Phase 1A, the core-financials implementation it audited, at about $465 million; the full program is now estimated at $776 million ([GovTech](https://www.govtech.com/gov-experience/two-washington-state-it-modernization-efforts-get-new-life)). The SAO audit focused specifically on the financial management module, which was scheduled to go live July 1, 2025. The audit covered the period November 2023 through July 2024 — approximately 11 to 20 months before the planned launch.
 
 The SAO published the performance audit in August 2024 with the title "One Washington: Opportunities to Strengthen Plans for Producing Reliable Financial Statements." Key findings:
 
@@ -143,7 +143,7 @@ The SAO presentation to JLARC (September 2024) stated: "Success of the project t
 
 ## Status
 
-The July 2025 go-live proceeded. This case documents the pre-launch SAO risk findings. The post-launch outcome — whether Workday produced reliable financial statements for fiscal year 2025, whether contingency plans were invoked, and whether the ACFR was issued on time — is open for follow-up and is not covered by this audit. No loss or failure has been confirmed; the audit identified risk exposure, not realized harm.
+Updated October 20, 2026. The July 2025 go-live did not happen. In late 2024 OFM postponed the launch after finding that more than a third of 113 affected agencies had not made the system changes they needed. In December 2025 OFM restructured the program: Phase 1A will now launch in a staggered window from October 2027 to October 2028, the full program is estimated at $776 million, and Governor Ferguson proposed $120 million more in his supplemental budget. WaTech, the state technology agency, lists One Washington among projects at high risk of missing scope, schedule, or budget ([GovTech](https://www.govtech.com/gov-experience/two-washington-state-it-modernization-efforts-get-new-life)). OFM's director said the project missed its July date "because we weren't ready" ([GovTech](https://www.govtech.com/gov-experience/washington-state-it-project-reaches-beyond-tech-to-structure)). An earlier version of this record said the July 2025 go-live proceeded and described $465 million as the full program cost. Both were wrong; see the [corrections log](/corrections).
 
 ## Why it's in the registry
 

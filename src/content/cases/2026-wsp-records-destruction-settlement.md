@@ -6,8 +6,8 @@ slug: wsp-records-destruction-settlement
 date_surfaced: 2026-05-21
 date_conduct_start: 2021-10-18
 date_conduct_end: 2025-02-17
-last_updated: 2026-05-23
-last_verified: 2026-05-23
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -165,6 +165,8 @@ featured_pin: false
 
 **The Washington State Patrol agreed in May 2026 to pay $340,000 to settle a Public Records Act lawsuit alleging the agency destroyed or withheld chat messages, texts, phone records, emails, and litigation-hold notices related to the October 2021 termination of 132 employees (70 troopers, 8 sergeants, and 1 captain) who refused the COVID-19 vaccine mandate. The plaintiffs, identifying themselves as the "WSP Transparency Task Force," alleged WSP maintained an unconstitutional auto-deletion policy and used the "transitory communications" designation to encourage routine deletion of chat messages regardless of litigation-hold obligations. The complaint cited an email from Chief John Batiste instructing employees that text and chat messaging on state devices must be restricted to transitory communications and deleted immediately. The settlement contains no admission of liability and bars the plaintiffs from making further PRA requests concerning the vaccine mandate. A related complaint is under intake review at the Criminal Justice Training Commission. This case is the only one of three recent WSP PRA matters (totaling approximately $548,000 in public funds over 18 months) that alleges actual records destruction; the other two involve withholding or delayed production rather than destruction.**
 
+
+**Update, October 20, 2026:** No public outcome of the Criminal Justice Training Commission complaint intake has been reported, and the registry has not found a WSP announcement revising the transitory-communications guidance.
 ## What happened
 
 ### The underlying terminations
@@ -195,7 +197,7 @@ The settlement contains no admission of liability. WSP spokesperson Chris Loftis
 
 The [Washington State Patrol Records Retention Schedule, Version 1.0 (February 2025)](https://www.sos.wa.gov/sites/default/files/2025-06/washington-state-patrol-records-retention-schedule.pdf), published by the Washington Office of the Secretary of State (Washington State Archives), governs destruction of WSP public records. The schedule states explicitly: "Public records must not be destroyed if they are subject to ongoing or reasonably anticipated litigation. Such public records must be managed in accordance with the agency's policies and procedures for legal holds. Public records must not be destroyed if they are subject to an existing public records request in accordance with chapter 42.56 RCW."
 
-The schedule was published in February 2025, the same month WSP's vaccine-mandate-related auto-deletion practice came under public scrutiny. Whether the schedule's litigation-hold provision was operative during the October 2021 to early-2025 window covered by the plaintiffs' records requests, or whether it represents a post-conduct policy update, has not been publicly addressed by WSP. The Washington State Archives publishes parallel guidance for all law enforcement agencies in the [Law Enforcement Agencies Records Retention Schedule](https://www.sos.wa.gov/sites/default/files/2025-06/law-enforcement-records-retention-schedule.pdf).
+The schedule is dated February 2025. Whether the schedule's litigation-hold provision was operative during the October 2021 to early-2025 window covered by the plaintiffs' records requests, or whether it represents a post-conduct policy update, has not been publicly addressed by WSP. The Washington State Archives publishes parallel guidance for all law enforcement agencies in the [Law Enforcement Agencies Records Retention Schedule](https://www.sos.wa.gov/sites/default/files/2025-06/law-enforcement-records-retention-schedule.pdf).
 
 ### Related oversight tracks
 

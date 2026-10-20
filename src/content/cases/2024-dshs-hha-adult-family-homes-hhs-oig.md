@@ -1,14 +1,14 @@
 ---
 id: WA-2024-DSHS-HHA-OIG
 title: >-
-  HHS OIG — Washington adult family home oversight; 17 of 20 homes failed health
-  and safety standards; COVID inspection suspension unremediated up to 3 years
+  HHS OIG — Washington adult family home oversight; 17 of 20 sampled homes failed
+  health and safety requirements; some went up to 3 years uninspected during COVID
 slug: dshs-hha-adult-family-homes-hhs-oig
 date_surfaced: 2024-11-13T00:00:00.000Z
 date_conduct_start: 2023-01-01T00:00:00.000Z
 date_conduct_end: 2024-12-31T00:00:00.000Z
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Washington DSHS Home and Community Services
     role_type: agency
@@ -28,7 +28,7 @@ dollars_basis: null
 dollars_confirmed_loss: null
 legal_status: audit_finding
 outcome_summary: >-
-  HHS OIG published report OEI-09-23-00370 (November 2024) finding that 17 of 20
+  HHS OIG published report A-09-23-02002 (November 2024) finding that 17 of 20
   Washington adult family homes inspected did not comply with at least one
   health and safety requirement, and 19 of 20 did not comply with at least one
   administrative requirement, for a total of 214 instances of noncompliance. The
@@ -51,7 +51,7 @@ sources:
     title: >-
       Washington State's Oversight Could Better Ensure That Adult Family Homes
       Comply With Health and Safety and Administrative Requirements
-      (OEI-09-23-00370)
+      (A-09-23-02002)
     publisher: HHS Office of Inspector General
     date: 2024-11-13T00:00:00.000Z
     url: >-
@@ -146,13 +146,13 @@ tags:
   - long_term_care
 ---
 
-**A November 2024 HHS Office of Inspector General audit (OEI-09-23-00370) of Washington's adult family home oversight program found 17 of 20 homes inspected did not meet at least one health and safety standard, and 19 of 20 failed at least one administrative requirement — 214 total compliance violations. The OIG attributed compliance gaps in part to COVID-era inspection suspensions that were never fully remediated, leaving some homes uninspected for up to three years.**
+**A November 2024 HHS Office of Inspector General audit (A-09-23-02002) of Washington's adult family home oversight program found 17 of 20 homes inspected did not meet at least one health and safety standard, and 19 of 20 failed at least one administrative requirement — 214 total compliance violations. The OIG attributed compliance gaps in part to COVID-era inspection suspensions that were never fully remediated, leaving some homes uninspected for up to three years.**
 
 ## What happened
 
 Adult family homes (AFHs) are small licensed long-term care settings — typically serving 2 to 6 residents in private residences — that provide personal care and supportive services to elderly individuals and adults with physical or developmental disabilities. In Washington State, AFH licensing and inspection oversight is administered by DSHS Home and Community Services (HCS, which the task brief references as HHA). Washington's AFH program operates under federal Medicaid Home and Community-Based Services (HCBS) waiver rules, making it subject to both state licensing requirements and federal Medicaid compliance obligations.
 
-The HHS Office of Inspector General conducted an audit of Washington's AFH oversight program and published findings in November 2024 (report OEI-09-23-00370). The OIG examined 20 adult family homes and reviewed compliance with health and safety standards and administrative requirements applicable under federal waiver rules and state law.
+The HHS Office of Inspector General conducted an audit of Washington's AFH oversight program and published findings in November 2024 (report A-09-23-02002). The OIG examined 20 adult family homes and reviewed compliance with health and safety standards and administrative requirements applicable under federal waiver rules and state law.
 
 **Key findings:**
 
@@ -168,7 +168,7 @@ The OIG attributed the compliance gaps significantly to the pandemic-era inspect
 
 ## What the primary source says
 
-The OIG report (OEI-09-23-00370, November 2024): "17 of the 20 family homes did not comply with one or more health and safety requirements. 19 of the 20 family homes did not comply with one or more administrative requirements." The report noted: "The requirement to inspect family homes was suspended during the COVID-19 pandemic, and some homes had not been inspected for up to 3 years."
+The OIG report (A-09-23-02002, November 2024): "17 of the 20 family homes did not comply with one or more health and safety requirements. 19 of the 20 family homes did not comply with one or more administrative requirements." The report noted: "The requirement to inspect family homes was suspended during the COVID-19 pandemic, and some homes had not been inspected for up to 3 years."
 
 ## Status
 

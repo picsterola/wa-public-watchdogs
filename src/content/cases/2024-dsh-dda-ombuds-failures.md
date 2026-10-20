@@ -2,13 +2,13 @@
 id: WA-2024-DSHS-DDA-OMBUDS
 title: >-
   DD Ombuds SFY2024-2025 Annual Reports — END HARM abuse line non-functional; 75
-  people stuck in hospitals 60+ days; $9M residential abuse settlement
+  people stuck in hospitals 60+ days; reported $9M abuse-and-neglect settlement
 slug: dshs-dda-ombuds-failures
 date_surfaced: 2024-11-01T00:00:00.000Z
 date_conduct_start: 2023-07-01T00:00:00.000Z
 date_conduct_end: 2025-06-30T00:00:00.000Z
-last_updated: 2026-05-22T00:00:00.000Z
-last_verified: 2026-05-22T00:00:00.000Z
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Washington DSHS Developmental Disabilities Administration
     role_type: agency
@@ -30,9 +30,9 @@ reforms_implicated:
   - dda_oversight
 dollars_at_issue: 9000000
 dollars_basis: >-
-  DD Ombuds SFY2025 Annual Report documented a $9M lawsuit settlement paid by a
+  DD Ombuds SFY2025 Annual Report described a lawsuit settlement, reportedly $9M, by DSHS and a
   DDCS-certified residential provider after a developmentally disabled person
-  was abused and neglected in their care. During the period of abuse, numerous
+  was allegedly abused and neglected in their care. During that period, numerous
   complaints were filed and investigated, but Residential Care Services issued
   only one citation — unrelated to the issues raised in the lawsuit. The dollar
   figure represents a confirmed settlement, not a confirmed loss to the state;
@@ -47,8 +47,9 @@ outcome_summary: >-
   resource across both reporting periods; DDA reported at least 75
   developmentally disabled adults stuck in community hospitals for more than 60
   days in SFY2024 due to inadequate community residential placement; a certified
-  residential provider settled a lawsuit for $9M following documented abuse and
-  neglect with inadequate RCS enforcement response. No state criminal
+  residential provider and DSHS settled a lawsuit alleging abuse and neglect,
+  reportedly for $9M, after Residential Care Services (RCS) issued only one
+  unrelated citation. No state criminal
   investigation or legislative action has been documented as of this record's
   last update.
 remediation_status: unknown
@@ -103,7 +104,7 @@ reform_argument: >
 
   complaints and investigations and receive only one unrelated citation before
 
-  a $9M settlement is reached for abuse and neglect.
+  a settlement reportedly worth $9M is reached over alleged abuse and neglect.
 
 
   The END HARM line failure is not a funding gap or a capacity shortage — it
@@ -173,7 +174,7 @@ tags:
   - behavioral_health
 ---
 
-**Two consecutive DD Ombuds annual reports document structural failures in DSHS Developmental Disabilities Administration oversight: the END HARM abuse-reporting line non-functional as a 24/7 resource, at least 75 developmentally disabled adults stuck in community hospitals for more than 60 days without medical need, and a $9M residential abuse settlement where Residential Care Services issued only one citation despite numerous complaints during the abuse period.**
+**Two consecutive DD Ombuds annual reports document structural failures in DSHS Developmental Disabilities Administration oversight: the END HARM abuse-reporting line non-functional as a 24/7 resource, at least 75 developmentally disabled adults stuck in community hospitals for more than 60 days without medical need, and a reported $9M abuse-and-neglect settlement where Residential Care Services issued only one citation despite numerous complaints during the abuse period.**
 
 ## What happened
 
@@ -189,9 +190,9 @@ The SFY2024 annual report (published October 31, 2024) documented that DDA repor
 
 Hospitals lack the capacity and clinical design to provide habilitative services for people with developmental disabilities. Hospital boarding of individuals without a medical need is both a service failure and a rights deprivation — individuals in this situation may be physically restrained and are denied access to outdoor space and the community-based services they are entitled to under Medicaid HCBS rules.
 
-### $9M residential abuse settlement and RCS enforcement failure
+### Reported $9M abuse-and-neglect settlement and RCS enforcement failure
 
-The SFY2025 report documented a $9M settlement paid by a DDCS-certified residential provider following a lawsuit alleging abuse and neglect of a person in its care. During the period in which the abuse occurred, the DD Ombuds reports that Residential Care Services (RCS) received and investigated numerous complaints about the provider — but issued only one citation, unrelated to the issues raised in the lawsuit. The settlement amount reflects the severity of the abuse; the RCS enforcement record reflects the gap between complaint volume and enforcement action.
+The SFY2025 report says DSHS and a DDCS-certified residential provider settled, reportedly for $9 million, a lawsuit alleging abuse and neglect of a person in its care. During the period of the alleged abuse, the DD Ombuds reports that Residential Care Services (RCS) received and investigated numerous complaints about the provider — but issued only one citation, unrelated to the issues raised in the lawsuit. The settlement amount reflects the severity of the abuse; the RCS enforcement record reflects the gap between complaint volume and enforcement action.
 
 ### Community Protection Program and HCBS compliance (SFY2024)
 

@@ -7,8 +7,8 @@ slug: dcyf-oakley-carlson-fatality-review
 date_surfaced: 2026-02-18T00:00:00.000Z
 date_conduct_start: 2016-01-01T00:00:00.000Z
 date_conduct_end: 2022-02-01T00:00:00.000Z
-last_updated: '2026-05-23'
-last_verified: 2026-07-21T00:00:00.000Z
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: 'Washington State Department of Children, Youth, and Families'
     role_type: agency

@@ -1,14 +1,14 @@
 ---
 id: WA-2024-OSPI-IDEA
 title: >-
-  N.D. v. Reykdal — federal court approves settlement on OSPI's IDEA age-out
-  violations; compensatory education for class
+  N.D. v. Reykdal — federal court gives final approval to settlement of OSPI
+  special-education age-out case; compensatory education for class
 slug: ospi-nd-reykdal-idea-settlement
 date_surfaced: 2024-11-22T00:00:00.000Z
 date_conduct_start: 2020-11-11T00:00:00.000Z
 date_conduct_end: 2024-11-22T00:00:00.000Z
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Office of Superintendent of Public Instruction
     role_type: agency
@@ -47,9 +47,11 @@ outcome_summary: >-
   birthday; (2) immediately resume services under the last implemented IEP for
   any student who aged out during the lawsuit and has not yet turned 22; (3)
   convene IEP teams to determine whether compensatory education is owed to each
-  class member. Final Approval Hearing scheduled June 17, 2025.
+  class member. After a June 17, 2025 fairness hearing, the court granted final
+  approval and entered judgment on June 23, 2025, awarding $416,915 in
+  attorney fees and $4,841.67 in costs.
 remediation_status: implemented_unverified
-remediation_note: "Federal District Court for Western District of Washington approved the settlement November 22, 2024; final approval hearing held June 17, 2025. OSPI is required by court-ordered settlement to (1) direct districts to extend IEP services to the 22nd birthday, (2) direct districts to offer immediate resumption of services for students who aged out during litigation, and (3) direct districts to reconvene IEP teams to consider compensatory education. Implementation tracking by Washington Autism Alliance & Advocacy, March 5, 2025. Verification of district-level compliance not yet documented."
+remediation_note: "Federal District Court for Western District of Washington approved the settlement November 22, 2024; final approval granted June 23, 2025. OSPI is required by court-ordered settlement to (1) direct districts to extend IEP services to the 22nd birthday, (2) direct districts to offer immediate resumption of services for students who aged out during litigation, and (3) direct districts to reconvene IEP teams to consider compensatory education. Implementation tracking by Washington Autism Alliance & Advocacy, March 5, 2025. Verification of district-level compliance not yet documented."
 reform_status: structural_change_implemented
 reform_status_note: "Court-ordered settlement is itself a structural change: OSPI must direct school districts statewide to extend age eligibility for special education services to the 22nd birthday."
 next_milestone: null
@@ -57,7 +59,15 @@ next_milestone_date: null
 
 sources:
   - tier: 1
-    type: settlement_document
+    type: court_filing
+    title: "N.D. v. Reykdal — Order granting final approval of class action settlement and attorney fees in part"
+    publisher: 'U.S. District Court, Western District of Washington (Judge Lauren King), via OSPI'
+    date: 2025-06-23T00:00:00.000Z
+    url: 'https://ospi.k12.wa.us/sites/default/files/2025-06/ndvreykdalfinalorder.pdf'
+    archive_url: null
+    quote: "The Court finds that the Settlement Agreement is fair, reasonable, and adequate. The Court GRANTS final approval of the Settlement Agreement under Federal Rule of Civil Procedure 23."
+  - tier: 1
+    type: court_filing
     title: >-
       N.D., et al., v. Reykdal — Order Granting Preliminary Approval of Class
       Action Settlement
@@ -155,7 +165,7 @@ tags:
   - reykdal
 ---
 
-**A federal court approved a class-action settlement in November 2024 finding that the Office of Superintendent of Public Instruction violated federal special-education law by directing school districts to "age out" students from special education before their 22nd birthday — one year earlier than the Individuals with Disabilities Education Act requires.**
+**After the Ninth Circuit ruled in May 2024 that students had a "high likelihood of success" on their claim that Washington's practice of ending special-education services at the end of the school year in which a student turns 21 violates the Individuals with Disabilities Education Act (IDEA) ([Ninth Circuit opinion](https://cdn.ca9.uscourts.gov/datastore/opinions/2024/05/22/23-35580.pdf)), the Office of Superintendent of Public Instruction (OSPI) settled the class action. The federal district court granted final approval on June 23, 2025 ([final order](https://ospi.k12.wa.us/sites/default/files/2025-06/ndvreykdalfinalorder.pdf)).**
 
 ## What happened
 
@@ -195,6 +205,6 @@ Two reforms apply. First, special-education compliance: OSPI's supervisory role 
 
 ## Open follow-ups
 
-- Final Approval Hearing outcome (June 17, 2025) not yet recorded in this file.
+- Final approval granted June 23, 2025; the court cut requested attorney fees to $416,915 plus $4,841.67 in costs ([final order](https://ospi.k12.wa.us/sites/default/files/2025-06/ndvreykdalfinalorder.pdf)).
 - Total class size not published; number of class members who filed for compensatory education is not publicly available.
 - Aggregate compensatory education cost to school districts across the state has not been quantified.

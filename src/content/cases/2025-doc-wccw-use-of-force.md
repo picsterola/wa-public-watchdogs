@@ -7,8 +7,8 @@ slug: doc-wccw-use-of-force
 date_surfaced: 2025-06-09T00:00:00Z
 date_conduct_start: 2024-09-01T00:00:00Z
 date_conduct_end: 2024-12-31T00:00:00Z
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Washington Corrections Center for Women
     role_type: agency
