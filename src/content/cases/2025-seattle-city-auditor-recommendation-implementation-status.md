@@ -6,8 +6,8 @@ slug: seattle-city-auditor-recommendation-implementation-status
 date_surfaced: 2025-05-19
 date_conduct_start: 2007-01-01
 date_conduct_end: 2024-12-31
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 
 # === ACTORS ===
 actors:
@@ -77,7 +77,9 @@ dollars_confirmed_loss: null
 # === STATUS ===
 legal_status: audit_finding
 outcome_summary: |
-  Annual status report published May 19, 2025 by Seattle City Auditor David G. Jones, tracking implementation of 928 audit recommendations issued since January 2007.
+  Update (October 2026): The next annual report, published May 27, 2026 by Acting City Auditor Arushi Thakorlal, tracked 94 recommendations from 20 reports during 2025. Only 10 (11%) were implemented, 84 (89%) remain pending, and none were closed without implementation. Cumulatively since 2007: 948 recommendations in 91 reports, 682 (72%) implemented, 84 (9%) pending, 182 (19%) closed. The SPD overtime audit (2016) still has 7 recommendations pending, with SPD citing a UKG TeleStaff rollout scheduled for September 2026; the 2015 SPD public-disclosure audit still has 1 pending. The 2017 special-events audit remains on the tracked list.
+
+  Original record (2025 report): Annual status report published May 19, 2025 by Seattle City Auditor David G. Jones, tracking implementation of 928 audit recommendations issued since January 2007.
 
   Top-line: 20% of all recommendations since 2007 (182 of 928) have been closed as "no further follow-up planned." Per the City Auditor's own definition, closure occurs when (1) the recommendation is no longer relevant, (2) implementation is not feasible, (3) the audited entity does not agree and will not implement, or (4) City Council considered but did not adopt.
 
@@ -118,8 +120,8 @@ reform_status_note: |
   No City Council action is taken on the closure rate as a structural matter. The City Auditor reports to Council; Council does not impose consequences for departmental non-implementation. The mechanism that would convert reports into action - departmental accountability for closing audit findings - is absent.
 
   An Inspector General regime (such as OIG-PSCSC for SPD) shifts the audit jurisdiction but does not change the underlying problem: independent auditors can recommend, but only legislative or executive action can compel.
-next_milestone: "May 2026 Status Report on Implementation (next annual cycle)"
-next_milestone_date: 2026-05-31
+next_milestone: "Status report on implementation as of December 2026 (next annual cycle)"
+next_milestone_date: 2027-05-31
 
 # === REFORM ARGUMENT ===
 reform_argument: |
@@ -137,6 +139,15 @@ reform_argument: |
 
 # === SOURCES ===
 sources:
+  - tier: 1
+    type: audit
+    title: "Status Report on the Implementation of City Auditor Recommendations as of December 2025"
+    publisher: Seattle Office of City Auditor
+    author: "Arushi Thakorlal, Acting City Auditor"
+    date: 2026-05-27
+    url: https://www.seattle.gov/documents/Departments/CityAuditor/auditreports/2026/2025RecFollow-upFinalReport.pdf
+    archive_url: null
+    quote: "As of December 31, 2025, 11% of those recommendations (10 out of 94) were implemented, 89% (84 out of 94) remain pending, and none were closed (no further follow up planned)."
   - tier: 1
     type: audit
     title: "Status Report on Implementation of Office of City Auditor Recommendations as of December 2024"
@@ -175,3 +186,14 @@ tags:
   - sdot
   - surveillance-tech
 ---
+
+## Status
+
+Updated October 20, 2026.
+
+The May 27, 2026 report shows the closure problem flagged in this record eased, and the implementation problem got worse. In the 2025 cycle the office tracked 94 recommendations from 20 audit reports. None were closed without implementation, compared with 23% the year before. But only 10 (11%) were implemented, down from 17% the prior year, and 84 (89%) carry forward as pending ([Seattle Office of City Auditor](https://www.seattle.gov/documents/Departments/CityAuditor/auditreports/2026/2025RecFollow-upFinalReport.pdf)). The office notes that recommendations from reports published during the year are typically still pending.
+
+The decade-old SPD items are still open. The April 2016 overtime-controls audit has 7 of 32 recommendations pending; SPD says it is moving overtime tracking from Workday to UKG TeleStaff, "scheduled to be completed by September 2026," because Workday "is unable to provide the reports necessary to reconcile all overtime hours." The March 2015 public-disclosure audit has 1 of 18 pending, which SPD says it will keep open while it adds staff in 2026. The December 2017 special-events staffing audit is still on the list of reports under follow-up ([Seattle Office of City Auditor](https://www.seattle.gov/documents/Departments/CityAuditor/auditreports/2026/2025RecFollow-upFinalReport.pdf)).
+
+Whether the September 2026 TeleStaff rollout happened has not been verified for this update.
+

@@ -8,8 +8,8 @@ slug: kc-ombuds-dchs-forensic-clark-nuber
 date_surfaced: 2026-05-19T00:00:00Z
 date_conduct_start: 2022-01-01T00:00:00Z
 date_conduct_end: 2025-12-31T00:00:00Z
-last_updated: '2026-05-24'
-last_verified: '2026-05-24'
+last_updated: 2026-10-20T00:00:00Z
+last_verified: 2026-10-20T00:00:00Z
 actors:
   - name: King County Department of Community and Human Services
     role_type: agency
@@ -58,8 +58,55 @@ outcome_summary: >-
   release, DCHS had not identified which law enforcement agency (local, state,
   or federal) would receive the criminal referrals. Acting DCHS Director Susan
   McLaughlin sent a letter to Ombuds Director Bell asking that 'speculation'
-  about fraud be avoided until law enforcement completes review.
+  about fraud be avoided until law enforcement completes review. Update (Oct
+  2026): Clark Nuber's figure for funds potentially improperly paid is
+  $446,703; DCHS puts it at $320,000. DCHS's Sept 25, 2026 final review
+  reports $10,564 in potential fraud at two organizations, not paid, with both
+  cases referred to law enforcement; outcomes not reported. The Council
+  created an Inspector General Division (Ordinance 20101, July 7, 2026) and
+  appointed Stuart Robinson as inspector general on Oct 6, 2026.
 sources:
+  - tier: 1
+    type: ombudsman_report
+    title: Programmatic Contract Evaluation (Clark Nuber P.S. for the King County Office of the Ombuds), with DCHS response and Ombuds follow-up
+    publisher: King County Office of the Ombuds
+    date: 2026-05-19
+    url: >-
+      https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/office-of-the-ombuds/reports/dchs-programmatic-contract-evaluation-omb20250697.pdf?rev=fe8aae2694564a26b80b28ee23a160e4&hash=47C130F3291B4CA772BF9A75A411B337
+    quote: >-
+      DCHS should take immediate action to resolve the compliance gaps and
+      circumstances contributing to the $446,703 in funds potentially
+      improperly paid.
+  - tier: 1
+    type: agency_statement
+    title: "File #2026-0101: Ordinance creating an inspector general division (Ordinance 20101)"
+    publisher: Metropolitan King County Council
+    date: 2026-07-07
+    url: >-
+      https://mkcclegisearch.kingcounty.gov/LegislationDetail.aspx?ID=7991470&GUID=4F5FD59F-DB76-4B00-A0AE-9B133F28ED01&Options=Advanced&Search=
+  - tier: 1
+    type: agency_statement
+    title: Council names veteran investigator, former FBI Special Agent, as King County's first Inspector General
+    publisher: Metropolitan King County Council
+    date: 2026-10-06
+    url: https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/10-06-council-inspector-general-appointed
+  - tier: 1
+    type: agency_statement
+    title: Final review of audited contracts shows no loss of funds to fraud
+    publisher: King County Employee News (crossposted from DCHS)
+    author: Lilia Cabello Drain
+    date: 2026-09-25
+    url: https://kcemployees.com/2026/09/25/final-review-of-audited-contracts-shows-no-loss-of-funds-to-fraud/
+    quote: >-
+      A total of $10,564 in potential fraud from two of the 19 organizations.
+      DCHS disallowed these costs and did not pay them.
+  - tier: 2
+    type: news
+    title: King County DCHS Seeks to Put Fraud Concerns to Bed with New Protocol
+    publisher: The Urbanist
+    author: Amy Sundberg
+    date: 2026-06-01
+    url: https://www.theurbanist.org/king-county-dchs-seeks-to-put-fraud-concerns-to-bed-with-new-protocol/
   - tier: 1
     type: ombudsman_report
     title: >-
@@ -166,15 +213,16 @@ tags:
   - state_auditor_referral
   - youth_programs
 remediation_status: in_progress
-reform_status: bill_in_committee
+reform_status: structural_change_implemented
 remediation_note: >-
   Clark Nuber report released May 19, 2026; law enforcement referral for
   fraud/forgery pending; SAO referral made; expanded SAO review of full DCHS
   contracting in 2026-27 workplan.
 reform_status_note: >-
-  Ordinance 2026-0101 (KC Inspector General) directly responsive to this
-  finding; introduced April 28, 2026; not yet voted.
-next_milestone: Law enforcement agency identification and referral acceptance
+  Ordinance 2026-0101 (KC Inspector General), directly responsive to this
+  finding, passed July 7, 2026 (Ordinance 20101). First inspector general,
+  Stuart Robinson, appointed Oct 6, 2026.
+next_milestone: Law-enforcement outcome on the two referred cases
 ---
 
 **The King County Office of the Ombuds publicly released a forensic review on May 19, 2026 documenting roughly $690,617 in questionable costs across 19 DCHS-funded youth program contracts representing about $12 million in grant spending. The Ombuds will refer the findings to the Washington State Auditor's Office and specific observations to law enforcement for review of possible fraud, forgery, and attempted theft.**
@@ -215,7 +263,15 @@ Councilmember Reagan Dunn's [October 31, 2025 letter](https://cdn.kingcounty.gov
 
 ## Status
 
-Ombuds report publicly released and referred to the Washington State Auditor's Office. Specific findings will be referred to law enforcement. DCHS has not publicly identified which law enforcement agency (local, state, or federal) will receive the criminal referrals. The Council-expanded full DCHS contracting audit ordered in January 2026 is in the Auditor's 2026-2027 work plan but has not yet been completed.
+Updated October 20, 2026.
+
+**The forensic review.** The Ombuds released Clark Nuber's review on May 19, 2026. It found $690,617 in questioned costs across 224 transactions at 16 of the 19 community partners, four instances of potentially altered documents, and six potential conflicts of interest, including a consultant who, according to DCHS, was a relative of the DCHS program manager overseeing the contracts. Clark Nuber put the amount potentially paid improperly or not verified as recovered at $446,703. DCHS asked the Ombuds to change that to $320,000, calling it a "preliminary maximum exposure amount," and the Ombuds declined ([Ombuds report and responses](https://cdn.kingcounty.gov/-/media/king-county/independent/governance-and-leadership/government-oversight/office-of-the-ombuds/reports/dchs-programmatic-contract-evaluation-omb20250697.pdf?rev=fe8aae2694564a26b80b28ee23a160e4&hash=47C130F3291B4CA772BF9A75A411B337)). The review did not assess program outcomes, and it says total exposure "could be materially greater."
+
+**DCHS's final review.** On September 25, 2026, DCHS said its final review found "$10,564 in potential fraud from two of the 19 organizations," that it disallowed those costs and did not pay them, and that the Ombuds referred both cases to law enforcement ([DCHS via King County Employee News](https://kcemployees.com/2026/09/25/final-review-of-audited-contracts-shows-no-loss-of-funds-to-fraud/)). That is the department's own conclusion about its own contracts. The registry has not found an independent review confirming it, and law-enforcement outcomes have not been reported.
+
+**The structural response.** The County Council passed Ordinance 2026-0101 on July 7, 2026 (enacted as Ordinance 20101). It creates an Inspector General Division in the Office of Public Complaints with subpoena power, a fraud hotline, and authority to pursue recovery of misspent funds ([King County Council](https://mkcclegisearch.kingcounty.gov/LegislationDetail.aspx?ID=7991470&GUID=4F5FD59F-DB76-4B00-A0AE-9B133F28ED01&Options=Advanced&Search=)). On October 6, the Council appointed Stuart Robinson, a former FBI special agent, as the county's first inspector general for a five-year term ([King County Council](https://kingcounty.gov/en/dept/council/governance-leadership/county-council/newsroom/2026/10-06-council-inspector-general-appointed)). The office is still being staffed.
+
+The Council-expanded full DCHS contracting audit ordered in January 2026 is in the King County Auditor's 2026-2027 work plan; the registry has not confirmed its completion.
 
 ## Why it's in the registry
 
