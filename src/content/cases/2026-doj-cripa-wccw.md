@@ -7,8 +7,8 @@ slug: doj-cripa-wccw
 date_surfaced: 2026-05-19T00:00:00Z
 date_conduct_start: null
 date_conduct_end: null
-last_updated: 2026-05-24
-last_verified: 2026-05-24
+last_updated: 2026-10-20
+last_verified: 2026-10-20
 actors:
   - name: Washington State Department of Corrections
     role_type: agency
@@ -91,6 +91,12 @@ sources:
       https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
     archive_url: http://web.archive.org/web/20260509183315/https://www.investigatewest.org/bill-to-establish-statewide-oversight-of-jails-in-washington-dies-in-legislature/
     quote: null
+  - tier: 2
+    type: news
+    title: Washington transgender prisoner policy lands before state Supreme Court
+    publisher: OPB
+    date: 2026-06-24
+    url: https://www.opb.org/article/2026/06/24/transgender-prisoner-policy-washington-state/
 reform_argument: |
   The DOJ CRIPA notice of May 19, 2026 is the formal federal-level
   escalation in a sequence that includes two prior OCO investigative
@@ -163,7 +169,11 @@ Interim U.S. Attorney Neil Floyd for the Western District of Washington stated t
 
 ## Status
 
-Open investigation. No findings issued. DOJ has invited cooperation from the State and indicated it will seek to resolve any findings without contested litigation if violations are identified. The State of Washington has received formal notice and has been asked to cooperate.
+Updated October 20, 2026.
+
+Open investigation. No findings have been issued as of this update, five months after the May 19, 2026 notice letter. DOJ has invited cooperation from the State and indicated it will seek to resolve any findings without contested litigation if violations are identified. The Department of Corrections said it plans to cooperate.
+
+Two related court cases are pending. The Washington Supreme Court heard argument June 23, 2026 in Amber Kim's challenge to her transfer from WCCW to a men's prison; the state has argued that a ruling for Kim would require placing all transgender people in housing that matches their gender identity ([OPB](https://www.opb.org/article/2026/06/24/transgender-prisoner-policy-washington-state/)). A federal suit by an incarcerated woman and the Foundation Against Intolerance & Racism (W.D. Wash. No. 2:26-cv-01419, filed April 27, 2026) challenges DOC's housing policy under the Eighth and Fourteenth Amendments. Neither case had been decided as of this update.
 
 ## Why it's in the registry
 

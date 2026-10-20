@@ -134,8 +134,9 @@ reform_argument: |
   adjudicative public hearing, and the Board imposed the $5,000 statutory
   maximum on every count it sustained. Even so, the maximum available civil
   penalty for three violations ($15,000) was smaller than the Board's own staff
-  costs ($37,457.98). The 1994 penalty cap, not the Board's discretion, set the
-  ceiling. The case also shows the LEB/PDC jurisdiction seam: the Board said it
+  costs ($37,457.98). The per-violation cap, unchanged since 1994, set the
+  ceiling. The costs were recoverable in full only because SB 5143 (2025)
+  removed the old rule capping penalties and costs combined at $5,000. The case also shows the LEB/PDC jurisdiction seam: the Board said it
   was "troubled" by the campaign-surplus conduct but had no authority over it.
 
 # === GOVERNANCE METADATA ===
@@ -189,4 +190,4 @@ It is an adjudicated ethics violation by a sitting legislator, decided after a r
 
 ## Reform implication
 
-Three maximum penalties still came to less than half the state's cost of prosecuting the case, which says more about the 1994 penalty cap than about this Board. The jurisdiction gap between the LEB and the PDC also shows up directly in the order. See [reform: ethics_enforcement_teeth] and the [LEB enforcement meta-case](/cases/leb-enforcement-pattern-meta).
+Three maximum penalties still came to less than half the state's cost of prosecuting the case, which says more about the per-violation cap, unchanged since 1994, than about this Board. Before SB 5143 took effect in July 2025, the statute said penalties had to be reduced by costs assessed and that the two combined could not exceed $5,000 ([Final Bill Report, ESSB 5143](https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/5143-S.E%20SBR%20FBR%2025.pdf)). The jurisdiction gap between the LEB and the PDC also shows up directly in the order. See [reform: ethics_enforcement_teeth] and the [LEB enforcement meta-case](/cases/leb-enforcement-pattern-meta).

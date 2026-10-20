@@ -2,8 +2,8 @@
 id: WA-2026-META-LEB
 title: >-
   Washington State Legislative Ethics Board — Enforcement-pattern assessment
-  (2015–2026): ~14% sanction rate, $5,000 maximum penalty unchanged since
-  1994, ~2 public hearings in 32 years
+  (2015–2026): ~14% sanction rate, $5,000 per-violation cap unchanged since
+  1994, two public hearings in a decade
 slug: leb-enforcement-pattern-meta
 date_surfaced: 2026-05-23T00:00:00Z
 date_conduct_start: 2015-01-01T00:00:00Z
@@ -46,9 +46,10 @@ outcome_summary: >-
   adjusted for inflation since the Ethics in Public Service Act was enacted
   in 1994 — losing roughly half its real value. No prosecution referral
   under RCW 42.52.470(2) is documented in the public record for the period
-  studied. Adjudicative public hearings have occurred approximately twice in
-  32 years (Stambaugh 2017; Simmons June 2026), with prior hearings going
-  back to roughly 1994. The Simmons hearing produced $15,000 in penalties and
+  studied. Adjudicative public hearings are rare: the June 2026 Simmons
+  hearing was the first in about a decade, the previous one being the
+  Stambaugh matter. The registry has not compiled a complete count back to
+  1994. The Simmons hearing produced $15,000 in penalties and
   $37,457.98 in costs; Simmons is seeking court review. The board has one staff attorney (Board Counsel
   Jennifer Strus since 2018) who handles 500+ informal ethics inquiries,
   ~15 trainings, and ~12 formal complaint resolutions per year. Four of
@@ -60,22 +61,22 @@ outcome_summary: >-
   this case logs without resolving.
 remediation_status: unknown
 remediation_note: >-
-  No public legislative or executive process is currently underway to
-  modernize LEB enforcement authority. The board's own 2024 annual report
-  references work toward updating portions of the Ethics Act unchanged since
-  1994 (introduced as SB 5143 in the 2025 session); the bill's status and
-  scope are not yet independently verified by the registry. The structural
-  enforcement question (penalty cap, staffing, public hearing frequency,
-  prosecution referral practice) is not currently subject to a publicly
-  announced reform process.
-reform_status: bill_introduced
+  SB 5143, requested by the LEB, was enacted in 2025 (Chapter 377, Laws of
+  2025; effective July 27, 2025). It removed the combined $5,000 cap on
+  penalties plus costs, so the Board can now recover costs without limit,
+  and raised the gift threshold from $50 to $100. The $5,000 per-violation
+  penalty cap was kept. No public process is underway on the remaining
+  structural questions (per-violation cap, staffing, public hearing
+  frequency, prosecution referral practice).
+reform_status: bill_passed
 reform_status_note: >-
-  SB 5143 (2025 session) was referenced by the LEB as targeting portions of
-  RCW 42.52 unchanged since 1994. The bill's introduction is confirmed; its
-  scope, fate, and whether it touches the $5,000 cap, the prosecution
-  referral framework, or the staffing model has not been independently
-  verified by the registry as of last verification. Logged as
-  bill_introduced pending follow-up.
+  ESSB 5143 (Chapter 377, Laws of 2025), signed May 20, 2025. Per the Final
+  Bill Report: "The $5,000 cap for penalties and costs is removed. Penalties
+  may be ordered not to exceed $5,000. No monetary cap applies to costs that
+  may be ordered." Not addressed: the per-violation cap, prosecution
+  referral, or staffing. The Simmons (25-05) order, with $37,457.98 in costs
+  on top of $15,000 in penalties, is the first large case under the new
+  cost rule.
 next_milestone: Thurston County Superior Court review of the Simmons (25-05) final order
 next_milestone_date: null
 sources:
@@ -266,13 +267,25 @@ sources:
       it is hereby ordered that Respondent Rep. Simmons is assessed a civil
       penalty of $5,000 per violation, for a total monetary civil penalty of
       $15,000 based on her violations of RCW 42.52.020 and RCW 42.52.070.
+  - tier: 1
+    type: agency_statement
+    title: Final Bill Report, ESSB 5143 (Chapter 377, Laws of 2025)
+    publisher: Washington State Legislature
+    date: 2025-05-20T00:00:00Z
+    url: >-
+      https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/5143-S.E%20SBR%20FBR%2025.pdf
+    quote: >-
+      The $5,000 cap for penalties and costs is removed. Penalties may be
+      ordered not to exceed $5,000. No monetary cap applies to costs that may
+      be ordered.
 reform_argument: >-
   The accountability question this meta-case poses is whether the
   Legislative Ethics Board, as currently constituted, can credibly deter the
   conduct it exists to police. The descriptive record allows the question to
   be asked precisely:
 
-  (1) **Penalty cap.** A $5,000 maximum penalty unchanged since 1994 has lost
+  (1) **Penalty cap.** A $5,000 per-violation maximum unchanged since 1994
+  (SB 5143 in 2025 uncapped cost recovery but left the per-violation cap) has lost
   approximately half its real value. The typical imposed fine is $250–$500
   with a portion often suspended. Whether $250 deters a sitting legislator
   from misuse of public resources is an empirical question on which the
@@ -291,8 +304,8 @@ reform_argument: >-
   jurisdiction is testable against complaint backlog and time-to-disposition
   data the board does not publish.
 
-  (3) **Public hearings.** Approximately two adjudicative public hearings
-  in 32 years (Stambaugh 2017, Simmons 2026, prior ~1994) is a fact pattern
+  (3) **Public hearings.** Two adjudicative public hearings in roughly a
+  decade (Stambaugh, then Simmons in 2026) is a fact pattern
   worth surfacing without editorializing. Adjudicative hearings are
   resource-intensive and most respondents stipulate; that explains some of
   the rarity. But the corollary is that nearly all enforcement happens
@@ -320,7 +333,7 @@ reform_argument: >-
   None of the above amounts to a finding that the LEB has acted improperly.
   None of it amounts to a finding that any individual LEB member has been
   captured. The descriptive question is narrower: a 14% fine rate, $250–$500
-  modal penalty, two public hearings in 32 years, zero documented
+  modal penalty, two public hearings in a decade, zero documented
   prosecution referrals, an inflation-eroded statutory cap, and a
   one-attorney staffing model is the enforcement record the public should
   evaluate. The registry's contribution is to surface that record in one
@@ -365,9 +378,9 @@ This meta-case is that aggregation. The 16 individual case files remain as evide
 - Cumulative fines since 2015: approximately $13,000–$15,000 through May 2026, before the $15,000 Simmons penalty
 - Statutory maximum penalty ($5,000) imposed: once before 2026 (Stambaugh, 2017), then on three counts in Simmons (25-05, August 2026)
 - Prosecution referrals under RCW 42.52.470(2): zero documented
-- Adjudicative public hearings: approximately two in 32 years (Stambaugh 2017; Simmons June 2026; prior ~1994)
+- Adjudicative public hearings: two in roughly the past decade (Stambaugh; Simmons June 2026). A full count back to 1994 has not been compiled.
 - Staff: one attorney (Board Counsel Jennifer Strus since 2018)
-- Statutory maximum penalty unchanged since the Ethics in Public Service Act was enacted: 1994
+- Statutory maximum per-violation penalty unchanged since the Ethics in Public Service Act was enacted in 1994; the combined penalty-plus-costs cap was removed in 2025 (SB 5143)
 
 **The Matt Shea case is the most consequential single test of the board's structural scope.** In December 2019, an independent House-commissioned investigation (the Rampart Group report) concluded Shea "participated in an act of domestic terrorism against the United States." A separate LEB complaint was filed. In January 2021, the board issued Opinion 19-05 finding it "lacks subject matter jurisdiction on all allegations made in the complaint." No fine, no referral, no hearing. The ruling is legally defensible — the LEB's statute (RCW 42.52) restricts its jurisdiction to conduct in the respondent's legislative role, and Shea's militia activities were not within that scope. But it also illustrates the limit case: even when an independent investigation finds conduct describable as domestic terrorism, the enforcement infrastructure that nominally polices legislator misconduct does not act, because it cannot.
 
@@ -392,17 +405,17 @@ The structural distinctions are real even adjusted for jurisdiction scale: Orego
 
 ## What the registry is and is not claiming
 
-**Is claiming:** The descriptive record above is accurate, sourced, and worth reading together. Washington has not modernized its legislative ethics enforcement framework in any material way since 1994. The fine cap is half its real value. Public hearings are vanishingly rare. Prosecution referrals do not occur. The single-attorney staffing model structurally caps enforcement throughput. The board's own annual reports orient its self-understanding toward "educational" rather than "confrontational" practice.
+**Is claiming:** The descriptive record above is accurate, sourced, and worth reading together. Apart from the 2025 change that uncapped cost recovery (SB 5143), Washington has not modernized its legislative ethics enforcement framework since 1994. The per-violation fine cap is half its real value. Public hearings are vanishingly rare. Prosecution referrals do not occur. The single-attorney staffing model structurally caps enforcement throughput. The board's own annual reports orient its self-understanding toward "educational" rather than "confrontational" practice.
 
 **Is not claiming:** That the LEB is corrupt, captured, or has acted improperly in any individual case. That its members are operating in bad faith. That the educational model is wrong. That the peer-discipline framework is uniquely deficient in Washington (it is not — most states use comparable models). That every dismissal in the docket should have produced a violation finding.
 
-The registry's narrow claim is that an enforcement body operating under 1994 parameters with one attorney, a half-strength inflation-eroded penalty cap, and an enforcement record of approximately 14% sanction rate / ~$13,000 in cumulative fines / two public hearings in three decades is a body whose structural design choice deserves a public hearing of its own. The 1994 Legislature made the choice. The 2026 Legislature has not revisited it.
+The registry's narrow claim is that an enforcement body operating under 1994 parameters with one attorney, a half-strength inflation-eroded penalty cap, and an enforcement record of approximately 14% sanction rate / ~$13,000 in cumulative fines / two public hearings in a decade is a body whose structural design choice deserves a public hearing of its own. The 1994 Legislature made the choice. The 2026 Legislature has not revisited it.
 
 ## What we are watching next
 
 1. **Simmons (25-05) court review.** The June 8–9, 2026 hearing, the first LEB adjudicative public hearing in about a decade, ended with three sustained violations, the $5,000 maximum on each, and $37,457.98 in staff costs ([LEB final order](https://leg.wa.gov/media/jdzoy2qi/ethicscom202505.pdf)). The data point cuts both ways. When forced onto the formal track, the Board used the full penalty it had. But three maximum fines still came to less than half of what the case cost the state, which is the 1994 cap at work. Simmons has sought review in Thurston County Superior Court; how a court treats the Board's findings and process is the next test. Note: an earlier version of this page mislabeled this hearing as case 25-38. See [LEB 25-05](/cases/leb-25-05-simmons-conflict-special-privileges).
 
-2. **SB 5143 (2025 session).** The LEB's 2024 annual report referenced legislation to update portions of the Ethics Act unchanged since 1994. Scope, status, and fate of the bill is a follow-up the registry will track. If the bill modernizes the penalty cap, that materially changes the structural picture.
+2. **SB 5143 (enacted 2025).** An earlier version of this page treated SB 5143's fate as unverified and described the Ethics Act as unchanged since 1994. It passed. Chapter 377, Laws of 2025, removed the old rule that penalties and costs combined could not exceed $5,000, so costs are now uncapped; it also raised the gift threshold from $50 to $100 and clarified legislative-nexus rules for official websites and social media ([Final Bill Report](https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/5143-S.E%20SBR%20FBR%2025.pdf)). It kept the $5,000 per-violation penalty cap. That is a partial update, not a modernization of enforcement: the per-violation cap, staffing, and referral practice are unchanged.
 
 3. **OGEC penalty trajectory.** Oregon's 2025–27 biennium projections are visible. Whether Washington's enforcement output diverges further from the Oregon benchmark is a comparative question the registry can track without picking sides in any individual case.
 
